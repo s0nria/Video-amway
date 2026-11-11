@@ -535,6 +535,7 @@ function save(){
   try{localStorage.setItem(LS,JSON.stringify(state))}catch(e){}
   if(dbRef){setSave("saving","Menyimpan…");clearTimeout(timer);timer=setTimeout(pushCloud,900)}
   else setSave("local","Disimpan di peranti");
+  gdSchedule();
 }
 async function pushCloud(){
   if(!dbRef)return;
@@ -563,6 +564,42 @@ async function initCloud(){
     setSave("cloud","Disimpan di akaun");
   }catch(e){setSave("local","Disimpan di peranti")}
 }
+
+/* ================= GOOGLE DRIVE (Apps Script) ================= */
+const APPS_SCRIPT="/* MOMYIZZ - Backup automatik ke Google Drive\n   1. Tukar KATA_RAHSIA di bawah kepada kata rahsia anda sendiri.\n   2. Deploy > New deployment > Web app > Execute as: Me > Who has access: Anyone.\n   3. Salin \"Web app URL\" dan tampal dalam worksheet (Backup > Google Drive). */\nconst KATA_RAHSIA = 'TUKAR_KATA_RAHSIA_INI';\nconst NAMA_FOLDER = 'Momyizz Backup';\nconst SIMPAN_MAKSIMUM = 60; // bilangan fail backup harian yang disimpan\n\nfunction folder_() {\n  const it = DriveApp.getFoldersByName(NAMA_FOLDER);\n  return it.hasNext() ? it.next() : DriveApp.createFolder(NAMA_FOLDER);\n}\nfunction balas_(obj) {\n  return ContentService.createTextOutput(JSON.stringify(obj)).setMimeType(ContentService.MimeType.JSON);\n}\nfunction senaraiFail_(folder) {\n  const out = [];\n  const it = folder.getFiles();\n  while (it.hasNext()) {\n    const f = it.next();\n    if (/^momyizz-backup-\\d{4}-\\d{2}-\\d{2}\\.json$/.test(f.getName())) out.push(f);\n  }\n  out.sort(function (a, b) { return b.getName() < a.getName() ? -1 : 1; });\n  return out;\n}\nfunction doGet() {\n  return balas_({ ok: true, info: 'Skrip backup Momyizz aktif.' });\n}\nfunction doPost(e) {\n  const lock = LockService.getScriptLock();\n  try {\n    lock.waitLock(20000);\n    const body = JSON.parse(e.postData.contents);\n    if (KATA_RAHSIA === 'TUKAR_KATA_RAHSIA_INI') return balas_({ ok: false, error: 'Tukar KATA_RAHSIA dalam skrip dahulu.' });\n    if (body.key !== KATA_RAHSIA) return balas_({ ok: false, error: 'Kata rahsia tidak sepadan.' });\n    const folder = folder_();\n    if (body.action === 'ping') return balas_({ ok: true, folder: NAMA_FOLDER });\n    if (body.action === 'save') {\n      const hari = Utilities.formatDate(new Date(), 'Asia/Kuala_Lumpur', 'yyyy-MM-dd');\n      const nama = 'momyizz-backup-' + hari + '.json';\n      const isi = JSON.stringify(body.data);\n      const ada = folder.getFilesByName(nama);\n      if (ada.hasNext()) ada.next().setContent(isi);\n      else folder.createFile(nama, isi, MimeType.PLAIN_TEXT);\n      senaraiFail_(folder).slice(SIMPAN_MAKSIMUM).forEach(function (f) { f.setTrashed(true); });\n      return balas_({ ok: true, file: nama });\n    }\n    if (body.action === 'latest') {\n      const fail = senaraiFail_(folder);\n      if (!fail.length) return balas_({ ok: false, error: 'Tiada fail backup dalam folder ' + NAMA_FOLDER + '.' });\n      return balas_({ ok: true, file: fail[0].getName(), data: JSON.parse(fail[0].getBlob().getDataAsString()) });\n    }\n    return balas_({ ok: false, error: 'Tindakan tidak dikenali.' });\n  } catch (err) {\n    return balas_({ ok: false, error: String(err) });\n  } finally {\n    lock.releaseLock();\n  }\n}\n";
+const GDK="momyizz-gdrive";
+let gd=(()=>{try{return JSON.parse(localStorage.getItem(GDK))||{}}catch(e){return {}}})();
+let gdTimer=null, gdBusy=false, gdAgain=false, gdRestoreBuf=null;
+function gdOn(){return !!(gd.url&&gd.key)}
+function gdStore(){try{localStorage.setItem(GDK,JSON.stringify(gd))}catch(e){}}
+function gdStatusText(){
+  if(!gdOn())return "Belum disambung";
+  if(gd.err)return "Ralat: "+gd.err;
+  if(gdBusy)return "Menghantar backup ke Drive…";
+  if(gd.last)return "Backup terakhir: "+new Date(gd.last).toLocaleString("ms-MY")+(gd.file?" ("+gd.file+")":"");
+  return "Disambung. Backup pertama akan dihantar selepas perubahan seterusnya.";
+}
+function gdPaint(){const el=document.getElementById("gdStatus");if(el){el.textContent=gdStatusText();el.style.color=gd.err?"var(--bad)":"inherit"}}
+async function gdCall(body){
+  const r=await fetch(gd.url,{method:"POST",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify({...body,key:gd.key}),redirect:"follow"});
+  let o=null;try{o=await r.json()}catch(e){throw new Error("Jawapan tidak sah. Semak URL Web app dan akses 'Anyone'.")}
+  if(!o.ok)throw new Error(o.error||"Gagal");
+  return o;
+}
+function gdSchedule(){if(!gdOn())return;clearTimeout(gdTimer);gdTimer=setTimeout(gdPush,8000)}
+async function gdPush(){
+  if(!gdOn())return;
+  clearTimeout(gdTimer);gdTimer=null;
+  if(gdBusy){gdAgain=true;return}
+  gdBusy=true;gdPaint();
+  const at=state.savedAt;
+  try{const o=await gdCall({action:"save",data:state});gd.last=Date.now();gd.savedAt=at;gd.file=o.file;gd.err=""}
+  catch(e){gd.err=e.message||"Tiada sambungan internet"}
+  gdBusy=false;gdStore();gdPaint();
+  if(gdAgain){gdAgain=false;gdPush()}
+}
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="hidden"&&gdTimer)gdPush()});
+window.addEventListener("online",()=>{if(gdOn()&&(state.savedAt||0)>(gd.savedAt||0))gdPush()});
 
 /* ================= NAVIGASI ================= */
 const TABS=[
@@ -894,6 +931,28 @@ function vBackup(){
     <div class="small muted full">Semua tarikh episod dan tracker harian dikira semula secara automatik.</div>
   </div>
   <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <b>Backup automatik ke Google Drive</b>
+    <div class="small" id="gdStatus" style="color:${gd.err?"var(--bad)":"inherit"}">${esc(gdStatusText())}</div>
+    ${gdOn()?`<div class="small muted">Setiap perubahan dihantar ke folder <b>Momyizz Backup</b> dalam Google Drive anda kira-kira 8 saat selepas anda berhenti mengedit. Satu fail disimpan untuk setiap hari, sehingga 60 hari terakhir.</div>
+    <div class="row"><button class="btn sm" type="button" id="gdNow">Backup sekarang</button>
+    ${c==="gdrestore"?`<button class="btn warn sm" type="button" id="gdRestoreYes">Ya, gantikan data</button><button class="btn ghost sm" type="button" data-cancel="1">Batal</button>`:`<button class="btn ghost sm" type="button" id="gdRestore">Pulihkan dari Drive</button>`}</div>
+    ${c==="gdrestore"&&gdRestoreBuf?`<div class="notice">Fail <b>${esc(gdRestoreBuf.file)}</b> akan menggantikan semua data semasa dalam telefon ini.</div>`:""}
+    <button class="back" type="button" id="gdOff" style="color:var(--muted)">Putuskan sambungan Drive</button>`
+    :`<div class="small muted">Sediakan sekali sahaja (lebih kurang 5 minit). Gunakan Chrome dengan pilihan <b>Desktop site</b> dihidupkan.</div>
+    <ol class="small" style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px">
+      <li>Tekan <b>Salin kod Apps Script</b> di bawah.</li>
+      <li>Buka <b>script.google.com</b> dan tekan <b>New project</b>. Padam semua kod sedia ada, kemudian tampal kod yang disalin.</li>
+      <li>Pada baris <b>KATA_RAHSIA</b>, tukar TUKAR_KATA_RAHSIA_INI kepada kata rahsia anda sendiri. Tekan ikon simpan.</li>
+      <li>Tekan <b>Deploy → New deployment</b>. Pilih jenis <b>Web app</b>. Execute as: <b>Me</b>. Who has access: <b>Anyone</b>. Tekan <b>Deploy</b>.</li>
+      <li>Tekan <b>Authorize access</b> dan pilih akaun Google anda. Jika keluar amaran "Google hasn't verified this app", tekan <b>Advanced → Go to … (unsafe)</b> → <b>Allow</b>. Skrip ini milik anda sendiri.</li>
+      <li>Salin <b>Web app URL</b>, tampal di bawah bersama kata rahsia tadi, kemudian tekan <b>Sambung &amp; uji</b>.</li>
+    </ol>
+    <button class="btn ghost sm" type="button" id="gdCopy" style="align-self:flex-start">Salin kod Apps Script</button>
+    <label class="lb">Web app URL<input type="url" inputmode="url" id="gdUrl" placeholder="https://script.google.com/macros/s/…/exec" value="${esc(gd.url||"")}"></label>
+    <label class="lb">Kata rahsia<input type="text" id="gdKey" autocomplete="off" value="${esc(gd.key||"")}"></label>
+    <button class="btn sm" type="button" id="gdConnect" style="align-self:flex-start">Sambung &amp; uji</button>`}
+  </div>
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
     <b>Eksport backup</b>
     <div class="row"><button class="btn sm" type="button" id="exFile">Muat turun fail .json</button><button class="btn ghost sm" type="button" id="exCopy">Salin teks backup</button></div>
     <textarea id="exText" readonly hidden aria-label="Teks backup"></textarea>
@@ -980,6 +1039,20 @@ document.addEventListener("click",async ev=>{
   if(b.id==="cycleGo"){confirmKey="cycle";render();return}
   if(b.id==="cycleYes"){state.startDate=iso(addDays(parseD(state.startDate),30));state.episodes.forEach(x=>{x.checks={};x.status=STATUS[0];x.postDate="";x.links={fb:"",threads:"",tiktok:"",ig:""};x.notes=""});state.daily={};confirmKey=null;save();go("utama");toast("Kitaran baharu bermula "+fmt(parseD(state.startDate)));return}
   if(b.id==="resetGo"){confirmKey="reset";render();return}
+  if(b.id==="gdCopy"){copyText(APPS_SCRIPT);return}
+  if(b.id==="gdConnect"){
+    const url=$("#gdUrl").value.trim(), key=$("#gdKey").value.trim();
+    if(!/^https:\/\/script\.google\.com\/macros\/s\/.+\/exec$/.test(url)){toast("URL mesti bermula dengan https://script.google.com/macros/s/ dan berakhir dengan /exec");return}
+    if(!key){toast("Masukkan kata rahsia");return}
+    b.disabled=true;b.textContent="Menguji…";
+    const prev={...gd};gd={url,key};
+    try{await gdCall({action:"ping"});gdStore();toast("Google Drive disambung");await gdPush();render()}
+    catch(err){gd=prev;b.disabled=false;b.textContent="Sambung & uji";toast("Gagal: "+(err.message||"tiada sambungan"))}
+    return}
+  if(b.id==="gdNow"){await gdPush();toast(gd.err?"Backup gagal":"Backup dihantar ke Drive");return}
+  if(b.id==="gdRestore"){b.disabled=true;try{const o=await gdCall({action:"latest"});if(!o.data||!Array.isArray(o.data.episodes))throw new Error("Fail backup tidak sah");gdRestoreBuf=o;confirmKey="gdrestore";render()}catch(err){b.disabled=false;toast("Gagal: "+(err.message||"tiada sambungan"))}return}
+  if(b.id==="gdRestoreYes"&&gdRestoreBuf){state=gdRestoreBuf.data;gdRestoreBuf=null;confirmKey=null;try{localStorage.setItem(LS,JSON.stringify(state))}catch(e){}if(dbRef)pushCloud();go("utama");toast("Data dipulihkan dari Google Drive");return}
+  if(b.id==="gdOff"){gd={};gdStore();render();toast("Sambungan Drive diputuskan");return}
   if(b.id==="resetYes"){state=seedState();confirmKey=null;save();go("utama");toast("Template asal dipulihkan");return}
 });
 let importBuf=null;
@@ -1024,4 +1097,5 @@ setSave("local","Disimpan di peranti");
 window.addEventListener("hashchange",()=>{const h=location.hash.slice(1);if(h!==view&&(TABS.some(t=>t[0]===h)||h==="backup")){view=h;openEp=null;render()}});
 render();
 initCloud();
+if(gdOn()&&(state.savedAt||0)>(gd.savedAt||0))gdSchedule();
 </script>

@@ -7,3 +7,10 @@ caption Facebook, versi Threads, CTA, hashtag), checklist produksi, tracker hari
 Data disimpan automatik (akaun Claude apabila dibuka sebagai Artifact, atau pelayar peranti), dengan eksport/import backup JSON.
 
 PEOPLE FIRST · EDUCATE WITH FACTS · CONNECT THROUGH LIFESTYLE · INTRODUCE PRODUCTS MEANINGFULLY
+
+## Backup automatik ke Google Drive
+
+`google-drive-backup.gs` ialah skrip Google Apps Script yang dijalankan dalam akaun Google anda sendiri.
+Selepas disambung (worksheet → Backup → Backup automatik ke Google Drive), setiap perubahan dihantar ke folder
+**Momyizz Backup** dalam Drive. Satu fail disimpan setiap hari, sehingga 60 hari terakhir. Data boleh dipulihkan
+dengan butang **Pulihkan dari Drive**. Langkah pemasangan dipaparkan dalam worksheet.
