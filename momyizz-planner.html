@@ -1,0 +1,1027 @@
+<title>Momyizz Content Planner</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Noto+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one calm column (max 720px), sticky brand bar on top, thumb-reach tab bar at the bottom. MUJI-inspired: paper, sage, linen, wood. */
+:root{
+  --bg:#F2EEE5; --paper:#FBF9F4; --ink:#35362F; --muted:#77756A; --line:#E0D9CB;
+  --sage:#7F9373; --sage-deep:#556A4C; --sage-soft:#E2E8D9; --linen:#EAE1D0; --wood:#A3876A; --wood-soft:#F0E6D8;
+  --p-hw:#5C7A58; --p-mp:#557F7A; --p-lf:#9E7F5C; --p-bp:#AE8578;
+  --st-0:#9A968A; --st-1:#B8954A; --st-2:#7F9373; --st-3:#45603F;
+  --ok:#4E7347; --warn:#B07C3A; --bad:#A65B4B;
+  --f-display:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans",system-ui,sans-serif;
+  --f-body:"Noto Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --r:12px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1D1D19; --paper:#272722; --ink:#ECE8DD; --muted:#A8A496; --line:#3A3931;
+  --sage:#95AA88; --sage-deep:#B4C8A6; --sage-soft:#323A2D; --linen:#353128; --wood:#C3A585; --wood-soft:#3A3229;
+  --p-hw:#8DB287; --p-mp:#86B3AD; --p-lf:#CDAA82; --p-bp:#D4A797;
+  --st-0:#8E8A7E; --st-1:#D2AE62; --st-2:#95AA88; --st-3:#A9CB9D;
+  --ok:#93BE89; --warn:#D7A35E; --bad:#D98C7B; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1D1D19; --paper:#272722; --ink:#ECE8DD; --muted:#A8A496; --line:#3A3931;
+  --sage:#95AA88; --sage-deep:#B4C8A6; --sage-soft:#323A2D; --linen:#353128; --wood:#C3A585; --wood-soft:#3A3229;
+  --p-hw:#8DB287; --p-mp:#86B3AD; --p-lf:#CDAA82; --p-bp:#D4A797;
+  --st-0:#8E8A7E; --st-1:#D2AE62; --st-2:#95AA88; --st-3:#A9CB9D;
+  --ok:#93BE89; --warn:#D7A35E; --bad:#D98C7B; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--bg);color:var(--ink)}
+body{font-family:var(--f-body);font-size:15px;line-height:1.55;-webkit-tap-highlight-color:transparent}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--paper)}
+h1,h2,h3,h4{font-family:var(--f-display);font-weight:700;text-wrap:balance;margin:0;line-height:1.3}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--sage-deep);outline-offset:2px}
+.num{font-variant-numeric:tabular-nums}
+
+/* top bar */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--paper);border-bottom:1px solid var(--line)}
+.top-in{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:12px;padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.brand{flex:1;min-width:0}
+.brand b{font-family:var(--f-display);letter-spacing:.22em;font-size:17px;display:block}
+.brand small{color:var(--muted);font-size:12px;display:block;line-height:1.3}
+.save{font-size:11px;color:var(--muted);display:flex;align-items:center;gap:6px;white-space:nowrap}
+.save i{width:8px;height:8px;border-radius:50%;background:var(--st-0);display:inline-block}
+.save[data-s="cloud"] i{background:var(--ok)} .save[data-s="local"] i{background:var(--warn)} .save[data-s="saving"] i{background:var(--st-1)}
+.iconbtn{border:1px solid var(--line);background:var(--bg);border-radius:10px;min-height:40px;padding:0 12px;font-size:13px}
+
+/* main */
+main{max-width:720px;margin:0 auto;padding-block:16px 110px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+section.view{display:flex;flex-direction:column;gap:16px}
+.eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.h-row{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.stat{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.stat b{font-family:var(--f-display);font-size:26px;line-height:1.1}
+.stat span{font-size:12px;color:var(--muted)}
+.bar{height:8px;border-radius:99px;background:var(--linen);overflow:hidden}
+.bar > i{display:block;height:100%;background:var(--sage);border-radius:99px;transition:width .3s}
+.bar.big{height:12px}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:600;letter-spacing:.04em;padding:3px 9px;border-radius:99px;border:1px solid currentColor;white-space:nowrap}
+.pill::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.st0{color:var(--st-0)} .st1{color:var(--st-1)} .st2{color:var(--st-2)} .st3{color:var(--st-3)}
+.pl{display:inline-block;font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px;color:var(--paper);white-space:nowrap}
+.pl-hw{background:var(--p-hw)} .pl-mp{background:var(--p-mp)} .pl-lf{background:var(--p-lf)} .pl-bp{background:var(--p-bp)}
+.ev{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:5px;margin-right:6px;vertical-align:1px;border:1px solid}
+.ev-bukti{color:var(--ok)} .ev-awal{color:var(--warn)} .ev-kajian{color:var(--p-mp)} .ev-belum{color:var(--bad)} .ev-info{color:var(--muted)}
+
+/* next episode */
+.next{background:var(--sage-soft);border:1px solid transparent;border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:8px}
+.next h3{font-size:19px}
+.btn{border:1px solid var(--sage-deep);background:var(--sage-deep);color:var(--paper);border-radius:10px;min-height:44px;padding:0 16px;font-weight:600;font-size:14px}
+.btn.ghost{background:transparent;color:var(--sage-deep)}
+.btn.warn{background:var(--bad);border-color:var(--bad)}
+.btn.sm{min-height:36px;padding:0 12px;font-size:13px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+
+/* lists */
+.tasks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.tasks li{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--line);font-size:14px}
+.tasks li:first-child{border-top:0}
+.chk{display:flex;align-items:center;gap:12px;min-height:46px;padding:4px 0;cursor:pointer;border-top:1px solid var(--line)}
+.chk:first-child{border-top:0}
+.chk input{appearance:none;-webkit-appearance:none;width:24px;height:24px;flex:none;border:1.5px solid var(--wood);border-radius:7px;background:var(--paper);display:grid;place-items:center;margin:0;cursor:pointer}
+.chk input:checked{background:var(--sage-deep);border-color:var(--sage-deep)}
+.chk input:checked::after{content:"";width:6px;height:11px;border:solid var(--paper);border-width:0 2.5px 2.5px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.chk input:checked + span{color:var(--muted);text-decoration:line-through}
+.chk span{flex:1}
+
+/* calendar */
+.cal{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.day{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:7px 6px;min-height:76px;display:flex;flex-direction:column;gap:3px;text-align:left;font-size:11px;line-height:1.3;min-width:0}
+.day b{font-family:var(--f-display);font-size:16px}
+.day .dw{color:var(--muted)}
+.day.main{border-width:2px}
+.day.main.hw{border-color:var(--p-hw)} .day.main.mp{border-color:var(--p-mp)} .day.main.lf{border-color:var(--p-lf)} .day.main.bp{border-color:var(--p-bp)}
+.day .tag{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.day.today{background:var(--sage-soft)}
+.day .dots{margin-top:auto;height:4px;border-radius:2px;background:var(--linen);overflow:hidden}
+.day .dots i{display:block;height:100%;background:var(--sage)}
+.legend{display:flex;gap:8px;flex-wrap:wrap}
+
+/* episode list */
+.eplist{display:flex;flex-direction:column;gap:10px}
+.ep{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;align-items:start;text-align:left;background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:14px;width:100%}
+.ep .no{font-family:var(--f-display);font-size:24px;color:var(--wood);line-height:1}
+.ep h3{font-size:16px;margin:4px 0 6px}
+.ep .meta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--muted)}
+
+/* detail */
+.back{background:none;border:0;color:var(--sage-deep);font-weight:600;padding:8px 0;min-height:40px;text-align:left}
+details.fld{background:var(--paper);border:1px solid var(--line);border-radius:var(--r)}
+details.fld > summary{list-style:none;cursor:pointer;padding:14px 16px;display:flex;align-items:center;gap:10px;font-weight:600;font-size:14px;min-height:48px}
+details.fld > summary::-webkit-details-marker{display:none}
+details.fld > summary::after{content:"+";margin-left:auto;color:var(--muted);font-size:18px;font-weight:400}
+details.fld[open] > summary::after{content:"–"}
+details.fld > summary .k{font-family:var(--f-display);color:var(--wood);font-size:12px;width:20px}
+.fbody{padding:0 16px 16px;display:flex;flex-direction:column;gap:10px}
+.txt{white-space:pre-wrap;overflow-wrap:anywhere}
+textarea,input[type=text],input[type=url],input[type=date],input[type=number],select{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-height:44px}
+textarea{min-height:110px;resize:vertical;line-height:1.5}
+label.lb{font-size:12px;color:var(--muted);font-weight:600;display:flex;flex-direction:column;gap:4px}
+.facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.facts li{font-size:14px}
+.src{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:13px}
+.src a{color:var(--sage-deep);overflow-wrap:anywhere}
+.sb{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.sb li{display:grid;grid-template-columns:62px minmax(0,1fr);gap:10px;padding:8px 0;border-top:1px dashed var(--line);font-size:14px}
+.sb li:first-child{border-top:0}
+.sb .t{font-family:var(--f-display);color:var(--wood);font-size:12px;padding-top:2px}
+.copy{align-self:flex-start}
+.thread{border-left:3px solid var(--linen);padding-left:12px;display:flex;flex-direction:column;gap:6px}
+.notice{background:var(--wood-soft);border-radius:10px;padding:10px 12px;font-size:13px}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.seg button{border:1px solid var(--line);background:var(--paper);border-radius:99px;min-height:36px;padding:0 12px;font-size:13px}
+.seg button[aria-pressed="true"]{background:var(--sage-deep);border-color:var(--sage-deep);color:var(--paper)}
+
+/* daily */
+details.dd{background:var(--paper);border:1px solid var(--line);border-radius:var(--r)}
+details.dd > summary{list-style:none;cursor:pointer;padding:12px 14px;display:grid;grid-template-columns:46px minmax(0,1fr) auto;gap:10px;align-items:center;min-height:56px}
+details.dd > summary::-webkit-details-marker{display:none}
+details.dd.today{border-color:var(--sage-deep);border-width:2px}
+.dd .dn{font-family:var(--f-display);font-size:20px;line-height:1;color:var(--wood)}
+.dd .dn small{display:block;font-size:10px;color:var(--muted);font-family:var(--f-body);margin-top:3px}
+.dd .ttl{font-size:13px;min-width:0}
+.dd .ttl b{display:block;font-size:14px}
+.ring{font-size:12px;font-weight:700;color:var(--muted)}
+.ring.done{color:var(--ok)}
+
+/* perf */
+.prow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;padding:12px 0;border-top:1px solid var(--line);font-size:13px}
+.prow:first-child{border-top:0}
+.prow .nums{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px 12px;color:var(--muted);font-size:12px}
+.hbar{display:grid;grid-template-columns:minmax(0,110px) minmax(0,1fr) 52px;gap:8px;align-items:center;font-size:12px;padding:4px 0}
+.hbar .lbl{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hbar .v{text-align:right}
+.formgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.formgrid .full{grid-column:1/-1}
+.empty{border:1.5px dashed var(--line);border-radius:var(--r);padding:20px;text-align:center;color:var(--muted);font-size:14px}
+
+/* ideas */
+.idea{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 10px;padding:12px 0;border-top:1px solid var(--line)}
+.idea:first-child{border-top:0}
+.idea p{margin:0;font-size:14px}
+.idea.used p{color:var(--muted);text-decoration:line-through}
+.idea .acts{display:flex;gap:6px}
+
+/* bottom nav */
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--paper);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+nav.tabs .in{max-width:720px;margin:0 auto;display:grid;grid-template-columns:repeat(6,minmax(0,1fr))}
+nav.tabs button{background:none;border:0;min-height:58px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:11px;color:var(--muted);padding:6px 2px}
+nav.tabs button svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+nav.tabs button[aria-current="page"]{color:var(--sage-deep);font-weight:700}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(76px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:13px;z-index:40;opacity:0;pointer-events:none;transition:opacity .2s;max-width:calc(100% - 32px)}
+.toast.on{opacity:1}
+.footer-motto{text-align:center;color:var(--muted);font-size:12px;letter-spacing:.06em;padding-top:8px}
+@media (min-width:560px){.grid4{grid-template-columns:repeat(4,minmax(0,1fr))}.cal{grid-template-columns:repeat(6,minmax(0,1fr))}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header class="top"><div class="top-in">
+  <div class="brand"><b>MOMYIZZ</b><small>Your Health &amp; Beauty Buddy is Here!</small></div>
+  <div class="save" id="saveState" data-s="init"><i></i><span>Memuatkan…</span></div>
+  <button class="iconbtn" id="openBackup" type="button">Backup</button>
+</div></header>
+
+<main id="app"></main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<nav class="tabs" aria-label="Navigasi utama"><div class="in" id="tabs"></div></nav>
+
+<script>
+"use strict";
+/* ================= KANDUNGAN ASAS (SEED) ================= */
+const PILLARS={
+  hw:{n:"Health & Wellness",s:"Kesihatan"},
+  mp:{n:"Microplastic Awareness",s:"Mikroplastik"},
+  lf:{n:"Lifestyle & Family Wellness",s:"Keluarga"},
+  bp:{n:"Beauty & Product Lifestyle",s:"Kecantikan"}
+};
+const EVL={bukti:"Fakta terbukti",awal:"Kajian awal",kajian:"Masih dikaji",belum:"Bukti belum cukup",info:"Panduan"};
+const STATUS=["BELUM MULA","DALAM PROSES","SIAP UNTUK POST","SUDAH POST"];
+const CHECK=[["idea","Idea dipilih"],["fakta","Fakta dan sumber disemak"],["skrip","Skrip siap"],["storyboard","Storyboard siap"],["prompt","Prompt visual siap"],["visual","Visual dihasilkan"],["video","Video diedit"],["caption","Caption disediakan"],["fb","Posting Facebook"],["threads","Posting Threads"],["tiktok","Posting TikTok"],["ig","Posting Instagram"]];
+const POSTKEYS=["fb","threads","tiktok","ig"];
+const PLATN={fb:"Facebook",threads:"Threads",tiktok:"TikTok",ig:"Instagram"};
+const DAILY=[["jadual","Semak jadual kandungan"],["bahan","Sediakan bahan"],["visual","Edit atau hasilkan visual"],["post","Posting"],["komen","Semak komen"],["balas","Balas pertanyaan"],["engage","Engagement dengan audiens"],["catat","Catat perkembangan"]];
+const IDEACATS=["Health & Wellness","Microplastic Awareness","Beauty & Self Care","Family Wellness","Lifestyle","Amway Product Integration","Trending Issues"];
+const FORMATS=["Video pendek","Carousel / Gambar","Teks / Thread","Live","Story"];
+const HOOKS=["Soalan","Situasi harian","Fakta mengejut","Cerita peribadi","Mitos vs Fakta","Senarai / Tips"];
+const AMWAY="https://www.amway.my/";
+const S={
+  who19:{t:"WHO — Microplastics in drinking-water",d:"22 Ogos 2019",u:"https://www.who.int/publications/i/item/9789241516198"},
+  who22:{t:"WHO — Dietary and inhalation exposure to nano- and microplastic particles and potential implications for human health",d:"30 Ogos 2022",u:"https://www.who.int/publications/i/item/9789240054608"},
+  unep:{t:"UNEP — Plastic pollution (topik & laporan)",d:"Diakses Nov 2026",u:"https://www.unep.org/plastic-pollution"},
+  fda:{t:"US FDA — Microplastics and Nanoplastics in Foods",d:"Dikemas kini 2024",u:"https://www.fda.gov/food/environmental-contaminants-food/microplastics-and-nanoplastics-foods"},
+  efsa16:{t:"EFSA CONTAM Panel — Presence of microplastics and nanoplastics in food, with particular focus on seafood. EFSA Journal 14(6):4501",d:"Jun 2016",u:"https://www.efsa.europa.eu/en/efsajournal/pub/4501"},
+  hussain:{t:"Hussain K.A. et al. — Assessing the Release of Microplastics and Nanoplastics from Plastic Containers and Reusable Food Pouches. Environmental Science & Technology 57(26)",d:"Jun 2023",u:"https://doi.org/10.1021/acs.est.3c01942"},
+  qian:{t:"Qian N. et al. — Rapid single-particle chemical imaging of nanoplastics by SRS microscopy. PNAS 121(3):e2300582121",d:"8 Jan 2024",u:"https://doi.org/10.1073/pnas.2300582121"},
+  mdg:{t:"KKM — Malaysian Dietary Guidelines 2020 & Pinggan Sihat Malaysia (Bahagian Pemakanan)",d:"2020/2021",u:"https://nutrition.moh.gov.my/"},
+  sponge:{t:"Cardinale M. et al. — Microbiome analysis and confocal microscopy of used kitchen sponges. Scientific Reports 7:5791",d:"19 Julai 2017",u:"https://doi.org/10.1038/s41598-017-06055-9"},
+  fivekeys:{t:"WHO — Five Keys to Safer Food Manual",d:"2006",u:"https://www.who.int/publications/i/item/9789241594639"},
+  efsaW:{t:"EFSA NDA Panel — Scientific Opinion on Dietary Reference Values for water. EFSA Journal 8(3):1459",d:"25 Mac 2010",u:"https://www.efsa.europa.eu/en/efsajournal/pub/1459"},
+  popkin:{t:"Popkin B.M. et al. — Water, hydration, and health. Nutrition Reviews 68(8):439–458",d:"Ogos 2010",u:"https://doi.org/10.1111/j.1753-4887.2010.00304.x"},
+  aad:{t:"American Academy of Dermatology — Skin care basics (cuci muka, pelembap, pelindung matahari)",d:"Diakses Nov 2026",u:"https://www.aad.org/public/everyday-care/skin-care-basics"},
+  vitc:{t:"NIH Office of Dietary Supplements — Vitamin C Fact Sheet for Health Professionals",d:"Dikemas kini berkala; semak tarikh pada halaman",u:"https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"},
+  cochrane:{t:"Hemilä H., Chalker E. — Vitamin C for preventing and treating the common cold. Cochrane Database of Systematic Reviews",d:"31 Jan 2013",u:"https://doi.org/10.1002/14651858.CD000980.pub4"},
+  whoPA:{t:"WHO — Guidelines on physical activity and sedentary behaviour",d:"25 Nov 2020",u:"https://www.who.int/publications/i/item/9789240015128"},
+  omega:{t:"NIH Office of Dietary Supplements — Omega-3 Fatty Acids Fact Sheet",d:"Dikemas kini berkala; semak tarikh pada halaman",u:"https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/"},
+  amway:{t:"Amway Malaysia — laman rasmi (nama & butiran produk)",d:"Nama produk disemak 11 Nov 2026",u:AMWAY}
+};
+const TAGS="#Momyizz #YourHealthAndBeautyBuddy";
+const SEED_EPISODES=[
+{n:1,p:"mp",hookType:"Situasi harian",format:"Video pendek",
+title:"Mikroplastik: Apa Sebenarnya Benda Ni?",
+audience:"Ibu dan wanita bekerja yang selalu dengar istilah 'mikroplastik' tetapi belum faham maksudnya.",
+problem:"Isu mikroplastik selalu viral. Ada yang panik dan mahu buang semua plastik, ada yang terus tak ambil peduli. Fakta bercampur dengan andaian.",
+hook:"Setiap pagi kita isi air dalam botol sebelum keluar rumah. Pernah tak terfikir, apa yang bersentuhan dengan air minuman kita?",
+story:"Pagi Isnin. Anak sulung cari botol air, yang kecil merengek, suami dah tunggu dalam kereta.\n\nMomyizz capai botol plastik yang dah guna bertahun-tahun. Calar sana sini. Tiba-tiba teringat video yang lalu di FYP semalam: \"Mikroplastik ada dalam air minuman!\"\n\nPerlu buang semua plastik ke? Momyizz tak panik. Malam tu, lepas anak tidur, Momyizz baca apa yang WHO dan UNEP sebenarnya cakap. Rupanya ceritanya lebih tenang, lebih jelas dan lebih praktikal daripada yang viral.",
+facts:[
+ {l:"bukti",t:"Mikroplastik ialah zarah plastik bersaiz kurang daripada 5 mm. Nanoplastik jauh lebih kecil (biasanya di bawah 1 mikrometer). Definisi tepat masih dibincangkan saintis.",s:"WHO 2019, WHO 2022"},
+ {l:"bukti",t:"Sumbernya termasuk plastik besar yang terurai menjadi cebisan kecil (botol, beg, bekas), serat pakaian sintetik dan geseran tayar.",s:"UNEP"},
+ {l:"bukti",t:"Mikroplastik ditemui secara meluas dalam persekitaran, air dan makanan.",s:"WHO 2022"},
+ {l:"belum",t:"WHO (2019): berdasarkan data terhad, mikroplastik dalam air minuman pada tahap semasa tidak menunjukkan risiko kesihatan yang jelas. Namun data masih kurang dan kajian lanjut diperlukan.",s:"WHO 2019"},
+ {l:"kajian",t:"Kesan jangka panjang terhadap kesihatan manusia masih dalam penyelidikan. Belum ada bukti yang mengesahkan mikroplastik menyebabkan penyakit tertentu.",s:"WHO 2022"}
+],
+solution:"Tak perlu buang semua plastik esok pagi. Mula dengan 3 langkah kecil:\n1. Bila botol plastik lama dah calar atau kusam, tukar kepada botol kaca atau keluli tahan karat.\n2. Jangan biarkan botol berisi air terlalu lama dalam kereta yang panas.\n3. Kurangkan plastik sekali guna bila mudah dibuat, contohnya bawa tumbler sendiri.",
+product:"Tiada. Episod pengenalan. Fokus membina kepercayaan dan identiti siri mikroplastik Momyizz.",
+productFacts:"Tidak berkaitan.",
+sources:["who19","who22","unep"],
+visual:"Flatlay atas meja kayu cerah: botol plastik lama, botol kaca, botol keluli dan kanta pembesar. Teks besar: \"Mikroplastik: Fakta, Bukan Panik\". Cahaya pagi semula jadi.",
+prompt:"Minimalist flat lay on light oak table, an old scratched plastic water bottle beside a glass bottle and a stainless steel bottle, small magnifying glass, soft morning window light, sage green and warm beige palette, MUJI style, clean negative space for text, 4:5",
+storyboard:[["0–3s","Close-up tangan isi air ke dalam botol plastik. Teks: \"Pernah fikir apa dalam air ni?\""],["3–10s","Momyizz bercakap ke kamera: \"Mikroplastik. Semua orang cakap pasal ni. Jom faham betul-betul.\""],["10–20s","Grafik ringkas: kurang 5 mm = mikroplastik, lebih kecil = nanoplastik."],["20–32s","Tiga label muncul satu persatu: Terbukti / Kajian awal / Belum pasti."],["32–42s","B-roll: tukar ke botol kaca, botol dikeluarkan dari kereta."],["42–48s","\"Siri Mikroplastik Momyizz. Fakta, bukan takut.\" Logo MOMYIZZ."]],
+fb:"Pagi Isnin. Anak cari botol air, yang kecil merengek, suami dah tunggu dalam kereta. 😅\n\nSaya capai botol plastik yang dah bertahun saya guna. Calar sana sini. Tiba-tiba teringat video \"mikroplastik dalam air minuman\" yang lalu semalam.\n\nKena buang semua plastik ke?\n\nMalam tu saya baca apa yang WHO dan UNEP sebenarnya cakap. Ini ringkasannya:\n\n🔹 Mikroplastik = zarah plastik kurang daripada 5 mm. Nanoplastik lagi kecil.\n🔹 Ia datang daripada plastik yang terurai, serat baju sintetik, tayar kenderaan dan banyak lagi.\n🔹 Memang terbukti ia ada di sekeliling kita: dalam air, makanan dan persekitaran.\n🔹 Tapi kesannya pada kesihatan manusia MASIH dikaji. WHO (2019) kata data masih terhad dan tak tunjuk risiko jelas pada tahap semasa, sambil menggesa kajian lanjut.\n\nJadi, tak perlu panik. Yang kita boleh buat ialah kurangkan pendedahan yang tak perlu, sikit-sikit:\n✅ Tukar botol plastik yang dah calar kepada kaca atau keluli\n✅ Jangan tinggal botol air dalam kereta panas\n✅ Kurangkan plastik sekali guna bila mudah\n\nIni episod pertama Siri Mikroplastik Momyizz. Setiap minggu kita kupas satu kebiasaan harian, dengan fakta dan sumber.\n\nSumber: WHO (2019, 2022), UNEP.",
+threads:["Pagi tadi saya capai botol air plastik yang dah calar sana sini. Terus teringat isu mikroplastik yang viral.\n\nKena buang semua plastik ke? Jom faham dulu. 🧵","Mikroplastik = zarah plastik bawah 5 mm. Memang terbukti ada dalam air, makanan dan persekitaran.\n\nTapi kesan pada kesihatan manusia masih dikaji. WHO kata data masih terhad.","Jadi bukan masa untuk panik. Masa untuk pilih dengan lebih bijak:\n• tukar botol yang dah calar\n• jangan biar botol dalam kereta panas\n• kurangkan plastik sekali guna\n\nNak saya sambung kupas plastik di dapur pula?"],
+cta:"Komen \"NAK\" kalau nak Momyizz kupas sumber mikroplastik di dapur kita dalam episod seterusnya.",
+hashtags:TAGS+" #Mikroplastik #MicroplasticAwareness #GayaHidupSihat #IbuBijak #FaktaBukanPanik"},
+
+{n:2,p:"hw",hookType:"Situasi harian",format:"Video pendek",
+title:"Sarapan Ibu Yang Selalu Tertinggal",
+audience:"Ibu bekerja dan suri rumah yang kelam-kabut waktu pagi.",
+problem:"Anak dah makan, suami dah makan, tapi ibu cuma minum kopi manis dan tunggu \"nanti\". Akhirnya lapar sangat tengah hari dan makan apa saja yang ada.",
+hook:"Anak dah makan, suami dah makan… ibu? \"Nanti la.\" Siapa macam ni?",
+story:"7.15 pagi. Kak Ana sapu jem atas roti anak, ikat rambut si kecil, tuang kopi untuk diri sendiri.\n\n11 pagi, dalam mesyuarat, perut berbunyi. Kepala rasa berat. Dia capai biskut dalam laci.\n\nPetang balik rumah, lapar sangat. Makan banyak sekali gus.\n\nKitaran ni berulang setiap hari. Bukan sebab Kak Ana tak tahu nak jaga makan. Tapi sebab dia selalu letak diri sendiri paling akhir.",
+facts:[
+ {l:"bukti",t:"Pinggan Sihat Malaysia (KKM): separuh pinggan sayur dan buah, suku bijirin (utamakan bijirin penuh), suku protein seperti ikan, ayam, telur atau kekacang.",s:"KKM MDG 2020"},
+ {l:"bukti",t:"Garis Panduan Diet Malaysia menggalakkan pengambilan pelbagai jenis makanan setiap hari dan mengehadkan gula tambahan, termasuk dalam minuman.",s:"KKM MDG 2020"},
+ {l:"info",t:"Sarapan tak perlu mewah. Gabungan protein, karbohidrat kompleks dan serat membantu kita rasa kenyang lebih lama berbanding minuman manis sahaja.",s:"Panduan pemakanan umum"}
+],
+solution:"\"Sarapan 5 Minit Ibu\":\n• Telur rebus (rebus malam sebelumnya) + roti gandum penuh + pisang\n• Oat rendam semalaman dengan susu dan buah\n• Siapkan \"bekal ibu\" sekali dengan bekal anak\n• Minum segelas air kosong dulu sebelum kopi",
+product:"Nutrilite Soy Protein Drink. Pilihan tambahan untuk hari yang benar-benar kelam-kabut, BUKAN pengganti sarapan sebenar.",
+productFacts:"Tersenarai di amway.my sebagai \"Nutrilite Soy Protein Drink\" (perisa Mixed Berries 500g dan Green Tea 450g, semakan 11 Nov 2026).\nPERLU SEMAK sebelum post: kandungan protein setiap hidangan, ramuan dan cara pengambilan pada label atau halaman produk rasmi. Jangan tulis angka yang belum disahkan.",
+sources:["mdg","amway"],
+visual:"Pinggan Sihat atas meja kayu cerah, cahaya pagi. Split screen: ibu berdiri tergesa-gesa vs ibu duduk 5 minit menikmati sarapan.",
+prompt:"Overhead shot of a balanced Malaysian breakfast plate, boiled eggs, wholegrain toast, banana slices, papaya, glass of water, light wood table, soft morning light, sage and cream tones, minimalist MUJI aesthetic, 4:5",
+storyboard:[["0–3s","Ibu tergesa-gesa: ikat rambut anak, kopi di tangan. Teks: \"Ibu? Nanti la…\""],["3–12s","Jam 11 pagi: ibu letih, capai biskut di pejabat."],["12–25s","Grafik Pinggan Sihat Malaysia: ½ sayur & buah, ¼ bijirin, ¼ protein."],["25–40s","Montaj 3 idea sarapan 5 minit."],["40–45s","Ibu duduk dan makan. Teks: \"Ibu pun perlu diisi.\""]],
+fb:"\"Anak dah makan? Dah. Suami? Dah. Ibu?\"\n\"Nanti la…\" ☕\n\nSiapa yang setiap pagi macam ni?\n\nSaya kenal ramai ibu yang jaga makan seisi rumah dengan teliti, tapi diri sendiri cuma minum kopi manis sampai tengah hari. Pukul 11 dah mula pening, capai biskut. Balik petang lapar sangat, makan banyak sekali gus.\n\nBukan sebab kita tak tahu. Kita cuma selalu letak diri sendiri paling akhir.\n\nKKM ada panduan mudah, Pinggan Sihat Malaysia:\n🥦 Separuh pinggan sayur & buah\n🍞 Suku bijirin, utamakan bijirin penuh\n🥚 Suku protein: ikan, ayam, telur, kekacang\n\nSarapan tak perlu mewah. Ini idea \"Sarapan 5 Minit Ibu\":\n✅ Telur rebus (siapkan malam sebelumnya) + roti gandum + pisang\n✅ Oat rendam semalaman dengan susu & buah\n✅ Bila siapkan bekal anak, siapkan satu untuk ibu juga\n\nKalau hari tu memang huru-hara sangat, ada yang ambil minuman protein sebagai tambahan. Tapi makanan sebenar tetap nombor satu ya.\n\nIbu yang cukup tenaga, rumah pun lebih tenang. 💚\n\nSumber: KKM, Garis Panduan Diet Malaysia 2020.",
+threads:["Pagi tadi saya perasan: semua orang dalam rumah dah sarapan, kecuali saya. 🙃\n\nIbu-ibu, kita selalu letak diri sendiri paling akhir kan?","Panduan KKM senang je: separuh pinggan sayur & buah, suku bijirin, suku protein.\n\nSarapan 5 minit pun boleh: telur rebus + roti gandum + pisang.","Esok cuba siapkan satu bekal untuk diri sendiri juga.\n\nApa menu sarapan paling laju korang? Kongsi, saya nak curi idea. 👇"],
+cta:"Kongsi menu sarapan 5 minit awak di ruangan komen. Momyizz akan kumpul jadi satu senarai untuk semua ibu.",
+hashtags:TAGS+" #PingganSihatMalaysia #SarapanSihat #IbuBekerja #PemakananSeimbang #NutrisiKeluarga"},
+
+{n:3,p:"lf",hookType:"Fakta mengejut",format:"Video pendek",
+title:"Span Dapur: Penjaga Kebersihan Atau Sarang Kuman?",
+audience:"Suri rumah dan ibu yang mengurus dapur setiap hari.",
+problem:"Span basuh pinggan dipakai berminggu-minggu sampai hancur. Kita rasa ia bersih sebab sentiasa bersabun.",
+hook:"Benda dalam dapur yang kita pegang setiap hari, tapi paling jarang kita tukar… span basuh pinggan.",
+story:"Malam lepas makan, Momyizz basuh pinggan macam biasa. Span kuning-hijau tu dah tiga minggu. Dah nipis, ada bau masam sikit.\n\n\"Eh, tak apa la, dia kan sentiasa kena sabun.\"\n\nRupanya span yang sentiasa lembap, hangat dan ada sisa makanan ialah tempat yang sangat selesa untuk bakteria membiak. Barang yang kita guna untuk 'membersihkan' boleh jadi barang yang paling perlu dibersihkan.",
+facts:[
+ {l:"bukti",t:"Kajian Cardinale et al. (2017, Scientific Reports) menemui kepadatan bakteria yang sangat tinggi dalam span dapur terpakai yang dikutip dari rumah.",s:"Cardinale 2017"},
+ {l:"awal",t:"Dalam kajian yang sama, span yang selalu 'dibersihkan' dengan kaedah rumah tidak semestinya kurang bakteria. Penulis mencadangkan span ditukar secara berkala, contohnya setiap minggu.",s:"Cardinale 2017"},
+ {l:"bukti",t:"WHO '5 Kunci Makanan Lebih Selamat': jaga kebersihan, asingkan makanan mentah dan masak, masak sempurna, simpan pada suhu selamat, guna air dan bahan mentah yang selamat.",s:"WHO 2006"}
+],
+solution:"Rutin dapur yang mudah:\n• Tukar span secara berkala (tanda tarikh dengan pen marker)\n• Perah dan biarkan span kering selepas guna, jangan rendam dalam sinki\n• Kain lap meja dan kain lap pinggan diasingkan, basuh selalu\n• Asingkan papan pemotong daging mentah dan sayur\n• Basuh tangan sebelum dan selepas sentuh bahan mentah",
+product:"AMWAY HOME DISH DROPS. Sabun pencuci pinggan pekat sebagai sebahagian rutin dapur. Tekankan: sabun yang baik tidak menggantikan amalan tukar span dan keringkan span.",
+productFacts:"Tersenarai di amway.my sebagai \"DISH DROPS Concentrated Dishwashing Liquid - 1L\" di bawah Amway Home (semakan 11 Nov 2026).\nPERLU SEMAK sebelum post: nisbah cairan, ciri formula dan sebarang dakwaan mesra alam pada halaman produk rasmi.",
+sources:["sponge","fivekeys","amway"],
+visual:"Sinki dapur bersih, span lama di sebelah span baharu dengan tarikh ditulis. Rak pengering span. Tona putih, sage dan kayu.",
+prompt:"Clean minimalist kitchen sink, worn old sponge next to a fresh new sponge with a date written on masking tape, wooden dish rack, soft daylight, white sage and oak tones, Japanese minimalist home, 4:5",
+storyboard:[["0–3s","Close-up span lama diperah. Teks: \"Bila kali terakhir awak tukar ni?\""],["3–12s","Momyizz: \"Span ni sentiasa basah, hangat, ada sisa makanan…\""],["12–25s","Teks fakta: Kajian 2017 jumpa bakteria sangat padat dalam span terpakai."],["25–42s","Demo rutin: tanda tarikh, perah, keringkan, asingkan papan pemotong."],["42–48s","Dapur kemas. Teks: \"Dapur bersih bermula dengan benda kecil.\""]],
+fb:"Benda yang kita pegang setiap hari di dapur, tapi paling jarang kita tukar…\n\nSpan basuh pinggan. 🧽\n\nSaya pun pernah guna satu span sampai tiga minggu. Dah nipis, bau masam sikit. Fikir saya, \"Tak apa, dia kan sentiasa bersabun.\"\n\nRupanya satu kajian di Jerman (Scientific Reports, 2017) jumpa bakteria yang sangat padat dalam span dapur terpakai. Span yang selalu basah, hangat dan ada sisa makanan memang tempat yang selesa untuk bakteria.\n\nYang menarik, span yang selalu \"dibersihkan\" dengan cara biasa di rumah pun tak semestinya kurang bakteria. Penyelidik cadangkan kita tukar span secara berkala, contohnya seminggu sekali.\n\nRutin dapur yang saya amalkan sekarang:\n✅ Tulis tarikh pada span baru (pen marker pun jadi)\n✅ Perah & biar kering lepas guna, jangan rendam dalam sinki\n✅ Kain lap meja & kain lap pinggan diasingkan\n✅ Papan pemotong daging mentah & sayur diasingkan\n✅ Basuh tangan sebelum & selepas pegang bahan mentah\n\nSabun pencuci pinggan pekat memang membantu kerja basuh lebih jimat. Tapi sabun sebagus mana pun tak menggantikan tabiat tukar span tu ya. 😉\n\nBila kali terakhir awak tukar span? Jujur je kat komen. 😂\n\nSumber: Cardinale et al., Scientific Reports (2017); WHO, Five Keys to Safer Food.",
+threads:["Soalan jujur: bila kali terakhir awak tukar span basuh pinggan? 🧽","Kajian 2017 jumpa bakteria sangat padat dalam span dapur terpakai. Sentiasa basah + hangat + sisa makanan = tempat selesa untuk bakteria.\n\nPenyelidik cadang tukar secara berkala, contohnya seminggu sekali.","Tip saya: tulis tarikh pada span baru, perah dan keringkan lepas guna.\n\nSiapa nak sambung dengan tip kebersihan dapur lain?"],
+cta:"Komen tarikh kali terakhir awak tukar span. Tag kawan yang perlu tengok video ni. 😄",
+hashtags:TAGS+" #KebersihanDapur #TipsRumah #SuriRumah #DapurSihat #AmwayHome"},
+
+{n:4,p:"mp",hookType:"Situasi harian",format:"Video pendek",
+title:"Panaskan Lauk Dalam Bekas Plastik?",
+audience:"Wanita bekerja yang bawa bekal dan ibu yang memanaskan lauk untuk anak.",
+problem:"Bekal dalam bekas plastik terus masuk microwave pejabat. Lauk semalam dipanaskan dalam bekas yang sama setiap hari.",
+hook:"Bekal dalam bekas plastik, terus \"ting!\" dalam microwave pejabat. Biasa buat?",
+story:"Pukul 1 tengah hari. Beratur depan microwave pejabat. Semua bekas plastik pelbagai warna. Ada yang dah kekuningan, ada yang dah berbau kari.\n\nMomyizz tengok bekas sendiri. Penutupnya dah melengkung sebab selalu kena panas.\n\nSatu soalan muncul: plastik yang selalu kena panas ni, apa yang jadi pada dia? Dan apa kata kajian?",
+facts:[
+ {l:"awal",t:"Hussain et al. (2023): dalam ujian makmal, memanaskan bekas makanan plastik dalam microwave membebaskan jauh lebih banyak zarah mikro dan nanoplastik berbanding penyimpanan biasa.",s:"Hussain 2023"},
+ {l:"kajian",t:"Kesan zarah ini kepada kesihatan manusia masih dikaji. Ujian sel di makmal tidak sama dengan keadaan sebenar dalam badan manusia.",s:"WHO 2022"},
+ {l:"belum",t:"FDA menyatakan bukti saintifik semasa belum menunjukkan mikroplastik atau nanoplastik dalam makanan menimbulkan risiko kesihatan kepada manusia, dan pemantauan diteruskan.",s:"FDA"},
+ {l:"info",t:"Label 'microwave safe' bermaksud bekas itu direka untuk kegunaan tersebut. Ikut arahan pengeluar dan tukar bekas yang sudah rosak.",s:"Panduan umum"}
+],
+solution:"Langkah mudah tanpa perlu buang semua bekas:\n• Pindahkan lauk ke pinggan kaca atau seramik sebelum panaskan\n• Tukar bekas yang dah retak, melengkung atau kusam\n• Biar lauk sejuk sedikit sebelum masuk ke bekas plastik\n• Bila beli bekas baru, pertimbangkan kaca atau keluli tahan karat untuk bekal",
+product:"Tiada. Alternatif yang dicadangkan ialah bekas kaca atau seramik biasa. Jangan kaitkan dengan mana-mana produk.",
+productFacts:"Tidak berkaitan.",
+sources:["hussain","fda","who22"],
+visual:"Barisan bekas plastik di pantri pejabat vs satu mangkuk kaca berisi nasi dan lauk. Teks: \"Pindah dulu, baru panaskan.\"",
+prompt:"Office pantry counter with several colorful worn plastic lunch boxes, one glass bowl with Malaysian rice and curry being placed in a microwave, natural light, muted beige and sage tones, documentary style, 9:16",
+storyboard:[["0–3s","Bunyi \"ting!\" microwave. Teks: \"Biasa buat?\""],["3–12s","Close-up penutup bekas yang melengkung dan berwarna kuning."],["12–26s","Teks: Kajian makmal 2023: panaskan bekas plastik dalam microwave lepaskan lebih banyak zarah. Label: KAJIAN AWAL."],["26–34s","Teks: FDA: bukti risiko kepada manusia belum ditunjukkan. Kajian diteruskan."],["34–50s","Demo: pindah lauk ke mangkuk kaca, panaskan. Teks: \"Langkah kecil, kurang pendedahan.\""]],
+fb:"Pukul 1 tengah hari. Beratur depan microwave pejabat. 🍱\n\nSemua orang pegang bekas plastik. Ada yang dah kekuningan, ada yang penutupnya dah melengkung macam bekas saya.\n\nPernah terfikir apa jadi pada plastik yang selalu kena panas?\n\nSatu kajian makmal (Environmental Science & Technology, 2023) dapati bila bekas makanan plastik dipanaskan dalam microwave, lebih banyak zarah mikro dan nanoplastik dilepaskan berbanding penyimpanan biasa.\n\nTapi penting untuk faham:\n🔸 Ini KAJIAN AWAL dalam makmal\n🔸 Kesan pada kesihatan manusia masih dikaji\n🔸 FDA kata bukti semasa belum tunjuk risiko kesihatan kepada manusia\n\nJadi kita tak perlu panik. Tapi bila ada cara mudah untuk kurangkan pendedahan yang tak perlu, kenapa tidak?\n\n✅ Pindah lauk ke pinggan kaca/seramik sebelum panaskan\n✅ Tukar bekas yang dah retak, melengkung atau kusam\n✅ Biar lauk sejuk sikit sebelum masuk bekas plastik\n✅ Bila beli bekas baru, pertimbangkan kaca atau keluli\n\nSaya sekarang simpan satu mangkuk kaca di pejabat. Senang. 😊\n\nSumber: Hussain et al. (2023), FDA, WHO (2022).",
+threads:["Bekal dalam bekas plastik, terus masuk microwave. Saya pun dulu buat tiap hari. 🍱","Kajian makmal 2023: panaskan bekas plastik dalam microwave lepaskan lebih banyak zarah mikro/nanoplastik.\n\nKesan pada manusia? Masih dikaji. FDA kata bukti risiko belum ditunjukkan.","Langkah paling senang: pindah ke mangkuk kaca dulu, baru panaskan.\n\nKorang guna bekas apa untuk bekal?"],
+cta:"Simpan (save) post ni sebagai peringatan. Kongsi dengan rakan sepejabat yang selalu beratur depan microwave dengan awak. 😄",
+hashtags:TAGS+" #Mikroplastik #BekalSihat #WanitaBekerja #TipsDapur #KurangPlastik"},
+
+{n:5,p:"hw",hookType:"Situasi harian",format:"Video pendek",
+title:"Botol Air Masih Penuh Sampai Petang?",
+audience:"Wanita bekerja dan ibu sibuk yang selalu lupa minum air.",
+problem:"Sibuk sampai lupa minum. Botol air penuh dari pagi sampai balik. Bila rasa haus, terus pilih air manis.",
+hook:"Balik kerja, botol air masih penuh macam pagi tadi. Angkat tangan siapa sama. 🙋‍♀️",
+story:"Pagi tadi Momyizz bawa botol 1 liter dengan penuh semangat.\n\nPukul 4 petang, botol tu masih penuh. Yang habis cuma secawan kopi dan sebotol teh ais waktu makan tengah hari.\n\nPetang tu rasa letih, kepala berat. Mungkin banyak sebab. Tapi satu yang jelas: hari ini Momyizz memang hampir tak minum air kosong.",
+facts:[
+ {l:"bukti",t:"EFSA (2010): pengambilan air total yang mencukupi bagi wanita dewasa sekitar 2.0 liter sehari dan lelaki 2.5 liter sehari. Jumlah ini termasuk air daripada makanan.",s:"EFSA 2010"},
+ {l:"bukti",t:"Garis Panduan Diet Malaysia menggalakkan minum air kosong secukupnya setiap hari dan mengurangkan minuman bergula.",s:"KKM MDG"},
+ {l:"awal",t:"Beberapa kajian mengaitkan dehidrasi ringan dengan penurunan fokus dan mood, tetapi hasil kajian berbeza-beza.",s:"Popkin 2010"},
+ {l:"info",t:"Letih berpanjangan ada banyak punca. Jumpa doktor jika keletihan berterusan.",s:"Panduan umum"}
+],
+solution:"Cara mudah ingat minum:\n• Segelas air selepas setiap waktu solat, 5 waktu = 5 gelas\n• Botol bertanda masa (10 pg, 12 tgh, 3 ptg, 5 ptg)\n• Air kosong dulu, baru kopi atau teh\n• Tambah buah berair seperti tembikai dan oren\n• Simpan botol air di tempat yang nampak",
+product:"eSpring Water Purifier, sebagai pilihan untuk keluarga yang mahu air minuman tapisan di rumah. JANGAN dakwa eSpring menyingkirkan mikroplastik.",
+productFacts:"Tersenarai di amway.my sebagai \"eSpring Water Purifier\" (kod 122940M, semakan 11 Nov 2026).\nPERLU SEMAK sebelum post: teknologi penapisan, pensijilan dan senarai bahan cemar yang dikurangkan, daripada halaman produk atau risalah rasmi. Hanya sebut apa yang tertulis dalam spesifikasi rasmi.",
+sources:["efsaW","mdg","popkin","amway"],
+visual:"Botol air bertanda masa di atas meja kerja, sebelah laptop dan sejadah kecil yang dilipat. Tona sage dan krim.",
+prompt:"Clear glass water bottle with handwritten time markers on a tidy work desk beside a laptop, folded small prayer mat in background, soft daylight, sage green and cream palette, minimalist, 4:5",
+storyboard:[["0–3s","Botol penuh di atas meja. Jam di dinding menunjukkan 4.00 petang. Teks: \"Siapa sama?\""],["3–12s","Momyizz menguap di depan laptop."],["12–25s","Grafik: wanita dewasa ~2.0 L air sehari (termasuk daripada makanan). Sumber EFSA."],["25–42s","Tip: 1 gelas selepas setiap solat, botol bertanda masa, air kosong dulu."],["42–48s","Botol kosong pada petang. Teks: \"Minum dulu, baru kopi.\""]],
+fb:"Pagi bawa botol 1 liter penuh semangat. 💪\nPetang balik… botol masih penuh. 🫠\n\nYang habis hari ni cuma secawan kopi dan teh ais waktu lunch.\n\nKalau awak pun macam ni, jom kira sikit.\n\nMenurut EFSA (badan keselamatan makanan Eropah), wanita dewasa perlukan lebih kurang 2.0 liter air sehari. Ini termasuk air daripada makanan. Garis Panduan Diet Malaysia pula galakkan kita minum air kosong secukupnya dan kurangkan minuman manis.\n\nAda kajian yang kaitkan kurang minum dengan fokus dan mood yang menurun. Tapi ingat, rasa letih ada banyak punca. Kalau berpanjangan, jumpa doktor ya.\n\nTip yang betul-betul berkesan untuk saya:\n🕌 Segelas air lepas setiap waktu solat. 5 waktu, dah 5 gelas!\n⏰ Botol bertanda masa\n💧 Air kosong dulu, baru kopi\n🍉 Tambah buah berair: tembikai, oren\n\nDi rumah, keluarga saya biasakan minum air tapisan supaya senang isi botol setiap pagi. Setiap keluarga ada pilihan masing-masing, yang penting kita betul-betul minum!\n\nSumber: EFSA (2010), KKM Garis Panduan Diet Malaysia.",
+threads:["Pukul 4 petang. Botol air masih penuh. Yang habis cuma kopi. ☕\n\nSiapa geng ni?","Wanita dewasa perlukan ~2.0 liter air sehari (termasuk daripada makanan), menurut EFSA.\n\nTrick saya: segelas air lepas setiap waktu solat. 5 waktu = 5 gelas.","Cabaran esok: habiskan satu botol sebelum pukul 3 petang.\n\nSiapa nak join? Komen \"JOIN\". 💧"],
+cta:"Sertai #CabaranAirMomyizz 7 hari. Komen \"JOIN\" dan kongsi gambar botol air awak.",
+hashtags:TAGS+" #MinumAir #CabaranAirMomyizz #GayaHidupSihat #WanitaBekerja #Hidrasi"},
+
+{n:6,p:"bp",hookType:"Situasi harian",format:"Video pendek",
+title:"Rutin Kulit 5 Minit Selepas Kerja",
+audience:"Wanita bekerja dan ibu yang penat dan tiada masa untuk rutin panjang.",
+problem:"Balik kerja penat, terus baring. Mekap dan sunscreen tak dibersihkan. Bangun pagi kulit rasa kusam, rasa bersalah.",
+hook:"Penat sangat sampai tertidur dengan muka belum cuci? Jom buat versi 5 minit.",
+story:"Pukul 10 malam. Anak baru tidur. Momyizz rebah atas katil, telefon di tangan.\n\n\"Cuci muka esok je la…\"\n\nEsok pagi, kulit rasa berminyak, ada jerawat kecil di dagu.\n\nRupanya kulit tak perlu rutin 10 langkah. Yang dia perlu: rutin ringkas yang kita betul-betul buat setiap hari.",
+facts:[
+ {l:"bukti",t:"AAD: cuci muka dengan pencuci yang lembut, guna hujung jari, bilas dengan air suam (bukan panas) dan tepuk kering dengan tuala lembut. Jangan gosok kuat.",s:"AAD"},
+ {l:"bukti",t:"AAD: buang mekap sebelum tidur.",s:"AAD"},
+ {l:"bukti",t:"AAD: guna pelembap untuk membantu mengekalkan kelembapan kulit, dan pelindung matahari spektrum luas SPF 30 atau lebih setiap hari.",s:"AAD"},
+ {l:"info",t:"Rutin yang konsisten lebih penting daripada bilangan produk.",s:"Panduan umum"}
+],
+solution:"Rutin 5 minit:\nMALAM: buang mekap → cuci muka 60 saat → pelembap\nPAGI: cuci ringkas → pelembap → pelindung matahari\nTip: letak semua produk dalam satu bekas di sebelah sinki supaya senang dicapai.",
+product:"ARTISTRY. Contohnya ARTISTRY Gel Cleanser sebagai pencuci dan pelembap ARTISTRY mengikut jenis kulit. Cadangkan ARTISTRY Skin Analysis untuk kenal jenis kulit dahulu.",
+productFacts:"Tersenarai di amway.my: \"ARTISTRY Gel Cleanser - 125ml\" dan perkhidmatan \"ARTISTRY Skin Analysis Experience\" (semakan 11 Nov 2026).\nPERLU SEMAK sebelum post: ramuan, jenis kulit yang sesuai dan cara guna. Jangan buat dakwaan hasil seperti \"cerah dalam 7 hari\".",
+sources:["aad","amway"],
+visual:"Sinki bilik air minimalis dengan dulang kayu kecil: pencuci, pelembap, pelindung matahari, tuala lembut. Jam menunjukkan 10 malam.",
+prompt:"Minimalist bathroom vanity at night, small wooden tray with three plain skincare bottles (cleanser, moisturizer, sunscreen), folded soft cream towel, warm dim light, beige and sage palette, calm self-care mood, 4:5",
+storyboard:[["0–3s","Momyizz rebah atas katil. Teks: \"Cuci muka esok je la…\""],["3–8s","Teks: \"Kulit tak perlukan 10 langkah. Dia perlukan konsisten.\""],["8–30s","Demo masa nyata: buang mekap, cuci 60 saat, tepuk kering, pelembap."],["30–42s","Pagi: pelindung matahari. Teks: SPF 30+ spektrum luas (AAD)."],["42–50s","Dulang produk di sebelah sinki. Teks: \"5 minit untuk diri sendiri.\""]],
+fb:"Pukul 10 malam. Anak baru lena. Saya rebah atas katil.\n\"Cuci muka esok je la…\" 😴\n\nEsok pagi? Kulit berminyak, jerawat kecil muncul di dagu.\n\nSaya dulu fikir penjagaan kulit kena panjang, banyak langkah, banyak produk. Rupanya yang paling penting ialah KONSISTEN.\n\nIni panduan asas daripada American Academy of Dermatology:\n🫧 Cuci muka dengan pencuci lembut, guna hujung jari, bilas air suam\n🧴 Lembapkan kulit selepas cuci\n☀️ Pelindung matahari spektrum luas SPF 30+ setiap pagi\n🌙 Buang mekap sebelum tidur\n\nRutin 5 minit saya:\nMALAM: buang mekap → cuci 60 saat → pelembap\nPAGI: cuci ringkas → pelembap → sunscreen\n\nTip paling membantu: letak semua dalam satu dulang kecil sebelah sinki. Bila nampak, kita buat.\n\nSaya guna pencuci gel yang lembut dan pelembap ikut jenis kulit. Kalau tak pasti jenis kulit sendiri, buat skin analysis dulu sebelum beli apa-apa. Jangan beli ikut trend. 😉\n\nMalam ni, 5 minit untuk diri sendiri ya. 💚\n\nSumber: American Academy of Dermatology.",
+threads:["Mengaku: siapa pernah tertidur tanpa cuci muka sebab terlalu penat? 🙋‍♀️","Kulit tak perlu 10 langkah. Asas daripada AAD: cuci lembut, lembapkan, sunscreen SPF 30+ setiap pagi.\n\nRutin saya: 5 minit je.","Tip: letak semua produk dalam satu dulang sebelah sinki. Bila nampak, kita buat.\n\nRutin malam korang berapa langkah?"],
+cta:"Komen jenis kulit awak (kering/berminyak/kombinasi/sensitif). Momyizz kongsi tip rutin asas yang sesuai.",
+hashtags:TAGS+" #RutinKulit #SkincareMalaysia #SelfCareIbu #Artistry #PenjagaanKulit"},
+
+{n:7,p:"mp",hookType:"Fakta mengejut",format:"Video pendek",
+title:"Air Botol Plastik: Apa Kata Kajian 2024?",
+audience:"Keluarga yang selalu beli air botol dan pekerja yang bergantung pada air botol.",
+problem:"Beli air botol berkotak-kotak untuk rumah dan kereta. Ada yang tersimpan berminggu-minggu dalam bonet kereta yang panas.",
+hook:"Air botol yang kita beli sebab nak \"selamat\"… pernah dengar kajian 2024 ni?",
+story:"Hujung minggu, Momyizz beli dua kotak air botol. Satu untuk rumah, satu simpan dalam bonet untuk anak-anak.\n\nSeminggu kemudian, buka bonet. Panas macam ketuhar. Botol-botol air tu dah \"berjemur\" seminggu.\n\nMasa tu teringat satu tajuk berita: kajian jumpa ratusan ribu zarah plastik dalam seliter air botol. Betul ke? Dan apa maksudnya untuk kita?",
+facts:[
+ {l:"awal",t:"Qian et al. (2024, PNAS) menggunakan teknik mikroskop baharu dan mengesan purata kira-kira 240,000 zarah plastik seliter dalam sampel air botol daripada tiga jenama di Amerika Syarikat. Kira-kira 90% ialah nanoplastik.",s:"Qian 2024"},
+ {l:"info",t:"Kajian ini melibatkan sampel terhad. Ia menunjukkan keupayaan mengesan zarah yang lebih kecil, bukan bukti bahawa air botol membahayakan kesihatan.",s:"Qian 2024"},
+ {l:"belum",t:"WHO (2019): tiada bukti kukuh setakat ini bahawa mikroplastik dalam air minuman memudaratkan pada tahap semasa. WHO menggesa lebih banyak kajian dan kawalan pencemaran plastik.",s:"WHO 2019"},
+ {l:"kajian",t:"Kesan suhu tinggi ke atas pelepasan zarah daripada botol plastik masih dikaji.",s:"WHO 2022"}
+],
+solution:"Langkah praktikal:\n• Bawa botol guna semula (kaca atau keluli) yang diisi dari rumah\n• Simpan air botol di tempat sejuk dan teduh, bukan dalam bonet panas\n• Jangan guna semula botol sekali guna berulang kali sampai rosak\n• Air paip yang dimasak atau ditapis boleh jadi pilihan harian, ikut kesesuaian kawasan",
+product:"Tiada. Sengaja tiada produk dalam episod ini supaya mesej mikroplastik kekal neutral dan berasaskan fakta.",
+productFacts:"Tidak berkaitan.",
+sources:["qian","who19","who22"],
+visual:"Bonet kereta terbuka di bawah matahari dengan kotak air botol. Potongan ke dapur: botol keluli diisi air di rumah.",
+prompt:"Open car trunk under bright Malaysian midday sun with a pack of plastic water bottles, heat haze, then contrast scene of a stainless steel bottle being filled in a calm kitchen, sage and beige tones, 9:16",
+storyboard:[["0–3s","Bonet kereta dibuka, kotak air botol panas. Teks: \"Dah seminggu dalam ni…\""],["3–14s","Teks: Kajian 2024: purata ~240,000 zarah plastik seliter, kebanyakannya nanoplastik. Label KAJIAN AWAL."],["14–24s","Momyizz: \"Tapi ini tak bermaksud air botol beracun. WHO kata bukti bahaya belum kukuh.\""],["24–40s","Demo: isi botol keluli di rumah, simpan air botol di tempat teduh."],["40–46s","Teks: \"Lebih tahu, lebih tenang.\""]],
+fb:"Hujung minggu saya beli dua kotak air botol. Satu kotak saya simpan dalam bonet untuk anak-anak. 🚗\n\nSeminggu kemudian, buka bonet. Panas macam ketuhar!\n\nTerus teringat tajuk berita awal 2024: \"Ratusan ribu zarah plastik dalam seliter air botol.\"\n\nJom tengok fakta sebenar:\n\n🔬 Kajian Qian et al. (PNAS, Januari 2024) guna teknik mikroskop baharu. Mereka uji air botol daripada 3 jenama di Amerika Syarikat dan jumpa purata ~240,000 zarah plastik seliter. Kira-kira 90% ialah nanoplastik, iaitu zarah yang sangat kecil.\n\nTapi ada beberapa perkara penting:\n🔸 Ini kajian dengan sampel terhad\n🔸 Ia tunjuk kita kini MAMPU mengesan zarah lebih kecil, bukan bukti air botol berbahaya\n🔸 WHO kata setakat ini tiada bukti kukuh mikroplastik dalam air minuman memudaratkan pada tahap semasa\n\nJadi tak perlu takut minum air botol bila perlu. Tapi untuk kegunaan harian, saya pilih:\n✅ Isi botol keluli/kaca dari rumah\n✅ Simpan air botol di tempat teduh, bukan dalam bonet\n✅ Tak guna semula botol sekali guna berulang kali\n\nLebih tahu, lebih tenang. 💚\n\nSumber: Qian et al., PNAS (2024); WHO (2019, 2022).",
+threads:["Simpan air botol dalam bonet kereta seminggu. Pernah buat? 🚗☀️","Kajian PNAS 2024 jumpa purata ~240,000 zarah plastik seliter dalam sampel air botol (3 jenama, AS). Kebanyakannya nanoplastik.\n\nTapi kajian ini belum buktikan bahaya. WHO kata bukti risiko masih belum kukuh.","Yang saya ubah: isi botol keluli dari rumah, dan simpan air botol di tempat teduh.\n\nLebih tahu, lebih tenang. Setuju?"],
+cta:"Share kepada keluarga yang selalu simpan air botol dalam kereta. Komen \"SIRI\" untuk episod mikroplastik seterusnya.",
+hashtags:TAGS+" #Mikroplastik #AirMinuman #FaktaBukanPanik #KeluargaSihat #MicroplasticAwareness"},
+
+{n:8,p:"hw",hookType:"Mitos vs Fakta",format:"Carousel / Gambar",
+title:"Vitamin C: Bukan Hanya Bila Selesema",
+audience:"Ibu dan keluarga yang mahu faham asas vitamin C.",
+problem:"Kita cuma ingat vitamin C bila anak demam atau musim selesema. Hari biasa, buah jarang ada dalam pinggan.",
+hook:"Kenapa kita cuma ingat vitamin C bila dah selesema?",
+story:"Setiap kali anak bersin, Momyizz terus potong oren. Setiap kali musim hujan, baru teringat nak beli buah.\n\nTapi bila Momyizz tengok semula pinggan keluarga minggu lepas, buah hampir tiada.\n\nRupanya vitamin C bukan \"ubat selesema\". Ia zat harian yang badan tak boleh hasilkan sendiri.",
+facts:[
+ {l:"bukti",t:"Badan manusia tidak boleh menghasilkan vitamin C sendiri. Ia perlu diperoleh daripada makanan setiap hari.",s:"NIH ODS"},
+ {l:"bukti",t:"Vitamin C diperlukan untuk penghasilan kolagen, membantu penyerapan zat besi daripada sumber tumbuhan, dan menyokong fungsi sistem imun yang normal.",s:"NIH ODS"},
+ {l:"bukti",t:"Cadangan harian NIH untuk dewasa: wanita 75 mg, lelaki 90 mg. Sumber tempatan yang baik: jambu batu, betik, oren, brokoli dan cili benggala.",s:"NIH ODS"},
+ {l:"belum",t:"Bagi kebanyakan orang, pengambilan vitamin C secara rutin tidak terbukti mencegah selesema. Ia mungkin memendekkan sedikit tempoh selesema bagi sesetengah orang.",s:"Cochrane 2013"}
+],
+solution:"• Satu hidangan buah tinggi vitamin C setiap hari\n• Potong jambu batu atau betik dan simpan dalam peti, senang anak capai\n• Makan buah bersama hidangan sayur hijau atau kekacang untuk bantu penyerapan zat besi\n• Pelbagaikan warna buah dan sayur dalam seminggu",
+product:"Nutrilite Bio C Plus. Pelengkap bagi yang sukar mendapat buah secukupnya. Tegaskan makanan tetap sumber utama.",
+productFacts:"Tersenarai di amway.my sebagai \"Nutrilite Bio C Plus All Day Formula\" (semakan 11 Nov 2026).\nPERLU SEMAK sebelum post: kandungan vitamin C (mg) setiap tablet, ramuan dan dos pada label rasmi. Jangan dakwa ia mencegah atau merawat penyakit.",
+sources:["vitc","cochrane","amway"],
+visual:"Carousel 6 slaid: (1) Hook, (2) Mitos vs Fakta, (3) Fungsi vitamin C, (4) Keperluan harian, (5) Buah tempatan tinggi vitamin C, (6) CTA. Latar krim, ilustrasi buah garis halus.",
+prompt:"Flat lay of Malaysian fruits rich in vitamin C, sliced guava, papaya, orange halves, broccoli florets and red bell pepper on cream linen, soft daylight, minimalist, sage accents, clean space for carousel text, 1:1",
+storyboard:[["Slaid 1","\"Kenapa kita cuma ingat vitamin C bila dah selesema?\""],["Slaid 2","MITOS: Vitamin C hanya untuk selesema. FAKTA: Ia zat harian yang badan tak boleh hasilkan."],["Slaid 3","3 fungsi: kolagen, penyerapan zat besi, sistem imun normal."],["Slaid 4","Wanita 75 mg, lelaki 90 mg sehari (NIH)."],["Slaid 5","Buah tempatan: jambu batu, betik, oren, brokoli, cili benggala."],["Slaid 6","\"1 hidangan buah setiap hari. Save untuk ingat!\""]],
+fb:"Setiap kali anak bersin, saya terus potong oren. 🍊\nSetiap kali musim hujan, baru teringat nak beli buah.\n\nTapi bila saya tengok semula menu minggu lepas… buah hampir tak ada langsung. 😅\n\nRupanya vitamin C bukan \"ubat selesema\".\n\n📌 Badan kita TAK BOLEH hasilkan vitamin C sendiri. Kena dapat daripada makanan setiap hari.\n📌 Vitamin C diperlukan untuk penghasilan kolagen, membantu penyerapan zat besi daripada sayur dan kekacang, serta menyokong fungsi sistem imun yang normal.\n📌 Cadangan harian (NIH): wanita 75 mg, lelaki 90 mg.\n\nMitos yang perlu kita betulkan: kajian Cochrane dapati, bagi kebanyakan orang, ambil vitamin C secara rutin TIDAK terbukti mencegah selesema. Mungkin ia pendekkan sedikit tempoh selesema bagi sesetengah orang. Jadi makan buah setiap hari, bukan bila dah sakit sahaja.\n\nBuah tempatan yang tinggi vitamin C:\n🍈 Jambu batu\n🧡 Betik\n🍊 Oren\n🥦 Brokoli\n🫑 Cili benggala\n\nTip saya: potong jambu atau betik awal-awal, simpan dalam bekas kaca dalam peti. Anak-anak senang capai.\n\nBagi yang memang sukar dapat buah secukupnya, ada yang ambil suplemen sebagai pelengkap. Tapi buah dan sayur tetap nombor satu.\n\nSumber: NIH Office of Dietary Supplements; Cochrane Review (2013).",
+threads:["Mitos: vitamin C cuma perlu bila selesema.\n\nFakta: badan kita langsung tak boleh hasilkan vitamin C. Kena dapat daripada makanan SETIAP hari. 🍊","Ia perlu untuk penghasilan kolagen, penyerapan zat besi dan fungsi imun yang normal.\n\nDan kajian Cochrane: vitamin C rutin tak terbukti mencegah selesema bagi kebanyakan orang.","Jambu batu antara buah tempatan yang tinggi vitamin C. Murah dan senang dapat.\n\nBuah apa paling selalu ada di rumah korang?"],
+cta:"Save carousel ni dan tag pasangan yang selalu lupa makan buah. 🍈",
+hashtags:TAGS+" #VitaminC #NutrisiKeluarga #MitosVsFakta #BuahTempatan #Nutrilite"},
+
+{n:9,p:"lf",hookType:"Soalan",format:"Video pendek",
+title:"Duduk 9 Jam Sehari? Gerak 10 Minit Pun Dikira",
+audience:"Wanita bekerja di pejabat dan ibu di rumah yang tiada masa untuk bersenam.",
+problem:"Duduk depan laptop, duduk dalam kereta, duduk depan TV. Nak ke gym memang tak sempat, jadi terus tak bergerak langsung.",
+hook:"Kalau dikira, berapa jam awak duduk hari ni?",
+story:"Momyizz cuba kira satu hari biasa: 1 jam dalam kereta, 7 jam depan laptop, 1 jam depan TV lepas anak tidur.\n\nSembilan jam duduk.\n\n\"Nak bersenam? Bila masa?\"\n\nRupanya WHO sendiri kata: setiap pergerakan dikira. Tak perlu terus jadi atlet. Mulakan dengan 10 minit.",
+facts:[
+ {l:"bukti",t:"WHO (2020): dewasa digalakkan melakukan 150–300 minit aktiviti fizikal sederhana seminggu (atau 75–150 minit aktiviti berat), serta latihan menguatkan otot sekurang-kurangnya 2 hari seminggu.",s:"WHO 2020"},
+ {l:"bukti",t:"WHO (2020): sedikit aktiviti lebih baik daripada tiada langsung. Kurangkan masa duduk dan gantikan dengan aktiviti fizikal pada sebarang intensiti.",s:"WHO 2020"},
+ {l:"bukti",t:"Garis panduan WHO 2020 juga menggalakkan aktiviti fizikal untuk wanita semasa dan selepas mengandung, dengan nasihat doktor.",s:"WHO 2020"}
+],
+solution:"Gerak tanpa gym:\n• Jalan 10 minit selepas makan malam (bawa anak sekali)\n• Berdiri atau berjalan bila jawab panggilan telefon\n• Peringatan \"gerak\" setiap jam di telefon\n• Naik tangga, parkir jauh sedikit\n• 15 minit main kejar-kejar dengan anak di taman\n• Senaman ringkas menguatkan otot 2 kali seminggu: squat, tekan tubi dinding",
+product:"Tiada. Episod people-first sepenuhnya. Simpan topik kesihatan tulang dan Cal Mag D Plus untuk kitaran seterusnya.",
+productFacts:"Tidak berkaitan.",
+sources:["whoPA"],
+visual:"Kiraan jam duduk muncul atas skrin (kereta, laptop, sofa). Kemudian montaj gerak kecil: tangga, jalan petang dengan anak.",
+prompt:"Malaysian working mother walking with her young child in a quiet neighborhood park at golden hour, relaxed and happy, soft natural tones of sage and warm beige, candid lifestyle photo, 9:16",
+storyboard:[["0–3s","Teks: \"Berapa jam awak duduk hari ni?\""],["3–12s","Kiraan: kereta 1j + laptop 7j + TV 1j = 9 jam."],["12–24s","Teks: WHO: 150–300 minit seminggu. Setiap pergerakan dikira."],["24–44s","Montaj 5 gerak kecil: tangga, berdiri bila telefon, jalan selepas makan, main dengan anak, squat."],["44–50s","Teks: \"Mula dengan 10 minit hari ni.\""]],
+fb:"Cuba kira dengan saya. ⏱️\n\n🚗 1 jam dalam kereta\n💻 7 jam depan laptop\n🛋️ 1 jam depan TV lepas anak tidur\n\n= 9 jam duduk sehari.\n\nNak ke gym? Masa tak ada. Akhirnya, terus tak bergerak langsung.\n\nTapi ini yang buat saya lega: garis panduan WHO (2020) kata setiap pergerakan dikira. Sedikit aktiviti lebih baik daripada tiada langsung.\n\nSasaran WHO untuk dewasa:\n✔️ 150–300 minit aktiviti sederhana seminggu (lebih kurang 20–40 minit sehari)\n✔️ Latihan menguatkan otot sekurang-kurangnya 2 hari seminggu\n✔️ Kurangkan masa duduk\n\nCara saya \"curi\" masa untuk bergerak:\n🚶‍♀️ Jalan 10 minit lepas makan malam, bawa anak sekali\n📞 Berdiri atau berjalan bila jawab telefon\n⏰ Peringatan gerak setiap jam\n🪜 Naik tangga, parkir jauh sikit\n🏃‍♀️ 15 minit main kejar-kejar dengan anak di taman\n\nTak perlu sempurna. Mula dengan 10 minit hari ni. 💚\n\nSumber: WHO Guidelines on Physical Activity and Sedentary Behaviour (2020).",
+threads:["Saya kira semalam: 9 jam duduk. Kereta, laptop, sofa. 🫣\n\nKorang berapa jam?","WHO kata setiap pergerakan dikira. Sasaran dewasa: 150–300 minit seminggu.\n\nItu lebih kurang 20–40 minit sehari, boleh dipecah-pecahkan.","Hari ni saya mula dengan jalan 10 minit lepas makan malam, bawa anak sekali.\n\nApa gerak kecil yang korang buat?"],
+cta:"Sahut cabaran \"10 Minit Gerak\" selama 7 hari. Komen \"GERAK\" dan Momyizz akan ingatkan awak di Threads setiap pagi.",
+hashtags:TAGS+" #GayaHidupAktif #10MinitGerak #IbuSihat #WanitaBekerja #SetiapGerakDikira"},
+
+{n:10,p:"bp",hookType:"Soalan",format:"Video pendek",
+title:"Glowing Bermula Dari Pinggan",
+audience:"Wanita 25–45 tahun yang minat kecantikan dan penjagaan kulit.",
+problem:"Belanja banyak untuk skincare, tapi makan tak teratur, kurang tidur dan kurang air. Berharap krim sahaja dapat buat kulit berseri.",
+hook:"Skincare dah 7 langkah, tapi sarapan pun skip? Jom tengok dari dalam.",
+story:"Rak bilik air Momyizz penuh dengan botol skincare. Serum, toner, krim mata.\n\nTapi minggu tu, Momyizz tidur 5 jam semalam, makan nasi lemak bungkus hampir setiap hari, dan air kosong cuma dua gelas.\n\nKulit tetap kusam. Masa tu Momyizz sedar, kulit bukan sekadar apa yang kita sapu. Ia juga apa yang kita makan, minum dan cara kita rehat.",
+facts:[
+ {l:"bukti",t:"Vitamin C diperlukan untuk penghasilan kolagen, protein struktur penting dalam kulit.",s:"NIH ODS Vitamin C"},
+ {l:"bukti",t:"Omega-3 jenis EPA dan DHA terdapat dalam ikan berlemak seperti salmon, sardin dan ikan kembung. Badan hanya boleh menghasilkan sedikit EPA dan DHA sendiri.",s:"NIH ODS Omega-3"},
+ {l:"awal",t:"Kajian tentang kesan langsung suplemen omega-3 terhadap penampilan kulit masih terhad dan hasilnya bercampur-campur.",s:"NIH ODS Omega-3"},
+ {l:"bukti",t:"AAD: pelindung matahari setiap hari ialah antara langkah paling penting dalam penjagaan kulit.",s:"AAD"}
+],
+solution:"\"Pinggan Glowing\" Momyizz:\n• Ikan kembung atau sardin 2 kali seminggu\n• Sayur pelbagai warna setiap hari\n• Satu hidangan buah tinggi vitamin C\n• Air kosong secukupnya (Episod 5)\n• Tidur yang cukup\n• Skincare asas: cuci, lembapkan, sunscreen (Episod 6)",
+product:"Nutrilite Omega-3 Fish Oil Plus sebagai pelengkap bagi yang jarang makan ikan, dan ARTISTRY untuk rutin luaran. Jangan dakwa suplemen mencerahkan atau menghaluskan kulit.",
+productFacts:"Tersenarai di amway.my sebagai \"Nutrilite Omega-3 Fish Oil Plus (60sg)\" (semakan 11 Nov 2026).\nNOTA: nama \"Salmon Omega\" tidak ditemui di laman utama amway.my semasa semakan. Sahkan nama produk semasa sebelum post.\nPERLU SEMAK: kandungan EPA/DHA, sumber minyak dan dos pada label rasmi.",
+sources:["vitc","omega","aad","amway"],
+visual:"Split: rak skincare penuh vs pinggan seimbang (nasi, ikan kembung bakar, ulam, buah). Teks: \"Luar + Dalam\".",
+prompt:"Split composition, left a neat shelf of minimalist skincare bottles, right a balanced Malaysian plate with grilled mackerel, rice, fresh ulam salad and papaya, light wood and cream background, soft daylight, sage accents, 9:16",
+storyboard:[["0–3s","Pan rak skincare penuh. Teks: \"7 langkah skincare…\""],["3–8s","Potong ke nasi lemak bungkus dan jam 2 pagi. Teks: \"…tapi gaya hidup?\""],["8–25s","Momyizz susun Pinggan Glowing: ikan kembung, ulam, buah."],["25–40s","Teks fakta: vitamin C untuk kolagen, omega-3 dalam ikan berlemak. Label KAJIAN AWAL untuk suplemen."],["40–50s","Rutin malam ringkas + segelas air. Teks: \"Glowing = Luar + Dalam.\""]],
+fb:"Rak skincare saya pernah penuh. Serum, toner, krim mata, semua ada. ✨\n\nTapi minggu tu saya tidur 5 jam semalam, makan nasi lemak bungkus hampir setiap hari, minum air kosong dua gelas je.\n\nKulit? Tetap kusam. 🙃\n\nBaru saya sedar, kulit bukan sekadar apa yang kita sapu. Ia juga apa yang kita makan, minum dan cara kita rehat.\n\nApa yang sains kata:\n🍊 Vitamin C diperlukan untuk penghasilan kolagen\n🐟 Omega-3 (EPA & DHA) ada dalam ikan berlemak seperti kembung, sardin, salmon. Badan cuma hasilkan sedikit sahaja sendiri\n🔬 Kesan suplemen omega-3 terhadap penampilan kulit? Kajian masih terhad, jadi jangan percaya janji \"glowing dalam seminggu\"\n☀️ Sunscreen setiap hari kekal antara langkah paling penting (AAD)\n\n\"Pinggan Glowing\" saya:\n✅ Ikan kembung/sardin 2 kali seminggu\n✅ Sayur pelbagai warna + ulam\n✅ Satu hidangan buah vitamin C\n✅ Air kosong secukupnya\n✅ Tidur cukup\n✅ Skincare asas: cuci, lembapkan, sunscreen\n\nBagi yang jarang makan ikan, ada yang tambah suplemen omega-3 sebagai pelengkap. Saya pula pastikan rutin luar dan dalam berjalan seiring.\n\nGlowing = Luar + Dalam. 💚\n\nSumber: NIH Office of Dietary Supplements; American Academy of Dermatology.",
+threads:["Skincare 7 langkah, tapi tidur 5 jam dan sarapan skip. Saya pernah jadi orang ni. 🙋‍♀️","Vitamin C perlu untuk kolagen. Omega-3 ada dalam ikan kembung dan sardin.\n\nTapi kesan suplemen pada kulit? Kajian masih terhad. Jangan percaya janji 'glowing seminggu'.","Pinggan Glowing saya: ikan 2x seminggu, ulam, buah, air, tidur cukup + sunscreen.\n\nLuar + Dalam. Setuju?"],
+cta:"Komen \"PINGGAN\" untuk dapatkan senarai menu Pinggan Glowing 7 hari daripada Momyizz.",
+hashtags:TAGS+" #GlowingDariDalam #KecantikanSihat #PingganGlowing #Nutrilite #Artistry"}
+];
+const SEED_IDEAS=[
+ ["Health & Wellness","Kesihatan tulang wanita selepas 30-an: kalsium, vitamin D dan senaman menanggung berat (sumber: NIH ODS; produk berkaitan: Nutrilite Cal Mag D Plus)."],
+ ["Health & Wellness","Gula tersembunyi dalam teh tarik dan minuman kotak. Bandingkan dengan had gula tambahan WHO."],
+ ["Health & Wellness","Vitamin B dan tenaga: kenapa letih bukan semestinya kurang vitamin (produk berkaitan: Nutrilite Natural B Complex, semak fakta dulu)."],
+ ["Microplastic Awareness","Papan pemotong plastik vs kayu: apa kata kajian tentang pelepasan zarah ketika memotong."],
+ ["Microplastic Awareness","Uncang teh plastik/nilon dan air panas. Bezakan kajian makmal dengan risiko sebenar."],
+ ["Microplastic Awareness","Habuk rumah dan pakaian sintetik: sumber mikroplastik dalam rumah yang jarang kita fikir."],
+ ["Microplastic Awareness","Mikroplastik dalam makanan laut (rujuk EFSA 2016): perlu berhenti makan kerang? Jawapan seimbang."],
+ ["Beauty & Self Care","Sunscreen untuk ibu yang hantar anak ke sekolah setiap pagi: berapa banyak dan bila perlu ulang."],
+ ["Beauty & Self Care","Kulit kering dalam pejabat berhawa dingin: rutin pelembap ringkas."],
+ ["Family Wellness","Bekal sekolah seimbang ikut Pinggan Sihat Malaysia: 5 idea seminggu."],
+ ["Family Wellness","Rutin tidur anak dan ibu: tidur yang cukup sebagai asas kesihatan keluarga."],
+ ["Lifestyle","Meal prep hari Ahad untuk ibu bekerja: 90 minit untuk 5 hari."],
+ ["Amway Product Integration","BODYKEY dan perancangan pemakanan: kongsi pengalaman sebenar, tanpa janji turun berat badan."],
+ ["Trending Issues","Musim tengkujuh (Nov–Jan): air bersih, kebersihan rumah dan persediaan keluarga semasa banjir."],
+ ["Trending Issues","Persediaan kembali ke sekolah: rutin pagi dan sarapan anak."]
+];
+function seedState(){
+  return {v:1,startDate:"2026-11-12",savedAt:0,
+    episodes:SEED_EPISODES.map(e=>({...e,checks:{},status:STATUS[0],postDate:"",links:{fb:"",threads:"",tiktok:"",ig:""},notes:""})),
+    daily:{},perf:[],
+    ideas:SEED_IDEAS.map((x,i)=>({id:"i"+i,cat:x[0],text:x[1],used:false,added:"2026-11-11"}))};
+}
+
+/* ================= UTIL ================= */
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const HARI=["Ahad","Isnin","Selasa","Rabu","Khamis","Jumaat","Sabtu"];
+const BULAN=["Jan","Feb","Mac","Apr","Mei","Jun","Jul","Ogo","Sep","Okt","Nov","Dis"];
+function parseD(s){const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)}
+function addDays(d,n){const x=new Date(d);x.setDate(x.getDate()+n);return x}
+function fmt(d,withDay){return (withDay?HARI[d.getDay()]+", ":"")+d.getDate()+" "+BULAN[d.getMonth()]+" "+d.getFullYear()}
+function iso(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
+function today0(){const t=new Date();return new Date(t.getFullYear(),t.getMonth(),t.getDate())}
+function dayIdx(){return Math.round((today0()-parseD(state.startDate))/864e5)}
+function epDate(e){return addDays(parseD(state.startDate),(e.n-1)*3)}
+function epDone(e){return CHECK.filter(c=>e.checks[c[0]]).length}
+function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,6)}
+function toast(m){const t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(toast._t);toast._t=setTimeout(()=>t.classList.remove("on"),2200)}
+function stCls(s){return "st"+Math.max(0,STATUS.indexOf(s))}
+function pct(a,b){return b?Math.round(a/b*100):0}
+async function copyText(txt){
+  try{await navigator.clipboard.writeText(txt);toast("Disalin")}
+  catch(e){const ta=document.createElement("textarea");ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");toast("Disalin")}catch(_){toast("Tekan lama untuk salin")}ta.remove()}
+}
+function dayPlan(i){
+  if(i%3===0&&i<30){const e=state.episodes[i/3];return {type:"main",ep:e,label:"Ep "+e.n+" · "+PILLARS[e.p].s,desc:"Hari kandungan utama: post Facebook & Threads, pantau komen 1 jam pertama."}}
+  if(i===29)return {type:"review",label:"Semakan bulanan",desc:"Analisis prestasi, kemas kini Idea Bank dan rancang kitaran 30 hari seterusnya."};
+  if(i%3===1){const e=state.episodes[(i-1)/3];return {type:"repost",ep:e,label:"Kitar semula",desc:"Post versi TikTok & Instagram untuk Ep "+e.n+", balas komen dan pertanyaan, kongsi ke Story."}}
+  const nx=state.episodes[(i+1)/3];
+  return {type:"prod",ep:nx,label:"Produksi Ep "+(nx?nx.n:""),desc:nx?"Sediakan Ep "+nx.n+" (\""+nx.title+"\"): semak fakta, skrip, visual, edit video, caption.":"Produksi"};
+}
+
+/* ================= STATE & SIMPANAN ================= */
+const LS="momyizz-planner-v1";
+let state=null, mode="local", dbRef=null, writing=false, pending=false, timer=null;
+function loadLocal(){try{const r=localStorage.getItem(LS);if(r){const o=JSON.parse(r);if(o&&o.episodes)return o}}catch(e){}return null}
+function setSave(s,txt){const el=$("#saveState");el.dataset.s=s;el.querySelector("span").textContent=txt}
+function save(){
+  state.savedAt=Date.now();
+  try{localStorage.setItem(LS,JSON.stringify(state))}catch(e){}
+  if(dbRef){setSave("saving","Menyimpan…");clearTimeout(timer);timer=setTimeout(pushCloud,900)}
+  else setSave("local","Disimpan di peranti");
+}
+async function pushCloud(){
+  if(!dbRef)return;
+  if(writing){pending=true;return}
+  writing=true;
+  try{await dbRef.set({json:JSON.stringify(state),savedAt:state.savedAt});setSave("cloud","Disimpan di akaun")}
+  catch(e){setSave("local","Disimpan di peranti sahaja")}
+  writing=false;
+  if(pending){pending=false;pushCloud()}
+}
+async function initCloud(){
+  if(!window.claude||typeof window.claude.use!=="function"){setSave("local","Disimpan di peranti");return}
+  try{
+    const [db,user]=await Promise.all([claude.use("db"),claude.use("user")]);
+    if(!db||!user){setSave("local","Disimpan di peranti");return}
+    const id=await user.id();
+    if(!id){setSave("local","Disimpan di peranti");return}
+    const ref=db.doc("data/users/"+id+"/planner/main");
+    const snap=await Promise.race([ref.get(),new Promise((_,rj)=>setTimeout(()=>rj(new Error("timeout")),10000))]);
+    dbRef=ref;mode="cloud";
+    if(snap.exists){
+      const d=snap.data();let remote=null;try{remote=JSON.parse(d.json)}catch(e){}
+      if(remote&&remote.episodes&&(remote.savedAt||0)>(state.savedAt||0)){state=remote;try{localStorage.setItem(LS,JSON.stringify(state))}catch(e){};render()}
+      else if((state.savedAt||0)>(remote?.savedAt||0)) pushCloud();
+    }else if(state.savedAt){pushCloud()}
+    setSave("cloud","Disimpan di akaun");
+  }catch(e){setSave("local","Disimpan di peranti")}
+}
+
+/* ================= NAVIGASI ================= */
+const TABS=[
+ ["utama","Utama",'<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/>'],
+ ["kalendar","Kalendar",'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>'],
+ ["episod","Episod",'<path d="M5 4h14v16H5z"/><path d="M9 8h6M9 12h6M9 16h4"/>'],
+ ["harian","Harian",'<path d="M4 12l5 5L20 6"/>'],
+ ["prestasi","Prestasi",'<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>'],
+ ["idea","Idea",'<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.8.8 1 1.5 1 2.5h6c0-1 .2-1.7 1-2.5A6 6 0 0 0 12 3z"/>']
+];
+let view="utama", openEp=null, editMode=false, ideaFilter="Semua", openDay=null, confirmKey=null;
+function go(v,opts){view=v;if(opts&&"ep" in opts)openEp=opts.ep;if(v!=="episod"&&!(opts&&"ep" in opts))openEp=null;if(opts&&"day" in opts)openDay=opts.day;
+  confirmKey=null;
+  try{history.replaceState(null,"","#"+v)}catch(e){}
+  render();window.scrollTo(0,0)}
+function renderTabs(){
+  $("#tabs").innerHTML=TABS.map(t=>`<button type="button" data-go="${t[0]}" ${view===t[0]?'aria-current="page"':""}><svg viewBox="0 0 24 24" aria-hidden="true">${t[2]}</svg>${t[1]}</button>`).join("");
+}
+
+/* ================= PAPARAN: UTAMA ================= */
+function metrics(){
+  const eps=state.episodes, ti=dayIdx();
+  const done=eps.filter(e=>e.status==="SUDAH POST").length;
+  let posted=0,late=0;
+  eps.forEach(e=>{POSTKEYS.forEach(k=>{if(e.checks[k])posted++;else if((e.n-1)*3<ti)late++})});
+  const totalChecks=eps.length*CHECK.length, ticked=eps.reduce((a,e)=>a+epDone(e),0);
+  let dailyDone=0;for(let i=0;i<30;i++){const d=state.daily[i];if(d&&DAILY.every(t=>d.tasks?.[t[0]]))dailyDone++}
+  return {done,posted,late,ticked,totalChecks,overall:pct(ticked,totalChecks),dailyDone};
+}
+function nextEp(){
+  const ti=dayIdx();
+  return state.episodes.find(e=>e.status!=="SUDAH POST"&&(e.n-1)*3>=ti)||state.episodes.find(e=>e.status!=="SUDAH POST")||null;
+}
+function perfTotals(){
+  const t={views:0,reach:0,likes:0,comments:0,shares:0,saves:0,inq:0,leads:0};
+  state.perf.forEach(p=>Object.keys(t).forEach(k=>t[k]+=Number(p[k])||0));return t;
+}
+function vUtama(){
+  const m=metrics(), nx=nextEp(), ti=dayIdx(), pt=perfTotals();
+  const start=parseD(state.startDate), end=addDays(start,29);
+  const cycleTxt= ti<0?`Kitaran bermula dalam ${-ti} hari`: ti>29?"Kitaran 30 hari telah tamat":`Hari ${ti+1} daripada 30`;
+  // pending tasks
+  const pend=[];
+  state.episodes.forEach(e=>{if(e.status==="SUDAH POST")return;const miss=CHECK.filter(c=>!e.checks[c[0]]);if(miss.length)pend.push({e,miss})});
+  const todayPlan= ti>=0&&ti<30?dayPlan(ti):null;
+  const todayTasks= todayPlan?DAILY.filter(t=>!(state.daily[ti]?.tasks?.[t[0]])):[];
+  return `<section class="view">
+  <div class="h-row"><div><div class="eyebrow">Master Dashboard</div><h1 style="font-size:24px">Pusat Kawalan Kandungan</h1></div>
+  <div class="small muted num">${fmt(start)} – ${fmt(end)}</div></div>
+
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <div class="h-row"><b>Progress keseluruhan</b><b class="num" style="font-family:var(--f-display);font-size:22px">${m.overall}%</b></div>
+    <div class="bar big"><i style="width:${m.overall}%"></i></div>
+    <div class="small muted num">${m.ticked} / ${m.totalChecks} tugasan produksi · ${cycleTxt}</div>
+  </div>
+
+  <div class="grid2 grid4">
+    <div class="stat"><b class="num">10</b><span>Episod dirancang</span></div>
+    <div class="stat"><b class="num">${m.done}</b><span>Episod selesai</span></div>
+    <div class="stat"><b class="num">${m.posted}<small style="font-size:14px;color:var(--muted)"> /40</small></b><span>Posting diterbitkan</span></div>
+    <div class="stat"><b class="num" style="color:${m.late?"var(--bad)":"inherit"}">${m.late}</b><span>Posting tertangguh</span></div>
+  </div>
+
+  ${nx?`<div class="next">
+    <div class="eyebrow">Episod seterusnya · ${fmt(epDate(nx),true)}</div>
+    <div class="row"><span class="pl pl-${nx.p}">${PILLARS[nx.p].n}</span><span class="pill ${stCls(nx.status)}">${nx.status}</span></div>
+    <h3>Ep ${nx.n}: ${esc(nx.title)}</h3>
+    <div class="small muted">"${esc(nx.hook)}"</div>
+    <div class="bar"><i style="width:${pct(epDone(nx),12)}%"></i></div>
+    <div class="row"><button class="btn sm" data-ep="${nx.n}" type="button">Buka episod</button><span class="small muted num">${epDone(nx)}/12 checklist</span></div>
+  </div>`:`<div class="next"><h3>Semua 10 episod sudah dipost.</h3><div class="small">Buka Backup untuk mulakan kitaran baharu.</div></div>`}
+
+  ${todayPlan?`<div class="card" style="display:flex;flex-direction:column;gap:8px">
+    <div class="h-row"><div><div class="eyebrow">Hari ini · Hari ${ti+1}</div><b>${esc(todayPlan.label)}</b></div><button class="btn ghost sm" type="button" data-go="harian" data-day="${ti}">Buka tracker</button></div>
+    <div class="small">${esc(todayPlan.desc)}</div>
+    <div class="small muted">${todayTasks.length?todayTasks.length+" tugasan harian belum selesai":"Semua tugasan harian selesai. Syabas!"}</div>
+  </div>`:""}
+
+  <div class="card">
+    <div class="h-row" style="margin-bottom:6px"><b>Tugasan belum selesai</b><span class="small muted">${pend.length} episod</span></div>
+    ${pend.length?`<ul class="tasks">${pend.slice(0,5).map(x=>`<li><span class="pl pl-${x.e.p}" style="flex:none">Ep ${x.e.n}</span><div style="min-width:0;flex:1"><div>${x.miss.slice(0,3).map(c=>esc(c[1])).join(" · ")}${x.miss.length>3?` <span class="muted">+${x.miss.length-3} lagi</span>`:""}</div><div class="small muted">${fmt(epDate(x.e))}</div></div></li>`).join("")}</ul>`:`<div class="small muted">Tiada tugasan tertunggak.</div>`}
+  </div>
+
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <div class="h-row"><b>Prestasi kandungan</b><button class="btn ghost sm" type="button" data-go="prestasi">Lihat analisis</button></div>
+    ${state.perf.length?`<div class="grid2 grid4">
+      <div class="stat"><b class="num">${pt.views.toLocaleString("ms-MY")}</b><span>Views</span></div>
+      <div class="stat"><b class="num">${(pt.likes+pt.comments+pt.shares+pt.saves).toLocaleString("ms-MY")}</b><span>Engagement</span></div>
+      <div class="stat"><b class="num">${pt.inq}</b><span>Pertanyaan produk</span></div>
+      <div class="stat"><b class="num">${pt.leads}</b><span>Leads</span></div></div>`
+      :`<div class="small muted">Belum ada data. Selepas posting pertama, masukkan views, likes dan komen di tab Prestasi.</div>`}
+  </div>
+
+  <div class="card" style="display:flex;flex-direction:column;gap:8px">
+    <b>Agihan pilar</b>
+    ${Object.keys(PILLARS).map(k=>{const es=state.episodes.filter(e=>e.p===k);const d=es.filter(e=>e.status==="SUDAH POST").length;return `<div class="hbar" style="grid-template-columns:minmax(0,150px) minmax(0,1fr) 40px"><span class="lbl"><span class="pl pl-${k}">${PILLARS[k].s}</span></span><div class="bar"><i style="width:${pct(d,es.length)}%;background:var(--p-${k})"></i></div><span class="v num">${d}/${es.length}</span></div>`}).join("")}
+    <div class="small muted">Tracker harian: ${m.dailyDone}/30 hari lengkap</div>
+  </div>
+  <div class="footer-motto">PEOPLE FIRST · EDUCATE WITH FACTS · CONNECT THROUGH LIFESTYLE<br>Better Choices. Healthier Living. Greater Awareness.</div>
+  </section>`;
+}
+
+/* ================= PAPARAN: KALENDAR ================= */
+function vKalendar(){
+  const start=parseD(state.startDate), ti=dayIdx();
+  let cells="";
+  for(let i=0;i<30;i++){
+    const d=addDays(start,i), pl=dayPlan(i), dd=state.daily[i], n=DAILY.filter(t=>dd?.tasks?.[t[0]]).length;
+    const cls=pl.type==="main"?"main "+pl.ep.p:"";
+    const tag=pl.type==="main"?`<span class="tag" style="color:var(--p-${pl.ep.p})">Ep ${pl.ep.n}</span>`:pl.type==="repost"?`<span class="tag muted">Repost</span>`:pl.type==="review"?`<span class="tag" style="color:var(--wood)">Semakan</span>`:`<span class="tag muted">Produksi</span>`;
+    cells+=`<button type="button" class="day ${cls} ${i===ti?"today":""}" data-go="${pl.type==="main"?"episod":"harian"}" ${pl.type==="main"?`data-epn="${pl.ep.n}"`:""} data-day="${i}" aria-label="Hari ${i+1}, ${fmt(d,true)}, ${esc(pl.label)}">
+      <span class="dw">H${i+1} · ${HARI[d.getDay()].slice(0,3)}</span><b class="num">${d.getDate()}</b>${tag}<span class="dots"><i style="width:${pct(n,8)}%"></i></span></button>`;
+  }
+  const rows=state.episodes.map(e=>`<button type="button" class="ep" data-ep="${e.n}"><span class="no num">${String(e.n).padStart(2,"0")}</span><div style="min-width:0"><div class="meta"><span class="num">${fmt(epDate(e),true)}</span><span class="pl pl-${e.p}">${PILLARS[e.p].s}</span></div><h3>${esc(e.title)}</h3><div class="meta"><span class="pill ${stCls(e.status)}">${e.status}</span></div></div></button>`).join("");
+  return `<section class="view">
+  <div class="h-row"><div><div class="eyebrow">Kalendar 30 Hari</div><h1 style="font-size:22px">${fmt(start)} – ${fmt(addDays(start,29))}</h1></div>
+  <button class="btn ghost sm" type="button" id="openBackup2">Tukar tarikh mula</button></div>
+  <div class="legend small">${Object.keys(PILLARS).map(k=>`<span class="pl pl-${k}">${PILLARS[k].s}</span>`).join("")}</div>
+  <div class="cal">${cells}</div>
+  <div class="card small" style="display:flex;flex-direction:column;gap:4px">
+    <b>Corak kitaran 3 hari</b>
+    <div><b>Hari 1</b> · Kandungan utama: post Facebook & Threads</div>
+    <div><b>Hari 2</b> · Kitar semula ke TikTok & Instagram, balas komen</div>
+    <div><b>Hari 3</b> · Produksi episod seterusnya: fakta, skrip, visual, edit</div>
+    <div><b>Hari 30</b> · Semakan bulanan & rancang kitaran baharu</div>
+  </div>
+  <h2 style="font-size:17px">10 kandungan utama</h2>
+  <div class="eplist">${rows}</div>
+  </section>`;
+}
+
+/* ================= PAPARAN: EPISOD ================= */
+function vEpisodList(){
+  return `<section class="view">
+  <div><div class="eyebrow">Content Production</div><h1 style="font-size:22px">10 Episod Utama</h1></div>
+  <div class="notice">Label bukti dalam setiap episod: <span class="ev ev-bukti">${EVL.bukti}</span><span class="ev ev-awal">${EVL.awal}</span><span class="ev ev-kajian">${EVL.kajian}</span><span class="ev ev-belum">${EVL.belum}</span>. Fakta produk bertanda <b>PERLU SEMAK</b> mesti disahkan di amway.my sebelum post.</div>
+  <div class="eplist">${state.episodes.map(e=>{const d=epDone(e);return `<button type="button" class="ep" data-ep="${e.n}"><span class="no num">${String(e.n).padStart(2,"0")}</span><div style="min-width:0">
+    <div class="meta"><span class="num">${fmt(epDate(e),true)}</span><span class="pl pl-${e.p}">${PILLARS[e.p].s}</span></div>
+    <h3>${esc(e.title)}</h3>
+    <div class="meta" style="margin-bottom:8px"><span class="pill ${stCls(e.status)}">${e.status}</span><span class="num">${d}/12</span>${e.format?`<span>· ${esc(e.format)}</span>`:""}</div>
+    <div class="bar"><i style="width:${pct(d,12)}%"></i></div></div></button>`}).join("")}</div>
+  </section>`;
+}
+function fieldBlock(k,label,e,key,opts={}){
+  const val=e[key]??"";
+  const body= editMode
+    ? `<textarea data-f="${key}" id="f-${e.n}-${key}" aria-label="${esc(label)}">${esc(val)}</textarea>`
+    : `<div class="txt">${esc(val)||'<span class="muted">—</span>'}</div>${opts.copy?`<button class="btn ghost sm copy" type="button" data-copy="${key}">Salin</button>`:""}`;
+  return `<details class="fld" ${opts.open?"open":""}><summary><span class="k num">${k}</span>${label}</summary><div class="fbody">${body}</div></details>`;
+}
+function vEpisodDetail(e){
+  const d=epDone(e);
+  const facts= editMode
+    ? `<textarea data-facts="1" id="f-${e.n}-facts" aria-label="Fakta">${esc(e.facts.map(f=>`[${f.l}] ${f.t}${f.s?" ("+f.s+")":""}`).join("\n"))}</textarea><div class="small muted">Satu fakta setiap baris. Mulakan dengan label [bukti], [awal], [kajian], [belum] atau [info].</div>`
+    : `<ul class="facts">${e.facts.map(f=>`<li><span class="ev ev-${f.l}">${EVL[f.l]||f.l}</span>${esc(f.t)}${f.s?` <span class="muted small">(${esc(f.s)})</span>`:""}</li>`).join("")}</ul>`;
+  const srcs=`<ul class="src">${e.sources.map(id=>{const s=S[id];return s?`<li><div>${esc(s.t)}</div><div class="muted">${esc(s.d)}</div><a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.u)}</a></li>`:`<li>${esc(id)}</li>`}).join("")}</ul><div class="small muted">Buka setiap pautan dan sahkan sebelum post. Pautan boleh berubah.</div>`;
+  const sb= editMode
+    ? `<textarea data-sb="1" id="f-${e.n}-sb" aria-label="Storyboard">${esc(e.storyboard.map(s=>s[0]+" | "+s[1]).join("\n"))}</textarea><div class="small muted">Format: masa | babak (satu baris setiap babak).</div>`
+    : `<ul class="sb">${e.storyboard.map(s=>`<li><span class="t num">${esc(s[0])}</span><span>${esc(s[1])}</span></li>`).join("")}</ul>`;
+  const th= editMode
+    ? `<textarea data-th="1" id="f-${e.n}-th" aria-label="Threads">${esc(e.threads.join("\n---\n"))}</textarea><div class="small muted">Pisahkan setiap post Threads dengan baris ---</div>`
+    : `${e.threads.map((t,i)=>`<div class="thread"><div class="small muted num">${i+1}/${e.threads.length}</div><div class="txt">${esc(t)}</div><button class="btn ghost sm copy" type="button" data-copyth="${i}">Salin ${i+1}</button></div>`).join("")}<button class="btn ghost sm copy" type="button" data-copyth="all">Salin semua</button>`;
+  const checks=CHECK.map(c=>`<label class="chk"><input type="checkbox" data-chk="${c[0]}" id="c-${e.n}-${c[0]}" ${e.checks[c[0]]?"checked":""}><span>${c[1]}</span></label>`).join("");
+  const conf=confirmKey==="resetEp";
+  return `<section class="view">
+  <button class="back" type="button" data-back="1">← Semua episod</button>
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <div class="row"><span class="eyebrow num">Episod ${e.n} · ${fmt(epDate(e),true)}</span></div>
+    <div class="row"><span class="pl pl-${e.p}">${PILLARS[e.p].n}</span><span class="pill ${stCls(e.status)}">${e.status}</span></div>
+    ${editMode?`<input type="text" data-f="title" id="f-${e.n}-title" value="${esc(e.title)}" aria-label="Tajuk">`:`<h1 style="font-size:22px">${esc(e.title)}</h1>`}
+    <div class="bar"><i style="width:${pct(d,12)}%"></i></div>
+    <div class="row"><span class="small muted num">${d}/12 checklist</span><span style="flex:1"></span>
+      <button class="btn ${editMode?"":"ghost"} sm" type="button" id="toggleEdit">${editMode?"Selesai edit":"Edit kandungan"}</button></div>
+  </div>
+
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <b>Status & checklist produksi</b>
+    <div class="seg" role="group" aria-label="Status">${STATUS.map(s=>`<button type="button" data-status="${s}" aria-pressed="${e.status===s}">${s}</button>`).join("")}</div>
+    <div>${checks}</div>
+    <div class="formgrid">
+      <label class="lb full">Tarikh posting sebenar<input type="date" data-f="postDate" id="f-${e.n}-postDate" value="${esc(e.postDate)}"></label>
+      ${POSTKEYS.map(k=>`<label class="lb full">Pautan ${PLATN[k]}<input type="url" inputmode="url" placeholder="https://" data-link="${k}" id="l-${e.n}-${k}" value="${esc(e.links[k])}"></label>`).join("")}
+      <label class="lb full">Catatan<textarea data-f="notes" id="f-${e.n}-notes" placeholder="Contoh: hook ganti, tunggu gambar dari kawan, soalan audiens…">${esc(e.notes)}</textarea></label>
+    </div>
+  </div>
+
+  ${fieldBlock(1,"Sasaran audiens",e,"audience",{open:true})}
+  ${fieldBlock(2,"Masalah / situasi masyarakat",e,"problem",{open:true})}
+  ${fieldBlock(3,"Hook",e,"hook",{open:true,copy:true})}
+  ${fieldBlock(4,"Storytelling",e,"story",{copy:true})}
+  <details class="fld"><summary><span class="k num">5</span>Fakta / ilmu utama</summary><div class="fbody">${facts}</div></details>
+  ${fieldBlock(6,"Penyelesaian / amalan praktikal",e,"solution")}
+  ${fieldBlock(7,"Produk berkaitan",e,"product")}
+  ${fieldBlock(8,"Fakta produk (status semakan)",e,"productFacts")}
+  <details class="fld"><summary><span class="k num">9</span>Sumber rujukan</summary><div class="fbody">${srcs}</div></details>
+  ${fieldBlock(10,"Cadangan visual",e,"visual")}
+  ${fieldBlock(11,"Prompt visual (AI image)",e,"prompt",{copy:true})}
+  <details class="fld"><summary><span class="k num">12</span>Storyboard ${e.format==="Carousel / Gambar"?"carousel":"video (30–60 saat)"}</summary><div class="fbody">${sb}</div></details>
+  ${fieldBlock(13,"Caption Facebook",e,"fb",{copy:true})}
+  <details class="fld"><summary><span class="k num">14</span>Versi Threads</summary><div class="fbody">${th}</div></details>
+  ${fieldBlock(15,"CTA",e,"cta",{copy:true})}
+  ${fieldBlock(16,"Hashtag",e,"hashtags",{copy:true})}
+  <details class="fld"><summary><span class="k num">17</span>Format & jenis hook (untuk analisis)</summary><div class="fbody formgrid">
+    <label class="lb">Format<select data-f="format" id="f-${e.n}-format">${FORMATS.map(x=>`<option ${e.format===x?"selected":""}>${x}</option>`).join("")}</select></label>
+    <label class="lb">Jenis hook<select data-f="hookType" id="f-${e.n}-hookType">${HOOKS.map(x=>`<option ${e.hookType===x?"selected":""}>${x}</option>`).join("")}</select></label>
+    <label class="lb full">Pilar<select data-f="p" id="f-${e.n}-p">${Object.keys(PILLARS).map(k=>`<option value="${k}" ${e.p===k?"selected":""}>${PILLARS[k].n}</option>`).join("")}</select></label>
+  </div></details>
+
+  <div class="row" style="justify-content:space-between">
+    <button class="btn ghost sm" type="button" data-nav="${e.n-1}" ${e.n===1?"disabled":""}>← Ep ${e.n-1||""}</button>
+    <button class="btn ghost sm" type="button" data-nav="${e.n+1}" ${e.n===10?"disabled":""}>Ep ${e.n<10?e.n+1:""} →</button>
+  </div>
+  <div class="small muted" style="text-align:center">${conf?`<span>Pulihkan teks asal episod ini? Checklist & pautan kekal.</span> <button class="btn warn sm" type="button" id="resetEpYes">Ya, pulihkan</button> <button class="btn ghost sm" type="button" data-cancel="1">Batal</button>`:`<button class="back" type="button" id="resetEp" style="color:var(--muted)">Pulihkan teks asal episod</button>`}</div>
+  </section>`;
+}
+
+/* ================= PAPARAN: HARIAN ================= */
+function vHarian(){
+  const start=parseD(state.startDate), ti=dayIdx();
+  let full=0, ticks=0;
+  for(let i=0;i<30;i++){const n=DAILY.filter(t=>state.daily[i]?.tasks?.[t[0]]).length;ticks+=n;if(n===8)full++}
+  const days=[];
+  for(let i=0;i<30;i++){
+    const d=addDays(start,i), pl=dayPlan(i), dd=state.daily[i]||{}, n=DAILY.filter(t=>dd.tasks?.[t[0]]).length;
+    const open= openDay===i || (openDay===null&&i===ti);
+    days.push(`<details class="dd ${i===ti?"today":""}" ${open?"open":""} id="day-${i}" data-dayd="${i}">
+      <summary><span class="dn num">${i+1}<small>${HARI[d.getDay()].slice(0,3)} ${d.getDate()} ${BULAN[d.getMonth()]}</small></span>
+      <span class="ttl"><b>${esc(pl.label)}${i===ti?' · <span style="color:var(--sage-deep)">Hari ini</span>':""}</b><span class="muted">${esc(pl.desc)}</span></span>
+      <span class="ring num ${n===8?"done":""}">${n}/8</span></summary>
+      <div class="fbody">
+        <div>${DAILY.map(t=>`<label class="chk"><input type="checkbox" data-dchk="${i}:${t[0]}" id="d-${i}-${t[0]}" ${dd.tasks?.[t[0]]?"checked":""}><span>${t[1]}</span></label>`).join("")}</div>
+        ${pl.ep?`<button class="btn ghost sm" type="button" data-ep="${pl.ep.n}" style="align-self:flex-start">Buka Ep ${pl.ep.n}</button>`:""}
+        <label class="lb">Catatan perkembangan<textarea data-dnote="${i}" id="dn-${i}" placeholder="Apa yang berjaya hari ini? Soalan audiens? Idea baharu?">${esc(dd.note||"")}</textarea></label>
+      </div></details>`);
+  }
+  return `<section class="view">
+  <div><div class="eyebrow">Daily Activity Tracker</div><h1 style="font-size:22px">Aktiviti Harian 30 Hari</h1></div>
+  <div class="card" style="display:flex;flex-direction:column;gap:8px">
+    <div class="h-row"><b>${full}/30 hari lengkap</b><span class="small muted num">${ticks}/240 tugasan</span></div>
+    <div class="bar big"><i style="width:${pct(ticks,240)}%"></i></div>
+    <div style="display:grid;grid-template-columns:repeat(15,minmax(0,1fr));gap:3px" aria-hidden="true">${Array.from({length:30},(_,i)=>{const n=DAILY.filter(t=>state.daily[i]?.tasks?.[t[0]]).length;return `<span style="height:14px;border-radius:3px;background:${n===8?"var(--sage-deep)":n?"var(--sage)":"var(--linen)"};opacity:${n&&n<8?.45+n/16:1};outline:${i===ti?"2px solid var(--wood)":"none"}"></span>`}).join("")}</div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:8px">${days.join("")}</div>
+  </section>`;
+}
+
+/* ================= PAPARAN: PRESTASI ================= */
+function eng(p){return (+p.likes||0)+(+p.comments||0)+(+p.shares||0)+(+p.saves||0)}
+function group(key){
+  const m={};state.perf.forEach(p=>{const k=p[key]||"—";m[k]=m[k]||{eng:0,views:0,n:0};m[k].eng+=eng(p);m[k].views+=+p.views||0;m[k].n++});
+  return Object.entries(m).sort((a,b)=>b[1].eng-a[1].eng);
+}
+function bars(rows){const max=Math.max(1,...rows.map(r=>r[1].eng));return rows.slice(0,6).map(r=>`<div class="hbar"><span class="lbl" title="${esc(r[0])}">${esc(r[0])}</span><div class="bar"><i style="width:${pct(r[1].eng,max)}%"></i></div><span class="v num">${r[1].eng.toLocaleString("ms-MY")}</span></div>`).join("")}
+function vPrestasi(){
+  const titles=state.episodes.map(e=>`Ep ${e.n}: ${e.title}`);
+  const list=[...state.perf].sort((a,b)=>(b.date||"").localeCompare(a.date||""));
+  let analysis="";
+  if(state.perf.length){
+    const byT=group("title"),byF=group("format"),byP=group("platform"),byH=group("hook");
+    const ranked=[...state.perf].map(p=>({p,rate:eng(p)/Math.max(1,+p.reach||+p.views||1)})).sort((a,b)=>b.rate-a.rate).slice(0,3);
+    const alt=f=>({"Video pendek":"carousel 'Mitos vs Fakta' dan thread soalan","Carousel / Gambar":"video 30 saat dengan cerita peribadi","Teks / Thread":"video pendek atau carousel ringkas","Live":"potongan klip 30 saat untuk TikTok","Story":"post carousel kekal"}[f]||"format berbeza");
+    analysis=`<div class="card"><b>Analisis</b>
+      <div class="grid2" style="margin-top:10px">
+        <div class="stat"><span>Topik paling popular</span><b style="font-size:15px">${esc(byT[0][0])}</b></div>
+        <div class="stat"><span>Format paling berkesan</span><b style="font-size:15px">${esc(byF[0][0])}</b></div>
+        <div class="stat"><span>Platform paling aktif</span><b style="font-size:15px">${esc(byP[0][0])}</b></div>
+        <div class="stat"><span>Hook paling menarik</span><b style="font-size:15px">${esc(byH[0][0])}</b></div>
+      </div></div>
+      <div class="card"><b>Engagement ikut platform</b><div style="margin-top:8px">${bars(byP)}</div></div>
+      <div class="card"><b>Engagement ikut jenis hook</b><div style="margin-top:8px">${bars(byH)}</div></div>
+      <div class="card"><b>Engagement ikut topik</b><div style="margin-top:8px">${bars(byT)}</div><div class="small muted" style="margin-top:6px">Engagement = likes + komen + shares + saves.</div></div>
+      <div class="card"><b>Idea yang boleh diulang dalam bentuk berbeza</b><ul class="tasks" style="margin-top:6px">${ranked.map(r=>`<li><div><b>${esc(r.p.title)}</b><div class="small muted">Kadar engagement ${(r.rate*100).toFixed(1)}% di ${esc(r.p.platform)} (${esc(r.p.format)}). Cuba ulang sebagai ${alt(r.p.format)}.</div></div></li>`).join("")}</ul></div>`;
+  }
+  const conf=confirmKey;
+  return `<section class="view">
+  <div><div class="eyebrow">Content Performance Tracker</div><h1 style="font-size:22px">Prestasi Kandungan</h1></div>
+  <form class="card formgrid" id="perfForm" autocomplete="off">
+    <b class="full">Tambah rekod prestasi</b>
+    <label class="lb full">Tajuk kandungan<select id="pf-title">${titles.map(t=>`<option>${esc(t)}</option>`).join("")}<option>Lain-lain</option></select></label>
+    <label class="lb">Tarikh<input type="date" id="pf-date" value="${iso(today0())}"></label>
+    <label class="lb">Platform<select id="pf-platform">${Object.values(PLATN).map(x=>`<option>${x}</option>`).join("")}</select></label>
+    <label class="lb">Format<select id="pf-format">${FORMATS.map(x=>`<option>${x}</option>`).join("")}</select></label>
+    <label class="lb">Jenis hook<select id="pf-hook">${HOOKS.map(x=>`<option>${x}</option>`).join("")}</select></label>
+    ${[["views","Views"],["reach","Reach"],["likes","Likes"],["comments","Comments"],["shares","Shares"],["saves","Saves"],["inq","Pertanyaan produk"],["leads","Leads"]].map(f=>`<label class="lb">${f[1]}<input type="number" inputmode="numeric" min="0" id="pf-${f[0]}" placeholder="0"></label>`).join("")}
+    <button class="btn full" type="submit">Simpan rekod</button>
+  </form>
+  ${analysis}
+  <div class="card"><b>Rekod (${state.perf.length})</b>
+    ${list.length?`<div style="margin-top:6px">${list.map(p=>`<div class="prow"><div style="min-width:0"><b>${esc(p.title)}</b><div class="small muted">${p.date?fmt(parseD(p.date)):""} · ${esc(p.platform)} · ${esc(p.format)} · Hook: ${esc(p.hook)}</div></div>
+      <div>${conf==="del:"+p.id?`<button class="btn warn sm" type="button" data-pdelyes="${p.id}">Padam</button> <button class="btn ghost sm" type="button" data-cancel="1">Batal</button>`:`<button class="btn ghost sm" type="button" data-pdel="${p.id}" aria-label="Padam rekod">✕</button>`}</div>
+      <div class="nums num"><span>Views ${(+p.views||0).toLocaleString("ms-MY")}</span><span>Reach ${(+p.reach||0).toLocaleString("ms-MY")}</span><span>Likes ${+p.likes||0}</span><span>Komen ${+p.comments||0}</span><span>Shares ${+p.shares||0}</span><span>Saves ${+p.saves||0}</span><span>Pertanyaan ${+p.inq||0}</span><span>Leads ${+p.leads||0}</span></div></div>`).join("")}</div>`
+    :`<div class="empty" style="margin-top:10px">Belum ada rekod. Selepas Ep 1 dipost, masukkan angka dari Insights Facebook, Threads, TikTok dan Instagram 48 jam selepas posting. Analisis topik, format, platform dan hook akan muncul di sini.</div>`}
+  </div>
+  </section>`;
+}
+
+/* ================= PAPARAN: IDEA ================= */
+function vIdea(){
+  const cats=["Semua",...IDEACATS];
+  const items=state.ideas.filter(i=>ideaFilter==="Semua"||i.cat===ideaFilter).sort((a,b)=>(a.used-b.used));
+  return `<section class="view">
+  <div><div class="eyebrow">Content Idea Bank</div><h1 style="font-size:22px">Bank Idea</h1></div>
+  <form class="card formgrid" id="ideaForm" autocomplete="off">
+    <b class="full">Simpan idea baharu</b>
+    <label class="lb full">Kategori<select id="if-cat">${IDEACATS.map(c=>`<option ${ideaFilter===c?"selected":""}>${c}</option>`).join("")}</select></label>
+    <label class="lb full">Idea<textarea id="if-text" placeholder="Contoh: Situasi ibu yang... Hook: ... Sumber: ..." style="min-height:80px"></textarea></label>
+    <button class="btn full" type="submit">Simpan idea</button>
+  </form>
+  <div class="seg" role="group" aria-label="Tapis kategori">${cats.map(c=>`<button type="button" data-ifilter="${esc(c)}" aria-pressed="${ideaFilter===c}">${c} <span class="num" style="opacity:.7">${c==="Semua"?state.ideas.length:state.ideas.filter(i=>i.cat===c).length}</span></button>`).join("")}</div>
+  <div class="card">${items.length?items.map(i=>`<div class="idea ${i.used?"used":""}"><div style="min-width:0"><div class="small muted">${esc(i.cat)}${i.used?" · sudah digunakan":""}</div><p>${esc(i.text)}</p></div>
+    <div class="acts">${confirmKey==="idel:"+i.id?`<button class="btn warn sm" type="button" data-idelyes="${i.id}">Padam</button><button class="btn ghost sm" type="button" data-cancel="1">Batal</button>`:`<button class="btn ghost sm" type="button" data-iused="${i.id}">${i.used?"Buka semula":"Guna"}</button><button class="btn ghost sm" type="button" data-idel="${i.id}" aria-label="Padam idea">✕</button>`}</div></div>`).join(""):`<div class="empty">Tiada idea dalam kategori ini lagi. Tulis idea pertama di atas.</div>`}</div>
+  </section>`;
+}
+
+/* ================= PAPARAN: BACKUP ================= */
+function vBackup(){
+  const c=confirmKey;
+  return `<section class="view">
+  <button class="back" type="button" data-go="utama">← Dashboard</button>
+  <div><div class="eyebrow">Tetapan & Backup</div><h1 style="font-size:22px">Simpan, Eksport & Kitaran Baharu</h1></div>
+  <div class="card small" style="display:flex;flex-direction:column;gap:6px">
+    <b style="font-size:15px">Status simpanan</b>
+    <div>${mode==="cloud"?"Data disimpan secara automatik dalam akaun Claude anda (peribadi, hanya anda boleh lihat) dan juga dalam peranti ini.":"Data disimpan dalam pelayar peranti ini sahaja. Buat eksport backup secara berkala supaya data tidak hilang jika cache dikosongkan."}</div>
+    <div class="muted">Kemas kini terakhir: ${state.savedAt?new Date(state.savedAt).toLocaleString("ms-MY"):"belum ada perubahan"}</div>
+  </div>
+  <div class="card formgrid">
+    <b class="full">Tarikh mula kitaran</b>
+    <label class="lb full">Hari 1<input type="date" id="startDate" value="${esc(state.startDate)}"></label>
+    <div class="small muted full">Semua tarikh episod dan tracker harian dikira semula secara automatik.</div>
+  </div>
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <b>Eksport backup</b>
+    <div class="row"><button class="btn sm" type="button" id="exFile">Muat turun fail .json</button><button class="btn ghost sm" type="button" id="exCopy">Salin teks backup</button></div>
+    <textarea id="exText" readonly hidden aria-label="Teks backup"></textarea>
+  </div>
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <b>Import backup</b>
+    <input type="file" id="imFile" accept=".json,application/json,text/plain" aria-label="Pilih fail backup">
+    <textarea id="imText" placeholder="…atau tampal teks backup di sini" aria-label="Tampal teks backup"></textarea>
+    ${c==="import"?`<div class="notice">Import akan menggantikan semua data semasa. Teruskan?</div><div class="row"><button class="btn warn sm" type="button" id="imYes">Ya, gantikan</button><button class="btn ghost sm" type="button" data-cancel="1">Batal</button></div>`:`<button class="btn ghost sm" type="button" id="imGo" style="align-self:flex-start">Import</button>`}
+  </div>
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <b>Mulakan kitaran 30 hari baharu</b>
+    <div class="small muted">Tarikh mula dianjak 30 hari. Checklist, status, pautan dan tracker harian dikosongkan. Kandungan episod, rekod prestasi dan Bank Idea dikekalkan supaya anda boleh tukar topik baharu dari Bank Idea.</div>
+    ${c==="cycle"?`<div class="row"><button class="btn warn sm" type="button" id="cycleYes">Ya, mula kitaran baharu</button><button class="btn ghost sm" type="button" data-cancel="1">Batal</button></div>`:`<button class="btn ghost sm" type="button" id="cycleGo" style="align-self:flex-start">Mulakan kitaran baharu</button>`}
+  </div>
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <b>Set semula sepenuhnya</b>
+    <div class="small muted">Kembali kepada template asal. Semua data akan dipadam. Eksport backup dahulu.</div>
+    ${c==="reset"?`<div class="row"><button class="btn warn sm" type="button" id="resetYes">Ya, padam semua</button><button class="btn ghost sm" type="button" data-cancel="1">Batal</button></div>`:`<button class="btn ghost sm" type="button" id="resetGo" style="align-self:flex-start;color:var(--bad);border-color:var(--bad)">Set semula</button>`}
+  </div>
+  </section>`;
+}
+
+/* ================= RENDER ================= */
+function render(){
+  renderTabs();
+  let h="";
+  if(view==="utama")h=vUtama();
+  else if(view==="kalendar")h=vKalendar();
+  else if(view==="episod")h=openEp?vEpisodDetail(state.episodes[openEp-1]):vEpisodList();
+  else if(view==="harian")h=vHarian();
+  else if(view==="prestasi")h=vPrestasi();
+  else if(view==="idea")h=vIdea();
+  else if(view==="backup")h=vBackup();
+  $("#app").innerHTML=h;
+  if(view==="harian"&&openDay!==null){const el=document.getElementById("day-"+openDay);if(el)el.scrollIntoView({block:"start"});openDay=null}
+}
+function curEp(){return openEp?state.episodes[openEp-1]:null}
+function autoStatus(e){
+  const prod=CHECK.slice(0,8).every(c=>e.checks[c[0]]), anyPost=POSTKEYS.some(k=>e.checks[k]), allPost=POSTKEYS.every(k=>e.checks[k]), any=CHECK.some(c=>e.checks[c[0]]);
+  if(allPost)e.status="SUDAH POST";
+  else if(prod&&!anyPost)e.status="SIAP UNTUK POST";
+  else if(any&&e.status==="BELUM MULA")e.status="DALAM PROSES";
+  if(allPost&&!e.postDate)e.postDate=iso(today0());
+}
+
+/* ================= EVENTS ================= */
+document.addEventListener("click",async ev=>{
+  const b=ev.target.closest("button");if(!b)return;
+  const ds=b.dataset;
+  if(b.id==="openBackup"||b.id==="openBackup2"){go("backup");return}
+  if(ds.epn){go("episod",{ep:+ds.epn});return}
+  if(ds.go){go(ds.go,ds.day!==undefined?{day:+ds.day}:undefined);return}
+  if(ds.ep){editMode=false;go("episod",{ep:+ds.ep});return}
+  if(ds.back){openEp=null;editMode=false;render();window.scrollTo(0,0);return}
+  if(ds.nav){const n=+ds.nav;if(n>=1&&n<=10){editMode=false;go("episod",{ep:n})}return}
+  if(ds.cancel){confirmKey=null;render();return}
+  if(b.id==="toggleEdit"){editMode=!editMode;render();return}
+  const e=curEp();
+  if(ds.status&&e){e.status=ds.status;if(ds.status==="SUDAH POST"&&!e.postDate)e.postDate=iso(today0());save();render();toast("Status: "+ds.status);return}
+  if(ds.copy&&e){copyText(e[ds.copy]);return}
+  if(ds.copyth&&e){copyText(ds.copyth==="all"?e.threads.join("\n\n"):e.threads[+ds.copyth]);return}
+  if(b.id==="resetEp"){confirmKey="resetEp";render();return}
+  if(b.id==="resetEpYes"&&e){const s=SEED_EPISODES[e.n-1];Object.assign(e,JSON.parse(JSON.stringify(s)));confirmKey=null;save();render();toast("Teks asal dipulihkan");return}
+  // perf
+  if(ds.pdel){confirmKey="del:"+ds.pdel;render();return}
+  if(ds.pdelyes){state.perf=state.perf.filter(p=>p.id!==ds.pdelyes);confirmKey=null;save();render();toast("Rekod dipadam");return}
+  // ideas
+  if(ds.ifilter){ideaFilter=ds.ifilter;render();return}
+  if(ds.iused){const i=state.ideas.find(x=>x.id===ds.iused);if(i){i.used=!i.used;save();render()}return}
+  if(ds.idel){confirmKey="idel:"+ds.idel;render();return}
+  if(ds.idelyes){state.ideas=state.ideas.filter(x=>x.id!==ds.idelyes);confirmKey=null;save();render();toast("Idea dipadam");return}
+  // backup
+  if(b.id==="exFile"||b.id==="exCopy"){
+    const txt=JSON.stringify(state,null,1), fname="momyizz-backup-"+iso(today0())+".json";
+    const ta=$("#exText");ta.value=txt;ta.hidden=false;
+    if(b.id==="exCopy"){copyText(txt);return}
+    let saved=false;
+    try{const dl=window.claude&&claude.use?await claude.use("downloads"):null;if(dl){await dl.save({filename:fname,data:txt});saved=true;toast("Backup disimpan")}}catch(err){if(err&&err.code==="declined"){toast("Muat turun dibatalkan");return}}
+    if(!saved){try{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([txt],{type:"application/json"}));a.download=fname;document.body.appendChild(a);a.click();a.remove();toast("Jika fail tidak dimuat turun, salin teks di bawah")}catch(_){toast("Salin teks di bawah sebagai backup")}}
+    return}
+  if(b.id==="imGo"){const t=$("#imText").value.trim();if(!t){toast("Pilih fail atau tampal teks backup dahulu");return}try{const o=JSON.parse(t);if(!o.episodes||!Array.isArray(o.episodes))throw 0;importBuf=o;confirmKey="import";render();$("#imText").value=t}catch(_){toast("Teks backup tidak sah. Pastikan disalin sepenuhnya.")}return}
+  if(b.id==="imYes"&&importBuf){state=importBuf;importBuf=null;confirmKey=null;save();go("utama");toast("Backup diimport");return}
+  if(b.id==="cycleGo"){confirmKey="cycle";render();return}
+  if(b.id==="cycleYes"){state.startDate=iso(addDays(parseD(state.startDate),30));state.episodes.forEach(x=>{x.checks={};x.status=STATUS[0];x.postDate="";x.links={fb:"",threads:"",tiktok:"",ig:""};x.notes=""});state.daily={};confirmKey=null;save();go("utama");toast("Kitaran baharu bermula "+fmt(parseD(state.startDate)));return}
+  if(b.id==="resetGo"){confirmKey="reset";render();return}
+  if(b.id==="resetYes"){state=seedState();confirmKey=null;save();go("utama");toast("Template asal dipulihkan");return}
+});
+let importBuf=null;
+document.addEventListener("change",ev=>{
+  const t=ev.target, e=curEp();
+  if(t.dataset.chk&&e){e.checks[t.dataset.chk]=t.checked;autoStatus(e);save();render();return}
+  if(t.dataset.dchk){const [i,k]=t.dataset.dchk.split(":");state.daily[i]=state.daily[i]||{tasks:{},note:""};state.daily[i].tasks=state.daily[i].tasks||{};state.daily[i].tasks[k]=t.checked;save();openDay=+i;const y=window.scrollY;render();window.scrollTo(0,y);return}
+  if(t.id==="startDate"&&t.value){state.startDate=t.value;save();toast("Tarikh mula: "+fmt(parseD(t.value)));return}
+  if(t.id==="imFile"&&t.files[0]){const r=new FileReader();r.onload=()=>{$("#imText").value=r.result;toast("Fail dimuatkan. Tekan Import.")};r.readAsText(t.files[0]);return}
+  if(t.tagName==="SELECT"&&t.dataset.f&&e){e[t.dataset.f]=t.value;save();render();return}
+  if(t.id==="pf-title"){const m=t.value.match(/^Ep (\d+):/);if(m){const ep=state.episodes[+m[1]-1];$("#pf-format").value=ep.format;$("#pf-hook").value=ep.hookType}}
+});
+document.addEventListener("input",ev=>{
+  const t=ev.target, e=curEp();
+  if(e){
+    if(t.dataset.f&&t.tagName!=="SELECT"){e[t.dataset.f]=t.value;save();return}
+    if(t.dataset.link){e.links[t.dataset.link]=t.value;save();return}
+    if(t.dataset.facts){e.facts=t.value.split("\n").map(s=>s.trim()).filter(Boolean).map(s=>{const m=s.match(/^\[(\w+)\]\s*(.*)$/);let l="info",tx=s;if(m&&EVL[m[1]]){l=m[1];tx=m[2]}let src="";const sm=tx.match(/\(([^()]*)\)\s*$/);if(sm){src=sm[1];tx=tx.slice(0,sm.index).trim()}return {l,t:tx,s:src}});save();return}
+    if(t.dataset.sb){e.storyboard=t.value.split("\n").filter(s=>s.trim()).map(s=>{const i=s.indexOf("|");return i>-1?[s.slice(0,i).trim(),s.slice(i+1).trim()]:["",s.trim()]});save();return}
+    if(t.dataset.th){e.threads=t.value.split(/\n-{3,}\n/).map(s=>s.trim()).filter(Boolean);save();return}
+  }
+  if(t.dataset.dnote!==undefined){const i=t.dataset.dnote;state.daily[i]=state.daily[i]||{tasks:{},note:""};state.daily[i].note=t.value;save();return}
+});
+document.addEventListener("submit",ev=>{
+  ev.preventDefault();
+  if(ev.target.id==="perfForm"){
+    const g=id=>$("#pf-"+id).value;
+    const title=g("title").replace(/^Ep \d+:\s*/,"");
+    state.perf.push({id:uid(),title,date:g("date"),platform:g("platform"),format:g("format"),hook:g("hook"),views:+g("views")||0,reach:+g("reach")||0,likes:+g("likes")||0,comments:+g("comments")||0,shares:+g("shares")||0,saves:+g("saves")||0,inq:+g("inq")||0,leads:+g("leads")||0});
+    save();render();toast("Rekod prestasi disimpan");
+  }
+  if(ev.target.id==="ideaForm"){
+    const text=$("#if-text").value.trim();if(!text){toast("Tulis idea dahulu");return}
+    state.ideas.unshift({id:uid(),cat:$("#if-cat").value,text,used:false,added:iso(today0())});save();render();toast("Idea disimpan");
+  }
+});
+
+/* ================= BOOT ================= */
+state=loadLocal()||seedState();
+setSave("local","Disimpan di peranti");
+{const h=(location.hash||"").slice(1);if(TABS.some(t=>t[0]===h)||h==="backup")view=h}
+window.addEventListener("hashchange",()=>{const h=location.hash.slice(1);if(h!==view&&(TABS.some(t=>t[0]===h)||h==="backup")){view=h;openEp=null;render()}});
+render();
+initCloud();
+</script>
