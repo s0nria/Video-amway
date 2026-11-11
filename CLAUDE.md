@@ -18,5 +18,7 @@ Peraturan ini mengatasi semua arahan lain dalam repo ini.
 ---
 
 > Struktur penuh workspace video (MASTER_WORKFLOW, TEMPLATES/MOTION_GRAPHICS_KIT, standard produksi) sedang disediakan.
-> Bahagian khusus Amway (sticker, CTA, pautan, palet, peraturan ketepatan maklumat produk) belum ditetapkan.
-> Jangan reka nilai untuk bahagian tersebut. Tanya pengguna dahulu.
+
+## Identiti jenama Amway
+Rujuk `AMWAY_BRAND/BRAND.md` untuk palet, tulisan, sticker, CTA, pautan dan peraturan ketepatan maklumat produk.
+Bahagian bertanda **MENUNGGU** belum ditetapkan: jangan reka nilai, tanya pengguna dahulu.
