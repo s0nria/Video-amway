@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kit Grafik Momyizz</title>
+<link rel="stylesheet" href="tokens.css">
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--linen); font-family: var(--font-badan); color: var(--dakwat); padding: 24px 16px; }
+  h1 { font-family: var(--font-tajuk); font-weight: 700; text-align: center; margin-bottom: 4px; }
+  p.sub { text-align: center; margin-bottom: 20px; font-size: 14px; }
+  .grid { display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; }
+  .frame { width: 324px; }  /* 1080 x 0.3 */
+  .frame h2 { font-family: var(--font-tajuk); font-size: 16px; margin-bottom: 6px; }
+  .wrap { width: 324px; height: 576px; overflow: hidden; border-radius: 12px; box-shadow: var(--bayang); }
+  .canvas { width: 1080px; height: 1920px; transform: scale(0.3); transform-origin: 0 0; position: relative;
+            background: linear-gradient(160deg, var(--sage-lembut), var(--krim)); }
+  .safe { position: absolute; top: var(--safe-atas); left: var(--safe-kiri); right: var(--safe-kanan); bottom: var(--safe-bawah);
+          border: 4px dashed rgba(166,91,75,.55); pointer-events: none; }
+  .box { background: var(--kertas); border-radius: var(--jejari); box-shadow: var(--bayang); position: absolute; left: 100px; width: 800px; padding: 40px 48px; }
+  .hook { top: 260px; font-family: var(--font-tajuk); font-weight: 700; font-size: 100px; line-height: 1.1; }
+  .hook em { font-style: normal; color: var(--kayu); }
+  .cap { top: 1220px; padding: 20px 32px; font-size: 56px; line-height: 1.2; text-align: center; border-radius: 24px; }
+  .big { position: absolute; top: 760px; left: var(--safe-kiri); right: var(--safe-kanan); text-align: center; font-family: var(--font-tajuk); font-weight: 700; font-size: 150px; color: var(--kayu); }
+  .fakta { top: 480px; padding-top: 52px; border-top: 12px solid var(--pilar-mikroplastik); }
+  .fakta .t { font-family: var(--font-tajuk); font-weight: 600; font-size: 44px; color: var(--pilar-mikroplastik); margin: 20px 0 12px; }
+  .fakta .i { font-size: 48px; line-height: 1.25; }
+  .fakta .s { font-size: 28px; color: var(--sage-gelap); margin-top: 20px; }
+  .pil { display: inline-block; height: 64px; line-height: 64px; padding: 0 28px; border-radius: 999px; color: var(--kertas);
+         font-family: var(--font-tajuk); font-weight: 600; font-size: 32px; }
+  .check { top: 420px; background: var(--sage-lembut); }
+  .check div { font-size: 46px; display: flex; align-items: center; gap: 24px; margin: 18px 0; }
+  .check b { width: 64px; height: 64px; border-radius: 50%; background: var(--sage); color: var(--kertas); display: grid; place-items: center; font-size: 38px; flex: none; }
+  .cta { top: 960px; border: 6px solid var(--sage-gelap); text-align: center; }
+  .cta .a { font-size: 48px; }
+  .cta .b { font-family: var(--font-tajuk); font-weight: 700; font-size: 72px; color: var(--sage-gelap); }
+  .pen { position: absolute; top: 1110px; left: 100px; background: rgba(251,249,244,.85); border-radius: 16px; padding: 10px 20px; font-size: 32px; }
+  .tangan { position: absolute; top: 700px; left: 560px; font-family: var(--font-tangan); font-weight: 700; font-size: 64px; color: var(--sage-gelap); transform: rotate(-6deg); }
+  .stk { position: absolute; top: 330px; left: 300px; width: 420px; height: auto; }
+  @media (prefers-color-scheme: dark) { body { background: #2a2b25; color: var(--krim); } }
+</style>
+</head>
+<body>
+<h1>Kit Grafik Momyizz</h1>
+<p class="sub">Kanvas 1080 × 1920 (dipapar 30%). Garis putus merah = safe zone (CADANGAN).</p>
+<div class="grid">
+
+  <div class="frame"><h2>HOOK + SARI_KATA</h2><div class="wrap"><div class="canvas">
+    <div class="box hook">Anak tak nak <em>sarapan</em>?</div>
+    <div class="box cap">Saya pun pernah lalui benda ni setiap pagi.</div>
+    <div class="safe"></div></div></div></div>
+
+  <div class="frame"><h2>BIG_WORD + NOTA_TANGAN</h2><div class="wrap"><div class="canvas">
+    <div class="big">Rupanya…</div>
+    <div class="tangan">← betul ke?</div>
+    <div class="safe"></div></div></div></div>
+
+  <div class="frame"><h2>KAD_FAKTA + LABEL_BUKTI</h2><div class="wrap"><div class="canvas">
+    <div class="box fakta">
+      <span class="pil" style="background:var(--bukti-kajian-awal)">Kajian awal</span>
+      <div class="t">Mikroplastik</div>
+      <div class="i">[Contoh teks fakta. Ganti dengan fakta bersumber.]</div>
+      <div class="s">Sumber: [nama, tahun]</div>
+    </div>
+    <div class="pen">Perkongsian ilmu umum. Bukan nasihat perubatan.</div>
+    <div class="safe"></div></div></div></div>
+
+  <div class="frame"><h2>CHECKLIST</h2><div class="wrap"><div class="canvas">
+    <div class="box check">
+      <div><b>✓</b>Tip pertama</div><div><b>✓</b>Tip kedua</div><div><b>✓</b>Tip ketiga</div>
+    </div>
+    <div class="safe"></div></div></div></div>
+
+  <div class="frame"><h2>CTA + STICKER + PENAFIAN</h2><div class="wrap"><div class="canvas">
+    <img class="stk" src="../../AMWAY_BRAND/STICKERS/02-blazer-tunjuk-bawah.png" alt="Sticker Momyizz tunjuk ke bawah">
+    <div class="box cta"><div class="a">Nak dapatkan produk?</div><div class="b">Klik LINK di Bio</div></div>
+    <div class="pen" style="top:1340px">Perkongsian ilmu umum. Bukan nasihat perubatan.</div>
+    <div class="safe"></div></div></div></div>
+
+  <div class="frame"><h2>Label bukti</h2><div class="wrap"><div class="canvas" style="display:flex;flex-direction:column;gap:40px;padding:300px 120px">
+    <span class="pil" style="background:var(--bukti-terbukti);align-self:flex-start">Terbukti</span>
+    <span class="pil" style="background:var(--bukti-kajian-awal);align-self:flex-start">Kajian awal</span>
+    <span class="pil" style="background:var(--bukti-belum-cukup);align-self:flex-start">Bukti belum cukup</span>
+    <span class="pil" style="background:var(--bukti-masih-dikaji);align-self:flex-start">Masih dikaji</span>
+    <div class="safe"></div></div></div></div>
+
+</div>
+</body>
+</html>

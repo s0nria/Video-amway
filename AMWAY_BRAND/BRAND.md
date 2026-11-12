@@ -17,7 +17,10 @@ Ikut tema worksheet Momyizz (MUJI-inspired modern wellness).
 | Kayu (coklat cair) | `#A3876A` | Big words, label penekanan |
 
 Warna pilar kandungan: Kesihatan `#5C7A58` · Mikroplastik `#557F7A` · Keluarga `#9E7F5C` · Kecantikan `#AE8578`.
-Warna label bukti: Terbukti `#4E7347` · Kajian awal `#B07C3A` · Bukti belum cukup `#A65B4B`.
+Warna label bukti: Terbukti `#4E7347` · Kajian awal `#B07C3A` · Masih dikaji `#557F7A` · Bukti belum cukup `#A65B4B`.
+("Masih dikaji" ikut warna yang sudah dipakai dalam worksheet.)
+
+**Kelonggaran warna — DISAHKAN:** Asas jenama ialah gaya MUJI: hijau gelap, ivory, coklat cair dan gelap. Kalau video perlukan suasana lebih terang, trendy, ceria atau menarik, warna tambahan boleh digunakan. Syaratnya: teks mesti jelas dibaca, dan warna label bukti mesti kekal sama supaya maksudnya tidak keliru.
 
 ## Tulisan (font) — DISAHKAN: Pilihan A
 | Peranan | Font | Nota |
