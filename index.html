@@ -838,6 +838,18 @@ function fieldBlock(k,label,e,key,opts={}){
     : `<div class="txt">${esc(val)||'<span class="muted">—</span>'}</div>${opts.copy?`<button class="btn ghost sm copy" type="button" data-copy="${key}">Salin</button>`:""}`;
   return `<details class="fld" ${opts.open?"open":""}><summary><span class="k num">${k}</span>${label}</summary><div class="fbody">${body}</div></details>`;
 }
+function packText(e,what){
+  const facts=e.facts.map(f=>`- [${EVL[f.l]||f.l}] ${f.t}${f.s?" (Sumber: "+f.s+")":""}`).join("\n");
+  const sb=e.storyboard.map(x=>`${x[0]}${x[0]?" | ":""}${x[1]}`).join("\n");
+  if(what==="facts")return facts;
+  if(what==="sb")return sb;
+  return [`EPISOD ${e.n}: ${e.title}`,`Pilar: ${PILLARS[e.p].n}`,"",
+    "HOOK:",e.hook,"","STORYTELLING:",e.story,"","FAKTA (label bukti):",facts,"",
+    "PENYELESAIAN / AMALAN:",e.solution||"","",(e.product?"PRODUK:\n"+e.product+"\n\n":""),
+    "STORYBOARD (masa | babak):",sb,"","CADANGAN VISUAL:",e.visual||"","","PROMPT VISUAL (AI):",e.prompt||"","",
+    "CTA:","Nak dapatkan produk? Klik LINK di Bio","",
+    "PENAFIAN (wajib di skrin ≥ 3 s):","Perkongsian ilmu umum. Bukan nasihat perubatan."].join("\n").replace(/\n{3,}/g,"\n\n");
+}
 function vEpisodDetail(e){
   const d=epDone(e);
   const facts= editMode
@@ -874,18 +886,24 @@ function vEpisodDetail(e){
     </div>
   </div>
 
+  <div class="card" style="display:flex;flex-direction:column;gap:8px">
+    <b>Salin untuk edit video</b>
+    <div class="small muted">Hook, storytelling, fakta berlabel, storyboard, prompt visual, CTA dan penafian dalam satu teks. Tampal dalam Flow, CapCut (Script / Teks), Notes atau Claude.</div>
+    <button class="btn sm" type="button" data-copypack="all" style="align-self:flex-start">Salin pakej penuh episod</button>
+  </div>
+
   ${fieldBlock(1,"Sasaran audiens",e,"audience",{open:true})}
   ${fieldBlock(2,"Masalah / situasi masyarakat",e,"problem",{open:true})}
   ${fieldBlock(3,"Hook",e,"hook",{open:true,copy:true})}
   ${fieldBlock(4,"Storytelling",e,"story",{copy:true})}
-  <details class="fld"><summary><span class="k num">5</span>Fakta / ilmu utama</summary><div class="fbody">${facts}</div></details>
+  <details class="fld"><summary><span class="k num">5</span>Fakta / ilmu utama</summary><div class="fbody">${facts}${editMode?"":`<button class="btn ghost sm copy" type="button" data-copypack="facts">Salin</button>`}</div></details>
   ${fieldBlock(6,"Penyelesaian / amalan praktikal",e,"solution")}
   ${fieldBlock(7,"Produk berkaitan",e,"product")}
   ${fieldBlock(8,"Fakta produk (status semakan)",e,"productFacts")}
   <details class="fld"><summary><span class="k num">9</span>Sumber rujukan</summary><div class="fbody">${srcs}</div></details>
   ${fieldBlock(10,"Cadangan visual",e,"visual")}
   ${fieldBlock(11,"Prompt visual (AI image)",e,"prompt",{copy:true})}
-  <details class="fld"><summary><span class="k num">12</span>Storyboard ${e.format==="Carousel / Gambar"?"carousel":"video (30–60 saat)"}</summary><div class="fbody">${sb}</div></details>
+  <details class="fld"><summary><span class="k num">12</span>Storyboard ${e.format==="Carousel / Gambar"?"carousel":"video (45 / 60 / 90 saat)"}</summary><div class="fbody">${sb}${editMode?"":`<button class="btn ghost sm copy" type="button" data-copypack="sb">Salin</button>`}</div></details>
   ${fieldBlock(13,"Caption Facebook",e,"fb",{copy:true})}
   <details class="fld"><summary><span class="k num">14</span>Versi Threads</summary><div class="fbody">${th}</div></details>
   ${fieldBlock(15,"CTA",e,"cta",{copy:true})}
@@ -1109,6 +1127,7 @@ document.addEventListener("click",async ev=>{
   const e=curEp();
   if(ds.status&&e){e.status=ds.status;if(ds.status==="SUDAH POST"&&!e.postDate)e.postDate=iso(today0());save();render();toast("Status: "+ds.status);return}
   if(ds.copy&&e){copyText(e[ds.copy]);return}
+  if(ds.copypack&&e){copyText(packText(e,ds.copypack));return}
   if(ds.copyth&&e){copyText(ds.copyth==="all"?e.threads.join("\n\n"):e.threads[+ds.copyth]);return}
   if(b.id==="resetEp"){confirmKey="resetEp";render();return}
   if(b.id==="resetEpYes"&&e){const s=SEED_EPISODES[e.n-1];Object.assign(e,JSON.parse(JSON.stringify(s)));confirmKey=null;save();render();toast("Teks asal dipulihkan");return}
