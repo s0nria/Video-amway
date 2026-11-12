@@ -135,6 +135,12 @@ label.lb{font-size:12px;color:var(--muted);font-weight:600;display:flex;flex-dir
 .copy{align-self:flex-start}
 .thread{border-left:3px solid var(--linen);padding-left:12px;display:flex;flex-direction:column;gap:6px}
 .notice{background:var(--wood-soft);border-radius:10px;padding:10px 12px;font-size:13px}
+.rslot{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;min-height:48px}
+.rslot input[type=checkbox]{width:22px;height:22px;accent-color:var(--sage-deep);flex:none}
+.rslot b{font-variant-numeric:tabular-nums}
+.rslot.late{border-color:var(--bad);color:var(--bad)}
+.rslot.ok{opacity:.65}
+.rslot.ok span{text-decoration:line-through}
 .seg{display:flex;gap:6px;flex-wrap:wrap}
 .seg button{border:1px solid var(--line);background:var(--paper);border-radius:99px;min-height:36px;padding:0 12px;font-size:13px}
 .seg button[aria-pressed="true"]{background:var(--sage-deep);border-color:var(--sage-deep);color:var(--paper)}
@@ -601,6 +607,72 @@ async function gdPush(){
 document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="hidden"&&gdTimer)gdPush()});
 window.addEventListener("online",()=>{if(gdOn()&&(state.savedAt||0)>(gd.savedAt||0))gdPush()});
 
+/* ================= PERINGATAN 3 VIDEO SEHARI ================= */
+const REM_LBL=["Video pagi","Video tengah hari","Video malam"];
+function rem(){if(!state.rem||!Array.isArray(state.rem.times))state.rem={times:["08:30","12:30","20:30"],done:{}};state.rem.done=state.rem.done||{};return state.rem}
+function remToday(){const r=rem(),k=iso(today0());return r.done[k]||[false,false,false]}
+function remAt(t){const [h,m]=t.split(":").map(Number);const d=today0();d.setHours(h,m,0,0);return d}
+function remLate(i){return !remToday()[i]&&new Date()>=remAt(rem().times[i])}
+function remSlotsHtml(){
+  const r=rem(),dn=remToday();
+  return r.times.map((t,i)=>`<label class="rslot ${dn[i]?"ok":remLate(i)?"late":""}"><input type="checkbox" data-rchk="${i}" ${dn[i]?"checked":""}><b>${esc(t)}</b><span>${REM_LBL[i]}${!dn[i]&&remLate(i)?" · belum siap":""}</span></label>`).join("");
+}
+function gcalLink(i){
+  const r=rem(),t=r.times[i].replace(":",""),d=iso(addDays(today0(),1)).replace(/-/g,"");
+  const [h,m]=r.times[i].split(":").map(Number),e=new Date(2000,0,1,h,m+15),te=String(e.getHours()).padStart(2,"0")+String(e.getMinutes()).padStart(2,"0");
+  const q=new URLSearchParams({action:"TEMPLATE",text:"Momyizz: "+REM_LBL[i],details:"Masa untuk "+REM_LBL[i].toLowerCase()+" (3 video sehari). Buka worksheet Momyizz dan tandakan bila siap.",dates:`${d}T${t}00/${d}T${te}00`,ctz:"Asia/Kuala_Lumpur",recur:"RRULE:FREQ=DAILY"});
+  return "https://calendar.google.com/calendar/render?"+q.toString();
+}
+function remIcs(){
+  const r=rem(),pad=n=>String(n).padStart(2,"0"),now=new Date();
+  const utc=d=>d.getUTCFullYear()+pad(d.getUTCMonth()+1)+pad(d.getUTCDate())+"T"+pad(d.getUTCHours())+pad(d.getUTCMinutes())+"00Z";
+  const L=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Momyizz//Planner//MS","CALSCALE:GREGORIAN"];
+  r.times.forEach((t,i)=>{const st=addDays(remAt(t),1),en=new Date(st.getTime()+15*6e4);
+    L.push("BEGIN:VEVENT","UID:momyizz-video-"+(i+1)+"-"+now.getTime()+"@planner","DTSTAMP:"+utc(now),"DTSTART:"+utc(st),"DTEND:"+utc(en),"RRULE:FREQ=DAILY",
+      "SUMMARY:Momyizz: "+REM_LBL[i],"DESCRIPTION:Masa untuk "+REM_LBL[i].toLowerCase()+" (3 video sehari).",
+      "BEGIN:VALARM","ACTION:DISPLAY","DESCRIPTION:Momyizz: "+REM_LBL[i],"TRIGGER:PT0M","END:VALARM","END:VEVENT")});
+  L.push("END:VCALENDAR");return L.join("\r\n")+"\r\n";
+}
+let remNotified={};
+function remTick(){
+  const r=rem(),k=iso(today0()),now=new Date();
+  r.times.forEach((t,i)=>{const at=remAt(t),id=k+":"+i;
+    if(!remToday()[i]&&now>=at&&now-at<10*6e4&&!remNotified[id]){remNotified[id]=1;toast("Peringatan: "+REM_LBL[i]+" ("+t+")");
+      try{if("Notification" in window&&Notification.permission==="granted")new Notification("Momyizz: "+REM_LBL[i],{body:"Masa untuk buat/post video. Tandakan dalam worksheet bila siap."})}catch(_){}}});
+  if(view==="utama"||view==="peringatan"){const el=document.getElementById("remSlots");if(el)el.innerHTML=remSlotsHtml()}
+}
+function vPeringatan(){
+  const r=rem(),np="Notification" in window?Notification.permission:"unsupported";
+  return `<section class="view">
+  <button class="back" type="button" data-go="utama">← Dashboard</button>
+  <div><div class="eyebrow">Peringatan</div><h1 style="font-size:22px">3 Video Sehari</h1></div>
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <b>Hari ini</b>
+    <div id="remSlots" style="display:flex;flex-direction:column;gap:8px">${remSlotsHtml()}</div>
+    <div class="small muted">Tandakan bila video siap. Slot yang lewat dan belum ditanda akan jadi merah di Dashboard.</div>
+  </div>
+  <div class="card formgrid">
+    <b class="full">Masa peringatan</b>
+    ${r.times.map((t,i)=>`<label class="lb full">${REM_LBL[i]}<input type="time" data-rtime="${i}" value="${esc(t)}"></label>`).join("")}
+    <div class="small muted full">Selepas tukar masa, tambah semula ke kalendar telefon di bawah supaya alarm ikut masa baharu.</div>
+  </div>
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <b>Alarm di telefon (paling boleh dipercayai)</b>
+    <div class="small">Worksheet ini hanya boleh beri peringatan semasa ia dibuka. Supaya telefon berbunyi walaupun worksheet ditutup, masukkan peringatan ke kalendar telefon. Ia berulang setiap hari bermula esok.</div>
+    <div class="small muted"><b>Android (Google Calendar):</b> tekan setiap butang, kemudian tekan <b>Save</b>.</div>
+    <div class="row">${r.times.map((t,i)=>`<a class="btn ghost sm" style="display:inline-flex;align-items:center;text-decoration:none" href="${esc(gcalLink(i))}" target="_blank" rel="noopener">+ ${esc(t)}</a>`).join("")}</div>
+    <div class="small muted"><b>iPhone / Samsung Calendar:</b> muat turun satu fail untuk ketiga-tiga masa, buka fail itu, kemudian tekan <b>Add All</b>.</div>
+    <button class="btn sm" type="button" id="remIcs" style="align-self:flex-start">Muat turun fail kalendar (.ics)</button>
+    <div class="small muted">Cara paling mudah juga: buka app <b>Jam / Clock</b> dan set 3 alarm harian pada ${r.times.map(esc).join(", ")}.</div>
+  </div>
+  <div class="card" style="display:flex;flex-direction:column;gap:10px">
+    <b>Notifikasi worksheet</b>
+    <div class="small">${np==="granted"?"Notifikasi dihidupkan. Anda akan dapat notifikasi semasa worksheet dibuka.":np==="denied"?"Notifikasi disekat oleh pelayar. Benarkan dalam tetapan pelayar jika mahu.":np==="unsupported"?"Pelayar ini tidak menyokong notifikasi. Guna alarm kalendar di atas.":"Hidupkan supaya worksheet beri notifikasi pada masa yang ditetapkan, semasa ia dibuka."}</div>
+    ${np==="default"?`<button class="btn ghost sm" type="button" id="remNotif" style="align-self:flex-start">Hidupkan notifikasi</button>`:""}
+  </div>
+  </section>`;
+}
+
 /* ================= NAVIGASI ================= */
 const TABS=[
  ["utama","Utama",'<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/>'],
@@ -661,6 +733,11 @@ function vUtama(){
     <div class="stat"><b class="num">${m.done}</b><span>Episod selesai</span></div>
     <div class="stat"><b class="num">${m.posted}<small style="font-size:14px;color:var(--muted)"> /40</small></b><span>Posting diterbitkan</span></div>
     <div class="stat"><b class="num" style="color:${m.late?"var(--bad)":"inherit"}">${m.late}</b><span>Posting tertangguh</span></div>
+  </div>
+
+  <div class="card" style="display:flex;flex-direction:column;gap:8px">
+    <div class="h-row"><div><div class="eyebrow">Peringatan</div><b>3 video hari ini · ${remToday().filter(Boolean).length}/3 siap</b></div><button class="btn ghost sm" type="button" data-go="peringatan">Tetapan alarm</button></div>
+    <div id="remSlots" style="display:flex;flex-direction:column;gap:8px">${remSlotsHtml()}</div>
   </div>
 
   ${nx?`<div class="next">
@@ -987,6 +1064,7 @@ function render(){
   else if(view==="prestasi")h=vPrestasi();
   else if(view==="idea")h=vIdea();
   else if(view==="backup")h=vBackup();
+  else if(view==="peringatan")h=vPeringatan();
   $("#app").innerHTML=h;
   if(view==="harian"&&openDay!==null){const el=document.getElementById("day-"+openDay);if(el)el.scrollIntoView({block:"start"});openDay=null}
 }
@@ -1010,6 +1088,12 @@ document.addEventListener("click",async ev=>{
   if(ds.back){openEp=null;editMode=false;render();window.scrollTo(0,0);return}
   if(ds.nav){const n=+ds.nav;if(n>=1&&n<=10){editMode=false;go("episod",{ep:n})}return}
   if(ds.cancel){confirmKey=null;render();return}
+  if(b.id==="remNotif"){try{await Notification.requestPermission()}catch(_){}render();return}
+  if(b.id==="remIcs"){
+    const txt=remIcs(),fname="momyizz-peringatan-3-video.ics";let saved=false;
+    try{const dl=window.claude&&claude.use?await claude.use("downloads"):null;if(dl){await dl.save({filename:fname,data:txt,mimeType:"text/calendar"});saved=true;toast("Fail kalendar disimpan. Buka fail itu untuk tambah alarm.")}}catch(err){if(err&&err.code==="declined"){toast("Muat turun dibatalkan");return}}
+    if(!saved){try{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([txt],{type:"text/calendar"}));a.download=fname;document.body.appendChild(a);a.click();a.remove();toast("Buka fail .ics yang dimuat turun")}catch(_){toast("Muat turun gagal. Guna butang Google Calendar atau app Jam.")}}
+    return}
   if(b.id==="toggleEdit"){editMode=!editMode;render();return}
   const e=curEp();
   if(ds.status&&e){e.status=ds.status;if(ds.status==="SUDAH POST"&&!e.postDate)e.postDate=iso(today0());save();render();toast("Status: "+ds.status);return}
@@ -1060,6 +1144,8 @@ document.addEventListener("change",ev=>{
   const t=ev.target, e=curEp();
   if(t.dataset.chk&&e){e.checks[t.dataset.chk]=t.checked;autoStatus(e);save();render();return}
   if(t.dataset.dchk){const [i,k]=t.dataset.dchk.split(":");state.daily[i]=state.daily[i]||{tasks:{},note:""};state.daily[i].tasks=state.daily[i].tasks||{};state.daily[i].tasks[k]=t.checked;save();openDay=+i;const y=window.scrollY;render();window.scrollTo(0,y);return}
+  if(t.dataset.rchk!==undefined){const r=rem(),k=iso(today0()),a=(r.done[k]||[false,false,false]).slice();a[+t.dataset.rchk]=t.checked;r.done={[k]:a};save();render();if(t.checked)toast(a.every(Boolean)?"3/3 video siap hari ini. Syabas!":"Ditanda siap");return}
+  if(t.dataset.rtime!==undefined&&/^\d{2}:\d{2}$/.test(t.value)){rem().times[+t.dataset.rtime]=t.value;save();render();toast("Masa dikemas kini. Tambah semula ke kalendar.");return}
   if(t.id==="startDate"&&t.value){state.startDate=t.value;save();toast("Tarikh mula: "+fmt(parseD(t.value)));return}
   if(t.id==="imFile"&&t.files[0]){const r=new FileReader();r.onload=()=>{$("#imText").value=r.result;toast("Fail dimuatkan. Tekan Import.")};r.readAsText(t.files[0]);return}
   if(t.tagName==="SELECT"&&t.dataset.f&&e){e[t.dataset.f]=t.value;save();render();return}
@@ -1093,9 +1179,10 @@ document.addEventListener("submit",ev=>{
 /* ================= BOOT ================= */
 state=loadLocal()||seedState();
 setSave("local","Disimpan di peranti");
-{const h=(location.hash||"").slice(1);if(TABS.some(t=>t[0]===h)||h==="backup")view=h}
-window.addEventListener("hashchange",()=>{const h=location.hash.slice(1);if(h!==view&&(TABS.some(t=>t[0]===h)||h==="backup")){view=h;openEp=null;render()}});
+{const h=(location.hash||"").slice(1);if(TABS.some(t=>t[0]===h)||h==="backup"||h==="peringatan")view=h}
+window.addEventListener("hashchange",()=>{const h=location.hash.slice(1);if(h!==view&&(TABS.some(t=>t[0]===h)||h==="backup"||h==="peringatan")){view=h;openEp=null;render()}});
 render();
 initCloud();
+remTick();setInterval(remTick,30000);
 if(gdOn()&&(state.savedAt||0)>(gd.savedAt||0))gdSchedule();
 </script>

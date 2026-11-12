@@ -10,7 +10,7 @@ Komponen grafik standard untuk video 1080 × 1920. Semua komponen guna palet dan
 
 Cara guna:
 1. Dalam skrip, tulis nama komponen (contoh `KAD_FAKTA`) di lajur Grafik.
-2. Masa edit, bina komponen ikut `KOMPONEN.md`. Buka `preview.html` sebagai rujukan rupa.
+2. Masa edit dalam CapCut, bina komponen ikut `KOMPONEN.md`. Buka `preview.html` sebagai rujukan rupa.
 3. Bila komponen siap dibina sebagai template dalam alat edit (Canva/CapCut), catat pautan/nama template dalam jadual "Template alat edit" dalam `KOMPONEN.md`.
 
 Nilai saiz dan gerakan ialah **CADANGAN** sehingga pengguna sahkan.

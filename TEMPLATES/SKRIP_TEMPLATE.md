@@ -5,7 +5,9 @@
 | Pilar | Kesihatan / Mikroplastik / Keluarga / Kecantikan |
 | Set sticker | Blazer / Satin |
 | Produk (jika ada) | |
-| Tempoh sasaran | |
+| Tempoh | 45 s / 60 s / 90 s |
+| Slot | Pagi / Tengah hari / Malam |
+| Muzik (mood + kata kunci carian TikTok/CapCut) | |
 | Status | Draf / Diluluskan (tarikh: ) |
 
 ## 1. Situasi hidup sebenar (people first)

@@ -2,15 +2,16 @@
 
 Status: **DISAHKAN** · **MENUNGGU** (tanya pengguna) · **CADANGAN** (draf, boleh diubah).
 
-## Format — CADANGAN
+## Format — DISAHKAN (tempoh, platform, alat) · CADANGAN (teknikal)
 | Perkara | Nilai |
 |---|---|
 | Nisbah | 9:16 menegak |
 | Resolusi | 1080 × 1920 |
 | Kadar bingkai | 30 fps |
-| Tempoh sasaran | **MENUNGGU** (cadangan: 30–60 s) |
-| Platform | TikTok, Instagram Reels, Facebook Reels. Senarai muktamad: **MENUNGGU** |
-| Alat edit | **MENUNGGU** (contoh: Canva, CapCut) |
+| Tempoh | **45 s, 60 s atau 90 s** (pilih ikut topik, lihat struktur dalam `MASTER_WORKFLOW.md`) |
+| Platform | **TikTok dan Instagram Reels** |
+| Alat | **CapCut** (edit, sari kata, grafik) · **Flow** (jana klip B-roll AI) |
+| Kekerapan | Sasaran **3 video sehari** (peringatan dalam worksheet, lihat `MASTER_WORKFLOW.md` Fasa 7) |
 
 ## Safe zone (kanvas 1080 × 1920) — CADANGAN
 Kawasan yang selalu ditutup UI platform. Jangan letak teks penting, sticker, CTA atau penafian di sini.
@@ -32,7 +33,11 @@ Kawasan selamat: x 60–940, y 160–1440. Lihat garis bantu dalam `TEMPLATES/MO
 
 ## Audio — CADANGAN
 - Suara: puncak sekitar −6 dB, purata ~−14 LUFS.
-- Muzik latar: 18–24 dB lebih rendah daripada suara. Sumber muzik: **MENUNGGU** (muzik berlesen / pustaka platform sahaja).
+- Muzik latar: 18–24 dB lebih rendah daripada suara.
+- Sumber muzik — DISAHKAN: pustaka muzik **TikTok / CapCut**.
+  - Untuk akaun perniagaan TikTok, hanya lagu dari **Commercial Music Library** boleh digunakan. Lagu trending biasa mungkin disekat atau dibisukan.
+  - Claude tidak boleh menghasilkan fail muzik sebenar. Claude boleh cadangkan mood, tempo dan kata kunci carian untuk setiap video (contoh: "calm acoustic morning", "upbeat ukulele", 90–110 BPM).
+  - Muzik yang didengar dalam video orang lain belum tentu boleh dipakai untuk video promosi produk.
 - SFX (pop, whoosh, ding): sedikit sahaja, untuk big word atau pendedahan.
 
 ## Gerakan (motion) — CADANGAN
@@ -56,4 +61,6 @@ MP4 (H.264), 1080 × 1920, 30 fps, bitrate 12–16 Mbps, audio AAC 48 kHz 320 kb
 - [ ] Hanya warna palet dan font Fredoka / Nunito / Caveat
 - [ ] Sari kata sepadan dengan suara, tiada salah ejaan
 - [ ] Audio seimbang, tiada bunyi pecah
+- [ ] Klip AI (Flow) tidak menunjukkan produk Amway palsu, label rekaan atau hasil yang mengelirukan
+- [ ] Muzik dari pustaka TikTok/CapCut yang dibenarkan untuk akaun anda
 - [ ] Tiada unsur jenama lain (warna, template, CTA atau sticker bisnes lain)

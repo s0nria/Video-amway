@@ -31,7 +31,7 @@ Gerakan lalai: masuk pop 90%→100% + fade 0.3 s, keluar fade 0.2 s, ease-out.
 
 ## `LABEL_BUKTI` — label tahap bukti
 - Pil, tinggi 64 px, jejari penuh. Teks Fredoka SemiBold 600, 32 px, putih Kertas.
-- Warna: Terbukti `#4E7347` · Kajian awal `#B07C3A` · Masih dikaji: warna **MENUNGGU** (tiada dalam BRAND.md) · Bukti belum cukup `#A65B4B`.
+- Warna: Terbukti `#4E7347` · Kajian awal `#B07C3A` · Masih dikaji `#557F7A` · Bukti belum cukup `#A65B4B`.
 - Kedudukan: penjuru kiri atas `KAD_FAKTA`.
 
 ## `LABEL_PILAR` — tag pilar
@@ -79,4 +79,4 @@ Gerakan lalai: masuk pop 90%→100% + fade 0.3 s, keluar fade 0.2 s, ease-out.
 ## Template alat edit
 | Komponen | Alat | Nama / pautan template | Status |
 |---|---|---|---|
-| Semua | **MENUNGGU** | | Belum dibina |
+| Semua | CapCut | | Belum dibina |
