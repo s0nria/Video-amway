@@ -1,0 +1,17 @@
+{
+  "name": "Momyizz Content Planner",
+  "short_name": "Momyizz",
+  "description": "Pusat kawalan kandungan video Momyizz",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F2EEE5",
+  "theme_color": "#556A4C",
+  "lang": "ms",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
