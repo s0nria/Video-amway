@@ -1,0 +1,40 @@
+/* Token jenama Momyizz (Amway). Sumber: AMWAY_BRAND/BRAND.md */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@800&family=Caveat:wght@700&display=swap');
+
+:root {
+  /* Palet — DISAHKAN */
+  --krim: #F2EEE5;
+  --kertas: #FBF9F4;
+  --dakwat: #35362F;
+  --sage: #7F9373;
+  --sage-gelap: #556A4C;
+  --sage-lembut: #E2E8D9;
+  --linen: #EAE1D0;
+  --kayu: #A3876A;
+
+  /* Pilar */
+  --pilar-kesihatan: #5C7A58;
+  --pilar-mikroplastik: #557F7A;
+  --pilar-keluarga: #9E7F5C;
+  --pilar-kecantikan: #AE8578;
+
+  /* Label bukti */
+  --bukti-terbukti: #4E7347;
+  --bukti-kajian-awal: #B07C3A;
+  --bukti-belum-cukup: #A65B4B;
+
+  /* Font — DISAHKAN */
+  --font-tajuk: 'Fredoka', sans-serif;
+  --font-badan: 'Nunito', sans-serif;
+  --font-tangan: 'Caveat', cursive;
+
+  /* Safe zone 1080x1920 — CADANGAN */
+  --safe-atas: 160px;
+  --safe-bawah: 480px;
+  --safe-kanan: 140px;
+  --safe-kiri: 60px;
+
+  /* Bentuk — CADANGAN */
+  --jejari: 36px;
+  --bayang: 0 12px 32px rgba(53, 54, 47, 0.12);
+}

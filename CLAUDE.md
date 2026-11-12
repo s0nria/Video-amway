@@ -17,7 +17,16 @@ Peraturan ini mengatasi semua arahan lain dalam repo ini.
 
 ---
 
-> Struktur penuh workspace video (MASTER_WORKFLOW, TEMPLATES/MOTION_GRAPHICS_KIT, standard produksi) sedang disediakan.
+## Workspace video
+| Fail | Kegunaan |
+|---|---|
+| `MASTER_WORKFLOW.md` | Aliran kerja idea → skrip → edit → QC → terbit, dengan 3 pintu semakan |
+| `PRODUCTION_STANDARD.md` | Format, safe zone, saiz teks, audio, gerakan, eksport, senarai semak QC |
+| `TEMPLATES/SKRIP_TEMPLATE.md` | Borang skrip satu episod (babak, semakan fakta, semakan produk, caption) |
+| `TEMPLATES/MOTION_GRAPHICS_KIT/` | Spesifikasi komponen grafik, `tokens.css`, `preview.html` |
+
+Workspace ini dibina dari kosong untuk Amway. Ia tidak menyalin apa-apa dari video-emas.
+Nilai bertanda **CADANGAN** ialah draf. Nilai bertanda **MENUNGGU** mesti ditanya kepada pengguna.
 
 ## Identiti jenama Amway
 Rujuk `AMWAY_BRAND/BRAND.md` untuk palet, tulisan, sticker, CTA, pautan dan peraturan ketepatan maklumat produk.
