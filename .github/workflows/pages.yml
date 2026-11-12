@@ -27,7 +27,8 @@ jobs:
           enablement: true
       - run: |
           mkdir _site
-          cp index.html momyizz-planner.html _site/
+          cp index.html momyizz-planner.html manifest.webmanifest sw.js _site/
+          cp -r icons _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

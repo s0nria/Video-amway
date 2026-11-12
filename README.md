@@ -4,6 +4,8 @@
 dashboard, peringatan 3 video sehari (alarm kalendar telefon), kalendar 30 hari, 10 episod lengkap (hook, storytelling, fakta berlabel tahap bukti, sumber, storyboard,
 caption Facebook, versi Threads, CTA, hashtag), checklist produksi, tracker harian, tracker prestasi dan bank idea.
 
+Boleh dipasang sebagai app di telefon (Chrome: ⋮ → Install app · Safari: Share → Add to Home Screen).
+
 Data disimpan automatik (akaun Claude apabila dibuka sebagai Artifact, atau pelayar peranti), dengan eksport/import backup JSON.
 
 PEOPLE FIRST · EDUCATE WITH FACTS · CONNECT THROUGH LIFESTYLE · INTRODUCE PRODUCTS MEANINGFULLY
