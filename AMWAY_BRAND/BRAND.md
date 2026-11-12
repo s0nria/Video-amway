@@ -19,17 +19,37 @@ Ikut tema worksheet Momyizz (MUJI-inspired modern wellness).
 Warna pilar kandungan: Kesihatan `#5C7A58` · Mikroplastik `#557F7A` · Keluarga `#9E7F5C` · Kecantikan `#AE8578`.
 Warna label bukti: Terbukti `#4E7347` · Kajian awal `#B07C3A` · Bukti belum cukup `#A65B4B`.
 
-## Tulisan (font) — MENUNGGU PILIHAN
-Cadangan (semua percuma di Google Fonts; tersedia di Canva). Contoh: `cadangan-tulisan.png`.
+## Tulisan (font) — DISAHKAN: Pilihan A
+| Peranan | Font | Nota |
+|---|---|---|
+| Tajuk, hook, big words, sticker teks | **Fredoka** (Bold 700 / SemiBold 600) | Bulat, comel, jelas |
+| Sari kata & teks badan | **Nunito** (ExtraBold 800) | Mudah dibaca di telefon |
+| Nota tangan / penekanan kecil | **Caveat** (Bold 700) | Guna sedikit sahaja, maksimum 1 pada satu masa |
 
-| Pilihan | Tajuk / big words | Sari kata | Nota tangan |
-|---|---|---|---|
-| **A (cadangan utama)** | Fredoka Bold | Nunito ExtraBold | Caveat Bold |
-| B | Baloo 2 ExtraBold | Quicksand Bold | Caveat Bold |
-| C | Sniglet ExtraBold | Poppins Medium | Caveat Bold |
+Semua percuma di Google Fonts dan tersedia di Canva. Contoh: `cadangan-tulisan.png` (pilihan A, kiri).
 
-## Sticker — MENUNGGU FAIL
-Pengguna akan beri fail. Simpan dalam `STICKERS/`. Jangan reka sticker sendiri.
+## Sticker Momyizz — DISAHKAN (guna ikut kesesuaian video)
+Fail PNG lutsinar dalam `STICKERS/`. Dua set pakaian + kartun:
+
+| Fail | Pose | Sesuai untuk |
+|---|---|---|
+| `01-blazer-tunjuk-atas` · `03-satin-tunjuk-atas` | Dua jari tunjuk ke atas | Tunjuk tajuk / hook di bahagian atas |
+| `02-blazer-tunjuk-bawah` | Dua jari tunjuk ke bawah | Tunjuk kotak CTA "Klik LINK di Bio" |
+| `12-blazer-tunjuk-kiri` · `16-blazer-tunjuk-kanan` | Tunjuk ke sisi | Tunjuk kad fakta / teks di sebelah |
+| `13-blazer-tunjuk-atas-kanan` · `15-blazer-tunjuk-atas-kiri` | Tunjuk serong ke atas | Tunjuk label / angka di penjuru atas |
+| `04-satin-tutup-mulut` · `14-blazer-tutup-mulut` | Tutup mulut, terkejut | Hook "Rupanya…", fakta mengejut, mitos |
+| `09-kartun-terkejut-pipi` · `10-satin-terkejut-pipi` · `20-blazer-terkejut-pipi` | Tangan di pipi, teruja | Reaksi besar, pendedahan, "Wow" |
+| `17-blazer-panggil` | Tangan di mulut, memanggil | "Jom!", panggil perhatian, ajakan |
+| `05-satin-semangat` · `18-blazer-semangat` | Genggam tangan, semangat | Cabaran, tip berjaya, motivasi |
+| `08-satin-thumbs-up` · `19-blazer-thumbs-up` | Ibu jari | Amalan betul, rumusan, setuju |
+| `06-satin-lambai-dua-tangan` · `07-satin-lambai-satu-tangan` | Melambai | Sapaan pembukaan / penutup |
+| `11-kartun-berdiri-penuh` | Berdiri penuh (kartun) | Intro siri, watak Momyizz |
+
+Peraturan penggunaan (cadangan, boleh diubah pengguna):
+1. Satu video guna satu set pakaian sahaja supaya konsisten. **Blazer** untuk fakta, kesihatan, mikroplastik. **Satin** untuk lifestyle, keluarga, kecantikan. Kartun boleh dicampur dengan mana-mana set.
+2. Maksimum satu sticker di skrin pada satu masa. Saiz lebih kurang 35–45% lebar skrin.
+3. Sticker mesti berada sepenuhnya dalam safe zone dan tidak menutup sari kata, wajah dalam rakaman atau CTA.
+4. Arah tunjuk mesti menghala ke elemen yang dimaksudkan.
 
 ## CTA & pautan — DISAHKAN
 - Teks CTA penutup (tepat, jangan ubah): **"Nak dapatkan produk? Klik LINK di Bio"**
@@ -44,3 +64,4 @@ Pengguna akan beri fail. Simpan dalam `STICKERS/`. Jangan reka sticker sendiri.
 5. Jangan dakwa eSpring atau mana-mana produk Amway menyingkirkan mikroplastik, kecuali disokong spesifikasi dan ujian rasmi yang relevan.
 6. Fakta kesihatan/mikroplastik mesti ada sumber (WHO, UNEP, FDA, EFSA, KKM, NIH, jurnal peer-reviewed) dan label tahap bukti: Terbukti / Kajian awal / Masih dikaji / Bukti belum cukup.
 7. Tiada tajuk sensasi atau menakut-nakutkan. Tiada janji hasil ("cerah dalam 7 hari", "turun 5 kg").
+8. **Penafian wajib dalam setiap video** (teks kecil, dalam safe zone, sekurang-kurangnya 3 saat, sebaiknya di babak fakta atau penutup): **"Perkongsian ilmu umum. Bukan nasihat perubatan."** Penafian yang sama juga dimasukkan dalam caption.
