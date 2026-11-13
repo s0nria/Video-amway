@@ -60,6 +60,7 @@ MP4 (H.264), 1080 × 1920, 30 fps, bitrate 12–16 Mbps, audio AAC 48 kHz 320 kb
 - [ ] Sticker: satu set pakaian, satu di skrin pada satu masa, arah tunjuk betul, tidak tutup wajah/sari kata
 - [ ] Hanya warna palet dan font Fredoka / Nunito / Caveat
 - [ ] Sari kata sepadan dengan suara, tiada salah ejaan
+- [ ] Kata ganti nama Momyizz & korang sahaja. Gaya soft-selling
 - [ ] Audio seimbang, tiada bunyi pecah
 - [ ] Klip AI (Flow) tidak menunjukkan produk Amway palsu, label rekaan atau hasil yang mengelirukan
 - [ ] Muzik dari pustaka TikTok/CapCut yang dibenarkan untuk akaun anda
