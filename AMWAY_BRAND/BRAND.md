@@ -60,17 +60,31 @@ Peraturan penggunaan (cadangan, boleh diubah pengguna):
   - "Kita" boleh digunakan bila maksudnya semua orang termasuk Momyizz (contoh: "badan kita perlukan vitamin C").
 - **Tiga jenis konten:** personal branding, soft-selling dan hard-selling. Campuran harian dalam `TEMPLATES/KONTEN_HARIAN.md`.
 - **Soft-selling:** mula dengan cerita dan fakta. Produk diperkenalkan secara semula jadi sebagai pilihan. Bukan setiap konten perlu ada produk.
-- **Hard-selling — DISAHKAN boleh:** konten khas jualan, kira-kira 20–30% daripada semua konten (3–4 kali seminggu, maksimum 1 sehari).
-  - **Harga** boleh dipapar. Ambil dari https://www.amway.my/ pada hari konten dibuat, catat tarikh semakan, dan tulis "harga tertakluk kepada perubahan".
-  - **Promosi** boleh, hanya promosi rasmi Amway Malaysia. Tulis nama dan tempoh promosi dengan tepat. Jangan reka promosi atau diskaun sendiri.
-  - **CTA terus** boleh dalam caption dan teks, contohnya "PM Momyizz sekarang", "Komen NAK", "Klik LINK di Bio". Dalam video, tetap tiada nombor telefon, WhatsApp atau URL.
-  - **Testimoni** boleh, dengan syarat: pelanggan sebenar, ada kebenaran mereka, tiada dakwaan perubatan atau janji hasil, dan disertakan "Pengalaman individu mungkin berbeza".
-  - Tetap dilarang: "stok terhad" atau tarikh tamat palsu, menakut-nakutkan, dakwaan perubatan, janji hasil, dan dakwaan pendapatan bisnes.
-  - Sebelum mula hard-sell, semak peraturan Amway Malaysia untuk ABO tentang iklan, harga dan jualan dalam talian.
+- **Hard-selling — DISAHKAN boleh, tetapi di RUANG TERTUTUP sahaja** (lihat "Peraturan media sosial Amway Malaysia" di bawah):
+  - Ruang tertutup: WhatsApp (chat / group pelanggan sedia ada), group Facebook tertutup, DM bila orang bertanya sendiri.
+  - Ruang awam (Facebook/Instagram/Threads/TikTok awam): personal branding dan edukasi/soft-sell sahaja. Jangan tawar produk sebagai status, jangan papar harga atau "PM untuk order".
+  - **Harga** (ruang tertutup): ambil dari https://www.amway.my/ pada hari itu, catat tarikh semakan, tulis "harga tertakluk kepada perubahan".
+  - **Promosi**: hanya promosi rasmi Amway Malaysia, dengan nama dan tempoh tepat. Jangan reka diskaun sendiri.
+  - **Testimoni**: pelanggan sebenar, ada kebenaran, tiada dakwaan perubatan atau janji hasil, disertakan "Pengalaman individu mungkin berbeza".
+  - Tetap dilarang: "stok terhad" palsu, menakut-nakutkan, dakwaan perubatan, janji hasil, dakwaan pendapatan bisnes.
 - Penulisan ikut gaya dan had aksara setiap platform: `TEMPLATES/PENULISAN_PLATFORM.md`.
 
+## Peraturan media sosial Amway Malaysia — RASMI
+Dipetik daripada https://www.amway.my/compliance/principles-etiquette-of-using-social-media (dibaca 13 Nov 2026). Peraturan ini mengatasi peraturan lain dalam repo.
+
+| Peraturan rasmi (petikan) | Maksud untuk Momyizz |
+|---|---|
+| "Business and product claims must be accurate and substantiated." · "It is recommended that only business and product information authored by AMWAY be utilised." | Fakta produk disalin dari bahan rasmi Amway sahaja |
+| "Any videos produced by people or entities other than AMWAY must be reviewed and authorised by AMWAY prior to being used for your AMWAY business in a social media environment." | **PERLU SAHKAN:** video Momyizz yang menyebut atau menunjukkan produk/bisnes Amway mungkin perlu dihantar kepada Amway untuk semakan sebelum dipost. Tanya Amway Malaysia / upline cara penghantaran. Video gaya hidup tanpa produk berisiko lebih rendah, tetapi tetap sahkan |
+| "Using AMWAY's logos or product images in your social media presence is not allowed without authorisation from the company." | Jangan guna logo atau gambar produk rasmi tanpa kebenaran. Gambar produk yang Momyizz rakam sendiri: sahkan dengan Amway |
+| "Soliciting is allowed only in a closed environment" · "is not permitted in open or public forums" · "You should never offer products as a general status update" | Hard-sell, harga dan ajakan beli hanya di ruang tertutup. Post awam fokus nilai |
+| "misrepresentations of income and rewards are not allowed." | Tiada dakwaan pendapatan |
+| "AMWAY will not allow the use of its trademarks or trade names as profile names or page names." | Nama akaun kekal "Momyizz", jangan guna nama Amway / Nutrilite / Artistry |
+
+**Perlu disahkan dengan Amway Malaysia / upline:** ayat CTA video "Nak dapatkan produk? Klik LINK di Bio" (adakah dikira ajakan di ruang awam), proses semakan video, dan penggunaan gambar produk rakaman sendiri.
+
 ## CTA & pautan — DISAHKAN
-- Teks CTA penutup video (tepat, jangan ubah): **"Nak dapatkan produk? Klik LINK di Bio"**. Caption hard-sell boleh guna CTA terus seperti di atas.
+- Teks CTA penutup video (tepat, jangan ubah): **"Nak dapatkan produk? Klik LINK di Bio"**. CTA terus (PM / order) hanya di ruang tertutup.
 - Pautan: hanya "LINK di Bio". Jangan papar URL, nombor telefon atau WhatsApp dalam video.
 - CTA mesti berada dalam safe zone TikTok/Reels.
 

@@ -26,6 +26,8 @@ Peraturan ini mengatasi semua arahan lain dalam repo ini.
 | `TEMPLATES/MOTION_GRAPHICS_KIT/` | Spesifikasi komponen grafik, `tokens.css`, `preview.html` |
 | `TEMPLATES/KONTEN_HARIAN.md` | 3–5 konten sehari: personal branding, soft-sell, hard-sell, interaksi, testimoni |
 | `TEMPLATES/PENULISAN_PLATFORM.md` | Gaya dan had aksara Threads (bebenang), Facebook, Instagram + formula hard-sell |
+| `KALENDAR_PENULISAN/` | Kalendar penulisan 30 hari (Minggu 1 teks penuh, Hari 8–30 rancangan). Edit `kalendar_data.py`, jalankan `python3 KALENDAR_PENULISAN/bina.py` |
+| `TEMPLATES/TEKNIK_PENULISAN.md` | Teknik hook, cerita, soft-sell, interaksi, hard-sell dan video personal branding |
 | `CLAUDE_PROJECT/ARAHAN_PROJECT.md` | Cara sediakan Claude Project untuk konten harian + custom instructions |
 
 Workspace ini dibina dari kosong untuk Amway. Ia tidak menyalin apa-apa dari video-emas.

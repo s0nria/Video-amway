@@ -24,7 +24,7 @@ Satu bebenang ialah beberapa post yang disambung. Setiap post **mesti ≤ 500 ak
 Struktur 3–6 post:
 1. **Post 1 (hook, ≤ 200 aksara):** situasi atau soalan. Jangan letak produk, pautan atau hashtag di sini.
 2. **Post 2–4 (isi):** satu fakta atau satu tip setiap post. Sumber ringkas dalam kurungan.
-3. **Post terakhir:** rumusan + soalan untuk balasan. Hard-sell: produk + harga + CTA di sini, bukan di post 1.
+3. **Post terakhir:** rumusan + soalan untuk balasan.
 
 Penomboran `1/5`, `2/5` pilihan. Gunakannya kalau bebenang lebih daripada 3 post.
 
@@ -39,7 +39,7 @@ Contoh (soft-sell):
 
 - **Baris 1–2:** hook yang buat orang tekan "See more". Situasi sebenar lebih baik daripada soalan umum.
 - **Badan:** cerita Momyizz → fakta (dengan sumber) → amalan praktikal. Perenggan 1–3 baris. Emoji sebagai bullet (✅ 🔹 📌).
-- **Penutup:** soalan untuk komen. Hard-sell: produk, harga (dengan tarikh semak), CTA terus.
+- **Penutup:** soalan untuk komen.
 - Penafian di hujung: "Perkongsian ilmu umum. Bukan nasihat perubatan."
 
 ## Instagram
@@ -49,7 +49,9 @@ Contoh (soft-sell):
 - **Penutup:** "Save untuk rujukan" atau "Klik LINK di Bio".
 - 3–5 hashtag di hujung. Jenama dan topik sahaja, contohnya `#Momyizz #GayaHidupSihat #Nutrilite`.
 
-## Formula hard-sell (semua platform)
+## Formula hard-sell (ruang tertutup sahaja: WhatsApp, group tertutup, DM)
+
+Peraturan Amway Malaysia: ajakan membeli tidak dibenarkan di ruang awam. Di Facebook/Instagram/Threads awam, guna soft-sell sahaja.
 
 ```
 Masalah sebenar (1–2 ayat, tanpa menakutkan)
@@ -60,12 +62,13 @@ Masalah sebenar (1–2 ayat, tanpa menakutkan)
 → CTA terus: "PM Momyizz" / "Komen NAK" / "Klik LINK di Bio"
 → Penafian
 ```
-Threads: pecahkan formula ini kepada 3–4 post, dan letak harga serta CTA di post terakhir.
+Post awam: berhenti pada "kenapa Momyizz pilih" + fakta umum, dan jemput yang berminat ke ruang tertutup tanpa menawar produk, contohnya "Ada yang tanya rutin Momyizz, nanti Momyizz kongsi dalam group".
 
 ## Senarai semak sebelum post
 - [ ] Setiap post Threads ≤ 500 aksara (worksheet tunjuk kiraan)
 - [ ] Hook dalam 125 aksara pertama (Instagram) / 2 baris pertama (Facebook)
 - [ ] Momyizz & korang sahaja
-- [ ] Harga, promosi dan fakta produk disemak di amway.my hari ini
+- [ ] Post awam: tiada harga, tiada "PM untuk order" (hard-sell di ruang tertutup sahaja)
+- [ ] Fakta produk disemak di amway.my hari ini
 - [ ] Testimoni sebenar, ada kebenaran, ada "Pengalaman individu mungkin berbeza"
 - [ ] Penafian ada (konten kesihatan / produk)
