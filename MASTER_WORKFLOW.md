@@ -31,7 +31,7 @@ Semak arahan: kalau ia untuk emas, Public Gold atau bisnes lain, berhenti (lihat
 🚦 **Pintu 1 — Fakta:** setiap fakta ada sumber + label bukti. Setiap fakta produk ada URL + tarikh semakan. Tiada dakwaan perubatan.
 
 ## Fasa 3 — Skrip
-Isi `TEMPLATES/SKRIP_TEMPLATE.md`. Struktur asas (CADANGAN):
+Isi `TEMPLATES/SKRIP_TEMPLATE.md`. Guna **Momyizz** dan **korang** sahaja, dan gaya **soft-selling** (lihat `AMWAY_BRAND/BRAND.md`, bahagian Gaya bahasa). Struktur asas (CADANGAN):
 
 | Babak | Masa anggaran | Isi |
 |---|---|---|

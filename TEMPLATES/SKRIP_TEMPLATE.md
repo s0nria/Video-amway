@@ -47,5 +47,7 @@ Nak dapatkan produk? Klik LINK di Bio
 ```
 
 ## 6. Semakan akhir
+- [ ] Kata ganti nama: Momyizz & korang sahaja (tiada aku / kau / saya / awak / anda)
+- [ ] Soft-selling: tiada harga, promosi atau desakan membeli
 - [ ] Pintu 1 (fakta) lulus
 - [ ] Pintu 2 (skrip) diluluskan pengguna

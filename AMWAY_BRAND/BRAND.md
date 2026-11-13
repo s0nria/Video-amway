@@ -54,6 +54,13 @@ Peraturan penggunaan (cadangan, boleh diubah pengguna):
 3. Sticker mesti berada sepenuhnya dalam safe zone dan tidak menutup sari kata, wajah dalam rakaman atau CTA.
 4. Arah tunjuk mesti menghala ke elemen yang dimaksudkan.
 
+## Gaya bahasa & cara jual — DISAHKAN
+- **Kata ganti nama:** orang pertama ialah **Momyizz**, orang kedua ialah **korang**. Jangan guna aku, kau, saya, awak atau anda dalam skrip, sari kata, caption dan Threads.
+  - Contoh: "Momyizz pun pernah buat macam ni." · "Bila kali terakhir korang tukar span?"
+  - "Kita" boleh digunakan bila maksudnya semua orang termasuk Momyizz (contoh: "badan kita perlukan vitamin C").
+- **Soft-selling sahaja:** mula dengan cerita dan fakta. Produk diperkenalkan secara semula jadi sebagai pilihan, bukan desakan. Tiada harga, promosi, "stok terhad", "beli sekarang" atau tekanan untuk membeli. Bukan setiap video perlu ada produk.
+- Seruan dalam video lebih kepada interaksi (komen, save, share). CTA produk hanya ayat penutup yang ditetapkan di bawah.
+
 ## CTA & pautan — DISAHKAN
 - Teks CTA penutup (tepat, jangan ubah): **"Nak dapatkan produk? Klik LINK di Bio"**
 - Pautan: hanya "LINK di Bio". Jangan papar URL, nombor telefon atau WhatsApp dalam video.
