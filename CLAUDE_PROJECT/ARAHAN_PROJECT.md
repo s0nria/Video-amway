@@ -1,9 +1,9 @@
-# Sediakan Claude Project "Momyizz Amway"
+# Sediakan Claude Project "Amway_Konten Social Media"
 
 Untuk hasilkan 3–5 konten sehari dari telefon (claude.ai atau app Claude).
 
 ## Langkah
-1. Buka claude.ai → **Projects** → **Create project**. Nama: `Momyizz Amway`.
+1. Buka claude.ai → **Projects** → **Create project**. Nama: `Amway_Konten Social Media`. Satu Project untuk Facebook, Instagram, Threads dan skrip video.
 2. Tampal teks dalam bahagian **Custom instructions** di bawah ke ruang **Instructions** Project.
 3. Muat naik fail-fail ini ke **Project knowledge** (muat turun dari repo GitHub):
    - `AMWAY_BRAND/BRAND.md`
