@@ -8,6 +8,7 @@ Rujukan wajib:
 - `TEMPLATES/MOTION_GRAPHICS_KIT/`: komponen grafik
 - `TEMPLATES/SKRIP_TEMPLATE.md`: borang skrip satu episod
 - `momyizz-planner.html`: kalendar 30 hari, bank idea, tracker
+- `TEMPLATES/KONTEN_HARIAN.md` + `TEMPLATES/PENULISAN_PLATFORM.md`: 3–5 konten sehari dan penulisan ikut platform
 
 Status: **DISAHKAN** = pengguna dah setuju · **MENUNGGU** = jangan isi sendiri, tanya pengguna · **CADANGAN** = draf, boleh diubah.
 
@@ -74,7 +75,7 @@ Penafian **"Perkongsian ilmu umum. Bukan nasihat perubatan."** mesti ada di skri
 
 ## Fasa 6 — Eksport & caption
 1. Eksport ikut tetapan dalam `PRODUCTION_STANDARD.md`.
-2. Caption: hook, isi ringkas, sumber (jika ada fakta), penafian, CTA "LINK di Bio", hashtag.
+2. Caption dan Threads ikut `TEMPLATES/PENULISAN_PLATFORM.md` (had aksara dan gaya setiap platform).
 3. Tiada URL, nombor telefon atau WhatsApp dalam video.
 
 ## Fasa 7 — Terbit & jejak

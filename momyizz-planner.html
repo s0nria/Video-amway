@@ -860,8 +860,8 @@ function vEpisodDetail(e){
     ? `<textarea data-sb="1" id="f-${e.n}-sb" aria-label="Storyboard">${esc(e.storyboard.map(s=>s[0]+" | "+s[1]).join("\n"))}</textarea><div class="small muted">Format: masa | babak (satu baris setiap babak).</div>`
     : `<ul class="sb">${e.storyboard.map(s=>`<li><span class="t num">${esc(s[0])}</span><span>${esc(s[1])}</span></li>`).join("")}</ul>`;
   const th= editMode
-    ? `<textarea data-th="1" id="f-${e.n}-th" aria-label="Threads">${esc(e.threads.join("\n---\n"))}</textarea><div class="small muted">Pisahkan setiap post Threads dengan baris ---</div>`
-    : `${e.threads.map((t,i)=>`<div class="thread"><div class="small muted num">${i+1}/${e.threads.length}</div><div class="txt">${esc(t)}</div><button class="btn ghost sm copy" type="button" data-copyth="${i}">Salin ${i+1}</button></div>`).join("")}<button class="btn ghost sm copy" type="button" data-copyth="all">Salin semua</button>`;
+    ? `<textarea data-th="1" id="f-${e.n}-th" aria-label="Threads">${esc(e.threads.join("\n---\n"))}</textarea><div class="small muted">Pisahkan setiap post Threads dengan baris ---. Setiap post maksimum 500 aksara.</div>`
+    : `${e.threads.map((t,i)=>`<div class="thread"><div class="small muted num">${i+1}/${e.threads.length} · <span style="color:${[...t].length>500?"var(--bad)":"inherit"}">${[...t].length}/500 aksara${[...t].length>500?" · terlalu panjang untuk Threads":""}</span></div><div class="txt">${esc(t)}</div><button class="btn ghost sm copy" type="button" data-copyth="${i}">Salin ${i+1}</button></div>`).join("")}<button class="btn ghost sm copy" type="button" data-copyth="all">Salin semua</button>`;
   const checks=CHECK.map(c=>`<label class="chk"><input type="checkbox" data-chk="${c[0]}" id="c-${e.n}-${c[0]}" ${e.checks[c[0]]?"checked":""}><span>${c[1]}</span></label>`).join("");
   const conf=confirmKey==="resetEp";
   return `<section class="view">
@@ -905,6 +905,7 @@ function vEpisodDetail(e){
   ${fieldBlock(11,"Prompt visual (AI image)",e,"prompt",{copy:true})}
   <details class="fld"><summary><span class="k num">12</span>Storyboard ${e.format==="Carousel / Gambar"?"carousel":"video (45 / 60 / 90 saat)"}</summary><div class="fbody">${sb}${editMode?"":`<button class="btn ghost sm copy" type="button" data-copypack="sb">Salin</button>`}</div></details>
   ${fieldBlock(13,"Caption Facebook",e,"fb",{copy:true})}
+  ${editMode?"":`<div class="small muted" style="margin:-6px 4px 0">Caption: ${[...(e.fb||"")].length} aksara. Instagram maksimum 2,200 · hook mesti dalam 125 aksara pertama.</div>`}
   <details class="fld"><summary><span class="k num">14</span>Versi Threads</summary><div class="fbody">${th}</div></details>
   ${fieldBlock(15,"CTA",e,"cta",{copy:true})}
   ${fieldBlock(16,"Hashtag",e,"hashtags",{copy:true})}
