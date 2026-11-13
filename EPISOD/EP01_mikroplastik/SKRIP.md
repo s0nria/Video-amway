@@ -5,7 +5,7 @@
 | Pilar | Mikroplastik |
 | Set sticker | Blazer (tiada sticker dalam draf ini) |
 | Produk (jika ada) | Tiada. Episod pengenalan siri |
-| Tempoh | 90 s (draf sebenar 85.5 s) |
+| Tempoh | 90 s (draf sebenar 89.4 s) |
 | Slot | Malam (cadangan: tempoh 90 s) |
 | Muzik (mood + kata kunci carian TikTok/CapCut) | Tenang, akustik pagi. Cari "calm acoustic morning" atau "soft piano lifestyle", 80–100 BPM. Pastikan lagu dari Commercial Music Library. Kuatkan 18–24 dB lebih rendah daripada suara |
 | Status | Draf (Pintu 2 menunggu kelulusan) |
@@ -43,7 +43,8 @@ Perkataan **tebal** = tekan sikit semasa sebut.
 | 7b | 1:11.1 | 2 s | sama | "Tukar botol yang dah **calar**." | ✓ Tukar botol yang dah calar |
 | 7c | 1:13.2 | 3 s | Botol keluli dibawa ke kereta | "Jangan tinggal botol dalam **kereta panas**." | ✓ Jangan tinggal botol dalam kereta panas · ✓ Kurangkan plastik sekali guna |
 | 8a | 1:16.7 | 5 s | Momyizz pegang botol keluli (`4cb6`) | "Ini **Siri Mikroplastik Momyizz**. Fakta, bukan panik." | Tajuk siri |
-| 8b | 1:21.8 | 3.7 s | sama | *(pilihan)* "Komen **NAK** kalau nak saya kupas mikroplastik di dapur kita!" | `CTA` "Komen “NAK”" |
+| 8b | 1:21.9 | 4.9 s | sama (bingkai akhir dibekukan) | "Nak Momyizz kupas siri mikroplastik di dapur? Komen, **NAK**!" | `CTA` "Nak Momyizz kupas siri Mikroplastik di dapur? Komen “NAK”" |
+| 8c | 1:26.9 | 2.4 s | sama | "Jangan lupa **follow** dan **share**!" | Butang Follow & Share. Kursor tekan Follow (1:27.5, jadi "Following ✓") dan Share (1:28.4) |
 
 **Nota rakaman**
 - Baris 2a–2b: klip `995f` asalnya ada suara AI. Bila guna suara sendiri, **bisukan audio asal klip ini** supaya suara konsisten. Cuba ikut rentak mulut dalam klip.
@@ -81,7 +82,8 @@ Pagi Isnin. Capai botol plastik yang dah calar, terus teringat isu mikroplastik 
 
 Langkah kecil: tukar botol yang dah calar, jangan tinggal botol dalam kereta panas, kurangkan plastik sekali guna.
 
-Komen "NAK" kalau nak saya kupas mikroplastik di dapur kita 👇
+Nak Momyizz kupas siri Mikroplastik di dapur? Komen "NAK" 👇
+Jangan lupa follow & share!
 
 Sumber: WHO (2019, 2022), UNEP, Schwabl 2019, Pironti 2023, Ragusa 2022, Montano 2023, Hu 2024, Huang 2022, Braun 2021.
 Perkongsian ilmu umum. Bukan nasihat perubatan.
