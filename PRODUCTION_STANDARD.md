@@ -84,6 +84,7 @@ MP4 (H.264), 1080 × 1920, 30 fps, bitrate 12–16 Mbps, audio AAC 48 kHz 320 kb
 - [ ] CTA tepat: "Nak dapatkan produk? Klik LINK di Bio"
 - [ ] Tiada URL, nombor telefon atau WhatsApp dalam video
 - [ ] Semua teks, sticker, CTA dan penafian dalam safe zone
+- [ ] Watermark **@empayarbiz_momyizz** ada sepanjang video. Spesifikasi: Nunito Black 24 px, teks sahaja (putih krim + bayang nipis), tengah bawah y ≈ 1450, dalam frame, tidak bertindih (lihat `AMWAY_BRAND/BRAND.md` → Watermark)
 - [ ] Sticker: satu set pakaian, satu di skrin pada satu masa, arah tunjuk betul, tidak tutup wajah/sari kata
 - [ ] Hanya warna palet dan font Fredoka / Nunito / Caveat
 - [ ] Sari kata sepadan dengan suara, tiada salah ejaan

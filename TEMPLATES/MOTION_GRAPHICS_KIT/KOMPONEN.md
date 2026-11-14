@@ -69,6 +69,13 @@ Gerakan lalai: masuk pop 90%→100% + fade 0.3 s, keluar fade 0.2 s, ease-out.
 - Kedudukan: y ~900–1300. Sticker `02-blazer-tunjuk-bawah` di atas kotak, tunjuk ke CTA.
 - Tempoh 3–5 s terakhir. Tiada URL, nombor telefon atau WhatsApp.
 
+## `WATERMARK` — tanda dagang (wajib, DISAHKAN)
+- Teks tepat: **@empayarbiz_momyizz**, dari awal hingga akhir video.
+- Nunito Black 900, **24 px**, warna Kertas `#FBF9F4`.
+- Bayang: `0 1px 2px rgba(53,54,47,.85), 0 0 6px rgba(53,54,47,.55)`. Tiada pil, tiada latar berwarna.
+- Kedudukan: tengah mendatar, y ≈ 1450 (bawah sari kata). Mesti masuk sepenuhnya dalam frame. Kalau bertindih dengan elemen lain (CTA, kotak Follow/Share), turunkan sedikit tetapi kekal dalam frame.
+- Fail siap guna (PNG lutsinar 1080 × 1920): `AMWAY_BRAND/watermark_1080x1920.png`. Letak sebagai lapisan paling atas.
+
 ## `STICKER` — sticker Momyizz
 - PNG lutsinar dari `AMWAY_BRAND/STICKERS/`. Lebar 35–45% skrin (380–490 px).
 - Satu di skrin pada satu masa. Satu set pakaian setiap video. Arah tunjuk ke elemen yang dimaksudkan.
