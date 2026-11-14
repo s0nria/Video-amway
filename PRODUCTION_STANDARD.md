@@ -38,6 +38,21 @@ Kawasan selamat: x 60–940, y 160–1440. Lihat garis bantu dalam `TEMPLATES/MO
 - Klip, grafik dan sari kata disusun ikut masa suara selepas dipercepat, supaya video jatuh dalam **60–75 s**.
 - Potong ulangan, salah sebut dan frasa luar skrip sebelum mempercepat.
 
+### Suara jelas & bersih — DISAHKAN (14 Nov 2026)
+Setiap rakaman suara mesti dibersihkan sebelum dimasukkan ke video: jelas, bersih, tiada bising latar.
+- Alat: `TEMPLATES/ALAT_AUDIO/clean_voice.py` (`python3 -I clean_voice.py input output.wav`).
+- Rantai proses:
+  1. Buang bising spektrum (noisereduce). Profil bising diambil dari bahagian paling senyap; senyap digital diabaikan.
+  2. Highpass 90 Hz dan lowpass 3.9 kHz.
+  3. Buang sisa bising (afftdn).
+  4. Noise gate untuk senyapkan celah antara perkataan.
+  5. EQ: −3 dB pada 250 Hz (kurangkan dengung), +3 dB pada 2.6 kHz (sebutan lebih jelas).
+  6. De-esser, compressor 3:1.
+  7. Loudnorm −14 LUFS, puncak −1.5 dB.
+- QC: semak spektrogram sebelum/selepas. Celah antara ayat mesti senyap, dan bentuk suara tidak rosak (tiada bunyi "robot" atau suara terpotong).
+- Kalau CapCut digunakan: Audio → Noise reduction **On**, kemudian Normalize loudness.
+- Rakaman: elakkan format AMR (8 kHz, kualiti panggilan telefon). Set app perakam ke **M4A/AAC 44.1–48 kHz** atau WAV, atau rakam terus dalam CapCut. Bilik senyap, telefon 15–20 cm dari mulut.
+
 - Suara: puncak sekitar −6 dB, purata ~−14 LUFS.
 - Muzik latar: 18–24 dB lebih rendah daripada suara.
 - Sumber muzik — DISAHKAN: pustaka muzik **TikTok / CapCut**.
