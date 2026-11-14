@@ -33,10 +33,11 @@ Kawasan selamat: x 60–940, y 160–1440. Lihat garis bantu dalam `TEMPLATES/MO
 
 ## Audio — CADANGAN
 
-### Kelajuan suara latar — DISAHKAN (14 Nov 2026)
-- Rakaman suara Momyizz **dipercepat 1.2x** dalam setiap video (tanpa ubah pic suara; CapCut: Speed 1.2x, pilih "Pitch" kekal).
+### Kelajuan suara latar — DISAHKAN (14 Nov 2026, dikemas kini: 1.15x)
+- Rakaman suara Momyizz **dipercepat 1.15x** dalam setiap video (tanpa ubah pic suara; CapCut: Speed 1.15x, pilih "Pitch" kekal). 1.15x dipilih supaya suara segerak dengan mulut dalam klip yang Momyizz bercakap.
 - Klip, grafik dan sari kata disusun ikut masa suara selepas dipercepat, supaya video jatuh dalam **60–75 s**.
 - Potong ulangan, salah sebut dan frasa luar skrip sebelum mempercepat.
+- Babak Momyizz bercakap ke kamera (klip AI): bisukan suara asal klip. Mulakan setiap frasa suara sendiri tepat ketika mulut mula bergerak, dengan sasaran beza tempoh < 0.1 s. Pastikan klip tidak dipotong sebelum mulut berhenti bergerak.
 
 ### Suara jelas & bersih — DISAHKAN (14 Nov 2026)
 Setiap rakaman suara mesti dibersihkan sebelum dimasukkan ke video: jelas, bersih, tiada bising latar.
