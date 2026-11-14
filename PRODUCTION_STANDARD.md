@@ -8,7 +8,7 @@ Status: **DISAHKAN** · **MENUNGGU** (tanya pengguna) · **CADANGAN** (draf, bol
 | Nisbah | 9:16 menegak |
 | Resolusi | 1080 × 1920 |
 | Kadar bingkai | 30 fps |
-| Tempoh | **45 s, 60 s atau 90 s** (pilih ikut topik, lihat struktur dalam `MASTER_WORKFLOW.md`) |
+| Tempoh | **Sasaran utama 60–75 s** (DISAHKAN 14 Nov 2026). Pilihan lain 45 s atau 90 s jika topik memerlukan (lihat `MASTER_WORKFLOW.md`) |
 | Platform | **TikTok dan Instagram Reels** |
 | Alat | **CapCut** (edit, sari kata, grafik) · **Flow** (jana klip B-roll AI) |
 | Kekerapan | Sasaran **3 video sehari** (peringatan dalam worksheet, lihat `MASTER_WORKFLOW.md` Fasa 7) |
@@ -32,6 +32,12 @@ Kawasan selamat: x 60–940, y 160–1440. Lihat garis bantu dalam `TEMPLATES/MO
 - Bahasa: Bahasa Melayu santai. Ejaan konsisten. Istilah saintifik diterangkan dengan mudah.
 
 ## Audio — CADANGAN
+
+### Kelajuan suara latar — DISAHKAN (14 Nov 2026)
+- Rakaman suara Momyizz **dipercepat 1.2x** dalam setiap video (tanpa ubah pic suara; CapCut: Speed 1.2x, pilih "Pitch" kekal).
+- Klip, grafik dan sari kata disusun ikut masa suara selepas dipercepat, supaya video jatuh dalam **60–75 s**.
+- Potong ulangan, salah sebut dan frasa luar skrip sebelum mempercepat.
+
 - Suara: puncak sekitar −6 dB, purata ~−14 LUFS.
 - Muzik latar: 18–24 dB lebih rendah daripada suara.
 - Sumber muzik — DISAHKAN: pustaka muzik **TikTok / CapCut**.

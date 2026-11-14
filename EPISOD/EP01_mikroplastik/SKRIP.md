@@ -5,7 +5,7 @@
 | Pilar | Mikroplastik |
 | Set sticker | Blazer (tiada sticker dalam draf ini) |
 | Produk (jika ada) | Tiada. Episod pengenalan siri |
-| Tempoh | 90 s (draf sebenar 89.4 s) |
+| Tempoh | 60–75 s (versi akhir ~71 s, suara 1.2x) |
 | Slot | Malam (cadangan: tempoh 90 s) |
 | Muzik (mood + kata kunci carian TikTok/CapCut) | Tenang, akustik pagi. Cari "calm acoustic morning" atau "soft piano lifestyle", 80–100 BPM. Pastikan lagu dari Commercial Music Library. Kuatkan 18–24 dB lebih rendah daripada suara |
 | Status | Draf (Pintu 2 menunggu kelulusan) |

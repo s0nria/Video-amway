@@ -41,7 +41,7 @@ Isi `TEMPLATES/SKRIP_TEMPLATE.md`. Struktur asas (CADANGAN):
 | Produk (jika sesuai) | 40–50 s | Pengenalan bermakna, fakta yang disahkan sahaja |
 | Penutup + CTA | 3–5 s terakhir | Rumusan + **"Nak dapatkan produk? Klik LINK di Bio"** |
 
-**Pilih tempoh ikut topik — DISAHKAN: 45 / 60 / 90 s**
+**Pilih tempoh ikut topik — DISAHKAN: sasaran utama 60–75 s** (14 Nov 2026), suara latar dipercepat 1.2x (lihat `PRODUCTION_STANDARD.md` → Audio). 45 s / 90 s hanya jika topik memerlukan.
 
 | Babak | 45 s (1 tip / 1 fakta) | 60 s (2 fakta) | 90 s (cerita + 3 fakta) |
 |---|---|---|---|
