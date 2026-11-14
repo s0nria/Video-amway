@@ -24,7 +24,7 @@ def istft(X, L):
     return (y / np.maximum(wsum, 1e-6))[N:N+L]
 
 # lengkung sasaran (dB relatif kepada purata 300-3000 Hz): kurang berat, lebih jelas
-TP = np.array([[80, -6], [150, 4], [300, 6], [600, 5], [1000, 1], [2000, -2], [3000, -3], [3900, -5]])
+TP = np.array([[80, -14], [150, -3], [250, 4], [300, 6], [600, 5], [1000, 1], [2000, -2], [3000, -3], [3900, -5]])
 target = np.interp(np.log10(np.maximum(f, 1)), np.log10(TP[:, 0]), TP[:, 1])
 def match(x):
     X = stft(x); P = np.abs(X) ** 2; e = P.sum(1); sp = e > e.max() * 1e-3
@@ -36,15 +36,30 @@ def match(x):
     print("   EQ dipakai (dB) @200/500/1k/2k/3k/3.8k:", [round(float(np.interp(v, f, g)), 1) for v in (200, 500, 1000, 2000, 3000, 3800)])
     return istft(X * (10 ** (g / 20))[None, :], len(x))
 
-print("rakaman 1:"); r1 = match(load(os.path.join(R, "rec_clean2.wav"))); save(os.path.join(R, "rec1_eq.wav"), r1)
-print("rakaman 2:"); r2 = match(load(os.path.join(R, "rec2_clean.wav"))); save(os.path.join(R, "rec2_eq.wav"), r2)
+def deplosive(x, det=120, fc=170, target=0.015):
+    """Anti-pop: kesan bingkai dengan tenaga bawah 120 Hz berlebihan (letupan p/b, nafas dekat mikrofon;
+    suara biasa hampir tiada tenaga di situ), kemudian perlahankan hanya jalur bawah ~200 Hz pada bingkai itu."""
+    X = stft(x); P = np.abs(X) ** 2
+    lo = P[:, (f > 20) & (f < det)].sum(1); tot = P[:, (f > 20) & (f < 4000)].sum(1) + 1e-12; r = lo / tot
+    act = tot > tot.max() * 1e-4
+    g = np.where(act & (r > target), np.sqrt(target / np.maximum(r, 1e-12)), 1.0)
+    g = np.clip(g, 10 ** (-30 / 20), 1.0)
+    for i in range(1, len(g)): g[i] = min(g[i], 1 - (1 - g[i-1]) * 0.5)      # lepas ~3 bingkai
+    for i in range(len(g) - 2, -1, -1): g[i] = min(g[i], 1 - (1 - g[i+1]) * 0.5)
+    ramp = np.clip((fc + 50 - f) / 50, 0, 1)                                     # penuh <170 Hz, lembut ke 220 Hz
+    G = 1 - ramp[None, :] * (1 - g[:, None])
+    print(f"   anti-pop: {int((g < 0.7).sum())} bingkai letupan diperlahankan daripada {int(act.sum())} bingkai bersuara")
+    return istft(X * G, len(x))
+
+print("rakaman 1:"); r1 = match(load(os.path.join(R, "rec_clean2.wav"))); r1 = deplosive(r1); save(os.path.join(R, "rec1_eq.wav"), r1)
+print("rakaman 2:"); r2 = match(load(os.path.join(R, "rec2_clean.wav"))); r2 = deplosive(r2); save(os.path.join(R, "rec2_eq.wav"), r2)
 
 # potongan (rakaman, mula, tamat, letak) - sama dengan build_v6
-C1 = [(0.94, 3.92, 0.3), (5.12, 8.02, 3.54), (8.52, 9.86, 6.8), (11.40, 15.18, 8.55), (16.26, 18.00, 12.05),
-      (24.73, 27.87, 13.9), (28.35, 30.71, 16.8), (31.29, 33.29, 19.2), (40.27, 45.21, 21.55), (45.49, 58.31, 26.05),
+C1 = [(0.94, 3.92, 0.3), (5.12, 8.02, 3.54), (8.52, 9.86, 6.8), (11.40, 15.42, 8.45), (16.26, 18.00, 12.25),
+      (24.73, 27.87, 13.97), (28.35, 30.71, 16.9), (31.29, 33.29, 19.2), (40.27, 45.21, 21.55), (45.49, 58.31, 26.05),
       (60.57, 67.05, 37.45), (71.73, 76.83, 43.65), (77.25, 80.65, 48.3), (81.39, 85.59, 51.5), (86.25, 90.17, 55.8),
-      (91.65, 93.79, 59.45), (94.11, 96.59, 61.55), (98.62, 102.80, 64.25), (104.74, 108.28, 68.1)]
-CUTS = [(1, a, b, st, max(a - 0.08, 0)) for a, b, st in C1] + [(2, 0.0, 1.80, 71.35, 0.0)]
+      (91.65, 93.79, 59.45), (94.11, 96.59, 61.55), (98.62, 102.80, 64.25), (104.74, 108.58, 68.0)]
+CUTS = [(1, a, b, st, max(a - 0.08, 0)) for a, b, st in C1] + [(2, 0.0, 1.80, 71.55, 0.0)]
 def act_db(x):
     n = int(.03 * SR); fr = x[:len(x)//n*n].reshape(-1, n); e = (fr ** 2).mean(1)
     return 10 * np.log10(e[e > e.max() * 10 ** -3.5].mean())
@@ -66,16 +81,16 @@ vraw = os.path.join(R, "voice_raw_v7.wav")
 run(["-i", os.path.join(R, "rec1_eq.wav"), "-i", os.path.join(R, "rec2_eq.wav"), "-filter_complex", ";".join(fc),
      "-map", "[v]", "-ar", str(SR), "-ac", "1", vraw])
 
-post = ",".join(["aexciter=amount=2.5:drive=7:blend=0:freq=3200:ceil=10000",   # harmonik atas 4 kHz
+post = ",".join(["highpass=f=100:poles=2", "aexciter=amount=2.5:drive=7:blend=0:freq=3200:ceil=10000",   # harmonik atas 4 kHz
                  "equalizer=f=5500:t=q:w=1.0:g=2", "deesser=i=0.35",
                  "acompressor=threshold=-22dB:ratio=2.5:attack=8:release=120:makeup=1.5",
                  "loudnorm=I=-14:TP=-1.5:LRA=5", "alimiter=limit=0.84"])
 vfin = os.path.join(R, "voice_v7.wav")
 run(["-i", vraw, "-af", post, "-ar", str(SR), "-ac", "2", vfin])
 
-v6 = os.path.join(H, "EP01_Mikroplastik_v6_suara_1.15x.mp4"); base = os.path.join(H, "base_v6.mp4")
-out = os.path.join(H, "EP01_Mikroplastik_v7_suara_seragam.mp4")
+v6 = os.path.join(H, "EP01_Mikroplastik_v7b_watermark.mp4"); base = os.path.join(H, "base_v6.mp4")
+out = os.path.join(H, "EP01_Mikroplastik_v8c_tanpa_pop.mp4")
 run(["-i", v6, "-i", base, "-i", vfin, "-filter_complex",
-     "[1:a]volume=0:enable='between(t,3.2,8.3)',volume=0.8[bg];[bg][2:a]amix=inputs=2:normalize=0:duration=first,volume=-1.3dB,alimiter=limit=0.89[a]",
+     "[1:a]volume=0:enable='between(t,3.2,8.3)',volume=0.1:enable='between(t,8.3,13.85)',volume=0.8[bg];[bg][2:a]amix=inputs=2:normalize=0:duration=first,volume=-1.3dB,alimiter=limit=0.89[a]",
      "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-ar", "48000", "-b:a", "320k", "-movflags", "+faststart", out])
 print(out)

@@ -54,11 +54,12 @@ Setiap rakaman suara mesti dibersihkan sebelum dimasukkan ke video: jelas, bersi
 - **Suara seragam & jelas (DISAHKAN 14 Nov 2026)**, dibuat selepas pembersihan. Contoh: `TEMPLATES/ALAT_AUDIO/seragam_suara_contoh_EP01.py`.
   1. Padan nada setiap rakaman kepada satu lengkung sasaran, supaya rakaman berlainan bunyi sama: kurangkan bunyi berat 150–600 Hz, kuatkan 2–4 kHz.
   2. Seimbangkan setiap ayat ke kekuatan yang sama, dengan beza antara ayat ≤ 2 dB.
-  3. Exciter (harmonik atas 3.2 kHz) + EQ 5.5 kHz untuk kecerahan. Ini wajib untuk rakaman 8 kHz/AMR.
-  4. Compressor 2.5:1, campuran akhir −14 LUFS.
+  3. **Anti-pop:** kesan letupan nafas/huruf p-b (mulut terlalu dekat mikrofon) melalui tenaga bawah 120 Hz. Perlahankan hanya jalur bawah ~200 Hz pada bingkai itu, dan potong frekuensi bawah 100 Hz. Jangan kuatkan 150 Hz. Hujung potongan mesti berhenti sebelum hembusan nafas.
+  4. Exciter (harmonik atas 3.2 kHz) + EQ 5.5 kHz untuk kecerahan. Ini wajib untuk rakaman 8 kHz/AMR.
+  5. Compressor 2.5:1, campuran akhir −14 LUFS.
 - QC: semak spektrogram sebelum/selepas. Celah antara ayat mesti senyap, dan bentuk suara tidak rosak (tiada bunyi "robot" atau suara terpotong).
 - Kalau CapCut digunakan: Audio → Noise reduction **On**, kemudian Normalize loudness.
-- Rakaman: elakkan format AMR (8 kHz, kualiti panggilan telefon). Set app perakam ke **M4A/AAC 44.1–48 kHz** atau WAV, atau rakam terus dalam CapCut. Bilik senyap, telefon 15–20 cm dari mulut.
+- Rakaman: jarak telefon 15–20 cm dan sedikit ke tepi mulut (bukan betul-betul di depan) untuk elak bunyi pop. Elakkan format AMR (8 kHz, kualiti panggilan telefon). Set app perakam ke **M4A/AAC 44.1–48 kHz** atau WAV, atau rakam terus dalam CapCut. Bilik senyap, telefon 15–20 cm dari mulut.
 
 - Suara: puncak sekitar −6 dB, purata ~−14 LUFS.
 - Bunyi latar klip AI (Flow) di bawah suara: semak spektrogram. Kalau ada dengungan, deringan atau desiran berterusan, ia kedengaran seperti gema di belakang suara. Perlahankan sekurang-kurangnya 20 dB atau bisukan. Sasaran: bunyi latar ≥ 25 dB di bawah suara.
