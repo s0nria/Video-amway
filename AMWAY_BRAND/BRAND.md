@@ -59,6 +59,12 @@ Peraturan penggunaan (cadangan, boleh diubah pengguna):
 - Pautan: hanya "LINK di Bio". Jangan papar URL, nombor telefon atau WhatsApp dalam video.
 - CTA mesti berada dalam safe zone TikTok/Reels.
 
+## Watermark — DISAHKAN (14 Nov 2026)
+- Teks: **@empayarbiz_momyizz**, sepanjang video.
+- Fon **Nunito Black (900)**, **24 px** atas kanvas 1080 × 1920. Fon dan saiz relatif sama dengan watermark poster.
+- Teks sahaja: tiada pil atau latar berwarna. Warna Kertas `#FBF9F4` dengan bayang gelap nipis supaya terbaca atas semua latar.
+- Kedudukan: tengah bawah, di bawah sari kata (y ≈ 1450). Mesti masuk sepenuhnya dalam frame dan tidak bertindih dengan sari kata, CTA atau kotak Follow/Share.
+
 ## Peraturan ketepatan maklumat produk — DISAHKAN
 1. **People first, product second.** Mula dengan situasi hidup sebenar; produk hanya jika berkaitan secara munasabah.
 2. Semua fakta produk (nama, ramuan, kandungan, dos, cara guna) mesti disemak di laman rasmi https://www.amway.my/ sebelum skrip diluluskan. Catat tarikh semakan.
