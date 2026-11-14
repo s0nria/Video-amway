@@ -50,6 +50,11 @@ Setiap rakaman suara mesti dibersihkan sebelum dimasukkan ke video: jelas, bersi
   5. EQ: −3 dB pada 250 Hz (kurangkan dengung), +3 dB pada 2.6 kHz (sebutan lebih jelas).
   6. De-esser, compressor 3:1.
   7. Loudnorm −14 LUFS, puncak −1.5 dB.
+- **Suara seragam & jelas (DISAHKAN 14 Nov 2026)**, dibuat selepas pembersihan. Contoh: `TEMPLATES/ALAT_AUDIO/seragam_suara_contoh_EP01.py`.
+  1. Padan nada setiap rakaman kepada satu lengkung sasaran, supaya rakaman berlainan bunyi sama: kurangkan bunyi berat 150–600 Hz, kuatkan 2–4 kHz.
+  2. Seimbangkan setiap ayat ke kekuatan yang sama, dengan beza antara ayat ≤ 2 dB.
+  3. Exciter (harmonik atas 3.2 kHz) + EQ 5.5 kHz untuk kecerahan. Ini wajib untuk rakaman 8 kHz/AMR.
+  4. Compressor 2.5:1, campuran akhir −14 LUFS.
 - QC: semak spektrogram sebelum/selepas. Celah antara ayat mesti senyap, dan bentuk suara tidak rosak (tiada bunyi "robot" atau suara terpotong).
 - Kalau CapCut digunakan: Audio → Noise reduction **On**, kemudian Normalize loudness.
 - Rakaman: elakkan format AMR (8 kHz, kualiti panggilan telefon). Set app perakam ke **M4A/AAC 44.1–48 kHz** atau WAV, atau rakam terus dalam CapCut. Bilik senyap, telefon 15–20 cm dari mulut.
