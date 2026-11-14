@@ -61,6 +61,7 @@ Setiap rakaman suara mesti dibersihkan sebelum dimasukkan ke video: jelas, bersi
 - Rakaman: elakkan format AMR (8 kHz, kualiti panggilan telefon). Set app perakam ke **M4A/AAC 44.1–48 kHz** atau WAV, atau rakam terus dalam CapCut. Bilik senyap, telefon 15–20 cm dari mulut.
 
 - Suara: puncak sekitar −6 dB, purata ~−14 LUFS.
+- Bunyi latar klip AI (Flow) di bawah suara: semak spektrogram. Kalau ada dengungan, deringan atau desiran berterusan, ia kedengaran seperti gema di belakang suara. Perlahankan sekurang-kurangnya 20 dB atau bisukan. Sasaran: bunyi latar ≥ 25 dB di bawah suara.
 - Muzik latar: 18–24 dB lebih rendah daripada suara.
 - Sumber muzik — DISAHKAN: pustaka muzik **TikTok / CapCut**.
   - Untuk akaun perniagaan TikTok, hanya lagu dari **Commercial Music Library** boleh digunakan. Lagu trending biasa mungkin disekat atau dibisukan.
