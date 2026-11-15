@@ -16,6 +16,7 @@ Untuk hasilkan 3–5 konten sehari dari telefon (claude.ai atau app Claude).
    - `TEMPLATES/TEKNIK_PENULISAN.md`
    - `KALENDAR_PENULISAN/MINGGU_1.md` (contoh gaya penulisan Momyizz)
    - `KALENDAR_PENULISAN/HARI_08-30.md`
+   - `KALENDAR_PENULISAN/MASALAH_AUDIENS.md` (20 masalah audiens + cara betul ambil supplemen)
    - `AMWAY_BRAND/STICKERS/00-katalog.png`
    - **Contoh post sebenar Momyizz** (lihat bahagian di bawah)
 4. Setiap hari: worksheet → tab **Tulis** → pilih hari. Hari 1–7 terus salin teks. Hari 8–30: tekan **Salin arahan untuk Claude**, buka chat baharu dalam Project, tampal.

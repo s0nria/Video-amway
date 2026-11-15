@@ -4,6 +4,8 @@
 |---|---|
 | `MINGGU_1.md` | Hari 1–7: teks penuh Facebook, Instagram, Threads, WhatsApp + checklist |
 | `HARI_08-30.md` | Hari 8–30: idea dan hook setiap slot |
+| `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |
+| `masalah_data.py` | Sumber data 20 masalah |
 | `kalendar_data.py` | Sumber data (edit di sini) |
 | `bina.py` | Semak had aksara, jana Markdown, kemas kini worksheet |
 

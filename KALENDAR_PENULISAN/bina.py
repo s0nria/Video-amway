@@ -12,6 +12,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from kalendar_data import DAYS, SLOT_INFO  # noqa: E402
+from masalah_data import MASALAH, CARA_BETUL, SUMBER  # noqa: E402
 
 LIMIT_TH, LIMIT_IG = 500, 2200
 BANNED = re.compile(r"(?<![A-Za-z])(aku|kau|saya|awak|anda)(?![A-Za-z])", re.I)
@@ -35,7 +36,46 @@ def check():
                 m = BANNED.search(t)
                 if m:
                     errs.append(f"{tag}: Threads guna '{m.group(0)}'")
+    for m in MASALAH:
+        for k, v in m.items():
+            if isinstance(v, str):
+                hit = BANNED.search(v)
+                if hit:
+                    errs.append(f"Masalah {m['n']} {k}: guna '{hit.group(0)}'")
+            if k == "sumber":
+                errs += [f"Masalah {m['n']}: sumber '{x}' tiada dalam SUMBER" for x in v if x not in SUMBER]
     return errs
+
+
+def masalah_json():
+    return {"items": MASALAH, "cara": CARA_BETUL, "sumber": SUMBER}
+
+
+def md_masalah():
+    L = ["# 20 Masalah Paling Mendesak — Audiens Momyizz", "",
+         "Audiens: **ibu bekerja / wanita Malaysia 25–45 tahun yang menjaga keluarga**. Disusun ikut kesanggupan membayar (paling tinggi dahulu).",
+         "Dalam worksheet: tab **Tulis** → **20 Masalah audiens** → butang **Salin arahan untuk Claude** pada setiap masalah.", "",
+         "> Peraturan: supplemen ialah pelengkap, bukan pengganti makanan atau ubat. Tiada dakwaan mencegah / merawat. "
+         "Cadangan produk dan harga hanya di ruang tertutup (peraturan Amway Malaysia). Nama produk yang belum disahkan di amway.my ditanda PERLU SEMAK.", "",
+         "## Cara betul ambil supplemen (siri konten umum)", ""]
+    L += [f"- **{t}:** {d}" for t, d in CARA_BETUL]
+    L += ["", "## Ringkasan", "", "| # | Masalah | Kategori | Kesanggupan bayar | Hari kalendar berkaitan |", "|---|---|---|---|---|"]
+    for m in MASALAH:
+        L += [f"| {m['n']} | {m['tajuk']} | {m['kat']} | {m['bayar']} | {', '.join(map(str, m['hari'])) or '-'} |"]
+    L += [""]
+    for m in MASALAH:
+        L += [f"## {m['n']}. {m['tajuk']}", "",
+              f"- **Apa mereka rasa:** {m['rasa']}",
+              f"- **Apa yang dah dicuba:** {m['cuba']}",
+              f"- **Kenapa masih gagal:** {m['gagal']}",
+              f"- **Kesanggupan bayar:** {m['bayar']}",
+              f"- **Fakta untuk konten:** {m['fakta']}",
+              f"- **Cara betul (supplemen / gaya hidup):** {m['supp']}",
+              f"- **Cadangan Nutrilite / Amway (ruang tertutup sahaja):** {m['nutrilite']}"]
+        if m["sumber"]:
+            L += ["- **Sumber:** " + "; ".join(SUMBER[x] for x in m["sumber"])]
+        L += [""]
+    return "\n".join(L)
 
 
 def to_json():
@@ -100,6 +140,8 @@ def md_index(days):
          "| Fail | Isi |", "|---|---|",
          "| `MINGGU_1.md` | Hari 1–7: teks penuh Facebook, Instagram, Threads, WhatsApp + checklist |",
          "| `HARI_08-30.md` | Hari 8–30: idea dan hook setiap slot |",
+         "| `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |",
+         "| `masalah_data.py` | Sumber data 20 masalah |",
          "| `kalendar_data.py` | Sumber data (edit di sini) |",
          "| `bina.py` | Semak had aksara, jana Markdown, kemas kini worksheet |", "",
          "Slot harian: **08:30** personal branding · **12:30** edukasi / soft-sell · **20:30** interaksi · "
@@ -113,15 +155,19 @@ def md_index(days):
 
 
 def inject(data):
-    js = "const WRITE_PLAN=" + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";"
+    blocks = {
+        "WRITE_PLAN": "const WRITE_PLAN=" + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";",
+        "MASALAH": "const MASALAH=" + json.dumps(masalah_json(), ensure_ascii=False, separators=(",", ":")) + ";",
+    }
     for name in ("momyizz-planner.html", "index.html"):
         p = os.path.join(ROOT, name)
         s = open(p, encoding="utf-8").read()
-        a, b = "/*WRITE_PLAN_START*/", "/*WRITE_PLAN_END*/"
-        if a not in s:
-            raise SystemExit(f"Penanda {a} tiada dalam {name}")
-        i, j = s.index(a) + len(a), s.index(b)
-        s = s[:i] + js + s[j:]
+        for key, js in blocks.items():
+            a, b = f"/*{key}_START*/", f"/*{key}_END*/"
+            if a not in s:
+                raise SystemExit(f"Penanda {a} tiada dalam {name}")
+            i, j = s.index(a) + len(a), s.index(b)
+            s = s[:i] + js + s[j:]
         open(p, "w", encoding="utf-8").write(s)
 
 
@@ -134,6 +180,7 @@ if __name__ == "__main__":
     open(os.path.join(HERE, "MINGGU_1.md"), "w", encoding="utf-8").write(md_week1(data))
     open(os.path.join(HERE, "HARI_08-30.md"), "w", encoding="utf-8").write(md_plan(data))
     open(os.path.join(HERE, "README.md"), "w", encoding="utf-8").write(md_index(data))
+    open(os.path.join(HERE, "MASALAH_AUDIENS.md"), "w", encoding="utf-8").write(md_masalah())
     inject(data)
     n = sum(len(d.get("slots", [])) for d in data)
     print(f"OK: {len(data)} hari, {n} slot teks penuh. Markdown dan worksheet dikemas kini.")
