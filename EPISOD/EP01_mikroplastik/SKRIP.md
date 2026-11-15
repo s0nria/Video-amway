@@ -114,6 +114,12 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 #Momyizz #YourHealthAndBeautyBuddy #Mikroplastik #FaktaBukanPanik #IbuBijak
 ```
 
+## 5b. Cover video
+- Fail: `EP01_cover_hook.png` (1080 × 1920). Simpan bersama video dalam galeri/Drive; bukan dalam repo.
+- Asas: bingkai 1.0 s klip hook (air dituang ke dalam botol plastik calar).
+- Elemen: pil "SIRI MIKROPLASTIK · EPISOD 1" (warna pilar `#557F7A`), hook Fredoka 108 px "Pernah fikir apa / dalam **air** ni?" ("air" dalam warna Kayu), bulatan putus-putus pada gelembung + nota Caveat "zarah < 5 mm?", pil "Fakta, bukan panik." (Sage gelap), watermark @empayarbiz_momyizz.
+- Semua teks dalam kawasan tengah 3:4 (y 240–1680) supaya tidak terpotong dalam grid profil TikTok/IG.
+
 ## 6. Semakan akhir
 - [x] Pintu 1 (fakta): semua fakta ada sumber + label bukti
 - [ ] Pintu 2 (skrip) diluluskan pengguna
