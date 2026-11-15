@@ -113,16 +113,17 @@ def big_word(txt, color=SAGE_G, y=1180, size=100):
     return im, int(500 - im.width / 2), y - pad
 
 def hook_card():
-    f = font("Fredoka", 88, "Bold")
+    # di atas muka ibu (bawah jam "7:15 AM" dalam klip)
+    f = font("Fredoka", 76, "Bold")
     l1, l2 = "Anak dah makan,", "suami dah makan…"
     d = ImageDraw.Draw(Image.new("L", (1, 1)))
-    bw = max(tw(d, l1, f), tw(d, l2, f)) + 96
-    bh = 2 * 104 + 64
+    bw = max(tw(d, l1, f), tw(d, l2, f)) + 80
+    bh = 2 * 90 + 40
     im, pad = shadow_box((bw, bh), 36, KERTAS)
     dr = ImageDraw.Draw(im)
-    dr.text((pad + bw / 2, pad + 32 + 52), l1, font=f, fill=DAKWAT, anchor="mm")
-    dr.text((pad + bw / 2, pad + 32 + 104 + 52), l2, font=f, fill=DAKWAT, anchor="mm")
-    return im, int(500 - im.width / 2), 320 - pad
+    dr.text((pad + bw / 2, pad + 20 + 45), l1, font=f, fill=DAKWAT, anchor="mm")
+    dr.text((pad + bw / 2, pad + 20 + 90 + 45), l2, font=f, fill=DAKWAT, anchor="mm")
+    return im, int(500 - im.width / 2), 248 - pad
 
 def hook_ibu():
     f = font("Fredoka", 160, "Bold")
@@ -132,7 +133,7 @@ def hook_ibu():
     im = Image.new("RGBA", (w + 80, 220), (0, 0, 0, 0))
     dr = ImageDraw.Draw(im)
     dr.text((im.width / 2, 110), t, font=f, fill=KAYU, anchor="mm", stroke_width=10, stroke_fill=KERTAS)
-    return im, int(380 - im.width / 2), 610
+    return im, int(250 - im.width / 2), 790   # bawah muka ibu, kiri
 
 def hook_nanti():
     f = font("Caveat", 96, "Bold")
@@ -141,7 +142,7 @@ def hook_nanti():
     w = tw(d, t, f)
     im = Image.new("RGBA", (w + 60, 150), (0, 0, 0, 0))
     ImageDraw.Draw(im).text((im.width / 2, 75), t, font=f, fill=SAGE_G, anchor="mm", stroke_width=8, stroke_fill=KERTAS)
-    return im, int(380 - im.width / 2), 830
+    return im, int(645 - im.width / 2), 835   # sebaris dengan IBU?, kanan
 
 def label_pilar():
     fl = font("Fredoka", 28, "SemiBold")
@@ -223,11 +224,14 @@ def product_scene(t):
 
 # HOOK 3 s (cover)
 add(0.00, TOTAL, watermark())
-add(0.00, 3.00, hook_card())
-add(0.90, 3.00, hook_ibu())
-add(1.60, 3.00, hook_nanti())
-add(1.10, 3.00, sticker("14-blazer-tutup-mulut.png", 340, 940 - 340, 1100))
-add(2.10, 3.00, sari_kata("Siapa macam ni?"))
+# COVER 1 s: hook penuh muncul terus dari bingkai pertama (jadi thumbnail), hilang pada 1.0 s.
+# Sticker tutup mulut hanya pada cover; tiada sticker bila video berjalan.
+add(0.00, 1.00, hook_card())
+add(0.00, 1.00, hook_ibu())
+add(0.00, 1.00, hook_nanti())
+add(0.00, 1.00, sticker("14-blazer-tutup-mulut.png", 300, 940 - 300, 1440))
+add(1.00, 2.00, sari_kata("Ibu? “Nanti la…”", ybot=1438))
+add(2.00, 3.00, sari_kata("Siapa macam ni?", ybot=1438))
 
 c = [0]
 for d in DUR: c.append(c[-1] + d)
@@ -298,7 +302,8 @@ def overlaps():
     return bad
 # Kotak muka subjek (ibu / anak) — tulisan & grafik tak boleh tutup
 c6 = c[5]
-FACES = [(c6, c6 + 2.0, (500, 580, 670, 910)), (c6, c6 + 2.0, (250, 990, 460, 1255)),
+FACES = [(0, 1.958, (370, 520, 670, 810)), (0, 1.958, (250, 1020, 420, 1290)),   # klip 1: ibu, anak
+         (c6, c6 + 2.0, (500, 580, 670, 910)), (c6, c6 + 2.0, (250, 990, 460, 1255)),
          (c6 + 2.0, c6 + 4.0, (420, 370, 670, 780)), (c6 + 2.0, c6 + 4.0, (10, 835, 285, 1095)),
          (c6 + 4.0, c6 + 6.92, (250, 395, 815, 1180)),
          (c6 + 6.92, TOTAL, (420, 420, 685, 805)), (c6 + 6.92, TOTAL, (25, 850, 230, 1070))]
@@ -312,7 +317,7 @@ def frame_overlay(t):
     canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     for a, b, (im, x, y) in T:
         if not (a <= t < b): continue
-        k_in = min(1, (t - a) / 0.3)
+        k_in = 1 if a == 0 else min(1, (t - a) / 0.3)   # elemen saat 0 terus penuh (cover)
         k_out = min(1, (b - t) / 0.2) if b < TOTAL - 0.01 else 1
         alpha = ease(k_in) * k_out
         s = 0.9 + 0.1 * ease(k_in)
@@ -331,12 +336,12 @@ def frame_overlay(t):
 
 def hook_vignette(t):
     """Gelapkan sedikit bahagian atas semasa hook supaya teks jelas."""
-    if t >= 3.0: return None
+    if t >= 1.0: return None
     g = Image.new("L", (1, H))
     for yy in range(H):
         g.putpixel((0, yy), int(110 * max(0, 1 - yy / 1100)))
     g = g.resize((W, H))
-    k = 1 if t < 2.8 else (3.0 - t) / 0.2
+    k = 1 if t < 0.8 else (1.0 - t) / 0.2
     blk = Image.new("RGBA", (W, H), (53, 54, 47, 0))
     blk.putalpha(g.point(lambda v: int(v * k)))
     return blk
@@ -366,19 +371,20 @@ if __name__ == "__main__":
         fr = subprocess.run(["ffmpeg", "-v", "error", "-ss", "0.3", "-i", base, "-frames:v", "1", "-f", "rawvideo",
                              "-pix_fmt", "rgba", "-"], capture_output=True).stdout
         im = Image.alpha_composite(Image.frombytes("RGBA", (W, H), fr), hook_vignette(0.3))
-        im = Image.alpha_composite(im, frame_overlay(2.75))
+        im = Image.alpha_composite(im, frame_overlay(0.3))
         im.convert("RGB").save(f"{OUT}/EP02_cover_hook.png"); sys.exit()
-    nframes = int(round(TOTAL * FPS))
+    LIMIT = float(sys.argv[3]) if mode == "clip" else TOTAL
+    NAME = f"EP02_preview_0-{LIMIT:g}s.mp4" if mode == "clip" else "EP02_Sarapan_Ibu.mp4"
     dec = subprocess.Popen(["ffmpeg", "-v", "error", "-i", base, "-f", "rawvideo", "-pix_fmt", "rgba", "-"], stdout=subprocess.PIPE)
     enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-r", str(FPS),
                             "-i", "-", "-i", base, "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium",
                             "-b:v", "14M", "-maxrate", "16M", "-bufsize", "28M", "-pix_fmt", "yuv420p",
                             "-c:a", "aac", "-b:a", "320k", "-ar", "48000", "-shortest", "-movflags", "+faststart",
-                            f"{OUT}/EP02_Sarapan_Ibu.mp4"], stdin=subprocess.PIPE)
+                            f"{OUT}/{NAME}"], stdin=subprocess.PIPE)
     i = 0
     while True:
         fr = dec.stdout.read(W * H * 4)
-        if len(fr) < W * H * 4: break
+        if len(fr) < W * H * 4 or i >= round(LIMIT * FPS): break
         t = i / FPS
         im = Image.frombytes("RGBA", (W, H), fr)
         if PROD_A <= t < PROD_B: im = product_scene(t)
@@ -389,11 +395,12 @@ if __name__ == "__main__":
         if i == 0:  # cover / thumbnail = rupa penuh hook
             pass
         i += 1
-    enc.stdin.close(); enc.wait()
+    dec.kill(); enc.stdin.close(); enc.wait()
     # SRT untuk CapCut
     def ts(x):
         ms = int(round(x * 1000)); return f"{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02},{ms%1000:03}"
-    srt = [(0.0, 3.0, "Anak dah makan, suami dah makan…\nIBU? “Nanti la…”")] + SUB + [(44.2, 46.6, "Ibu pun perlu diisi.")]
+    srt = [(0.0, 1.0, "Anak dah makan, suami dah makan…"), (1.0, 2.0, "Ibu? “Nanti la…”"),
+           (2.0, 3.0, "Siapa macam ni?")] + SUB + [(44.2, 46.6, "Ibu pun perlu diisi.")]
     with open(f"{OUT}/EP02_Sarapan_Ibu_sarikata.srt", "w") as fh:
         for n, (a, b, t) in enumerate(srt, 1):
             fh.write(f"{n}\n{ts(a)} --> {ts(b)}\n{t}\n\n")
