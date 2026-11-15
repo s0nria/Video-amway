@@ -57,6 +57,8 @@ Wajib untuk SETIAP video yang diedit, tanpa perlu diingatkan semula:
 3. **Sari kata dan grafik tidak boleh bertindih** antara satu sama lain (sari kata, penafian, label, CTA, big word, sticker, nama akaun) atau dengan teks yang tertanam dalam klip AI. Semak setiap pasangan elemen yang muncul serentak. Jika bertindih, alihkan kedudukan (contoh: naikkan sari kata bila penafian di bawah).
 5. **Frame akhir (CTA):** semua tulisan (sari kata, big word, kotak CTA) di **bahagian bawah sahaja** (y ≈ 1230–1440). Sticker `15-blazer-tunjuk-atas-kiri` di kanan bawah, tunjuk ke kotak CTA. **Pengecualian:** sticker penutup boleh diletak lebih ke bawah dan terkeluar dari safe zone / frame (dibenarkan pengguna); elemen lain tetap dalam safe zone.
 6. **Tulisan dan grafik tidak boleh menutup muka subjek** (ibu, anak, sesiapa dalam rakaman), dalam mana-mana babak. Tandakan kotak muka setiap babak dan semak secara automatik bersama semakan pertindihan. Jika bertindih, alihkan teks (biasanya ke bawah).
+7. **Sari kata mesti ikut suara dalam video, perkataan demi perkataan.** Skrip hanya rujukan. Transkrip audio dulu (Whisper, bahasa `ms`, dengan masa perkataan), kemudian tulis sari kata tepat seperti yang didengar dan ikut masa suara. Tiada sari kata semasa tiada suara. Big word / teks penekanan juga mesti sama dengan ayat yang disebut.
+8. **Jika suara habis terlalu dekat dengan hujung klip,** bekukan bingkai akhir (contoh 2 s) supaya CTA dipapar ≥ 3 s tanpa bertindih dengan sari kata terakhir.
 4. **Gambar produk mesti tepat seperti produk sebenar.** Jika klip AI menunjukkan botol/tin/label yang salah atau direka, ganti babak itu dengan gambar produk sebenar dalam `AMWAY_BRAND/PRODUK/` (atau gambar yang diberi pengguna). Jangan biarkan label palsu.
 
 ## Senarai semak QC (Pintu 3)
@@ -73,7 +75,7 @@ Wajib untuk SETIAP video yang diedit, tanpa perlu diingatkan semula:
 - [ ] Gambar produk sepadan dengan produk sebenar (`AMWAY_BRAND/PRODUK/`)
 - [ ] Sticker: satu set pakaian, satu di skrin pada satu masa, arah tunjuk betul, tidak tutup wajah/sari kata
 - [ ] Hanya warna palet dan font Fredoka / Nunito / Caveat
-- [ ] Sari kata sepadan dengan suara, tiada salah ejaan
+- [ ] Sari kata sepadan dengan suara perkataan demi perkataan (dari transkripsi), ikut masa suara, tiada salah ejaan
 - [ ] Kata ganti nama Momyizz & korang sahaja. Gaya soft-selling
 - [ ] Audio seimbang, tiada bunyi pecah
 - [ ] Klip AI (Flow) tidak menunjukkan produk Amway palsu, label rekaan atau hasil yang mengelirukan

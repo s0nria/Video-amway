@@ -15,7 +15,8 @@ CLIPS = ["ce86719c-670571347_1794749147202571.mp4", "8310fd8d-803477808_17947492
          "02f856dc-203194378_1794749212038589.mp4", "d13d12d0-354649346_1794749222703151.mp4",
          "97dd8780-692952755_1794751917365762.mp4", "fafd5c2b-558080079_1794752351341120.mp4"]
 DUR = [7.93, 7.93, 10.0, 7.93, 7.93, 7.93]
-TOTAL = sum(DUR)  # 49.65
+EXTRA = 2.0              # bingkai akhir dibekukan 2 s supaya CTA cukup masa selepas suara habis
+TOTAL = sum(DUR) + EXTRA  # 51.65
 
 KRIM, KERTAS, DAKWAT = "#F2EEE5", "#FBF9F4", "#35362F"
 SAGE, SAGE_G, KAYU = "#7F9373", "#556A4C", "#A3876A"
@@ -230,52 +231,43 @@ add(0.00, 1.00, hook_card())
 add(0.00, 1.00, hook_ibu())
 add(0.00, 1.00, hook_nanti())
 add(0.00, 1.00, sticker("14-blazer-tutup-mulut.png", 300, 940 - 300, 1440))
-add(1.00, 2.00, sari_kata("Ibu? “Nanti la…”", ybot=1438))
-add(2.00, 3.00, sari_kata("Siapa macam ni?", ybot=1438))
 
 c = [0]
 for d in DUR: c.append(c[-1] + d)
 PROD_A, PROD_B = c[4] + 1.958, c[4] + 4.875
+# Sari kata IKUT SUARA dalam klip (transkripsi Whisper + masa perkataan), bukan teks skrip.
 SUB = [
-    # klip 1 — pagi (0–7.93)
-    (3.00, 5.40, "7.15 pagi. Kak Ana siapkan anak dulu."),
-    (5.40, c[1], "Untuk diri sendiri? Secawan kopi je."),
-    # klip 2 — pejabat (7.93–15.86)
-    (c[1], 10.60, "11 pagi, dalam mesyuarat… perut berbunyi."),
-    (10.60, 13.20, "Kepala rasa berat. Capai biskut dalam laci."),
-    (13.20, c[2], "Petang balik, lapar sangat. Makan banyak sekali gus."),
-    # klip 3 — pinggan (15.86–25.86)
-    (c[2], 18.20, "Bukan sebab tak tahu jaga makan."),
-    (18.20, 20.30, "Tapi ibu selalu letak diri paling akhir."),
-    (20.30, 22.30, "Pinggan Sihat KKM:\n½ sayur & buah"),
-    (22.30, 24.10, "¼ bijirin penuh, ¼ protein"),
-    (24.10, c[3], "Hadkan gula tambahan, termasuk minuman."),
-    # klip 4 — idea sarapan 5 minit (25.86–33.79)
-    (c[3], 28.20, "Idea 1: telur rebus, roti gandum, pisang"),
-    (28.20, 30.40, "Idea 2: oat rendam semalaman + buah"),
-    (30.40, 32.20, "Siapkan bekal ibu sekali dengan bekal anak"),
-    (32.20, c[4], "Air kosong dulu, baru kopi."),
-    # klip 5 — produk (33.79–41.72)
-    (c[4], 36.40, "Protein + karbo kompleks + serat, kenyang lebih lama."),
-    (36.40, 37.90, "Hari terlalu kelam-kabut?"),
-    (37.90, 39.80, "Nutrilite Soy Protein Drink boleh jadi pilihan tambahan."),
-    (39.80, c[5], "Tapi BUKAN pengganti sarapan sebenar."),
-    # klip 6 — penutup (41.72–49.65)
-    (c[5], 44.20, "Ibu pun manusia. Duduk 5 minit, makan dengan tenang."),
+    (1.00, 2.10, "Anak dah makan,"),
+    (2.10, 3.95, "suami dah makan… ibu?"),
+    (5.70, 6.90, "“Nanti la.”"),
+    (7.66, 10.85, "Pukul 11 pagi, perut dah mula berbunyi."),
+    (11.15, 12.55, "Kepala pun rasa berat."),
+    (12.70, 15.60, "Akhirnya, biskut dalam laci juga yang dicapai."),
+    (16.44, 18.45, "Menurut Pinggan Sihat Malaysia,"),
+    (18.45, 21.70, "separuh pinggan kita diisi dengan sayur dan buah."),
+    (21.95, 25.50, "Suku lagi bijirin dan suku lagi sumber protein."),
+    (26.00, 27.70, "Sarapan tak perlu mewah."),
+    (27.76, 29.30, "Telur,"),
+    (29.30, 30.50, "overnight oats,"),
+    (30.50, 33.30, "atau siapkan bekal ibu sekali dengan anak."),
+    (33.80, 35.80, "Kalau betul-betul kelam-kabut,"),
+    (35.80, 39.00, "Nutrilite Soy Protein Drink boleh jadi pilihan tambahan."),
+    (39.20, 41.30, "Bukan pengganti sarapan seimbang."),
+    (45.50, 48.40, "Jangan selalu letakkan diri sendiri paling akhir."),
 ]
 for a, b, t in SUB:
     # babak penutup: penafian duduk di bawah, jadi sari kata naik supaya tak bertindih
     # penutup: sari kata di paling bawah supaya tak tutup muka ibu/anak
-    add(a, b, sari_kata(t, ybot=1438 if a >= c[5] else 1400))
+    add(a, b, sari_kata(t, ybot=1438 if (a >= c[5] or a < 4) else 1400))
 
-add(20.30, c[3], label_bukti("Fakta terbukti", TERBUKTI, "Sumber: KKM MDG 2020"))
-add(c[3] + 0.2, 30.40, label_bukti("Sarapan 5 Minit Ibu", SAGE_G, "Sedia malam sebelumnya", y=1130))
-add(c[4], 36.40, label_bukti("Panduan", SAGE, "Panduan pemakanan umum"))
-add(20.30, c[3], penafian())
-add(44.20, 46.60, big_word("Perut ibu juga\nperlu diisi.", y=1228, size=72))
+add(16.44, 25.50, label_bukti("Fakta terbukti", TERBUKTI, "Sumber: KKM MDG 2020"))
+add(26.00, 27.70, label_bukti("Panduan", SAGE, "Panduan pemakanan umum", y=1130))
+add(27.76, 33.30, label_bukti("Sarapan 5 Minit Ibu", SAGE_G, "Sedia malam sebelumnya", y=1130))
+add(16.44, 25.50, penafian())
+add(41.70, 44.80, big_word("Perut ibu pun perlu diisi.", y=1300, size=62))   # ikut suara
 # penafian: dipapar di babak fakta (20.3–25.9 s, 5.6 s). Penutup dikosongkan supaya tak tutup muka.
-add(46.60, TOTAL, cta())
-add(46.80, TOTAL, sticker("15-blazer-tunjuk-atas-kiri.png", 360, 715, 1840), boleh_keluar=True)
+add(48.45, TOTAL, cta())
+add(48.60, TOTAL, sticker("15-blazer-tunjuk-atas-kiri.png", 360, 715, 1840), boleh_keluar=True)
 
 def overlaps():
     bad = []
@@ -358,7 +350,7 @@ if __name__ == "__main__":
                         "-c:v", "libx264", "-crf", "12", "-preset", "fast", "-c:a", "aac", "-b:a", "320k", base], check=True)
     if mode == "stills":
         for t in [float(x) for x in sys.argv[3].split(",")]:
-            fr = subprocess.run(["ffmpeg", "-v", "error", "-ss", str(t), "-i", base, "-frames:v", "1", "-f", "rawvideo",
+            fr = subprocess.run(["ffmpeg", "-v", "error", "-ss", str(min(t, sum(DUR) - 0.05)), "-i", base, "-frames:v", "1", "-f", "rawvideo",
                                  "-pix_fmt", "rgba", "-"], capture_output=True).stdout
             im = Image.frombytes("RGBA", (W, H), fr)
             if PROD_A <= t < PROD_B: im = product_scene(t)
@@ -379,12 +371,13 @@ if __name__ == "__main__":
     enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-r", str(FPS),
                             "-i", "-", "-i", base, "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium",
                             "-b:v", "14M", "-maxrate", "16M", "-bufsize", "28M", "-pix_fmt", "yuv420p",
-                            "-c:a", "aac", "-b:a", "320k", "-ar", "48000", "-shortest", "-movflags", "+faststart",
+                            "-af", "apad", "-c:a", "aac", "-b:a", "320k", "-ar", "48000", "-shortest", "-movflags", "+faststart",
                             f"{OUT}/{NAME}"], stdin=subprocess.PIPE)
     i = 0
     while True:
-        fr = dec.stdout.read(W * H * 4)
-        if len(fr) < W * H * 4 or i >= round(LIMIT * FPS): break
+        nf = dec.stdout.read(W * H * 4)
+        if len(nf) == W * H * 4: fr = nf          # habis klip: ulang bingkai akhir (beku)
+        if i >= round(LIMIT * FPS): break
         t = i / FPS
         im = Image.frombytes("RGBA", (W, H), fr)
         if PROD_A <= t < PROD_B: im = product_scene(t)
@@ -399,8 +392,7 @@ if __name__ == "__main__":
     # SRT untuk CapCut
     def ts(x):
         ms = int(round(x * 1000)); return f"{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02},{ms%1000:03}"
-    srt = [(0.0, 1.0, "Anak dah makan, suami dah makan…"), (1.0, 2.0, "Ibu? “Nanti la…”"),
-           (2.0, 3.0, "Siapa macam ni?")] + SUB + [(44.2, 46.6, "Perut ibu juga perlu diisi.")]
+    srt = sorted(SUB + [(41.7, 44.8, "Perut ibu pun perlu diisi.")])
     with open(f"{OUT}/EP02_Sarapan_Ibu_sarikata.srt", "w") as fh:
         for n, (a, b, t) in enumerate(srt, 1):
             fh.write(f"{n}\n{ts(a)} --> {ts(b)}\n{t}\n\n")

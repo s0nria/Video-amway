@@ -1,0 +1,538 @@
+[
+ {
+  "start": 0.0,
+  "end": 3.9,
+  "text": " Anak dah makan, suami dah makan, ibu?",
+  "words": [
+   {
+    "w": " Anak",
+    "s": 0.0,
+    "e": 0.96
+   },
+   {
+    "w": " dah",
+    "s": 0.96,
+    "e": 1.08
+   },
+   {
+    "w": " makan,",
+    "s": 1.08,
+    "e": 1.46
+   },
+   {
+    "w": " suami",
+    "s": 2.14,
+    "e": 2.52
+   },
+   {
+    "w": " dah",
+    "s": 2.52,
+    "e": 2.74
+   },
+   {
+    "w": " makan,",
+    "s": 2.74,
+    "e": 3.3
+   },
+   {
+    "w": " ibu?",
+    "s": 3.66,
+    "e": 3.9
+   }
+  ]
+ },
+ {
+  "start": 5.76,
+  "end": 6.52,
+  "text": " Nantilah.",
+  "words": [
+   {
+    "w": " Nantilah.",
+    "s": 5.76,
+    "e": 6.52
+   }
+  ]
+ },
+ {
+  "start": 7.66,
+  "end": 10.72,
+  "text": " Pukul 11 pagi, perut dah mula berbunyi.",
+  "words": [
+   {
+    "w": " Pukul",
+    "s": 7.66,
+    "e": 8.42
+   },
+   {
+    "w": " 11",
+    "s": 8.42,
+    "e": 8.72
+   },
+   {
+    "w": " pagi,",
+    "s": 8.72,
+    "e": 9.22
+   },
+   {
+    "w": " perut",
+    "s": 9.64,
+    "e": 9.82
+   },
+   {
+    "w": " dah",
+    "s": 9.82,
+    "e": 9.96
+   },
+   {
+    "w": " mula",
+    "s": 9.96,
+    "e": 10.18
+   },
+   {
+    "w": " berbunyi.",
+    "s": 10.18,
+    "e": 10.72
+   }
+  ]
+ },
+ {
+  "start": 11.2,
+  "end": 12.42,
+  "text": " Kepala pun rasa berat.",
+  "words": [
+   {
+    "w": " Kepala",
+    "s": 11.2,
+    "e": 11.58
+   },
+   {
+    "w": " pun",
+    "s": 11.58,
+    "e": 11.8
+   },
+   {
+    "w": " rasa",
+    "s": 11.8,
+    "e": 12.0
+   },
+   {
+    "w": " berat.",
+    "s": 12.0,
+    "e": 12.42
+   }
+  ]
+ },
+ {
+  "start": 12.76,
+  "end": 15.44,
+  "text": " Akhirnya, biskut dalam laci juga yang dicapai.",
+  "words": [
+   {
+    "w": " Akhirnya,",
+    "s": 12.76,
+    "e": 13.34
+   },
+   {
+    "w": " biskut",
+    "s": 13.64,
+    "e": 13.94
+   },
+   {
+    "w": " dalam",
+    "s": 13.94,
+    "e": 14.14
+   },
+   {
+    "w": " laci",
+    "s": 14.14,
+    "e": 14.42
+   },
+   {
+    "w": " juga",
+    "s": 14.42,
+    "e": 14.76
+   },
+   {
+    "w": " yang",
+    "s": 14.76,
+    "e": 14.92
+   },
+   {
+    "w": " dicapai.",
+    "s": 14.92,
+    "e": 15.44
+   }
+  ]
+ },
+ {
+  "start": 16.44,
+  "end": 21.44,
+  "text": " Menurut Pinggan Sihat Malaysia, separuh pinggan kita diisi dengan sayur dan buah.",
+  "words": [
+   {
+    "w": " Menurut",
+    "s": 16.44,
+    "e": 16.88
+   },
+   {
+    "w": " Pinggan",
+    "s": 16.88,
+    "e": 17.22
+   },
+   {
+    "w": " Sihat",
+    "s": 17.22,
+    "e": 17.46
+   },
+   {
+    "w": " Malaysia,",
+    "s": 17.46,
+    "e": 17.9
+   },
+   {
+    "w": " separuh",
+    "s": 18.52,
+    "e": 18.88
+   },
+   {
+    "w": " pinggan",
+    "s": 18.88,
+    "e": 19.24
+   },
+   {
+    "w": " kita",
+    "s": 19.24,
+    "e": 19.52
+   },
+   {
+    "w": " diisi",
+    "s": 19.52,
+    "e": 20.04
+   },
+   {
+    "w": " dengan",
+    "s": 20.04,
+    "e": 20.3
+   },
+   {
+    "w": " sayur",
+    "s": 20.3,
+    "e": 20.82
+   },
+   {
+    "w": " dan",
+    "s": 20.82,
+    "e": 21.04
+   },
+   {
+    "w": " buah.",
+    "s": 21.04,
+    "e": 21.44
+   }
+  ]
+ },
+ {
+  "start": 22.0,
+  "end": 25.38,
+  "text": " Suku lagi bijirin dan suku lagi sumber protein.",
+  "words": [
+   {
+    "w": " Suku",
+    "s": 22.0,
+    "e": 22.28
+   },
+   {
+    "w": " lagi",
+    "s": 22.28,
+    "e": 22.62
+   },
+   {
+    "w": " bijirin",
+    "s": 22.62,
+    "e": 23.28
+   },
+   {
+    "w": " dan",
+    "s": 23.28,
+    "e": 23.8
+   },
+   {
+    "w": " suku",
+    "s": 23.8,
+    "e": 24.2
+   },
+   {
+    "w": " lagi",
+    "s": 24.2,
+    "e": 24.5
+   },
+   {
+    "w": " sumber",
+    "s": 24.5,
+    "e": 24.98
+   },
+   {
+    "w": " protein.",
+    "s": 24.98,
+    "e": 25.38
+   }
+  ]
+ },
+ {
+  "start": 26.06,
+  "end": 27.76,
+  "text": " Sarapan tak perlu mewah.",
+  "words": [
+   {
+    "w": " Sarapan",
+    "s": 26.06,
+    "e": 26.8
+   },
+   {
+    "w": " tak",
+    "s": 26.8,
+    "e": 27.08
+   },
+   {
+    "w": " perlu",
+    "s": 27.08,
+    "e": 27.34
+   },
+   {
+    "w": " mewah.",
+    "s": 27.34,
+    "e": 27.76
+   }
+  ]
+ },
+ {
+  "start": 27.76,
+  "end": 33.14,
+  "text": " Telur, overnight oats, atau siapkan bekal ibu sekali dengan anak.",
+  "words": [
+   {
+    "w": " Telur,",
+    "s": 27.76,
+    "e": 28.98
+   },
+   {
+    "w": " overnight",
+    "s": 29.4,
+    "e": 29.8
+   },
+   {
+    "w": " oats,",
+    "s": 29.8,
+    "e": 30.26
+   },
+   {
+    "w": " atau",
+    "s": 30.54,
+    "e": 31.1
+   },
+   {
+    "w": " siapkan",
+    "s": 31.1,
+    "e": 31.58
+   },
+   {
+    "w": " bekal",
+    "s": 31.58,
+    "e": 31.9
+   },
+   {
+    "w": " ibu",
+    "s": 31.9,
+    "e": 32.18
+   },
+   {
+    "w": " sekali",
+    "s": 32.18,
+    "e": 32.42
+   },
+   {
+    "w": " dengan",
+    "s": 32.42,
+    "e": 32.76
+   },
+   {
+    "w": " anak.",
+    "s": 32.76,
+    "e": 33.14
+   }
+  ]
+ },
+ {
+  "start": 33.86,
+  "end": 38.84,
+  "text": " Kalau betul-betul kelam kabut, Nutrilite Soy Protein Drink boleh jadi pilihan tambahan.",
+  "words": [
+   {
+    "w": " Kalau",
+    "s": 33.86,
+    "e": 34.28
+   },
+   {
+    "w": " betul",
+    "s": 34.28,
+    "e": 34.56
+   },
+   {
+    "w": "-betul",
+    "s": 34.56,
+    "e": 34.82
+   },
+   {
+    "w": " kelam",
+    "s": 34.82,
+    "e": 35.08
+   },
+   {
+    "w": " kabut,",
+    "s": 35.08,
+    "e": 35.5
+   },
+   {
+    "w": " Nutrilite",
+    "s": 35.9,
+    "e": 36.4
+   },
+   {
+    "w": " Soy",
+    "s": 36.4,
+    "e": 36.62
+   },
+   {
+    "w": " Protein",
+    "s": 36.62,
+    "e": 37.06
+   },
+   {
+    "w": " Drink",
+    "s": 37.06,
+    "e": 37.32
+   },
+   {
+    "w": " boleh",
+    "s": 37.32,
+    "e": 37.64
+   },
+   {
+    "w": " jadi",
+    "s": 37.64,
+    "e": 37.92
+   },
+   {
+    "w": " pilihan",
+    "s": 37.92,
+    "e": 38.32
+   },
+   {
+    "w": " tambahan.",
+    "s": 38.32,
+    "e": 38.84
+   }
+  ]
+ },
+ {
+  "start": 39.26,
+  "end": 41.18,
+  "text": " Bukan pengganti sarapan seimbang.",
+  "words": [
+   {
+    "w": " Bukan",
+    "s": 39.26,
+    "e": 39.76
+   },
+   {
+    "w": " pengganti",
+    "s": 39.76,
+    "e": 40.2
+   },
+   {
+    "w": " sarapan",
+    "s": 40.2,
+    "e": 40.6
+   },
+   {
+    "w": " seimbang.",
+    "s": 40.6,
+    "e": 41.18
+   }
+  ]
+ },
+ {
+  "start": 41.74,
+  "end": 43.42,
+  "text": " Perut ibu pun perlu diisi.",
+  "words": [
+   {
+    "w": " Perut",
+    "s": 41.74,
+    "e": 42.16
+   },
+   {
+    "w": " ibu",
+    "s": 42.16,
+    "e": 42.46
+   },
+   {
+    "w": " pun",
+    "s": 42.46,
+    "e": 42.66
+   },
+   {
+    "w": " perlu",
+    "s": 42.66,
+    "e": 42.98
+   },
+   {
+    "w": " diisi.",
+    "s": 42.98,
+    "e": 43.42
+   }
+  ]
+ },
+ {
+  "start": 45.540000000000006,
+  "end": 48.36,
+  "text": " Jangan selalu letakkan diri sendiri paling akhir.",
+  "words": [
+   {
+    "w": " Jangan",
+    "s": 45.540000000000006,
+    "e": 46.34
+   },
+   {
+    "w": " selalu",
+    "s": 46.34,
+    "e": 46.72
+   },
+   {
+    "w": " letakkan",
+    "s": 46.72,
+    "e": 47.22
+   },
+   {
+    "w": " diri",
+    "s": 47.22,
+    "e": 47.46
+   },
+   {
+    "w": " sendiri",
+    "s": 47.46,
+    "e": 47.7
+   },
+   {
+    "w": " paling",
+    "s": 47.7,
+    "e": 48.02
+   },
+   {
+    "w": " akhir.",
+    "s": 48.02,
+    "e": 48.36
+   }
+  ]
+ }
+]
