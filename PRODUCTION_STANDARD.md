@@ -55,6 +55,7 @@ Wajib untuk SETIAP video yang diedit, tanpa perlu diingatkan semula:
 1. **Nama akaun sepanjang video:** `@empayarbiz_momyizz` di bahagian atas frame, betul-betul di bawah garis safe zone atas (y ≈ 172–220, rapat ke kanan x ≤ 940). Pil Kertas 88% legap, Nunito 800 30 px, Sage gelap. Kedudukan dialih jika bertindih dengan teks yang tertanam dalam klip (contoh jam "7:15 AM").
 2. **Semua tulisan, ikon, sticker, animasi dan grafik mesti berada dalam frame TikTok/Reels** (x 60–940, y 160–1440), termasuk semasa animasi masuk/keluar. Semak setiap elemen secara automatik sebelum render. Elemen yang terkeluar walaupun 1 px mesti dibetulkan.
 3. **Sari kata dan grafik tidak boleh bertindih** antara satu sama lain (sari kata, penafian, label, CTA, big word, sticker, nama akaun) atau dengan teks yang tertanam dalam klip AI. Semak setiap pasangan elemen yang muncul serentak. Jika bertindih, alihkan kedudukan (contoh: naikkan sari kata bila penafian di bawah).
+5. **Frame akhir (CTA):** sticker `15-blazer-tunjuk-atas-kiri` di kanan bawah, tunjuk ke kotak CTA di kiri atas (lihat `CTA` dalam `KOMPONEN.md`).
 4. **Gambar produk mesti tepat seperti produk sebenar.** Jika klip AI menunjukkan botol/tin/label yang salah atau direka, ganti babak itu dengan gambar produk sebenar dalam `AMWAY_BRAND/PRODUK/` (atau gambar yang diberi pengguna). Jangan biarkan label palsu.
 
 ## Senarai semak QC (Pintu 3)

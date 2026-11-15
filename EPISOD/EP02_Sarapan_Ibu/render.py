@@ -72,14 +72,16 @@ def sari_kata(txt, ybot=1400):
     cx = 500  # tengah kawasan selamat x 60–940
     return im, int(cx - im.width / 2), int(ybot - bh - pad)
 
-def penafian(y=1150):
+def penafian(y=1150, kiri=False):
     f = font("Nunito", 32, "ExtraBold")
-    t = "Perkongsian ilmu umum. Bukan nasihat perubatan."
+    lines = ["Perkongsian ilmu umum.", "Bukan nasihat perubatan."] if kiri else \
+            ["Perkongsian ilmu umum. Bukan nasihat perubatan."]
     d = ImageDraw.Draw(Image.new("L", (1, 1)))
-    bw, bh = tw(d, t, f) + 40, 54
+    bw, bh = max(tw(d, l, f) for l in lines) + 40, 44 * len(lines) + 10
     im, pad = shadow_box((bw, bh), 16, KERTAS, alpha=217, shadow=False)
-    ImageDraw.Draw(im).text((bw / 2, bh / 2), t, font=f, fill=DAKWAT, anchor="mm")
-    return im, int(500 - bw / 2), y
+    for i, l in enumerate(lines):
+        ImageDraw.Draw(im).text((bw / 2, 5 + 44 * i + 22), l, font=f, fill=DAKWAT, anchor="mm")
+    return im, (60 if kiri else int(500 - bw / 2)), y
 
 def label_bukti(label, color, sumber, y=300):
     fl = font("Fredoka", 32, "SemiBold")
@@ -155,12 +157,14 @@ def label_pilar():
 def cta():
     f1 = font("Nunito", 48, "ExtraBold")
     f2 = font("Fredoka", 72, "Bold")
-    bw, bh = 876, 220
+    # kotak di kiri atas sticker; sticker di kanan bawah tunjuk ke kotak
+    f2 = font("Fredoka", 64, "Bold")
+    bw, bh = 640, 210
     im, pad = shadow_box((bw, bh), 36, KERTAS, border=SAGE_G, bw=6)
     dr = ImageDraw.Draw(im)
-    dr.text((pad + bw / 2, pad + 66), "Nak dapatkan produk?", font=f1, fill=DAKWAT, anchor="mm")
-    dr.text((pad + bw / 2, pad + 150), "Klik LINK di Bio", font=f2, fill=SAGE_G, anchor="mm")
-    return im, 60 - pad, 1000 - pad
+    dr.text((pad + bw / 2, pad + 64), "Nak dapatkan produk?", font=f1, fill=DAKWAT, anchor="mm")
+    dr.text((pad + bw / 2, pad + 144), "Klik LINK di Bio", font=f2, fill=SAGE_G, anchor="mm")
+    return im, 60 - pad, 720 - pad
 
 def sticker(fname, width, x, ybot):
     im = Image.open(STK + fname).convert("RGBA")
@@ -261,9 +265,10 @@ add(c[3] + 0.2, 30.40, label_bukti("Sarapan 5 Minit Ibu", SAGE_G, "Sedia malam s
 add(c[4], 36.40, label_bukti("Panduan", SAGE, "Panduan pemakanan umum"))
 add(20.30, c[3], penafian())
 add(44.20, 46.60, big_word("Ibu pun perlu diisi.", y=860))
-add(c[5], TOTAL, penafian(1400 - 54))
+add(c[5], 46.60, penafian(1400 - 54))
+add(46.60, TOTAL, penafian(1440 - 98, kiri=True))
 add(46.60, TOTAL, cta())
-add(46.80, TOTAL, sticker("02-blazer-tunjuk-bawah.png", 380, 90, 990))
+add(46.80, TOTAL, sticker("15-blazer-tunjuk-atas-kiri.png", 340, 940 - 340, 1440))
 
 def overlaps():
     bad = []
