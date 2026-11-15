@@ -15,6 +15,8 @@ Susunan klip ikut storyboard: pagi → pejabat → Pinggan Sihat → idea sarapa
 4. 2.1 s: sari kata **"Siapa macam ni?"**
 
 ## Perlu semak sebelum terbit (Pintu 3)
-- Klip produk (33.8–49.7 s) dijana AI: label tin Nutrilite tidak tepat (tulisan kabur/rekaan). Ganti dengan rakaman produk sebenar atau sahkan dengan Amway.
+- v2: babak close-up tin AI (35.75–38.67 s) diganti dengan gambar produk sebenar (`AMWAY_BRAND/PRODUK/`). Tin kecil dalam babak lain masih dari klip AI.
+- v2: nama akaun `@empayarbiz_momyizz` sepanjang video; semakan automatik safe zone + pertindihan lulus.
+- Gambar produk rasmi: sahkan kebenaran dengan Amway / upline.
 - Teks "Breakfast Idea 1/2" dalam klip AI berbahasa Inggeris.
 - Muzik: tambah dari Commercial Music Library dalam CapCut.

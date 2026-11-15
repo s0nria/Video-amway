@@ -69,6 +69,12 @@ Gerakan lalai: masuk pop 90%→100% + fade 0.3 s, keluar fade 0.2 s, ease-out.
 - Kedudukan: y ~900–1300. Sticker `02-blazer-tunjuk-bawah` di atas kotak, tunjuk ke CTA.
 - Tempoh 3–5 s terakhir. Tiada URL, nombor telefon atau WhatsApp.
 
+## `NAMA_AKAUN` — watermark (wajib, sepanjang video)
+- Teks tepat: **"@empayarbiz_momyizz"**
+- Pil Kertas 88% legap, tinggi 48 px, jejari 24 px. Nunito 800, 30 px, Sage gelap `#556A4C`.
+- Kedudukan: atas frame, betul-betul bawah garis safe zone atas (y ≈ 172), rapat kanan (hujung x = 940).
+- Muncul dari saat 0 hingga akhir, tanpa animasi keluar. Tidak boleh bertindih dengan teks tertanam dalam klip.
+
 ## `STICKER` — sticker Momyizz
 - PNG lutsinar dari `AMWAY_BRAND/STICKERS/`. Lebar 35–45% skrin (380–490 px).
 - Satu di skrin pada satu masa. Satu set pakaian setiap video. Arah tunjuk ke elemen yang dimaksudkan.

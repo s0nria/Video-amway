@@ -81,7 +81,7 @@ def penafian(y=1150):
     ImageDraw.Draw(im).text((bw / 2, bh / 2), t, font=f, fill=DAKWAT, anchor="mm")
     return im, int(500 - bw / 2), y
 
-def label_bukti(label, color, sumber, y=200):
+def label_bukti(label, color, sumber, y=300):
     fl = font("Fredoka", 32, "SemiBold")
     fs = font("Nunito", 30, "ExtraBold")
     d = ImageDraw.Draw(Image.new("L", (1, 1)))
@@ -120,7 +120,7 @@ def hook_card():
     dr = ImageDraw.Draw(im)
     dr.text((pad + bw / 2, pad + 32 + 52), l1, font=f, fill=DAKWAT, anchor="mm")
     dr.text((pad + bw / 2, pad + 32 + 104 + 52), l2, font=f, fill=DAKWAT, anchor="mm")
-    return im, int(500 - im.width / 2), 300 - pad
+    return im, int(500 - im.width / 2), 320 - pad
 
 def hook_ibu():
     f = font("Fredoka", 160, "Bold")
@@ -155,7 +155,7 @@ def label_pilar():
 def cta():
     f1 = font("Nunito", 48, "ExtraBold")
     f2 = font("Fredoka", 72, "Bold")
-    bw, bh = 880, 220
+    bw, bh = 876, 220
     im, pad = shadow_box((bw, bh), 36, KERTAS, border=SAGE_G, bw=6)
     dr = ImageDraw.Draw(im)
     dr.text((pad + bw / 2, pad + 66), "Nak dapatkan produk?", font=f1, fill=DAKWAT, anchor="mm")
@@ -171,9 +171,51 @@ def sticker(fname, width, x, ybot):
 
 # ---------- garis masa ----------
 T = []  # (mula, tamat, komponen)
-def add(a, b, comp): T.append((a, b, comp))
+SAFE = (60, 160, 940, 1440)  # x0, y0, x1, y1 — kawasan selamat TikTok/Reels
+
+def vis_box(comp):
+    """Kotak nampak sebenar (abaikan bayang lembut, alfa <= 60)."""
+    im, x, y = comp
+    b = im.split()[3].point(lambda v: 255 if v > 60 else 0).getbbox()
+    return (x + b[0], y + b[1], x + b[2], y + b[3])
+
+def add(a, b, comp):
+    bx = vis_box(comp)
+    assert SAFE[0] <= bx[0] and SAFE[1] <= bx[1] and bx[2] <= SAFE[2] and bx[3] <= SAFE[3], \
+        f"KELUAR SAFE ZONE {a:.2f}-{b:.2f}: {bx}"
+    T.append((a, b, comp))
+
+def watermark():
+    f = font("Nunito", 30, "ExtraBold")
+    t = "@empayarbiz_momyizz"
+    d = ImageDraw.Draw(Image.new("L", (1, 1)))
+    bw, bh = tw(d, t, f) + 32, 48
+    im, pad = shadow_box((bw, bh), 24, KERTAS, alpha=225, shadow=False)
+    ImageDraw.Draw(im).text((bw / 2, bh / 2 - 2), t, font=f, fill=SAGE_G, anchor="mm")
+    return im, 940 - bw, 172   # atas kanan, betul-betul bawah garis safe zone atas
+
+# Babak produk sebenar (ganti tin AI dalam klip 5, 1.958–4.875 s)
+PROD_A, PROD_B = None, None
+PROD_IMG = Image.open("/home/user/Video-amway/AMWAY_BRAND/PRODUK/nutrilite-soy-protein-drink.jpg").convert("RGB")
+def product_scene(t):
+    k = (t - PROD_A) / (PROD_B - PROD_A)
+    bg = PROD_IMG.resize((int(PROD_IMG.width * H / PROD_IMG.height), H), Image.BILINEAR)
+    bg = bg.crop(((bg.width - W) // 2, 0, (bg.width - W) // 2 + W, H)).filter(ImageFilter.GaussianBlur(28))
+    bg = Image.blend(bg, Image.new("RGB", (W, H), KRIM), 0.35).convert("RGBA")
+    crop = PROD_IMG.crop((330, 150, 1150, 918))           # tin + gelas + kacang soya
+    z = 1.0 + 0.06 * k                                       # zoom perlahan
+    cw, ch = int(crop.width / z), int(crop.height / z)
+    crop = crop.crop(((crop.width - cw) // 2, (crop.height - ch) // 2, (crop.width + cw) // 2, (crop.height + ch) // 2))
+    cardw = 880; cardh = int(cardw * 768 / 820)
+    crop = crop.resize((cardw, cardh), Image.LANCZOS)
+    card, pad = shadow_box((cardw, cardh), 36, KERTAS)
+    m = Image.new("L", (cardw, cardh), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, cardw, cardh), 36, fill=255)
+    card.paste(crop, (pad, pad), m)
+    bg.alpha_composite(card, (60 - pad, 350 - pad))
+    return bg
 
 # HOOK 3 s (cover)
+add(0.00, TOTAL, watermark())
 add(0.00, 3.00, hook_card())
 add(0.90, 3.00, hook_ibu())
 add(1.60, 3.00, hook_nanti())
@@ -182,6 +224,7 @@ add(2.10, 3.00, sari_kata("Siapa macam ni?"))
 
 c = [0]
 for d in DUR: c.append(c[-1] + d)
+PROD_A, PROD_B = c[4] + 1.958, c[4] + 4.875
 SUB = [
     # klip 1 — pagi (0–7.93)
     (3.00, 5.40, "7.15 pagi. Kak Ana siapkan anak dulu."),
@@ -210,16 +253,38 @@ SUB = [
     (c[5], 44.20, "Ibu pun manusia. Duduk 5 minit, makan dengan tenang."),
 ]
 for a, b, t in SUB:
-    add(a, b, sari_kata(t))
+    # babak penutup: penafian duduk di bawah, jadi sari kata naik supaya tak bertindih
+    add(a, b, sari_kata(t, ybot=1320 if a >= c[5] else 1400))
 
-add(20.30, c[3], label_bukti("Fakta terbukti", TERBUKTI, "Sumber: KKM, Garis Panduan Diet Malaysia 2020"))
-add(c[3] + 0.2, 30.40, label_bukti("Sarapan 5 Minit Ibu", SAGE_G, "Idea mudah, sedia malam sebelumnya"))
+add(20.30, c[3], label_bukti("Fakta terbukti", TERBUKTI, "Sumber: KKM MDG 2020"))
+add(c[3] + 0.2, 30.40, label_bukti("Sarapan 5 Minit Ibu", SAGE_G, "Sedia malam sebelumnya", y=1130))
 add(c[4], 36.40, label_bukti("Panduan", SAGE, "Panduan pemakanan umum"))
 add(20.30, c[3], penafian())
 add(44.20, 46.60, big_word("Ibu pun perlu diisi.", y=860))
 add(c[5], TOTAL, penafian(1400 - 54))
 add(46.60, TOTAL, cta())
 add(46.80, TOTAL, sticker("02-blazer-tunjuk-bawah.png", 380, 90, 990))
+
+def overlaps():
+    bad = []
+    for i in range(len(T)):
+        for j in range(i + 1, len(T)):
+            a1, b1, c1 = T[i]; a2, b2, c2 = T[j]
+            if min(b1, b2) - max(a1, a2) <= 0.01: continue
+            p, q = vis_box(c1), vis_box(c2)
+            if p[0] < q[2] and q[0] < p[2] and p[1] < q[3] and q[1] < p[3]:
+                bad.append((round(max(a1, a2), 2), p, q))
+    # teks yang tertanam dalam klip AI (jam, "Breakfast Idea")
+    for a1, b1, q in BAKED:
+        for a2, b2, c2 in T:
+            if min(b1, b2) - max(a1, a2) <= 0.01: continue
+            p = vis_box(c2)
+            if p[0] < q[2] and q[0] < p[2] and p[1] < q[3] and q[1] < p[3]:
+                bad.append(("klip", round(max(a1, a2), 2), p, q))
+    return bad
+BAKED = [(0, c[1], (215, 155, 525, 235)), (c[1], c[2], (165, 155, 565, 235)),
+         (c[3], c[3] + 2.0, (230, 265, 860, 365)), (c[3] + 1.9, c[3] + 4.0, (300, 320, 820, 430))]
+for o in overlaps(): print("BERTINDIH:", o)
 
 def ease(x): return 1 - (1 - x) ** 3
 
@@ -271,6 +336,7 @@ if __name__ == "__main__":
             fr = subprocess.run(["ffmpeg", "-v", "error", "-ss", str(t), "-i", base, "-frames:v", "1", "-f", "rawvideo",
                                  "-pix_fmt", "rgba", "-"], capture_output=True).stdout
             im = Image.frombytes("RGBA", (W, H), fr)
+            if PROD_A <= t < PROD_B: im = product_scene(t)
             v = hook_vignette(t)
             if v: im = Image.alpha_composite(im, v)
             im = Image.alpha_composite(im, frame_overlay(t))
@@ -295,6 +361,7 @@ if __name__ == "__main__":
         if len(fr) < W * H * 4: break
         t = i / FPS
         im = Image.frombytes("RGBA", (W, H), fr)
+        if PROD_A <= t < PROD_B: im = product_scene(t)
         v = hook_vignette(t)
         if v: im = Image.alpha_composite(im, v)
         im = Image.alpha_composite(im, frame_overlay(t))
