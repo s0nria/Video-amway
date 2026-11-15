@@ -12,6 +12,7 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 | 12:30 | 🖼️ **Untuk CAROUSEL** (6 slaid): edukasi langkah demi langkah | Instagram · Facebook | Canva / CapCut |
 | 10:00 | ✍️ **Teks sahaja**: info ringkas edukasi | Threads · Facebook | Post terus |
 | 16:00 | ✍️ **Teks sahaja**: pertanyaan / poll | Threads · Facebook | Post terus |
+| 18:30 | ✍️ **Teks sahaja**: tips praktikal (berbeza daripada isi video & carousel) | Threads · Facebook | Post terus |
 | 21:00 | ✍️ **Teks sahaja**: info penting / alert (sumber rasmi: KKM, WHO, NHMS) | Threads · Facebook | Post terus |
 | Bila sesuai | 💬 **Hard-sell** | WhatsApp / group tertutup | Hantar terus |
 
@@ -27,6 +28,7 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 | 🖼️ Carousel | 5 Kunci Makanan Lebih Selamat (WHO), satu kunci satu slaid |
 | ✍️ 10:00 Info ringkas | Span yang dibersihkan cara rumah tak semestinya kurang bakteria |
 | ✍️ 16:00 Pertanyaan | "Dah tukar span? Komen DAH / ESOK" |
+| ✍️ 18:30 Tips | Cara keringkan span: perah, rak berlubang, asingkan span & kain lap |
 | ✍️ 21:00 Alert | Leptospirosis musim banjir: elak redah air banjir, tutup makanan |
 | 💬 WhatsApp | Dish Drops (harga dari amway.my), ruang tertutup |
 

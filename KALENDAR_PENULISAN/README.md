@@ -2,7 +2,7 @@
 
 | Fail | Isi |
 |---|---|
-| `MINGGU_1.md` | Hari 1–7: skrip video, teks carousel, 3 teks, WhatsApp + checklist |
+| `MINGGU_1.md` | Hari 1–7: skrip video, teks carousel, 4 teks, WhatsApp + checklist |
 | `HARI_08-30.md` | Hari 8–30: rancangan setiap konten |
 | `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |
 | `masalah_data.py` | Sumber data 20 masalah |
@@ -17,6 +17,7 @@
 | 12:30 | 🖼️ Carousel | Instagram · Facebook | Canva / CapCut (edit carousel) |
 | 10:00 | ✍️ Teks: info ringkas | Threads · Facebook | Post terus |
 | 16:00 | ✍️ Teks: pertanyaan | Threads · Facebook | Post terus |
+| 18:30 | ✍️ Teks: tips praktikal | Threads · Facebook | Post terus |
 | 21:00 | ✍️ Teks: info penting / alert | Threads · Facebook | Post terus |
 | Bila sesuai | 💬 Hard-sell | WhatsApp / group tertutup | Hantar terus |
 

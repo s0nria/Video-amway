@@ -6,8 +6,8 @@ Edit fail ini, kemudian jalankan:  python3 KALENDAR_PENULISAN/bina.py
 Format setiap hari (DISAHKAN pengguna, pilihan A): SATU topik, isi berbeza untuk setiap konten.
   video     08:30  🎥 Untuk VIDEO (TikTok / Reels)   -> skrip babak + teks atas skrin + caption
   carousel  12:30  🖼️ Untuk CAROUSEL (Instagram / Facebook) -> teks setiap slaid + caption
-  teks      3 post ✍️ TEKS SAHAJA (Threads / Facebook) -> salin & post terus (<= 500 aksara)
-            10:00 Info ringkas · 16:00 Pertanyaan · 21:00 Info penting / alert
+  teks      4 post ✍️ TEKS SAHAJA (Threads / Facebook) -> salin & post terus (<= 500 aksara)
+            10:00 Info ringkas · 16:00 Pertanyaan · 18:30 Tips praktikal · 21:00 Info penting / alert
   wa        💬 WhatsApp / group tertutup (hard-sell, bila sesuai)
 
 Peraturan: Momyizz & korang sahaja. Produk TIDAK muncul dalam video, carousel atau teks awam
@@ -18,7 +18,7 @@ Produk + harga hanya dalam slot wa (ruang tertutup).
 DISC = "Perkongsian ilmu umum. Bukan nasihat perubatan."
 CERITA = "Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam."
 
-JENIS_TEKS = [("10:00", "Info ringkas"), ("16:00", "Pertanyaan"), ("21:00", "Info penting / alert")]
+JENIS_TEKS = [("10:00", "Info ringkas"), ("16:00", "Pertanyaan"), ("18:30", "Tips praktikal"), ("21:00", "Info penting / alert")]
 
 DAYS = [
 # ================================================================ HARI 1
@@ -45,6 +45,7 @@ DAYS = [
  "teks": [
   "Info ringkas: mikroplastik ialah zarah plastik yang lebih kecil daripada 5 mm. Lebih kecil daripada sebutir beras. 🍚\n\nIa datang dari plastik yang terurai, serat baju sintetik dan geseran tayar. (UNEP)",
   "Soalan jujur: botol air yang korang bawa hari-hari, jenis apa?\n\nA. Plastik\nB. Kaca\nC. Keluli tahan karat\nD. Beli air botol je\n\nMomyizz dulu A, sekarang tengah tukar ke C. 😄",
+  "Tips pilih botol air guna semula 💡\n\n✅ Keluli tahan karat gred makanan atau kaca (dengan sarung silikon supaya tak mudah pecah)\n✅ Mulut botol lebar, senang dicuci\n✅ Basuh setiap hari dengan berus botol, keringkan terbuka\n\nBotol yang mudah dicuci = botol yang betul-betul dipakai hari-hari. 😉",
   "Info penting: botol air plastik sekali guna direka untuk SEKALI guna. ⚠️\n\nJangan isi air panas ke dalamnya, dan jangan guna berulang kali sampai calar. Kajian tentang kesan haba pada pelepasan zarah masih awal, tapi langkah ni mudah dan tak rugi apa-apa. 🌿",
  ]},
 
@@ -72,6 +73,7 @@ DAYS = [
  "teks": [
   "Info ringkas: perubahan yang bertahan biasanya yang kecil. 🌱\n\nMomyizz mula dengan satu je minggu ni: botol air keluli dari rumah. Bila dah jadi tabiat, baru tambah langkah kedua.",
   "Soalan: dalam rumah korang, barang plastik apa yang paling banyak?\n\n🍱 Bekas makanan\n🧴 Botol\n🛍️ Beg plastik\n🥤 Cawan / straw\n\nMomyizz? Bekas makanan. Bertimbun dalam kabinet! 😅",
+  "Tips jaga bekas plastik yang masih elok 💡\n\n✅ Basuh dengan span lembut, elak sabut kasar yang mencalarkan\n✅ Ikut label pengeluar untuk air panas, microwave dan mesin basuh pinggan\n✅ Simpan untuk barang kering bila dah tak sesuai untuk makanan panas\n✅ Retak, melengkung atau berbau? Masa untuk tukar",
   "Info penting musim tengkujuh: selepas banjir atau bila air paip keruh, didihkan air sebelum minum. 💧\n\nIni panduan asas kesihatan awam semasa banjir. Kongsi dengan keluarga di kawasan yang terjejas. 🙏",
  ]},
 
@@ -99,6 +101,7 @@ DAYS = [
  "teks": [
   "Info ringkas: \"kajian makmal\" tak sama dengan \"terbukti pada manusia\". 🔬\n\nKajian sel atau haiwan ialah langkah awal. Banyak hasil makmal tak sama bila diuji pada manusia. Jadi bila baca tajuk viral, tengok dulu kajian jenis apa.",
   "Mitos atau fakta? 🤔\n\n\"Mikroplastik dah terbukti menyebabkan penyakit tertentu pada manusia.\"\n\nJawapan: MITOS. Kesan jangka panjang masih dikaji, belum ada bukti yang mengesahkan penyakit tertentu. (WHO 2022)\n\nBerapa ramai yang teka betul?",
+  "Tips semak berita kesihatan dalam 30 saat 💡\n\n1️⃣ Cari nama kajian atau badan yang disebut. Tiada nama? Tanda merah.\n2️⃣ Taip tajuk berita + \"sebenarnya.my\" di Google.\n3️⃣ Tengok tarikh. Berita lama selalu diulang viral.\n\nSave untuk group keluarga! 📲",
   "Info penting: sebelum forward berita kesihatan, semak dulu di portal semakan fakta rasmi Malaysia, sebenarnya.my. ✅\n\nSatu forward yang salah boleh buat orang tersayang panik atau ambil keputusan kesihatan yang silap.",
  ]},
 
@@ -126,6 +129,7 @@ DAYS = [
  "teks": [
   "Info ringkas: gabungan protein + karbohidrat kompleks + serat pada waktu pagi biasanya buat kita kenyang lebih lama, berbanding minuman manis sahaja. 🍳\n\nContoh: telur + roti gandum + buah.",
   "Ibu-ibu, jujur sikit: pagi tadi korang sarapan apa? 🙈\n\n☕ Kopi je\n🍞 Roti sambil drive\n🥣 Sarapan betul-betul\n🤐 Tak sempat langsung\n\nMomyizz: roti sambil drive. Esok cuba lagi!",
+  "Tips pastikan ibu tak tertinggal sarapan 💡\n\n✅ Malam: letak bekas ibu SEBELAH bekas anak, terus nampak pagi esok\n✅ Simpan \"kotak snek sihat\" di pejabat: kacang, roti gandum, buah\n✅ Set peringatan telefon 10 pagi: \"Dah makan?\"\n\nKecil, tapi berkesan untuk Momyizz. 💛",
   "Info penting: 15.6% dewasa Malaysia ada diabetes, dan ramai tak tahu mereka menghidapnya (NHMS 2023). ⚠️\n\nKalau selalu skip makan dan banyak minum manis, buat saringan gula di klinik kesihatan. Tahu awal lebih baik. 🩸",
  ]},
 
@@ -153,6 +157,7 @@ DAYS = [
  "teks": [
   "Info ringkas: protein bukan dari daging sahaja. 🌱\n\nTelur, ikan, tauhu, tempe, kekacang dan susu semuanya sumber protein. Tauhu dan tempe antara pilihan protein yang mudah didapati dan berpatutan di Malaysia.",
   "Soalan: semalam pukul berapa korang makan makanan pertama? ⏰\n\n🕖 Sebelum 8 pagi\n🕘 8–10 pagi\n🕛 Lepas 10 pagi\n🙈 Tengah hari baru teringat\n\nMomyizz: 7:30 pagi, sambil duduk! 🎉",
+  "Tips telur rebus untuk seminggu 💡\n\n✅ Rebus sekali gus 6–8 biji, sejukkan cepat dalam air sejuk\n✅ Simpan dalam peti BERSAMA kulit, dalam bekas bertutup\n✅ Elok dimakan dalam tempoh seminggu (USDA)\n✅ Tulis tarikh rebus pada bekas\n\nSarapan, bekal dan snek petang siap! 🥚",
   "Info penting: sebelum beli apa-apa supplemen atau minuman kesihatan, semak nombor pendaftaran \"MAL\" pada label. ⚠️\n\nProduk berdaftar dengan KKM boleh disemak melalui laman NPRA. Elak produk yang janji kurus cepat atau tiada maklumat pendaftaran.",
  ],
  "wa": {"tajuk": "Nutrilite Soy Protein Drink", "nota": "Ruang tertutup sahaja (pelanggan sedia ada / group tertutup / orang yang bertanya). Isi harga dan fakta dari amway.my hari ini. Jangan tambah dakwaan kesihatan.",
@@ -182,6 +187,7 @@ DAYS = [
  "teks": [
   "Info ringkas: Garis Panduan Diet Malaysia (KKM) galakkan kita hadkan gula tambahan, termasuk dalam minuman. ☕\n\nTrick paling mudah Momyizz: segelas air kosong dulu, baru kopi atau teh.",
   "Jujur: minuman manis mana paling susah korang tinggal? 🧋\n\n☕ Teh tarik\n🧊 Kopi ais\n🧃 Air kotak\n🥤 Air bergas\n\nMomyizz: teh tarik pagi. Tengah cuba \"kurang manis\". 😅",
+  "Tips kurangkan manis tanpa rasa terseksa 💡\n\nMinggu 1: minta \"kurang manis\"\nMinggu 2: \"separuh gula\"\nMinggu 3: cuba teh / kopi O kosong sekali sehari\n\nYang Momyizz perasan: lama-lama tekak dah biasa, dan air manis sangat terasa terlalu manis. 😄",
   "Info penting: ada sejarah diabetes dalam keluarga? ⚠️\n\nNHMS 2023: 15.6% dewasa Malaysia ada diabetes, dan ramai tak tahu. Saringan gula darah boleh dibuat di klinik kesihatan. Jangan tunggu ada simptom. 🩸",
  ],
  "wa": {"tajuk": "Minta testimoni (pelanggan sedia ada)", "nota": "Untuk dapatkan testimoni SEBENAR. Guna hanya dengan kebenaran, tanpa dakwaan perubatan.",
@@ -211,86 +217,87 @@ DAYS = [
  "teks": [
   "Info ringkas: span yang \"dibersihkan\" dengan cara rumah tak semestinya kurang bakteria. 🧽\n\nPenulis kajian Cardinale et al. (2017) cadangkan span ditukar secara berkala, contohnya setiap minggu.",
   "Lepas tengok video pagi tadi… berapa ramai yang terus pergi tukar span? 😂\n\nKomen:\n✅ DAH\n😅 ESOK\n\nMomyizz dah. Tarikh pun dah tulis!",
+  "Tips span tahan lebih bersih 💡\n\n✅ Perah kuat lepas guna\n✅ Letak di rak berlubang / tempat berangin, bukan dalam sinki basah\n✅ Asingkan span pinggan dan kain lap meja\n✅ Tulis tarikh, tukar secara berkala\n\nSpan kering = kurang tempat untuk bakteria membiak. 🧽",
   "Info penting musim banjir: leptospirosis merebak melalui air atau tanah yang tercemar air kencing tikus. ⚠️\n\nElak meredah air banjir tanpa kasut, tutup makanan di dapur, dan dapatkan rawatan jika demam selepas terdedah kepada air banjir. 🙏",
  ],
  "wa": {"tajuk": "Amway Home Dish Drops", "nota": "Ruang tertutup sahaja. Fakta dan harga dari amway.my hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.",
   "t": "Hai [nama] 😊\n\nHari ni Momyizz kongsi pasal span dapur. Ada yang tanya sabun basuh pinggan apa Momyizz guna.\n\nMomyizz guna *DISH DROPS Concentrated Dishwashing Liquid (1L)* dari Amway Home.\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Cara guna / sukatan: [salin dari label / amway.my]\n• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]\n\nTapi ingat ya, sabun yang bagus tak menggantikan tabiat tukar span dan keringkan span. 🧽\n\nKalau berminat, reply \"NAK\", Momyizz uruskan. 💛"}},
 
 # ================================================================ HARI 8-30 (rancangan; teks penuh dijana dengan Claude)
-# Format: (video, carousel, [teks info, teks pertanyaan, teks alert], wa atau None)
+# Format: (video, carousel, [teks info, teks pertanyaan, teks tips, teks alert], wa atau None)
 {"d": 8, "ep": 3, "tema": "Papan pemotong & kain lap",
  "plan": ("Momyizz tunjuk 2 papan pemotong: mentah vs masak", "Kain lap: bila patut basuh & tukar (5 slaid)",
-          ["Kain lap lembap = tempat bakteria suka", "Korang ada berapa papan pemotong?", "tikus di dapur musim hujan, tutup makanan"],
+          ["Kain lap lembap = tempat bakteria suka", "Korang ada berapa papan pemotong?", "Basuh papan pemotong dengan air panas & sabun, keringkan berdiri", "tikus di dapur musim hujan, tutup makanan"],
           "Soalan lazim Dish Drops (dari soalan pelanggan sebenar)")},
 {"d": 9, "ep": 3, "tema": "Kesilapan dapur yang biasa",
  "plan": ("3 kesilapan dapur Momyizz dulu", "Mitos vs fakta kebersihan dapur",
-          ["Basuh ayam mentah boleh percik bakteria ke sinki", "Korang basuh ayam mentah dalam sinki?", "lauk lebih jangan biar semalaman di suhu bilik"], None)},
+          ["Basuh ayam mentah boleh percik bakteria ke sinki", "Korang basuh ayam mentah dalam sinki?", "Cara simpan lauk lebihan: sejukkan cepat, bekas bertutup, peti", "lauk lebih jangan biar semalaman di suhu bilik"], None)},
 {"d": 10, "ep": 4, "tema": "Panaskan bekal dalam bekas plastik",
  "plan": ("Beratur depan microwave pantri pejabat", "Apa kajian makmal 2023 jumpa (label Kajian awal)",
-          ["Label 'microwave safe' maksudnya apa", "Bekal korang panaskan dalam bekas apa?", "bekas retak / melengkung patut ditukar"], None)},
+          ["Label 'microwave safe' maksudnya apa", "Bekal korang panaskan dalam bekas apa?", "Pindah lauk ke pinggan kaca sebelum panaskan", "bekas retak / melengkung patut ditukar"], None)},
 {"d": 11, "ep": 4, "tema": "Bekal sihat ke pejabat",
  "plan": ("Susun bekal seminggu dalam 20 minit", "Bekal ikut Pinggan Sihat (5 slaid)",
-          ["Biar lauk sejuk sikit sebelum masuk bekas", "Korang bawa bekal berapa kali seminggu?", "bekal berkuah jangan biar lebih 2 jam di suhu bilik"], None)},
+          ["Biar lauk sejuk sikit sebelum masuk bekas", "Korang bawa bekal berapa kali seminggu?", "Bekal seminggu: masak asas hari Ahad, susun ikut hari", "bekal berkuah jangan biar lebih 2 jam di suhu bilik"], None)},
 {"d": 12, "ep": 4, "tema": "Cara baca berita kesihatan (bahagian 2)",
  "plan": ("Tajuk viral vs isi kajian sebenar", "Kajian makmal vs manusia: bezanya",
-          ["FDA: belum ada bukti risiko mikroplastik dalam makanan, pemantauan diteruskan", "Berita kesihatan apa paling selalu masuk group keluarga?", "semak sebenarnya.my sebelum forward"], None)},
+          ["FDA: belum ada bukti risiko mikroplastik dalam makanan, pemantauan diteruskan", "Berita kesihatan apa paling selalu masuk group keluarga?", "Tanya 3 soalan sebelum percaya tajuk viral", "semak sebenarnya.my sebelum forward"], None)},
 {"d": 13, "ep": 5, "tema": "Minum air cukup",
  "plan": ("Botol air masih penuh sampai petang", "Berapa banyak air kita perlu (EFSA ~2.0 L wanita, termasuk makanan)",
-          ["Air dari buah & sup pun dikira", "Hari ni korang dah minum berapa gelas?", "cuaca panas / demam = perlu lebih air"], None)},
+          ["Air dari buah & sup pun dikira", "Hari ni korang dah minum berapa gelas?", "Tanda masa pada botol air (10 pg, 12 tgh, 3 ptg)", "cuaca panas / demam = perlu lebih air"], None)},
 {"d": 14, "ep": 5, "tema": "Cabaran Air 7 hari",
  "plan": ("Lancar #CabaranAirMomyizz", "Trick 5 waktu solat = 5 gelas",
-          ["Air kosong dulu, baru kopi", "Siapa nak join cabaran? Komen JOIN", "air kotak / sirap bukan pengganti air kosong"],
+          ["Air kosong dulu, baru kopi", "Siapa nak join cabaran? Komen JOIN", "Letak botol air di tempat yang selalu nampak", "air kotak / sirap bukan pengganti air kosong"],
           "eSpring Water Purifier (hanya spesifikasi rasmi; JANGAN dakwa singkir mikroplastik)")},
 {"d": 15, "ep": 5, "tema": "Dehidrasi & letih",
  "plan": ("Petang blur: kurang minum ke?", "Tanda badan perlukan air",
-          ["Dehidrasi ringan dikaitkan dengan fokus menurun (kajian awal)", "Korang selalu letih pukul berapa?", "letih berpanjangan ada banyak punca, jumpa doktor"], None)},
+          ["Dehidrasi ringan dikaitkan dengan fokus menurun (kajian awal)", "Korang selalu letih pukul berapa?", "Tambah hirisan limau / timun dalam air kosong", "letih berpanjangan ada banyak punca, jumpa doktor"], None)},
 {"d": 16, "ep": 6, "tema": "Rutin kulit 5 minit",
  "plan": ("Pukul 10 malam, 'cuci muka esok je la…'", "Cara cuci muka betul (AAD)",
-          ["Air suam, bukan panas", "Rutin malam korang berapa langkah?", "jangan tidur dengan mekap"], None)},
+          ["Air suam, bukan panas", "Rutin malam korang berapa langkah?", "Kit cuci muka 5 minit dalam satu dulang", "jangan tidur dengan mekap"], None)},
 {"d": 17, "ep": 6, "tema": "SPF setiap hari",
  "plan": ("Dulang skincare sebelah sinki", "SPF 30 spektrum luas: kenapa setiap hari (AAD)",
-          ["SPF tetap perlu walaupun dalam bangunan dekat tingkap", "Jenis kulit korang apa?", "produk 'cerah 7 hari' tanpa pendaftaran, hati-hati"],
+          ["SPF tetap perlu walaupun dalam bangunan dekat tingkap", "Jenis kulit korang apa?", "Sapu SPF sebanyak dua jari untuk muka & leher", "produk 'cerah 7 hari' tanpa pendaftaran, hati-hati"],
           "ARTISTRY Gel Cleanser + ARTISTRY Skin Analysis Experience (tiada janji hasil)")},
 {"d": 18, "ep": 6, "tema": "Skincare: konsisten lebih penting",
  "plan": ("Dulu 7 langkah, sekarang 3", "Rutin 3 langkah yang cukup",
-          ["Rutin konsisten > banyak produk", "Produk skincare apa korang beli ikut trend?", "uji produk baharu pada kulit kecil dulu (patch test)"], None)},
+          ["Rutin konsisten > banyak produk", "Produk skincare apa korang beli ikut trend?", "Habiskan satu produk dulu sebelum beli yang baharu", "uji produk baharu pada kulit kecil dulu (patch test)"], None)},
 {"d": 19, "ep": 7, "tema": "Air botol plastik: kajian 2024",
  "plan": ("Dua kotak air botol dalam bonet", "Kajian 2024 dalam 6 slaid (Kajian awal + WHO)",
-          ["Sampel terhad, mampu kesan ≠ terbukti bahaya", "Korang simpan air botol di mana?", "jangan simpan air botol dalam kereta panas lama-lama"], None)},
+          ["Sampel terhad, mampu kesan ≠ terbukti bahaya", "Korang simpan air botol di mana?", "Simpan air botol di tempat sejuk dan teduh", "jangan simpan air botol dalam kereta panas lama-lama"], None)},
 {"d": 20, "ep": 7, "tema": "Air minuman keluarga",
  "plan": ("2 benda yang Momyizz ubah", "Pilihan air minuman di rumah: kebaikan & perkara perlu jaga",
-          ["Tukar kartrij penapis air ikut jadual pengeluar", "Air minuman di rumah korang dari mana?", "air paip keruh selepas banjir, didihkan"], None)},
+          ["Tukar kartrij penapis air ikut jadual pengeluar", "Air minuman di rumah korang dari mana?", "Jadual tukar kartrij penapis: tulis dalam kalendar telefon", "air paip keruh selepas banjir, didihkan"], None)},
 {"d": 21, "ep": 7, "tema": "Rumusan siri mikroplastik",
  "plan": ("Refleksi 3 minggu berkongsi", "Siri mikroplastik dalam 1 carousel (save)",
-          ["Ringkasan: 4 langkah paling mudah", "Topik apa korang nak seterusnya?", "ringkasan 3 tanda berita kesihatan palsu"], None)},
+          ["Ringkasan: 4 langkah paling mudah", "Topik apa korang nak seterusnya?", "Satu tabiat seminggu: pilih yang paling mudah", "ringkasan 3 tanda berita kesihatan palsu"], None)},
 {"d": 22, "ep": 8, "tema": "Vitamin C setiap hari",
  "plan": ("Anak bersin, terus potong oren", "Gunakan carousel Episod 8 (tab Episod)",
-          ["Badan tak boleh hasilkan vitamin C sendiri (NIH)", "Buah apa selalu ada di rumah korang?", "musim tengkujuh, basuh tangan & tidur cukup kekal asas"], None)},
+          ["Badan tak boleh hasilkan vitamin C sendiri (NIH)", "Buah apa selalu ada di rumah korang?", "Potong buah awal-awal, simpan di aras mata dalam peti", "musim tengkujuh, basuh tangan & tidur cukup kekal asas"], None)},
 {"d": 23, "ep": 8, "tema": "Mitos vitamin C",
  "plan": ("Trick anak makan buah tanpa disuruh", "Vitamin C cegah selesema? Apa kata Cochrane",
-          ["Jambu batu antara buah tempatan tinggi vitamin C", "Teka: buah tempatan mana paling tinggi vitamin C?", "dos tinggi tak semestinya lebih baik, ikut label"],
+          ["Jambu batu antara buah tempatan tinggi vitamin C", "Teka: buah tempatan mana paling tinggi vitamin C?", "Buah tinggi vitamin C yang murah ikut musim", "dos tinggi tak semestinya lebih baik, ikut label"],
           "Nutrilite Bio C Plus sebagai pelengkap (makanan tetap utama; tiada dakwaan cegah / rawat)")},
 {"d": 24, "ep": 8, "tema": "Vitamin C & zat besi",
  "plan": ("Menu buah seminggu bajet biasa", "Cara bantu penyerapan zat besi",
-          ["Vitamin C bantu serap zat besi dari sumber tumbuhan", "Korang minum teh lepas makan?", "pucat & pening berpanjangan, buat ujian darah"], None)},
+          ["Vitamin C bantu serap zat besi dari sumber tumbuhan", "Korang minum teh lepas makan?", "Jarakkan teh / kopi dari waktu makan", "pucat & pening berpanjangan, buat ujian darah"], None)},
 {"d": 25, "ep": 9, "tema": "Duduk terlalu lama",
  "plan": ("Momyizz kira jam duduk semalam", "WHO 2020: berapa minit bergerak seminggu",
-          ["Sedikit aktiviti lebih baik daripada tiada", "Berapa jam korang duduk hari ni?", "29.9% dewasa Malaysia tidak aktif (NHMS 2023)"], None)},
+          ["Sedikit aktiviti lebih baik daripada tiada", "Berapa jam korang duduk hari ni?", "Set peringatan 'bangun & gerak' setiap jam", "29.9% dewasa Malaysia tidak aktif (NHMS 2023)"], None)},
 {"d": 26, "ep": 9, "tema": "Gerak bersama keluarga",
  "plan": ("Jalan 10 minit lepas makan malam bawa anak", "10 cara gerak tanpa gym",
-          ["Berdiri masa jawab telefon pun dikira", "Gerak apa korang buat hari ni?", "sakit dada / sesak nafas masa bersenam, berhenti & dapatkan rawatan"], None)},
+          ["Berdiri masa jawab telefon pun dikira", "Gerak apa korang buat hari ni?", "Jalan kaki keluarga: tetapkan masa yang sama setiap hari", "sakit dada / sesak nafas masa bersenam, berhenti & dapatkan rawatan"], None)},
 {"d": 27, "ep": 9, "tema": "Kuatkan otot",
  "plan": ("Latihan 5 minit di rumah", "Latihan otot 2 hari seminggu (WHO 2020)",
-          ["Otot kuat bantu aktiviti harian", "Korang pernah buat latihan otot?", "hamil / ada penyakit, tanya doktor sebelum mula"], None)},
+          ["Otot kuat bantu aktiviti harian", "Korang pernah buat latihan otot?", "3 latihan otot tanpa alat: squat dinding, angkat botol air, tekan tubi lutut", "hamil / ada penyakit, tanya doktor sebelum mula"], None)},
 {"d": 28, "ep": 10, "tema": "Kulit dari dalam",
  "plan": ("Rak skincare penuh, kulit tetap kusam", "Pinggan Glowing (5 slaid)",
-          ["Vitamin C perlu untuk kolagen (NIH)", "Pinggan makan tengah hari korang hari ni?", "1 dalam 2 yang ada kolesterol tinggi tak tahu (NHMS 2023)"], None)},
+          ["Vitamin C perlu untuk kolagen (NIH)", "Pinggan makan tengah hari korang hari ni?", "Isi separuh pinggan dengan sayur dulu", "1 dalam 2 yang ada kolesterol tinggi tak tahu (NHMS 2023)"], None)},
 {"d": 29, "ep": 10, "tema": "Omega-3 & ikan tempatan",
  "plan": ("Ikan kembung & sardin minggu ni", "Sumber omega-3 tempatan + kajian kulit masih terhad",
-          ["EPA & DHA ada dalam ikan berlemak (NIH)", "Korang makan ikan berapa kali seminggu?", "makan ubat cair darah? Tanya doktor sebelum ambil omega-3"],
+          ["EPA & DHA ada dalam ikan berlemak (NIH)", "Korang makan ikan berapa kali seminggu?", "Cara masak ikan kembung / sardin yang mudah untuk anak", "makan ubat cair darah? Tanya doktor sebelum ambil omega-3"],
           "Nutrilite Omega-3 Fish Oil Plus (sahkan nama semasa) + ARTISTRY; tiada dakwaan mencerahkan")},
 {"d": 30, "ep": 10, "tema": "Refleksi 30 hari",
  "plan": ("Terima kasih 30 hari bersama korang", "10 perkara Momyizz kongsi bulan ni",
-          ["1 tabiat paling mudah untuk mula", "Bulan depan nak Momyizz kupas apa?", "cara betul ambil supplemen (6 perkara)"],
+          ["1 tabiat paling mudah untuk mula", "Bulan depan nak Momyizz kupas apa?", "Senarai semak 10 tabiat untuk bulan depan", "cara betul ambil supplemen (6 perkara)"],
           "Ikuti pelanggan: tanya pengalaman & keperluan ulang beli")},
 ]

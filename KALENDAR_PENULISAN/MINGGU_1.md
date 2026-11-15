@@ -1,6 +1,6 @@
 # Kalendar Konten — Minggu 1 (siap salin)
 
-Setiap hari satu topik: **🎥 1 video · 🖼️ 1 carousel · ✍️ 3 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.
+Setiap hari satu topik: **🎥 1 video · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.
 Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.
 Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).
 
@@ -121,6 +121,18 @@ D. Beli air botol je
 Momyizz dulu A, sekarang tengah tukar ke C. 😄
 ```
 
+**18:30 · Tips praktikal** (290 / 500 aksara)
+
+```
+Tips pilih botol air guna semula 💡
+
+✅ Keluli tahan karat gred makanan atau kaca (dengan sarung silikon supaya tak mudah pecah)
+✅ Mulut botol lebar, senang dicuci
+✅ Basuh setiap hari dengan berus botol, keringkan terbuka
+
+Botol yang mudah dicuci = botol yang betul-betul dipakai hari-hari. 😉
+```
+
 **21:00 · Info penting / alert** (256 / 500 aksara)
 
 ```
@@ -135,6 +147,7 @@ Jangan isi air panas ke dalamnya, dan jangan guna berulang kali sampai calar. Ka
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
 ## Hari 2 · Episod 1 · 3 langkah kecil kurangkan pendedahan plastik
@@ -247,6 +260,17 @@ Soalan: dalam rumah korang, barang plastik apa yang paling banyak?
 Momyizz? Bekas makanan. Bertimbun dalam kabinet! 😅
 ```
 
+**18:30 · Tips praktikal** (297 / 500 aksara)
+
+```
+Tips jaga bekas plastik yang masih elok 💡
+
+✅ Basuh dengan span lembut, elak sabut kasar yang mencalarkan
+✅ Ikut label pengeluar untuk air panas, microwave dan mesin basuh pinggan
+✅ Simpan untuk barang kering bila dah tak sesuai untuk makanan panas
+✅ Retak, melengkung atau berbau? Masa untuk tukar
+```
+
 **21:00 · Info penting / alert** (199 / 500 aksara)
 
 ```
@@ -261,6 +285,7 @@ Ini panduan asas kesihatan awam semasa banjir. Kongsi dengan keluarga di kawasan
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
 ## Hari 3 · Episod 1 · Cara baca berita kesihatan viral
@@ -364,6 +389,18 @@ Jawapan: MITOS. Kesan jangka panjang masih dikaji, belum ada bukti yang mengesah
 Berapa ramai yang teka betul?
 ```
 
+**18:30 · Tips praktikal** (249 / 500 aksara)
+
+```
+Tips semak berita kesihatan dalam 30 saat 💡
+
+1️⃣ Cari nama kajian atau badan yang disebut. Tiada nama? Tanda merah.
+2️⃣ Taip tajuk berita + "sebenarnya.my" di Google.
+3️⃣ Tengok tarikh. Berita lama selalu diulang viral.
+
+Save untuk group keluarga! 📲
+```
+
 **21:00 · Info penting / alert** (216 / 500 aksara)
 
 ```
@@ -378,6 +415,7 @@ Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan ke
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
 ## Hari 4 · Episod 2 · Sarapan ibu yang selalu tertinggal
@@ -487,6 +525,18 @@ Ibu-ibu, jujur sikit: pagi tadi korang sarapan apa? 🙈
 Momyizz: roti sambil drive. Esok cuba lagi!
 ```
 
+**18:30 · Tips praktikal** (263 / 500 aksara)
+
+```
+Tips pastikan ibu tak tertinggal sarapan 💡
+
+✅ Malam: letak bekas ibu SEBELAH bekas anak, terus nampak pagi esok
+✅ Simpan "kotak snek sihat" di pejabat: kacang, roti gandum, buah
+✅ Set peringatan telefon 10 pagi: "Dah makan?"
+
+Kecil, tapi berkesan untuk Momyizz. 💛
+```
+
 **21:00 · Info penting / alert** (217 / 500 aksara)
 
 ```
@@ -501,6 +551,7 @@ Kalau selalu skip makan dan banyak minum manis, buat saringan gula di klinik kes
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
 ## Hari 5 · Episod 2 · Persediaan malam & pelan B pagi kelam-kabut
@@ -609,6 +660,19 @@ Soalan: semalam pukul berapa korang makan makanan pertama? ⏰
 Momyizz: 7:30 pagi, sambil duduk! 🎉
 ```
 
+**18:30 · Tips praktikal** (266 / 500 aksara)
+
+```
+Tips telur rebus untuk seminggu 💡
+
+✅ Rebus sekali gus 6–8 biji, sejukkan cepat dalam air sejuk
+✅ Simpan dalam peti BERSAMA kulit, dalam bekas bertutup
+✅ Elok dimakan dalam tempoh seminggu (USDA)
+✅ Tulis tarikh rebus pada bekas
+
+Sarapan, bekal dan snek petang siap! 🥚
+```
+
 **21:00 · Info penting / alert** (245 / 500 aksara)
 
 ```
@@ -644,6 +708,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
@@ -754,6 +819,18 @@ Jujur: minuman manis mana paling susah korang tinggal? 🧋
 Momyizz: teh tarik pagi. Tengah cuba "kurang manis". 😅
 ```
 
+**18:30 · Tips praktikal** (243 / 500 aksara)
+
+```
+Tips kurangkan manis tanpa rasa terseksa 💡
+
+Minggu 1: minta "kurang manis"
+Minggu 2: "separuh gula"
+Minggu 3: cuba teh / kopi O kosong sekali sehari
+
+Yang Momyizz perasan: lama-lama tekak dah biasa, dan air manis sangat terasa terlalu manis. 😄
+```
+
 **21:00 · Info penting / alert** (204 / 500 aksara)
 
 ```
@@ -780,6 +857,7 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
@@ -891,6 +969,19 @@ Komen:
 Momyizz dah. Tarikh pun dah tulis!
 ```
 
+**18:30 · Tips praktikal** (257 / 500 aksara)
+
+```
+Tips span tahan lebih bersih 💡
+
+✅ Perah kuat lepas guna
+✅ Letak di rak berlubang / tempat berangin, bukan dalam sinki basah
+✅ Asingkan span pinggan dan kain lap meja
+✅ Tulis tarikh, tukar secara berkala
+
+Span kering = kurang tempat untuk bakteria membiak. 🧽
+```
+
 **21:00 · Info penting / alert** (239 / 500 aksara)
 
 ```
@@ -924,5 +1015,6 @@ Kalau berminat, reply "NAK", Momyizz uruskan. 💛
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup

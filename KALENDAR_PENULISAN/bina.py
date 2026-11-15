@@ -34,8 +34,8 @@ def check():
     for day in DAYS:
         tag = f"Hari {day['d']}"
         if "video" in day:
-            if len(day["teks"]) != 3:
-                errs.append(f"{tag}: perlu 3 teks")
+            if len(day["teks"]) != len(JENIS_TEKS):
+                errs.append(f"{tag}: perlu {len(JENIS_TEKS)} teks")
             for i, t in enumerate(day["teks"], 1):
                 if len(t) > LIMIT_TH:
                     errs.append(f"{tag}: teks {i} = {len(t)} aksara (> {LIMIT_TH})")
@@ -105,6 +105,7 @@ def to_json():
                 d["wa"] = day["wa"]
         else:
             vid, car, teks, wa = day["plan"]
+            assert len(teks) == len(JENIS_TEKS), f"Hari {day['d']}: perlu {len(JENIS_TEKS)} idea teks"
             d["plan"] = {"video": vid, "carousel": car, "teks": [{"masa": m, "jenis": j, "idea": t} for (m, j), t in zip(JENIS_TEKS, teks)], "wa": wa}
         out.append(d)
     return out
@@ -122,7 +123,7 @@ def carousel_text(c):
 
 def md_week1(days):
     L = ["# Kalendar Konten — Minggu 1 (siap salin)", "",
-         "Setiap hari satu topik: **🎥 1 video · 🖼️ 1 carousel · ✍️ 3 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.",
+         "Setiap hari satu topik: **🎥 1 video · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.",
          "Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.",
          "Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).", ""]
     for day in days:
@@ -160,7 +161,7 @@ def md_week1(days):
 
 def md_plan(days):
     L = ["# Kalendar Konten — Hari 8 hingga 30 (rancangan)", "",
-         "Format sama seperti Minggu 1: 🎥 video · 🖼️ carousel · ✍️ 3 teks (+ 💬 WhatsApp).",
+         "Format sama seperti Minggu 1: 🎥 video · 🖼️ carousel · ✍️ 4 teks (+ 💬 WhatsApp).",
          "Teks penuh dijana dengan Claude: tab **Tulis** → pilih hari → **Salin arahan untuk Claude** → tampal dalam Claude Project.", ""]
     for day in days:
         if "plan" not in day:
@@ -179,7 +180,7 @@ def md_plan(days):
 def md_index(days):
     L = ["# Kalendar Konten Momyizz (30 hari)", "",
          "| Fail | Isi |", "|---|---|",
-         "| `MINGGU_1.md` | Hari 1–7: skrip video, teks carousel, 3 teks, WhatsApp + checklist |",
+         "| `MINGGU_1.md` | Hari 1–7: skrip video, teks carousel, 4 teks, WhatsApp + checklist |",
          "| `HARI_08-30.md` | Hari 8–30: rancangan setiap konten |",
          "| `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |",
          "| `masalah_data.py` | Sumber data 20 masalah |",
@@ -191,6 +192,7 @@ def md_index(days):
          "| 12:30 | 🖼️ Carousel | Instagram · Facebook | Canva / CapCut (edit carousel) |",
          "| 10:00 | ✍️ Teks: info ringkas | Threads · Facebook | Post terus |",
          "| 16:00 | ✍️ Teks: pertanyaan | Threads · Facebook | Post terus |",
+         "| 18:30 | ✍️ Teks: tips praktikal | Threads · Facebook | Post terus |",
          "| 21:00 | ✍️ Teks: info penting / alert | Threads · Facebook | Post terus |",
          "| Bila sesuai | 💬 Hard-sell | WhatsApp / group tertutup | Hantar terus |", "",
          "Produk tidak muncul dalam konten awam (peraturan Amway Malaysia, `AMWAY_BRAND/BRAND.md`).", "",
