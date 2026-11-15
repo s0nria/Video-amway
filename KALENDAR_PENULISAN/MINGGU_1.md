@@ -1,802 +1,625 @@
-# Kalendar Penulisan — Minggu 1 (teks penuh)
+# Kalendar Konten — Minggu 1 (siap salin)
 
-Teks siap salin untuk Facebook, Instagram dan Threads. Dalam worksheet, buka tab **Tulis** untuk butang salin dan checklist.
+Setiap hari satu topik: **🎥 1 video · 🖼️ 1 carousel · ✍️ 3 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.
+Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.
 Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).
 
-## Hari 1 · Episod 1 · Perkenalan + Mikroplastik: apa sebenarnya
+## Hari 1 · Episod 1 · Mikroplastik: fakta, bukan panik
 
-### 08:30 · Personal branding: Perkenalan Momyizz
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Pagi-pagi isi botol air
 
-> Cerita peribadi mesti benar. Ubah butiran (anak, kerja, rutin) ikut kehidupan sebenar Momyizz sebelum post.
+> Salin skrip ini ke CapCut / Flow untuk edit video.
 
-**Facebook** (806 aksara)
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak hook).
 
-```
-Hai korang, ini Momyizz. 👋
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Close-up tangan isi air ke botol plastik lama yang calar | Pernah fikir apa yang bersentuhan dengan air minuman kita? 🤔 |
+| 3–12s | Momyizz bercakap ke kamera di dapur | Semalam lalu FYP: 'Mikroplastik dalam air minuman!' Momyizz terus nak buang semua botol. |
+| 12–25s | Momyizz duduk depan laptop, teh panas, malam | Tapi Momyizz baca dulu laporan WHO. Rupanya ceritanya lebih tenang daripada yang viral. |
+| 25–38s | Tangan susun botol kaca dan keluli di atas meja | Mulai hari ni Momyizz kongsi fakta, bukan panik. Ikut siri ni ya. |
+| 38–45s | Momyizz senyum, tunjuk ke atas | Siri Mikroplastik Momyizz 🌿 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
-Ibu bekerja. Pagi kejar masa, petang kejar anak, malam baru ada masa untuk diri sendiri.
-
-Satu tabiat Momyizz yang suami selalu gelak: setiap kali ada berita kesihatan viral, Momyizz tak terus kongsi. Momyizz cari dulu, apa WHO cakap, apa KKM cakap, kajian mana yang betul-betul wujud. 🔍
-
-Sebab banyak sangat yang viral buat kita panik, padahal ceritanya tak semudah itu.
-
-Jadi mulai hari ni, Momyizz nak kongsi apa yang Momyizz belajar. Tentang kesihatan keluarga, dapur, kulit dan gaya hidup. Ringkas, ada sumber, tanpa menakut-nakutkan.
-
-Hari ni kita mula dengan satu perkataan yang selalu lalu di FYP: mikroplastik. Tengah hari nanti Momyizz kongsi apa yang Momyizz jumpa.
-
-Korang pula, topik kesihatan apa yang paling selalu buat korang keliru? Komen, Momyizz senaraikan. 👇
-```
-
-**Instagram** (360 / 2200 aksara)
+**Caption video**
 
 ```
-Hai, ini Momyizz 👋 Ibu bekerja yang tak terus percaya benda viral.
+Mikroplastik: fakta, bukan panik 🌿 Siri baharu Momyizz bermula hari ni. Follow supaya tak terlepas.
 
-Setiap kali ada berita kesihatan tular, Momyizz cari dulu: apa kata WHO, KKM dan kajian sebenar. 🔍
-
-Mulai hari ni, Momyizz kongsi apa yang Momyizz belajar. Ringkas, ada sumber, tanpa panik.
-
-Topik apa paling buat korang keliru? Komen 👇
-
-#Momyizz #IbuBekerja #GayaHidupSihat #KesihatanKeluarga
+#Momyizz #Mikroplastik #FaktaBukanPanik #IbuBekerja
 ```
 
-**Threads**
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Mikroplastik dalam 5 slaid
 
-1/2 (150 / 500 aksara)
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
 
-```
-Hai, ini Momyizz. Ibu bekerja yang ada satu tabiat pelik: setiap kali ada berita kesihatan viral, Momyizz tak kongsi dulu. Momyizz cari sumber dulu. 🔍
-```
-
-2/2 (215 / 500 aksara)
+**Slaid 1**
 
 ```
-Mulai hari ni Momyizz nak kongsi apa yang Momyizz jumpa. Kesihatan keluarga, dapur, kulit, gaya hidup. Ringkas, ada sumber, tanpa menakut-nakutkan.
-
-Korang, topik kesihatan apa yang paling selalu buat korang keliru?
+MIKROPLASTIK
+Apa sebenarnya? 🤔
+(Fakta, bukan panik)
 ```
 
-### 12:30 · Edukasi / soft-sell: Mikroplastik: apa sebenarnya
-
-> Fakta dari Episod 1 (WHO 2019, 2022; UNEP).
-
-**Facebook** (942 aksara)
+**Slaid 2**
 
 ```
-Mikroplastik. Semua orang cakap pasal ni. Tapi apa sebenarnya? 🤔
+APA ITU?
+Zarah plastik bersaiz kurang daripada 5 mm.
+Nanoplastik lebih kecil lagi.
+🟢 Terbukti (WHO)
+```
 
-Ini yang Momyizz jumpa bila baca laporan WHO dan UNEP:
+**Slaid 3**
 
-🔹 Mikroplastik ialah zarah plastik bersaiz kurang daripada 5 mm. Nanoplastik lebih kecil lagi. (WHO)
-🔹 Datangnya dari plastik besar yang terurai, serat baju sintetik dan geseran tayar. (UNEP)
-🔹 Memang terbukti ada di sekeliling kita: dalam air, makanan dan persekitaran. (WHO 2022)
+```
+DARI MANA?
+• Plastik besar yang terurai
+• Serat baju sintetik
+• Geseran tayar
+🟢 Terbukti (UNEP)
+```
 
-Tapi ini bahagian yang jarang viral:
-🔸 WHO (2019) kata, berdasarkan data yang ada, mikroplastik dalam air minuman pada tahap semasa belum menunjukkan risiko kesihatan yang jelas. Data masih terhad dan kajian diteruskan.
-🔸 Kesan jangka panjang pada manusia masih dikaji.
+**Slaid 4**
 
-Jadi tak perlu panik. Yang kita boleh buat ialah kurangkan pendedahan yang tak perlu, dengan cara yang mudah dan realistik. Esok Momyizz kongsi 3 langkah kecil yang Momyizz mula buat. 🌿
+```
+DI MANA?
+Dalam air, makanan dan persekitaran.
+🟢 Terbukti (WHO 2022)
+```
 
-Sumber: WHO (2019, 2022), UNEP.
+**Slaid 5**
+
+```
+BAHAYA KE?
+Kesan pada kesihatan manusia masih dikaji.
+WHO (2019): tahap semasa dalam air minuman belum tunjuk risiko jelas.
+🔵 Masih dikaji
+```
+
+**Slaid 6**
+
+```
+JADI?
+Tak perlu panik.
+Kurangkan pendedahan yang tak perlu.
+Save & follow siri ni 🌿
+
 Perkongsian ilmu umum. Bukan nasihat perubatan.
 ```
 
-**Instagram** (430 / 2200 aksara)
+**Caption carousel**
 
 ```
-Mikroplastik: fakta, bukan panik 🌿
+Mikroplastik dalam 5 slaid. Save untuk rujukan 🌿
 
-✅ Zarah plastik bawah 5 mm (WHO)
-✅ Ada dalam air, makanan dan persekitaran (WHO 2022)
-⏳ Kesan pada kesihatan manusia masih dikaji
-ℹ️ WHO 2019: tahap semasa dalam air minuman belum tunjuk risiko jelas, data masih terhad
-
-Save post ni. Esok Momyizz kongsi 3 langkah kecil yang realistik.
-
+Sumber: WHO (2019, 2022), UNEP.
 Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 #Momyizz #Mikroplastik #FaktaBukanPanik #KesihatanKeluarga
 ```
 
-**Threads**
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
 
-1/3 (96 / 500 aksara)
-
-```
-Mikroplastik ni sebenarnya apa? Momyizz baca laporan WHO dan UNEP semalam. Ringkasnya macam ni 🧵
-```
-
-2/3 (179 / 500 aksara)
+**10:00 · Info ringkas** (200 / 500 aksara)
 
 ```
-Mikroplastik = zarah plastik bawah 5 mm. Datang dari plastik yang terurai, serat baju sintetik, geseran tayar. Memang terbukti ada dalam air, makanan dan persekitaran. (WHO, UNEP)
+Info ringkas: mikroplastik ialah zarah plastik yang lebih kecil daripada 5 mm. Lebih kecil daripada sebutir beras. 🍚
+
+Ia datang dari plastik yang terurai, serat baju sintetik dan geseran tayar. (UNEP)
 ```
 
-3/3 (233 / 500 aksara)
+**16:00 · Pertanyaan** (172 / 500 aksara)
 
 ```
-Yang jarang viral: WHO (2019) kata tahap semasa dalam air minuman belum tunjuk risiko kesihatan yang jelas. Data masih terhad, kajian diteruskan.
-
-Jadi bukan panik. Kurangkan pendedahan yang tak perlu je. Esok Momyizz kongsi caranya.
-```
-
-### 20:30 · Interaksi: Poll botol air
-
-**Facebook** (269 aksara)
-
-```
-Soalan santai malam ni. 🌙
-
-Botol air yang korang bawa ke tempat kerja atau sekolah anak, jenis apa?
+Soalan jujur: botol air yang korang bawa hari-hari, jenis apa?
 
 A. Plastik
 B. Kaca
 C. Keluli tahan karat
 D. Beli air botol je
 
-Momyizz jawab dulu: dulu A, sekarang tengah tukar ke C. Cerita kenapa, esok pagi. 😄
-
-Komen huruf korang 👇
+Momyizz dulu A, sekarang tengah tukar ke C. 😄
 ```
 
-**Instagram** (167 / 2200 aksara)
+**21:00 · Info penting / alert** (256 / 500 aksara)
 
 ```
-Botol air korang jenis apa? 🤔
+Info penting: botol air plastik sekali guna direka untuk SEKALI guna. ⚠️
 
-A. Plastik
-B. Kaca
-C. Keluli
-D. Beli air botol je
-
-Momyizz: dulu A, sekarang C. Komen huruf korang 👇
-
-#Momyizz #BotolAir #GayaHidupSihat
-```
-
-**Threads**
-
-1/1 (162 / 500 aksara)
-
-```
-Soalan malam: botol air yang korang bawa hari-hari, plastik, kaca, keluli, atau beli air botol je?
-
-Momyizz dulu plastik, sekarang tengah tukar ke keluli. Korang?
+Jangan isi air panas ke dalamnya, dan jangan guna berulang kali sampai calar. Kajian tentang kesan haba pada pelepasan zarah masih awal, tapi langkah ni mudah dan tak rugi apa-apa. 🌿
 ```
 
 **Checklist hari ini**
 
-- [ ] 08:30 Personal branding: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 12:30 Edukasi / soft-sell: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 20:30 Interaksi: [ ] Facebook · [ ] Instagram · [ ] Threads
+- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 2 · Episod 1 · 3 langkah kecil kurangkan pendedahan
+## Hari 2 · Episod 1 · 3 langkah kecil kurangkan pendedahan plastik
 
-### 08:30 · Personal branding: Malam Momyizz baca laporan WHO
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): 3 benda kecil yang Momyizz ubah
 
-> Cerita peribadi mesti benar. Ubah butiran (anak, kerja, rutin) ikut kehidupan sebenar Momyizz sebelum post.
+> Salin skrip ini ke CapCut / Flow untuk edit video.
 
-**Facebook** (560 aksara)
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 18-blazer-semangat (babak akhir).
 
-```
-Semalam lepas anak-anak tidur, Momyizz duduk depan laptop dengan secawan teh. ☕
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Momyizz pegang beg sampah, berhenti, geleng kepala | Tak perlu buang semua plastik esok pagi. 🙅‍♀️ |
+| 3–15s | Tukar botol plastik calar ke botol keluli | Satu: botol plastik dah calar? Tukar ke kaca atau keluli. |
+| 15–27s | Keluarkan botol air dari kereta yang panas | Dua: jangan biar air botol lama-lama dalam kereta panas. |
+| 27–38s | Bawa tumbler sendiri ke kedai air | Tiga: bawa tumbler sendiri bila beli air. |
+| 38–45s | Momyizz ke kamera, genggam tangan | Kecil, tapi senang diulang. Itu yang jadi tabiat 💪 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
-Bukan tengok drama. Baca laporan WHO pasal mikroplastik. 😅
-
-Jujur, mula-mula rasa nak buang semua bekas plastik dalam rumah. Tapi makin baca, makin tenang. Sebab rupanya cara terbaik bukan buang semua, tapi ubah sikit-sikit yang mudah.
-
-Itu satu benda yang Momyizz belajar jadi ibu: perubahan yang bertahan ialah perubahan yang kecil.
-
-Tengah hari nanti Momyizz kongsi 3 langkah kecil yang Momyizz dah mula buat. 🌿
-
-Korang pula, bila ada masa untuk diri sendiri, korang buat apa?
-```
-
-**Instagram** (266 / 2200 aksara)
+**Caption video**
 
 ```
-Malam semalam: anak tidur, teh panas, laporan WHO. ☕😅
-
-Mula-mula rasa nak buang semua plastik. Makin baca, makin tenang.
-
-Perubahan yang bertahan ialah perubahan yang kecil. 🌿
-
-Masa untuk diri sendiri, korang buat apa? 👇
-
-#Momyizz #IbuBekerja #MeTime #GayaHidupSihat
-```
-
-**Threads**
-
-1/1 (197 / 500 aksara)
-
-```
-Malam tadi lepas anak tidur: teh panas + laporan WHO pasal mikroplastik. Bukan drama. 😅
-
-Mula-mula nak buang semua plastik. Makin baca, makin tenang. Perubahan yang bertahan biasanya yang kecil je.
-```
-
-### 12:30 · Edukasi / soft-sell: 3 langkah kecil
-
-> Penyelesaian dari Episod 1.
-
-**Facebook** (724 aksara)
-
-```
-Tak perlu buang semua plastik esok pagi. 🙅‍♀️
-
-Ini 3 langkah kecil yang Momyizz mula buat untuk kurangkan pendedahan mikroplastik yang tak perlu:
-
-1️⃣ Botol plastik lama yang dah calar atau kusam, tukar ke botol kaca atau keluli tahan karat.
-2️⃣ Jangan biar botol berisi air terlalu lama dalam kereta yang panas.
-3️⃣ Kurangkan plastik sekali guna bila mudah. Contoh: bawa tumbler sendiri bila beli air.
-
-Kenapa kecil? Sebab kecil senang diulang. Dan yang diulang itulah yang jadi tabiat. 💪
-
-Ingat, ini tentang kurangkan pendedahan yang tak perlu, bukan takut. Kesan mikroplastik pada kesihatan manusia masih dikaji (WHO 2022).
-
-Langkah mana korang nak cuba dulu? 1, 2 atau 3?
-
-Perkongsian ilmu umum. Bukan nasihat perubatan.
-```
-
-**Instagram** (360 / 2200 aksara)
-
-```
-3 langkah kecil kurangkan mikroplastik 🌿
-
-1️⃣ Tukar botol plastik yang dah calar
-2️⃣ Jangan biar air botol dalam kereta panas
-3️⃣ Bawa tumbler sendiri
-
-Kecil, tapi senang diulang. Itulah yang jadi tabiat. 💪
-
-Save untuk ingat. Korang nak mula langkah yang mana?
-
-Perkongsian ilmu umum. Bukan nasihat perubatan.
+3 langkah kecil kurangkan plastik. Mana satu korang nak cuba dulu? 👇
 
 #Momyizz #Mikroplastik #TipsRumah #GayaHidupSihat
 ```
 
-**Threads**
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Plastik di rumah: tukar yang mana dulu?
 
-1/3 (74 / 500 aksara)
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
 
-```
-Tak perlu buang semua plastik esok. Momyizz mula dengan 3 benda kecil je 🧵
-```
-
-2/3 (137 / 500 aksara)
+**Slaid 1**
 
 ```
-1. Botol plastik dah calar → tukar kaca atau keluli
-2. Jangan biar air dalam kereta panas lama-lama
-3. Bawa tumbler sendiri bila beli air
+PLASTIK DI RUMAH
+Tukar yang mana dulu? 🏠
+(Tak perlu tukar semua sekali gus)
 ```
 
-3/3 (86 / 500 aksara)
+**Slaid 2**
 
 ```
-Kecil sebab senang diulang. Yang diulang jadi tabiat.
-
-Korang nak cuba yang mana dulu?
+1. BOTOL AIR
+Dah calar atau kusam? Tukar dulu.
+Pilihan: kaca / keluli tahan karat.
 ```
 
-### 20:30 · Interaksi: Mitos atau fakta
-
-**Facebook** (173 aksara)
+**Slaid 3**
 
 ```
-MITOS atau FAKTA? 🤔
-
-"Mikroplastik dah terbukti menyebabkan penyakit pada manusia."
-
-Komen jawapan korang. Esok tengah hari Momyizz dedahkan jawapan, dengan sumber sekali. 😉
+2. BEKAS MAKANAN
+Retak, melengkung atau berbau? Masa untuk tukar.
 ```
 
-**Instagram** (162 / 2200 aksara)
+**Slaid 4**
 
 ```
-MITOS atau FAKTA? 🤔
-
-"Mikroplastik dah terbukti menyebabkan penyakit pada manusia."
-
-Komen jawapan korang. Jawapan esok! 😉
-
-#Momyizz #MitosAtauFakta #Mikroplastik
+3. PLASTIK SEKALI GUNA
+Straw, cawan, beg.
+Kurangkan bila mudah: bawa tumbler & beg sendiri.
 ```
 
-**Threads**
-
-1/1 (138 / 500 aksara)
+**Slaid 5**
 
 ```
-Mitos atau fakta: "Mikroplastik dah terbukti menyebabkan penyakit pada manusia."
+4. YANG BOLEH TUNGGU
+Bekas yang masih elok boleh terus guna untuk simpan barang kering.
+Tak perlu membazir. ♻️
+```
 
-Jawab dulu. Esok Momyizz kongsi jawapan dengan sumber. 😉
+**Slaid 6**
+
+```
+INGAT
+Tujuan: kurangkan pendedahan yang tak perlu, bukan takut.
+Save untuk rujukan 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Senarai tukar plastik ikut keutamaan. Save & kongsi dengan keluarga 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Mikroplastik #RumahSihat #TipsRumah
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (178 / 500 aksara)
+
+```
+Info ringkas: perubahan yang bertahan biasanya yang kecil. 🌱
+
+Momyizz mula dengan satu je minggu ni: botol air keluli dari rumah. Bila dah jadi tabiat, baru tambah langkah kedua.
+```
+
+**16:00 · Pertanyaan** (174 / 500 aksara)
+
+```
+Soalan: dalam rumah korang, barang plastik apa yang paling banyak?
+
+🍱 Bekas makanan
+🧴 Botol
+🛍️ Beg plastik
+🥤 Cawan / straw
+
+Momyizz? Bekas makanan. Bertimbun dalam kabinet! 😅
+```
+
+**21:00 · Info penting / alert** (199 / 500 aksara)
+
+```
+Info penting musim tengkujuh: selepas banjir atau bila air paip keruh, didihkan air sebelum minum. 💧
+
+Ini panduan asas kesihatan awam semasa banjir. Kongsi dengan keluarga di kawasan yang terjejas. 🙏
 ```
 
 **Checklist hari ini**
 
-- [ ] 08:30 Personal branding: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 12:30 Edukasi / soft-sell: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 20:30 Interaksi: [ ] Facebook · [ ] Instagram · [ ] Threads
+- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 3 · Episod 1 · Cara baca label bukti
+## Hari 3 · Episod 1 · Cara baca berita kesihatan viral
 
-### 08:30 · Personal branding: Pagi kelam-kabut
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Kenapa Momyizz tak terus kongsi berita viral
 
-> Cerita peribadi mesti benar. Ubah butiran (anak, kerja, rutin) ikut kehidupan sebenar Momyizz sebelum post.
+> Salin skrip ini ke CapCut / Flow untuk edit video.
 
-**Facebook** (453 aksara)
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 04-satin-tutup-mulut atau 14-blazer-tutup-mulut.
 
-```
-6:45 pagi. 🕡
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Skrin telefon: notifikasi group keluarga banyak | Group keluarga dah kongsi lagi berita kesihatan viral… 📱 |
+| 3–15s | Momyizz bercakap ke kamera | Dulu Momyizz pernah forward satu tips viral. Rupanya salah. Malu sangat. 🙈 |
+| 15–30s | Tangan tulis 3 soalan atas kertas | Sekarang Momyizz tanya 3 soalan dulu: Siapa sumbernya? Ada kajian? Badan rasmi kata apa? |
+| 30–40s | Momyizz tunjuk label warna di skrin | Sebab tu setiap post Momyizz ada label bukti: 🟢 🟠 🔵 🔴 |
+| 40–45s | Momyizz senyum | Fakta dulu, baru kongsi 💛 |
 
-Seorang cari stokin, seorang tak jumpa botol air, bekal belum masuk beg, dan Momyizz masih belum sikat rambut. 😂
-
-Pernah rasa pagi tu macam lari pecut, padahal hari baru mula?
-
-Satu benda yang Momyizz perasan minggu ni: semua orang dalam rumah dah makan… kecuali Momyizz. Selalu "nanti la, sampai pejabat baru makan."
-
-Esok Momyizz nak cerita pasal ni. Sebab rasanya ramai ibu macam ni juga.
-
-Pagi korang pukul berapa paling kelam-kabut? ⏰
-```
-
-**Instagram** (255 / 2200 aksara)
+**Caption video**
 
 ```
-6:45 pagi: stokin hilang, botol air hilang, bekal belum masuk beg 😂
+3 soalan sebelum forward berita kesihatan. Korang pernah termakan berita palsu? 👇
 
-Dan Momyizz? Belum makan apa-apa. "Nanti la."
-
-Ramai ibu macam ni juga kan? Esok Momyizz cerita.
-
-Pagi korang paling kelam-kabut pukul berapa? ⏰
-
-#Momyizz #IbuBekerja #RutinPagi #MomLife
+#Momyizz #FaktaBukanPanik #BeritaPalsu
 ```
 
-**Threads**
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Label bukti Momyizz
 
-1/1 (168 / 500 aksara)
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
 
-```
-6:45 pagi: stokin hilang, botol air hilang, bekal belum masuk beg. Dan Momyizz belum makan apa-apa. "Nanti la." 😂
-
-Ibu-ibu, korang pun selalu jadi orang terakhir makan?
-```
-
-### 12:30 · Edukasi / soft-sell: Jawapan mitos + label bukti
-
-> Jawapan kuiz semalam. Perkenal label bukti Momyizz.
-
-**Facebook** (831 aksara)
+**Slaid 1**
 
 ```
-Jawapan semalam: MITOS. ❌
-
-"Mikroplastik dah terbukti menyebabkan penyakit pada manusia" belum disokong bukti. WHO (2022) kata kesan jangka panjang pada manusia masih dikaji, dan belum ada bukti yang mengesahkan mikroplastik menyebabkan penyakit tertentu.
-
-Tapi bukan bermaksud "tak ada apa-apa". Maksudnya sains masih mencari jawapan. 🔬
-
-Sebab itu dalam setiap perkongsian, Momyizz letak label bukti:
-
-🟢 Terbukti: disokong banyak kajian dan badan rasmi
-🟠 Kajian awal: ada kajian, tapi masih sedikit atau dalam makmal
-🔵 Masih dikaji: saintis belum ada jawapan
-🔴 Bukti belum cukup: belum boleh buat kesimpulan
-
-Supaya korang tahu mana yang pasti, mana yang belum. Tak perlu percaya bulat-bulat, tak perlu panik juga. 🌿
-
-Berapa ramai yang jawab betul semalam? 🙋‍♀️
-
-Sumber: WHO (2022).
-Perkongsian ilmu umum. Bukan nasihat perubatan.
+LABEL BUKTI MOMYIZZ
+Cara faham setiap post 🔍
 ```
 
-**Instagram** (366 / 2200 aksara)
+**Slaid 2**
 
 ```
-Jawapan: MITOS ❌
-
-Belum ada bukti mikroplastik menyebabkan penyakit tertentu pada manusia. Kesan jangka panjang masih dikaji (WHO 2022).
-
-Label bukti dalam post Momyizz:
-🟢 Terbukti
-🟠 Kajian awal
-🔵 Masih dikaji
-🔴 Bukti belum cukup
-
-Save supaya senang faham post akan datang 🌿
-
-Perkongsian ilmu umum. Bukan nasihat perubatan.
-
-#Momyizz #MitosAtauFakta #FaktaBukanPanik
+🟢 TERBUKTI
+Disokong banyak kajian dan badan rasmi (WHO, KKM).
 ```
 
-**Threads**
-
-1/2 (147 / 500 aksara)
+**Slaid 3**
 
 ```
-Jawapan kuiz semalam: MITOS. Belum ada bukti mikroplastik menyebabkan penyakit tertentu pada manusia. Kesan jangka panjang masih dikaji. (WHO 2022)
+🟠 KAJIAN AWAL
+Ada kajian, tapi masih sedikit atau dalam makmal.
 ```
 
-2/2 (168 / 500 aksara)
+**Slaid 4**
 
 ```
-Sebab itu Momyizz letak label bukti dalam setiap post:
-🟢 Terbukti
-🟠 Kajian awal
-🔵 Masih dikaji
-🔴 Bukti belum cukup
-
-Supaya korang tahu mana yang pasti, mana yang belum.
+🔵 MASIH DIKAJI
+Saintis belum ada jawapan muktamad.
 ```
 
-### 20:30 · Interaksi: Teaser sarapan ibu
-
-**Facebook** (273 aksara)
+**Slaid 5**
 
 ```
-Ibu-ibu, jujur sikit malam ni. 🙈
-
-Pagi tadi korang sarapan apa?
-
-☕ Kopi je
-🍞 Roti sekeping sambil drive
-🥣 Sarapan betul-betul
-🤐 Tak sempat makan langsung
-
-Momyizz… pilih yang kedua. Esok Momyizz kongsi kenapa ibu selalu jadi orang terakhir makan, dan cara mudah nak ubah. 💛
+🔴 BUKTI BELUM CUKUP
+Belum boleh buat kesimpulan.
 ```
 
-**Instagram** (176 / 2200 aksara)
+**Slaid 6**
 
 ```
-Pagi tadi korang sarapan apa? 🙈
-
-☕ Kopi je
-🍞 Roti sambil drive
-🥣 Sarapan betul
-🤐 Tak sempat langsung
-
-Momyizz: yang kedua 😅 Esok kita sembang!
-
-#Momyizz #SarapanIbu #IbuBekerja
+KENAPA PENTING?
+Supaya korang tahu mana yang pasti dan mana yang belum.
+Tak perlu percaya bulat-bulat, tak perlu panik. 🌿
 ```
 
-**Threads**
-
-1/1 (131 / 500 aksara)
+**Caption carousel**
 
 ```
-Ibu-ibu, pagi tadi sarapan apa? Kopi je, roti sambil drive, sarapan betul, atau tak sempat langsung?
+Save supaya senang faham post Momyizz akan datang 🔍
 
-Momyizz: roti sambil drive. 🙈
+#Momyizz #FaktaBukanPanik #LiterasiKesihatan
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (228 / 500 aksara)
+
+```
+Info ringkas: "kajian makmal" tak sama dengan "terbukti pada manusia". 🔬
+
+Kajian sel atau haiwan ialah langkah awal. Banyak hasil makmal tak sama bila diuji pada manusia. Jadi bila baca tajuk viral, tengok dulu kajian jenis apa.
+```
+
+**16:00 · Pertanyaan** (238 / 500 aksara)
+
+```
+Mitos atau fakta? 🤔
+
+"Mikroplastik dah terbukti menyebabkan penyakit tertentu pada manusia."
+
+Jawapan: MITOS. Kesan jangka panjang masih dikaji, belum ada bukti yang mengesahkan penyakit tertentu. (WHO 2022)
+
+Berapa ramai yang teka betul?
+```
+
+**21:00 · Info penting / alert** (216 / 500 aksara)
+
+```
+Info penting: sebelum forward berita kesihatan, semak dulu di portal semakan fakta rasmi Malaysia, sebenarnya.my. ✅
+
+Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan kesihatan yang silap.
 ```
 
 **Checklist hari ini**
 
-- [ ] 08:30 Personal branding: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 12:30 Edukasi / soft-sell: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 20:30 Interaksi: [ ] Facebook · [ ] Instagram · [ ] Threads
+- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
 ## Hari 4 · Episod 2 · Sarapan ibu yang selalu tertinggal
 
-### 08:30 · Personal branding: Ibu makan paling akhir
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Semua dah makan, kecuali ibu
 
-> Cerita peribadi mesti benar. Ubah butiran (anak, kerja, rutin) ikut kehidupan sebenar Momyizz sebelum post.
+> Salin skrip ini ke CapCut / Flow untuk edit video.
 
-**Facebook** (481 aksara)
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 10-satin-terkejut-pipi (babak hook). Boleh juga guna video Episod 2 (tab Episod).
 
-```
-Anak dah makan. Suami dah makan. Ibu? "Nanti la." 🙃
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Meja makan: pinggan anak dan suami dah licin, pinggan ibu kosong | Anak dah makan. Suami dah makan. Ibu? "Nanti la." 🙃 |
+| 3–15s | Momyizz kalut cari kunci, capai roti sambil keluar | Hampir setiap pagi Momyizz jadi orang terakhir. Kadang langsung tak makan. |
+| 15–28s | Momyizz di meja kerja pukul 11, lapar, capai snek manis | Pukul 11 dah lapar sangat. Capai apa yang ada. |
+| 28–40s | Momyizz masukkan bekas ke dalam beg sekali dengan bekal anak | Minggu ni Momyizz cuba: siapkan bekal ibu sekali dengan bekal anak. 🍱 |
+| 40–45s | Momyizz ke kamera | Ibu pun perlu diisi dulu 💛 Siapa sama? |
 
-Momyizz baru perasan, hampir setiap pagi Momyizz jadi orang terakhir, kadang langsung tak sempat makan.
-
-Lepas tu pukul 11 dah lapar sangat, capai apa yang ada. Petang balik, makan banyak sekali gus.
-
-Bukan sebab kita tak tahu sarapan tu penting. Kita cuma selalu letak diri sendiri paling akhir.
-
-Minggu ni Momyizz nak ubah satu benda kecil: siapkan "bekal ibu" sekali dengan bekal anak. 🍱
-
-Siapa yang rasa tersentap sama? 🙋‍♀️
-```
-
-**Instagram** (256 / 2200 aksara)
+**Caption video**
 
 ```
-Anak dah makan. Suami dah makan. Ibu? "Nanti la." 🙃
+Ibu-ibu, korang pun selalu jadi orang terakhir makan? 🙋‍♀️
 
-Bukan sebab tak tahu. Kita cuma selalu letak diri sendiri paling akhir.
-
-Minggu ni Momyizz cuba: siapkan bekal ibu sekali dengan bekal anak 🍱
-
-Siapa sama? 🙋‍♀️
-
-#Momyizz #SarapanIbu #IbuBekerja #SelfCare
+#Momyizz #SarapanIbu #IbuBekerja #MomLife
 ```
 
-**Threads**
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Sarapan 5 minit ibu
 
-1/2 (51 / 500 aksara)
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
 
-```
-Anak dah makan. Suami dah makan. Ibu? "Nanti la." 🙃
-```
-
-2/2 (160 / 500 aksara)
+**Slaid 1**
 
 ```
-Bukan sebab kita tak tahu. Kita cuma selalu letak diri sendiri paling akhir.
-
-Minggu ni Momyizz cuba siapkan bekal ibu sekali dengan bekal anak. Siapa nak join?
+SARAPAN 5 MINIT IBU 🍳
+Tak perlu mewah. Yang penting ada isi.
 ```
 
-### 12:30 · Edukasi / soft-sell: Pinggan Sihat + Sarapan 5 Minit
-
-> Fakta Episod 2 (KKM, Garis Panduan Diet Malaysia 2020).
-
-**Facebook** (813 aksara)
+**Slaid 2**
 
 ```
-Sarapan ibu tak perlu mewah. Yang penting ada isi. 🍳
+IKUT PINGGAN SIHAT (KKM)
+¼ protein · ¼ bijirin penuh · ½ sayur & buah
+```
 
-Panduan Pinggan Sihat Malaysia (KKM): separuh pinggan sayur dan buah, suku bijirin (utamakan bijirin penuh), suku protein seperti ikan, ayam, telur atau kekacang.
+**Slaid 3**
 
-Untuk pagi, gabungan protein + karbohidrat kompleks + serat biasanya buat kita kenyang lebih lama berbanding minuman manis sahaja.
+```
+IDEA 1
+Telur rebus (rebus malam sebelumnya) + roti gandum penuh + pisang
+```
 
-"Sarapan 5 Minit Ibu" versi Momyizz:
-✅ Telur rebus (rebus malam sebelumnya) + roti gandum penuh + pisang
-✅ Oat rendam semalaman dengan susu dan buah
-✅ Siapkan bekal ibu sekali dengan bekal anak
-✅ Segelas air kosong sebelum kopi
+**Slaid 4**
 
-Garis Panduan Diet Malaysia juga galakkan kita hadkan gula tambahan, termasuk dalam minuman. ☕
+```
+IDEA 2
+Oat rendam semalaman dengan susu + buah potong
+```
 
-Mana satu yang paling senang untuk korang?
+**Slaid 5**
 
-Sumber: KKM, Garis Panduan Diet Malaysia 2020.
+```
+IDEA 3
+Roti gandum + sardin / kekacang + segelas air kosong
+```
+
+**Slaid 6**
+
+```
+TIP
+Siapkan bekal ibu sekali dengan bekal anak.
+Save untuk minggu ni 💛
+
 Perkongsian ilmu umum. Bukan nasihat perubatan.
 ```
 
-**Instagram** (360 / 2200 aksara)
+**Caption carousel**
 
 ```
-Sarapan 5 Minit Ibu 🍳
+3 idea sarapan 5 minit untuk ibu. Mana satu korang pilih? 👇
 
-✅ Telur rebus + roti gandum + pisang
-✅ Oat rendam semalaman + buah
-✅ Bekal ibu sekali dengan bekal anak
-✅ Air kosong dulu, baru kopi
-
-Ikut Pinggan Sihat Malaysia (KKM): ada protein, bijirin penuh, buah atau sayur.
-
-Save untuk minggu ni! 💛
-
+Sumber: KKM, Garis Panduan Diet Malaysia 2020.
 Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 #Momyizz #SarapanSihat #PingganSihat #IbuBekerja
 ```
 
-**Threads**
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
 
-1/3 (110 / 500 aksara)
-
-```
-Sarapan ibu tak perlu mewah. Yang penting ada protein, bijirin penuh dan buah. (Pinggan Sihat Malaysia, KKM) 🧵
-```
-
-2/3 (135 / 500 aksara)
+**10:00 · Info ringkas** (188 / 500 aksara)
 
 ```
-Versi 5 minit Momyizz:
-• Telur rebus malam sebelumnya + roti gandum + pisang
-• Oat rendam semalaman + buah
-• Air kosong dulu, baru kopi
+Info ringkas: gabungan protein + karbohidrat kompleks + serat pada waktu pagi biasanya buat kita kenyang lebih lama, berbanding minuman manis sahaja. 🍳
+
+Contoh: telur + roti gandum + buah.
 ```
 
-3/3 (113 / 500 aksara)
+**16:00 · Pertanyaan** (173 / 500 aksara)
 
 ```
-Paling penting: siapkan bekal ibu sekali dengan bekal anak. Kalau dah siap, mesti makan.
+Ibu-ibu, jujur sikit: pagi tadi korang sarapan apa? 🙈
 
-Korang pilih yang mana?
+☕ Kopi je
+🍞 Roti sambil drive
+🥣 Sarapan betul-betul
+🤐 Tak sempat langsung
+
+Momyizz: roti sambil drive. Esok cuba lagi!
 ```
 
-### 20:30 · Interaksi: Kongsi menu sarapan
-
-**Facebook** (192 aksara)
+**21:00 · Info penting / alert** (217 / 500 aksara)
 
 ```
-Jom kumpul idea! 🙌
+Info penting: 15.6% dewasa Malaysia ada diabetes, dan ramai tak tahu mereka menghidapnya (NHMS 2023). ⚠️
 
-Apa menu sarapan paling laju korang, yang boleh siap bawah 5 minit?
-
-Kongsi kat komen. Momyizz kumpulkan jadi satu senarai untuk semua ibu yang selalu terlupa makan pagi. 💛
-```
-
-**Instagram** (144 / 2200 aksara)
-
-```
-Menu sarapan bawah 5 minit korang? ⏱️
-
-Kongsi kat komen. Momyizz kumpul jadi satu senarai untuk semua ibu 💛
-
-#Momyizz #SarapanSihat #IdeaSarapan
-```
-
-**Threads**
-
-1/1 (84 / 500 aksara)
-
-```
-Apa menu sarapan paling laju korang? Bawah 5 minit. Kongsi, Momyizz nak curi idea. 👇
+Kalau selalu skip makan dan banyak minum manis, buat saringan gula di klinik kesihatan. Tahu awal lebih baik. 🩸
 ```
 
 **Checklist hari ini**
 
-- [ ] 08:30 Personal branding: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 12:30 Edukasi / soft-sell: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 20:30 Interaksi: [ ] Facebook · [ ] Instagram · [ ] Threads
+- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 5 · Episod 2 · Persediaan malam + hari kelam-kabut
+## Hari 5 · Episod 2 · Persediaan malam & pelan B pagi kelam-kabut
 
-### 08:30 · Personal branding: Persediaan malam 10 minit
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): 10 minit malam untuk pagi yang tenang
 
-> Cerita peribadi mesti benar. Ubah butiran (anak, kerja, rutin) ikut kehidupan sebenar Momyizz sebelum post.
+> Salin skrip ini ke CapCut / Flow untuk edit video.
 
-**Facebook** (461 aksara)
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 19-blazer-thumbs-up (babak akhir). Tiada produk dalam video.
 
-```
-Rahsia pagi Momyizz yang lebih tenang? Malam sebelumnya. 🌙
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Jam dinding 10 malam, dapur | 10 minit malam ni = pagi esok lebih tenang 🌙 |
+| 3–15s | Rebus telur, masuk peti | Rebus 4 biji telur, simpan dalam peti. |
+| 15–27s | Oat dalam balang, tuang susu, letak buah | Oat rendam semalaman. Esok tinggal ambil. |
+| 27–38s | Bekas bekal tersusun atas meja | Bekas bekal anak DAN ibu dah sedia. |
+| 38–45s | Pagi: Momyizz sarapan sambil duduk | Hasilnya? Sarapan sambil duduk. 5 minit pun rasa menang 🏆 |
 
-10 minit sebelum tidur:
-🥚 Rebus 4 biji telur, simpan dalam peti
-🥣 Oat masuk balang, tuang susu, letak buah
-🎒 Bekal anak dan bekal ibu, bekas dah sedia atas meja
-
-Pagi tadi, buat pertama kali minggu ni, Momyizz makan sarapan duduk. Lima minit je. Tapi rasa macam menang besar. 😂🏆
-
-Kadang self-care tu bukan spa. Kadang dia cuma sarapan sambil duduk.
-
-Korang ada rutin malam yang buat pagi lebih senang?
-```
-
-**Instagram** (241 / 2200 aksara)
+**Caption video**
 
 ```
-Pagi tenang bermula malam sebelumnya 🌙
-
-🥚 Rebus telur
-🥣 Oat rendam + buah
-🎒 Bekas bekal dah sedia
-
-Hasilnya: Momyizz sarapan sambil duduk. 5 minit pun rasa menang 😂🏆
-
-Self-care tak semestinya spa 💛
+Self-care tak semestinya spa. Kadang dia cuma sarapan sambil duduk 💛
 
 #Momyizz #RutinMalam #SarapanIbu #SelfCare
 ```
 
-**Threads**
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Pelan B bila pagi tak ikut rancangan
 
-1/1 (197 / 500 aksara)
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
 
-```
-Pagi tadi Momyizz sarapan sambil duduk. Lima minit je, tapi rasa macam menang. 😂
-
-Rahsianya 10 minit malam sebelumnya: rebus telur, oat rendam, bekas bekal dah sedia.
-
-Self-care tak semestinya spa.
-```
-
-### 12:30 · Edukasi / soft-sell: Hari yang betul-betul kelam-kabut (soft-sell)
-
-> Soft-sell: pengalaman peribadi sahaja. Tiada harga, tiada ajakan beli (peraturan Amway: ruang awam). Nama produk sahaja; jangan tambah dakwaan.
-
-**Facebook** (655 aksara)
+**Slaid 1**
 
 ```
-Realitinya, bukan setiap pagi berjalan ikut rancangan. 😅
+PELAN B 🆘
+Bila pagi tak ikut rancangan
+```
 
-Ada hari anak demam, ada hari mesyuarat awal, ada hari terlupa rebus telur.
+**Slaid 2**
 
-Untuk hari macam tu, Momyizz ada "pelan B" yang tak sempurna, tapi lebih baik daripada perut kosong sampai tengah hari:
-🍌 Pisang dan segenggam kacang dalam beg
-🥛 Susu kotak kecil
-🥤 Minuman protein yang Momyizz simpan untuk hari betul-betul tak sempat (Momyizz guna Nutrilite Soy Protein Drink)
+```
+REALITI
+Anak demam, mesyuarat awal, lupa rebus telur. Ia berlaku. 😅
+```
 
-Tapi Momyizz nak jujur: pelan B bukan pengganti sarapan sebenar. Makanan sebenar tetap nombor satu. Pelan B cuma untuk hari yang betul-betul kelam-kabut. 🙏
+**Slaid 3**
 
-Pelan B korang apa?
+```
+PELAN B 1
+Pisang + segenggam kacang dalam beg
+```
+
+**Slaid 4**
+
+```
+PELAN B 2
+Susu kotak kecil + roti gandum
+```
+
+**Slaid 5**
+
+```
+PELAN B 3
+Minuman protein untuk hari yang betul-betul tak sempat
+```
+
+**Slaid 6**
+
+```
+INGAT
+Pelan B bukan pengganti sarapan sebenar.
+Makanan sebenar tetap nombor satu. 🙏
 
 Perkongsian ilmu umum. Bukan nasihat perubatan.
 ```
 
-**Instagram** (328 / 2200 aksara)
+**Caption carousel**
 
 ```
-Pelan B untuk pagi yang kelam-kabut 😅
-
-🍌 Pisang + kacang
-🥛 Susu kotak kecil
-🥤 Minuman protein untuk hari betul-betul tak sempat
-
-Jujur: pelan B bukan pengganti sarapan sebenar. Makanan sebenar tetap nombor satu 🙏
-
-Pelan B korang apa?
+Pelan B korang apa? Kongsi kat komen 👇
 
 Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 #Momyizz #SarapanIbu #IbuBekerja #RealitiIbu
 ```
 
-**Threads**
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
 
-1/2 (81 / 500 aksara)
-
-```
-Bukan setiap pagi ikut rancangan. Anak demam, mesyuarat awal, lupa rebus telur. 😅
-```
-
-2/2 (221 / 500 aksara)
+**10:00 · Info ringkas** (207 / 500 aksara)
 
 ```
-Pelan B Momyizz: pisang + kacang dalam beg, susu kotak kecil, atau minuman protein untuk hari yang betul-betul tak sempat.
+Info ringkas: protein bukan dari daging sahaja. 🌱
 
-Tapi pelan B bukan pengganti sarapan sebenar. Makanan sebenar tetap nombor satu.
-
-Pelan B korang?
+Telur, ikan, tauhu, tempe, kekacang dan susu semuanya sumber protein. Tauhu dan tempe antara pilihan protein yang mudah didapati dan berpatutan di Malaysia.
 ```
 
-### 20:30 · Interaksi: Pukul berapa makan pertama
-
-**Facebook** (188 aksara)
+**16:00 · Pertanyaan** (171 / 500 aksara)
 
 ```
-Soalan ringkas: semalam, pukul berapa korang makan makanan pertama? ⏰
+Soalan: semalam pukul berapa korang makan makanan pertama? ⏰
 
 🕖 Sebelum 8 pagi
 🕘 8–10 pagi
 🕛 Lepas 10 pagi
 🙈 Tengah hari baru teringat
 
-Momyizz semalam: 7:30 pagi, sambil duduk! 🎉
+Momyizz: 7:30 pagi, sambil duduk! 🎉
 ```
 
-**Instagram** (146 / 2200 aksara)
+**21:00 · Info penting / alert** (245 / 500 aksara)
 
 ```
-Semalam makan pertama pukul berapa? ⏰
+Info penting: sebelum beli apa-apa supplemen atau minuman kesihatan, semak nombor pendaftaran "MAL" pada label. ⚠️
 
-🕖 Sebelum 8
-🕘 8–10
-🕛 Lepas 10
-🙈 Tengah hari baru ingat
-
-Momyizz: 7:30, sambil duduk 🎉
-
-#Momyizz #SarapanIbu
+Produk berdaftar dengan KKM boleh disemak melalui laman NPRA. Elak produk yang janji kurus cepat atau tiada maklumat pendaftaran.
 ```
 
-**Threads**
-
-1/1 (94 / 500 aksara)
-
-```
-Semalam korang makan pertama pukul berapa? Momyizz 7:30 pagi, sambil duduk. Satu pencapaian. 🎉
-```
-
-### Bila sesuai · Hard-sell (ruang tertutup): WhatsApp: Nutrilite Soy Protein Drink
+### 💬 WhatsApp / group tertutup: Nutrilite Soy Protein Drink
 
 > Ruang tertutup sahaja (pelanggan sedia ada / group tertutup / orang yang bertanya). Isi harga dan fakta dari amway.my hari ini. Jangan tambah dakwaan kesihatan.
-
-**WhatsApp / group tertutup**
 
 ```
 Hai [nama] 😊
@@ -817,167 +640,131 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 **Checklist hari ini**
 
-- [ ] 08:30 Personal branding: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 12:30 Edukasi / soft-sell: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 20:30 Interaksi: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] Bila sesuai Hard-sell (ruang tertutup): [ ] WhatsApp / group tertutup
+- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+- [ ] 💬 WhatsApp / group tertutup
 
-## Hari 6 · Episod 2 · Kenapa Momyizz letak sumber + gula dalam minuman
+## Hari 6 · Episod 2 · Gula tersembunyi dalam minuman
 
-### 08:30 · Personal branding: Kenapa Momyizz letak sumber
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Gula paling banyak bukan dalam pinggan
 
-> Cerita peribadi mesti benar. Ubah butiran (anak, kerja, rutin) ikut kehidupan sebenar Momyizz sebelum post.
+> Salin skrip ini ke CapCut / Flow untuk edit video.
 
-**Facebook** (534 aksara)
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 09-kartun-terkejut-pipi (babak pendedahan).
 
-```
-Ada yang tanya: "Momyizz, kenapa setiap post ada sumber? Penat tak?" 😄
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Tiga cawan atas meja: teh tarik, kopi ais, air kotak | Gula paling banyak dalam rutin Momyizz… bukan dalam pinggan. 😳 |
+| 3–15s | Momyizz tunjuk cawan satu per satu | Teh tarik pagi. Kopi ais tengah hari. Air kotak petang. |
+| 15–28s | Momyizz minum air kosong dulu, baru kopi | Sekarang: air kosong dulu, baru kopi. |
+| 28–40s | Momyizz di kaunter kedai, isyarat 'kurang manis' | Bila beli: "kurang manis ya!" |
+| 40–45s | Momyizz ke kamera | Bukan haramkan teh tarik 😄 Sedar dan kurangkan. |
 
-Penat sikit. Tapi ada sebabnya.
-
-Dulu Momyizz pernah kongsi satu tips kesihatan yang viral dalam group keluarga. Rupanya tak betul langsung. Malu? Sangat. 🙈
-
-Sejak tu Momyizz janji dengan diri sendiri: kalau nak kongsi, mesti tahu datangnya dari mana. WHO, KKM, kajian yang betul-betul wujud.
-
-Sebab bila korang baca post Momyizz, korang patut boleh percaya. Itu lebih penting daripada laju viral. 💛
-
-Korang pernah termakan berita kesihatan palsu? Cerita sikit 👇
-```
-
-**Instagram** (282 / 2200 aksara)
+**Caption video**
 
 ```
-"Kenapa setiap post ada sumber?" 😄
-
-Sebab dulu Momyizz pernah kongsi tips viral dalam group keluarga… rupanya salah. Malu sangat 🙈
-
-Sejak tu: kalau nak kongsi, mesti tahu datangnya dari mana.
-
-Percaya lebih penting daripada laju viral 💛
-
-#Momyizz #FaktaBukanPanik #KesihatanKeluarga
-```
-
-**Threads**
-
-1/1 (200 / 500 aksara)
-
-```
-Ada yang tanya kenapa setiap post Momyizz ada sumber.
-
-Sebab dulu Momyizz pernah kongsi tips kesihatan viral dalam group keluarga. Rupanya salah. Malu sangat. 🙈
-
-Sejak tu: tak tahu sumber, tak kongsi.
-```
-
-### 12:30 · Edukasi / soft-sell: Gula tambahan dalam minuman
-
-> Fakta Episod 2 (Garis Panduan Diet Malaysia 2020). Jangan tambah angka gram tanpa sumber.
-
-**Facebook** (708 aksara)
-
-```
-Sarapan dah ok. Tapi minuman pagi kita macam mana? ☕🧋
-
-Garis Panduan Diet Malaysia (KKM) galakkan kita hadkan gula tambahan, termasuk dalam minuman.
-
-Yang Momyizz perasan dalam rutin sendiri: gula bukan banyak dalam makanan, tapi dalam air. Teh tarik pagi, kopi ais tengah hari, air kotak petang. Sikit-sikit, tapi berulang. 😅
-
-Apa yang Momyizz cuba ubah (perlahan-lahan):
-✅ Air kosong dulu, baru kopi atau teh
-✅ Minta "kurang manis" bila beli
-✅ Bawa botol air sendiri supaya kurang beli air manis
-
-Bukan haramkan teh tarik. Cuma sedar dan kurangkan. 🌿
-
-Minuman manis mana yang paling susah korang nak kurangkan?
-
-Sumber: KKM, Garis Panduan Diet Malaysia 2020.
-Perkongsian ilmu umum. Bukan nasihat perubatan.
-```
-
-**Instagram** (331 / 2200 aksara)
-
-```
-Gula paling banyak bukan dalam pinggan… tapi dalam cawan ☕🧋
-
-KKM galakkan hadkan gula tambahan, termasuk dalam minuman.
-
-Momyizz cuba:
-✅ Air kosong dulu
-✅ Minta kurang manis
-✅ Bawa botol sendiri
-
-Bukan haramkan teh tarik 😄 Sedar dan kurangkan.
-
-Perkongsian ilmu umum. Bukan nasihat perubatan.
+Minuman manis mana paling susah korang nak kurangkan? 👇
 
 #Momyizz #KurangManis #GayaHidupSihat
 ```
 
-**Threads**
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Cara baca label gula
 
-1/2 (150 / 500 aksara)
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
 
-```
-Momyizz baru perasan: gula paling banyak dalam rutin Momyizz bukan dalam makanan. Dalam air. Teh tarik pagi, kopi ais tengah hari, air kotak petang. 😅
-```
-
-2/2 (190 / 500 aksara)
+**Slaid 1**
 
 ```
-KKM galakkan hadkan gula tambahan, termasuk dalam minuman. Bukan haramkan teh tarik. Air kosong dulu, minta kurang manis, bawa botol sendiri.
-
-Minuman manis mana paling susah korang tinggal?
+GULA TERSEMBUNYI 🧋
+Cara kesan dalam 10 saat
 ```
 
-### 20:30 · Interaksi: Teaser span dapur
-
-**Facebook** (234 aksara)
+**Slaid 2**
 
 ```
-Soalan jujur sebelum tidur. 🧽
-
-Bila kali terakhir korang tukar span basuh pinggan?
-
-A. Minggu ni
-B. Bulan ni
-C. Tak ingat…
-D. Tunggu dia hancur 😂
-
-Esok Momyizz kongsi satu kajian yang buat Momyizz terus pergi tukar span malam tu juga.
+1. BACA LABEL
+Tengok baris "Gula" atau "Jumlah gula" dalam jadual nutrisi.
 ```
 
-**Instagram** (201 / 2200 aksara)
+**Slaid 3**
 
 ```
-Bila kali terakhir tukar span basuh pinggan? 🧽
-
-A. Minggu ni
-B. Bulan ni
-C. Tak ingat
-D. Tunggu dia hancur 😂
-
-Esok Momyizz kongsi kajian yang buat Momyizz terus tukar!
-
-#Momyizz #DapurBersih #TipsRumah
+2. TENGOK SAIZ HIDANGAN
+Satu botol mungkin ada lebih daripada satu hidangan.
 ```
 
-**Threads**
-
-1/1 (140 / 500 aksara)
+**Slaid 4**
 
 ```
-Soalan jujur: bila kali terakhir korang tukar span basuh pinggan? 🧽
-
-Esok Momyizz kongsi kajian yang buat Momyizz terus tukar malam tu juga.
+3. NAMA LAIN GULA
+Sirap, sukrosa, glukosa, fruktosa, madu, gula perang.
 ```
 
-### Bila sesuai · Hard-sell (ruang tertutup): WhatsApp: minta testimoni (pelanggan sedia ada)
+**Slaid 5**
 
-> Untuk dapatkan testimoni SEBENAR. Guna testimoni hanya dengan kebenaran, tanpa dakwaan perubatan.
+```
+4. CARI LOGO
+"Pilihan Lebih Sihat" (KKM) membantu pilih produk yang lebih baik.
+```
 
-**WhatsApp / group tertutup**
+**Slaid 6**
+
+```
+KKM GALAKKAN
+Hadkan gula tambahan, termasuk dalam minuman.
+Save untuk masa membeli-belah 🛒
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+4 cara kesan gula tersembunyi. Save & bawa masa shopping 🛒
+
+Sumber: KKM, Garis Panduan Diet Malaysia 2020.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #KurangManis #BacaLabel
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (183 / 500 aksara)
+
+```
+Info ringkas: Garis Panduan Diet Malaysia (KKM) galakkan kita hadkan gula tambahan, termasuk dalam minuman. ☕
+
+Trick paling mudah Momyizz: segelas air kosong dulu, baru kopi atau teh.
+```
+
+**16:00 · Pertanyaan** (161 / 500 aksara)
+
+```
+Jujur: minuman manis mana paling susah korang tinggal? 🧋
+
+☕ Teh tarik
+🧊 Kopi ais
+🧃 Air kotak
+🥤 Air bergas
+
+Momyizz: teh tarik pagi. Tengah cuba "kurang manis". 😅
+```
+
+**21:00 · Info penting / alert** (204 / 500 aksara)
+
+```
+Info penting: ada sejarah diabetes dalam keluarga? ⚠️
+
+NHMS 2023: 15.6% dewasa Malaysia ada diabetes, dan ramai tak tahu. Saringan gula darah boleh dibuat di klinik kesihatan. Jangan tunggu ada simptom. 🩸
+```
+
+### 💬 WhatsApp / group tertutup: Minta testimoni (pelanggan sedia ada)
+
+> Untuk dapatkan testimoni SEBENAR. Guna hanya dengan kebenaran, tanpa dakwaan perubatan.
 
 ```
 Hai [nama] 😊 Terima kasih sebab percaya Momyizz.
@@ -989,162 +776,132 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 
 **Checklist hari ini**
 
-- [ ] 08:30 Personal branding: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 12:30 Edukasi / soft-sell: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 20:30 Interaksi: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] Bila sesuai Hard-sell (ruang tertutup): [ ] WhatsApp / group tertutup
+- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+- [ ] 💬 WhatsApp / group tertutup
 
-## Hari 7 · Episod 3 · Span dapur: penjaga kebersihan atau sarang kuman
+## Hari 7 · Episod 3 · Span dapur & kebersihan dapur
 
-### 08:30 · Personal branding: Rutin kemas dapur 10 minit
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Span yang Momyizz pegang setiap malam
 
-> Cerita peribadi mesti benar. Ubah butiran (anak, kerja, rutin) ikut kehidupan sebenar Momyizz sebelum post.
+> Salin skrip ini ke CapCut / Flow untuk edit video.
 
-**Facebook** (489 aksara)
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak span). Boleh juga guna video Episod 3 (tab Episod).
 
-```
-Rutin Momyizz lepas anak-anak tidur: 10 minit kemas dapur. 🌙
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Close-up span lama diperah, kekuningan | Bila kali terakhir korang tukar ni? 🧽 |
+| 3–15s | Momyizz basuh pinggan malam, pandang span | Momyizz fikir: 'Tak apa, dia kan sentiasa bersabun.' |
+| 15–28s | Teks atas skrin + Momyizz terkejut | Kajian 2017 jumpa bakteria sangat tinggi dalam span dapur terpakai. 😳 |
+| 28–40s | Tulis tarikh pada span baru dengan marker | Sekarang: tulis tarikh pada span baru, perah dan keringkan lepas guna. |
+| 40–45s | Dapur bersih, Momyizz senyum | Dapur bersih bermula dengan benda kecil ✨ |
 
-Bukan sebab rajin sangat. Tapi sebab pagi Momyizz jadi lebih tenang bila dapur dah bersih. 😌
-
-Malam tadi, masa basuh pinggan, Momyizz pandang span dalam tangan. Nipis, dah kekuningan, bau masam sikit. Dah berapa minggu pun tak ingat. 🫣
-
-"Tak apa, dia kan sentiasa bersabun." Itu yang Momyizz fikir selama ni.
-
-Rupanya ada satu kajian yang cerita lain. Tengah hari nanti Momyizz kongsi.
-
-Korang ada rutin malam kemas dapur juga?
-```
-
-**Instagram** (236 / 2200 aksara)
+**Caption video**
 
 ```
-10 minit kemas dapur setiap malam 🌙
+Bila kali terakhir korang tukar span? Jujur je kat komen 😂
 
-Malam tadi pandang span dalam tangan: nipis, kekuningan, bau masam 🫣
+Sumber: Cardinale et al. (2017).
 
-"Tak apa, dia kan sentiasa bersabun."
-
-Rupanya ada kajian yang cerita lain. Tengah hari nanti!
-
-#Momyizz #DapurBersih #RutinMalam
+#Momyizz #DapurBersih #TipsRumah
 ```
 
-**Threads**
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): 5 Kunci Makanan Lebih Selamat (WHO)
 
-1/1 (194 / 500 aksara)
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
 
-```
-Malam tadi pandang span basuh pinggan: nipis, kekuningan, bau masam. Dah berapa minggu pun tak ingat. 🫣
-
-"Tak apa, dia sentiasa bersabun." Itu fikir Momyizz. Rupanya ada kajian yang cerita lain.
-```
-
-### 12:30 · Edukasi / soft-sell: Kajian span dapur
-
-> Fakta Episod 3 (Cardinale et al. 2017; WHO 5 Kunci Makanan Lebih Selamat).
-
-**Facebook** (944 aksara)
+**Slaid 1**
 
 ```
-Span basuh pinggan: penjaga kebersihan atau sarang kuman? 🧽
+5 KUNCI MAKANAN LEBIH SELAMAT
+Versi dapur rumah (WHO) 🍽️
+```
 
-Kajian Cardinale et al. (2017, Scientific Reports) menemui kepadatan bakteria yang sangat tinggi dalam span dapur terpakai yang dikutip dari rumah. 🟢
+**Slaid 2**
 
-Yang buat Momyizz terkejut: dalam kajian sama, span yang selalu "dibersihkan" dengan cara rumah tak semestinya kurang bakteria. Penulis kajian cadangkan span ditukar secara berkala, contohnya setiap minggu. 🟠
+```
+1. JAGA KEBERSIHAN
+Basuh tangan, permukaan dan alatan. Tukar span secara berkala.
+```
 
-Kenapa? Span lembap, berliang dan ada sisa makanan. Tempat yang selesa untuk bakteria.
+**Slaid 3**
 
-Rutin dapur yang Momyizz amalkan sekarang:
-✅ Tulis tarikh pada span baru dengan marker
-✅ Perah dan biar kering lepas guna, jangan rendam dalam sinki
-✅ Kain lap meja dan kain lap pinggan diasingkan
+```
+2. ASINGKAN
+Mentah dan masak guna papan pemotong berbeza.
+```
 
-Sabun yang bagus pun tak menggantikan tabiat tukar span tu ya. 😉
+**Slaid 4**
 
-Bila kali terakhir korang tukar span? Jujur je kat komen. 😂
+```
+3. MASAK SEMPURNA
+Terutama ayam, daging, telur dan makanan laut.
+```
 
-Sumber: Cardinale et al. (2017), WHO Five Keys to Safer Food.
+**Slaid 5**
+
+```
+4. SUHU SELAMAT
+Jangan biar lauk lama di suhu bilik. Simpan dalam peti.
+```
+
+**Slaid 6**
+
+```
+5. AIR & BAHAN SELAMAT
+Guna air yang selamat dan bahan yang segar.
+Save & kongsi 🌿
+
 Perkongsian ilmu umum. Bukan nasihat perubatan.
 ```
 
-**Instagram** (418 / 2200 aksara)
+**Caption carousel**
 
 ```
-Span dapur: bersih atau sarang kuman? 🧽
+5 kunci makanan lebih selamat dari WHO. Save untuk dapur korang 🍽️
 
-🟢 Kajian 2017 jumpa bakteria sangat tinggi dalam span dapur terpakai
-🟠 Span yang "dibersihkan" cara rumah tak semestinya kurang bakteria. Penulis cadang tukar berkala, contoh setiap minggu
+Sumber: WHO Five Keys to Safer Food.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
 
-Tip Momyizz:
-✅ Tulis tarikh pada span baru
-✅ Perah & keringkan lepas guna
-✅ Asingkan kain lap
-
-Save & tag kawan! 😄
-
-Sumber: Cardinale et al. (2017)
-
-#Momyizz #DapurBersih #TipsRumah #Span
+#Momyizz #DapurBersih #KeselamatanMakanan
 ```
 
-**Threads**
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
 
-1/3 (102 / 500 aksara)
-
-```
-Bila kali terakhir korang tukar span basuh pinggan? Kajian ni buat Momyizz terus tukar malam tu juga 🧵
-```
-
-2/3 (169 / 500 aksara)
+**10:00 · Info ringkas** (193 / 500 aksara)
 
 ```
-Cardinale et al. (2017) jumpa kepadatan bakteria sangat tinggi dalam span dapur terpakai dari rumah. Span yang dibersihkan cara rumah pun tak semestinya kurang bakteria.
+Info ringkas: span yang "dibersihkan" dengan cara rumah tak semestinya kurang bakteria. 🧽
+
+Penulis kajian Cardinale et al. (2017) cadangkan span ditukar secara berkala, contohnya setiap minggu.
 ```
 
-3/3 (167 / 500 aksara)
+**16:00 · Pertanyaan** (130 / 500 aksara)
 
 ```
-Penulis cadang tukar span berkala, contohnya setiap minggu.
+Lepas tengok video pagi tadi… berapa ramai yang terus pergi tukar span? 😂
 
-Tip Momyizz: tulis tarikh pada span baru, perah dan keringkan lepas guna. Korang tukar setiap berapa lama?
+Komen:
+✅ DAH
+😅 ESOK
+
+Momyizz dah. Tarikh pun dah tulis!
 ```
 
-### 20:30 · Interaksi: Poll span
-
-**Facebook** (184 aksara)
+**21:00 · Info penting / alert** (239 / 500 aksara)
 
 ```
-Lepas baca post tengah hari tadi… 😂
+Info penting musim banjir: leptospirosis merebak melalui air atau tanah yang tercemar air kencing tikus. ⚠️
 
-Berapa ramai yang terus pergi tukar span? 🙋‍♀️
-
-Kalau dah tukar, komen "DAH ✅". Kalau belum, komen "ESOK 😅". Momyizz nak tengok siapa paling ramai!
+Elak meredah air banjir tanpa kasut, tutup makanan di dapur, dan dapatkan rawatan jika demam selepas terdedah kepada air banjir. 🙏
 ```
 
-**Instagram** (69 / 2200 aksara)
-
-```
-Dah tukar span? 😂
-
-Komen "DAH ✅" atau "ESOK 😅"
-
-#Momyizz #DapurBersih
-```
-
-**Threads**
-
-1/1 (112 / 500 aksara)
-
-```
-Lepas post span tengah hari tadi, berapa ramai yang terus pergi tukar? 🙋‍♀️ Momyizz dah. Tarikh pun dah tulis. 😂
-```
-
-### Bila sesuai · Hard-sell (ruang tertutup): WhatsApp: Amway Home Dish Drops
+### 💬 WhatsApp / group tertutup: Amway Home Dish Drops
 
 > Ruang tertutup sahaja. Fakta dan harga dari amway.my hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.
-
-**WhatsApp / group tertutup**
 
 ```
 Hai [nama] 😊
@@ -1163,7 +920,9 @@ Kalau berminat, reply "NAK", Momyizz uruskan. 💛
 
 **Checklist hari ini**
 
-- [ ] 08:30 Personal branding: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 12:30 Edukasi / soft-sell: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] 20:30 Interaksi: [ ] Facebook · [ ] Instagram · [ ] Threads
-- [ ] Bila sesuai Hard-sell (ruang tertutup): [ ] WhatsApp / group tertutup
+- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+- [ ] 💬 WhatsApp / group tertutup
