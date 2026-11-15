@@ -73,22 +73,45 @@ Perkataan **tebal** = tekan sikit semasa sebut.
 Tidak berkaitan. Tiada produk dalam episod ini.
 
 ## 5. Caption
+
+### Versi penuh (TikTok & Instagram Reels)
 ```
-Pagi Isnin. Capai botol plastik yang dah calar, terus teringat isu mikroplastik yang viral. Kena buang semua plastik ke? 🤔
+Mikroplastik dalam air minuman kita? Jom faham dulu, jangan terus panik 💧
 
-🔹 Mikroplastik = zarah plastik bawah 5 mm. Memang ada dalam air, makanan dan persekitaran.
-🔹 Kajian awal melaporkan ia dikesan dalam sampel tubuh manusia: najis, air kencing, susu ibu, air mani, testis, kahak, plasenta.
-🔹 Tapi dikesan belum tentu memudaratkan. WHO kata data masih terhad dan kajian diteruskan.
+Pagi tadi saya capai botol plastik yang dah calar, terus teringat isu mikroplastik yang viral. Kena buang semua plastik ke? 🤔
 
-Langkah kecil: tukar botol yang dah calar, jangan tinggal botol dalam kereta panas, kurangkan plastik sekali guna.
+🔹 Mikroplastik = zarah plastik bawah 5 mm. Nanoplastik lagi kecil.
+🔹 Sumbernya: plastik yang terurai, serat baju sintetik, geseran tayar.
+🔹 TERBUKTI: memang ada dalam air, makanan dan persekitaran.
+🔹 KAJIAN AWAL: dilaporkan dikesan dalam sampel tubuh manusia (najis, air kencing, susu ibu, air mani, tisu testis, kahak, plasenta dan mekonium).
+🔹 Tapi dikesan belum tentu memudaratkan. Kesan jangka panjang masih dikaji, dan WHO kata data masih terhad.
 
-Nak Momyizz kupas siri Mikroplastik di dapur? Komen "NAK" 👇
-Jangan lupa follow & share!
+✅ Langkah kecil yang saya mula buat:
+• Tukar botol yang dah calar kepada kaca atau keluli
+• Jangan tinggal botol air dalam kereta panas
+• Kurangkan plastik sekali guna
 
-Sumber: WHO (2019, 2022), UNEP, Schwabl 2019, Pironti 2023, Ragusa 2022, Montano 2023, Hu 2024, Huang 2022, Braun 2021.
+Nak Momyizz kupas siri Mikroplastik di dapur pula? Komen "NAK" 👇
+Jangan lupa follow & share kepada yang tersayang 🤍
+
+Sumber: WHO (2019, 2022), UNEP, Schwabl et al. 2019, Pironti et al. 2023, Ragusa et al. 2022, Montano et al. 2023, Hu et al. 2024, Huang et al. 2022, Braun et al. 2021.
 Perkongsian ilmu umum. Bukan nasihat perubatan.
 
-#Momyizz #YourHealthAndBeautyBuddy #Mikroplastik #MicroplasticAwareness #GayaHidupSihat #IbuBijak #FaktaBukanPanik
+#Momyizz #YourHealthAndBeautyBuddy #Mikroplastik #MicroplasticAwareness #GayaHidupSihat #IbuBijak #FaktaBukanPanik #KesihatanKeluarga #TipsIbu
+```
+
+### Versi ringkas (jika mahu caption pendek)
+```
+Mikroplastik dalam air minuman kita? Jom faham dulu, jangan terus panik 💧
+
+Terbukti ada dalam air dan makanan. Kajian awal kesan dalam tubuh manusia, tapi kesannya masih dikaji. Mula dengan langkah kecil: tukar botol yang dah calar 🍶
+
+Komen "NAK" untuk episod mikroplastik di dapur 👇 Jangan lupa follow & share!
+
+Sumber: WHO, UNEP & kajian 2019–2024.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #YourHealthAndBeautyBuddy #Mikroplastik #FaktaBukanPanik #IbuBijak
 ```
 
 ## 6. Semakan akhir
