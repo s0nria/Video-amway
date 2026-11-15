@@ -99,10 +99,10 @@ def label_bukti(label, color, sumber, y=300):
     dr.text((lw + 12 + sw / 2, h / 2), sumber, font=fs, fill=SAGE_G, anchor="mm")
     return im, 60, y
 
-def big_word(txt, color=SAGE_G, y=1180):
-    f = font("Fredoka", 100, "Bold")
+def big_word(txt, color=SAGE_G, y=1180, size=100):
+    f = font("Fredoka", size, "Bold")
     lines = wrap(txt, f, 800)
-    lh = 112
+    lh = int(size * 1.12)
     d = ImageDraw.Draw(Image.new("L", (1, 1)))
     bw = max(tw(d, l, f) for l in lines) + 80
     bh = lh * len(lines) + 50
@@ -157,14 +157,14 @@ def label_pilar():
 def cta():
     f1 = font("Nunito", 48, "ExtraBold")
     f2 = font("Fredoka", 72, "Bold")
-    # kotak di kiri atas sticker; sticker di kanan bawah tunjuk ke kotak
+    # kotak di bawah (y 1230–1440, tak tutup muka); sticker di kanan bawah tunjuk ke kotak
     f2 = font("Fredoka", 64, "Bold")
     bw, bh = 640, 210
     im, pad = shadow_box((bw, bh), 36, KERTAS, border=SAGE_G, bw=6)
     dr = ImageDraw.Draw(im)
     dr.text((pad + bw / 2, pad + 64), "Nak dapatkan produk?", font=f1, fill=DAKWAT, anchor="mm")
     dr.text((pad + bw / 2, pad + 144), "Klik LINK di Bio", font=f2, fill=SAGE_G, anchor="mm")
-    return im, 60 - pad, 720 - pad
+    return im, 60 - pad, 1438 - 210 - pad
 
 def sticker(fname, width, x, ybot):
     im = Image.open(STK + fname).convert("RGBA")
@@ -183,8 +183,11 @@ def vis_box(comp):
     b = im.split()[3].point(lambda v: 255 if v > 60 else 0).getbbox()
     return (x + b[0], y + b[1], x + b[2], y + b[3])
 
-def add(a, b, comp):
+def add(a, b, comp, boleh_keluar=False):
+    """boleh_keluar=True: hanya untuk sticker penutup (dibenarkan pengguna keluar frame bawah)."""
     bx = vis_box(comp)
+    if boleh_keluar:
+        T.append((a, b, comp)); return
     assert SAFE[0] <= bx[0] and SAFE[1] <= bx[1] and bx[2] <= SAFE[2] and bx[3] <= SAFE[3], \
         f"KELUAR SAFE ZONE {a:.2f}-{b:.2f}: {bx}"
     T.append((a, b, comp))
@@ -258,17 +261,17 @@ SUB = [
 ]
 for a, b, t in SUB:
     # babak penutup: penafian duduk di bawah, jadi sari kata naik supaya tak bertindih
-    add(a, b, sari_kata(t, ybot=1320 if a >= c[5] else 1400))
+    # penutup: sari kata di paling bawah supaya tak tutup muka ibu/anak
+    add(a, b, sari_kata(t, ybot=1438 if a >= c[5] else 1400))
 
 add(20.30, c[3], label_bukti("Fakta terbukti", TERBUKTI, "Sumber: KKM MDG 2020"))
 add(c[3] + 0.2, 30.40, label_bukti("Sarapan 5 Minit Ibu", SAGE_G, "Sedia malam sebelumnya", y=1130))
 add(c[4], 36.40, label_bukti("Panduan", SAGE, "Panduan pemakanan umum"))
 add(20.30, c[3], penafian())
-add(44.20, 46.60, big_word("Ibu pun perlu diisi.", y=860))
-add(c[5], 46.60, penafian(1400 - 54))
-add(46.60, TOTAL, penafian(1440 - 98, kiri=True))
+add(44.20, 46.60, big_word("Ibu pun perlu diisi.", y=1290, size=80))
+# penafian: dipapar di babak fakta (20.3–25.9 s, 5.6 s). Penutup dikosongkan supaya tak tutup muka.
 add(46.60, TOTAL, cta())
-add(46.80, TOTAL, sticker("15-blazer-tunjuk-atas-kiri.png", 340, 940 - 340, 1440))
+add(46.80, TOTAL, sticker("15-blazer-tunjuk-atas-kiri.png", 360, 715, 1840), boleh_keluar=True)
 
 def overlaps():
     bad = []
@@ -280,6 +283,12 @@ def overlaps():
             if p[0] < q[2] and q[0] < p[2] and p[1] < q[3] and q[1] < p[3]:
                 bad.append((round(max(a1, a2), 2), p, q))
     # teks yang tertanam dalam klip AI (jam, "Breakfast Idea")
+    for a1, b1, q in FACES:
+        for a2, b2, c2 in T:
+            if min(b1, b2) - max(a1, a2) <= 0.01: continue
+            p = vis_box(c2)
+            if p[0] < q[2] and q[0] < p[2] and p[1] < q[3] and q[1] < p[3]:
+                bad.append(("MUKA", round(max(a1, a2), 2), p, q))
     for a1, b1, q in BAKED:
         for a2, b2, c2 in T:
             if min(b1, b2) - max(a1, a2) <= 0.01: continue
@@ -287,6 +296,12 @@ def overlaps():
             if p[0] < q[2] and q[0] < p[2] and p[1] < q[3] and q[1] < p[3]:
                 bad.append(("klip", round(max(a1, a2), 2), p, q))
     return bad
+# Kotak muka subjek (ibu / anak) — tulisan & grafik tak boleh tutup
+c6 = c[5]
+FACES = [(c6, c6 + 2.0, (500, 580, 670, 910)), (c6, c6 + 2.0, (250, 990, 460, 1255)),
+         (c6 + 2.0, c6 + 4.0, (420, 370, 670, 780)), (c6 + 2.0, c6 + 4.0, (10, 835, 285, 1095)),
+         (c6 + 4.0, c6 + 6.92, (250, 395, 815, 1180)),
+         (c6 + 6.92, TOTAL, (420, 420, 685, 805)), (c6 + 6.92, TOTAL, (25, 850, 230, 1070))]
 BAKED = [(0, c[1], (215, 155, 525, 235)), (c[1], c[2], (165, 155, 565, 235)),
          (c[3], c[3] + 2.0, (230, 265, 860, 365)), (c[3] + 1.9, c[3] + 4.0, (300, 320, 820, 430))]
 for o in overlaps(): print("BERTINDIH:", o)

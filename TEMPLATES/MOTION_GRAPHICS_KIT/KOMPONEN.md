@@ -66,9 +66,9 @@ Gerakan lalai: masuk pop 90%→100% + fade 0.3 s, keluar fade 0.2 s, ease-out.
 - Teks tepat: **"Nak dapatkan produk? Klik LINK di Bio"**
 - Kotak Kertas, sempadan 6 px Sage gelap `#556A4C`, jejari 36 px.
 - "Nak dapatkan produk?" Nunito 800, 48 px, Dakwat. "Klik LINK di Bio" Fredoka 700, 64 px, Sage gelap. Lebar kotak 640 px.
-- Kedudukan — DISAHKAN (pilihan pengguna): kotak CTA di kiri (x 60–700, y ~720–930). Sticker `15-blazer-tunjuk-atas-kiri` (lebar ~340 px) di **kanan bawah** (hujung x 940, bawah y 1440), jari tunjuk ke kiri atas, ke arah kotak CTA.
-- Penafian pada babak CTA: 2 baris, kiri bawah (x 60), tidak bertindih dengan sticker.
-- Elakkan kotak CTA menutup wajah dalam rakaman; alih y jika perlu.
+- Kedudukan — DISAHKAN (pilihan pengguna): kotak CTA (lebar 640 px) di **bawah kiri**, y ≈ 1230–1440. Semua tulisan babak penutup di bahagian bawah sahaja supaya tidak menutup muka.
+- Sticker `15-blazer-tunjuk-atas-kiri` (lebar ~360 px) di kanan bawah (x ≈ 715), tunjuk ke kiri atas ke arah kotak CTA. Sticker ini **boleh terkeluar** dari safe zone / bawah frame.
+- Penafian tidak diulang di babak CTA jika sudah dipapar ≥ 3 s di babak fakta (ruang bawah terhad, elak tutup muka).
 - Tempoh 3–5 s terakhir. Tiada URL, nombor telefon atau WhatsApp.
 
 ## `NAMA_AKAUN` — watermark (wajib, sepanjang video)
