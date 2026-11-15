@@ -91,7 +91,8 @@ Setiap video ada cover sendiri, fokus kepada **hook 3 saat pertama**.
 - **Semua teks dalam kawasan tengah 3:4 (y 240–1680)** supaya tak terpotong dalam grid profil TikTok/IG. Semak dengan potongan 1080 × 1440.
 - Kotak mesti dalam frame (box-sizing border-box). Tiada tajuk sensasi; hook berbentuk soalan atau situasi.
 - Templat contoh: `TEMPLATES/ALAT_COVER/cover_contoh_EP01.js`.
-- Muat naik: IG Reels → Edit cover → Add from camera roll. TikTok → Select cover → Upload. Jika tiada pilihan upload, sisip cover sebagai bingkai pertama video.
+- Muat naik: IG Reels → Edit cover → Add from camera roll. TikTok → Select cover → pilih bingkai pertama.
+- **Cover disisip sebagai 6 bingkai pertama video (0–0.2 s)**, menggantikan bingkai asal tanpa ubah tempoh atau masa suara. Suara hook mesti bermula ≥ 0.3 s.
 
 ## Senarai semak QC (Pintu 3)
 - [ ] Fakta sepadan dengan skrip yang diluluskan. Tiada fakta "PERLU SEMAK"
