@@ -101,7 +101,7 @@ def label_bukti(label, color, sumber, y=300):
 
 def big_word(txt, color=SAGE_G, y=1180, size=100):
     f = font("Fredoka", size, "Bold")
-    lines = wrap(txt, f, 800)
+    lines = [l for part in txt.split("\n") for l in wrap(part, f, 800)]
     lh = int(size * 1.12)
     d = ImageDraw.Draw(Image.new("L", (1, 1)))
     bw = max(tw(d, l, f) for l in lines) + 80
@@ -272,7 +272,7 @@ add(20.30, c[3], label_bukti("Fakta terbukti", TERBUKTI, "Sumber: KKM MDG 2020")
 add(c[3] + 0.2, 30.40, label_bukti("Sarapan 5 Minit Ibu", SAGE_G, "Sedia malam sebelumnya", y=1130))
 add(c[4], 36.40, label_bukti("Panduan", SAGE, "Panduan pemakanan umum"))
 add(20.30, c[3], penafian())
-add(44.20, 46.60, big_word("Ibu pun perlu diisi.", y=1290, size=80))
+add(44.20, 46.60, big_word("Perut ibu juga\nperlu diisi.", y=1228, size=72))
 # penafian: dipapar di babak fakta (20.3–25.9 s, 5.6 s). Penutup dikosongkan supaya tak tutup muka.
 add(46.60, TOTAL, cta())
 add(46.80, TOTAL, sticker("15-blazer-tunjuk-atas-kiri.png", 360, 715, 1840), boleh_keluar=True)
@@ -400,7 +400,7 @@ if __name__ == "__main__":
     def ts(x):
         ms = int(round(x * 1000)); return f"{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02},{ms%1000:03}"
     srt = [(0.0, 1.0, "Anak dah makan, suami dah makan…"), (1.0, 2.0, "Ibu? “Nanti la…”"),
-           (2.0, 3.0, "Siapa macam ni?")] + SUB + [(44.2, 46.6, "Ibu pun perlu diisi.")]
+           (2.0, 3.0, "Siapa macam ni?")] + SUB + [(44.2, 46.6, "Perut ibu juga perlu diisi.")]
     with open(f"{OUT}/EP02_Sarapan_Ibu_sarikata.srt", "w") as fh:
         for n, (a, b, t) in enumerate(srt, 1):
             fh.write(f"{n}\n{ts(a)} --> {ts(b)}\n{t}\n\n")
