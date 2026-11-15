@@ -34,7 +34,7 @@ Workspace ini dibina dari kosong untuk Amway. Ia tidak menyalin apa-apa dari vid
 Nilai bertanda **CADANGAN** ialah draf. Nilai bertanda **MENUNGGU** mesti ditanya kepada pengguna.
 
 ## Peraturan editing tetap (setiap video)
-Ikut "Peraturan editing tetap" dalam `PRODUCTION_STANDARD.md`: sari kata ikut suara sebenar dalam video (transkrip dengan Whisper, skrip hanya rujukan), nama akaun `@empayarbiz_momyizz` di atas frame sepanjang video, semua elemen dalam safe zone TikTok/Reels, tiada sari kata/grafik bertindih, tulisan tak boleh tutup muka subjek, babak penutup: tulisan di bawah sahaja (sticker boleh keluar frame), gambar produk mesti tepat (guna `AMWAY_BRAND/PRODUK/`), caption terus disediakan bila video final siap (`EPISOD/<episod>/CAPTION.md`). Contoh pelaksanaan dengan semakan automatik: `EPISOD/EP02_Sarapan_Ibu/render.py`.
+Ikut "Peraturan editing tetap" dalam `PRODUCTION_STANDARD.md`: sari kata ikut suara sebenar dalam video (transkrip dengan Whisper, skrip hanya rujukan), nama akaun `@empayarbiz_momyizz` di atas frame sepanjang video, semua elemen dalam safe zone TikTok/Reels, tiada sari kata/grafik bertindih, tulisan tak boleh tutup muka subjek, babak penutup: tulisan di bawah sahaja (sticker boleh keluar frame), gambar produk mesti tepat (guna `AMWAY_BRAND/PRODUK/`), caption terus disediakan bila video final siap: dua caption (TikTok pendek + Instagram) dalam `EPISOD/<episod>/CAPTION.md` + halaman artifak dengan butang salin (`caption.html`). Contoh pelaksanaan dengan semakan automatik: `EPISOD/EP02_Sarapan_Ibu/render.py`.
 Ringkasan untuk pengguna (dokumen Claude Docs): "Panduan Editing Video Momyizz" https://claude.ai/artifact/JtSyX2a3nvig6Ui2vRVRBm. Kemas kini dokumen ini juga bila peraturan berubah.
 
 ## Identiti jenama Amway

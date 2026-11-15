@@ -1,7 +1,20 @@
 # Caption EP02 · Sarapan Ibu Yang Selalu Tertinggal
 
-Untuk TikTok dan Instagram Reels (satu caption, sama untuk kedua-dua). Ikut `TEMPLATES/PENULISAN_PLATFORM.md`.
+Halaman dengan butang salin: https://claude.ai/artifact/4JJiQkWDGw8x7bPjStCYpi (sumber `caption.html`).
 
+## TikTok (pendek, 275 aksara)
+```
+Anak dah makan, suami dah makan… ibu? "Nanti la." Siapa macam ni? 🙋‍♀️
+
+Perut ibu pun perlu diisi. Korang selalu sarapan apa? 👇
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+Nak dapatkan produk? Klik LINK di Bio
+
+#Momyizz #SarapanSihat #IbuBekerja #PingganSihat #Nutrilite
+```
+
+## Instagram Reels (923 aksara)
 ```
 Anak dah makan, suami dah makan… ibu? "Nanti la." Siapa macam ni? 🙋‍♀️
 

@@ -59,7 +59,10 @@ Wajib untuk SETIAP video yang diedit, tanpa perlu diingatkan semula:
 6. **Tulisan dan grafik tidak boleh menutup muka subjek** (ibu, anak, sesiapa dalam rakaman), dalam mana-mana babak. Tandakan kotak muka setiap babak dan semak secara automatik bersama semakan pertindihan. Jika bertindih, alihkan teks (biasanya ke bawah).
 7. **Sari kata mesti ikut suara dalam video, perkataan demi perkataan.** Skrip hanya rujukan. Transkrip audio dulu (Whisper, bahasa `ms`, dengan masa perkataan), kemudian tulis sari kata tepat seperti yang didengar dan ikut masa suara. Tiada sari kata semasa tiada suara. Big word / teks penekanan juga mesti sama dengan ayat yang disebut.
 8. **Jika suara habis terlalu dekat dengan hujung klip,** bekukan bingkai akhir (contoh 2 s) supaya CTA dipapar ≥ 3 s tanpa bertindih dengan sari kata terakhir.
-9. **Caption terus disediakan bila video final siap** (tanpa perlu diminta): satu caption untuk TikTok + Instagram Reels, simpan di `EPISOD/<episod>/CAPTION.md` dan tampal dalam balasan. Ikut `TEMPLATES/PENULISAN_PLATFORM.md` dan bahagian Caption `TEMPLATES/SKRIP_TEMPLATE.md`: hook ≤ 125 aksara (selaras dengan hook video), isi ringkas dari suara video, sumber, penafian, CTA "Nak dapatkan produk? Klik LINK di Bio", 3–5 hashtag, Momyizz & korang sahaja, tiada harga / dakwaan perubatan, jumlah ≤ 2,200 aksara.
+9. **Caption terus disediakan bila video final siap** (tanpa perlu diminta): **dua caption**, simpan di `EPISOD/<episod>/CAPTION.md`, dan terbitkan halaman artifak dengan **butang salin** untuk setiap caption (`EPISOD/<episod>/caption.html`, contoh EP02). Ikut `TEMPLATES/PENULISAN_PLATFORM.md`.
+   - **TikTok (pendek, ≤ 300 aksara):** hook (selaras hook video) + 1 ayat / soalan untuk komen + penafian + CTA "Nak dapatkan produk? Klik LINK di Bio" + 3–5 hashtag.
+   - **Instagram Reels (300–1,000 aksara, had 2,200):** hook ≤ 125 aksara, cerita ringkas dari suara video, fakta + tip dalam senarai pendek, produk sebagai pilihan tambahan, soalan + "Save untuk rujukan", sumber, penafian, CTA, 3–5 hashtag.
+   - Kedua-dua: Momyizz & korang sahaja, tiada harga / dakwaan perubatan.
 4. **Gambar produk mesti tepat seperti produk sebenar.** Jika klip AI menunjukkan botol/tin/label yang salah atau direka, ganti babak itu dengan gambar produk sebenar dalam `AMWAY_BRAND/PRODUK/` (atau gambar yang diberi pengguna). Jangan biarkan label palsu.
 
 ## Senarai semak QC (Pintu 3)
@@ -76,7 +79,7 @@ Wajib untuk SETIAP video yang diedit, tanpa perlu diingatkan semula:
 - [ ] Gambar produk sepadan dengan produk sebenar (`AMWAY_BRAND/PRODUK/`)
 - [ ] Sticker: satu set pakaian, satu di skrin pada satu masa, arah tunjuk betul, tidak tutup wajah/sari kata
 - [ ] Hanya warna palet dan font Fredoka / Nunito / Caveat
-- [ ] Caption siap (CAPTION.md) dan ditampal dalam balasan
+- [ ] Dua caption (TikTok pendek + Instagram) dalam CAPTION.md, halaman butang salin diterbitkan
 - [ ] Sari kata sepadan dengan suara perkataan demi perkataan (dari transkripsi), ikut masa suara, tiada salah ejaan
 - [ ] Kata ganti nama Momyizz & korang sahaja. Gaya soft-selling
 - [ ] Audio seimbang, tiada bunyi pecah
