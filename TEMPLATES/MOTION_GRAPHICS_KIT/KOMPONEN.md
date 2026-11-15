@@ -76,6 +76,16 @@ Gerakan lalai: masuk pop 90%→100% + fade 0.3 s, keluar fade 0.2 s, ease-out.
 - Kedudukan: tengah mendatar, y ≈ 1450 (bawah sari kata). Mesti masuk sepenuhnya dalam frame. Kalau bertindih dengan elemen lain (CTA, kotak Follow/Share), turunkan sedikit tetapi kekal dalam frame.
 - Fail siap guna (PNG lutsinar 1080 × 1920): `AMWAY_BRAND/watermark_1080x1920.png`. Letak sebagai lapisan paling atas.
 
+## `COVER` — cover video (wajib, DISAHKAN)
+- Lihat `PRODUCTION_STANDARD.md` → Cover video. Ringkasan:
+  - bingkai hook sebagai latar
+  - pil siri/episod
+  - hook Fredoka ~108 px dalam kotak Kertas (2 baris)
+  - bulatan putus-putus + nota Caveat
+  - pil tagline Sage gelap
+  - watermark
+- Kawasan teks: y 240–1680 (grid 3:4).
+
 ## `STICKER` — sticker Momyizz
 - PNG lutsinar dari `AMWAY_BRAND/STICKERS/`. Lebar 35–45% skrin (380–490 px).
 - Satu di skrin pada satu masa. Satu set pakaian setiap video. Arah tunjuk ke elemen yang dimaksudkan.

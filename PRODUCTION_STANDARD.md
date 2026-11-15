@@ -79,6 +79,20 @@ Setiap rakaman suara mesti dibersihkan sebelum dimasukkan ke video: jelas, bersi
 ## Eksport — CADANGAN
 MP4 (H.264), 1080 × 1920, 30 fps, bitrate 12–16 Mbps, audio AAC 48 kHz 320 kbps.
 
+## Cover video — DISAHKAN (15 Nov 2026)
+Setiap video ada cover sendiri, fokus kepada **hook 3 saat pertama**.
+- Saiz 1080 × 1920 PNG. Latar: bingkai paling kuat dari klip hook (objek utama jelas, contoh air dituang ke botol).
+- Lapisan, dari atas ke bawah:
+  1. Pil siri/episod, warna pilar (contoh "SIRI MIKROPLASTIK · EPISOD 1").
+  2. **Hook** dalam kotak Kertas: Fredoka 700 ~108 px, maksimum 2 baris, tiada perkataan tergantung seorang di baris akhir. 1 kata kunci dalam warna Kayu.
+  3. Penanda visual pada objek: bulatan putus-putus + nota Caveat dengan anak panah (contoh "zarah < 5 mm?").
+  4. Pil tagline Sage gelap (contoh "Fakta, bukan panik.").
+  5. Watermark @empayarbiz_momyizz (Nunito Black 24 px).
+- **Semua teks dalam kawasan tengah 3:4 (y 240–1680)** supaya tak terpotong dalam grid profil TikTok/IG. Semak dengan potongan 1080 × 1440.
+- Kotak mesti dalam frame (box-sizing border-box). Tiada tajuk sensasi; hook berbentuk soalan atau situasi.
+- Templat contoh: `TEMPLATES/ALAT_COVER/cover_contoh_EP01.js`.
+- Muat naik: IG Reels → Edit cover → Add from camera roll. TikTok → Select cover → Upload. Jika tiada pilihan upload, sisip cover sebagai bingkai pertama video.
+
 ## Senarai semak QC (Pintu 3)
 - [ ] Fakta sepadan dengan skrip yang diluluskan. Tiada fakta "PERLU SEMAK"
 - [ ] Tiada dakwaan perubatan, janji hasil atau tajuk menakutkan
@@ -87,6 +101,7 @@ MP4 (H.264), 1080 × 1920, 30 fps, bitrate 12–16 Mbps, audio AAC 48 kHz 320 kb
 - [ ] CTA tepat: "Nak dapatkan produk? Klik LINK di Bio"
 - [ ] Tiada URL, nombor telefon atau WhatsApp dalam video
 - [ ] Semua teks, sticker, CTA dan penafian dalam safe zone
+- [ ] Cover 1080 × 1920 berasaskan hook 3 saat; semua teks dalam kawasan 3:4 (y 240–1680)
 - [ ] Watermark **@empayarbiz_momyizz** ada sepanjang video. Spesifikasi: Nunito Black 24 px, teks sahaja (putih krim + bayang nipis), tengah bawah y ≈ 1450, dalam frame, tidak bertindih (lihat `AMWAY_BRAND/BRAND.md` → Watermark)
 - [ ] Sticker: satu set pakaian, satu di skrin pada satu masa, arah tunjuk betul, tidak tutup wajah/sari kata
 - [ ] Hanya warna palet dan font Fredoka / Nunito / Caveat
