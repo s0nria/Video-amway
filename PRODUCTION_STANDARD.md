@@ -63,6 +63,7 @@ Wajib untuk SETIAP video yang diedit, tanpa perlu diingatkan semula:
    - **TikTok (pendek, ≤ 300 aksara):** hook (selaras hook video) + 1 ayat / soalan untuk komen + penafian + CTA "Nak dapatkan produk? Klik LINK di Bio" + 3–5 hashtag.
    - **Instagram Reels (300–1,000 aksara, had 2,200):** hook ≤ 125 aksara, cerita ringkas dari suara video, fakta + tip dalam senarai pendek, produk sebagai pilihan tambahan, soalan + "Save untuk rujukan", sumber, penafian, CTA, 3–5 hashtag.
    - Kedua-dua: Momyizz & korang sahaja, tiada harga / dakwaan perubatan.
+   - **Masukkan juga ke worksheet** (`index.html` = `momyizz-planner.html`): medan episod "Caption TikTok" (`capTiktok`) dan "Caption Instagram" (`capIg`) dalam `SEED_CAPS`, supaya boleh disalin terus dari worksheet.
 4. **Gambar produk mesti tepat seperti produk sebenar.** Jika klip AI menunjukkan botol/tin/label yang salah atau direka, ganti babak itu dengan gambar produk sebenar dalam `AMWAY_BRAND/PRODUK/` (atau gambar yang diberi pengguna). Jangan biarkan label palsu.
 
 ## Senarai semak QC (Pintu 3)

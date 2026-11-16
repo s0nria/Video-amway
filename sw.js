@@ -1,5 +1,5 @@
 // Momyizz planner: network first, cache fallback (works offline, always loads newest version when online)
-const CACHE = "momyizz-v1";
+const CACHE = "momyizz-v2";
 const FILES = ["./", "./index.html", "./momyizz-planner.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => {
