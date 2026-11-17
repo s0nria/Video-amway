@@ -70,3 +70,18 @@ Harga & promosi (dari amway.my, tarikh semak): [isi atau "tiada"]
 Testimoni sebenar (jika ada): [isi atau "tiada"]
 Platform penulisan: Threads (bebenang), Facebook, Instagram
 ```
+
+## Siri trending dari podcast / video viral
+
+Contoh: Hari 7–13 **Siri Tidur, Otak & Usus**, diilhamkan oleh podcast tidur & otak yang tengah viral.
+
+Peraturan:
+1. Podcast atau video viral jadi **hook** sahaja ("Ramai tengah share podcast pasal…").
+2. **Jangan petik** nama penceramah atau dakwaan mereka yang belum disemak. Semua fakta diambil semula dari sumber rasmi (KKM, WHO, NIH, CDC, AASM, AHA, jurnal).
+3. Dakwaan yang tak dapat disahkan ditinggalkan.
+4. Produk hanya dalam WhatsApp / ruang tertutup, tanpa dakwaan kesihatan.
+
+Cara jana siri baharu dari podcast YouTube (dalam Claude Project):
+1. Buka video di YouTube → **⋯ / Lagi** → **Tunjukkan transkrip** → salin semua teks.
+2. Tampal dalam Claude Project bersama arahan dalam `CLAUDE_PROJECT/ARAHAN_PROJECT.md` (bahagian "Jana siri dari podcast").
+3. Semak senarai topik yang Claude cadangkan, kemudian minta konten harian ikut format kalendar.

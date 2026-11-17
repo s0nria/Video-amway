@@ -108,6 +108,8 @@ def to_json():
     out = []
     for day in DAYS:
         d = {"d": day["d"], "ep": day["ep"], "tema": day["tema"]}
+        if day["ep"] is None:
+            d["siri"] = "Siri trending: Tidur, Otak & Usus"
         if "video" in day:
             v = day["video"]
             d["video"] = {"tajuk": v["tajuk"], "nota": v.get("nota", ""), "babak": [list(b) for b in v["babak"]], "caption": v["caption"]}
@@ -138,7 +140,7 @@ def carousel_text(c):
 
 
 def md_week1(days):
-    L = ["# Kalendar Konten — Minggu 1 (siap salin)", "",
+    L = ["# Kalendar Konten — Hari 1 hingga 14 (siap salin)", "",
          "Setiap hari satu topik: **🎥 1 video storytelling · 🎞️ 2 video motion grafik · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.",
          "Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.",
          "Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).", ""]
@@ -146,7 +148,7 @@ def md_week1(days):
         if "video" not in day:
             continue
         v, c = day["video"], day["carousel"]
-        L += [f"## Hari {day['d']} · Episod {day['ep']} · {day['tema']}", "",
+        L += [f"## Hari {day['d']} · {('Episod ' + str(day['ep'])) if day['ep'] else '🔥 ' + day.get('siri', 'Siri trending')} · {day['tema']}", "",
               f"### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): {v['tajuk']}", "",
               "> Salin skrip ini ke CapCut / Flow untuk edit video.", ""]
         if v["nota"]:
@@ -184,14 +186,14 @@ def md_week1(days):
 
 
 def md_plan(days):
-    L = ["# Kalendar Konten — Hari 8 hingga 30 (rancangan)", "",
+    L = ["# Kalendar Konten — Hari 15 hingga 37 (rancangan)", "",
          "Format sama seperti Minggu 1: 🎥 video storytelling · 🎞️ 2 motion grafik · 🖼️ carousel · ✍️ 4 teks (+ 💬 WhatsApp).",
          "Teks penuh dijana dengan Claude: tab **Tulis** → pilih hari → **Salin arahan untuk Claude** → tampal dalam Claude Project.", ""]
     for day in days:
         if "plan" not in day:
             continue
         p = day["plan"]
-        L += [f"## Hari {day['d']} · Episod {day['ep']} · {day['tema']}", "",
+        L += [f"## Hari {day['d']} · {('Episod ' + str(day['ep'])) if day['ep'] else '🔥 ' + day.get('siri', 'Siri trending')} · {day['tema']}", "",
               f"- 🎥 **Video storytelling (08:30, Flow AI):** {p['video']}"]
         L += [f"- 🎞️ **Motion grafik {g['masa']} · {g['jenis']}:** {g['idea']}" for g in p["mg"]]
         L += [
@@ -204,10 +206,11 @@ def md_plan(days):
 
 
 def md_index(days):
-    L = ["# Kalendar Konten Momyizz (30 hari)", "",
+    L = ["# Kalendar Konten Momyizz", "",
+         "**Hari 7–13: 🔥 Siri trending Tidur, Otak & Usus** (diilhamkan oleh podcast tidur & otak yang viral; fakta dari sumber rasmi sahaja). Kandungan asal dianjak ke Hari 14–37.", "",
          "| Fail | Isi |", "|---|---|",
-         "| `MINGGU_1.md` | Hari 1–7: skrip video storytelling, 2 skrip motion grafik, teks carousel, 4 teks, WhatsApp + checklist |",
-         "| `HARI_08-30.md` | Hari 8–30: rancangan setiap konten |",
+         "| `MINGGU_1.md` | Hari 1–14 (termasuk siri trending Hari 7–13): skrip video storytelling, 2 skrip motion grafik, teks carousel, 4 teks, WhatsApp + checklist |",
+         "| `HARI_08-30.md` | Hari 15–37: rancangan setiap konten |",
          "| `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |",
          "| `masalah_data.py` | Sumber data 20 masalah |",
          "| `kalendar_data.py` | Sumber data kalendar (edit di sini) |",
@@ -227,7 +230,7 @@ def md_index(days):
          "| Hari | Episod | Tema | WhatsApp | Status |", "|---|---|---|---|---|"]
     for day in days:
         wa = "✓" if (day.get("wa") or (day.get("plan") or {}).get("wa")) else ""
-        L += [f"| {day['d']} | {day['ep']} | {day['tema']} | {wa} | {'Siap salin' if 'video' in day else 'Rancangan'} |"]
+        L += [f"| {day['d']} | {day['ep'] or '🔥'} | {day['tema']} | {wa} | {'Siap salin' if 'video' in day else 'Rancangan'} |"]
     return "\n".join(L) + "\n"
 
 

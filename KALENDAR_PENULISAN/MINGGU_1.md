@@ -1,4 +1,4 @@
-# Kalendar Konten — Minggu 1 (siap salin)
+# Kalendar Konten — Hari 1 hingga 14 (siap salin)
 
 Setiap hari satu topik: **🎥 1 video storytelling · 🎞️ 2 video motion grafik · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.
 Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.
@@ -1129,7 +1129,1328 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
-## Hari 7 · Episod 3 · Span dapur & kebersihan dapur
+## Hari 7 · 🔥 Siri trending: Tidur, Otak & Usus · Tidur: masa otak 'membersihkan diri'
+
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Ramai share podcast tidur & otak, ini yang Momyizz semak
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 09-kartun-terkejut-pipi.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Telefon tunjuk podcast tidur & otak di FYP, Momyizz tengok sambil baring | Podcast pasal tidur & otak ni tengah viral. Momyizz pun terus semak kajiannya 🧠 |
+| 3–15s | Momyizz bercakap ke kamera, bilik suram | Kajian 2013 dalam jurnal Science: semasa tidur, ruang antara sel otak tikus membesar kira-kira 60%. |
+| 15–28s | Animasi air mengalir antara sel (Flow) | Cecair otak mengalir lebih laju dan sisa seperti beta-amiloid dibersihkan lebih cepat. |
+| 28–38s | Momyizz letak telefon, tutup lampu | Ini kajian haiwan. Pada manusia masih dikaji. Tapi satu benda dah jelas: tidur bukan sekadar rehat. |
+| 38–45s | Momyizz senyum, selimut | Malam ni, jom tidur awal sikit 🌙 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+
+**Caption video**
+
+```
+Tidur bukan sekadar rehat 🧠🌙 Siri Tidur, Otak & Usus Momyizz bermula hari ni.
+
+Sumber: Xie et al. (2013), Science.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Tidur #KesihatanOtak #FaktaBukanPanik
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 4 tanda korang kurang tidur
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 20-blazer-terkejut-pipi.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Tidur cukup ke sebenarnya? 4 tanda ni 😴 | Pop |
+| 3–8s | CHECKLIST baris 1 | ✓ Perlu kopi untuk 'hidup' setiap pagi | Baris muncul |
+| 8–13s | CHECKLIST baris 2 | ✓ Mengantuk lepas makan tengah hari setiap hari | Baris muncul |
+| 13–18s | CHECKLIST baris 3 | ✓ Cepat marah & susah fokus | Baris muncul |
+| 18–22s | CHECKLIST baris 4 | ✓ Tidur 'ganti' panjang hujung minggu | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Berapa tanda korang ada? 👇 Dewasa perlu 7 jam+ (AASM).
+
+#Momyizz #Tidur #IbuBekerja
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Tidur 5 jam dah cukup, badan dah biasa'
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | "Tidur 5 jam dah cukup, badan dah biasa." Betul ke? | Pop + goyang |
+| 3–8s | BIG_WORD | MITOS ❌ | Pop besar |
+| 8–15s | KAD_FAKTA + LABEL_BUKTI (Terbukti) | Pakar tidur (AASM): dewasa perlu 7 jam atau lebih setiap malam secara konsisten. | Kad naik |
+| 15–22s | CHECKLIST | Mula dengan:<br>✓ Tidur 15 minit lebih awal<br>✓ Waktu bangun yang sama | Baris satu per satu |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Badan 'biasa' tak sama dengan badan cukup rehat 😴
+
+Sumber: AASM/SRS (2015).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #MitosAtauFakta #Tidur
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Apa jadi pada otak semasa kita tidur
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+APA JADI PADA OTAK
+semasa kita tidur? 🧠🌙
+```
+
+**Slaid 2**
+
+```
+OTAK 'MEMBERSIH'
+Kajian tikus (Science, 2013): ruang antara sel otak membesar ~60% semasa tidur.
+🟠 Kajian awal (haiwan)
+```
+
+**Slaid 3**
+
+```
+SISA DIBUANG LEBIH CEPAT
+Aliran cecair meningkat, sisa seperti beta-amiloid dibersihkan lebih laju.
+🟠 Kajian awal
+```
+
+**Slaid 4**
+
+```
+PADA MANUSIA?
+Kajian pada manusia masih berjalan.
+🔵 Masih dikaji
+```
+
+**Slaid 5**
+
+```
+YANG DAH JELAS
+Dewasa perlu tidur 7 jam atau lebih setiap malam secara konsisten.
+🟢 Terbukti (AASM)
+```
+
+**Slaid 6**
+
+```
+JADI?
+Tidur cukup = sebahagian penjagaan kesihatan.
+Save & follow siri ni 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Apa jadi pada otak semasa tidur, versi fakta 🧠
+
+Sumber: Xie et al. (2013) Science; AASM/SRS (2015).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Tidur #KesihatanOtak
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (182 / 500 aksara)
+
+```
+Info ringkas: pakar tidur (AASM) menyarankan orang dewasa tidur 7 jam atau lebih setiap malam secara konsisten. 🌙
+
+Bukan sekali-sekala tidur panjang hujung minggu, tapi setiap malam.
+```
+
+**16:00 · Pertanyaan** (123 / 500 aksara)
+
+```
+Jujur: semalam korang tidur berapa jam? 😴
+
+😵 Kurang 5 jam
+😐 5–6 jam
+🙂 7–8 jam
+😴 Lebih 8 jam
+
+Momyizz… 6 jam. Masih belajar!
+```
+
+**18:30 · Tips praktikal** (239 / 500 aksara)
+
+```
+Tips mula tidur awal 15 minit 💡
+
+✅ Minggu ni, masuk tidur 15 minit lebih awal daripada biasa
+✅ Minggu depan, tambah 15 minit lagi
+✅ Set peringatan 'masa tidur' di telefon
+
+Perlahan-lahan lebih mudah daripada terus paksa tidur 2 jam awal. 🌙
+```
+
+**21:00 · Info penting / alert** (228 / 500 aksara)
+
+```
+Info penting: kalau korang selalu berdengkur kuat, tercungap waktu tidur, atau sangat mengantuk siang hari walaupun tidur cukup, jumpa doktor. ⚠️
+
+Ini boleh jadi tanda masalah tidur seperti apnea tidur yang perlukan pemeriksaan.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+
+## Hari 8 · 🔥 Siri trending: Tidur, Otak & Usus · Berapa jam tidur ibu & anak
+
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Revenge bedtime: masa untuk diri sendiri yang dicuri dari tidur
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 04-satin-tutup-mulut.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Jam 12:30 malam, Momyizz scroll telefon atas katil | Anak dah tidur. Akhirnya masa untuk Momyizz… pukul 12:30 malam 😅 |
+| 3–15s | Momyizz bercakap ke kamera | Ada nama untuk ni: 'revenge bedtime'. Kita curi masa tidur untuk rasa ada masa sendiri. |
+| 15–28s | Pagi: Momyizz menguap, kopi kedua | Esoknya? Penat, cepat marah, kopi dua cawan. |
+| 28–40s | Momyizz baca buku 15 minit pukul 10 malam | Sekarang Momyizz cuba: 'masa sendiri' 20 minit lepas anak tidur, kemudian terus tidur. |
+| 40–45s | Momyizz ke kamera | Masa sendiri penting. Tidur pun penting 💛 |
+
+**Caption video**
+
+```
+Siapa selalu 'revenge bedtime'? 🙋‍♀️ Jom cari cara lebih seimbang.
+
+#Momyizz #IbuBekerja #Tidur #SelfCare
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Rutin 30 minit sebelum tidur
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 08-satin-thumbs-up.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | 30 minit sebelum tidur, buat ni 🌙 | Pop |
+| 3–9s | KAUNTER + teks | 30 min: malapkan lampu | Angka kira turun |
+| 9–15s | KAUNTER + teks | 20 min: telefon dicas di luar bilik | Angka kira turun |
+| 15–22s | KAUNTER + teks | 10 min: baca / zikir / sembang ringan | Angka kira turun |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Rutin 30 minit sebelum tidur ala Momyizz 🌙 Save!
+
+#Momyizz #RutinMalam #Tidur
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Anak susah tidur malam? Semak 3 perkara
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 17-blazer-panggil.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Anak susah tidur malam? 😩 | Pop |
+| 3–9s | KAD_FAKTA | Kanak-kanak 6–12 tahun perlukan 9–12 jam tidur (AASM) | Kad naik |
+| 9–15s | CHECKLIST | Semak:<br>✓ Skrin dalam bilik?<br>✓ Waktu tidur berubah-ubah? | Baris satu per satu |
+| 15–22s | CHECKLIST | ✓ Minuman manis / berkafein petang?<br>Ubah satu dulu 💛 | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+3 perkara untuk disemak bila anak susah tidur 🌙
+
+Sumber: AASM.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #AnakSihat #Tidur
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Berapa jam tidur ikut umur
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+BERAPA JAM TIDUR?
+Ikut umur, untuk satu keluarga 😴
+```
+
+**Slaid 2**
+
+```
+DEWASA
+7 jam atau lebih setiap malam
+🟢 Terbukti (AASM)
+```
+
+**Slaid 3**
+
+```
+KANAK-KANAK 6–12 TAHUN
+9–12 jam sehari
+🟢 (AASM, AHA)
+```
+
+**Slaid 4**
+
+```
+REMAJA 13–18 TAHUN
+8–10 jam sehari
+🟢 (AASM, AHA)
+```
+
+**Slaid 5**
+
+```
+TIDUR = KESIHATAN JANTUNG
+AHA (2022) memasukkan tidur dalam 8 perkara utama kesihatan jantung.
+```
+
+**Slaid 6**
+
+```
+MULA MALAM NI
+Satu waktu tidur yang sama untuk semua dalam rumah.
+Save untuk keluarga 🌙
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Berapa jam tidur yang cukup untuk ibu, ayah dan anak? Save 🌙
+
+Sumber: AASM; AHA Life's Essential 8 (2022).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Tidur #KesihatanKeluarga
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (192 / 500 aksara)
+
+```
+Info ringkas: American Heart Association (2022) memasukkan tidur sebagai salah satu daripada 8 perkara utama untuk kesihatan jantung, sama penting dengan makan, bergerak dan tekanan darah. ❤️🌙
+```
+
+**16:00 · Pertanyaan** (140 / 500 aksara)
+
+```
+Soalan: anak korang tidur pukul berapa malam sekolah? 🏫
+
+🕘 Sebelum 9
+🕙 9–10
+🕚 10–11
+🕛 Lepas 11
+
+Kongsi kat komen, Momyizz nak tengok purata!
+```
+
+**18:30 · Tips praktikal** (238 / 500 aksara)
+
+```
+Tips rutin tidur anak (dan ibu sekali) 💡
+
+✅ Waktu tidur sama setiap malam, termasuk hujung minggu (lebih kurang)
+✅ Lampu dimalapkan 30 minit sebelum tidur
+✅ Tiada skrin di atas katil
+✅ Bacaan atau sembang ringan sebagai 'tanda' masa tidur
+```
+
+**21:00 · Info penting / alert** (183 / 500 aksara)
+
+```
+Info penting: mengantuk ketika memandu sangat berbahaya. ⚠️
+
+Kalau mata berat semasa memandu, berhenti di tempat selamat dan rehat. Tingkap terbuka atau radio kuat bukan penyelesaian.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+
+## Hari 9 · 🔥 Siri trending: Tidur, Otak & Usus · Skrin & cahaya malam
+
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Telefon tidur di luar bilik
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 18-blazer-semangat.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Muka diterangi cahaya telefon dalam gelap | Scroll 'sekejap je'… tiba-tiba dah pukul 1 pagi 📱 |
+| 3–15s | Momyizz bercakap ke kamera | Cahaya terang pada waktu malam boleh tekan hormon melatonin, hormon yang bantu kita rasa mengantuk. |
+| 15–28s | Momyizz cas telefon di dapur, bukan di bilik | Eksperimen Momyizz minggu ni: telefon dicas di luar bilik. |
+| 28–40s | Momyizz baca buku, lampu kuning malap | Ganti dengan buku atau zikir. Malam ketiga, Momyizz tidur lebih cepat. |
+| 40–45s | Momyizz ke kamera | Siapa berani cuba 7 hari? 🙋‍♀️ |
+
+**Caption video**
+
+```
+Cabaran 7 hari: telefon tidur di luar bilik. Join? 📱🌙
+
+Sumber: Harvard Health Publishing.
+#Momyizz #Tidur #DigitalDetox
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Setting telefon untuk malam
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | 3 setting telefon yang bantu tidur 📱 | Pop |
+| 3–9s | CHECKLIST baris 1 | ✓ Mod 'Jangan ganggu' automatik 10 malam | Baris muncul |
+| 9–15s | CHECKLIST baris 2 | ✓ Mod skrin malam / cahaya hangat | Baris muncul |
+| 15–22s | CHECKLIST baris 3 + NOTA_TANGAN | ✓ Had masa apps media sosial<br>Tapi paling berkesan: telefon luar bilik 😉 | Baris + tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+3 setting telefon untuk malam. Dah cuba? 📱🌙
+
+#Momyizz #DigitalDetox #Tidur
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Dah baring tapi tak boleh lelap?
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 05-satin-semangat.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Dah baring sejam, mata masih segar? 😳 | Pop |
+| 3–9s | BIG_WORD | JANGAN AMBIL TELEFON 📵 | Pop besar |
+| 9–16s | CHECKLIST | Cuba:<br>✓ Bangun, ke ruang lain yang malap<br>✓ Buat aktiviti tenang (baca buku) | Baris satu per satu |
+| 16–22s | CHECKLIST | ✓ Kembali ke katil bila mengantuk<br>Kerap jadi? Jumpa doktor | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Cara Momyizz bila susah lelap. Korang buat apa? 👇
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Tidur #Insomnia
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Bilik tidur yang bantu lena
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+BILIK TIDUR YANG BANTU LENA 🛏️
+4 perkara mudah
+```
+
+**Slaid 2**
+
+```
+1. GELAP
+Cahaya terang waktu malam boleh tekan melatonin (hormon mengantuk).
+🟢 (Harvard Health)
+```
+
+**Slaid 3**
+
+```
+2. SENYAP & SELESA
+CDC: bilik tidur yang senyap, gelap, tenang dan suhu selesa.
+```
+
+**Slaid 4**
+
+```
+3. TANPA SKRIN
+Tutup skrin 30–60 minit sebelum tidur. Cas telefon di luar bilik.
+```
+
+**Slaid 5**
+
+```
+4. KATIL UNTUK TIDUR
+Elak buat kerja atau scroll atas katil supaya otak kaitkan katil dengan tidur.
+```
+
+**Slaid 6**
+
+```
+MULA SATU DULU
+Pilih satu perubahan malam ni.
+Save & cuba 🌙
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+4 perkara mudah untuk bilik tidur yang bantu lena. Mana satu korang nak cuba? 👇
+
+Sumber: CDC; Harvard Health Publishing.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Tidur #RumahSihat
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (163 / 500 aksara)
+
+```
+Info ringkas: cahaya terang pada waktu malam, termasuk dari skrin, boleh menekan hormon melatonin yang membantu kita rasa mengantuk. (Harvard Health Publishing) 📱🌙
+```
+
+**16:00 · Pertanyaan** (144 / 500 aksara)
+
+```
+Jujur: telefon korang tidur di mana malam tadi? 📱
+
+🛏️ Atas katil
+🪑 Meja sebelah katil
+🚪 Luar bilik
+
+Momyizz baru pindah ke luar bilik minggu ni!
+```
+
+**18:30 · Tips praktikal** (211 / 500 aksara)
+
+```
+Tips kalau telefon perlu ada di bilik (contoh: anak kecil, kerja) 💡
+
+✅ Aktifkan mod 'Jangan ganggu'
+✅ Letak telefon jauh dari katil, skrin ke bawah
+✅ Guna jam loceng biasa supaya tak perlu buka telefon pagi-pagi
+```
+
+**21:00 · Info penting / alert** (202 / 500 aksara)
+
+```
+Info penting untuk ibu bapa: kanak-kanak 6–12 tahun perlukan 9–12 jam tidur sehari (AASM). ⚠️
+
+Skrin di bilik tidur boleh melambatkan waktu tidur anak. Pertimbangkan 'stesen cas keluarga' di ruang tamu.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+
+## Hari 10 · 🔥 Siri trending: Tidur, Otak & Usus · Kafein & tidur
+
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Kopi petang yang curi tidur malam
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 14-blazer-tutup-mulut.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Kopi ais di meja kerja, jam 4 petang | Kopi pukul 4 petang… dan tertanya kenapa susah tidur malam 🤔 |
+| 3–15s | Momyizz bercakap ke kamera | Satu kajian kecil (2013): kafein yang diambil 6 jam sebelum tidur masih kurangkan tidur hampir sejam. |
+| 15–28s | Teks atas skrin, Momyizz terkejut | Yang mengejutkan: peserta tak sedar pun tidur mereka terganggu. 😳 |
+| 28–40s | Momyizz minum air kosong / teh herba waktu petang | Sekarang kopi terakhir Momyizz sebelum pukul 2 petang. |
+| 40–45s | Momyizz ke kamera | Kopi tak salah. Masa yang penting ☕ |
+
+**Caption video**
+
+```
+Pukul berapa kopi terakhir korang hari ni? ☕👇
+
+Sumber: Drake et al. (2013), J Clin Sleep Med.
+#Momyizz #Kafein #Tidur
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Ganti kopi petang dengan ini
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Mengantuk petang tapi tak nak kopi? ☕ | Pop |
+| 3–9s | CHECKLIST baris 1 | ✓ Segelas air kosong sejuk | Baris muncul |
+| 9–15s | CHECKLIST baris 2 | ✓ Jalan 5 minit / naik tangga | Baris muncul |
+| 15–22s | CHECKLIST baris 3 | ✓ Cahaya matahari / tingkap 5 minit | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+3 pengganti kopi petang. Mana satu korang pilih? 👇
+
+#Momyizz #Kafein #TipsHarian
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Minum kopi malam pun boleh tidur, tak ada kesan'
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 14-blazer-tutup-mulut.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | "Minum kopi malam pun boleh tidur, tak ada kesan." 🤔 | Pop |
+| 3–8s | BIG_WORD | BELUM TENTU ⚠️ | Pop besar |
+| 8–15s | KAD_FAKTA + LABEL_BUKTI (Kajian awal) | Kajian 2013: kafein 6 jam sebelum tidur kurangkan tidur hampir sejam, dan peserta tak sedar. | Kad naik |
+| 15–22s | NOTA_TANGAN | Boleh lelap ≠ tidur berkualiti | Tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Boleh lelap tak semestinya tidur berkualiti ☕
+
+Sumber: Drake et al. (2013).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #MitosAtauFakta #Kafein
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Kafein tersembunyi dalam minuman harian
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+KAFEIN BUKAN DALAM KOPI JE ☕
+Tengok senarai ni
+```
+
+**Slaid 2**
+
+```
+KOPI
+Sumber kafein paling biasa. Ais atau panas, sama sahaja.
+```
+
+**Slaid 3**
+
+```
+TEH
+Teh tarik, teh O, teh hijau pun ada kafein.
+```
+
+**Slaid 4**
+
+```
+MINUMAN LAIN
+Minuman tenaga, minuman berkola dan coklat juga ada kafein.
+```
+
+**Slaid 5**
+
+```
+KAJIAN 2013
+Kafein 6 jam sebelum tidur masih kurangkan tidur hampir sejam (kajian kecil, 12 orang).
+🟠 Kajian awal
+```
+
+**Slaid 6**
+
+```
+PANDUAN MUDAH
+Elak kafein sekurang-kurangnya 6 jam sebelum tidur.
+Save 🌙
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Kafein tersembunyi dalam minuman harian. Save & semak cawan petang korang ☕
+
+Sumber: Drake et al. (2013).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Kafein #Tidur #GayaHidupSihat
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (175 / 500 aksara)
+
+```
+Info ringkas: kesan kafein boleh bertahan berjam-jam. Kajian 2013 mendapati kafein yang diambil 6 jam sebelum tidur masih mengurangkan tidur, dan peserta sendiri tak sedar. ☕🌙
+```
+
+**16:00 · Pertanyaan** (160 / 500 aksara)
+
+```
+Soalan: kopi atau teh terakhir korang biasanya pukul berapa? ☕
+
+🌅 Pagi je
+🕑 Sebelum 2 petang
+🕓 Petang
+🌙 Malam pun minum
+
+Momyizz tengah cuba 'sebelum 2 petang'!
+```
+
+**18:30 · Tips praktikal** (282 / 500 aksara)
+
+```
+Tips kurangkan kafein petang tanpa sakit kepala 💡
+
+✅ Kurangkan perlahan-lahan, contohnya setengah cawan dulu
+✅ Ganti cawan petang dengan air kosong atau teh herba tanpa kafein
+✅ Minum air kosong cukup sepanjang hari
+
+Terus berhenti mengejut boleh buat sesetengah orang sakit kepala.
+```
+
+**21:00 · Info penting / alert** (198 / 500 aksara)
+
+```
+Info penting: minuman tenaga mengandungi kafein dan sering tinggi gula. ⚠️
+
+Periksa label sebelum minum, dan berhati-hati jika hamil, menyusu atau ada masalah jantung. Rujuk doktor jika tidak pasti.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+
+## Hari 11 · 🔥 Siri trending: Tidur, Otak & Usus · Usus & otak saling berhubung
+
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Perut tak selesa, mood pun ikut
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 13-blazer-tunjuk-atas-kanan.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Momyizz pegang perut, muka muram | Pernah perasan? Perut tak selesa, mood pun ikut jatuh 😣 |
+| 3–15s | Animasi garisan antara otak dan usus (Flow) | Saintis panggil ni 'paksi usus–otak': usus dan otak berhubung melalui saraf, hormon dan bakteria usus. |
+| 15–28s | Momyizz bercakap ke kamera | Ada kajian awal kaitkan bakteria usus dengan mood. Tapi pada manusia, masih banyak dikaji. |
+| 28–40s | Pinggan: sayur, buah, kekacang, bijirin penuh | Yang dah jelas: WHO saran serat 25 g sehari dari makanan. Ramai tak cukup. |
+| 40–45s | Momyizz ke kamera | Jaga usus, mulakan dengan pinggan 🌿 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+
+**Caption video**
+
+```
+Usus & otak saling berhubung 🧠🌿 Fakta, bukan hype.
+
+Sumber: WHO (2023).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #KesihatanUsus #KesihatanOtak
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 5 makanan tinggi serat yang mudah dapat
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | 5 makanan serat yang ada di dapur korang 🌾 | Pop |
+| 3–8s | CHECKLIST baris 1–2 | ✓ Oat<br>✓ Kacang dal / kacang merah | Baris muncul |
+| 8–14s | CHECKLIST baris 3–4 | ✓ Jambu batu / betik<br>✓ Sayur hijau (kangkung, sawi) | Baris muncul |
+| 14–20s | CHECKLIST baris 5 | ✓ Roti / beras perang | Baris muncul |
+| 20–22s | NOTA_TANGAN | Sasaran WHO: 25 g sehari | Tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+5 makanan tinggi serat yang mudah dapat 🌾
+
+Sumber: WHO (2023).
+#Momyizz #Serat #KesihatanUsus
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Perut kembung bila mula makan sihat?
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 10-satin-terkejut-pipi.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Mula makan sayur banyak, perut terus kembung? 😣 | Pop |
+| 3–9s | KAD_FAKTA | Punca biasa: tambah serat terlalu banyak, terlalu cepat | Kad naik |
+| 9–16s | CHECKLIST | Penyelesaian:<br>✓ Tambah perlahan, satu hidangan seminggu<br>✓ Minum air cukup | Baris satu per satu |
+| 16–22s | CHECKLIST | ✓ Kunyah perlahan<br>Sakit berterusan? Jumpa doktor | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Perut kembung bila mula makan sihat? Ini sebabnya 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #KesihatanUsus #Serat
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Cara capai 25 g serat sehari
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+SERAT 25 g SEHARI 🌾
+Cara capai tanpa susah
+```
+
+**Slaid 2**
+
+```
+KENAPA?
+WHO (2023): dewasa sekurang-kurangnya 25 g serat semula jadi dari makanan sehari, dan 400 g sayur & buah.
+🟢 Terbukti
+```
+
+**Slaid 3**
+
+```
+PAGI
+Oat atau roti gandum penuh + buah
+```
+
+**Slaid 4**
+
+```
+TENGAH HARI
+Separuh pinggan sayur + kekacang (dal, kacang merah)
+```
+
+**Slaid 5**
+
+```
+SNEK
+Buah segar (jambu, betik, pisang) atau segenggam kacang
+```
+
+**Slaid 6**
+
+```
+INGAT
+Tambah serat perlahan-lahan & minum air cukup supaya perut selesa.
+Save 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Cara capai 25 g serat sehari ikut WHO. Save & cuba minggu ni 🌾
+
+Sumber: WHO (2023).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Serat #KesihatanUsus #PingganSihat
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (145 / 500 aksara)
+
+```
+Info ringkas: WHO (2023) menyarankan dewasa ambil sekurang-kurangnya 25 g serat semula jadi dari makanan sehari, bersama 400 g sayur dan buah. 🌾🥦
+```
+
+**16:00 · Pertanyaan** (149 / 500 aksara)
+
+```
+Soalan: hari ni korang dah makan sayur atau buah berapa hidangan? 🥗
+
+0️⃣ Belum langsung
+1️⃣–2️⃣
+3️⃣–4️⃣
+5️⃣ ke atas
+
+Momyizz baru 2. Malam ni tambah!
+```
+
+**18:30 · Tips praktikal** (204 / 500 aksara)
+
+```
+Tips tambah serat tanpa perut kembung 💡
+
+✅ Tambah sedikit demi sedikit, satu hidangan seminggu
+✅ Minum air kosong yang cukup
+✅ Pilih pelbagai sumber: sayur, buah, kekacang, bijirin penuh
+✅ Kunyah perlahan
+```
+
+**21:00 · Info penting / alert** (205 / 500 aksara)
+
+```
+Info penting: sembelit berpanjangan, perubahan tabiat buang air yang mendadak, atau darah dalam najis perlu diperiksa doktor. ⚠️
+
+Jangan bergantung pada julap atau teh 'detoks' berulang kali tanpa nasihat.
+```
+
+### 💬 WhatsApp / group tertutup: Produk serat / kesihatan usus Nutrilite (PERLU SEMAK nama)
+
+> Ruang tertutup sahaja. Nama produk serat/usus Nutrilite (kategori 'Healthy Gut' di amway.my) PERLU SEMAK sebelum hantar. Makanan tetap sumber utama serat. Tiada dakwaan kesihatan.
+
+```
+Hai [nama] 😊
+
+Minggu ni Momyizz kongsi siri Tidur, Otak & Usus. Ramai tanya macam mana nak cukupkan serat bila sibuk.
+
+Momyizz utamakan sayur, buah dan kekacang dulu. Untuk hari yang betul-betul tak cukup, ada pilihan dari Nutrilite:
+• Produk: [NAMA PRODUK — semak amway.my]
+• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Cara guna: [salin dari label]
+
+Ini pelengkap, bukan pengganti makanan. 🙏 Nak tahu lebih? Reply "SERAT" 💛
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+- [ ] 💬 WhatsApp / group tertutup
+
+## Hari 12 · 🔥 Siri trending: Tidur, Otak & Usus · Makanan untuk otak: omega-3 & ikan tempatan
+
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Ikan kembung: makanan otak yang murah
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 19-blazer-thumbs-up.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Ikan kembung di pasar / dapur | Makanan otak tak semestinya mahal 🐟 |
+| 3–15s | Momyizz bercakap ke kamera | DHA, sejenis omega-3, ialah antara lemak utama dalam struktur otak dan mata (NIH). |
+| 15–28s | Momyizz masak ikan kembung / sardin | Sumbernya: ikan berlemak seperti ikan kembung, sardin dan salmon. Badan hanya hasilkan sedikit sendiri. |
+| 28–40s | Pinggan keluarga dengan ikan | Matlamat Momyizz: ikan 2 kali seminggu untuk satu keluarga. |
+| 40–45s | Momyizz ke kamera | Ikan tempatan pun dah cukup bagus 💛 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+
+**Caption video**
+
+```
+Makanan otak versi bajet: ikan kembung & sardin 🐟
+
+Sumber: NIH Office of Dietary Supplements.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Omega3 #KesihatanOtak #IkanTempatan
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 3 cara masak ikan untuk keluarga sibuk
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 18-blazer-semangat.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Ikan 2 kali seminggu, cara orang sibuk 🐟 | Pop |
+| 3–9s | KAD_FAKTA (1) | Ikan bakar air fryer + kunyit + garam: 15 minit | Kad masuk |
+| 9–15s | KAD_FAKTA (2) | Sardin tin + bawang + cili: inti roti / nasi | Kad masuk |
+| 15–22s | KAD_FAKTA (3) | Sup ikan + sayur: satu periuk untuk semua | Kad masuk |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+3 cara masak ikan untuk keluarga sibuk. Mana favourite korang? 🐟
+
+#Momyizz #IkanTempatan #Omega3
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Minyak ikan buat anak terus pandai'
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | "Minyak ikan buat anak terus pandai." Betul ke? 🤔 | Pop |
+| 3–8s | BIG_WORD | BELUM TERBUKTI ⚠️ | Pop besar |
+| 8–15s | KAD_FAKTA + LABEL_BUKTI (Bukti belum cukup) | Bukti suplemen omega-3 untuk tingkatkan kecerdasan kanak-kanak sihat masih belum cukup (NIH). | Kad naik |
+| 15–22s | CHECKLIST | Yang terbukti bantu:<br>✓ Makanan seimbang (termasuk ikan)<br>✓ Tidur cukup<br>✓ Aktiviti fizikal | Baris satu per satu |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Tiada jalan pintas untuk 'pandai' 💛 Asas tetap paling penting.
+
+Sumber: NIH ODS.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #MitosAtauFakta #AnakSihat
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Omega-3: fakta vs hype
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+OMEGA-3 & OTAK 🧠
+Fakta vs hype
+```
+
+**Slaid 2**
+
+```
+FAKTA
+DHA ialah antara lemak utama dalam otak dan retina mata.
+🟢 Terbukti (NIH)
+```
+
+**Slaid 3**
+
+```
+SUMBER
+Ikan berlemak: kembung, sardin, salmon, tenggiri.
+🟢 (NIH)
+```
+
+**Slaid 4**
+
+```
+BADAN HASILKAN SEDIKIT
+Badan hanya boleh hasilkan sedikit EPA & DHA sendiri, jadi makanan penting.
+🟢 (NIH)
+```
+
+**Slaid 5**
+
+```
+HYPE?
+Suplemen omega-3 untuk 'tingkatkan daya ingatan' orang sihat: bukti belum cukup.
+🔴 Bukti belum cukup (NIH)
+```
+
+**Slaid 6**
+
+```
+PILIHAN TERBAIK
+Makan ikan 2 kali seminggu.
+Save 🐟
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Omega-3 & otak: mana fakta, mana hype? Save 🧠
+
+Sumber: NIH Office of Dietary Supplements.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Omega3 #FaktaBukanPanik
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (160 / 500 aksara)
+
+```
+Info ringkas: DHA, sejenis omega-3, ialah antara lemak utama dalam otak dan retina mata. Sumber terbaik: ikan berlemak seperti ikan kembung dan sardin. (NIH) 🐟🧠
+```
+
+**16:00 · Pertanyaan** (140 / 500 aksara)
+
+```
+Soalan: keluarga korang makan ikan berapa kali seminggu? 🐟
+
+0️⃣ Jarang
+1️⃣ Sekali
+2️⃣ Dua kali
+3️⃣+ Selalu
+
+Momyizz tengah kejar 'dua kali'!
+```
+
+**18:30 · Tips praktikal** (226 / 500 aksara)
+
+```
+Tips anak mahu makan ikan 💡
+
+✅ Buang tulang & jadikan isi ikan dalam bubur, nasi goreng atau roti
+✅ Sardin dalam tin: jadikan inti sandwich
+✅ Goreng tepung ringan / bakar dengan sedikit kunyit
+✅ Makan bersama, anak ikut contoh
+```
+
+**21:00 · Info penting / alert** (213 / 500 aksara)
+
+```
+Info penting: sedang makan ubat cair darah atau ada masalah pendarahan? ⚠️
+
+Tanya doktor atau ahli farmasi sebelum mengambil suplemen minyak ikan / omega-3, kerana ia boleh berinteraksi dengan ubat tertentu. (NIH)
+```
+
+### 💬 WhatsApp / group tertutup: Nutrilite Omega-3 Fish Oil Plus
+
+> Ruang tertutup sahaja. Sahkan nama & kandungan semasa di amway.my. TIADA dakwaan otak / daya ingatan.
+
+```
+Hai [nama] 😊
+
+Minggu ni Momyizz kongsi pasal makanan untuk otak. Ada yang tanya, macam mana kalau keluarga jarang makan ikan?
+
+Momyizz utamakan ikan 2 kali seminggu. Untuk yang jarang makan ikan, ada pilihan pelengkap:
+*Nutrilite Omega-3 Fish Oil Plus* (sahkan nama semasa)
+• Kandungan EPA/DHA: [salin dari label]
+• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+
+Kalau sedang makan ubat (terutama ubat cair darah), tanya doktor dulu ya. 🙏 Reply "OMEGA" kalau nak tahu lebih 💛
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+- [ ] 💬 WhatsApp / group tertutup
+
+## Hari 13 · 🔥 Siri trending: Tidur, Otak & Usus · Jantung, otak & tidur: rumusan siri
+
+### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Apa yang baik untuk jantung, baik untuk otak
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 06-satin-lambai-dua-tangan.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Momyizz tunjuk 7 nota kecil di peti ais | 7 hari siri Tidur, Otak & Usus. Ini yang Momyizz belajar 🧠❤️ |
+| 3–15s | Nota: tidur, skrin, kafein | Tidur 7 jam+, skrin keluar bilik, kopi terakhir sebelum petang. |
+| 15–28s | Nota: serat, ikan, bergerak | Serat dari sayur & buah, ikan 2 kali seminggu, bergerak setiap hari. |
+| 28–40s | Momyizz ukur tekanan darah di klinik / rumah | Dan buat saringan: tekanan darah, gula, kolesterol. Banyak yang tak tahu mereka ada. |
+| 40–45s | Momyizz melambai | Terima kasih ikut siri ni 💛 Topik apa seterusnya? |
+
+**Caption video**
+
+```
+Rumusan siri Tidur, Otak & Usus. Mana satu korang dah mula buat? 👇
+
+Sumber: AHA Life's Essential 8 (2022); NHMS 2023.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #KesihatanJantung #KesihatanOtak
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Checklist saringan kesihatan tahunan
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 15-blazer-tunjuk-atas-kiri.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Bila kali terakhir korang buat saringan? 🩺 | Pop |
+| 3–9s | CHECKLIST baris 1–2 | ✓ Tekanan darah<br>✓ Gula darah | Baris muncul |
+| 9–15s | CHECKLIST baris 3–4 | ✓ Kolesterol<br>✓ Berat & ukur lilit pinggang | Baris muncul |
+| 15–22s | NOTA_TANGAN | Klinik kesihatan berdekatan boleh bantu 💛 | Tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Checklist saringan tahunan. Save & tetapkan 'bulan saringan' korang 🩺
+
+#Momyizz #Saringan #KesihatanJantung
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Nak ubah semua tabiat sekali gus? Ini kenapa selalu gagal
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 05-satin-semangat.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Nak tidur awal, makan sihat, bersenam… semua serentak? 😵 | Pop |
+| 3–9s | KAD_FAKTA | Terlalu banyak perubahan serentak = cepat penat & berhenti | Kad naik |
+| 9–16s | BIG_WORD | SATU TABIAT SEMINGGU | Pop besar |
+| 16–22s | CHECKLIST | Minggu 1: tidur 15 min awal<br>Minggu 2: telefon luar bilik<br>Minggu 3: ikan 2x | Baris satu per satu |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Satu tabiat seminggu. Perlahan tapi kekal 🌿 Korang mula dengan apa?
+
+#Momyizz #TabiatSihat #IbuBekerja
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Life's Essential 8 (AHA) versi Momyizz
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+8 PERKARA UNTUK JANTUNG & OTAK ❤️🧠
+(AHA Life's Essential 8)
+```
+
+**Slaid 2**
+
+```
+4 TABIAT
+🥗 Makan sihat
+🚶 Bergerak
+🚭 Tiada nikotin
+😴 Tidur cukup
+```
+
+**Slaid 3**
+
+```
+4 NOMBOR UNTUK DISEMAK
+⚖️ Berat badan
+🩸 Tekanan darah
+🍬 Gula darah
+🧈 Kolesterol
+```
+
+**Slaid 4**
+
+```
+MALAYSIA (NHMS 2023)
+29.2% dewasa ada darah tinggi, 33.3% kolesterol tinggi, 15.6% diabetes. Ramai tak tahu.
+```
+
+**Slaid 5**
+
+```
+TINDAKAN
+Buat saringan di klinik kesihatan, walaupun rasa sihat.
+```
+
+**Slaid 6**
+
+```
+MULA DENGAN SATU
+Pilih satu tabiat minggu ni.
+Save & kongsi ❤️
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+8 perkara untuk jantung & otak, versi ringkas. Save ❤️🧠
+
+Sumber: AHA Life's Essential 8 (2022); NHMS 2023 (KKM).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #KesihatanJantung #Saringan
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (191 / 500 aksara)
+
+```
+Info ringkas: AHA menyenaraikan 8 perkara utama untuk kesihatan jantung dan otak: makan sihat, bergerak, tiada nikotin, tidur cukup, berat badan, tekanan darah, gula darah dan kolesterol. ❤️🧠
+```
+
+**16:00 · Pertanyaan** (175 / 500 aksara)
+
+```
+Daripada 7 hari siri ni, mana satu korang dah cuba? 🙋‍♀️
+
+😴 Tidur awal
+📱 Telefon luar bilik
+☕ Kopi sebelum petang
+🥦 Tambah serat
+🐟 Ikan 2x seminggu
+
+Komen nombor emoji korang!
+```
+
+**18:30 · Tips praktikal** (232 / 500 aksara)
+
+```
+Tips buat saringan kesihatan tanpa tangguh 💡
+
+✅ Tetapkan bulan lahir sebagai 'bulan saringan' setiap tahun
+✅ Bawa sekali ibu bapa atau pasangan
+✅ Simpan keputusan dalam satu folder di telefon
+✅ Tanya doktor apa nombor sasaran korang
+```
+
+**21:00 · Info penting / alert** (193 / 500 aksara)
+
+```
+Info penting: 1 dalam 2 dewasa Malaysia yang ada kolesterol tinggi tidak tahu mereka menghidapnya (NHMS 2023). ⚠️
+
+Kolesterol tinggi biasanya tiada simptom. Satu ujian darah boleh beri jawapan.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+
+## Hari 14 · Episod 3 · Span dapur & kebersihan dapur
 
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Span yang Momyizz pegang setiap malam
 

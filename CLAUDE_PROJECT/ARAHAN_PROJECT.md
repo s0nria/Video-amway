@@ -55,3 +55,13 @@ Wajib:
 
 Format jawapan untuk setiap konten: Slot & jenis · Platform · Teks siap salin · (video) skrip babak + grafik + sticker · Senarai "PERLU SEMAK" jika ada.
 ```
+
+## Jana siri dari podcast / video trending (salin & tampal)
+```
+Ini transkrip podcast yang tengah trending: [tampal transkrip]
+
+1. Senaraikan 7–10 topik utama yang relate dengan audiens Momyizz (ibu bekerja, kesihatan keluarga, kecantikan).
+2. Untuk setiap topik: dakwaan dalam podcast, dan sama ada ia disokong sumber rasmi (KKM, WHO, NIH, CDC, jurnal) dengan label bukti. Tandakan "TIDAK DAPAT DISAHKAN" jika tiada sumber.
+3. Cadangkan siri 7 hari: setiap hari 1 video storytelling (Flow), 2 video motion grafik (tips; masalah → penyelesaian), 1 carousel 6 slaid, 4 teks (info, pertanyaan, tips, alert) dan WhatsApp tertutup jika ada produk Nutrilite yang relevan (nama PERLU SEMAK amway.my).
+Peraturan: podcast sebagai hook sahaja, jangan petik nama penceramah, fakta dari sumber rasmi, Momyizz & korang, tiada dakwaan perubatan.
+```

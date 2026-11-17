@@ -297,8 +297,8 @@ DAYS = [
  "plan": ("Ikan kembung & sardin minggu ni", "Sumber omega-3 tempatan + kajian kulit masih terhad",
           ["EPA & DHA ada dalam ikan berlemak (NIH)", "Korang makan ikan berapa kali seminggu?", "Cara masak ikan kembung / sardin yang mudah untuk anak", "makan ubat cair darah? Tanya doktor sebelum ambil omega-3"],
           "Nutrilite Omega-3 Fish Oil Plus (sahkan nama semasa) + ARTISTRY; tiada dakwaan mencerahkan")},
-{"d": 30, "ep": 10, "tema": "Refleksi 30 hari",
- "plan": ("Terima kasih 30 hari bersama korang", "10 perkara Momyizz kongsi bulan ni",
+{"d": 30, "ep": 10, "tema": "Refleksi sebulan",
+ "plan": ("Terima kasih sebulan bersama korang", "10 perkara Momyizz kongsi bulan ni",
           ["1 tabiat paling mudah untuk mula", "Bulan depan nak Momyizz kupas apa?", "Senarai semak 10 tabiat untuk bulan depan", "cara betul ambil supplemen (6 perkara)"],
           "Ikuti pelanggan: tanya pengalaman & keperluan ulang beli")},
 ]
@@ -449,3 +449,342 @@ MG_PLAN = {
  29: ("Sumber omega-3 tempatan & harganya berpatutan", "Anak tak suka ikan? Cara masak yang mudah"),
  30: ("10 tabiat bulan ni dalam 30 saat", "Hilang semangat selepas 30 hari? Pilih 1 untuk diteruskan"),
 }
+
+
+# ================================================================ SIRI TRENDING: TIDUR, OTAK & USUS
+# Diilhamkan oleh podcast tidur & otak yang tengah viral (YouTube, Ar Rasyidin Academy Ep 64).
+# Isi podcast TIDAK dapat disemak (tiada transkrip); fakta di bawah daripada sumber rasmi sahaja.
+# Jangan petik / atribusikan dakwaan kepada penceramah podcast. Siri ini dimasukkan sebagai Hari 7-13;
+# kandungan asal Hari 7-30 dianjak menjadi Hari 14-37 (lihat bahagian bawah fail).
+TREND_NOTA = "Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak."
+
+TRENDING = [
+{"d": "T1", "ep": None, "tema": "Tidur: masa otak 'membersihkan diri'",
+ "video": {"tajuk": "Ramai share podcast tidur & otak, ini yang Momyizz semak", "nota": CERITA + " " + TREND_NOTA + " Sticker: 09-kartun-terkejut-pipi.",
+  "babak": [
+   ("0–3s", "Telefon tunjuk podcast tidur & otak di FYP, Momyizz tengok sambil baring", "Podcast pasal tidur & otak ni tengah viral. Momyizz pun terus semak kajiannya 🧠"),
+   ("3–15s", "Momyizz bercakap ke kamera, bilik suram", "Kajian 2013 dalam jurnal Science: semasa tidur, ruang antara sel otak tikus membesar kira-kira 60%."),
+   ("15–28s", "Animasi air mengalir antara sel (Flow)", "Cecair otak mengalir lebih laju dan sisa seperti beta-amiloid dibersihkan lebih cepat."),
+   ("28–38s", "Momyizz letak telefon, tutup lampu", "Ini kajian haiwan. Pada manusia masih dikaji. Tapi satu benda dah jelas: tidur bukan sekadar rehat."),
+   ("38–45s", "Momyizz senyum, selimut", "Malam ni, jom tidur awal sikit 🌙 | " + DISC),
+  ],
+  "caption": "Tidur bukan sekadar rehat 🧠🌙 Siri Tidur, Otak & Usus Momyizz bermula hari ni.\n\nSumber: Xie et al. (2013), Science.\n" + DISC + "\n\n#Momyizz #Tidur #KesihatanOtak #FaktaBukanPanik"},
+ "carousel": {"tajuk": "Apa jadi pada otak semasa kita tidur",
+  "slaid": [
+   "APA JADI PADA OTAK\nsemasa kita tidur? 🧠🌙",
+   "OTAK 'MEMBERSIH'\nKajian tikus (Science, 2013): ruang antara sel otak membesar ~60% semasa tidur.\n🟠 Kajian awal (haiwan)",
+   "SISA DIBUANG LEBIH CEPAT\nAliran cecair meningkat, sisa seperti beta-amiloid dibersihkan lebih laju.\n🟠 Kajian awal",
+   "PADA MANUSIA?\nKajian pada manusia masih berjalan.\n🔵 Masih dikaji",
+   "YANG DAH JELAS\nDewasa perlu tidur 7 jam atau lebih setiap malam secara konsisten.\n🟢 Terbukti (AASM)",
+   "JADI?\nTidur cukup = sebahagian penjagaan kesihatan.\nSave & follow siri ni 🌿\n\n" + DISC,
+  ],
+  "caption": "Apa jadi pada otak semasa tidur, versi fakta 🧠\n\nSumber: Xie et al. (2013) Science; AASM/SRS (2015).\n" + DISC + "\n\n#Momyizz #Tidur #KesihatanOtak"},
+ "teks": [
+  "Info ringkas: pakar tidur (AASM) menyarankan orang dewasa tidur 7 jam atau lebih setiap malam secara konsisten. 🌙\n\nBukan sekali-sekala tidur panjang hujung minggu, tapi setiap malam.",
+  "Jujur: semalam korang tidur berapa jam? 😴\n\n😵 Kurang 5 jam\n😐 5–6 jam\n🙂 7–8 jam\n😴 Lebih 8 jam\n\nMomyizz… 6 jam. Masih belajar!",
+  "Tips mula tidur awal 15 minit 💡\n\n✅ Minggu ni, masuk tidur 15 minit lebih awal daripada biasa\n✅ Minggu depan, tambah 15 minit lagi\n✅ Set peringatan 'masa tidur' di telefon\n\nPerlahan-lahan lebih mudah daripada terus paksa tidur 2 jam awal. 🌙",
+  "Info penting: kalau korang selalu berdengkur kuat, tercungap waktu tidur, atau sangat mengantuk siang hari walaupun tidur cukup, jumpa doktor. ⚠️\n\nIni boleh jadi tanda masalah tidur seperti apnea tidur yang perlukan pemeriksaan.",
+ ]},
+
+{"d": "T2", "ep": None, "tema": "Berapa jam tidur ibu & anak",
+ "video": {"tajuk": "Revenge bedtime: masa untuk diri sendiri yang dicuri dari tidur", "nota": CERITA + " " + TREND_NOTA + " Sticker: 04-satin-tutup-mulut.",
+  "babak": [
+   ("0–3s", "Jam 12:30 malam, Momyizz scroll telefon atas katil", "Anak dah tidur. Akhirnya masa untuk Momyizz… pukul 12:30 malam 😅"),
+   ("3–15s", "Momyizz bercakap ke kamera", "Ada nama untuk ni: 'revenge bedtime'. Kita curi masa tidur untuk rasa ada masa sendiri."),
+   ("15–28s", "Pagi: Momyizz menguap, kopi kedua", "Esoknya? Penat, cepat marah, kopi dua cawan."),
+   ("28–40s", "Momyizz baca buku 15 minit pukul 10 malam", "Sekarang Momyizz cuba: 'masa sendiri' 20 minit lepas anak tidur, kemudian terus tidur."),
+   ("40–45s", "Momyizz ke kamera", "Masa sendiri penting. Tidur pun penting 💛"),
+  ],
+  "caption": "Siapa selalu 'revenge bedtime'? 🙋‍♀️ Jom cari cara lebih seimbang.\n\n#Momyizz #IbuBekerja #Tidur #SelfCare"},
+ "carousel": {"tajuk": "Berapa jam tidur ikut umur",
+  "slaid": [
+   "BERAPA JAM TIDUR?\nIkut umur, untuk satu keluarga 😴",
+   "DEWASA\n7 jam atau lebih setiap malam\n🟢 Terbukti (AASM)",
+   "KANAK-KANAK 6–12 TAHUN\n9–12 jam sehari\n🟢 (AASM, AHA)",
+   "REMAJA 13–18 TAHUN\n8–10 jam sehari\n🟢 (AASM, AHA)",
+   "TIDUR = KESIHATAN JANTUNG\nAHA (2022) memasukkan tidur dalam 8 perkara utama kesihatan jantung.",
+   "MULA MALAM NI\nSatu waktu tidur yang sama untuk semua dalam rumah.\nSave untuk keluarga 🌙\n\n" + DISC,
+  ],
+  "caption": "Berapa jam tidur yang cukup untuk ibu, ayah dan anak? Save 🌙\n\nSumber: AASM; AHA Life's Essential 8 (2022).\n" + DISC + "\n\n#Momyizz #Tidur #KesihatanKeluarga"},
+ "teks": [
+  "Info ringkas: American Heart Association (2022) memasukkan tidur sebagai salah satu daripada 8 perkara utama untuk kesihatan jantung, sama penting dengan makan, bergerak dan tekanan darah. ❤️🌙",
+  "Soalan: anak korang tidur pukul berapa malam sekolah? 🏫\n\n🕘 Sebelum 9\n🕙 9–10\n🕚 10–11\n🕛 Lepas 11\n\nKongsi kat komen, Momyizz nak tengok purata!",
+  "Tips rutin tidur anak (dan ibu sekali) 💡\n\n✅ Waktu tidur sama setiap malam, termasuk hujung minggu (lebih kurang)\n✅ Lampu dimalapkan 30 minit sebelum tidur\n✅ Tiada skrin di atas katil\n✅ Bacaan atau sembang ringan sebagai 'tanda' masa tidur",
+  "Info penting: mengantuk ketika memandu sangat berbahaya. ⚠️\n\nKalau mata berat semasa memandu, berhenti di tempat selamat dan rehat. Tingkap terbuka atau radio kuat bukan penyelesaian.",
+ ]},
+
+{"d": "T3", "ep": None, "tema": "Skrin & cahaya malam",
+ "video": {"tajuk": "Telefon tidur di luar bilik", "nota": CERITA + " " + TREND_NOTA + " Sticker: 18-blazer-semangat.",
+  "babak": [
+   ("0–3s", "Muka diterangi cahaya telefon dalam gelap", "Scroll 'sekejap je'… tiba-tiba dah pukul 1 pagi 📱"),
+   ("3–15s", "Momyizz bercakap ke kamera", "Cahaya terang pada waktu malam boleh tekan hormon melatonin, hormon yang bantu kita rasa mengantuk."),
+   ("15–28s", "Momyizz cas telefon di dapur, bukan di bilik", "Eksperimen Momyizz minggu ni: telefon dicas di luar bilik."),
+   ("28–40s", "Momyizz baca buku, lampu kuning malap", "Ganti dengan buku atau zikir. Malam ketiga, Momyizz tidur lebih cepat."),
+   ("40–45s", "Momyizz ke kamera", "Siapa berani cuba 7 hari? 🙋‍♀️"),
+  ],
+  "caption": "Cabaran 7 hari: telefon tidur di luar bilik. Join? 📱🌙\n\nSumber: Harvard Health Publishing.\n#Momyizz #Tidur #DigitalDetox"},
+ "carousel": {"tajuk": "Bilik tidur yang bantu lena",
+  "slaid": [
+   "BILIK TIDUR YANG BANTU LENA 🛏️\n4 perkara mudah",
+   "1. GELAP\nCahaya terang waktu malam boleh tekan melatonin (hormon mengantuk).\n🟢 (Harvard Health)",
+   "2. SENYAP & SELESA\nCDC: bilik tidur yang senyap, gelap, tenang dan suhu selesa.",
+   "3. TANPA SKRIN\nTutup skrin 30–60 minit sebelum tidur. Cas telefon di luar bilik.",
+   "4. KATIL UNTUK TIDUR\nElak buat kerja atau scroll atas katil supaya otak kaitkan katil dengan tidur.",
+   "MULA SATU DULU\nPilih satu perubahan malam ni.\nSave & cuba 🌙\n\n" + DISC,
+  ],
+  "caption": "4 perkara mudah untuk bilik tidur yang bantu lena. Mana satu korang nak cuba? 👇\n\nSumber: CDC; Harvard Health Publishing.\n" + DISC + "\n\n#Momyizz #Tidur #RumahSihat"},
+ "teks": [
+  "Info ringkas: cahaya terang pada waktu malam, termasuk dari skrin, boleh menekan hormon melatonin yang membantu kita rasa mengantuk. (Harvard Health Publishing) 📱🌙",
+  "Jujur: telefon korang tidur di mana malam tadi? 📱\n\n🛏️ Atas katil\n🪑 Meja sebelah katil\n🚪 Luar bilik\n\nMomyizz baru pindah ke luar bilik minggu ni!",
+  "Tips kalau telefon perlu ada di bilik (contoh: anak kecil, kerja) 💡\n\n✅ Aktifkan mod 'Jangan ganggu'\n✅ Letak telefon jauh dari katil, skrin ke bawah\n✅ Guna jam loceng biasa supaya tak perlu buka telefon pagi-pagi",
+  "Info penting untuk ibu bapa: kanak-kanak 6–12 tahun perlukan 9–12 jam tidur sehari (AASM). ⚠️\n\nSkrin di bilik tidur boleh melambatkan waktu tidur anak. Pertimbangkan 'stesen cas keluarga' di ruang tamu.",
+ ]},
+
+{"d": "T4", "ep": None, "tema": "Kafein & tidur",
+ "video": {"tajuk": "Kopi petang yang curi tidur malam", "nota": CERITA + " " + TREND_NOTA + " Sticker: 14-blazer-tutup-mulut.",
+  "babak": [
+   ("0–3s", "Kopi ais di meja kerja, jam 4 petang", "Kopi pukul 4 petang… dan tertanya kenapa susah tidur malam 🤔"),
+   ("3–15s", "Momyizz bercakap ke kamera", "Satu kajian kecil (2013): kafein yang diambil 6 jam sebelum tidur masih kurangkan tidur hampir sejam."),
+   ("15–28s", "Teks atas skrin, Momyizz terkejut", "Yang mengejutkan: peserta tak sedar pun tidur mereka terganggu. 😳"),
+   ("28–40s", "Momyizz minum air kosong / teh herba waktu petang", "Sekarang kopi terakhir Momyizz sebelum pukul 2 petang."),
+   ("40–45s", "Momyizz ke kamera", "Kopi tak salah. Masa yang penting ☕"),
+  ],
+  "caption": "Pukul berapa kopi terakhir korang hari ni? ☕👇\n\nSumber: Drake et al. (2013), J Clin Sleep Med.\n#Momyizz #Kafein #Tidur"},
+ "carousel": {"tajuk": "Kafein tersembunyi dalam minuman harian",
+  "slaid": [
+   "KAFEIN BUKAN DALAM KOPI JE ☕\nTengok senarai ni",
+   "KOPI\nSumber kafein paling biasa. Ais atau panas, sama sahaja.",
+   "TEH\nTeh tarik, teh O, teh hijau pun ada kafein.",
+   "MINUMAN LAIN\nMinuman tenaga, minuman berkola dan coklat juga ada kafein.",
+   "KAJIAN 2013\nKafein 6 jam sebelum tidur masih kurangkan tidur hampir sejam (kajian kecil, 12 orang).\n🟠 Kajian awal",
+   "PANDUAN MUDAH\nElak kafein sekurang-kurangnya 6 jam sebelum tidur.\nSave 🌙\n\n" + DISC,
+  ],
+  "caption": "Kafein tersembunyi dalam minuman harian. Save & semak cawan petang korang ☕\n\nSumber: Drake et al. (2013).\n" + DISC + "\n\n#Momyizz #Kafein #Tidur #GayaHidupSihat"},
+ "teks": [
+  "Info ringkas: kesan kafein boleh bertahan berjam-jam. Kajian 2013 mendapati kafein yang diambil 6 jam sebelum tidur masih mengurangkan tidur, dan peserta sendiri tak sedar. ☕🌙",
+  "Soalan: kopi atau teh terakhir korang biasanya pukul berapa? ☕\n\n🌅 Pagi je\n🕑 Sebelum 2 petang\n🕓 Petang\n🌙 Malam pun minum\n\nMomyizz tengah cuba 'sebelum 2 petang'!",
+  "Tips kurangkan kafein petang tanpa sakit kepala 💡\n\n✅ Kurangkan perlahan-lahan, contohnya setengah cawan dulu\n✅ Ganti cawan petang dengan air kosong atau teh herba tanpa kafein\n✅ Minum air kosong cukup sepanjang hari\n\nTerus berhenti mengejut boleh buat sesetengah orang sakit kepala.",
+  "Info penting: minuman tenaga mengandungi kafein dan sering tinggi gula. ⚠️\n\nPeriksa label sebelum minum, dan berhati-hati jika hamil, menyusu atau ada masalah jantung. Rujuk doktor jika tidak pasti.",
+ ]},
+
+{"d": "T5", "ep": None, "tema": "Usus & otak saling berhubung",
+ "video": {"tajuk": "Perut tak selesa, mood pun ikut", "nota": CERITA + " " + TREND_NOTA + " Sticker: 13-blazer-tunjuk-atas-kanan.",
+  "babak": [
+   ("0–3s", "Momyizz pegang perut, muka muram", "Pernah perasan? Perut tak selesa, mood pun ikut jatuh 😣"),
+   ("3–15s", "Animasi garisan antara otak dan usus (Flow)", "Saintis panggil ni 'paksi usus–otak': usus dan otak berhubung melalui saraf, hormon dan bakteria usus."),
+   ("15–28s", "Momyizz bercakap ke kamera", "Ada kajian awal kaitkan bakteria usus dengan mood. Tapi pada manusia, masih banyak dikaji."),
+   ("28–40s", "Pinggan: sayur, buah, kekacang, bijirin penuh", "Yang dah jelas: WHO saran serat 25 g sehari dari makanan. Ramai tak cukup."),
+   ("40–45s", "Momyizz ke kamera", "Jaga usus, mulakan dengan pinggan 🌿 | " + DISC),
+  ],
+  "caption": "Usus & otak saling berhubung 🧠🌿 Fakta, bukan hype.\n\nSumber: WHO (2023).\n" + DISC + "\n\n#Momyizz #KesihatanUsus #KesihatanOtak"},
+ "carousel": {"tajuk": "Cara capai 25 g serat sehari",
+  "slaid": [
+   "SERAT 25 g SEHARI 🌾\nCara capai tanpa susah",
+   "KENAPA?\nWHO (2023): dewasa sekurang-kurangnya 25 g serat semula jadi dari makanan sehari, dan 400 g sayur & buah.\n🟢 Terbukti",
+   "PAGI\nOat atau roti gandum penuh + buah",
+   "TENGAH HARI\nSeparuh pinggan sayur + kekacang (dal, kacang merah)",
+   "SNEK\nBuah segar (jambu, betik, pisang) atau segenggam kacang",
+   "INGAT\nTambah serat perlahan-lahan & minum air cukup supaya perut selesa.\nSave 🌿\n\n" + DISC,
+  ],
+  "caption": "Cara capai 25 g serat sehari ikut WHO. Save & cuba minggu ni 🌾\n\nSumber: WHO (2023).\n" + DISC + "\n\n#Momyizz #Serat #KesihatanUsus #PingganSihat"},
+ "teks": [
+  "Info ringkas: WHO (2023) menyarankan dewasa ambil sekurang-kurangnya 25 g serat semula jadi dari makanan sehari, bersama 400 g sayur dan buah. 🌾🥦",
+  "Soalan: hari ni korang dah makan sayur atau buah berapa hidangan? 🥗\n\n0️⃣ Belum langsung\n1️⃣–2️⃣\n3️⃣–4️⃣\n5️⃣ ke atas\n\nMomyizz baru 2. Malam ni tambah!",
+  "Tips tambah serat tanpa perut kembung 💡\n\n✅ Tambah sedikit demi sedikit, satu hidangan seminggu\n✅ Minum air kosong yang cukup\n✅ Pilih pelbagai sumber: sayur, buah, kekacang, bijirin penuh\n✅ Kunyah perlahan",
+  "Info penting: sembelit berpanjangan, perubahan tabiat buang air yang mendadak, atau darah dalam najis perlu diperiksa doktor. ⚠️\n\nJangan bergantung pada julap atau teh 'detoks' berulang kali tanpa nasihat.",
+ ],
+ "wa": {"tajuk": "Produk serat / kesihatan usus Nutrilite (PERLU SEMAK nama)", "nota": "Ruang tertutup sahaja. Nama produk serat/usus Nutrilite (kategori 'Healthy Gut' di amway.my) PERLU SEMAK sebelum hantar. Makanan tetap sumber utama serat. Tiada dakwaan kesihatan.",
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi siri Tidur, Otak & Usus. Ramai tanya macam mana nak cukupkan serat bila sibuk.\n\nMomyizz utamakan sayur, buah dan kekacang dulu. Untuk hari yang betul-betul tak cukup, ada pilihan dari Nutrilite:\n• Produk: [NAMA PRODUK — semak amway.my]\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Cara guna: [salin dari label]\n\nIni pelengkap, bukan pengganti makanan. 🙏 Nak tahu lebih? Reply \"SERAT\" 💛\n\n" + DISC}},
+
+{"d": "T6", "ep": None, "tema": "Makanan untuk otak: omega-3 & ikan tempatan",
+ "video": {"tajuk": "Ikan kembung: makanan otak yang murah", "nota": CERITA + " " + TREND_NOTA + " Sticker: 19-blazer-thumbs-up.",
+  "babak": [
+   ("0–3s", "Ikan kembung di pasar / dapur", "Makanan otak tak semestinya mahal 🐟"),
+   ("3–15s", "Momyizz bercakap ke kamera", "DHA, sejenis omega-3, ialah antara lemak utama dalam struktur otak dan mata (NIH)."),
+   ("15–28s", "Momyizz masak ikan kembung / sardin", "Sumbernya: ikan berlemak seperti ikan kembung, sardin dan salmon. Badan hanya hasilkan sedikit sendiri."),
+   ("28–40s", "Pinggan keluarga dengan ikan", "Matlamat Momyizz: ikan 2 kali seminggu untuk satu keluarga."),
+   ("40–45s", "Momyizz ke kamera", "Ikan tempatan pun dah cukup bagus 💛 | " + DISC),
+  ],
+  "caption": "Makanan otak versi bajet: ikan kembung & sardin 🐟\n\nSumber: NIH Office of Dietary Supplements.\n" + DISC + "\n\n#Momyizz #Omega3 #KesihatanOtak #IkanTempatan"},
+ "carousel": {"tajuk": "Omega-3: fakta vs hype",
+  "slaid": [
+   "OMEGA-3 & OTAK 🧠\nFakta vs hype",
+   "FAKTA\nDHA ialah antara lemak utama dalam otak dan retina mata.\n🟢 Terbukti (NIH)",
+   "SUMBER\nIkan berlemak: kembung, sardin, salmon, tenggiri.\n🟢 (NIH)",
+   "BADAN HASILKAN SEDIKIT\nBadan hanya boleh hasilkan sedikit EPA & DHA sendiri, jadi makanan penting.\n🟢 (NIH)",
+   "HYPE?\nSuplemen omega-3 untuk 'tingkatkan daya ingatan' orang sihat: bukti belum cukup.\n🔴 Bukti belum cukup (NIH)",
+   "PILIHAN TERBAIK\nMakan ikan 2 kali seminggu.\nSave 🐟\n\n" + DISC,
+  ],
+  "caption": "Omega-3 & otak: mana fakta, mana hype? Save 🧠\n\nSumber: NIH Office of Dietary Supplements.\n" + DISC + "\n\n#Momyizz #Omega3 #FaktaBukanPanik"},
+ "teks": [
+  "Info ringkas: DHA, sejenis omega-3, ialah antara lemak utama dalam otak dan retina mata. Sumber terbaik: ikan berlemak seperti ikan kembung dan sardin. (NIH) 🐟🧠",
+  "Soalan: keluarga korang makan ikan berapa kali seminggu? 🐟\n\n0️⃣ Jarang\n1️⃣ Sekali\n2️⃣ Dua kali\n3️⃣+ Selalu\n\nMomyizz tengah kejar 'dua kali'!",
+  "Tips anak mahu makan ikan 💡\n\n✅ Buang tulang & jadikan isi ikan dalam bubur, nasi goreng atau roti\n✅ Sardin dalam tin: jadikan inti sandwich\n✅ Goreng tepung ringan / bakar dengan sedikit kunyit\n✅ Makan bersama, anak ikut contoh",
+  "Info penting: sedang makan ubat cair darah atau ada masalah pendarahan? ⚠️\n\nTanya doktor atau ahli farmasi sebelum mengambil suplemen minyak ikan / omega-3, kerana ia boleh berinteraksi dengan ubat tertentu. (NIH)",
+ ],
+ "wa": {"tajuk": "Nutrilite Omega-3 Fish Oil Plus", "nota": "Ruang tertutup sahaja. Sahkan nama & kandungan semasa di amway.my. TIADA dakwaan otak / daya ingatan.",
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal makanan untuk otak. Ada yang tanya, macam mana kalau keluarga jarang makan ikan?\n\nMomyizz utamakan ikan 2 kali seminggu. Untuk yang jarang makan ikan, ada pilihan pelengkap:\n*Nutrilite Omega-3 Fish Oil Plus* (sahkan nama semasa)\n• Kandungan EPA/DHA: [salin dari label]\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n\nKalau sedang makan ubat (terutama ubat cair darah), tanya doktor dulu ya. 🙏 Reply \"OMEGA\" kalau nak tahu lebih 💛\n\n" + DISC}},
+
+{"d": "T7", "ep": None, "tema": "Jantung, otak & tidur: rumusan siri",
+ "video": {"tajuk": "Apa yang baik untuk jantung, baik untuk otak", "nota": CERITA + " " + TREND_NOTA + " Sticker: 06-satin-lambai-dua-tangan.",
+  "babak": [
+   ("0–3s", "Momyizz tunjuk 7 nota kecil di peti ais", "7 hari siri Tidur, Otak & Usus. Ini yang Momyizz belajar 🧠❤️"),
+   ("3–15s", "Nota: tidur, skrin, kafein", "Tidur 7 jam+, skrin keluar bilik, kopi terakhir sebelum petang."),
+   ("15–28s", "Nota: serat, ikan, bergerak", "Serat dari sayur & buah, ikan 2 kali seminggu, bergerak setiap hari."),
+   ("28–40s", "Momyizz ukur tekanan darah di klinik / rumah", "Dan buat saringan: tekanan darah, gula, kolesterol. Banyak yang tak tahu mereka ada."),
+   ("40–45s", "Momyizz melambai", "Terima kasih ikut siri ni 💛 Topik apa seterusnya?"),
+  ],
+  "caption": "Rumusan siri Tidur, Otak & Usus. Mana satu korang dah mula buat? 👇\n\nSumber: AHA Life's Essential 8 (2022); NHMS 2023.\n" + DISC + "\n\n#Momyizz #KesihatanJantung #KesihatanOtak"},
+ "carousel": {"tajuk": "Life's Essential 8 (AHA) versi Momyizz",
+  "slaid": [
+   "8 PERKARA UNTUK JANTUNG & OTAK ❤️🧠\n(AHA Life's Essential 8)",
+   "4 TABIAT\n🥗 Makan sihat\n🚶 Bergerak\n🚭 Tiada nikotin\n😴 Tidur cukup",
+   "4 NOMBOR UNTUK DISEMAK\n⚖️ Berat badan\n🩸 Tekanan darah\n🍬 Gula darah\n🧈 Kolesterol",
+   "MALAYSIA (NHMS 2023)\n29.2% dewasa ada darah tinggi, 33.3% kolesterol tinggi, 15.6% diabetes. Ramai tak tahu.",
+   "TINDAKAN\nBuat saringan di klinik kesihatan, walaupun rasa sihat.",
+   "MULA DENGAN SATU\nPilih satu tabiat minggu ni.\nSave & kongsi ❤️\n\n" + DISC,
+  ],
+  "caption": "8 perkara untuk jantung & otak, versi ringkas. Save ❤️🧠\n\nSumber: AHA Life's Essential 8 (2022); NHMS 2023 (KKM).\n" + DISC + "\n\n#Momyizz #KesihatanJantung #Saringan"},
+ "teks": [
+  "Info ringkas: AHA menyenaraikan 8 perkara utama untuk kesihatan jantung dan otak: makan sihat, bergerak, tiada nikotin, tidur cukup, berat badan, tekanan darah, gula darah dan kolesterol. ❤️🧠",
+  "Daripada 7 hari siri ni, mana satu korang dah cuba? 🙋‍♀️\n\n😴 Tidur awal\n📱 Telefon luar bilik\n☕ Kopi sebelum petang\n🥦 Tambah serat\n🐟 Ikan 2x seminggu\n\nKomen nombor emoji korang!",
+  "Tips buat saringan kesihatan tanpa tangguh 💡\n\n✅ Tetapkan bulan lahir sebagai 'bulan saringan' setiap tahun\n✅ Bawa sekali ibu bapa atau pasangan\n✅ Simpan keputusan dalam satu folder di telefon\n✅ Tanya doktor apa nombor sasaran korang",
+  "Info penting: 1 dalam 2 dewasa Malaysia yang ada kolesterol tinggi tidak tahu mereka menghidapnya (NHMS 2023). ⚠️\n\nKolesterol tinggi biasanya tiada simptom. Satu ujian darah boleh beri jawapan.",
+ ]},
+]
+
+MG_TREND = {
+"T1": [
+ {"tajuk": "4 tanda korang kurang tidur", "sticker": "20-blazer-terkejut-pipi", "babak": [
+   ("0–3s", "HOOK", "Tidur cukup ke sebenarnya? 4 tanda ni 😴", "Pop"),
+   ("3–8s", "CHECKLIST baris 1", "✓ Perlu kopi untuk 'hidup' setiap pagi", "Baris muncul"),
+   ("8–13s", "CHECKLIST baris 2", "✓ Mengantuk lepas makan tengah hari setiap hari", "Baris muncul"),
+   ("13–18s", "CHECKLIST baris 3", "✓ Cepat marah & susah fokus", "Baris muncul"),
+   ("18–22s", "CHECKLIST baris 4", "✓ Tidur 'ganti' panjang hujung minggu", "Baris muncul"),
+   MG_END],
+  "caption": "Berapa tanda korang ada? 👇 Dewasa perlu 7 jam+ (AASM).\n\n#Momyizz #Tidur #IbuBekerja"},
+ {"tajuk": "Mitos vs fakta: 'Tidur 5 jam dah cukup, badan dah biasa'", "sticker": "04-satin-tutup-mulut", "babak": [
+   ("0–3s", "HOOK", "\"Tidur 5 jam dah cukup, badan dah biasa.\" Betul ke?", "Pop + goyang"),
+   ("3–8s", "BIG_WORD", "MITOS ❌", "Pop besar"),
+   ("8–15s", "KAD_FAKTA + LABEL_BUKTI (Terbukti)", "Pakar tidur (AASM): dewasa perlu 7 jam atau lebih setiap malam secara konsisten.", "Kad naik"),
+   ("15–22s", "CHECKLIST", "Mula dengan:\n✓ Tidur 15 minit lebih awal\n✓ Waktu bangun yang sama", "Baris satu per satu"),
+   MG_END],
+  "caption": "Badan 'biasa' tak sama dengan badan cukup rehat 😴\n\nSumber: AASM/SRS (2015).\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #Tidur"}],
+"T2": [
+ {"tajuk": "Rutin 30 minit sebelum tidur", "sticker": "08-satin-thumbs-up", "babak": [
+   ("0–3s", "HOOK", "30 minit sebelum tidur, buat ni 🌙", "Pop"),
+   ("3–9s", "KAUNTER + teks", "30 min: malapkan lampu", "Angka kira turun"),
+   ("9–15s", "KAUNTER + teks", "20 min: telefon dicas di luar bilik", "Angka kira turun"),
+   ("15–22s", "KAUNTER + teks", "10 min: baca / zikir / sembang ringan", "Angka kira turun"),
+   MG_END],
+  "caption": "Rutin 30 minit sebelum tidur ala Momyizz 🌙 Save!\n\n#Momyizz #RutinMalam #Tidur"},
+ {"tajuk": "Anak susah tidur malam? Semak 3 perkara", "sticker": "17-blazer-panggil", "babak": [
+   ("0–3s", "HOOK", "Anak susah tidur malam? 😩", "Pop"),
+   ("3–9s", "KAD_FAKTA", "Kanak-kanak 6–12 tahun perlukan 9–12 jam tidur (AASM)", "Kad naik"),
+   ("9–15s", "CHECKLIST", "Semak:\n✓ Skrin dalam bilik?\n✓ Waktu tidur berubah-ubah?", "Baris satu per satu"),
+   ("15–22s", "CHECKLIST", "✓ Minuman manis / berkafein petang?\nUbah satu dulu 💛", "Baris muncul"),
+   MG_END],
+  "caption": "3 perkara untuk disemak bila anak susah tidur 🌙\n\nSumber: AASM.\n" + DISC + "\n\n#Momyizz #AnakSihat #Tidur"}],
+"T3": [
+ {"tajuk": "Setting telefon untuk malam", "sticker": "16-blazer-tunjuk-kanan", "babak": [
+   ("0–3s", "HOOK", "3 setting telefon yang bantu tidur 📱", "Pop"),
+   ("3–9s", "CHECKLIST baris 1", "✓ Mod 'Jangan ganggu' automatik 10 malam", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 2", "✓ Mod skrin malam / cahaya hangat", "Baris muncul"),
+   ("15–22s", "CHECKLIST baris 3 + NOTA_TANGAN", "✓ Had masa apps media sosial\nTapi paling berkesan: telefon luar bilik 😉", "Baris + tulisan tangan"),
+   MG_END],
+  "caption": "3 setting telefon untuk malam. Dah cuba? 📱🌙\n\n#Momyizz #DigitalDetox #Tidur"},
+ {"tajuk": "Dah baring tapi tak boleh lelap?", "sticker": "05-satin-semangat", "babak": [
+   ("0–3s", "HOOK", "Dah baring sejam, mata masih segar? 😳", "Pop"),
+   ("3–9s", "BIG_WORD", "JANGAN AMBIL TELEFON 📵", "Pop besar"),
+   ("9–16s", "CHECKLIST", "Cuba:\n✓ Bangun, ke ruang lain yang malap\n✓ Buat aktiviti tenang (baca buku)", "Baris satu per satu"),
+   ("16–22s", "CHECKLIST", "✓ Kembali ke katil bila mengantuk\nKerap jadi? Jumpa doktor", "Baris muncul"),
+   MG_END],
+  "caption": "Cara Momyizz bila susah lelap. Korang buat apa? 👇\n\n" + DISC + "\n\n#Momyizz #Tidur #Insomnia"}],
+"T4": [
+ {"tajuk": "Ganti kopi petang dengan ini", "sticker": "19-blazer-thumbs-up", "babak": [
+   ("0–3s", "HOOK", "Mengantuk petang tapi tak nak kopi? ☕", "Pop"),
+   ("3–9s", "CHECKLIST baris 1", "✓ Segelas air kosong sejuk", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 2", "✓ Jalan 5 minit / naik tangga", "Baris muncul"),
+   ("15–22s", "CHECKLIST baris 3", "✓ Cahaya matahari / tingkap 5 minit", "Baris muncul"),
+   MG_END],
+  "caption": "3 pengganti kopi petang. Mana satu korang pilih? 👇\n\n#Momyizz #Kafein #TipsHarian"},
+ {"tajuk": "Mitos vs fakta: 'Minum kopi malam pun boleh tidur, tak ada kesan'", "sticker": "14-blazer-tutup-mulut", "babak": [
+   ("0–3s", "HOOK", "\"Minum kopi malam pun boleh tidur, tak ada kesan.\" 🤔", "Pop"),
+   ("3–8s", "BIG_WORD", "BELUM TENTU ⚠️", "Pop besar"),
+   ("8–15s", "KAD_FAKTA + LABEL_BUKTI (Kajian awal)", "Kajian 2013: kafein 6 jam sebelum tidur kurangkan tidur hampir sejam, dan peserta tak sedar.", "Kad naik"),
+   ("15–22s", "NOTA_TANGAN", "Boleh lelap ≠ tidur berkualiti", "Tulisan tangan"),
+   MG_END],
+  "caption": "Boleh lelap tak semestinya tidur berkualiti ☕\n\nSumber: Drake et al. (2013).\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #Kafein"}],
+"T5": [
+ {"tajuk": "5 makanan tinggi serat yang mudah dapat", "sticker": "16-blazer-tunjuk-kanan", "babak": [
+   ("0–3s", "HOOK", "5 makanan serat yang ada di dapur korang 🌾", "Pop"),
+   ("3–8s", "CHECKLIST baris 1–2", "✓ Oat\n✓ Kacang dal / kacang merah", "Baris muncul"),
+   ("8–14s", "CHECKLIST baris 3–4", "✓ Jambu batu / betik\n✓ Sayur hijau (kangkung, sawi)", "Baris muncul"),
+   ("14–20s", "CHECKLIST baris 5", "✓ Roti / beras perang", "Baris muncul"),
+   ("20–22s", "NOTA_TANGAN", "Sasaran WHO: 25 g sehari", "Tulisan tangan"),
+   MG_END],
+  "caption": "5 makanan tinggi serat yang mudah dapat 🌾\n\nSumber: WHO (2023).\n#Momyizz #Serat #KesihatanUsus"},
+ {"tajuk": "Perut kembung bila mula makan sihat?", "sticker": "10-satin-terkejut-pipi", "babak": [
+   ("0–3s", "HOOK", "Mula makan sayur banyak, perut terus kembung? 😣", "Pop"),
+   ("3–9s", "KAD_FAKTA", "Punca biasa: tambah serat terlalu banyak, terlalu cepat", "Kad naik"),
+   ("9–16s", "CHECKLIST", "Penyelesaian:\n✓ Tambah perlahan, satu hidangan seminggu\n✓ Minum air cukup", "Baris satu per satu"),
+   ("16–22s", "CHECKLIST", "✓ Kunyah perlahan\nSakit berterusan? Jumpa doktor", "Baris muncul"),
+   MG_END],
+  "caption": "Perut kembung bila mula makan sihat? Ini sebabnya 🌿\n\n" + DISC + "\n\n#Momyizz #KesihatanUsus #Serat"}],
+"T6": [
+ {"tajuk": "3 cara masak ikan untuk keluarga sibuk", "sticker": "18-blazer-semangat", "babak": [
+   ("0–3s", "HOOK", "Ikan 2 kali seminggu, cara orang sibuk 🐟", "Pop"),
+   ("3–9s", "KAD_FAKTA (1)", "Ikan bakar air fryer + kunyit + garam: 15 minit", "Kad masuk"),
+   ("9–15s", "KAD_FAKTA (2)", "Sardin tin + bawang + cili: inti roti / nasi", "Kad masuk"),
+   ("15–22s", "KAD_FAKTA (3)", "Sup ikan + sayur: satu periuk untuk semua", "Kad masuk"),
+   MG_END],
+  "caption": "3 cara masak ikan untuk keluarga sibuk. Mana favourite korang? 🐟\n\n#Momyizz #IkanTempatan #Omega3"},
+ {"tajuk": "Mitos vs fakta: 'Minyak ikan buat anak terus pandai'", "sticker": "04-satin-tutup-mulut", "babak": [
+   ("0–3s", "HOOK", "\"Minyak ikan buat anak terus pandai.\" Betul ke? 🤔", "Pop"),
+   ("3–8s", "BIG_WORD", "BELUM TERBUKTI ⚠️", "Pop besar"),
+   ("8–15s", "KAD_FAKTA + LABEL_BUKTI (Bukti belum cukup)", "Bukti suplemen omega-3 untuk tingkatkan kecerdasan kanak-kanak sihat masih belum cukup (NIH).", "Kad naik"),
+   ("15–22s", "CHECKLIST", "Yang terbukti bantu:\n✓ Makanan seimbang (termasuk ikan)\n✓ Tidur cukup\n✓ Aktiviti fizikal", "Baris satu per satu"),
+   MG_END],
+  "caption": "Tiada jalan pintas untuk 'pandai' 💛 Asas tetap paling penting.\n\nSumber: NIH ODS.\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #AnakSihat"}],
+"T7": [
+ {"tajuk": "Checklist saringan kesihatan tahunan", "sticker": "15-blazer-tunjuk-atas-kiri", "babak": [
+   ("0–3s", "HOOK", "Bila kali terakhir korang buat saringan? 🩺", "Pop"),
+   ("3–9s", "CHECKLIST baris 1–2", "✓ Tekanan darah\n✓ Gula darah", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 3–4", "✓ Kolesterol\n✓ Berat & ukur lilit pinggang", "Baris muncul"),
+   ("15–22s", "NOTA_TANGAN", "Klinik kesihatan berdekatan boleh bantu 💛", "Tulisan tangan"),
+   MG_END],
+  "caption": "Checklist saringan tahunan. Save & tetapkan 'bulan saringan' korang 🩺\n\n#Momyizz #Saringan #KesihatanJantung"},
+ {"tajuk": "Nak ubah semua tabiat sekali gus? Ini kenapa selalu gagal", "sticker": "05-satin-semangat", "babak": [
+   ("0–3s", "HOOK", "Nak tidur awal, makan sihat, bersenam… semua serentak? 😵", "Pop"),
+   ("3–9s", "KAD_FAKTA", "Terlalu banyak perubahan serentak = cepat penat & berhenti", "Kad naik"),
+   ("9–16s", "BIG_WORD", "SATU TABIAT SEMINGGU", "Pop besar"),
+   ("16–22s", "CHECKLIST", "Minggu 1: tidur 15 min awal\nMinggu 2: telefon luar bilik\nMinggu 3: ikan 2x", "Baris satu per satu"),
+   MG_END],
+  "caption": "Satu tabiat seminggu. Perlahan tapi kekal 🌿 Korang mula dengan apa?\n\n#Momyizz #TabiatSihat #IbuBekerja"}],
+}
+
+# ---------------------------------------------------------------- SUSUNAN AKHIR
+# Hari 1-6 asal, kemudian siri trending (Hari 7-13), kemudian Hari 7-30 asal dianjak +7 (Hari 14-37).
+def _susun():
+    global DAYS, MG_FULL, MG_PLAN
+    asal, mgf, mgp = DAYS, dict(MG_FULL), dict(MG_PLAN)
+    baru, mgf2, mgp2 = [], {}, {}
+    for day in asal[:6]:
+        baru.append(day)
+        if day["d"] in mgf:
+            mgf2[day["d"]] = mgf[day["d"]]
+    for i, t in enumerate(TRENDING):
+        n = 7 + i
+        mgf2[n] = MG_TREND[t["d"]]
+        baru.append(dict(t, d=n))
+    for day in asal[6:]:
+        old, n = day["d"], day["d"] + len(TRENDING)
+        if old in mgf:
+            mgf2[n] = mgf[old]
+        if old in mgp:
+            mgp2[n] = mgp[old]
+        baru.append(dict(day, d=n))
+    DAYS, MG_FULL, MG_PLAN = baru, mgf2, mgp2
+
+
+_susun()

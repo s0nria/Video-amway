@@ -236,3 +236,9 @@ MASALAH = [
   "nutrilite": "Kategori 'Healthy Aging' di amway.my: PERLU SEMAK nama produk.",
   "hari": [], "kat": "Keluarga"},
 ]
+
+
+# Hari kalendar dianjak +7 mulai Hari 7 kerana siri trending Tidur, Otak & Usus (Hari 7-13).
+_TAMBAH = {1: [7, 8, 10], 11: [7, 8, 9, 10], 13: [11], 6: [12], 8: [13], 12: [8]}
+for _m in MASALAH:
+    _m["hari"] = sorted(set([h + 7 if h >= 7 else h for h in _m["hari"]] + _TAMBAH.get(_m["n"], [])))

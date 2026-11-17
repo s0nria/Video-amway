@@ -18,25 +18,25 @@ Dalam worksheet: tab **Tulis** → **20 Masalah audiens** → butang **Salin ara
 
 | # | Masalah | Kategori | Kesanggupan bayar | Hari kalendar berkaitan |
 |---|---|---|---|---|
-| 1 | Sentiasa penat, tak bertenaga sepanjang hari | Tenaga & emosi | Sangat tinggi: tenaga terus memberi kesan pada kerja, emosi dan keluarga. | 13, 14, 15 |
-| 2 | Berat badan naik, susah turun (terutama selepas bersalin) | Berat badan | Sangat tinggi: pasaran berat badan antara yang paling besar. | 4, 5, 25 |
+| 1 | Sentiasa penat, tak bertenaga sepanjang hari | Tenaga & emosi | Sangat tinggi: tenaga terus memberi kesan pada kerja, emosi dan keluarga. | 7, 8, 10, 20, 21, 22 |
+| 2 | Berat badan naik, susah turun (terutama selepas bersalin) | Berat badan | Sangat tinggi: pasaran berat badan antara yang paling besar. | 4, 5, 32 |
 | 3 | Tiada masa makan berkhasiat, selalu skip sarapan | Pemakanan | Tinggi: sanggup bayar untuk kemudahan dan masa. | 3, 4, 5, 6 |
-| 4 | Anak cerewet makan sayur dan buah | Anak | Sangat tinggi: ibu sanggup berbelanja untuk anak lebih daripada diri sendiri. | 22, 23, 24 |
-| 5 | Anak kerap selesema dan batuk, terutama musim tengkujuh | Anak | Tinggi: kos cuti, klinik dan tekanan emosi. | 22, 23 |
-| 6 | Kulit kusam, jerawat dewasa, risau penuaan awal | Kecantikan | Sangat tinggi: kecantikan antara kategori berbelanja utama wanita. | 16, 17, 18, 28, 29 |
+| 4 | Anak cerewet makan sayur dan buah | Anak | Sangat tinggi: ibu sanggup berbelanja untuk anak lebih daripada diri sendiri. | 29, 30, 31 |
+| 5 | Anak kerap selesema dan batuk, terutama musim tengkujuh | Anak | Tinggi: kos cuti, klinik dan tekanan emosi. | 29, 30 |
+| 6 | Kulit kusam, jerawat dewasa, risau penuaan awal | Kecantikan | Sangat tinggi: kecantikan antara kategori berbelanja utama wanita. | 12, 23, 24, 25, 35, 36 |
 | 7 | Risau gula tinggi / diabetes (keluarga ada sejarah) | Saringan | Tinggi, tetapi produk TIDAK boleh dijual sebagai rawatan. | 6 |
-| 8 | Kolesterol tinggi / darah tinggi | Saringan | Tinggi, tetapi mesti melalui doktor. | 28, 29 |
-| 9 | Pucat, pening, kurang zat besi | Wanita | Sederhana–tinggi. | 24 |
+| 8 | Kolesterol tinggi / darah tinggi | Saringan | Tinggi, tetapi mesti melalui doktor. | 13, 35, 36 |
+| 9 | Pucat, pening, kurang zat besi | Wanita | Sederhana–tinggi. | 31 |
 | 10 | Merancang kehamilan / persediaan hamil | Wanita | Tinggi. | - |
-| 11 | Tidur tak cukup atau tak berkualiti | Tenaga & emosi | Sederhana. | 2, 16 |
-| 12 | Stres dan burnout (kerja + rumah) | Tenaga & emosi | Sederhana (untuk masa dan kemudahan). | 9, 26 |
-| 13 | Sembelit, kembung, pencernaan tak selesa | Pemakanan | Sederhana–tinggi. | 13, 14 |
-| 14 | Kurang minum air | Pemakanan | Rendah–sederhana (botol, penapis air). | 13, 14, 15 |
-| 15 | Sakit sendi, lutut, belakang (duduk lama) | Pergerakan | Tinggi. | 25, 26, 27 |
-| 16 | Kekurangan vitamin D (kerja dalam bangunan) | Wanita | Sederhana (bila tahu). | 17 |
+| 11 | Tidur tak cukup atau tak berkualiti | Tenaga & emosi | Sederhana. | 2, 7, 8, 9, 10, 23 |
+| 12 | Stres dan burnout (kerja + rumah) | Tenaga & emosi | Sederhana (untuk masa dan kemudahan). | 8, 16, 33 |
+| 13 | Sembelit, kembung, pencernaan tak selesa | Pemakanan | Sederhana–tinggi. | 11, 20, 21 |
+| 14 | Kurang minum air | Pemakanan | Rendah–sederhana (botol, penapis air). | 20, 21, 22 |
+| 15 | Sakit sendi, lutut, belakang (duduk lama) | Pergerakan | Tinggi. | 32, 33, 34 |
+| 16 | Kekurangan vitamin D (kerja dalam bangunan) | Wanita | Sederhana (bila tahu). | 24 |
 | 17 | Rambut gugur (selepas bersalin atau stres) | Kecantikan | Tinggi. | - |
 | 18 | Mata penat kerana skrin | Gaya hidup | Sederhana. | - |
-| 19 | Keliru maklumat supplemen, takut tertipu | Kepercayaan | Tinggi: sanggup bayar untuk penasihat yang dipercayai. | 3, 6, 12 |
+| 19 | Keliru maklumat supplemen, takut tertipu | Kepercayaan | Tinggi: sanggup bayar untuk penasihat yang dipercayai. | 3, 6, 19 |
 | 20 | Risau kesihatan ibu bapa warga emas | Keluarga | Tinggi. | - |
 
 ## 1. Sentiasa penat, tak bertenaga sepanjang hari

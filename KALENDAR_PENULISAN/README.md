@@ -1,9 +1,11 @@
-# Kalendar Konten Momyizz (30 hari)
+# Kalendar Konten Momyizz
+
+**Hari 7–13: 🔥 Siri trending Tidur, Otak & Usus** (diilhamkan oleh podcast tidur & otak yang viral; fakta dari sumber rasmi sahaja). Kandungan asal dianjak ke Hari 14–37.
 
 | Fail | Isi |
 |---|---|
-| `MINGGU_1.md` | Hari 1–7: skrip video storytelling, 2 skrip motion grafik, teks carousel, 4 teks, WhatsApp + checklist |
-| `HARI_08-30.md` | Hari 8–30: rancangan setiap konten |
+| `MINGGU_1.md` | Hari 1–14 (termasuk siri trending Hari 7–13): skrip video storytelling, 2 skrip motion grafik, teks carousel, 4 teks, WhatsApp + checklist |
+| `HARI_08-30.md` | Hari 15–37: rancangan setiap konten |
 | `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |
 | `masalah_data.py` | Sumber data 20 masalah |
 | `kalendar_data.py` | Sumber data kalendar (edit di sini) |
@@ -33,27 +35,34 @@ Produk tidak muncul dalam konten awam (peraturan Amway Malaysia, `AMWAY_BRAND/BR
 | 4 | 2 | Sarapan ibu yang selalu tertinggal |  | Siap salin |
 | 5 | 2 | Persediaan malam & pelan B pagi kelam-kabut | ✓ | Siap salin |
 | 6 | 2 | Gula tersembunyi dalam minuman | ✓ | Siap salin |
-| 7 | 3 | Span dapur & kebersihan dapur | ✓ | Siap salin |
-| 8 | 3 | Papan pemotong & kain lap | ✓ | Rancangan |
-| 9 | 3 | Kesilapan dapur yang biasa |  | Rancangan |
-| 10 | 4 | Panaskan bekal dalam bekas plastik |  | Rancangan |
-| 11 | 4 | Bekal sihat ke pejabat |  | Rancangan |
-| 12 | 4 | Cara baca berita kesihatan (bahagian 2) |  | Rancangan |
-| 13 | 5 | Minum air cukup |  | Rancangan |
-| 14 | 5 | Cabaran Air 7 hari | ✓ | Rancangan |
-| 15 | 5 | Dehidrasi & letih |  | Rancangan |
-| 16 | 6 | Rutin kulit 5 minit |  | Rancangan |
-| 17 | 6 | SPF setiap hari | ✓ | Rancangan |
-| 18 | 6 | Skincare: konsisten lebih penting |  | Rancangan |
-| 19 | 7 | Air botol plastik: kajian 2024 |  | Rancangan |
-| 20 | 7 | Air minuman keluarga |  | Rancangan |
-| 21 | 7 | Rumusan siri mikroplastik |  | Rancangan |
-| 22 | 8 | Vitamin C setiap hari |  | Rancangan |
-| 23 | 8 | Mitos vitamin C | ✓ | Rancangan |
-| 24 | 8 | Vitamin C & zat besi |  | Rancangan |
-| 25 | 9 | Duduk terlalu lama |  | Rancangan |
-| 26 | 9 | Gerak bersama keluarga |  | Rancangan |
-| 27 | 9 | Kuatkan otot |  | Rancangan |
-| 28 | 10 | Kulit dari dalam |  | Rancangan |
-| 29 | 10 | Omega-3 & ikan tempatan | ✓ | Rancangan |
-| 30 | 10 | Refleksi 30 hari | ✓ | Rancangan |
+| 7 | 🔥 | Tidur: masa otak 'membersihkan diri' |  | Siap salin |
+| 8 | 🔥 | Berapa jam tidur ibu & anak |  | Siap salin |
+| 9 | 🔥 | Skrin & cahaya malam |  | Siap salin |
+| 10 | 🔥 | Kafein & tidur |  | Siap salin |
+| 11 | 🔥 | Usus & otak saling berhubung | ✓ | Siap salin |
+| 12 | 🔥 | Makanan untuk otak: omega-3 & ikan tempatan | ✓ | Siap salin |
+| 13 | 🔥 | Jantung, otak & tidur: rumusan siri |  | Siap salin |
+| 14 | 3 | Span dapur & kebersihan dapur | ✓ | Siap salin |
+| 15 | 3 | Papan pemotong & kain lap | ✓ | Rancangan |
+| 16 | 3 | Kesilapan dapur yang biasa |  | Rancangan |
+| 17 | 4 | Panaskan bekal dalam bekas plastik |  | Rancangan |
+| 18 | 4 | Bekal sihat ke pejabat |  | Rancangan |
+| 19 | 4 | Cara baca berita kesihatan (bahagian 2) |  | Rancangan |
+| 20 | 5 | Minum air cukup |  | Rancangan |
+| 21 | 5 | Cabaran Air 7 hari | ✓ | Rancangan |
+| 22 | 5 | Dehidrasi & letih |  | Rancangan |
+| 23 | 6 | Rutin kulit 5 minit |  | Rancangan |
+| 24 | 6 | SPF setiap hari | ✓ | Rancangan |
+| 25 | 6 | Skincare: konsisten lebih penting |  | Rancangan |
+| 26 | 7 | Air botol plastik: kajian 2024 |  | Rancangan |
+| 27 | 7 | Air minuman keluarga |  | Rancangan |
+| 28 | 7 | Rumusan siri mikroplastik |  | Rancangan |
+| 29 | 8 | Vitamin C setiap hari |  | Rancangan |
+| 30 | 8 | Mitos vitamin C | ✓ | Rancangan |
+| 31 | 8 | Vitamin C & zat besi |  | Rancangan |
+| 32 | 9 | Duduk terlalu lama |  | Rancangan |
+| 33 | 9 | Gerak bersama keluarga |  | Rancangan |
+| 34 | 9 | Kuatkan otot |  | Rancangan |
+| 35 | 10 | Kulit dari dalam |  | Rancangan |
+| 36 | 10 | Omega-3 & ikan tempatan | ✓ | Rancangan |
+| 37 | 10 | Refleksi sebulan | ✓ | Rancangan |
