@@ -2,7 +2,7 @@
 
 | Fail | Isi |
 |---|---|
-| `MINGGU_1.md` | Hari 1–7: skrip video, teks carousel, 4 teks, WhatsApp + checklist |
+| `MINGGU_1.md` | Hari 1–7: skrip video storytelling, 2 skrip motion grafik, teks carousel, 4 teks, WhatsApp + checklist |
 | `HARI_08-30.md` | Hari 8–30: rancangan setiap konten |
 | `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |
 | `masalah_data.py` | Sumber data 20 masalah |
@@ -13,7 +13,9 @@
 
 | Masa | Konten | Untuk | Salin ke |
 |---|---|---|---|
-| 08:30 | 🎥 Video | TikTok · Reels | CapCut / Flow (edit video) |
+| 08:30 | 🎥 Video storytelling | TikTok · Reels | Flow (video AI) + CapCut |
+| 13:30 | 🎞️ Video motion grafik: tips | TikTok · Reels | CapCut + Motion Graphics Kit |
+| 19:30 | 🎞️ Video motion grafik: masalah → penyelesaian | TikTok · Reels | CapCut + Motion Graphics Kit |
 | 12:30 | 🖼️ Carousel | Instagram · Facebook | Canva / CapCut (edit carousel) |
 | 10:00 | ✍️ Teks: info ringkas | Threads · Facebook | Post terus |
 | 16:00 | ✍️ Teks: pertanyaan | Threads · Facebook | Post terus |

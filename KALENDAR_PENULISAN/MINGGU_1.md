@@ -1,6 +1,6 @@
 # Kalendar Konten — Minggu 1 (siap salin)
 
-Setiap hari satu topik: **🎥 1 video · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.
+Setiap hari satu topik: **🎥 1 video storytelling · 🎞️ 2 video motion grafik · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.
 Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.
 Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).
 
@@ -26,6 +26,50 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 Mikroplastik: fakta, bukan panik 🌿 Siri baharu Momyizz bermula hari ni. Follow supaya tak terlepas.
 
 #Momyizz #Mikroplastik #FaktaBukanPanik #IbuBekerja
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 3 tanda botol plastik patut ditukar
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 13-blazer-tunjuk-atas-kanan.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Botol air korang dah patut tukar? 🤔 | Pop 0.3 s |
+| 3–8s | CHECKLIST baris 1 | ✓ Calar atau kusam | Baris muncul + SFX ding |
+| 8–13s | CHECKLIST baris 2 | ✓ Berbau walaupun dah dibasuh | Baris muncul |
+| 13–18s | CHECKLIST baris 3 | ✓ Retak atau melengkung | Baris muncul |
+| 18–22s | BIG_WORD | TUKAR 🔄 | Pop besar |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+3 tanda botol plastik patut ditukar. Botol korang lulus? 👇
+
+#Momyizz #Mikroplastik #TipsRumah
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: air dalam botol plastik
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | "Air dalam botol plastik semua beracun!" Betul ke? | Pop + goyang kecil |
+| 3–8s | BIG_WORD | MITOS ❌ | Pop besar |
+| 8–15s | KAD_FAKTA + LABEL_BUKTI (Bukti belum cukup) | WHO (2019): tahap mikroplastik semasa dalam air minuman belum tunjuk risiko kesihatan yang jelas. Data masih terhad. | Kad naik dari bawah |
+| 15–22s | CHECKLIST | Yang boleh buat:<br>✓ Guna botol guna semula<br>✓ Jangan isi air panas dalam botol sekali guna | Baris satu per satu |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Fakta, bukan panik 🌿
+
+Sumber: WHO (2019).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #MitosAtauFakta #Mikroplastik
 ```
 
 ### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Mikroplastik dalam 5 slaid
@@ -143,7 +187,9 @@ Jangan isi air panas ke dalamnya, dan jangan guna berulang kali sampai calar. Ka
 
 **Checklist hari ini**
 
-- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -172,6 +218,46 @@ Jangan isi air panas ke dalamnya, dan jangan guna berulang kali sampai calar. Ka
 3 langkah kecil kurangkan plastik. Mana satu korang nak cuba dulu? 👇
 
 #Momyizz #Mikroplastik #TipsRumah #GayaHidupSihat
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 3 tips supaya tak lupa bawa tumbler
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 18-blazer-semangat.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Beli tumbler cantik… tapi selalu tertinggal? 😅 | Pop |
+| 3–9s | CHECKLIST baris 1 | ✓ Letak dekat kunci kereta | Baris muncul |
+| 9–15s | CHECKLIST baris 2 | ✓ Basuh malam, terus isi untuk esok | Baris muncul |
+| 15–22s | CHECKLIST baris 3 + NOTA_TANGAN | ✓ Simpan satu lagi di pejabat<br>(pelan B!) | Baris muncul + anak panah lakaran |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Tumbler yang dibawa > tumbler yang cantik 😄 Tips korang?
+
+#Momyizz #KurangPlastik #TipsHarian
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Bekas plastik bertimbun? Susun 3 kotak
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Kabinet penuh bekas plastik? 😩 | Pop |
+| 3–9s | KAD_FAKTA (warna Sage) | KOTAK 1: GUNA<br>Masih elok, tiada calar | Kad masuk dari kiri |
+| 9–15s | KAD_FAKTA (warna Linen) | KOTAK 2: BARANG KERING<br>Calar sikit → simpan butang, alat tulis | Kad masuk dari kanan |
+| 15–22s | KAD_FAKTA (warna Kayu) | KOTAK 3: KITAR SEMULA<br>Retak, melengkung, berbau | Kad masuk dari bawah |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Susun bekas plastik dalam 3 kotak. Tak perlu membazir ♻️
+
+#Momyizz #RumahKemas #KurangPlastik
 ```
 
 ### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Plastik di rumah: tukar yang mana dulu?
@@ -281,7 +367,9 @@ Ini panduan asas kesihatan awam semasa banjir. Kongsi dengan keluarga di kawasan
 
 **Checklist hari ini**
 
-- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -310,6 +398,47 @@ Ini panduan asas kesihatan awam semasa banjir. Kongsi dengan keluarga di kawasan
 3 soalan sebelum forward berita kesihatan. Korang pernah termakan berita palsu? 👇
 
 #Momyizz #FaktaBukanPanik #BeritaPalsu
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 4 tanda berita kesihatan palsu
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 14-blazer-tutup-mulut.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Sebelum forward, tengok 4 tanda ni 🚩 | Pop |
+| 3–8s | CHECKLIST baris 1 | 🚩 Tajuk HURUF BESAR & '!!!' | Baris muncul + SFX |
+| 8–13s | CHECKLIST baris 2 | 🚩 Tiada nama kajian atau badan rasmi | Baris muncul |
+| 13–18s | CHECKLIST baris 3 | 🚩 Janji 'sembuh 100%' | Baris muncul |
+| 18–22s | CHECKLIST baris 4 | 🚩 Desak 'SHARE SEGERA' | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+4 tanda berita kesihatan palsu. Save & kongsi dengan group keluarga 📲
+
+#Momyizz #BeritaPalsu #FaktaBukanPanik
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Group keluarga kongsi berita palsu, macam mana nak tegur?
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 17-blazer-panggil.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Mak kongsi berita palsu dalam group… segan nak tegur? 😬 | Pop |
+| 3–9s | BIG_WORD | JANGAN MALUKAN 🙅‍♀️ | Pop besar |
+| 9–16s | SARI_KATA (gaya mesej chat) | "Mak, Momyizz terjumpa semakan pasal berita ni. Rupanya tak betul. Ni pautannya 😊" | Muncul macam bubble chat |
+| 16–22s | NOTA_TANGAN | Sopan + pautan semakan (sebenarnya.my) = lebih didengar | Tulisan tangan muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Tegur dengan kasih, bukan malukan 💛 Korang pernah buat?
+
+#Momyizz #BeritaPalsu #Keluarga
 ```
 
 ### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Label bukti Momyizz
@@ -411,7 +540,9 @@ Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan ke
 
 **Checklist hari ini**
 
-- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -440,6 +571,51 @@ Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan ke
 Ibu-ibu, korang pun selalu jadi orang terakhir makan? 🙋‍♀️
 
 #Momyizz #SarapanIbu #IbuBekerja #MomLife
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Sarapan di kedai? Formula 1+1+1
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Sarapan beli di kedai pun boleh seimbang 🍳 | Pop |
+| 3–8s | KAUNTER + teks | 1 protein<br>(telur, ikan, kekacang) | Angka 1 pop |
+| 8–13s | KAUNTER + teks | 1 bijirin<br>(roti bakar gandum, nasi sederhana) | Angka 1 pop |
+| 13–18s | KAUNTER + teks | 1 buah / sayur<br>(pisang, timun, ulam) | Angka 1 pop |
+| 18–22s | NOTA_TANGAN | Nasi lemak? Tambah telur & timun, kurangkan sambal 😉 | Tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Formula 1+1+1 untuk sarapan di kedai. Korang selalu order apa? 👇
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #SarapanSihat #PingganSihat
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Lapar pukul 11, terus capai snek manis?
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 05-satin-semangat.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Pukul 11 dah lapar, terus capai kuih manis? 🍩 | Pop |
+| 3–9s | KAD_FAKTA | Punca biasa: sarapan tanpa protein, atau tak sarapan langsung | Kad naik |
+| 9–15s | CHECKLIST | Penyelesaian:<br>✓ Sarapan ada protein<br>✓ Simpan snek berprotein di beg | Baris satu per satu |
+| 15–22s | CHECKLIST | Contoh snek:<br>✓ Kacang<br>✓ Telur rebus<br>✓ Yogurt tanpa gula tambahan | Baris satu per satu |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Lapar pukul 11? Cuba ni minggu ni 💪
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #SnekSihat #IbuBekerja
 ```
 
 ### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Sarapan 5 minit ibu
@@ -547,7 +723,9 @@ Kalau selalu skip makan dan banyak minum manis, buat saringan gula di klinik kes
 
 **Checklist hari ini**
 
-- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -576,6 +754,48 @@ Kalau selalu skip makan dan banyak minum manis, buat saringan gula di klinik kes
 Self-care tak semestinya spa. Kadang dia cuma sarapan sambil duduk 💛
 
 #Momyizz #RutinMalam #SarapanIbu #SelfCare
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Oat rendam semalaman: 3 bahan
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 08-satin-thumbs-up.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Sarapan siap sebelum korang bangun 😴 | Pop |
+| 3–9s | CHECKLIST baris 1 | 1️⃣ ½ cawan oat | Baris muncul |
+| 9–15s | CHECKLIST baris 2 | 2️⃣ ½ cawan susu | Baris muncul |
+| 15–20s | CHECKLIST baris 3 | 3️⃣ Buah potong (pisang, betik, beri) | Baris muncul |
+| 20–22s | NOTA_TANGAN | Tutup, simpan dalam peti semalaman ❄️ | Tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Oat rendam semalaman, 3 bahan je. Buah apa korang suka letak? 👇
+
+#Momyizz #SarapanSihat #OvernightOats
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Pagi selalu lewat? Undur 3 benda ke malam
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 12-blazer-tunjuk-kiri.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Pagi selalu kelam-kabut & lewat? ⏰ | Pop |
+| 3–8s | BIG_WORD | UNDUR KE MALAM 🌙 | Pop besar |
+| 8–13s | CHECKLIST baris 1 | ✓ Baju kerja & baju sekolah | Baris muncul |
+| 13–18s | CHECKLIST baris 2 | ✓ Beg & dokumen tepi pintu | Baris muncul |
+| 18–22s | CHECKLIST baris 3 | ✓ Bekal dalam peti, siap ambil | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+3 benda yang Momyizz undur ke malam. Pagi jadi lebih tenang 🌿
+
+#Momyizz #RutinMalam #IbuBekerja
 ```
 
 ### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Pelan B bila pagi tak ikut rancangan
@@ -704,7 +924,9 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 **Checklist hari ini**
 
-- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -734,6 +956,50 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Minuman manis mana paling susah korang nak kurangkan? 👇
 
 #Momyizz #KurangManis #GayaHidupSihat
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Tukar minuman manis kepada pilihan lebih baik
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Tak perlu berhenti terus. Tukar sikit-sikit 🔄 | Pop |
+| 3–9s | KAD_FAKTA (2 lajur) | Teh tarik → Teh O kurang manis | Anak panah bergerak |
+| 9–15s | KAD_FAKTA (2 lajur) | Air kotak → Air kosong + hirisan limau | Anak panah bergerak |
+| 15–22s | KAD_FAKTA (2 lajur) | Air bergas manis → Air berkarbonat tanpa gula | Anak panah bergerak |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+3 tukaran minuman yang mudah. Mana satu korang nak cuba? 👇
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #KurangManis #GayaHidupSihat
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Anak minta air manis setiap hari?
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 03-satin-tunjuk-atas.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Anak minta air manis setiap hari? 🧃 | Pop |
+| 3–9s | CHECKLIST baris 1 | ✓ Kurangkan stok di rumah (tiada = tak minta) | Baris muncul |
+| 9–15s | CHECKLIST baris 2 | ✓ Air kosong dalam botol kegemaran anak | Baris muncul |
+| 15–22s | CHECKLIST baris 3 + NOTA_TANGAN | ✓ Air manis untuk 'hari istimewa'<br>Ibu ayah jadi contoh 💛 | Baris muncul + tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Cara Momyizz kurangkan air manis anak tanpa bergaduh 😅
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #AnakSihat #KurangManis
 ```
 
 ### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Cara baca label gula
@@ -853,7 +1119,9 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 
 **Checklist hari ini**
 
-- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -883,6 +1151,46 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 Bila kali terakhir korang tukar span? Jujur je kat komen 😂
 
 Sumber: Cardinale et al. (2017).
+
+#Momyizz #DapurBersih #TipsRumah
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Jadual bersih dapur: harian, mingguan, bulanan
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 15-blazer-tunjuk-atas-kiri.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Dapur bersih tanpa penat sehari suntuk ✨ | Pop |
+| 3–9s | KAD_FAKTA (label HARIAN) | Lap meja · keringkan span · buang sampah basah | Kad masuk |
+| 9–15s | KAD_FAKTA (label MINGGUAN) | Tukar span · basuh kain lap · lap pemegang peti | Kad masuk |
+| 15–22s | KAD_FAKTA (label BULANAN) | Bersih dalam peti · buang barang tamat tarikh | Kad masuk |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Jadual bersih dapur ringkas. Save & tampal dekat peti 📌
+
+#Momyizz #DapurBersih #TipsRumah
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Dapur cepat berbau? Ini puncanya
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 20-blazer-terkejut-pipi.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Dapur cepat berbau walaupun dah kemas? 😷 | Pop |
+| 3–9s | KAD_FAKTA | Punca biasa: sampah basah, sinki lembap, span lama, kain lap basah | Kad naik |
+| 9–16s | CHECKLIST | Penyelesaian:<br>✓ Buang sampah basah setiap hari<br>✓ Keringkan sinki selepas guna | Baris satu per satu |
+| 16–22s | CHECKLIST | ✓ Tukar span berkala<br>✓ Jemur kain lap sampai kering | Baris satu per satu |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Dapur berbau selalunya bukan sebab tak kemas, tapi sebab lembap 💧
 
 #Momyizz #DapurBersih #TipsRumah
 ```
@@ -1011,7 +1319,9 @@ Kalau berminat, reply "NAK", Momyizz uruskan. 💛
 
 **Checklist hari ini**
 
-- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook

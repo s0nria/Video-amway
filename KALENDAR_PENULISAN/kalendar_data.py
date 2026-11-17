@@ -4,7 +4,8 @@
 Edit fail ini, kemudian jalankan:  python3 KALENDAR_PENULISAN/bina.py
 
 Format setiap hari (DISAHKAN pengguna, pilihan A): SATU topik, isi berbeza untuk setiap konten.
-  video     08:30  🎥 Untuk VIDEO (TikTok / Reels)   -> skrip babak + teks atas skrin + caption
+  video     08:30  🎥 Video STORYTELLING (TikTok / Reels, Flow AI) -> skrip babak + teks atas skrin + caption
+  MG_FULL   13:30 / 19:30  🎞️ 2 video MOTION GRAFIK (tips; masalah -> penyelesaian) -> lihat bawah fail
   carousel  12:30  🖼️ Untuk CAROUSEL (Instagram / Facebook) -> teks setiap slaid + caption
   teks      4 post ✍️ TEKS SAHAJA (Threads / Facebook) -> salin & post terus (<= 500 aksara)
             10:00 Info ringkas · 16:00 Pertanyaan · 18:30 Tips praktikal · 21:00 Info penting / alert
@@ -301,3 +302,150 @@ DAYS = [
           ["1 tabiat paling mudah untuk mula", "Bulan depan nak Momyizz kupas apa?", "Senarai semak 10 tabiat untuk bulan depan", "cara betul ambil supplemen (6 perkara)"],
           "Ikuti pelanggan: tanya pengalaman & keperluan ulang beli")},
 ]
+
+
+# ================================================================ VIDEO MOTION GRAFIK (2 sehari)
+# Dibina dalam CapCut guna komponen TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md. Tiada rakaman diperlukan.
+# Babak: (masa, komponen kit, teks atas skrin, animasi)
+MG_INFO = [("13:30", "Tips"), ("19:30", "Masalah → penyelesaian")]
+MG_END = ("22–25s", "PENAFIAN + STICKER", "Save & follow Momyizz 🌿\n" + DISC, "Fade masuk, sticker pop")
+
+MG_FULL = {
+1: [
+ {"tajuk": "3 tanda botol plastik patut ditukar", "sticker": "13-blazer-tunjuk-atas-kanan", "babak": [
+   ("0–3s", "HOOK", "Botol air korang dah patut tukar? 🤔", "Pop 0.3 s"),
+   ("3–8s", "CHECKLIST baris 1", "✓ Calar atau kusam", "Baris muncul + SFX ding"),
+   ("8–13s", "CHECKLIST baris 2", "✓ Berbau walaupun dah dibasuh", "Baris muncul"),
+   ("13–18s", "CHECKLIST baris 3", "✓ Retak atau melengkung", "Baris muncul"),
+   ("18–22s", "BIG_WORD", "TUKAR 🔄", "Pop besar"),
+   MG_END],
+  "caption": "3 tanda botol plastik patut ditukar. Botol korang lulus? 👇\n\n#Momyizz #Mikroplastik #TipsRumah"},
+ {"tajuk": "Mitos vs fakta: air dalam botol plastik", "sticker": "04-satin-tutup-mulut", "babak": [
+   ("0–3s", "HOOK", "\"Air dalam botol plastik semua beracun!\" Betul ke?", "Pop + goyang kecil"),
+   ("3–8s", "BIG_WORD", "MITOS ❌", "Pop besar"),
+   ("8–15s", "KAD_FAKTA + LABEL_BUKTI (Bukti belum cukup)", "WHO (2019): tahap mikroplastik semasa dalam air minuman belum tunjuk risiko kesihatan yang jelas. Data masih terhad.", "Kad naik dari bawah"),
+   ("15–22s", "CHECKLIST", "Yang boleh buat:\n✓ Guna botol guna semula\n✓ Jangan isi air panas dalam botol sekali guna", "Baris satu per satu"),
+   MG_END],
+  "caption": "Fakta, bukan panik 🌿\n\nSumber: WHO (2019).\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #Mikroplastik"}],
+2: [
+ {"tajuk": "3 tips supaya tak lupa bawa tumbler", "sticker": "18-blazer-semangat", "babak": [
+   ("0–3s", "HOOK", "Beli tumbler cantik… tapi selalu tertinggal? 😅", "Pop"),
+   ("3–9s", "CHECKLIST baris 1", "✓ Letak dekat kunci kereta", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 2", "✓ Basuh malam, terus isi untuk esok", "Baris muncul"),
+   ("15–22s", "CHECKLIST baris 3 + NOTA_TANGAN", "✓ Simpan satu lagi di pejabat\n(pelan B!)", "Baris muncul + anak panah lakaran"),
+   MG_END],
+  "caption": "Tumbler yang dibawa > tumbler yang cantik 😄 Tips korang?\n\n#Momyizz #KurangPlastik #TipsHarian"},
+ {"tajuk": "Bekas plastik bertimbun? Susun 3 kotak", "sticker": "19-blazer-thumbs-up", "babak": [
+   ("0–3s", "HOOK", "Kabinet penuh bekas plastik? 😩", "Pop"),
+   ("3–9s", "KAD_FAKTA (warna Sage)", "KOTAK 1: GUNA\nMasih elok, tiada calar", "Kad masuk dari kiri"),
+   ("9–15s", "KAD_FAKTA (warna Linen)", "KOTAK 2: BARANG KERING\nCalar sikit → simpan butang, alat tulis", "Kad masuk dari kanan"),
+   ("15–22s", "KAD_FAKTA (warna Kayu)", "KOTAK 3: KITAR SEMULA\nRetak, melengkung, berbau", "Kad masuk dari bawah"),
+   MG_END],
+  "caption": "Susun bekas plastik dalam 3 kotak. Tak perlu membazir ♻️\n\n#Momyizz #RumahKemas #KurangPlastik"}],
+3: [
+ {"tajuk": "4 tanda berita kesihatan palsu", "sticker": "14-blazer-tutup-mulut", "babak": [
+   ("0–3s", "HOOK", "Sebelum forward, tengok 4 tanda ni 🚩", "Pop"),
+   ("3–8s", "CHECKLIST baris 1", "🚩 Tajuk HURUF BESAR & '!!!'", "Baris muncul + SFX"),
+   ("8–13s", "CHECKLIST baris 2", "🚩 Tiada nama kajian atau badan rasmi", "Baris muncul"),
+   ("13–18s", "CHECKLIST baris 3", "🚩 Janji 'sembuh 100%'", "Baris muncul"),
+   ("18–22s", "CHECKLIST baris 4", "🚩 Desak 'SHARE SEGERA'", "Baris muncul"),
+   MG_END],
+  "caption": "4 tanda berita kesihatan palsu. Save & kongsi dengan group keluarga 📲\n\n#Momyizz #BeritaPalsu #FaktaBukanPanik"},
+ {"tajuk": "Group keluarga kongsi berita palsu, macam mana nak tegur?", "sticker": "17-blazer-panggil", "babak": [
+   ("0–3s", "HOOK", "Mak kongsi berita palsu dalam group… segan nak tegur? 😬", "Pop"),
+   ("3–9s", "BIG_WORD", "JANGAN MALUKAN 🙅‍♀️", "Pop besar"),
+   ("9–16s", "SARI_KATA (gaya mesej chat)", "\"Mak, Momyizz terjumpa semakan pasal berita ni. Rupanya tak betul. Ni pautannya 😊\"", "Muncul macam bubble chat"),
+   ("16–22s", "NOTA_TANGAN", "Sopan + pautan semakan (sebenarnya.my) = lebih didengar", "Tulisan tangan muncul"),
+   MG_END],
+  "caption": "Tegur dengan kasih, bukan malukan 💛 Korang pernah buat?\n\n#Momyizz #BeritaPalsu #Keluarga"}],
+4: [
+ {"tajuk": "Sarapan di kedai? Formula 1+1+1", "sticker": "16-blazer-tunjuk-kanan", "babak": [
+   ("0–3s", "HOOK", "Sarapan beli di kedai pun boleh seimbang 🍳", "Pop"),
+   ("3–8s", "KAUNTER + teks", "1 protein\n(telur, ikan, kekacang)", "Angka 1 pop"),
+   ("8–13s", "KAUNTER + teks", "1 bijirin\n(roti bakar gandum, nasi sederhana)", "Angka 1 pop"),
+   ("13–18s", "KAUNTER + teks", "1 buah / sayur\n(pisang, timun, ulam)", "Angka 1 pop"),
+   ("18–22s", "NOTA_TANGAN", "Nasi lemak? Tambah telur & timun, kurangkan sambal 😉", "Tulisan tangan"),
+   MG_END],
+  "caption": "Formula 1+1+1 untuk sarapan di kedai. Korang selalu order apa? 👇\n\n" + DISC + "\n\n#Momyizz #SarapanSihat #PingganSihat"},
+ {"tajuk": "Lapar pukul 11, terus capai snek manis?", "sticker": "05-satin-semangat", "babak": [
+   ("0–3s", "HOOK", "Pukul 11 dah lapar, terus capai kuih manis? 🍩", "Pop"),
+   ("3–9s", "KAD_FAKTA", "Punca biasa: sarapan tanpa protein, atau tak sarapan langsung", "Kad naik"),
+   ("9–15s", "CHECKLIST", "Penyelesaian:\n✓ Sarapan ada protein\n✓ Simpan snek berprotein di beg", "Baris satu per satu"),
+   ("15–22s", "CHECKLIST", "Contoh snek:\n✓ Kacang\n✓ Telur rebus\n✓ Yogurt tanpa gula tambahan", "Baris satu per satu"),
+   MG_END],
+  "caption": "Lapar pukul 11? Cuba ni minggu ni 💪\n\n" + DISC + "\n\n#Momyizz #SnekSihat #IbuBekerja"}],
+5: [
+ {"tajuk": "Oat rendam semalaman: 3 bahan", "sticker": "08-satin-thumbs-up", "babak": [
+   ("0–3s", "HOOK", "Sarapan siap sebelum korang bangun 😴", "Pop"),
+   ("3–9s", "CHECKLIST baris 1", "1️⃣ ½ cawan oat", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 2", "2️⃣ ½ cawan susu", "Baris muncul"),
+   ("15–20s", "CHECKLIST baris 3", "3️⃣ Buah potong (pisang, betik, beri)", "Baris muncul"),
+   ("20–22s", "NOTA_TANGAN", "Tutup, simpan dalam peti semalaman ❄️", "Tulisan tangan"),
+   MG_END],
+  "caption": "Oat rendam semalaman, 3 bahan je. Buah apa korang suka letak? 👇\n\n#Momyizz #SarapanSihat #OvernightOats"},
+ {"tajuk": "Pagi selalu lewat? Undur 3 benda ke malam", "sticker": "12-blazer-tunjuk-kiri", "babak": [
+   ("0–3s", "HOOK", "Pagi selalu kelam-kabut & lewat? ⏰", "Pop"),
+   ("3–8s", "BIG_WORD", "UNDUR KE MALAM 🌙", "Pop besar"),
+   ("8–13s", "CHECKLIST baris 1", "✓ Baju kerja & baju sekolah", "Baris muncul"),
+   ("13–18s", "CHECKLIST baris 2", "✓ Beg & dokumen tepi pintu", "Baris muncul"),
+   ("18–22s", "CHECKLIST baris 3", "✓ Bekal dalam peti, siap ambil", "Baris muncul"),
+   MG_END],
+  "caption": "3 benda yang Momyizz undur ke malam. Pagi jadi lebih tenang 🌿\n\n#Momyizz #RutinMalam #IbuBekerja"}],
+6: [
+ {"tajuk": "Tukar minuman manis kepada pilihan lebih baik", "sticker": "19-blazer-thumbs-up", "babak": [
+   ("0–3s", "HOOK", "Tak perlu berhenti terus. Tukar sikit-sikit 🔄", "Pop"),
+   ("3–9s", "KAD_FAKTA (2 lajur)", "Teh tarik → Teh O kurang manis", "Anak panah bergerak"),
+   ("9–15s", "KAD_FAKTA (2 lajur)", "Air kotak → Air kosong + hirisan limau", "Anak panah bergerak"),
+   ("15–22s", "KAD_FAKTA (2 lajur)", "Air bergas manis → Air berkarbonat tanpa gula", "Anak panah bergerak"),
+   MG_END],
+  "caption": "3 tukaran minuman yang mudah. Mana satu korang nak cuba? 👇\n\n" + DISC + "\n\n#Momyizz #KurangManis #GayaHidupSihat"},
+ {"tajuk": "Anak minta air manis setiap hari?", "sticker": "03-satin-tunjuk-atas", "babak": [
+   ("0–3s", "HOOK", "Anak minta air manis setiap hari? 🧃", "Pop"),
+   ("3–9s", "CHECKLIST baris 1", "✓ Kurangkan stok di rumah (tiada = tak minta)", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 2", "✓ Air kosong dalam botol kegemaran anak", "Baris muncul"),
+   ("15–22s", "CHECKLIST baris 3 + NOTA_TANGAN", "✓ Air manis untuk 'hari istimewa'\nIbu ayah jadi contoh 💛", "Baris muncul + tulisan tangan"),
+   MG_END],
+  "caption": "Cara Momyizz kurangkan air manis anak tanpa bergaduh 😅\n\n" + DISC + "\n\n#Momyizz #AnakSihat #KurangManis"}],
+7: [
+ {"tajuk": "Jadual bersih dapur: harian, mingguan, bulanan", "sticker": "15-blazer-tunjuk-atas-kiri", "babak": [
+   ("0–3s", "HOOK", "Dapur bersih tanpa penat sehari suntuk ✨", "Pop"),
+   ("3–9s", "KAD_FAKTA (label HARIAN)", "Lap meja · keringkan span · buang sampah basah", "Kad masuk"),
+   ("9–15s", "KAD_FAKTA (label MINGGUAN)", "Tukar span · basuh kain lap · lap pemegang peti", "Kad masuk"),
+   ("15–22s", "KAD_FAKTA (label BULANAN)", "Bersih dalam peti · buang barang tamat tarikh", "Kad masuk"),
+   MG_END],
+  "caption": "Jadual bersih dapur ringkas. Save & tampal dekat peti 📌\n\n#Momyizz #DapurBersih #TipsRumah"},
+ {"tajuk": "Dapur cepat berbau? Ini puncanya", "sticker": "20-blazer-terkejut-pipi", "babak": [
+   ("0–3s", "HOOK", "Dapur cepat berbau walaupun dah kemas? 😷", "Pop"),
+   ("3–9s", "KAD_FAKTA", "Punca biasa: sampah basah, sinki lembap, span lama, kain lap basah", "Kad naik"),
+   ("9–16s", "CHECKLIST", "Penyelesaian:\n✓ Buang sampah basah setiap hari\n✓ Keringkan sinki selepas guna", "Baris satu per satu"),
+   ("16–22s", "CHECKLIST", "✓ Tukar span berkala\n✓ Jemur kain lap sampai kering", "Baris satu per satu"),
+   MG_END],
+  "caption": "Dapur berbau selalunya bukan sebab tak kemas, tapi sebab lembap 💧\n\n#Momyizz #DapurBersih #TipsRumah"}],
+}
+
+# Idea motion grafik hari 8-30: (tips, masalah -> penyelesaian)
+MG_PLAN = {
+ 8: ("Cara basuh papan pemotong ikut jenis (kayu vs plastik)", "Ayam mentah & sayur guna papan sama? Penyelesaian: kod warna"),
+ 9: ("4 kesilapan simpan makanan dalam peti", "Lauk lebih semalaman di atas meja? Sejukkan & simpan dalam 2 jam"),
+ 10: ("Cara baca simbol pada bekas plastik", "Bekal berkuah tumpah dalam beg? Pilih bekas & cara susun"),
+ 11: ("Bekal seimbang dalam 1 bekas (formula ½ ¼ ¼)", "Bosan bekal sama setiap hari? Putaran 5 menu"),
+ 12: ("Beza kajian makmal, haiwan dan manusia", "Tajuk viral buat panik? 3 langkah bertenang"),
+ 13: ("Tanda badan kurang air", "Lupa minum bila sibuk? Ikat minum dengan rutin sedia ada"),
+ 14: ("Kira gelas air sehari dengan trick solat", "Tak suka air kosong? Tambah buah / herba segar"),
+ 15: ("Air dalam makanan: buah & sup yang membantu", "Letih petang? Semak 4 punca biasa"),
+ 16: ("Urutan cuci muka malam yang betul (AAD)", "Terlalu penat nak cuci muka? Versi 60 saat"),
+ 17: ("Berapa banyak SPF patut disapu", "Rasa SPF melekit? Cara pilih tekstur ikut jenis kulit"),
+ 18: ("Rutin 3 langkah pagi vs malam", "Kulit naik selepas cuba produk baru? Patch test"),
+ 19: ("Tempat simpan air botol yang betul", "Air botol tertinggal dalam kereta panas? Apa patut buat"),
+ 20: ("Bila tukar kartrij penapis air", "Air paip keruh selepas hujan lebat? Didih & tunggu jernih"),
+ 21: ("Rumusan 4 langkah kurangkan plastik", "Rasa terbeban nak ubah semua? Satu tabiat seminggu"),
+ 22: ("Buah tempatan tinggi vitamin C (jambu, betik, oren)", "Buah cepat rosak? Cara simpan supaya tahan"),
+ 23: ("Mitos vs fakta: vitamin C & selesema", "Anak tak suka buah? 3 cara hidang yang menarik"),
+ 24: ("Gandingan makanan bantu serap zat besi", "Minum teh sejurus lepas makan? Jarakkan 1 jam"),
+ 25: ("Kira minit bergerak seminggu (WHO 150 minit)", "Tiada masa bersenam? Pecahkan kepada 10 minit"),
+ 26: ("5 cara gerak sambil buat kerja rumah", "Anak asyik skrin? Aktiviti gerak satu keluarga"),
+ 27: ("3 latihan otot tanpa alat", "Lutut sakit bila squat? Versi lebih mudah & bila jumpa doktor"),
+ 28: ("Pinggan Glowing: susun ikut warna", "Skincare banyak tapi kusam? Semak 4 tabiat asas"),
+ 29: ("Sumber omega-3 tempatan & harganya berpatutan", "Anak tak suka ikan? Cara masak yang mudah"),
+ 30: ("10 tabiat bulan ni dalam 30 saat", "Hilang semangat selepas 30 hari? Pilih 1 untuk diteruskan"),
+}

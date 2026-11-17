@@ -11,7 +11,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
-from kalendar_data import DAYS, JENIS_TEKS  # noqa: E402
+from kalendar_data import DAYS, JENIS_TEKS, MG_FULL, MG_PLAN, MG_INFO  # noqa: E402
 from masalah_data import MASALAH, CARA_BETUL, SUMBER  # noqa: E402
 
 LIMIT_TH, LIMIT_IG, LIMIT_SLAID = 500, 2200, 260
@@ -45,7 +45,19 @@ def check():
             for f in ("video", "carousel"):
                 if len(day[f]["caption"]) > LIMIT_IG:
                     errs.append(f"{tag}: caption {f} terlalu panjang")
-        for t in _strings(day):
+        if "video" in day:
+            mg = MG_FULL.get(day["d"])
+            if not mg or len(mg) != len(MG_INFO):
+                errs.append(f"{tag}: perlu {len(MG_INFO)} video motion grafik dalam MG_FULL")
+            else:
+                for i, v in enumerate(mg, 1):
+                    if not 4 <= len(v["babak"]) <= 7:
+                        errs.append(f"{tag}: motion grafik {i} perlu 4–7 babak")
+                    if len(v["caption"]) > LIMIT_IG:
+                        errs.append(f"{tag}: caption motion grafik {i} terlalu panjang")
+        elif day["d"] not in MG_PLAN:
+            errs.append(f"{tag}: tiada idea motion grafik dalam MG_PLAN")
+        for t in list(_strings(day)) + list(_strings(MG_FULL.get(day["d"], []))) + list(_strings(MG_PLAN.get(day["d"], ()))):
             m = BANNED.search(t)
             if m:
                 errs.append(f"{tag}: guna '{m.group(0)}' (guna Momyizz / korang)")
@@ -103,10 +115,14 @@ def to_json():
             d["teks"] = [{"masa": m, "jenis": j, "t": t} for (m, j), t in zip(JENIS_TEKS, day["teks"])]
             if day.get("wa"):
                 d["wa"] = day["wa"]
+            d["mg"] = [{"masa": m, "jenis": j, "tajuk": v["tajuk"], "sticker": v["sticker"],
+                        "babak": [list(b) for b in v["babak"]], "caption": v["caption"]}
+                       for (m, j), v in zip(MG_INFO, MG_FULL[day["d"]])]
         else:
             vid, car, teks, wa = day["plan"]
             assert len(teks) == len(JENIS_TEKS), f"Hari {day['d']}: perlu {len(JENIS_TEKS)} idea teks"
-            d["plan"] = {"video": vid, "carousel": car, "teks": [{"masa": m, "jenis": j, "idea": t} for (m, j), t in zip(JENIS_TEKS, teks)], "wa": wa}
+            d["plan"] = {"mg": [{"masa": m, "jenis": j, "idea": x} for (m, j), x in zip(MG_INFO, MG_PLAN[day["d"]])],
+                         "video": vid, "carousel": car, "teks": [{"masa": m, "jenis": j, "idea": t} for (m, j), t in zip(JENIS_TEKS, teks)], "wa": wa}
         out.append(d)
     return out
 
@@ -123,7 +139,7 @@ def carousel_text(c):
 
 def md_week1(days):
     L = ["# Kalendar Konten — Minggu 1 (siap salin)", "",
-         "Setiap hari satu topik: **🎥 1 video · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.",
+         "Setiap hari satu topik: **🎥 1 video storytelling · 🎞️ 2 video motion grafik · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.",
          "Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.",
          "Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).", ""]
     for day in days:
@@ -137,7 +153,15 @@ def md_week1(days):
             L += [f"> {v['nota']}", ""]
         L += ["| Masa | Visual | Teks atas skrin / suara |", "|---|---|---|"]
         L += [f"| {b[0]} | {b[1]} | {b[2]} |" for b in v["babak"]]
-        L += ["", "**Caption video**", "", "```", v["caption"], "```", "",
+        L += ["", "**Caption video**", "", "```", v["caption"], "```", ""]
+        for g in day["mg"]:
+            L += [f"### 🎞️ {g['masa']} · UNTUK VIDEO MOTION GRAFIK ({g['jenis']}): {g['tajuk']}", "",
+                  "> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. "
+                  f"Sticker: {g['sticker']}.", "",
+                  "| Masa | Komponen kit | Teks atas skrin | Animasi |", "|---|---|---|---|"]
+            L += [f"| {b[0]} | {b[1]} | {b[2].replace(chr(10), '<br>')} | {b[3]} |" for b in g["babak"]]
+            L += ["", "**Caption**", "", "```", g["caption"], "```", ""]
+        L += [
               f"### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): {c['tajuk']}", "",
               "> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.", ""]
         for i, t in enumerate(c["slaid"], 1):
@@ -150,7 +174,7 @@ def md_week1(days):
             w = day["wa"]
             L += [f"### 💬 WhatsApp / group tertutup: {w['tajuk']}", "", f"> {w['nota']}", "", "```", w["t"], "```", ""]
         L += ["**Checklist hari ini**", "",
-              "- [ ] 🎥 Video: TikTok · Reels",
+              "- [ ] 🎥 Video storytelling: TikTok · Reels"] + [f"- [ ] 🎞️ Motion grafik {g['jenis']}: TikTok · Reels" for g in day["mg"]] + [
               "- [ ] 🖼️ Carousel: Instagram · Facebook"]
         L += [f"- [ ] ✍️ {t['masa']} {t['jenis']}: Threads · Facebook" for t in day["teks"]]
         if day.get("wa"):
@@ -161,14 +185,16 @@ def md_week1(days):
 
 def md_plan(days):
     L = ["# Kalendar Konten — Hari 8 hingga 30 (rancangan)", "",
-         "Format sama seperti Minggu 1: 🎥 video · 🖼️ carousel · ✍️ 4 teks (+ 💬 WhatsApp).",
+         "Format sama seperti Minggu 1: 🎥 video storytelling · 🎞️ 2 motion grafik · 🖼️ carousel · ✍️ 4 teks (+ 💬 WhatsApp).",
          "Teks penuh dijana dengan Claude: tab **Tulis** → pilih hari → **Salin arahan untuk Claude** → tampal dalam Claude Project.", ""]
     for day in days:
         if "plan" not in day:
             continue
         p = day["plan"]
         L += [f"## Hari {day['d']} · Episod {day['ep']} · {day['tema']}", "",
-              f"- 🎥 **Video (08:30):** {p['video']}",
+              f"- 🎥 **Video storytelling (08:30, Flow AI):** {p['video']}"]
+        L += [f"- 🎞️ **Motion grafik {g['masa']} · {g['jenis']}:** {g['idea']}" for g in p["mg"]]
+        L += [
               f"- 🖼️ **Carousel (12:30):** {p['carousel']}"]
         L += [f"- ✍️ **Teks {t['masa']} · {t['jenis']}:** {t['idea']}" for t in p["teks"]]
         if p["wa"]:
@@ -180,7 +206,7 @@ def md_plan(days):
 def md_index(days):
     L = ["# Kalendar Konten Momyizz (30 hari)", "",
          "| Fail | Isi |", "|---|---|",
-         "| `MINGGU_1.md` | Hari 1–7: skrip video, teks carousel, 4 teks, WhatsApp + checklist |",
+         "| `MINGGU_1.md` | Hari 1–7: skrip video storytelling, 2 skrip motion grafik, teks carousel, 4 teks, WhatsApp + checklist |",
          "| `HARI_08-30.md` | Hari 8–30: rancangan setiap konten |",
          "| `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |",
          "| `masalah_data.py` | Sumber data 20 masalah |",
@@ -188,7 +214,9 @@ def md_index(days):
          "| `bina.py` | Semak had aksara dan gaya, jana Markdown, kemas kini worksheet |", "",
          "## Agihan sehari (satu topik, isi berbeza)", "",
          "| Masa | Konten | Untuk | Salin ke |", "|---|---|---|---|",
-         "| 08:30 | 🎥 Video | TikTok · Reels | CapCut / Flow (edit video) |",
+         "| 08:30 | 🎥 Video storytelling | TikTok · Reels | Flow (video AI) + CapCut |",
+         "| 13:30 | 🎞️ Video motion grafik: tips | TikTok · Reels | CapCut + Motion Graphics Kit |",
+         "| 19:30 | 🎞️ Video motion grafik: masalah → penyelesaian | TikTok · Reels | CapCut + Motion Graphics Kit |",
          "| 12:30 | 🖼️ Carousel | Instagram · Facebook | Canva / CapCut (edit carousel) |",
          "| 10:00 | ✍️ Teks: info ringkas | Threads · Facebook | Post terus |",
          "| 16:00 | ✍️ Teks: pertanyaan | Threads · Facebook | Post terus |",

@@ -8,7 +8,9 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 
 | Masa | Konten | Platform | Salin ke |
 |---|---|---|---|
-| 08:30 | 🎥 **Untuk VIDEO** (45 s): cerita / personal branding | TikTok · Reels | CapCut / Flow |
+| 08:30 | 🎥 **Video storytelling** (45 s): cerita / personal branding | TikTok · Reels | Flow (video AI) + CapCut |
+| 13:30 | 🎞️ **Video motion grafik: tips** (25 s, tanpa rakaman) | TikTok · Reels | CapCut + Motion Graphics Kit |
+| 19:30 | 🎞️ **Video motion grafik: masalah → penyelesaian / mitos vs fakta** (25 s) | TikTok · Reels | CapCut + Motion Graphics Kit |
 | 12:30 | 🖼️ **Untuk CAROUSEL** (6 slaid): edukasi langkah demi langkah | Instagram · Facebook | Canva / CapCut |
 | 10:00 | ✍️ **Teks sahaja**: info ringkas edukasi | Threads · Facebook | Post terus |
 | 16:00 | ✍️ **Teks sahaja**: pertanyaan / poll | Threads · Facebook | Post terus |
@@ -24,7 +26,9 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 
 | Konten | Isi (berbeza, topik sama) |
 |---|---|
-| 🎥 Video | Cerita Momyizz pandang span lama → kajian 2017 → tulis tarikh pada span baru |
+| 🎥 Video storytelling | Cerita Momyizz pandang span lama → kajian 2017 → tulis tarikh pada span baru |
+| 🎞️ Motion grafik: tips | Jadual bersih dapur: harian, mingguan, bulanan |
+| 🎞️ Motion grafik: penyelesaian | Dapur cepat berbau? Punca & penyelesaian |
 | 🖼️ Carousel | 5 Kunci Makanan Lebih Selamat (WHO), satu kunci satu slaid |
 | ✍️ 10:00 Info ringkas | Span yang dibersihkan cara rumah tak semestinya kurang bakteria |
 | ✍️ 16:00 Pertanyaan | "Dah tukar span? Komen DAH / ESOK" |
