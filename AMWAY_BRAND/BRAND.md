@@ -75,7 +75,7 @@ Dipetik daripada https://www.amway.my/compliance/principles-etiquette-of-using-s
 | Peraturan rasmi (petikan) | Maksud untuk Momyizz |
 |---|---|
 | "Business and product claims must be accurate and substantiated." · "It is recommended that only business and product information authored by AMWAY be utilised." | Fakta produk disalin dari bahan rasmi Amway sahaja |
-| "Any videos produced by people or entities other than AMWAY must be reviewed and authorised by AMWAY prior to being used for your AMWAY business in a social media environment." | **PERLU SAHKAN:** video Momyizz yang menyebut atau menunjukkan produk/bisnes Amway mungkin perlu dihantar kepada Amway untuk semakan sebelum dipost. Tanya Amway Malaysia / upline cara penghantaran. Video gaya hidup tanpa produk berisiko lebih rendah, tetapi tetap sahkan |
+| "Any videos produced by people or entities other than AMWAY must be reviewed and authorised by AMWAY prior to being used for your AMWAY business in a social media environment." | **DISAHKAN (upline, 18 Nov 2026):** upline dah beri kebenaran untuk post video. Amway tetap menapis semua video selepas dipost; jika ada video yang perlu dibuang, Amway maklumkan kepada upline dan Momyizz buang video itu |
 | "Using AMWAY's logos or product images in your social media presence is not allowed without authorisation from the company." | Momyizz ialah ambassador produk Amway (DISAHKAN pengguna): produk sebenar ditunjukkan dalam video / gambar. Logo Amway tidak digunakan sebagai nama akaun atau grafik sendiri |
 | "Soliciting is allowed only in a closed environment" · "is not permitted in open or public forums" · "You should never offer products as a general status update" | Hard-sell, harga dan ajakan beli hanya di ruang tertutup. Post awam fokus nilai |
 | "misrepresentations of income and rewards are not allowed." | Tiada dakwaan pendapatan |
@@ -83,10 +83,12 @@ Dipetik daripada https://www.amway.my/compliance/principles-etiquette-of-using-s
 
 **Status ambassador — DISAHKAN pengguna (18 Nov 2026):** Momyizz ialah ambassador produk Amway dan perlu menunjukkan produk sebenar yang dipromosikan. Menunjukkan botol / pek produk sebenar (rakaman sendiri atau gambar asli) dalam video dan gambar adalah dibenarkan dan digalakkan.
 
-**Perlu disahkan dengan Amway Malaysia / upline:** ayat CTA video "Nak dapatkan produk? Klik LINK di Bio" (adakah dikira ajakan di ruang awam) dan proses semakan video.
+**CTA "Klik LINK di Bio" — DISAHKAN pengguna (18 Nov 2026):** inilah cara closing produk dari ruang awam, kerana produk tidak boleh dibeli terus di mana-mana platform media sosial. Pembelian berlaku melalui LINK di Bio atau ruang tertutup.
+
+**Semakan video — DISAHKAN (upline, 18 Nov 2026):** upline dah beri kebenaran. Amway menapis semua video selepas dipost; jika perlu dibuang, Amway maklumkan kepada upline. Jika dimaklumkan, buang video itu segera dan catat sebabnya supaya tidak berulang.
 
 ## CTA & pautan — DISAHKAN
-- Teks CTA penutup video (tepat, jangan ubah): **"Nak dapatkan produk? Klik LINK di Bio"**. CTA terus (PM / order) hanya di ruang tertutup.
+- Teks CTA penutup video (tepat, jangan ubah): **"Nak dapatkan produk? Klik LINK di Bio"**. Ini cara closing di ruang awam (produk tak boleh dibeli terus di media sosial). CTA terus (PM / order / harga) hanya di ruang tertutup.
 - Pautan: hanya "LINK di Bio". Jangan papar URL, nombor telefon atau WhatsApp dalam video.
 - CTA mesti berada dalam safe zone TikTok/Reels.
 

@@ -13,7 +13,8 @@ Format setiap hari (DISAHKAN pengguna, pilihan A): SATU topik, isi berbeza untuk
 Peraturan: Momyizz & korang sahaja. Produk BOLEH kelihatan dalam video / gambar carousel (botol & jenama,
 rakaman sendiri; DISAHKAN pengguna 18 Nov 2026), tetapi nama produk / jenama TIDAK disebut dalam sari kata,
 teks atas skrin, voiceover, caption atau teks awam
-(peraturan Amway Malaysia: tiada tawaran produk di ruang awam; video yang menyebut produk perlu semakan Amway).
+(peraturan Amway Malaysia: tiada tawaran produk di ruang awam; closing awam melalui "Klik LINK di Bio" sahaja.
+Video: kebenaran upline ada; Amway tapis selepas post dan maklumkan upline jika perlu dibuang).
 Produk + harga hanya dalam slot wa (ruang tertutup).
 
 Key selling (DISAHKAN pengguna): setiap konten yang berkaitan dengan produk ada sekurang-kurangnya satu key selling
