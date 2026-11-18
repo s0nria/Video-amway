@@ -22,9 +22,16 @@ Simpan gambar produk **asli** di sini untuk digunakan dalam video biasa dan vide
 | `bio-c-plus-tablet.png` | Tablet Bio C Plus bersama buah ceri acerola | amway.my (`pdpcontent/MYBN/assets/img/109745_PDP_IMG_03.png`), latar lutsinar asal | 18 Nov 2026 |
 | `espring-baharu.png` | **eSpring Water Purifier (model baharu, UV-C LED)**, pandangan depan | amway.my (halaman jenama eSpring, `eSpring_product.png`), latar lutsinar asal | 18 Nov 2026 |
 | `espring-baharu-dalaman.png` | eSpring Water Purifier (model baharu), pandangan keratan: penapis & UV-C | amway.my (halaman jenama eSpring, `eSpring_product_side.png`), latar lutsinar asal | 18 Nov 2026 |
+| `artistry-balancing-jelly-cleanser.png` | ARTISTRY SKIN NUTRITION Balancing Jelly Cleanser (kulit berminyak) | amway.my (`pdpcontent/MYBN/assets/img/123792_PDP_IMG.png`), latar lutsinar asal | 18 Nov 2026 |
+| `artistry-hydrating-mousse-cleanser.png` | ARTISTRY SKIN NUTRITION Hydrating Mousse Cleanser (kulit kering) | amway.my (`pdpcontent/MYBN/assets/img/123793_PDP_IMG.png`), latar lutsinar asal | 18 Nov 2026 |
+| `artistry-renewing-foaming-cleanser.png` | ARTISTRY SKIN NUTRITION Renewing Foaming Cleanser (kulit matang kering / sensitif) | amway.my (`pdpcontent/MYBN/assets/img/123781_pdp_img.png`), latar lutsinar asal | 18 Nov 2026 |
+| `artistry-uv-protect-spf50.png` | ARTISTRY SKIN NUTRITION Multi-Defense UV Protect SPF50+/PA++++ (bersama bahan semula jadi) | amway.my (`pdpcontent/MYBN/assets/img/124822_PDP_IMG_UVIngredients.png`), latar lutsinar asal | 18 Nov 2026 |
+| `salmon-omega-complex.png` | NUTRILITE Salmon Omega Complex, 120 softgel (bersama kapsul) | amway.my (`pdpcontent/MYBN/assets/img/103208_PDP_IMG.png`), latar lutsinar asal | 18 Nov 2026 |
 
 **Nota Bio C Plus:** buah ceri acerola dalam gambar asal bertindih dengan botol, jadi botol tidak dipisahkan supaya label tidak terpotong.
 
 **Nota eSpring:** guna model BAHARU sahaja. Gambar model lama (unit bujur dengan skrin di atas, halaman 100188) dah dibuang supaya tidak tersalah guna. Halaman lama itu juga ada gambar mesin air panas jenama lain (Morphy Richards), BUKAN produk Amway.
+
+**Nota UV Protect & Salmon Omega:** bahan / kapsul dalam gambar asal bertindih dengan produk, jadi gambar dikekalkan penuh.
 
 **Nota saiz:** `dish-drops-1l.png` hanya 167 × 520 px (Soy ~351 × 525, Bio C ~542 × 553, juga kecil). Dalam video 1080 × 1920, guna paling besar lebih kurang 25% lebar skrin (tinggi ~800 px) supaya tak kabur. Untuk close-up besar, guna rakaman botol sebenar.

@@ -6,6 +6,9 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 
 ## Hari 1 · Episod 1 · Mikroplastik: fakta, bukan panik
 
+> 🧩 **Produk penyelesai masalah:** eSpring Water Purifier (model baharu) · **Masalah:** Risau air minuman di rumah bila baca berita mikroplastik
+> **Key selling:** 4 standard NSF/ANSI · kurangkan 170+ bahan cemar · UV-C LED 99.9% bakteria & virus · terbukti kurangkan mikroplastik · **Gambar:** `AMWAY_BRAND/PRODUK/espring-baharu.png`
+
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Pagi-pagi isi botol air
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
@@ -17,7 +20,7 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 | 0–3s | Close-up tangan isi air ke botol plastik lama yang calar | Pernah fikir apa yang bersentuhan dengan air minuman kita? 🤔 |
 | 3–12s | Momyizz bercakap ke kamera di dapur | Semalam lalu FYP: 'Mikroplastik dalam air minuman!' Momyizz terus nak buang semua botol. |
 | 12–25s | Momyizz duduk depan laptop, teh panas, malam | Tapi Momyizz baca dulu laporan WHO. Rupanya ceritanya lebih tenang daripada yang viral. |
-| 25–38s | Tangan susun botol kaca dan keluli di atas meja | Mulai hari ni Momyizz kongsi fakta, bukan panik. Ikut siri ni ya. |
+| 25–38s | Tangan isi botol keluli dari penapis air di dapur (eSpring kelihatan) | Langkah Momyizz: air minuman di rumah ditapis dengan penapis yang ada pensijilan bebas. Fakta, bukan panik. |
 | 38–45s | Momyizz senyum, tunjuk ke atas | Siri Mikroplastik Momyizz 🌿 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
 **Caption video**
@@ -121,7 +124,7 @@ D. Beli air botol je
 Momyizz dulu A, sekarang tengah tukar ke C. 😄
 ```
 
-**18:30 · Tips praktikal** (290 / 500 aksara)
+**18:30 · Tips praktikal** (371 / 500 aksara)
 
 ```
 Tips pilih botol air guna semula 💡
@@ -129,6 +132,7 @@ Tips pilih botol air guna semula 💡
 ✅ Keluli tahan karat gred makanan atau kaca (dengan sarung silikon supaya tak mudah pecah)
 ✅ Mulut botol lebar, senang dicuci
 ✅ Basuh setiap hari dengan berus botol, keringkan terbuka
+✅ Isi dari air di rumah. Momyizz guna penapis yang diperakui 4 standard NSF/ANSI
 
 Botol yang mudah dicuci = botol yang betul-betul dipakai hari-hari. 😉
 ```
@@ -152,6 +156,9 @@ Jangan isi air panas ke dalamnya, dan jangan guna berulang kali sampai calar. Ka
 
 ## Hari 2 · Episod 1 · 3 langkah kecil kurangkan pendedahan plastik
 
+> 🧩 **Produk penyelesai masalah:** eSpring Water Purifier (model baharu) · **Masalah:** Asyik beli air botol plastik; nak isi botol keluli dari rumah
+> **Key selling:** 4 standard NSF/ANSI · kurangkan 170+ bahan cemar · UV-C LED 99.9% bakteria & virus · terbukti kurangkan mikroplastik · **Gambar:** `AMWAY_BRAND/PRODUK/espring-baharu.png`
+
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): 3 benda kecil yang Momyizz ubah
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
@@ -161,7 +168,7 @@ Jangan isi air panas ke dalamnya, dan jangan guna berulang kali sampai calar. Ka
 | Masa | Visual | Teks atas skrin / suara |
 |---|---|---|
 | 0–3s | Momyizz pegang beg sampah, berhenti, geleng kepala | Tak perlu buang semua plastik esok pagi. 🙅‍♀️ |
-| 3–15s | Tukar botol plastik calar ke botol keluli | Satu: botol plastik dah calar? Tukar ke kaca atau keluli. |
+| 3–15s | Tukar botol plastik calar ke botol keluli, isi dari penapis air di dapur (eSpring kelihatan) | Satu: botol plastik dah calar? Tukar ke kaca atau keluli. Isi dari air yang ditapis di rumah. |
 | 15–27s | Keluarkan botol air dari kereta yang panas | Dua: jangan biar air botol lama-lama dalam kereta panas. |
 | 27–38s | Bawa tumbler sendiri ke kedai air | Tiga: bawa tumbler sendiri bila beli air. |
 | 38–45s | Momyizz ke kamera, genggam tangan | Kecil, tapi senang diulang. Itu yang jadi tabiat 💪 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
@@ -239,12 +246,12 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 ### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
 
-**10:00 · Info ringkas** (178 / 500 aksara)
+**10:00 · Info ringkas** (223 / 500 aksara)
 
 ```
 Info ringkas: perubahan yang bertahan biasanya yang kecil. 🌱
 
-Momyizz mula dengan satu je minggu ni: botol air keluli dari rumah. Bila dah jadi tabiat, baru tambah langkah kedua.
+Momyizz mula dengan satu je minggu ni: botol air keluli, isi dari penapis air di rumah, tak beli air botol lagi. Bila dah jadi tabiat, baru tambah langkah kedua.
 ```
 
 **16:00 · Pertanyaan** (174 / 500 aksara)
@@ -279,6 +286,28 @@ Info penting musim tengkujuh: selepas banjir atau bila air paip keruh, didihkan 
 Ini panduan asas kesihatan awam semasa banjir. Kongsi dengan keluarga di kawasan yang terjejas. 🙏
 ```
 
+### 💬 WhatsApp / group tertutup: eSpring Water Purifier (model baharu)
+
+> Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 122940, semak 18 Nov 2026). Tulis MENGURANGKAN mikroplastik, jangan singkir / bebas. Gambar: AMWAY_BRAND/PRODUK/espring-baharu.png. Semak harga & promosi hari ini.
+
+```
+Hai [nama] 😊
+
+Minggu ni Momyizz kongsi pasal kurangkan plastik. Langkah pertama Momyizz: berhenti beli air botol, isi botol keluli dari penapis air di rumah. Ada yang tanya penapis apa.
+
+Momyizz guna *eSpring Water Purifier* (model baharu) dari Amway.
+• Diperakui 4 standard NSF/ANSI (42, 53, 55, 401)
+• Kurangkan lebih 170 bahan cemar, sekecil 0.2 mikron
+• Terbukti mengurangkan mikroplastik & 19 jenis sisa farmaseutikal
+• UV-C LED hapuskan 99.9% bakteria, virus & sista bawaan air
+• Aplikasi Amway Healthy Home ingatkan bila perlu tukar penapis
+• Halal, waranti 5 tahun
+• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]
+
+Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video: TikTok · Reels
@@ -287,8 +316,12 @@ Ini panduan asas kesihatan awam semasa banjir. Kongsi dengan keluarga di kawasan
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+- [ ] 💬 WhatsApp / group tertutup
 
 ## Hari 3 · Episod 1 · Cara baca berita kesihatan viral
+
+> 🧩 **Produk penyelesai masalah:** eSpring Water Purifier (model baharu) · **Masalah:** Susah percaya dakwaan produk; nak bukti pensijilan bebas
+> **Key selling:** 4 standard NSF/ANSI · kurangkan 170+ bahan cemar · UV-C LED 99.9% bakteria & virus · terbukti kurangkan mikroplastik · **Gambar:** `AMWAY_BRAND/PRODUK/espring-baharu.png`
 
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Kenapa Momyizz tak terus kongsi berita viral
 
@@ -302,7 +335,7 @@ Ini panduan asas kesihatan awam semasa banjir. Kongsi dengan keluarga di kawasan
 | 3–15s | Momyizz bercakap ke kamera | Dulu Momyizz pernah forward satu tips viral. Rupanya salah. Malu sangat. 🙈 |
 | 15–30s | Tangan tulis 3 soalan atas kertas | Sekarang Momyizz tanya 3 soalan dulu: Siapa sumbernya? Ada kajian? Badan rasmi kata apa? |
 | 30–40s | Momyizz tunjuk label warna di skrin | Sebab tu setiap post Momyizz ada label bukti: 🟢 🟠 🔵 🔴 |
-| 40–45s | Momyizz senyum | Fakta dulu, baru kongsi 💛 |
+| 40–45s | Momyizz senyum sebelah penapis air di dapur (eSpring kelihatan) | Produk pun sama: Momyizz semak sijil bebasnya dulu. Fakta dulu, baru kongsi 💛 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
 **Caption video**
 
@@ -389,7 +422,7 @@ Jawapan: MITOS. Kesan jangka panjang masih dikaji, belum ada bukti yang mengesah
 Berapa ramai yang teka betul?
 ```
 
-**18:30 · Tips praktikal** (249 / 500 aksara)
+**18:30 · Tips praktikal** (344 / 500 aksara)
 
 ```
 Tips semak berita kesihatan dalam 30 saat 💡
@@ -397,6 +430,7 @@ Tips semak berita kesihatan dalam 30 saat 💡
 1️⃣ Cari nama kajian atau badan yang disebut. Tiada nama? Tanda merah.
 2️⃣ Taip tajuk berita + "sebenarnya.my" di Google.
 3️⃣ Tengok tarikh. Berita lama selalu diulang viral.
+4️⃣ Produk pun sama: cari pensijilan bebas (contoh NSF untuk penapis air), bukan testimoni je.
 
 Save untuk group keluarga! 📲
 ```
@@ -420,6 +454,9 @@ Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan ke
 
 ## Hari 4 · Episod 2 · Sarapan ibu yang selalu tertinggal
 
+> 🧩 **Produk penyelesai masalah:** NUTRILITE Soy Protein Drink (Original 450g) · **Masalah:** Ibu skip sarapan, pukul 11 dah lapar
+> **Key selling:** protein tumbuhan · 8g protein, 9 asid amino perlu · bebas laktosa · tanpa pemanis & tanpa perisa tiruan · **Gambar:** `AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png`
+
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Semua dah makan, kecuali ibu
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
@@ -431,8 +468,8 @@ Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan ke
 | 0–3s | Meja makan: pinggan anak dan suami dah licin, pinggan ibu kosong | Anak dah makan. Suami dah makan. Ibu? "Nanti la." 🙃 |
 | 3–15s | Momyizz kalut cari kunci, capai roti sambil keluar | Hampir setiap pagi Momyizz jadi orang terakhir. Kadang langsung tak makan. |
 | 15–28s | Momyizz di meja kerja pukul 11, lapar, capai snek manis | Pukul 11 dah lapar sangat. Capai apa yang ada. |
-| 28–40s | Momyizz masukkan bekas ke dalam beg sekali dengan bekal anak | Minggu ni Momyizz cuba: siapkan bekal ibu sekali dengan bekal anak. 🍱 |
-| 40–45s | Momyizz ke kamera | Ibu pun perlu diisi dulu 💛 Siapa sama? |
+| 28–40s | Momyizz masukkan bekas ke dalam beg sekali dengan bekal anak; tin minuman protein di sebelah (Soy Protein Drink kelihatan) | Minggu ni Momyizz cuba: siapkan bekal ibu sekali dengan bekal anak. Hari tak sempat? Minuman protein tumbuhan, tanpa pemanis. 🍱 |
+| 40–45s | Momyizz ke kamera | Ibu pun perlu diisi dulu 💛 Siapa sama? | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
 **Caption video**
 
@@ -525,7 +562,7 @@ Ibu-ibu, jujur sikit: pagi tadi korang sarapan apa? 🙈
 Momyizz: roti sambil drive. Esok cuba lagi!
 ```
 
-**18:30 · Tips praktikal** (263 / 500 aksara)
+**18:30 · Tips praktikal** (335 / 500 aksara)
 
 ```
 Tips pastikan ibu tak tertinggal sarapan 💡
@@ -533,6 +570,7 @@ Tips pastikan ibu tak tertinggal sarapan 💡
 ✅ Malam: letak bekas ibu SEBELAH bekas anak, terus nampak pagi esok
 ✅ Simpan "kotak snek sihat" di pejabat: kacang, roti gandum, buah
 ✅ Set peringatan telefon 10 pagi: "Dah makan?"
+✅ Hari kalut: minuman protein tumbuhan tanpa pemanis dalam botol shaker
 
 Kecil, tapi berkesan untuk Momyizz. 💛
 ```
@@ -556,18 +594,21 @@ Kalau selalu skip makan dan banyak minum manis, buat saringan gula di klinik kes
 
 ## Hari 5 · Episod 2 · Persediaan malam & pelan B pagi kelam-kabut
 
+> 🧩 **Produk penyelesai masalah:** NUTRILITE Soy Protein Drink (Original 450g) · **Masalah:** Pagi kelam-kabut, perlukan pelan B yang ada protein
+> **Key selling:** protein tumbuhan · 8g protein, 9 asid amino perlu · bebas laktosa · tanpa pemanis & tanpa perisa tiruan · **Gambar:** `AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png`
+
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): 10 minit malam untuk pagi yang tenang
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 19-blazer-thumbs-up (babak akhir). Tiada produk dalam video.
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 19-blazer-thumbs-up (babak akhir). Babak bekal: tin Soy Protein Drink kelihatan sebagai pelan B; jangan sebut nama dalam sari kata / suara.
 
 | Masa | Visual | Teks atas skrin / suara |
 |---|---|---|
 | 0–3s | Jam dinding 10 malam, dapur | 10 minit malam ni = pagi esok lebih tenang 🌙 |
 | 3–15s | Rebus telur, masuk peti | Rebus 4 biji telur, simpan dalam peti. |
 | 15–27s | Oat dalam balang, tuang susu, letak buah | Oat rendam semalaman. Esok tinggal ambil. |
-| 27–38s | Bekas bekal tersusun atas meja | Bekas bekal anak DAN ibu dah sedia. |
+| 27–38s | Bekas bekal tersusun atas meja + tin minuman protein di sebelah (Soy Protein Drink kelihatan) | Bekas bekal anak DAN ibu dah sedia. Pelan B pun ada: minuman protein tumbuhan. |
 | 38–45s | Pagi: Momyizz sarapan sambil duduk | Hasilnya? Sarapan sambil duduk. 5 minit pun rasa menang 🏆 |
 
 **Caption video**
@@ -720,6 +761,9 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 ## Hari 6 · Episod 2 · Gula tersembunyi dalam minuman
 
+> 🧩 **Produk penyelesai masalah:** NUTRILITE Soy Protein Drink (Original 450g) · **Masalah:** Nak ganti minuman manis pagi dengan minuman tanpa pemanis
+> **Key selling:** protein tumbuhan · 8g protein, 9 asid amino perlu · bebas laktosa · tanpa pemanis & tanpa perisa tiruan · **Gambar:** `AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png`
+
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Gula paling banyak bukan dalam pinggan
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
@@ -732,7 +776,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 | 3–15s | Momyizz tunjuk cawan satu per satu | Teh tarik pagi. Kopi ais tengah hari. Air kotak petang. |
 | 15–28s | Momyizz minum air kosong dulu, baru kopi | Sekarang: air kosong dulu, baru kopi. |
 | 28–40s | Momyizz di kaunter kedai, isyarat 'kurang manis' | Bila beli: "kurang manis ya!" |
-| 40–45s | Momyizz ke kamera | Bukan haramkan teh tarik 😄 Sedar dan kurangkan. |
+| 40–45s | Momyizz bancuh minuman protein tanpa pemanis dalam gelas (Soy Protein Drink kelihatan), senyum ke kamera | Bukan haramkan teh tarik 😄 Pagi Momyizz sekarang: minuman protein tanpa pemanis. | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
 **Caption video**
 
@@ -825,7 +869,7 @@ Jujur: minuman manis mana paling susah korang tinggal? 🧋
 Momyizz: teh tarik pagi. Tengah cuba "kurang manis". 😅
 ```
 
-**18:30 · Tips praktikal** (243 / 500 aksara)
+**18:30 · Tips praktikal** (320 / 500 aksara)
 
 ```
 Tips kurangkan manis tanpa rasa terseksa 💡
@@ -833,6 +877,7 @@ Tips kurangkan manis tanpa rasa terseksa 💡
 Minggu 1: minta "kurang manis"
 Minggu 2: "separuh gula"
 Minggu 3: cuba teh / kopi O kosong sekali sehari
+Minggu 4: tukar satu minuman manis pagi kepada minuman protein tanpa pemanis
 
 Yang Momyizz perasan: lama-lama tekak dah biasa, dan air manis sangat terasa terlalu manis. 😄
 ```
@@ -868,6 +913,9 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 - [ ] 💬 WhatsApp / group tertutup
 
 ## Hari 7 · Episod 3 · Span dapur & kebersihan dapur
+
+> 🧩 **Produk penyelesai masalah:** Amway Home DISH DROPS (1L) · **Masalah:** Picit sabun banyak-banyak; nak sabun pekat yang jimat & lembut di tangan
+> **Key selling:** sangat pekat · sikit je buih banyak & tahan lama · aloe vera · diuji pakar dermatologi · biodegradable · **Gambar:** `AMWAY_BRAND/PRODUK/dish-drops-1l.png`
 
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Span yang Momyizz pegang setiap malam
 

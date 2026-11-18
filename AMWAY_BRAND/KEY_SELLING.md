@@ -2,6 +2,8 @@
 
 **Peraturan (DISAHKAN pengguna, 18 Nov 2026):** setiap konten yang berkaitan dengan produk mesti ada sekurang-kurangnya satu key selling dari fail ini.
 
+**Produk penyelesai masalah setiap hari (DISAHKAN pengguna):** setiap hari dalam kalendar ada SATU produk (`PRODUK` dan `"produk"` dalam `KALENDAR_PENULISAN/kalendar_data.py`). Produk muncul dalam video (kelihatan + 1 key selling), dalam teks 16:00 atau 18:30, dan dalam WhatsApp pada hari hard-sell. Teks 21:00 alert kekal tanpa produk.
+
 | Ruang | Cara masukkan key selling |
 |---|---|
 | 💬 WhatsApp / group tertutup / DM | Nama produk + 3–5 key selling dalam senarai bullet, kemudian harga dan CTA |
@@ -77,7 +79,50 @@ Jangan guna fakta model lama (halaman 100188: "140 impurities", "99.99%", lampu 
 | ❌ | Kaitkan air eSpring dengan mencegah / merawat penyakit | Dilarang (dakwaan perubatan) |
 | ❌ | Petik "93% air botol ada mikroplastik" sebagai fakta produk | Itu kajian air botol, bukan ujian eSpring. Jika guna dalam konten mikroplastik, letak sumber kajian asal dan label bukti |
 
-## Produk lain dalam kalendar — PERLU SEMAK
-Belum disahkan di amway.my. Jangan tulis key selling sehingga disemak:
-- ARTISTRY Gel Cleanser + ARTISTRY Skin Analysis Experience (Hari 17): nama produk semasa belum dijumpai di amway.my
-- Nutrilite Omega-3 (Hari 29): amway.my menyenaraikan "Nutrilite Salmon Omega Complex"; sahkan produk yang Momyizz jual
+## ARTISTRY SKIN NUTRITION Cleanser (3 pilihan ikut jenis kulit)
+Sumber (semak 18 Nov 2026): Renewing https://www.amway.my/pdpcontent/MYBN/123781_en.html · Balancing Jelly https://www.amway.my/pdpcontent/MYBN/123792_en.html · Hydrating Mousse https://www.amway.my/pdpcontent/MYBN/123793_en.html
+
+| Cleanser | Jenis kulit (rasmi) | Isi | Gambar |
+|---|---|---|---|
+| Balancing Jelly Cleanser | Berminyak, normal ke berminyak | 125 ml | `PRODUK/artistry-balancing-jelly-cleanser.png` |
+| Hydrating Mousse Cleanser | Kering, normal ke kering | 145 ml | `PRODUK/artistry-hydrating-mousse-cleanser.png` |
+| Renewing Foaming Cleanser | Kulit matang kering; **"Suitable for sensitive skin"** | 125 ml | `PRODUK/artistry-renewing-foaming-cleanser.png` |
+
+| | Key selling (BM) — semua 3 cleanser | Petikan rasmi |
+|---|---|---|
+| ✅ | Terbukti klinikal buang pencemaran & kekotoran, termasuk PM2.5 | "Clinically proven to remove pollution and impurities (including PM 2.5)" |
+| ✅ | Gabungan paten Shiso Perilla & aloe vera, lebih lembut | "patented blend of Shiso Perilla and Aloe Vera" |
+| ✅ | Tidak menanggalkan minyak semula jadi & tidak mengeringkan | "without stripping or drying" / "Non-stripping and non-drying" |
+| ✅ | Surfaktan asid amino yang lembut, pH seimbang | "gentle amino acid surfactants" |
+| ✅ | ARTISTRY Clean: tanpa paraben, ftalat, minyak mineral, surfaktan sulfat; berdaftar dengan The Vegan Society | Petikan "ARTISTRY Clean" |
+| ✅ | Guna pagi & malam | "Use morning and evening" |
+| ✅ | Renewing sahaja: sesuai untuk kulit sensitif, bebas sabun, diuji pakar dermatologi & alergi | "Suitable for sensitive skin" · "Soap-free" · "Dermatologist and allergy tested" |
+| ✅ | Ujian pengguna (sebut tepat, dengan "dalam ujian pengguna"): Jelly 92% setuju bersihkan liang pori dengan cepat; Mousse 93% setuju kulit lembut & terhidrat; Renewing 90% setuju kulit terasa licin & lembut | Petikan "Proven Results" |
+| ❌ | "Pulihkan kulit 600%", "terbalikkan penuaan" | Dilarang (janji hasil; dakwaan itu untuk pelembap, bukan cleanser) |
+| ❌ | Jelly / Mousse "sesuai kulit sensitif" | Hanya Renewing yang tulis sesuai untuk kulit sensitif |
+
+## ARTISTRY SKIN NUTRITION Multi-Defense UV Protect SPF50+/PA++++
+Sumber: https://www.amway.my/pdpcontent/MYBN/124822_en.html (semak 18 Nov 2026). Gambar: `PRODUK/artistry-uv-protect-spf50.png`
+
+| | Key selling (BM) | Petikan rasmi |
+|---|---|---|
+| ✅ | SPF50+/PA++++, perlindungan matahari tertinggi ARTISTRY | "ARTISTRY brand's highest-level sun protection" |
+| ✅ | Spektrum luas, sesuai dipakai setiap hari | "broad spectrum sunscreen is perfect for daily wear" |
+| ✅ | Tekstur losyen ringan, cepat menyerap, melembapkan tapi tak berminyak | "absorbed quickly and invisibly. Hydrating but never greasy" |
+| ✅ | Boleh jadi asas sebelum mekap | "primes skin for makeup application" |
+| ✅ | 5 bahan pelindung UVA/UVB; tanpa Oxybenzone & Octinoxate | Petikan "Multi-Filter Blend" |
+| ✅ | Sesuai semua jenis kulit · 50 ml · langkah terakhir selepas pelembap | "Suitable for all skin types" · "after your moisturiser" |
+| ❌ | "Cegah penuaan", "cerahkan kulit" sebagai janji hasil | Dilarang (janji hasil) |
+
+## NUTRILITE SALMON OMEGA COMPLEX
+Sumber: https://www.amway.my/pdpcontent/MYBN/103208_en.html (semak 18 Nov 2026). Gambar: `PRODUK/salmon-omega-complex.png`
+
+| | Key selling (BM) | Petikan rasmi |
+|---|---|---|
+| ✅ | Sebiji softgel: 193.51 mg EPA + 137.42 mg DHA = 330.93 mg omega-3 | Petikan kandungan |
+| ✅ | Dari salmon perairan sejuk, dengan ikan bilis & sardin | "salmon harvested from cold waters … anchovies and sardines" |
+| ✅ | Penyulingan molekul berulang untuk ketulenan | "molecular distillation is repeatedly used" |
+| ✅ | Dewasa 1 softgel sehari selepas makan · 120 softgel | "Adults one softgel per day after meals" |
+| ✅ | Tiada pewarna, perisa atau pengawet tiruan ditambah | "No artificial colourants, flavours or preservatives added" |
+| ⚠️ | Amaran wajib bila jual: tidak disyorkan untuk kanak-kanak atau yang ambil ubat cair darah; hamil / menyusu rujuk doktor; masalah pendarahan berhati-hati; softgel gelatin lembu | Petikan "ADVISORIES/PRECAUTIONS" |
+| ❌ | Dakwaan kulit, jantung, otak atau cegah penyakit | Dilarang (dakwaan perubatan) |

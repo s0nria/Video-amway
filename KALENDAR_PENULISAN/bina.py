@@ -11,7 +11,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
-from kalendar_data import DAYS, JENIS_TEKS  # noqa: E402
+from kalendar_data import DAYS, JENIS_TEKS, PRODUK  # noqa: E402
 from masalah_data import MASALAH, CARA_BETUL, SUMBER  # noqa: E402
 
 LIMIT_TH, LIMIT_IG, LIMIT_SLAID = 500, 2200, 260
@@ -33,6 +33,8 @@ def check():
     errs = []
     for day in DAYS:
         tag = f"Hari {day['d']}"
+        if day.get("produk", ("",))[0] not in PRODUK:
+            errs.append(f"{tag}: perlu 'produk' (kunci dalam PRODUK)")
         if "video" in day:
             if len(day["teks"]) != len(JENIS_TEKS):
                 errs.append(f"{tag}: perlu {len(JENIS_TEKS)} teks")
@@ -96,6 +98,9 @@ def to_json():
     out = []
     for day in DAYS:
         d = {"d": day["d"], "ep": day["ep"], "tema": day["tema"]}
+        k, masalah = day["produk"]
+        nama, gambar, ks = PRODUK[k]
+        d["produk"] = {"nama": nama, "gambar": gambar, "ks": ks, "masalah": masalah}
         if "video" in day:
             v = day["video"]
             d["video"] = {"tajuk": v["tajuk"], "nota": v.get("nota", ""), "babak": [list(b) for b in v["babak"]], "caption": v["caption"]}
@@ -121,6 +126,12 @@ def carousel_text(c):
     return "\n\n".join(f"SLAID {i}\n{t}" for i, t in enumerate(c["slaid"], 1))
 
 
+def produk_md(day):
+    pr = day["produk"]
+    return [f"> 🧩 **Produk penyelesai masalah:** {pr['nama']} · **Masalah:** {pr['masalah']}",
+            f"> **Key selling:** {pr['ks']} · **Gambar:** `{pr['gambar']}`", ""]
+
+
 def md_week1(days):
     L = ["# Kalendar Konten — Minggu 1 (siap salin)", "",
          "Setiap hari satu topik: **🎥 1 video · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.",
@@ -130,7 +141,7 @@ def md_week1(days):
         if "video" not in day:
             continue
         v, c = day["video"], day["carousel"]
-        L += [f"## Hari {day['d']} · Episod {day['ep']} · {day['tema']}", "",
+        L += [f"## Hari {day['d']} · Episod {day['ep']} · {day['tema']}", ""] + produk_md(day) + [
               f"### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): {v['tajuk']}", "",
               "> Salin skrip ini ke CapCut / Flow untuk edit video.", ""]
         if v["nota"]:
@@ -167,7 +178,7 @@ def md_plan(days):
         if "plan" not in day:
             continue
         p = day["plan"]
-        L += [f"## Hari {day['d']} · Episod {day['ep']} · {day['tema']}", "",
+        L += [f"## Hari {day['d']} · Episod {day['ep']} · {day['tema']}", ""] + produk_md(day) + [
               f"- 🎥 **Video (08:30):** {p['video']}",
               f"- 🖼️ **Carousel (12:30):** {p['carousel']}"]
         L += [f"- ✍️ **Teks {t['masa']} · {t['jenis']}:** {t['idea']}" for t in p["teks"]]
@@ -196,10 +207,11 @@ def md_index(days):
          "| 21:00 | ✍️ Teks: info penting / alert | Threads · Facebook | Post terus |",
          "| Bila sesuai | 💬 Hard-sell | WhatsApp / group tertutup | Hantar terus |", "",
          "Produk boleh kelihatan dalam video / gambar, tetapi nama produk tidak disebut dalam sari kata, voiceover, caption atau teks awam (`AMWAY_BRAND/BRAND.md`).", "",
-         "| Hari | Episod | Tema | WhatsApp | Status |", "|---|---|---|---|---|"]
+         "Setiap hari ada **satu produk penyelesai masalah** (key selling: `AMWAY_BRAND/KEY_SELLING.md`).", "",
+         "| Hari | Episod | Tema | Produk | WhatsApp | Status |", "|---|---|---|---|---|---|"]
     for day in days:
         wa = "✓" if (day.get("wa") or (day.get("plan") or {}).get("wa")) else ""
-        L += [f"| {day['d']} | {day['ep']} | {day['tema']} | {wa} | {'Siap salin' if 'video' in day else 'Rancangan'} |"]
+        L += [f"| {day['d']} | {day['ep']} | {day['tema']} | {day['produk']['nama']} | {wa} | {'Siap salin' if 'video' in day else 'Rancangan'} |"]
     return "\n".join(L) + "\n"
 
 

@@ -97,6 +97,8 @@ Setiap konten yang berkaitan dengan produk mesti ada sekurang-kurangnya satu key
 
 **Produk dalam video — DISAHKAN pengguna (18 Nov 2026):** botol dan jenama BOLEH kelihatan dalam rakaman / gambar sendiri. Nama produk atau jenama TIDAK disebut dalam sari kata, teks atas skrin, voiceover, caption atau teks awam. **Video animasi kartun:** produk tetap guna gambar botol asli (bukan dilukis semula atau dikartunkan), simpan dalam `AMWAY_BRAND/PRODUK/`. Momyizz ialah ambassador produk Amway, jadi produk sebenar memang perlu ditunjukkan.
 
+**Produk penyelesai masalah setiap hari — DISAHKAN pengguna (18 Nov 2026):** setiap hari kalendar ada satu produk Amway sebagai penyelesai masalah topik hari itu (video, 16:00 / 18:30, WhatsApp). Alert 21:00 tanpa produk. Peraturan "people first" kekal: masalah dan cerita dahulu, produk sebagai penyelesai.
+
 ## Peraturan ketepatan maklumat produk — DISAHKAN
 1. **People first, product second.** Mula dengan situasi hidup sebenar; produk hanya jika berkaitan secara munasabah.
 2. Semua fakta produk (nama, ramuan, kandungan, dos, cara guna) mesti disemak di laman rasmi https://www.amway.my/ sebelum skrip diluluskan. Catat tarikh semakan.
