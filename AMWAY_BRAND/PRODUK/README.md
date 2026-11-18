@@ -20,7 +20,10 @@ Simpan gambar produk **asli** di sini untuk digunakan dalam video biasa dan vide
 | `soy-protein-drink-450g.png` | NUTRILITE SOY PROTEIN DRINK, Original Flavour (tanpa perisa, tanpa gula), 450 g | amway.my (`pdpcontent/MYBN/assets/img/110415_PDP_IMG.png`), latar lutsinar asal | 18 Nov 2026 |
 | `bio-c-plus-60tab.png` | NUTRILITE BIO C PLUS ALL DAY FORMULA, 60 tablet (botol bersama buah ceri acerola) | amway.my (`pdpcontent/MYBN/assets/img/109745_PDP_IMG.png`), latar lutsinar asal | 18 Nov 2026 |
 | `bio-c-plus-tablet.png` | Tablet Bio C Plus bersama buah ceri acerola | amway.my (`pdpcontent/MYBN/assets/img/109745_PDP_IMG_03.png`), latar lutsinar asal | 18 Nov 2026 |
+| `espring.png` | eSpring Water Treatment System (unit atas kaunter) | amway.my (`pdpcontent/MYBN/assets/img/100188_PDP_IMG.png`), latar lutsinar asal | 18 Nov 2026 |
 
 **Nota Bio C Plus:** buah ceri acerola dalam gambar asal bertindih dengan botol, jadi botol tidak dipisahkan supaya label tidak terpotong.
+
+**Nota eSpring:** halaman produk amway.my yang sama juga ada gambar mesin air panas jenama lain (Morphy Richards). Gambar itu BUKAN produk Amway dan tidak diambil.
 
 **Nota saiz:** `dish-drops-1l.png` hanya 167 × 520 px (Soy ~351 × 525, Bio C ~542 × 553, juga kecil). Dalam video 1080 × 1920, guna paling besar lebih kurang 25% lebar skrin (tinggi ~800 px) supaya tak kabur. Untuk close-up besar, guna rakaman botol sebenar.
