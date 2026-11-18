@@ -75,25 +75,38 @@ Dipetik daripada https://www.amway.my/compliance/principles-etiquette-of-using-s
 | Peraturan rasmi (petikan) | Maksud untuk Momyizz |
 |---|---|
 | "Business and product claims must be accurate and substantiated." · "It is recommended that only business and product information authored by AMWAY be utilised." | Fakta produk disalin dari bahan rasmi Amway sahaja |
-| "Any videos produced by people or entities other than AMWAY must be reviewed and authorised by AMWAY prior to being used for your AMWAY business in a social media environment." | **PERLU SAHKAN:** video Momyizz yang menyebut atau menunjukkan produk/bisnes Amway mungkin perlu dihantar kepada Amway untuk semakan sebelum dipost. Tanya Amway Malaysia / upline cara penghantaran. Video gaya hidup tanpa produk berisiko lebih rendah, tetapi tetap sahkan |
-| "Using AMWAY's logos or product images in your social media presence is not allowed without authorisation from the company." | Jangan guna logo atau gambar produk rasmi tanpa kebenaran. Gambar produk yang Momyizz rakam sendiri: sahkan dengan Amway |
+| "Any videos produced by people or entities other than AMWAY must be reviewed and authorised by AMWAY prior to being used for your AMWAY business in a social media environment." | **DISAHKAN (upline, 18 Nov 2026):** upline dah beri kebenaran untuk post video. Amway tetap menapis semua video selepas dipost; jika ada video yang perlu dibuang, Amway maklumkan kepada upline dan Momyizz buang video itu |
+| "Using AMWAY's logos or product images in your social media presence is not allowed without authorisation from the company." | Momyizz ialah ambassador produk Amway (DISAHKAN pengguna): produk sebenar ditunjukkan dalam video / gambar. Logo Amway tidak digunakan sebagai nama akaun atau grafik sendiri |
 | "Soliciting is allowed only in a closed environment" · "is not permitted in open or public forums" · "You should never offer products as a general status update" | Hard-sell, harga dan ajakan beli hanya di ruang tertutup. Post awam fokus nilai |
 | "misrepresentations of income and rewards are not allowed." | Tiada dakwaan pendapatan |
 | "AMWAY will not allow the use of its trademarks or trade names as profile names or page names." | Nama akaun kekal "Momyizz", jangan guna nama Amway / Nutrilite / Artistry |
 
-**Perlu disahkan dengan Amway Malaysia / upline:** ayat CTA video "Nak dapatkan produk? Klik LINK di Bio" (adakah dikira ajakan di ruang awam), proses semakan video, dan penggunaan gambar produk rakaman sendiri.
+**Status ambassador — DISAHKAN pengguna (18 Nov 2026):** Momyizz ialah ambassador produk Amway dan perlu menunjukkan produk sebenar yang dipromosikan. Menunjukkan botol / pek produk sebenar (rakaman sendiri atau gambar asli) dalam video dan gambar adalah dibenarkan dan digalakkan.
+
+**CTA "Klik LINK di Bio" — DISAHKAN pengguna (18 Nov 2026):** inilah cara closing produk dari ruang awam, kerana produk tidak boleh dibeli terus di mana-mana platform media sosial. Pembelian berlaku melalui LINK di Bio atau ruang tertutup.
+
+**Semakan video — DISAHKAN (upline, 18 Nov 2026):** upline dah beri kebenaran. Amway menapis semua video selepas dipost; jika perlu dibuang, Amway maklumkan kepada upline. Jika dimaklumkan, buang video itu segera dan catat sebabnya supaya tidak berulang.
 
 ## CTA & pautan — DISAHKAN
-- Teks CTA penutup video (tepat, jangan ubah): **"Nak dapatkan produk? Klik LINK di Bio"**. CTA terus (PM / order) hanya di ruang tertutup.
+- Teks CTA penutup video (tepat, jangan ubah): **"Nak dapatkan produk? Klik LINK di Bio"**. Ini cara closing di ruang awam (produk tak boleh dibeli terus di media sosial). CTA terus (PM / order / harga) hanya di ruang tertutup.
 - Pautan: hanya "LINK di Bio". Jangan papar URL, nombor telefon atau WhatsApp dalam video.
 - CTA mesti berada dalam safe zone TikTok/Reels.
+
+## Key selling produk — DISAHKAN
+Setiap konten yang berkaitan dengan produk mesti ada sekurang-kurangnya satu key selling. Senarai yang dah disahkan (dengan sumber amway.my) dan ayat yang dilarang: `AMWAY_BRAND/KEY_SELLING.md`. Konten awam sebut ciri sahaja tanpa nama produk; nama produk hanya di ruang tertutup.
+
+**Produk dalam video — DISAHKAN pengguna (18 Nov 2026):** botol dan jenama BOLEH kelihatan dalam rakaman / gambar sendiri. Nama produk atau jenama TIDAK disebut dalam sari kata, teks atas skrin, voiceover, caption atau teks awam. **Video animasi kartun:** produk tetap guna gambar botol asli (bukan dilukis semula atau dikartunkan), simpan dalam `AMWAY_BRAND/PRODUK/`. Momyizz ialah ambassador produk Amway, jadi produk sebenar memang perlu ditunjukkan.
+
+**Produk penyelesai masalah setiap hari — DISAHKAN pengguna (18 Nov 2026):** setiap hari kalendar ada satu produk Amway sebagai penyelesai masalah topik hari itu (video, 16:00 / 18:30, WhatsApp). Alert 21:00 tanpa produk. Peraturan "people first" kekal: masalah dan cerita dahulu, produk sebagai penyelesai.
+
+**Fokus promosi bulan ini — DISAHKAN pengguna (18 Nov 2026):** BodyKey by Nutrilite **Nutritious Meal Shake perisa pisang (baharu)**, diposisikan untuk SEMUA gaya hidup (pemakanan seimbang harian, sedar gula, urus berat badan), bukan untuk diet sahaja. Kit New Edition untuk sudut urus berat badan. Peraturan khas pengurusan berat badan dalam `KEY_SELLING.md` (WAJIB "Keputusan berbeza mengikut individu", tiada kg / sebelum-selepas / "bakteria pelangsing").
 
 ## Peraturan ketepatan maklumat produk — DISAHKAN
 1. **People first, product second.** Mula dengan situasi hidup sebenar; produk hanya jika berkaitan secara munasabah.
 2. Semua fakta produk (nama, ramuan, kandungan, dos, cara guna) mesti disemak di laman rasmi https://www.amway.my/ sebelum skrip diluluskan. Catat tarikh semakan.
 3. Jangan reka ramuan, angka, fungsi atau keberkesanan produk. Jika tidak dapat disahkan, tulis "PERLU SEMAK" dan jangan masukkan ke dalam video.
 4. Tiada dakwaan perubatan: jangan kata produk mencegah, merawat atau menyembuhkan penyakit. Suplemen ialah pelengkap, bukan pengganti makanan.
-5. Jangan dakwa eSpring atau mana-mana produk Amway menyingkirkan mikroplastik, kecuali disokong spesifikasi dan ujian rasmi yang relevan.
+5. Jangan dakwa eSpring atau mana-mana produk Amway menyingkirkan mikroplastik, kecuali disokong spesifikasi dan ujian rasmi yang relevan. eSpring model baharu: amway.my menyatakan "proven to reduce microplastics", jadi boleh tulis **mengurangkan** mikroplastik (ikut ayat rasmi), tetapi jangan tulis menyingkirkan / bebas mikroplastik. Lihat `KEY_SELLING.md`.
 6. Fakta kesihatan/mikroplastik mesti ada sumber (WHO, UNEP, FDA, EFSA, KKM, NIH, jurnal peer-reviewed) dan label tahap bukti: Terbukti / Kajian awal / Masih dikaji / Bukti belum cukup.
 7. Tiada tajuk sensasi atau menakut-nakutkan. Tiada janji hasil ("cerah dalam 7 hari", "turun 5 kg").
 8. **Penafian wajib dalam setiap video** (teks kecil, dalam safe zone, sekurang-kurangnya 3 saat, sebaiknya di babak fakta atau penutup): **"Perkongsian ilmu umum. Bukan nasihat perubatan."** Penafian yang sama juga dimasukkan dalam caption.
