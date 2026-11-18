@@ -1345,10 +1345,10 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 ### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
 
-**10:00 · Info ringkas** (193 / 500 aksara)
+**10:00 · Info ringkas** (268 / 500 aksara)
 
 ```
-Info ringkas: span yang "dibersihkan" dengan cara rumah tak semestinya kurang bakteria. 🧽
+Info ringkas: span yang "dibersihkan" dengan cara rumah (contohnya dipanaskan dalam microwave atau dibilas dengan air sabun panas) tak semestinya kurang bakteria. 🧽
 
 Penulis kajian Cardinale et al. (2017) cadangkan span ditukar secara berkala, contohnya setiap minggu.
 ```

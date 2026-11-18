@@ -33,7 +33,7 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 | 🎞️ Motion grafik: tips | Jadual bersih dapur: harian, mingguan, bulanan |
 | 🎞️ Motion grafik: penyelesaian | Dapur cepat berbau? Punca & penyelesaian |
 | 🖼️ Carousel | 5 Kunci Makanan Lebih Selamat (WHO), satu kunci satu slaid |
-| ✍️ 10:00 Info ringkas | Span yang dibersihkan cara rumah tak semestinya kurang bakteria |
+| ✍️ 10:00 Info ringkas | Span yang dibersihkan cara rumah (microwave, bilas air sabun panas) tak semestinya kurang bakteria |
 | ✍️ 16:00 Pertanyaan | "Picit sabun terus atas span atau cairkan dulu? A / B" |
 | ✍️ 18:30 Tips | Cara keringkan span: perah, rak berlubang, asingkan span & kain lap |
 | ✍️ 21:00 Alert | Leptospirosis musim banjir: elak redah air banjir, tutup makanan |

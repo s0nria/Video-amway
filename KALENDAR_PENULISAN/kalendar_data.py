@@ -249,7 +249,7 @@ DAYS = [
   ],
   "caption": "5 kunci makanan lebih selamat dari WHO. Save untuk dapur korang 🍽️\n\nSumber: WHO Five Keys to Safer Food.\n" + DISC + "\n\n#Momyizz #DapurBersih #KeselamatanMakanan"},
  "teks": [
-  "Info ringkas: span yang \"dibersihkan\" dengan cara rumah tak semestinya kurang bakteria. 🧽\n\nPenulis kajian Cardinale et al. (2017) cadangkan span ditukar secara berkala, contohnya setiap minggu.",
+  "Info ringkas: span yang \"dibersihkan\" dengan cara rumah (contohnya dipanaskan dalam microwave atau dibilas dengan air sabun panas) tak semestinya kurang bakteria. 🧽\n\nPenulis kajian Cardinale et al. (2017) cadangkan span ditukar secara berkala, contohnya setiap minggu.",
   "Soalan jujur: korang guna sabun basuh pinggan macam mana? 🧽\n\nA. Picit terus atas span, banyak-banyak\nB. Cairkan dulu dalam botol picit / mangkuk air\n\nMomyizz dulu A. Sekarang B. Sabun pekat, sikit je dah berbuih banyak, buih pun tahan lama. Jimat! 🫧",
   "Tips span tahan lebih bersih 💡\n\n✅ Perah kuat lepas guna\n✅ Letak di rak berlubang / tempat berangin, bukan dalam sinki basah\n✅ Asingkan span pinggan dan kain lap meja\n✅ Tulis tarikh, tukar secara berkala\n✅ Sabun pekat? Cairkan dulu, picit sikit je\n✅ Pilih sabun yang dah diuji pakar dermatologi, tangan kita basuh pinggan hari-hari\n\nSpan kering = kurang tempat untuk bakteria membiak. 🧽",
   "Info penting musim banjir: leptospirosis merebak melalui air atau tanah yang tercemar air kencing tikus. ⚠️\n\nElak meredah air banjir tanpa kasut, tutup makanan di dapur, dan dapatkan rawatan jika demam selepas terdedah kepada air banjir. 🙏",
