@@ -43,7 +43,7 @@ Sumber: https://amway.my/pdpcontent/MYBN/110415_en.html (semak 18 Nov 2026)
 | ✅ | Mudah: campur 1–2 sudu ke dalam minuman, atau tabur atas bubur / bijirin | Arahan "How to use" |
 | ⚠️ | Amaran wajib bila jual: tidak disyorkan untuk bayi bawah 1 tahun; penghidap gout perlu hadkan purin | Petikan amaran di laman rasmi |
 | ❌ | "Tingkatkan imun", "elak letih", "kurangkan lapar", "turunkan kolesterol" | Dakwaan kesihatan: jangan guna walaupun ada di laman Amway |
-| ❌ | Perisa dan saiz | **PERLU SEMAK** pada hari jualan |
+| ✅ | Original Flavour 450 g: tanpa perisa, tanpa pemanis (senang campur dalam apa-apa minuman) | Label pek: "original flavour" · "UNFLAVOURED - UNSWEETENED" · "Net Weight 450 g" (gambar amway.my) |
 
 ## NUTRILITE BIO C PLUS ALL DAY FORMULA
 Sumber: https://www.amway.my/pdpcontent/MYBN/109746_en.html (semak 18 Nov 2026)

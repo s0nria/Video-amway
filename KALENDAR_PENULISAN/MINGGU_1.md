@@ -684,7 +684,7 @@ Produk berdaftar dengan KKM boleh disemak melalui laman NPRA. Elak produk yang j
 
 ### 💬 WhatsApp / group tertutup: Nutrilite Soy Protein Drink
 
-> Ruang tertutup sahaja (pelanggan sedia ada / group tertutup / orang yang bertanya). Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my, semak 18 Nov 2026). Semak harga dan perisa hari ini. Jangan tambah dakwaan kesihatan (imun, letih, kolesterol).
+> Ruang tertutup sahaja (pelanggan sedia ada / group tertutup / orang yang bertanya). Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my, semak 18 Nov 2026). Gambar: AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png (Original Flavour 450g). Semak harga hari ini. Jangan tambah dakwaan kesihatan (imun, letih, kolesterol).
 
 ```
 Hai [nama] 😊
@@ -696,7 +696,7 @@ Yang Momyizz guna: *Nutrilite Soy Protein Drink*
 • 8g protein setiap hidangan, ada kesemua 9 asid amino perlu
 • Bebas laktosa, rendah lemak
 • Tiada pewarna, perisa atau pengawet tiruan ditambah
-• Perisa: [semak amway.my: Mixed Berries 500g / Green Tea 450g]
+• Perisa: Original Flavour, 450g. Tanpa perisa & tanpa pemanis, jadi senang campur dalam apa-apa minuman
 • Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
 • Cara guna: campur 1–2 sudu dalam minuman, kacau / goncang. Boleh juga tabur atas bijirin
 • Tidak disyorkan untuk bayi bawah 1 tahun. Penghidap gout, hadkan pengambilan purin
