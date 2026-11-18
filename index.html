@@ -717,10 +717,10 @@ function wProg(D){const w=wdone(),ks=wKeys(D);return [ks.filter(k=>w[k]).length,
 function vidText(v,onscreen){return onscreen?v.babak.map(b=>b[2]).join("\n"):v.babak.map(b=>`${b[0]} | VISUAL: ${b[1]} | TEKS/SUARA: ${b[2]}`).join("\n")}
 function carText(c){return c.slaid.map((t,i)=>`SLAID ${i+1}\n${t}`).join("\n\n")}
 function wText(D,what,i){
-  if(what==="vscript")return `${D.video.tajuk}\n\n${vidText(D.video)}\n\nCAPTION:\n${D.video.caption}`;
+  if(what==="vscript")return `${D.video.tajuk}\nTANDA NAMA (sepanjang video, penjuru kanan atas): @empayarbiz_momyizz\n\n${vidText(D.video)}\n\nCAPTION:\n${D.video.caption}`;
   if(what==="vscreen")return vidText(D.video,true);
   if(what==="vcap")return D.video.caption;
-  if(what==="mgscript"){const g=D.mg[i];return `${g.jenis.toUpperCase()}: ${g.tajuk}\nSticker: ${g.sticker}\n\n`+g.babak.map(b=>`${b[0]} | KOMPONEN: ${b[1]} | TEKS: ${b[2].replace(/\n/g," / ")} | ANIMASI: ${b[3]}`).join("\n")+`\n\nCAPTION:\n${g.caption}`}
+  if(what==="mgscript"){const g=D.mg[i];return `${g.jenis.toUpperCase()}: ${g.tajuk}\nSticker: ${g.sticker}\nTANDA NAMA (sepanjang video, penjuru kanan atas): @empayarbiz_momyizz\n\n`+g.babak.map(b=>`${b[0]} | KOMPONEN: ${b[1]} | TEKS: ${b[2].replace(/\n/g," / ")} | ANIMASI: ${b[3]}`).join("\n")+`\n\nCAPTION:\n${g.caption}`}
   if(what==="mgscreen")return D.mg[i].babak.map(b=>b[2]).join("\n\n");
   if(what==="mgcap")return D.mg[i].caption;
   if(what==="call")return carText(D.carousel);
@@ -734,7 +734,7 @@ function wPrompt(D){
   const e=D.ep?state.episodes[D.ep-1]:null, p=D.plan;
   return [`Hasilkan konten Hari ${D.d} kalendar Momyizz. Topik hari ini: ${D.tema}. Semua konten satu topik, tetapi isi setiap konten BERBEZA.`,"",
   `PRODUK PENYELESAI MASALAH hari ini: ${D.produk.nama}. Masalah audiens: ${D.produk.masalah}. Key selling (disahkan amway.my, guna yang ini sahaja): ${D.produk.ks}. Gambar produk: ${D.produk.gambar}.`,"",
-  `1) 🎥 UNTUK VIDEO STORYTELLING (TikTok / Reels, 45 saat, untuk Flow AI), idea: ${p.video}. Tulis skrip dalam jadual: masa | visual (dengan prompt Flow dalam Bahasa Inggeris) | teks atas skrin / suara (5 babak), cadangan sticker Momyizz, dan caption pendek dengan 3–5 hashtag. Produk hari ini KELIHATAN dalam satu babak sebagai penyelesai masalah, dengan satu key selling dalam teks (ciri sahaja, TANPA nama produk / jenama dalam sari kata, suara atau caption). Penafian dalam babak akhir.`,
+  `1) 🎥 UNTUK VIDEO STORYTELLING (TikTok / Reels, 45 saat, untuk Flow AI), idea: ${p.video}. Tulis skrip dalam jadual: masa | visual (dengan prompt Flow dalam Bahasa Inggeris) | teks atas skrin / suara (5 babak), cadangan sticker Momyizz, dan caption pendek dengan 3–5 hashtag. Produk hari ini KELIHATAN dalam satu babak sebagai penyelesai masalah, dengan satu key selling dalam teks (ciri sahaja, TANPA nama produk / jenama dalam sari kata, suara atau caption). Penafian dalam babak akhir. Tanda nama @empayarbiz_momyizz WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).`,
   ...(p.mg||[]).map((g,i)=>`1${"ab"[i]}) 🎞️ UNTUK VIDEO MOTION GRAFIK ${g.masa} (${g.jenis}, 25 saat, tanpa rakaman), idea: ${g.idea}. Jadual: masa | komponen Motion Graphics Kit (HOOK, BIG_WORD, KAD_FAKTA, LABEL_BUKTI, CHECKLIST, KAUNTER, NOTA_TANGAN, SARI_KATA, PENAFIAN, STICKER) | teks atas skrin | animasi; 5–6 babak, babak akhir penafian + "Save & follow Momyizz", cadangan sticker, caption. Isi mesti berbeza daripada video storytelling, carousel dan teks.`),
   `2) 🖼️ UNTUK CAROUSEL (Instagram / Facebook), idea: ${p.carousel}. Tulis 6 slaid (slaid 1 = hook, slaid akhir = rumusan + save + penafian), setiap slaid maksimum 40 patah perkataan, dan caption dengan sumber + 3–5 hashtag.`,
   `3) ✍️ TEKS SAHAJA (Threads / Facebook), 4 post, setiap satu maksimum 500 aksara, tulis kiraan aksara. Tips mesti praktikal dan berbeza daripada isi video, motion grafik dan carousel. Selitkan ciri produk hari ini (tanpa nama) dalam 16:00 atau 18:30. 21:00 alert TANPA produk dan tidak mengulang alert 7 hari sebelumnya:`,
@@ -805,7 +805,7 @@ function vTulis(){
       <details class="wp"><summary>Caption</summary><div class="fb"><div class="wtxt">${esc(g.caption)}</div></div></details>
       <div class="row">${wCopyBtn(D,"mgscript","Salin skrip motion grafik",i)}${wCopyBtn(D,"mgscreen","Salin teks atas skrin",i,1)}${wCopyBtn(D,"mgcap","Salin caption",i,1)}</div></div>`).join("");
     body=`<div class="card wslot wvid">${wHead("🎥","UNTUK VIDEO STORYTELLING","TikTok · Reels","Untuk Flow (video AI), edit akhir dalam CapCut","08:30")}
-      <b>${esc(v.tajuk)}</b>${v.nota?`<div class="notice">${esc(v.nota)}</div>`:""}${wChk(D,"video")}
+      <b>${esc(v.tajuk)}</b><div class="small">🏷️ Tanda nama <b>@empayarbiz_momyizz</b> sepanjang video (kanan atas)</div>${v.nota?`<div class="notice">${esc(v.nota)}</div>`:""}${wChk(D,"video")}
       <details class="wp" open><summary>Skrip babak (${v.babak.length})</summary><div class="fb">${v.babak.map(b=>`<div class="wbabak"><span class="num">${esc(b[0])}</span><div><div class="small muted">Visual: ${esc(b[1])}</div><div>${esc(b[2])}</div></div></div>`).join("")}</div></details>
       <details class="wp"><summary>Caption video</summary><div class="fb"><div class="wtxt">${esc(v.caption)}</div></div></details>
       <div class="row">${wCopyBtn(D,"vscript","Salin skrip penuh")}${wCopyBtn(D,"vscreen","Salin teks atas skrin",undefined,1)}${wCopyBtn(D,"vcap","Salin caption",undefined,1)}</div></div>

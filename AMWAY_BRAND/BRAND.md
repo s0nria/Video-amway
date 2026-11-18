@@ -91,6 +91,7 @@ Dipetik daripada https://www.amway.my/compliance/principles-etiquette-of-using-s
 - Teks CTA penutup video (tepat, jangan ubah): **"Nak dapatkan produk? Klik LINK di Bio"**. Ini cara closing di ruang awam (produk tak boleh dibeli terus di media sosial). CTA terus (PM / order / harga) hanya di ruang tertutup.
 - Pautan: hanya "LINK di Bio". Jangan papar URL, nombor telefon atau WhatsApp dalam video.
 - CTA mesti berada dalam safe zone TikTok/Reels.
+- **Tanda nama @empayarbiz_momyizz — DISAHKAN pengguna (18 Nov 2026, WAJIB):** setiap video Amway (storytelling, motion grafik, 3D, carousel video) mesti ada teks **@empayarbiz_momyizz** sepanjang video. Kedudukan lalai: penjuru kanan atas dalam safe zone (kanan x 930, atas y 182), pil Kertas separa lutsinar, Nunito ExtraBold 800, 28 px, Sage gelap. Jangan tutup teks, sticker atau CTA.
 
 ## Key selling produk — DISAHKAN
 Setiap konten yang berkaitan dengan produk mesti ada sekurang-kurangnya satu key selling. Senarai yang dah disahkan (dengan sumber amway.my) dan ayat yang dilarang: `AMWAY_BRAND/KEY_SELLING.md`. Konten awam sebut ciri sahaja tanpa nama produk; nama produk hanya di ruang tertutup.

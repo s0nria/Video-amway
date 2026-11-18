@@ -54,6 +54,10 @@ Gerakan lalai: masuk pop 90%→100% + fade 0.3 s, keluar fade 0.2 s, ease-out.
 - **Video ruang tertutup sahaja:** boleh tambah nama produk, Fredoka 700, 56 px, Dakwat.
 - Tiada harga, tiada dakwaan perubatan, tiada janji hasil.
 
+## `TANDA_NAMA` — @empayarbiz_momyizz (WAJIB setiap video)
+- Pil Kertas `#FBF9F4` 82% legap, tinggi 48 px, jejari penuh, bayang lembut. Teks **@empayarbiz_momyizz**, Nunito 800, 28 px, Sage gelap `#556A4C`.
+- Kedudukan: penjuru kanan atas dalam safe zone (sisi kanan x 930, atas y 182). Kelihatan dari saat pertama hingga akhir, tanpa animasi.
+
 ## `NOTA_TANGAN` — nota kecil
 - Caveat Bold 700, 56–64 px, Kayu atau Sage gelap. Boleh ada anak panah lakaran.
 - Maksimum satu di skrin pada satu masa.
