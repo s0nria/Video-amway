@@ -309,17 +309,17 @@ Info ringkas: papan pemotong kayu atau plastik? Dua-dua boleh. 🔪
 USDA kata permukaan tak berliang macam plastik lebih senang dibersihkan, tapi yang paling penting: basuh dengan air panas & sabun selepas setiap guna, dan buang papan yang dah calar dalam atau beralur.
 ```
 
-**16:00 · Pertanyaan** (223 / 500 aksara)
+**16:00 · Pertanyaan** (237 / 500 aksara)
 
 ```
-Soalan: kain lap dapur korang basuh atau tukar bila? 🧻
+Soalan jujur: apa yang paling susah nak jaga kebersihan dapur bila balik kerja dah penat? 🧽
 
-A. Setiap hari
-B. 2–3 hari sekali
-C. Seminggu sekali
-D. Bila dah berbau 🙈
+A. Tak ada tenaga lagi
+B. Anak-anak perlukan perhatian
+C. Tak tahu nak mula dari mana
+D. Tak ada orang tolong
 
-Momyizz dulu D. Sekarang A, dan kain untuk tangan, meja & pinggan dah diasingkan ikut warna.
+Momyizz: A, hampir setiap hari. 😅
 ```
 
 **18:30 · Tips praktikal** (328 / 500 aksara)
@@ -527,17 +527,17 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: American Heart Association (2022) memasukkan tidur sebagai salah satu daripada 8 perkara utama untuk kesihatan jantung, sama penting dengan makan, bergerak dan tekanan darah. ❤️🌙
 ```
 
-**16:00 · Pertanyaan** (140 / 500 aksara)
+**16:00 · Pertanyaan** (225 / 500 aksara)
 
 ```
-Soalan: anak korang tidur pukul berapa malam sekolah? 🏫
+Ibu-ibu, bila anak tidur lewat malam sekolah, apa yang paling korang risau? 🌙
 
-🕘 Sebelum 9
-🕙 9–10
-🕚 10–11
-🕛 Lepas 11
+😴 Esok dia mengantuk di kelas
+😤 Pagi jadi drama nak bangun
+😔 Rasa bersalah tak tegas
+🥱 Kita pun ikut tidur lewat
 
-Kongsi kat komen, Momyizz nak tengok purata!
+Momyizz: yang last tu. Selalu! 😅
 ```
 
 **18:30 · Tips praktikal** (343 / 500 aksara)
@@ -842,17 +842,17 @@ Info ringkas: label "microwave safe" bermaksud bekas itu direka untuk digunakan 
 Tapi tetap ikut arahan pada label: tempoh, suhu, dan sama ada penutupnya boleh dimasukkan. Bekas tanpa label? Pindah dulu ke pinggan kaca.
 ```
 
-**16:00 · Pertanyaan** (258 / 500 aksara)
+**16:00 · Pertanyaan** (206 / 500 aksara)
 
 ```
-Soalan: bekal korang panaskan dalam bekas apa? 🍱
+Soalan: apa yang buat korang masih guna bekas plastik untuk panaskan bekal? 🍱
 
-A. Bekas plastik
-B. Pinggan kaca / seramik
-C. Tak panaskan, makan macam tu je
-D. Tak bawa bekal 😅
+💸 Bekas kaca mahal
+🎒 Berat nak bawa
+🙈 Dah biasa
+🤷 Tak tahu pun ada beza
 
-Momyizz dulu A. Sekarang B. Hari yang kalut, shake pisang yang tak perlu dipanaskan langsung, siap 1 minit. 🍌
+Tak ada jawapan salah. Momyizz pun dulu 'dah biasa'. 😄
 ```
 
 **18:30 · Tips praktikal** (350 / 500 aksara)
@@ -1025,16 +1025,17 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: cahaya terang pada waktu malam, termasuk dari skrin, boleh menekan hormon melatonin yang membantu kita rasa mengantuk. (Harvard Health Publishing) 📱🌙
 ```
 
-**16:00 · Pertanyaan** (144 / 500 aksara)
+**16:00 · Pertanyaan** (223 / 500 aksara)
 
 ```
-Jujur: telefon korang tidur di mana malam tadi? 📱
+Jujur: apa yang paling susah bila nak letak telefon di luar bilik waktu tidur? 📱
 
-🛏️ Atas katil
-🪑 Meja sebelah katil
-🚪 Luar bilik
+⏰ Guna sebagai jam loceng
+📲 Takut terlepas mesej penting
+😶 Scroll tu je masa untuk diri sendiri
+🙈 Dah jadi tabiat
 
-Momyizz baru pindah ke luar bilik minggu ni!
+Momyizz: nombor 3. Korang?
 ```
 
 **18:30 · Tips praktikal** (296 / 500 aksara)
@@ -1176,17 +1177,17 @@ Info ringkas: nasi perang ada lebih banyak serat berbanding nasi putih. 🍚
 Tak biasa? Mula dengan campur separuh nasi putih, separuh nasi perang. Lama-lama tekak dah biasa. (USDA FoodData Central)
 ```
 
-**16:00 · Pertanyaan** (236 / 500 aksara)
+**16:00 · Pertanyaan** (211 / 500 aksara)
 
 ```
-Soalan: seminggu korang bawa bekal berapa kali? 🍱
+Soalan: kalau ada bekal sihat yang boleh siap dalam 1 minit, korang paling nak guna waktu bila? 🍱
 
-0️⃣ Tak pernah
-1️⃣ 1–2 kali
-3️⃣ 3–4 kali
-5️⃣ Setiap hari bekerja
+🌅 Sarapan masa kalut
+🕛 Makan tengah hari di meja kerja
+🕓 Snek petang
+🚗 Dalam perjalanan
 
-Momyizz: 3 kali. Hari yang tak sempat langsung, paket shake pisang dalam beg jadi pelan B. 17g protein, siap 1 minit. 🍌
+Komen pilihan korang! 👇
 ```
 
 **18:30 · Tips praktikal** (274 / 500 aksara)
