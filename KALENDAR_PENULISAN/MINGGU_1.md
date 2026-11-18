@@ -703,7 +703,7 @@ Yang Momyizz guna: *Nutrilite Soy Protein Drink*
 
 Momyizz guna untuk hari kelam-kabut sahaja, bukan pengganti sarapan sebenar. 🙏
 
-Kalau nak, reply "NAK" dan perisa pilihan, Momyizz uruskan. 💛
+Kalau nak, reply "NAK", Momyizz uruskan. 💛
 
 Perkongsian ilmu umum. Bukan nasihat perubatan.
 ```
