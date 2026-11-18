@@ -30,6 +30,9 @@ Simpan gambar produk **asli** di sini untuk digunakan dalam video biasa dan vide
 | `bodykey-jump-start-kit-new.png` | BodyKey Jump Start Kit (New Edition), isi kit penuh | amway.my (`pdpcontent/MYBN/assets/img/325779_PDP_IMG.png`), latar lutsinar asal | 18 Nov 2026 |
 | `bodykey-start-up-pack-new.png` | BodyKey Start-Up Pack (New Edition), isi pek penuh | amway.my (`pdpcontent/MYBN/assets/img/325780_PDP_IMG.png`), latar lutsinar asal | 18 Nov 2026 |
 | `bodykey-shake-berry.png` | BodyKey by Nutrilite Meal Replacement Shake (Berry), gelas + paket + kotak | amway.my (`pdpcontent/MYBN/assets/img/124489_pdp_img3.png`), latar lutsinar asal | 18 Nov 2026 |
+| `bodykey-nutritious-meal-shake-banana.png` | ⭐ BodyKey Nutritious Meal Shake PERISA PISANG (baharu), kotak | amway.my (`Product_588Wx588H_NUT_128188M_1_NEW_IMG.jpg`); latar putih & label "NEW" dibuang | 18 Nov 2026 |
+| `bodykey-banana-gaya-studio.jpg` | Shake pisang: kotak, gelas & pisang (gambar gaya rasmi, latar kuning) | amway.my (`pdpcontent/MYBN/assets/img/128188_PDP_img1.jpg`) | 18 Nov 2026 |
+| `bodykey-banana-gaya-beg.jpg` | Paket shake pisang dikeluarkan dari beg tangan + shaker (gambar gaya rasmi) | amway.my (`pdpcontent/MYBN/assets/img/128188_PDP_img2.jpg`) | 18 Nov 2026 |
 
 **Nota Bio C Plus:** buah ceri acerola dalam gambar asal bertindih dengan botol, jadi botol tidak dipisahkan supaya label tidak terpotong.
 

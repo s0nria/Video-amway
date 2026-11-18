@@ -30,15 +30,15 @@ Setiap hari ada **satu produk penyelesai masalah** (key selling: `AMWAY_BRAND/KE
 | 1 | 1 | Mikroplastik: fakta, bukan panik | eSpring Water Purifier (model baharu) |  | Siap salin |
 | 2 | 1 | 3 langkah kecil kurangkan pendedahan plastik | eSpring Water Purifier (model baharu) | ✓ | Siap salin |
 | 3 | 1 | Cara baca berita kesihatan viral | eSpring Water Purifier (model baharu) |  | Siap salin |
-| 4 | 2 | Sarapan ibu yang selalu tertinggal | BodyKey by Nutrilite NEW EDITION (Jump Start Kit / Start-Up Pack / Shake) | ✓ | Siap salin |
+| 4 | 2 | Sarapan ibu yang selalu tertinggal | BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU | ✓ | Siap salin |
 | 5 | 2 | Persediaan malam & pelan B pagi kelam-kabut | NUTRILITE Soy Protein Drink (Original 450g) | ✓ | Siap salin |
-| 6 | 2 | Gula tersembunyi dalam minuman | NUTRILITE Soy Protein Drink (Original 450g) | ✓ | Siap salin |
+| 6 | 2 | Gula tersembunyi dalam minuman | BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU | ✓ | Siap salin |
 | 7 | 3 | Span dapur & kebersihan dapur | Amway Home DISH DROPS (1L) | ✓ | Siap salin |
 | 8 | 3 | Papan pemotong & kain lap | Amway Home DISH DROPS (1L) | ✓ | Rancangan |
 | 9 | 3 | Kesilapan dapur yang biasa | Amway Home DISH DROPS (1L) |  | Rancangan |
 | 10 | 4 | Panaskan bekal dalam bekas plastik | Amway Home DISH DROPS (1L) |  | Rancangan |
-| 11 | 4 | Bekal sihat ke pejabat | BodyKey by Nutrilite NEW EDITION (Jump Start Kit / Start-Up Pack / Shake) | ✓ | Rancangan |
-| 12 | 4 | Cara baca berita kesihatan (bahagian 2) | BodyKey by Nutrilite NEW EDITION (Jump Start Kit / Start-Up Pack / Shake) |  | Rancangan |
+| 11 | 4 | Bekal sihat ke pejabat | BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU | ✓ | Rancangan |
+| 12 | 4 | Cara baca berita kesihatan (bahagian 2) | BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU |  | Rancangan |
 | 13 | 5 | Minum air cukup | eSpring Water Purifier (model baharu) |  | Rancangan |
 | 14 | 5 | Cabaran Air 7 hari | eSpring Water Purifier (model baharu) | ✓ | Rancangan |
 | 15 | 5 | Dehidrasi & letih | eSpring Water Purifier (model baharu) |  | Rancangan |
@@ -51,9 +51,9 @@ Setiap hari ada **satu produk penyelesai masalah** (key selling: `AMWAY_BRAND/KE
 | 22 | 8 | Vitamin C setiap hari | NUTRILITE Bio C Plus All Day Formula |  | Rancangan |
 | 23 | 8 | Mitos vitamin C | NUTRILITE Bio C Plus All Day Formula | ✓ | Rancangan |
 | 24 | 8 | Vitamin C & zat besi | NUTRILITE Bio C Plus All Day Formula |  | Rancangan |
-| 25 | 9 | Duduk terlalu lama | BodyKey by Nutrilite NEW EDITION (Jump Start Kit / Start-Up Pack / Shake) |  | Rancangan |
-| 26 | 9 | Gerak bersama keluarga | BodyKey by Nutrilite NEW EDITION (Jump Start Kit / Start-Up Pack / Shake) |  | Rancangan |
-| 27 | 9 | Kuatkan otot | BodyKey by Nutrilite NEW EDITION (Jump Start Kit / Start-Up Pack / Shake) | ✓ | Rancangan |
+| 25 | 9 | Duduk terlalu lama | BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU |  | Rancangan |
+| 26 | 9 | Gerak bersama keluarga | BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU |  | Rancangan |
+| 27 | 9 | Kuatkan otot | BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU | ✓ | Rancangan |
 | 28 | 10 | Kulit dari dalam | ARTISTRY SKIN NUTRITION Cleanser (ikut jenis kulit Momyizz) |  | Rancangan |
 | 29 | 10 | Omega-3 & ikan tempatan | NUTRILITE Salmon Omega Complex | ✓ | Rancangan |
-| 30 | 10 | Refleksi 30 hari | BodyKey by Nutrilite NEW EDITION (Jump Start Kit / Start-Up Pack / Shake) | ✓ | Rancangan |
+| 30 | 10 | Refleksi 30 hari | BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU | ✓ | Rancangan |

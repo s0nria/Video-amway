@@ -18,7 +18,40 @@ Syarat:
 
 ---
 
-## BodyKey by Nutrilite — NEW EDITION (fokus promosi bulan ini)
+## ⭐ BodyKey by Nutrilite NUTRITIOUS MEAL SHAKE — PERISA PISANG BAHARU (fokus utama bulan ini)
+Sumber: https://www.amway.my/pdpcontent/MYBN/128188_en.html · halaman produk https://www.amway.my/p/128188M (semak 18 Nov 2026). Perisa lain dalam rangkaian sama: Chocolate (128184M), Café Latte (128185M), Berry (128186M).
+Gambar: `PRODUK/bodykey-nutritious-meal-shake-banana.png` (kotak, latar dibuang) · `PRODUK/bodykey-banana-gaya-studio.jpg` · `PRODUK/bodykey-banana-gaya-beg.jpg` (gambar gaya hidup rasmi)
+
+**Kedudukan (DISAHKAN pengguna):** shake ini untuk SEMUA orang, bukan untuk kurus sahaja. Amway sendiri menyenaraikan 3 gaya hidup:
+1. **Pemakanan seimbang harian:** sarapan, makan tengah hari, makan malam atau dalam perjalanan ("Convenient, balanced nutrition for breakfast, lunch, dinner or on-the-go")
+2. **Pengurusan berat badan:** pilihan sukatan & kalori terkawal dalam rutin berstruktur
+3. **Gaya hidup sedar gula:** GI rendah, hanya 6g gula sehidangan
+
+| | Key selling (BM) | Petikan rasmi |
+|---|---|---|
+| ✅ | BAHARU: perisa pisang | Halaman produk "Banana" · kotak "banana flavour / perisa pisang" |
+| ✅ | 17g protein tumbuhan dari soya & biji chia sehidangan | "17g Plant-Based Protein from Soy & Chia Seed" |
+| ✅ | 5g serat prebiotik | "5g Prebiotic Fibre" |
+| ✅ | 20 vitamin & mineral penting | "20 Essential Vitamins & Minerals" |
+| ✅ | Hanya 6g gula sehidangan | "Only 6g Sugar" |
+| ✅ | GI rendah, diperakui Glycemic Index Center (2026) | "Certified low GI … Certified by Glycemic Index Center, 2026" |
+| ✅ | Siap dalam 1 minit: 1 paket + 250ml air, goncang | "READY IN 1 MINUTE" · "HOW TO USE" |
+| ✅ | Paket individu, senang bawa ke mana-mana | "convenient individual pouch … wherever your day takes you" |
+| ✅ | Pemakanan seimbang: protein, serat, vitamin & mineral, karbohidrat & lemak | "Protein • Fibre • Vitamins & Minerals • Carbohydrates & Fats" |
+| ✅ | 205 kalori sehidangan · 14 paket x 51g | Jadual nutrisi |
+| ✅ | Sesuai untuk sesiapa yang mahukan pilihan pemakanan seimbang yang mudah sepanjang hari | "Ideal for anyone looking for a convenient balanced nutrition option throughout the day" |
+| ⚠️ | Amaran wajib bila jual: ada susu & soya; tidak disyorkan untuk yang tidak tahan laktosa; bawah 12 tahun, hamil / menyusu atau ada masalah kesihatan rujuk doktor | "Contains milk and soy" · "Not recommended for individuals with lactose intolerance" |
+| ⚠️ | Sertakan: "Nikmati sebagai sebahagian daripada diet sihat & gaya hidup aktif" | "*Enjoy as part of a healthy diet and active lifestyle" |
+| ❌ | "Tanpa gula", "bebas gula" | Ada 6g gula (sukrosa, fruktosa). Tulis "hanya 6g gula" |
+| ❌ | "Sesuai untuk pesakit diabetes", "turunkan gula darah" | Dilarang (dakwaan perubatan). "GI rendah" sahaja |
+| ❌ | "Bebas laktosa" | Salah: ada susu tanpa lemak. (Soy Protein Drink yang bebas laktosa) |
+| ❌ | Untuk anak-anak sebagai susu harian | Bawah 12 tahun rujuk doktor |
+
+Bila sudut **pengurusan berat badan** digunakan, peraturan khas di bawah (BodyKey New Edition) terpakai, termasuk "Keputusan berbeza mengikut individu".
+
+---
+
+## BodyKey by Nutrilite — NEW EDITION (kit Jump Start / Start-Up)
 Sumber (semak 18 Nov 2026): Jump Start Kit (New Edition) https://amway.my/pdpcontent/MYBN/325779_en.html · Start-Up Pack (New Edition) https://amway.my/pdpcontent/MYBN/325780_en.html · Shake https://www.amway.my/pdpcontent/MYBN/124489_en.html · Program https://www.amway.my/category-landing-page/bodykey
 Gambar: `PRODUK/bodykey-jump-start-kit-new.png` · `PRODUK/bodykey-start-up-pack-new.png` · `PRODUK/bodykey-shake-berry.png`
 
@@ -57,7 +90,7 @@ Gambar: `PRODUK/bodykey-jump-start-kit-new.png` · `PRODUK/bodykey-start-up-pack
 | ⚠️ | "Membantu kawal selera" — guna di WhatsApp sahaja, dengan "Keputusan berbeza mengikut individu" | "Appetite Control" |
 | ❌ | "Bakteria pelangsing (AKK)", "kurangkan berat & lemak badan", "untuk badan lebih langsing" | Dilarang (janji hasil) |
 
-### BodyKey by Nutrilite Meal Replacement Shake (Berry / Chocolate / Latte)
+### BodyKey Meal Replacement Shake (formula LAMA, halaman 124489) — guna Nutritious Meal Shake di atas untuk konten baharu
 | | Key selling (BM) | Petikan rasmi |
 |---|---|---|
 | ✅ | Satu hidangan (campur air): 17g protein (kebanyakan dari soya), 5g serat, 370mg kalsium, 205 kalori | Jadual "Each serving" |

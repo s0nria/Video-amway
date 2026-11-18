@@ -28,8 +28,8 @@ CERITA = "Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyi
 # Muncul dalam video (kelihatan + 1 key selling), 16:00 atau 18:30, dan WhatsApp bila hari hard-sell.
 # 21:00 alert dan konten bencana / saringan penyakit kekal tanpa produk. Key selling: AMWAY_BRAND/KEY_SELLING.md
 PRODUK = {
- "bodykey": ("BodyKey by Nutrilite NEW EDITION (Jump Start Kit / Start-Up Pack / Shake)", "AMWAY_BRAND/PRODUK/bodykey-jump-start-kit-new.png · bodykey-shake-berry.png",
-             "BAHARU: prebiotik Mixed FOS with Grape Ferment · program 60 hari diperibadikan + Gut Reset · shake 17g protein, 22 vitamin & mineral, 205 kalori · WAJIB: Keputusan berbeza mengikut individu"),
+ "bodykey": ("BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU", "AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg",
+             "untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya"),
  "espring": ("eSpring Water Purifier (model baharu)", "AMWAY_BRAND/PRODUK/espring-baharu.png",
              "4 standard NSF/ANSI · kurangkan 170+ bahan cemar · UV-C LED 99.9% bakteria & virus · terbukti kurangkan mikroplastik"),
  "soy": ("NUTRILITE Soy Protein Drink (Original 450g)", "AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png",
@@ -142,7 +142,7 @@ DAYS = [
    ("0–3s", "Meja makan: pinggan anak dan suami dah licin, pinggan ibu kosong", "Anak dah makan. Suami dah makan. Ibu? \"Nanti la.\" 🙃"),
    ("3–15s", "Momyizz kalut cari kunci, capai roti sambil keluar", "Hampir setiap pagi Momyizz jadi orang terakhir. Kadang langsung tak makan."),
    ("15–28s", "Momyizz di meja kerja pukul 11, lapar, capai snek manis", "Pukul 11 dah lapar sangat. Capai apa yang ada."),
-   ("28–40s", "Momyizz masukkan bekas ke dalam beg sekali dengan bekal anak; shaker BodyKey & paket shake di sebelah (BodyKey kelihatan)", "Minggu ni Momyizz cuba: siapkan bekal ibu sekali dengan bekal anak. Hari tak sempat? Shake ganti hidangan: 17g protein + 22 vitamin & mineral. 🍱"),
+   ("28–40s", "Momyizz masukkan bekas ke dalam beg sekali dengan bekal anak; paket shake pisang & shaker di sebelah (BodyKey perisa pisang kelihatan)", "Minggu ni Momyizz cuba: siapkan bekal ibu sekali dengan bekal anak. Hari tak sempat? Shake pisang siap 1 minit: 17g protein tumbuhan + 20 vitamin & mineral. 🍌"),
    ("40–45s", "Momyizz ke kamera", "Ibu pun perlu diisi dulu 💛 Siapa sama? | " + DISC),
   ],
   "caption": "Ibu-ibu, korang pun selalu jadi orang terakhir makan? 🙋‍♀️\n\n#Momyizz #SarapanIbu #IbuBekerja #MomLife"},
@@ -159,11 +159,11 @@ DAYS = [
  "teks": [
   "Info ringkas: gabungan protein + karbohidrat kompleks + serat pada waktu pagi biasanya buat kita kenyang lebih lama, berbanding minuman manis sahaja. 🍳\n\nContoh: telur + roti gandum + buah.",
   "Ibu-ibu, jujur sikit: pagi tadi korang sarapan apa? 🙈\n\n☕ Kopi je\n🍞 Roti sambil drive\n🥣 Sarapan betul-betul\n🤐 Tak sempat langsung\n\nMomyizz: roti sambil drive. Esok cuba lagi!",
-  "Tips pastikan ibu tak tertinggal sarapan 💡\n\n✅ Malam: letak bekas ibu SEBELAH bekas anak, terus nampak pagi esok\n✅ Simpan \"kotak snek sihat\" di pejabat: kacang, roti gandum, buah\n✅ Set peringatan telefon 10 pagi: \"Dah makan?\"\n✅ Hari kalut: shake ganti hidangan dalam botol shaker (17g protein, 22 vitamin & mineral). Keputusan berbeza mengikut individu\n\nKecil, tapi berkesan untuk Momyizz. 💛",
+  "Tips pastikan ibu tak tertinggal sarapan 💡\n\n✅ Malam: letak bekas ibu SEBELAH bekas anak, terus nampak pagi esok\n✅ Simpan \"kotak snek sihat\" di pejabat: kacang, roti gandum, buah\n✅ Set peringatan telefon 10 pagi: \"Dah makan?\"\n✅ Hari kalut: paket shake dalam beg, campur 250ml air, siap 1 minit (17g protein, 20 vitamin & mineral)\n\nKecil, tapi berkesan untuk Momyizz. 💛",
   "Info penting: 15.6% dewasa Malaysia ada diabetes, dan ramai tak tahu mereka menghidapnya (NHMS 2023). ⚠️\n\nKalau selalu skip makan dan banyak minum manis, buat saringan gula di klinik kesihatan. Tahu awal lebih baik. 🩸",
  ],
- "wa": {"tajuk": "BodyKey NEW EDITION (fokus bulan ini)", "nota": "Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (BodyKey New Edition, amway.my 325779 / 124489, semak 18 Nov 2026). WAJIB 'Keputusan berbeza mengikut individu'. Tiada angka kg, tiada sebelum-selepas, tiada 'bakteria pelangsing'. Semak harga, perisa & promosi rasmi hari ini.",
-  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal ibu yang selalu skip sarapan. Untuk hari kalut, Momyizz guna shake ganti hidangan dari *BodyKey by Nutrilite*.\n\n✨ BodyKey sekarang ada *NEW EDITION*!\n\n*BodyKey Jump Start Kit (New Edition)*\n• Program 60 hari yang diperibadikan, dengan BodyKey Gut Reset Programme\n• BAHARU: prebiotik Nutrilite Mixed FOS with Grape Ferment\n• Dalam kit: 4 BodyKey Meal Replacement Shake, Soy Protein Drink 900g, Salmon Omega Complex, probiotik, serat, panduan 15 hari, shaker & pinggan Suku-Suku Separuh\n• Bahan dari sumber semula jadi, tiada pewarna, perisa atau pengawet tambahan\n\n*BodyKey Meal Replacement Shake* (satu hidangan)\n• 17g protein, 5g serat, 205 kalori\n• 22 vitamin & mineral, 1/3 keperluan nutrisi\n\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Promosi: [promosi rasmi Amway, jika ada]\n• Pengalaman Momyizz: [pengalaman sebenar Momyizz]\n\nKeputusan berbeza mengikut individu. Bawah 12 tahun, hamil / menyusu atau ada masalah kesihatan, rujuk doktor dulu ya. 🙏\n\nNak tahu lebih? Reply \"BODYKEY\", Momyizz terangkan. 💛"}},
+ "wa": {"tajuk": "BodyKey Nutritious Meal Shake PERISA PISANG (baharu)", "nota": "Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 128188M, semak 18 Nov 2026). Jangan tulis 'tanpa gula' atau 'bebas laktosa'. Sebut sudut berat badan hanya dengan 'Keputusan berbeza mengikut individu'. Gambar: bodykey-banana-gaya-studio.jpg. Semak harga & promosi rasmi hari ini.",
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal ibu yang selalu skip sarapan. Ada yang tanya shake apa Momyizz minum pagi tadi. 🍌\n\nItu *BodyKey by Nutrilite Nutritious Meal Shake*, *PERISA PISANG yang baru keluar!*\n\nBukan untuk diet je tau. Sesuai untuk sarapan, bekal, petang kalut, atau bila nak kurangkan gula:\n• 17g protein tumbuhan dari soya & biji chia\n• 5g serat prebiotik\n• 20 vitamin & mineral\n• Hanya 6g gula sehidangan, GI rendah (diperakui Glycemic Index Center)\n• Siap 1 minit: 1 paket + 250ml air, goncang\n• Paket individu, senang masuk beg\n• Ada juga perisa Chocolate, Café Latte & Berry\n\n• Harga: RM[HARGA] / kotak 14 paket (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Promosi: [promosi rasmi Amway, jika ada]\n• Rasa pisang pada Momyizz: [pengalaman sebenar Momyizz]\n\nNikmati sebagai sebahagian daripada diet sihat & gaya hidup aktif. Ada susu & soya, tak sesuai untuk yang tak tahan laktosa. Bawah 12 tahun, hamil / menyusu atau ada masalah kesihatan, rujuk doktor dulu ya. 🙏\n\nNak cuba? Reply \"PISANG\", Momyizz uruskan. 💛"}},
 
 # ================================================================ HARI 5
 {"d": 5, "ep": 2, "tema": "Persediaan malam & pelan B pagi kelam-kabut", "produk": ("soy", "Pagi kelam-kabut, perlukan pelan B yang ada protein"),
@@ -196,14 +196,14 @@ DAYS = [
   "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal sarapan ibu yang selalu tertinggal. Ramai tanya apa \"pelan B\" Momyizz untuk hari yang tak sempat makan.\n\nYang Momyizz guna: *Nutrilite Soy Protein Drink*\n• Protein tumbuhan: gabungan gandum, soya & kacang pea\n• 8g protein setiap hidangan, ada kesemua 9 asid amino perlu\n• Bebas laktosa, rendah lemak\n• Tiada pewarna, perisa atau pengawet tiruan ditambah\n• Perisa: Original Flavour, 450g. Tanpa perisa & tanpa pemanis, jadi senang campur dalam apa-apa minuman\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Cara guna: campur 1–2 sudu dalam minuman, kacau / goncang. Boleh juga tabur atas bijirin\n• Tidak disyorkan untuk bayi bawah 1 tahun. Penghidap gout, hadkan pengambilan purin\n\nMomyizz guna untuk hari kelam-kabut sahaja, bukan pengganti sarapan sebenar. 🙏\n\nKalau nak, reply \"NAK\", Momyizz uruskan. 💛\n\n" + DISC}},
 
 # ================================================================ HARI 6
-{"d": 6, "ep": 2, "tema": "Gula tersembunyi dalam minuman", "produk": ("soy", "Nak ganti minuman manis pagi dengan minuman tanpa pemanis"),
+{"d": 6, "ep": 2, "tema": "Gula tersembunyi dalam minuman", "produk": ("bodykey", "Nak ganti minuman manis pagi dengan pilihan GI rendah, kurang gula"),
  "video": {"tajuk": "Gula paling banyak bukan dalam pinggan", "nota": CERITA + " Sticker: 09-kartun-terkejut-pipi (babak pendedahan).",
   "babak": [
    ("0–3s", "Tiga cawan atas meja: teh tarik, kopi ais, air kotak", "Gula paling banyak dalam rutin Momyizz… bukan dalam pinggan. 😳"),
    ("3–15s", "Momyizz tunjuk cawan satu per satu", "Teh tarik pagi. Kopi ais tengah hari. Air kotak petang."),
    ("15–28s", "Momyizz minum air kosong dulu, baru kopi", "Sekarang: air kosong dulu, baru kopi."),
    ("28–40s", "Momyizz di kaunter kedai, isyarat 'kurang manis'", "Bila beli: \"kurang manis ya!\""),
-   ("40–45s", "Momyizz bancuh minuman protein tanpa pemanis dalam gelas (Soy Protein Drink kelihatan), senyum ke kamera", "Bukan haramkan teh tarik 😄 Pagi Momyizz sekarang: minuman protein tanpa pemanis. | " + DISC),
+   ("40–45s", "Momyizz goncang shake pisang dalam shaker, tuang ke gelas (kotak BodyKey perisa pisang kelihatan), senyum ke kamera", "Bukan haramkan teh tarik 😄 Pagi Momyizz sekarang: shake pisang GI rendah, hanya 6g gula. | " + DISC),
   ],
   "caption": "Minuman manis mana paling susah korang nak kurangkan? 👇\n\n#Momyizz #KurangManis #GayaHidupSihat"},
  "carousel": {"tajuk": "Cara baca label gula",
@@ -218,8 +218,8 @@ DAYS = [
   "caption": "4 cara kesan gula tersembunyi. Save & bawa masa shopping 🛒\n\nSumber: KKM, Garis Panduan Diet Malaysia 2020.\n" + DISC + "\n\n#Momyizz #KurangManis #BacaLabel"},
  "teks": [
   "Info ringkas: Garis Panduan Diet Malaysia (KKM) galakkan kita hadkan gula tambahan, termasuk dalam minuman. ☕\n\nTrick paling mudah Momyizz: segelas air kosong dulu, baru kopi atau teh.",
-  "Jujur: minuman manis mana paling susah korang tinggal? 🧋\n\n☕ Teh tarik\n🧊 Kopi ais\n🧃 Air kotak\n🥤 Air bergas\n\nMomyizz: teh tarik pagi. Tengah cuba \"kurang manis\". 😅",
-  "Tips kurangkan manis tanpa rasa terseksa 💡\n\nMinggu 1: minta \"kurang manis\"\nMinggu 2: \"separuh gula\"\nMinggu 3: cuba teh / kopi O kosong sekali sehari\nMinggu 4: tukar satu minuman manis pagi kepada minuman protein tanpa pemanis\n\nYang Momyizz perasan: lama-lama tekak dah biasa, dan air manis sangat terasa terlalu manis. 😄",
+  "Jujur: minuman manis mana paling susah korang tinggal? 🧋\n\n☕ Teh tarik\n🧊 Kopi ais\n🧃 Air kotak\n🥤 Air bergas\n\nMomyizz: teh tarik pagi. Sekarang selang-seli dengan shake pisang GI rendah, hanya 6g gula. Rasa macam milkshake pisang! 🍌",
+  "Tips kurangkan manis tanpa rasa terseksa 💡\n\nMinggu 1: minta \"kurang manis\"\nMinggu 2: \"separuh gula\"\nMinggu 3: cuba teh / kopi O kosong sekali sehari\nMinggu 4: tukar satu minuman manis pagi kepada shake GI rendah (6g gula, 17g protein)\n\nYang Momyizz perasan: lama-lama tekak dah biasa, dan air manis sangat terasa terlalu manis. 😄",
   "Info penting: ada sejarah diabetes dalam keluarga? ⚠️\n\nNHMS 2023: 15.6% dewasa Malaysia ada diabetes, dan ramai tak tahu. Saringan gula darah boleh dibuat di klinik kesihatan. Jangan tunggu ada simptom. 🩸",
  ],
  "wa": {"tajuk": "Minta testimoni (pelanggan sedia ada)", "nota": "Untuk dapatkan testimoni SEBENAR. Guna hanya dengan kebenaran, tanpa dakwaan perubatan.",
@@ -271,7 +271,7 @@ DAYS = [
 {"d": 11, "ep": 4, "tema": "Bekal sihat ke pejabat", "produk": ("bodykey", "Bekal tak seimbang; tak tahu pinggan yang betul"),
  "plan": ("Susun bekal seminggu dalam 20 minit", "Bekal ikut Pinggan Sihat (5 slaid)",
           ["Biar lauk sejuk sikit sebelum masuk bekas", "Korang bawa bekal berapa kali seminggu?", "Bekal seminggu: masak asas hari Ahad, susun ikut hari, guna pinggan Suku-Suku Separuh sebagai panduan", "bekal berkuah jangan biar lebih 2 jam di suhu bilik"],
-          "BodyKey Jump Start Kit (New Edition): pinggan Suku-Suku Separuh + shake untuk hari kalut (key selling KEY_SELLING.md; WAJIB 'Keputusan berbeza mengikut individu')")},
+          "BodyKey Nutritious Meal Shake perisa pisang: bekal kalut siap 1 minit, 17g protein, 6g gula (key selling KEY_SELLING.md; ada susu & soya)")},
 {"d": 12, "ep": 4, "tema": "Cara baca berita kesihatan (bahagian 2)", "produk": ("bodykey", "Keliru iklan 'kurus cepat'; nak program berstruktur tanpa janji kosong"),
  "plan": ("Tajuk viral vs isi kajian sebenar", "Kajian makmal vs manusia: bezanya",
           ["FDA: belum ada bukti risiko mikroplastik dalam makanan, pemantauan diteruskan", "Berita kesihatan apa paling selalu masuk group keluarga?", "Tanya 3 soalan sebelum percaya tajuk viral atau iklan 'kurus cepat': ada pendaftaran KKM? ada janji kg? ada 'keputusan berbeza'?", "semak sebenarnya.my sebelum forward"], None)},
@@ -323,7 +323,7 @@ DAYS = [
 {"d": 27, "ep": 9, "tema": "Kuatkan otot", "produk": ("bodykey", "Latihan otot tapi hidangan kurang protein"),
  "plan": ("Latihan 5 minit di rumah", "Latihan otot 2 hari seminggu (WHO 2020)",
           ["Otot kuat bantu aktiviti harian", "Korang pernah buat latihan otot?", "3 latihan otot tanpa alat: squat dinding, angkat botol air, tekan tubi lutut", "hamil / ada penyakit, tanya doktor sebelum mula"],
-          "BodyKey Meal Replacement Shake & Jump Start Kit (New Edition): 17g protein sehidangan (key selling KEY_SELLING.md; tiada janji otot / kurus; WAJIB 'Keputusan berbeza mengikut individu')")},
+          "BodyKey Nutritious Meal Shake perisa pisang selepas bersenam: 17g protein tumbuhan sehidangan (key selling KEY_SELLING.md; tiada janji otot / kurus)")},
 {"d": 28, "ep": 10, "tema": "Kulit dari dalam", "produk": ("cleanser", "Kulit kusam walaupun banyak produk; asas: cuci muka betul"),
  "plan": ("Rak skincare penuh, kulit tetap kusam", "Pinggan Glowing (5 slaid)",
           ["Vitamin C perlu untuk kolagen (NIH)", "Pinggan makan tengah hari korang hari ni?", "Isi separuh pinggan dengan sayur dulu", "1 dalam 2 yang ada kolesterol tinggi tak tahu (NHMS 2023)"], None)},
@@ -334,5 +334,5 @@ DAYS = [
 {"d": 30, "ep": 10, "tema": "Refleksi 30 hari", "produk": ("bodykey", "Bulan depan: mula perjalanan pengurusan berat badan 60 hari"),
  "plan": ("Terima kasih 30 hari bersama korang", "10 perkara Momyizz kongsi bulan ni",
           ["1 tabiat paling mudah untuk mula", "Bulan depan nak Momyizz kupas apa?", "Senarai semak 10 tabiat untuk bulan depan", "cara betul ambil supplemen (6 perkara)"],
-          "BodyKey Jump Start Kit (New Edition) untuk mula bulan depan + ikuti pelanggan sedia ada (key selling KEY_SELLING.md; WAJIB 'Keputusan berbeza mengikut individu')")},
+          "BodyKey Nutritious Meal Shake perisa pisang untuk rutin bulan depan, atau Jump Start Kit (New Edition) bagi yang nak urus berat badan + ikuti pelanggan sedia ada (key selling KEY_SELLING.md; sudut berat: WAJIB 'Keputusan berbeza mengikut individu')")},
 ]

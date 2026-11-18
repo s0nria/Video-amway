@@ -454,8 +454,8 @@ Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan ke
 
 ## Hari 4 · Episod 2 · Sarapan ibu yang selalu tertinggal
 
-> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite NEW EDITION (Jump Start Kit / Start-Up Pack / Shake) · **Masalah:** Ibu skip sarapan; perlukan hidangan lengkap yang cepat
-> **Key selling:** BAHARU: prebiotik Mixed FOS with Grape Ferment · program 60 hari diperibadikan + Gut Reset · shake 17g protein, 22 vitamin & mineral, 205 kalori · WAJIB: Keputusan berbeza mengikut individu · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-jump-start-kit-new.png · bodykey-shake-berry.png`
+> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU · **Masalah:** Ibu skip sarapan; perlukan hidangan lengkap yang cepat
+> **Key selling:** untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
 
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Semua dah makan, kecuali ibu
 
@@ -468,7 +468,7 @@ Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan ke
 | 0–3s | Meja makan: pinggan anak dan suami dah licin, pinggan ibu kosong | Anak dah makan. Suami dah makan. Ibu? "Nanti la." 🙃 |
 | 3–15s | Momyizz kalut cari kunci, capai roti sambil keluar | Hampir setiap pagi Momyizz jadi orang terakhir. Kadang langsung tak makan. |
 | 15–28s | Momyizz di meja kerja pukul 11, lapar, capai snek manis | Pukul 11 dah lapar sangat. Capai apa yang ada. |
-| 28–40s | Momyizz masukkan bekas ke dalam beg sekali dengan bekal anak; shaker BodyKey & paket shake di sebelah (BodyKey kelihatan) | Minggu ni Momyizz cuba: siapkan bekal ibu sekali dengan bekal anak. Hari tak sempat? Shake ganti hidangan: 17g protein + 22 vitamin & mineral. 🍱 |
+| 28–40s | Momyizz masukkan bekas ke dalam beg sekali dengan bekal anak; paket shake pisang & shaker di sebelah (BodyKey perisa pisang kelihatan) | Minggu ni Momyizz cuba: siapkan bekal ibu sekali dengan bekal anak. Hari tak sempat? Shake pisang siap 1 minit: 17g protein tumbuhan + 20 vitamin & mineral. 🍌 |
 | 40–45s | Momyizz ke kamera | Ibu pun perlu diisi dulu 💛 Siapa sama? | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
 **Caption video**
@@ -562,7 +562,7 @@ Ibu-ibu, jujur sikit: pagi tadi korang sarapan apa? 🙈
 Momyizz: roti sambil drive. Esok cuba lagi!
 ```
 
-**18:30 · Tips praktikal** (390 / 500 aksara)
+**18:30 · Tips praktikal** (367 / 500 aksara)
 
 ```
 Tips pastikan ibu tak tertinggal sarapan 💡
@@ -570,7 +570,7 @@ Tips pastikan ibu tak tertinggal sarapan 💡
 ✅ Malam: letak bekas ibu SEBELAH bekas anak, terus nampak pagi esok
 ✅ Simpan "kotak snek sihat" di pejabat: kacang, roti gandum, buah
 ✅ Set peringatan telefon 10 pagi: "Dah makan?"
-✅ Hari kalut: shake ganti hidangan dalam botol shaker (17g protein, 22 vitamin & mineral). Keputusan berbeza mengikut individu
+✅ Hari kalut: paket shake dalam beg, campur 250ml air, siap 1 minit (17g protein, 20 vitamin & mineral)
 
 Kecil, tapi berkesan untuk Momyizz. 💛
 ```
@@ -583,34 +583,33 @@ Info penting: 15.6% dewasa Malaysia ada diabetes, dan ramai tak tahu mereka meng
 Kalau selalu skip makan dan banyak minum manis, buat saringan gula di klinik kesihatan. Tahu awal lebih baik. 🩸
 ```
 
-### 💬 WhatsApp / group tertutup: BodyKey NEW EDITION (fokus bulan ini)
+### 💬 WhatsApp / group tertutup: BodyKey Nutritious Meal Shake PERISA PISANG (baharu)
 
-> Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (BodyKey New Edition, amway.my 325779 / 124489, semak 18 Nov 2026). WAJIB 'Keputusan berbeza mengikut individu'. Tiada angka kg, tiada sebelum-selepas, tiada 'bakteria pelangsing'. Semak harga, perisa & promosi rasmi hari ini.
+> Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 128188M, semak 18 Nov 2026). Jangan tulis 'tanpa gula' atau 'bebas laktosa'. Sebut sudut berat badan hanya dengan 'Keputusan berbeza mengikut individu'. Gambar: bodykey-banana-gaya-studio.jpg. Semak harga & promosi rasmi hari ini.
 
 ```
 Hai [nama] 😊
 
-Minggu ni Momyizz kongsi pasal ibu yang selalu skip sarapan. Untuk hari kalut, Momyizz guna shake ganti hidangan dari *BodyKey by Nutrilite*.
+Minggu ni Momyizz kongsi pasal ibu yang selalu skip sarapan. Ada yang tanya shake apa Momyizz minum pagi tadi. 🍌
 
-✨ BodyKey sekarang ada *NEW EDITION*!
+Itu *BodyKey by Nutrilite Nutritious Meal Shake*, *PERISA PISANG yang baru keluar!*
 
-*BodyKey Jump Start Kit (New Edition)*
-• Program 60 hari yang diperibadikan, dengan BodyKey Gut Reset Programme
-• BAHARU: prebiotik Nutrilite Mixed FOS with Grape Ferment
-• Dalam kit: 4 BodyKey Meal Replacement Shake, Soy Protein Drink 900g, Salmon Omega Complex, probiotik, serat, panduan 15 hari, shaker & pinggan Suku-Suku Separuh
-• Bahan dari sumber semula jadi, tiada pewarna, perisa atau pengawet tambahan
+Bukan untuk diet je tau. Sesuai untuk sarapan, bekal, petang kalut, atau bila nak kurangkan gula:
+• 17g protein tumbuhan dari soya & biji chia
+• 5g serat prebiotik
+• 20 vitamin & mineral
+• Hanya 6g gula sehidangan, GI rendah (diperakui Glycemic Index Center)
+• Siap 1 minit: 1 paket + 250ml air, goncang
+• Paket individu, senang masuk beg
+• Ada juga perisa Chocolate, Café Latte & Berry
 
-*BodyKey Meal Replacement Shake* (satu hidangan)
-• 17g protein, 5g serat, 205 kalori
-• 22 vitamin & mineral, 1/3 keperluan nutrisi
-
-• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Harga: RM[HARGA] / kotak 14 paket (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
 • Promosi: [promosi rasmi Amway, jika ada]
-• Pengalaman Momyizz: [pengalaman sebenar Momyizz]
+• Rasa pisang pada Momyizz: [pengalaman sebenar Momyizz]
 
-Keputusan berbeza mengikut individu. Bawah 12 tahun, hamil / menyusu atau ada masalah kesihatan, rujuk doktor dulu ya. 🙏
+Nikmati sebagai sebahagian daripada diet sihat & gaya hidup aktif. Ada susu & soya, tak sesuai untuk yang tak tahan laktosa. Bawah 12 tahun, hamil / menyusu atau ada masalah kesihatan, rujuk doktor dulu ya. 🙏
 
-Nak tahu lebih? Reply "BODYKEY", Momyizz terangkan. 💛
+Nak cuba? Reply "PISANG", Momyizz uruskan. 💛
 ```
 
 **Checklist hari ini**
@@ -792,8 +791,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 ## Hari 6 · Episod 2 · Gula tersembunyi dalam minuman
 
-> 🧩 **Produk penyelesai masalah:** NUTRILITE Soy Protein Drink (Original 450g) · **Masalah:** Nak ganti minuman manis pagi dengan minuman tanpa pemanis
-> **Key selling:** protein tumbuhan · 8g protein, 9 asid amino perlu · bebas laktosa · tanpa pemanis & tanpa perisa tiruan · **Gambar:** `AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png`
+> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU · **Masalah:** Nak ganti minuman manis pagi dengan pilihan GI rendah, kurang gula
+> **Key selling:** untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
 
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Gula paling banyak bukan dalam pinggan
 
@@ -807,7 +806,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 | 3–15s | Momyizz tunjuk cawan satu per satu | Teh tarik pagi. Kopi ais tengah hari. Air kotak petang. |
 | 15–28s | Momyizz minum air kosong dulu, baru kopi | Sekarang: air kosong dulu, baru kopi. |
 | 28–40s | Momyizz di kaunter kedai, isyarat 'kurang manis' | Bila beli: "kurang manis ya!" |
-| 40–45s | Momyizz bancuh minuman protein tanpa pemanis dalam gelas (Soy Protein Drink kelihatan), senyum ke kamera | Bukan haramkan teh tarik 😄 Pagi Momyizz sekarang: minuman protein tanpa pemanis. | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+| 40–45s | Momyizz goncang shake pisang dalam shaker, tuang ke gelas (kotak BodyKey perisa pisang kelihatan), senyum ke kamera | Bukan haramkan teh tarik 😄 Pagi Momyizz sekarang: shake pisang GI rendah, hanya 6g gula. | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
 **Caption video**
 
@@ -887,7 +886,7 @@ Info ringkas: Garis Panduan Diet Malaysia (KKM) galakkan kita hadkan gula tambah
 Trick paling mudah Momyizz: segelas air kosong dulu, baru kopi atau teh.
 ```
 
-**16:00 · Pertanyaan** (161 / 500 aksara)
+**16:00 · Pertanyaan** (229 / 500 aksara)
 
 ```
 Jujur: minuman manis mana paling susah korang tinggal? 🧋
@@ -897,10 +896,10 @@ Jujur: minuman manis mana paling susah korang tinggal? 🧋
 🧃 Air kotak
 🥤 Air bergas
 
-Momyizz: teh tarik pagi. Tengah cuba "kurang manis". 😅
+Momyizz: teh tarik pagi. Sekarang selang-seli dengan shake pisang GI rendah, hanya 6g gula. Rasa macam milkshake pisang! 🍌
 ```
 
-**18:30 · Tips praktikal** (320 / 500 aksara)
+**18:30 · Tips praktikal** (329 / 500 aksara)
 
 ```
 Tips kurangkan manis tanpa rasa terseksa 💡
@@ -908,7 +907,7 @@ Tips kurangkan manis tanpa rasa terseksa 💡
 Minggu 1: minta "kurang manis"
 Minggu 2: "separuh gula"
 Minggu 3: cuba teh / kopi O kosong sekali sehari
-Minggu 4: tukar satu minuman manis pagi kepada minuman protein tanpa pemanis
+Minggu 4: tukar satu minuman manis pagi kepada shake GI rendah (6g gula, 17g protein)
 
 Yang Momyizz perasan: lama-lama tekak dah biasa, dan air manis sangat terasa terlalu manis. 😄
 ```
