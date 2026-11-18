@@ -91,7 +91,7 @@ Dipetik daripada https://www.amway.my/compliance/principles-etiquette-of-using-s
 ## Key selling produk — DISAHKAN
 Setiap konten yang berkaitan dengan produk mesti ada sekurang-kurangnya satu key selling. Senarai yang dah disahkan (dengan sumber amway.my) dan ayat yang dilarang: `AMWAY_BRAND/KEY_SELLING.md`. Konten awam sebut ciri sahaja tanpa nama produk; nama produk hanya di ruang tertutup.
 
-**Produk dalam video — DISAHKAN pengguna (18 Nov 2026):** botol dan jenama BOLEH kelihatan dalam rakaman / gambar sendiri. Nama produk atau jenama TIDAK disebut dalam sari kata, teks atas skrin, voiceover, caption atau teks awam. Tetap tertakluk kepada perkara "Perlu disahkan dengan Amway Malaysia / upline" di atas (gambar produk rakaman sendiri, semakan video).
+**Produk dalam video — DISAHKAN pengguna (18 Nov 2026):** botol dan jenama BOLEH kelihatan dalam rakaman / gambar sendiri. Nama produk atau jenama TIDAK disebut dalam sari kata, teks atas skrin, voiceover, caption atau teks awam. **Video animasi kartun:** produk tetap guna gambar botol asli (bukan dilukis semula atau dikartunkan), simpan dalam `AMWAY_BRAND/PRODUK/`. Tetap tertakluk kepada perkara "Perlu disahkan dengan Amway Malaysia / upline" di atas (gambar produk rakaman sendiri, semakan video).
 
 ## Peraturan ketepatan maklumat produk — DISAHKAN
 1. **People first, product second.** Mula dengan situasi hidup sebenar; produk hanya jika berkaitan secara munasabah.

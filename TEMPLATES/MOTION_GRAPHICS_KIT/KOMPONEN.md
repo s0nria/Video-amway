@@ -49,8 +49,9 @@ Gerakan lalai: masuk pop 90%→100% + fade 0.3 s, keluar fade 0.2 s, ease-out.
 - Kira naik 0.8–1.2 s. Hanya angka yang ada sumber.
 
 ## `KAD_PRODUK` — pengenalan produk
-- Panel Linen `#EAE1D0`, jejari 36 px. Gambar produk rasmi di tengah (latar dibuang).
-- Nama produk: Fredoka 700, 56 px, Dakwat. 1–2 baris fakta Nunito 800, 40 px, **disalin tepat dari amway.my**.
+- Panel Linen `#EAE1D0`, jejari 36 px. Gambar botol / pek **asli** di tengah (latar dibuang) dari `AMWAY_BRAND/PRODUK/`. Dalam video animasi kartun pun, produk kekal gambar asli: jangan lukis semula atau kartunkan.
+- **Video awam:** tiada nama produk dalam teks. Tulis 1–2 key selling (ciri) dari `AMWAY_BRAND/KEY_SELLING.md`, Nunito 800, 40 px.
+- **Video ruang tertutup sahaja:** boleh tambah nama produk, Fredoka 700, 56 px, Dakwat.
 - Tiada harga, tiada dakwaan perubatan, tiada janji hasil.
 
 ## `NOTA_TANGAN` — nota kecil
