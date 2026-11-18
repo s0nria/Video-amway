@@ -90,5 +90,8 @@ Cara jana siri baharu dari podcast YouTube (dalam Claude Project):
 2. Tampal dalam Claude Project bersama arahan dalam `CLAUDE_PROJECT/ARAHAN_PROJECT.md` (bahagian "Jana siri dari podcast").
 3. Semak senarai topik yang Claude cadangkan, kemudian minta konten harian ikut format kalendar.
 
+## Carousel tips (18:30)
+Tips 18:30 dipost dalam dua bentuk: ✍️ teks (Threads) dan 🖼️ carousel (Instagram & Facebook, caption = teks tips). Satu tips satu slaid dengan gambar / ikon sebenar, kerana audiens lebih mudah ingat bila nampak gambar. Worksheet menjana slaid terus daripada teks tips (format: tajuk + 💡, baris ✅ / 1️⃣, ayat penutup).
+
 ## Soalan berimpak tinggi
 Teks 16:00 (Pertanyaan) gilir jenis soalan: keadaan sekarang → impian → halangan → emosi. Bila prospek komen atau DM, guna **Skrip prospek** (tab Tulis) sebelum hantar mesej WhatsApp produk. Panduan: `TEKNIK_PENULISAN.md` bab 9.

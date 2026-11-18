@@ -180,11 +180,66 @@ Info penting: sembelit berpanjangan, perubahan tabiat buang air yang mendadak, a
 Jangan bergantung pada julap atau teh 'detoks' berulang kali tanpa nasihat.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips tambah serat tanpa perut kembung
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+TAMBAH SERAT TANPA PERUT KEMBUNG
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Tambah sedikit demi sedikit, satu hidangan seminggu
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Minum air kosong yang cukup
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Pilih pelbagai sumber: sayur, buah, kekacang, bijirin penuh
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Kunyah perlahan
+```
+
+**Slaid 6**
+
+```
+TIPS 5
+Hari tak cukup sayur: shake pisang ada 5g serat prebiotik sehidangan
+```
+
+**Slaid 7**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -369,11 +424,61 @@ Info penting: produk 'pil minda' atau 'booster otak' banyak dijual. ⚠️
 Semak nombor pendaftaran MAL dan dakwaannya. Tiada pil yang menggantikan tidur cukup, makanan seimbang dan bergerak.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips telur dadar penuh sayur dalam 5 minit
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+TELUR DADAR PENUH SAYUR DALAM 5 MINIT
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+2 biji telur + bawang + sawi / bayam cincang
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Tambah sedikit lada hitam
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Masak dengan minyak sedikit
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Makan dengan roti gandum
+```
+
+**Slaid 6**
+
+```
+Protein + sayur dalam satu pinggan! Pagi tak sempat masak: shake pisang 17g protein. 🍌
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -558,6 +663,60 @@ Info penting: sedang makan ubat cair darah atau ada masalah pendarahan? ⚠️
 Tanya doktor atau ahli farmasi sebelum mengambil suplemen minyak ikan / omega-3, kerana ia boleh berinteraksi dengan ubat tertentu. (NIH)
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips anak mahu makan ikan
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+ANAK MAHU MAKAN IKAN
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Buang tulang & jadikan isi ikan dalam bubur, nasi goreng atau roti
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Sardin dalam tin: jadikan inti sandwich
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Goreng tepung ringan / bakar dengan sedikit kunyit
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Makan bersama, anak ikut contoh
+```
+
+**Slaid 6**
+
+```
+TIPS 5
+Minggu jarang makan ikan: Momyizz ambil pelengkap omega-3 (330mg sebiji) untuk dewasa
+```
+
+**Slaid 7**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 ### 💬 WhatsApp / group tertutup: Nutrilite Salmon Omega Complex
 
 > Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 103208, semak 18 Nov 2026). TIADA dakwaan otak / ingatan / jantung. Amaran rasmi wajib. Gambar: AMWAY_BRAND/PRODUK/salmon-omega-complex.png. Semak harga hari ini.
@@ -587,6 +746,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook

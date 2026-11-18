@@ -186,11 +186,61 @@ Info penting: kalau korang selalu berdengkur kuat, tercungap waktu tidur, atau s
 Ini boleh jadi tanda masalah tidur seperti apnea tidur yang perlukan pemeriksaan.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips mula tidur awal 15 minit
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+MULA TIDUR AWAL 15 MINIT
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Minggu ni, masuk tidur 15 minit lebih awal daripada biasa
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Minggu depan, tambah 15 minit lagi
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Set peringatan 'masa tidur' di telefon
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Makan malam ringan, 2–3 jam sebelum tidur. Malam kalut: shake GI rendah, 205 kalori
+```
+
+**Slaid 6**
+
+```
+Perlahan-lahan lebih mudah daripada terus paksa tidur 2 jam awal. 🌙
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -344,6 +394,62 @@ Info penting untuk keluarga yang ada alahan makanan: guna papan pemotong & pisau
 Bibir atau muka bengkak, sesak nafas atau pening selepas makan ialah kecemasan. Terus ke hospital. 🚑
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips basuh papan pemotong
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+BASUH PAPAN PEMOTONG
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Basuh sejurus lepas guna dengan air panas & sabun
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Sabun pekat? Cairkan dulu, setitik pun dah tanggal minyak
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Gosok alur & calar dengan berus
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Keringkan BERDIRI, bukan tertiarap atas sinki
+```
+
+**Slaid 6**
+
+```
+TIPS 5
+Calar dalam & susah dibersihkan? Masa untuk tukar
+```
+
+**Slaid 7**
+
+```
+Papan kering = kurang tempat bakteria bersembunyi. 🫧
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 ### 💬 WhatsApp / group tertutup: Soalan lazim Dish Drops
 
 > Ruang tertutup sahaja (terutama untuk yang bertanya selepas konten span dapur). Jawapan dari AMWAY_BRAND/KEY_SELLING.md. Soalan mesin basuh pinggan: semak label dahulu. Tambah soalan pelanggan sebenar jika ada.
@@ -379,6 +485,7 @@ Ada soalan lain? Reply je, Momyizz jawab. Nak order, reply "NAK". 💛
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -560,11 +667,66 @@ Info penting: mengantuk ketika memandu sangat berbahaya. ⚠️
 Kalau mata berat semasa memandu, berhenti di tempat selamat dan rehat. Tingkap terbuka atau radio kuat bukan penyelesaian.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips rutin tidur anak (dan ibu sekali)
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+RUTIN TIDUR ANAK (DAN IBU SEKALI)
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Waktu tidur sama setiap malam, termasuk hujung minggu (lebih kurang)
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Lampu dimalapkan 30 minit sebelum tidur
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Tiada skrin di atas katil
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Bacaan atau sembang ringan sebagai 'tanda' masa tidur
+```
+
+**Slaid 6**
+
+```
+TIPS 5
+Pagi lepas tidur tak cukup: sarapan berprotein, bukan kuih manis (Momyizz: shake 17g protein, 6g gula)
+```
+
+**Slaid 7**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -717,11 +879,61 @@ Info penting: tanda keracunan makanan yang perlukan rawatan segera. ⚠️
 Cirit-birit berdarah, demam tinggi, muntah sampai tak boleh minum, cirit-birit lebih 3 hari, atau tanda dehidrasi (mulut kering, jarang kencing, pening bila berdiri). Jangan tunggu, pergi klinik. (CDC)
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips simpan lauk lebihan
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+SIMPAN LAUK LEBIHAN
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Sejukkan cepat: bahagikan ke bekas kecil yang cetek
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Guna bekas bertutup, tulis tarikh
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Panaskan sampai benar-benar panas sebelum makan
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Habiskan lauk lebihan dalam 3–4 hari (USDA)
+```
+
+**Slaid 6**
+
+```
+Peti kemas = kurang membazir. 🍱
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -875,11 +1087,54 @@ Info penting: bekas plastik yang retak, melengkung, berubah warna atau berbau pa
 Jangan panaskan makanan dalam bekas tanpa label "microwave safe", dan elak memanaskan bekas plastik sekali guna dalam microwave.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips makan tengah hari tanpa beratur microwave
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+MAKAN TENGAH HARI TANPA BERATUR MICROWAVE
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Pindah lauk ke pinggan kaca dari rumah, terus sedia untuk dipanaskan
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Bawa menu yang tak perlu dipanaskan: sandwich telur, salad, buah (makan dalam 2 jam)
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Hari microwave penuh: paket shake dalam beg + 250ml air, siap 1 minit (17g protein, hanya 6g gula)
+```
+
+**Slaid 5**
+
+```
+Masa rehat untuk rehat, bukan beratur. 😄
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -1057,11 +1312,59 @@ Info penting untuk ibu bapa: kanak-kanak 6–12 tahun perlukan 9–12 jam tidur 
 Skrin di bilik tidur boleh melambatkan waktu tidur anak. Pertimbangkan 'stesen cas keluarga' di ruang tamu.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips kalau telefon perlu ada di bilik (contoh: anak kecil, kerja)
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+KALAU TELEFON PERLU ADA DI BILIK (CONTOH: ANAK KECIL, KERJA)
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Aktifkan mod 'Jangan ganggu'
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Letak telefon jauh dari katil, skrin ke bawah
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Guna jam loceng biasa supaya tak perlu buka telefon pagi-pagi
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Siang depan skrin: SPF50+ dengan perlindungan cahaya biru, sapu sebelum mula kerja
+```
+
+**Slaid 6**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -1211,6 +1514,55 @@ Info penting: bekal berkuah jangan dibiar lebih 2 jam di suhu bilik, atau 1 jam 
 Simpan dalam peti pejabat atau beg bertebat dengan ice pack. Ragu-ragu? Buang. (USDA)
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips bekal tanpa pening
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+BEKAL TANPA PENING
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Masak asas 2 kali seminggu: Ahad & Rabu
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Biar lauk sejuk sedikit dalam bekas cetek, kemudian terus masuk peti
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Label hari pada setiap bekas
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Lauk masak dalam peti, habiskan dalam 3–4 hari (USDA)
+```
+
+**Slaid 6**
+
+```
+Bekal tersusun = kurang beli makanan segera. 💛
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 ### 💬 WhatsApp / group tertutup: BodyKey shake pisang untuk bekal kalut
 
 > Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 128188M). Jangan tulis 'tanpa gula' / 'bebas laktosa'. Semak harga & promosi rasmi hari ini.
@@ -1240,6 +1592,7 @@ Nak simpan sekotak untuk hari kalut? Reply "PISANG". 💛
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook

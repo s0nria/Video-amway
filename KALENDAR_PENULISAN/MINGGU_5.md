@@ -182,11 +182,59 @@ Info penting: 1 dalam 2 dewasa Malaysia yang ada kolesterol tinggi tidak tahu me
 Kolesterol tinggi biasanya tiada simptom. Satu ujian darah boleh beri jawapan.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips buat saringan kesihatan tanpa tangguh
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+BUAT SARINGAN KESIHATAN TANPA TANGGUH
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Tetapkan bulan lahir sebagai 'bulan saringan' setiap tahun
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Bawa sekali ibu bapa atau pasangan
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Simpan keputusan dalam satu folder di telefon
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Tanya doktor apa nombor sasaran korang
+```
+
+**Slaid 6**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook

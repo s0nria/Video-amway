@@ -184,11 +184,66 @@ Info penting: plaster mulut waktu tidur tengah viral. ⚠️
 Kajian ulasan 2025 dapati buktinya sedikit, dan ia boleh berbahaya jika hidung tersumbat. Kalau selalu bernafas ikut mulut atau berdengkur kuat, jumpa doktor dulu.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips bilik lebih gelap tanpa belanja besar
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+BILIK LEBIH GELAP TANPA BELANJA BESAR
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Tutup lampu tidur, guna lampu kecil di koridor jika perlu
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Langsir tebal atau tampal kertas gelap di tingkap
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Tutup cahaya LED dari charger & TV
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Penutup mata pun boleh
+```
+
+**Slaid 6**
+
+```
+TIPS 5
+Rutin sebelum tidur: cuci muka dengan pencuci lembut yang tak mengeringkan kulit, terus tutup lampu
+```
+
+**Slaid 7**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -340,11 +395,61 @@ Info penting: berat badan turun tanpa sebab, padahal tak cuba kurangkan? ⚠️
 Jangan anggap rezeki. Penurunan berat yang tak dijangka boleh jadi tanda masalah kesihatan yang perlu diperiksa. Jumpa doktor, terutama jika disertai letih, demam atau hilang selera. (NHS)
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips baca label nutrisi dalam 30 saat
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+BACA LABEL NUTRISI DALAM 30 SAAT
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Saiz hidangan dulu: satu bungkus mungkin 2 hidangan
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Gula: makin rendah makin baik
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Protein & serat: makin tinggi makin kenyang
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Senarai ramuan: ramuan pertama paling banyak
+```
+
+**Slaid 6**
+
+```
+Contoh shake Momyizz: 6g gula, 17g protein, 5g serat sehidangan. 🍌
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -496,11 +601,54 @@ Info penting cuaca panas: minum air dengan kerap walaupun tak dahaga, dan elak a
 Pening, loya, keliru atau berhenti berpeluh semasa cuaca panas boleh jadi tanda strok haba. Dapatkan rawatan segera. 🙏
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips habiskan air tanpa sedar
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+HABISKAN AIR TANPA SEDAR
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Tanda masa pada botol: 10 pg, 12 tgh, 3 ptg
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Segelas air sebelum setiap kali makan
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Letak botol dalam pandangan mata, bukan dalam beg
+```
+
+**Slaid 5**
+
+```
+Botol yang nampak = botol yang diminum. 😉
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -676,11 +824,59 @@ Info penting: mengantuk teruk setiap hari walaupun tidur malam cukup boleh jadi 
 Jangan terus tambah kopi. Jumpa doktor; klinik tidur di hospital boleh buat kajian tidur dengan surat rujukan doktor.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips nap di pejabat
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+NAP DI PEJABAT
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Set penggera 20 minit
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Guna penutup mata atau kain gelap
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Kalau minum kopi, minum sebelum nap (kopi ambil masa untuk berkesan)
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Bangun, segelas air & gerak sikit (Momyizz isi dari penapis yang diperakui 4 standard NSF/ANSI)
+```
+
+**Slaid 6**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -825,6 +1021,48 @@ Info penting: gangguan bekalan air di kawasan korang? ⚠️
 Simpan air dalam bekas bersih yang bertutup, guna dalam masa 1–2 hari, dan didihkan sebelum minum jika ragu-ragu. Bila bekalan pulih dan air keruh, biarkan paip mengalir sehingga jernih dulu.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips berjaya cabaran air 7 hari
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+BERJAYA CABARAN AIR 7 HARI
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Letak botol di tempat yang selalu nampak: meja kerja, kereta, sebelah sejadah
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Isi semula terus bila kosong, jangan tunggu dahaga
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Penapis air di rumah = air sentiasa sedia, tak perlu beli air botol
+```
+
+**Slaid 5**
+
+```
+Senang = jadi tabiat. 😉
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 ### 💬 WhatsApp / group tertutup: eSpring untuk #CabaranAirMomyizz
 
 > Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 122940). Tulis MENGURANGKAN mikroplastik, jangan singkir / bebas. Semak harga & promosi rasmi hari ini.
@@ -854,6 +1092,7 @@ Air sentiasa sedia di rumah = lebih senang cukupkan minum setiap hari. Nak tahu 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -1034,11 +1273,54 @@ Info penting: minuman tenaga mengandungi kafein dan sering tinggi gula. ⚠️
 Periksa label sebelum minum, dan berhati-hati jika hamil, menyusu atau ada masalah jantung. Rujuk doktor jika tidak pasti.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips kurangkan kafein petang tanpa sakit kepala
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+KURANGKAN KAFEIN PETANG TANPA SAKIT KEPALA
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Kurangkan perlahan-lahan, contohnya setengah cawan dulu
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Ganti cawan petang dengan air kosong, teh herba tanpa kafein, atau shake pisang (6g gula)
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Minum air kosong cukup sepanjang hari
+```
+
+**Slaid 5**
+
+```
+Terus berhenti mengejut boleh buat sesetengah orang sakit kepala.
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
