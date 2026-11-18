@@ -16,4 +16,6 @@ Simpan gambar produk **asli** di sini untuk digunakan dalam video biasa dan vide
 
 | Fail | Produk | Sumber | Tarikh |
 |---|---|---|---|
-| _(belum ada)_ | | | |
+| `dish-drops-1l.png` | Amway Home DISH DROPS Concentrated Dishwashing Liquid 1L | amway.my (`pdpcontent/MYBN/assets/img/110488_PDP_IMG.png`), dipotong ikut botol, latar lutsinar asal | 18 Nov 2026 |
+
+**Nota saiz:** `dish-drops-1l.png` hanya 167 × 520 px. Dalam video 1080 × 1920, guna paling besar lebih kurang 25% lebar skrin (tinggi ~800 px) supaya tak kabur. Untuk close-up besar, guna rakaman botol sebenar.
