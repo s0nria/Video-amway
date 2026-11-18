@@ -27,6 +27,9 @@ Simpan gambar produk **asli** di sini untuk digunakan dalam video biasa dan vide
 | `artistry-renewing-foaming-cleanser.png` | ARTISTRY SKIN NUTRITION Renewing Foaming Cleanser (kulit matang kering / sensitif) | amway.my (`pdpcontent/MYBN/assets/img/123781_pdp_img.png`), latar lutsinar asal | 18 Nov 2026 |
 | `artistry-uv-protect-spf50.png` | ARTISTRY SKIN NUTRITION Multi-Defense UV Protect SPF50+/PA++++ (bersama bahan semula jadi) | amway.my (`pdpcontent/MYBN/assets/img/124822_PDP_IMG_UVIngredients.png`), latar lutsinar asal | 18 Nov 2026 |
 | `salmon-omega-complex.png` | NUTRILITE Salmon Omega Complex, 120 softgel (bersama kapsul) | amway.my (`pdpcontent/MYBN/assets/img/103208_PDP_IMG.png`), latar lutsinar asal | 18 Nov 2026 |
+| `bodykey-jump-start-kit-new.png` | BodyKey Jump Start Kit (New Edition), isi kit penuh | amway.my (`pdpcontent/MYBN/assets/img/325779_PDP_IMG.png`), latar lutsinar asal | 18 Nov 2026 |
+| `bodykey-start-up-pack-new.png` | BodyKey Start-Up Pack (New Edition), isi pek penuh | amway.my (`pdpcontent/MYBN/assets/img/325780_PDP_IMG.png`), latar lutsinar asal | 18 Nov 2026 |
+| `bodykey-shake-berry.png` | BodyKey by Nutrilite Meal Replacement Shake (Berry), gelas + paket + kotak | amway.my (`pdpcontent/MYBN/assets/img/124489_pdp_img3.png`), latar lutsinar asal | 18 Nov 2026 |
 
 **Nota Bio C Plus:** buah ceri acerola dalam gambar asal bertindih dengan botol, jadi botol tidak dipisahkan supaya label tidak terpotong.
 

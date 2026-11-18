@@ -18,6 +18,59 @@ Syarat:
 
 ---
 
+## BodyKey by Nutrilite — NEW EDITION (fokus promosi bulan ini)
+Sumber (semak 18 Nov 2026): Jump Start Kit (New Edition) https://amway.my/pdpcontent/MYBN/325779_en.html · Start-Up Pack (New Edition) https://amway.my/pdpcontent/MYBN/325780_en.html · Shake https://www.amway.my/pdpcontent/MYBN/124489_en.html · Program https://www.amway.my/category-landing-page/bodykey
+Gambar: `PRODUK/bodykey-jump-start-kit-new.png` · `PRODUK/bodykey-start-up-pack-new.png` · `PRODUK/bodykey-shake-berry.png`
+
+**Peraturan khas pengurusan berat badan (WAJIB):**
+- Setiap konten BodyKey (awam & WhatsApp) mesti ada: **"Keputusan berbeza mengikut individu."**
+- Tiada angka kg / inci, tiada gambar sebelum-selepas, tiada tempoh janji ("turun dalam 30 hari"), tiada "kurus", "bakar lemak" atau "langsing" sebagai janji.
+- Jangan guna ayat "slimming bacteria" / "bakteria pelangsing" atau "for a slimmer you" walaupun ada dalam bahan Amway: ia janji hasil.
+- Shake ialah pengganti hidangan dalam pelan pemakanan seimbang + senaman, bukan pengganti semua makanan.
+- Amaran wajib bila jual: kanak-kanak bawah 12 tahun, wanita hamil / menyusu, atau yang ada masalah kesihatan perlu rujuk doktor.
+
+### BodyKey Jump Start Kit (New Edition)
+| | Key selling (BM) | Petikan rasmi |
+|---|---|---|
+| ✅ | Program 60 hari yang diperibadikan untuk perjalanan pengurusan berat badan | "This 60-day personalised and comprehensive solution" |
+| ✅ | BAHARU: ada Nutrilite Mixed FOS with Grape Ferment (prebiotik) | "Includes the NEW Nutrilite Mixed FOS with Grape Ferment" |
+| ✅ | Fokus kesihatan usus: BodyKey Gut Reset Programme | "BodyKey Gut Reset Programme … resetting and rebalancing your gut health" |
+| ✅ | Ubah tabiat kecil untuk hasil jangka panjang | "encourages small habit changes for long-term results" |
+| ✅ | Isi kit: 4 BodyKey Meal Replacement Shake, Soy Protein Drink 900g, Salmon Omega Complex 60 biji, 2 Botanical Beverage Mix (probiotik), Mixed Fiber Powder, Mixed FOS with Grape Ferment, Gut Reset Guide + video, shaker, pinggan Suku-Suku Separuh, panduan 15 hari, sudu protein | Senarai "Consist of" |
+| ✅ | Bahan dari sumber semula jadi; tiada pewarna, perisa atau pengawet tambahan | "All ingredients are derived from nature; no artificial colourants, flavours or added preservatives" |
+| ✅ | Pilihan PWP: BodyKey InBody Dial + 2 pas saringan kesihatan | "Choose to PWP the BodyKey InBody Dial and 2x Health Screening Passes" |
+| ✅ | Keputusan berbeza mengikut individu | "Results may vary individually" |
+
+### BodyKey Start-Up Pack (New Edition)
+| | Key selling (BM) | Petikan rasmi |
+|---|---|---|
+| ✅ | Pek 30 hari: nutrien, probiotik dan suplemen serat untuk kesihatan usus | "A 30-day targeted solution packed with essential nutrients, probiotics and fiber supplements" |
+| ✅ | Isi: Mixed FOS with Grape Ferment (BAHARU), Botanical Beverage Mix with Probiotics, CB Plus, Green-T Plus, XS Ignite Blood Orange | Senarai "Consists Of" |
+| ✅ | Sesuai dengan gaya hidup tanpa mengambil alih hidup | "Fits into your lifestyle without taking over your life" |
+
+### Nutrilite Mixed FOS with Grape Ferment (BAHARU)
+| | Key selling (BM) | Petikan rasmi |
+|---|---|---|
+| ✅ | Prebiotik: 2 serat larut (FOS + maltodekstrin tahan cerna) + grape ferment | Leaflet rasmi: "2 Soluble Fibres + Grape Ferment" |
+| ✅ | Menyokong berat badan yang sihat & kesihatan usus | "Supports Healthy Weight & Gut Integrity" |
+| ✅ | Rasa sedap | "Delectable Taste" |
+| ⚠️ | "Membantu kawal selera" — guna di WhatsApp sahaja, dengan "Keputusan berbeza mengikut individu" | "Appetite Control" |
+| ❌ | "Bakteria pelangsing (AKK)", "kurangkan berat & lemak badan", "untuk badan lebih langsing" | Dilarang (janji hasil) |
+
+### BodyKey by Nutrilite Meal Replacement Shake (Berry / Chocolate / Latte)
+| | Key selling (BM) | Petikan rasmi |
+|---|---|---|
+| ✅ | Satu hidangan (campur air): 17g protein (kebanyakan dari soya), 5g serat, 370mg kalsium, 205 kalori | Jadual "Each serving" |
+| ✅ | 22 vitamin & mineral, penuhi 1/3 keperluan nutrisi | "Fulfills 1/3 Nutritional Needs" · "22 Vitamins & Minerals" |
+| ✅ | Hidangan seimbang sambil mengawal kalori | "Well-balanced meal, with complete nutrition whilst controlling calorie intake" |
+| ✅ | Tiada perisa, pewarna, pemanis tiruan atau pengawet; sifar lemak trans; bahan bukan GMO | Petikan "Health notes" |
+| ✅ | Cara guna: 1 paket + 250ml air; boleh tambah buah / sayur segar | "HOW TO USE" |
+| ✅ | 14 paket x 51g | "14 pouches x 51g" |
+| ❌ | "Tanpa gula" | Dilarang: ramuan ada sukrosa & fruktosa |
+| ❌ | "Bakar lemak", "kurus cepat" | Dilarang (janji hasil) |
+
+---
+
 ## Amway Home DISH DROPS Concentrated Dishwashing Liquid
 Sumber: https://www.amway.my/pdpcontent/MYBN/110488_en.html (semak 18 Nov 2026)
 

@@ -454,8 +454,8 @@ Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan ke
 
 ## Hari 4 · Episod 2 · Sarapan ibu yang selalu tertinggal
 
-> 🧩 **Produk penyelesai masalah:** NUTRILITE Soy Protein Drink (Original 450g) · **Masalah:** Ibu skip sarapan, pukul 11 dah lapar
-> **Key selling:** protein tumbuhan · 8g protein, 9 asid amino perlu · bebas laktosa · tanpa pemanis & tanpa perisa tiruan · **Gambar:** `AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png`
+> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite NEW EDITION (Jump Start Kit / Start-Up Pack / Shake) · **Masalah:** Ibu skip sarapan; perlukan hidangan lengkap yang cepat
+> **Key selling:** BAHARU: prebiotik Mixed FOS with Grape Ferment · program 60 hari diperibadikan + Gut Reset · shake 17g protein, 22 vitamin & mineral, 205 kalori · WAJIB: Keputusan berbeza mengikut individu · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-jump-start-kit-new.png · bodykey-shake-berry.png`
 
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Semua dah makan, kecuali ibu
 
@@ -468,7 +468,7 @@ Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan ke
 | 0–3s | Meja makan: pinggan anak dan suami dah licin, pinggan ibu kosong | Anak dah makan. Suami dah makan. Ibu? "Nanti la." 🙃 |
 | 3–15s | Momyizz kalut cari kunci, capai roti sambil keluar | Hampir setiap pagi Momyizz jadi orang terakhir. Kadang langsung tak makan. |
 | 15–28s | Momyizz di meja kerja pukul 11, lapar, capai snek manis | Pukul 11 dah lapar sangat. Capai apa yang ada. |
-| 28–40s | Momyizz masukkan bekas ke dalam beg sekali dengan bekal anak; tin minuman protein di sebelah (Soy Protein Drink kelihatan) | Minggu ni Momyizz cuba: siapkan bekal ibu sekali dengan bekal anak. Hari tak sempat? Minuman protein tumbuhan, tanpa pemanis. 🍱 |
+| 28–40s | Momyizz masukkan bekas ke dalam beg sekali dengan bekal anak; shaker BodyKey & paket shake di sebelah (BodyKey kelihatan) | Minggu ni Momyizz cuba: siapkan bekal ibu sekali dengan bekal anak. Hari tak sempat? Shake ganti hidangan: 17g protein + 22 vitamin & mineral. 🍱 |
 | 40–45s | Momyizz ke kamera | Ibu pun perlu diisi dulu 💛 Siapa sama? | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
 **Caption video**
@@ -562,7 +562,7 @@ Ibu-ibu, jujur sikit: pagi tadi korang sarapan apa? 🙈
 Momyizz: roti sambil drive. Esok cuba lagi!
 ```
 
-**18:30 · Tips praktikal** (335 / 500 aksara)
+**18:30 · Tips praktikal** (390 / 500 aksara)
 
 ```
 Tips pastikan ibu tak tertinggal sarapan 💡
@@ -570,7 +570,7 @@ Tips pastikan ibu tak tertinggal sarapan 💡
 ✅ Malam: letak bekas ibu SEBELAH bekas anak, terus nampak pagi esok
 ✅ Simpan "kotak snek sihat" di pejabat: kacang, roti gandum, buah
 ✅ Set peringatan telefon 10 pagi: "Dah makan?"
-✅ Hari kalut: minuman protein tumbuhan tanpa pemanis dalam botol shaker
+✅ Hari kalut: shake ganti hidangan dalam botol shaker (17g protein, 22 vitamin & mineral). Keputusan berbeza mengikut individu
 
 Kecil, tapi berkesan untuk Momyizz. 💛
 ```
@@ -583,6 +583,36 @@ Info penting: 15.6% dewasa Malaysia ada diabetes, dan ramai tak tahu mereka meng
 Kalau selalu skip makan dan banyak minum manis, buat saringan gula di klinik kesihatan. Tahu awal lebih baik. 🩸
 ```
 
+### 💬 WhatsApp / group tertutup: BodyKey NEW EDITION (fokus bulan ini)
+
+> Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (BodyKey New Edition, amway.my 325779 / 124489, semak 18 Nov 2026). WAJIB 'Keputusan berbeza mengikut individu'. Tiada angka kg, tiada sebelum-selepas, tiada 'bakteria pelangsing'. Semak harga, perisa & promosi rasmi hari ini.
+
+```
+Hai [nama] 😊
+
+Minggu ni Momyizz kongsi pasal ibu yang selalu skip sarapan. Untuk hari kalut, Momyizz guna shake ganti hidangan dari *BodyKey by Nutrilite*.
+
+✨ BodyKey sekarang ada *NEW EDITION*!
+
+*BodyKey Jump Start Kit (New Edition)*
+• Program 60 hari yang diperibadikan, dengan BodyKey Gut Reset Programme
+• BAHARU: prebiotik Nutrilite Mixed FOS with Grape Ferment
+• Dalam kit: 4 BodyKey Meal Replacement Shake, Soy Protein Drink 900g, Salmon Omega Complex, probiotik, serat, panduan 15 hari, shaker & pinggan Suku-Suku Separuh
+• Bahan dari sumber semula jadi, tiada pewarna, perisa atau pengawet tambahan
+
+*BodyKey Meal Replacement Shake* (satu hidangan)
+• 17g protein, 5g serat, 205 kalori
+• 22 vitamin & mineral, 1/3 keperluan nutrisi
+
+• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Promosi: [promosi rasmi Amway, jika ada]
+• Pengalaman Momyizz: [pengalaman sebenar Momyizz]
+
+Keputusan berbeza mengikut individu. Bawah 12 tahun, hamil / menyusu atau ada masalah kesihatan, rujuk doktor dulu ya. 🙏
+
+Nak tahu lebih? Reply "BODYKEY", Momyizz terangkan. 💛
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video: TikTok · Reels
@@ -591,6 +621,7 @@ Kalau selalu skip makan dan banyak minum manis, buat saringan gula di klinik kes
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+- [ ] 💬 WhatsApp / group tertutup
 
 ## Hari 5 · Episod 2 · Persediaan malam & pelan B pagi kelam-kabut
 

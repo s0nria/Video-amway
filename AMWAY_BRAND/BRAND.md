@@ -99,6 +99,8 @@ Setiap konten yang berkaitan dengan produk mesti ada sekurang-kurangnya satu key
 
 **Produk penyelesai masalah setiap hari — DISAHKAN pengguna (18 Nov 2026):** setiap hari kalendar ada satu produk Amway sebagai penyelesai masalah topik hari itu (video, 16:00 / 18:30, WhatsApp). Alert 21:00 tanpa produk. Peraturan "people first" kekal: masalah dan cerita dahulu, produk sebagai penyelesai.
 
+**Fokus promosi bulan ini — DISAHKAN pengguna (18 Nov 2026):** BodyKey by Nutrilite NEW EDITION. Peraturan khas pengurusan berat badan dalam `KEY_SELLING.md` (WAJIB "Keputusan berbeza mengikut individu", tiada kg / sebelum-selepas / "bakteria pelangsing").
+
 ## Peraturan ketepatan maklumat produk — DISAHKAN
 1. **People first, product second.** Mula dengan situasi hidup sebenar; produk hanya jika berkaitan secara munasabah.
 2. Semua fakta produk (nama, ramuan, kandungan, dos, cara guna) mesti disemak di laman rasmi https://www.amway.my/ sebelum skrip diluluskan. Catat tarikh semakan.
