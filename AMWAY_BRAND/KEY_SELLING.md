@@ -18,7 +18,7 @@ Syarat:
 
 ---
 
-## ⭐ BodyKey by Nutrilite NUTRITIOUS MEAL SHAKE — PERISA PISANG BAHARU (fokus utama bulan ini)
+## ⭐ BodyKey by Nutrilite NUTRITIOUS MEAL SHAKE — MEAL REPLACEMENT TERBARU, hero: PERISA PISANG BAHARU (fokus utama bulan ini)
 Sumber: https://www.amway.my/pdpcontent/MYBN/128188_en.html · halaman produk https://www.amway.my/p/128188M (semak 18 Nov 2026). Perisa lain dalam rangkaian sama: Chocolate (128184M), Café Latte (128185M), Berry (128186M).
 Gambar: `PRODUK/bodykey-nutritious-meal-shake-banana.png` (kotak, latar dibuang) · `PRODUK/bodykey-banana-gaya-studio.jpg` · `PRODUK/bodykey-banana-gaya-beg.jpg` (gambar gaya hidup rasmi)
 
@@ -186,6 +186,8 @@ Sumber (semak 18 Nov 2026): Renewing https://www.amway.my/pdpcontent/MYBN/123781
 | ✅ | Ujian pengguna (sebut tepat, dengan "dalam ujian pengguna"): Jelly 92% setuju bersihkan liang pori dengan cepat; Mousse 93% setuju kulit lembut & terhidrat; Renewing 90% setuju kulit terasa licin & lembut | Petikan "Proven Results" |
 | ❌ | "Pulihkan kulit 600%", "terbalikkan penuaan" | Dilarang (janji hasil; dakwaan itu untuk pelembap, bukan cleanser) |
 | ❌ | Jelly / Mousse "sesuai kulit sensitif" | Hanya Renewing yang tulis sesuai untuk kulit sensitif |
+
+**Pilihan Momyizz (DISAHKAN pengguna, 18 Nov 2026):** kulit Momyizz **kering**, tetapi sekarang guna **Balancing Jelly Cleanser**. Konten cerita guna Balancing Jelly (yang benar-benar dipakai). Jangan tulis Balancing Jelly "sesuai untuk kulit kering": amway.my senaraikan ia untuk kulit berminyak / normal ke berminyak. Untuk pelanggan berkulit kering, cadangkan Hydrating Mousse Cleanser (rasmi: kering, normal ke kering).
 
 ## ARTISTRY SKIN NUTRITION Multi-Defense UV Protect SPF50+/PA++++
 Sumber: https://www.amway.my/pdpcontent/MYBN/124822_en.html (semak 18 Nov 2026). Gambar: `PRODUK/artistry-uv-protect-spf50.png`

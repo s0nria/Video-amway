@@ -454,8 +454,8 @@ Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan ke
 
 ## Hari 4 · Episod 2 · Sarapan ibu yang selalu tertinggal
 
-> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU · **Masalah:** Ibu skip sarapan; perlukan hidangan lengkap yang cepat
-> **Key selling:** untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
+> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Ibu skip sarapan; perlukan hidangan lengkap yang cepat
+> **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
 
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Semua dah makan, kecuali ibu
 
@@ -791,8 +791,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 ## Hari 6 · Episod 2 · Gula tersembunyi dalam minuman
 
-> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU · **Masalah:** Nak ganti minuman manis pagi dengan pilihan GI rendah, kurang gula
-> **Key selling:** untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
+> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Nak ganti minuman manis pagi dengan pilihan GI rendah, kurang gula
+> **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
 
 ### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Gula paling banyak bukan dalam pinggan
 

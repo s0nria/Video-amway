@@ -28,8 +28,8 @@ CERITA = "Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyi
 # Muncul dalam video (kelihatan + 1 key selling), 16:00 atau 18:30, dan WhatsApp bila hari hard-sell.
 # 21:00 alert dan konten bencana / saringan penyakit kekal tanpa produk. Key selling: AMWAY_BRAND/KEY_SELLING.md
 PRODUK = {
- "bodykey": ("BodyKey by Nutrilite Nutritious Meal Shake, PERISA PISANG BAHARU", "AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg",
-             "untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya"),
+ "bodykey": ("BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry)", "AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg",
+             "meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya"),
  "espring": ("eSpring Water Purifier (model baharu)", "AMWAY_BRAND/PRODUK/espring-baharu.png",
              "4 standard NSF/ANSI · kurangkan 170+ bahan cemar · UV-C LED 99.9% bakteria & virus · terbukti kurangkan mikroplastik"),
  "soy": ("NUTRILITE Soy Protein Drink (Original 450g)", "AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png",
@@ -38,8 +38,8 @@ PRODUK = {
           "sangat pekat · sikit je buih banyak & tahan lama · aloe vera · diuji pakar dermatologi · biodegradable"),
  "bioc": ("NUTRILITE Bio C Plus All Day Formula", "AMWAY_BRAND/PRODUK/bio-c-plus-60tab.png",
           "500mg vitamin C · dari ceri acerola · 1 tablet sehari · tanpa pewarna & perisa tiruan"),
- "cleanser": ("ARTISTRY SKIN NUTRITION Cleanser (ikut jenis kulit Momyizz)", "AMWAY_BRAND/PRODUK/artistry-*-cleanser.png (Jelly: berminyak · Mousse: kering · Renewing: matang kering / sensitif)",
-              "buang pencemaran & kekotoran termasuk PM2.5 · Shiso Perilla & aloe vera · tidak mengeringkan · vegan"),
+ "cleanser": ("ARTISTRY SKIN NUTRITION Balancing Jelly Cleanser (yang Momyizz guna sekarang)", "AMWAY_BRAND/PRODUK/artistry-balancing-jelly-cleanser.png",
+              "buang pencemaran & kekotoran termasuk PM2.5 (terbukti klinikal) · Shiso Perilla & aloe vera · tidak menanggalkan minyak semula jadi & tidak mengeringkan · pH seimbang · vegan · JANGAN tulis 'untuk kulit kering' (rasmi: berminyak / normal ke berminyak)"),
  "uv": ("ARTISTRY SKIN NUTRITION Multi-Defense UV Protect SPF50+/PA++++", "AMWAY_BRAND/PRODUK/artistry-uv-protect-spf50.png",
         "SPF50+/PA++++ · spektrum luas · ringan, tak berminyak · sesuai semua jenis kulit"),
  "omega": ("NUTRILITE Salmon Omega Complex", "AMWAY_BRAND/PRODUK/salmon-omega-complex.png",
