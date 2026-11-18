@@ -87,3 +87,29 @@ Semak juga peraturan video Amway Malaysia dalam `AMWAY_BRAND/BRAND.md` sebelum p
 | Panjang | Cerita penuh | Versi ringkas + senarai | 1–3 post pendek |
 | Mula | Situasi | Hook ≤ 125 aksara | Ayat paling menarik |
 | Tamat | Soalan + penafian | Save / soalan + 3–5 hashtag | Soalan |
+
+## 9. Bertanya sebelum menjual (soalan berimpak tinggi)
+
+> "Sales bukan tentang bercakap banyak. Sales ialah tentang bertanya soalan yang betul."
+
+Prospek tak membeli bila mereka hanya dengar cerita produk, bukan cerita mereka. Soalan yang betul buat prospek rasa didengari, dan dedahkan apa yang mereka betul-betul perlukan.
+
+| # | Jenis soalan | Tujuan | Contoh versi Momyizz |
+|---|---|---|---|
+| 1 | Keadaan sekarang | Faham situasi sebenar | "Biasanya pagi [nama] sempat sarapan tak?" |
+| 2 | Impian | Tahu apa yang mereka mahu (tanpa janji hasil) | "Kalau boleh ubah satu benda dalam cara [nama] makan, apa yang paling [nama] nak?" |
+| 3 | Halangan | Punca sebenar susah bergerak | "Apa yang paling susah setakat ni: masa, tak tahu nak mula, atau dah cuba tapi tak kekal?" |
+| 4 | Emosi | Apa yang paling mengganggu perasaan | "Bila skip makan dan lapar sangat, ada ganggu kerja atau mood?" |
+| 5 | Kesan (lembut) | Nampak kesan jika berterusan, tanpa menakutkan | "Kalau rutin sekarang berterusan beberapa bulan lagi, [nama] okay ke?" |
+| 6 | Komitmen | Langkah seterusnya dalam bentuk pilihan | "[nama] nak cuba untuk sarapan dulu, atau untuk bekal?" |
+
+**Aliran perbualan (WhatsApp / DM):** sapa & minta izin → soalan 1–5 (tak perlu semua) → **ringkaskan semula** ("Jadi kalau Momyizz faham betul…") → cadang **amalan dulu**, produk kemudian (3–5 key selling) → soalan komitmen → susulan bila prospek kata "nanti dulu".
+
+**Peraturan:**
+- Post awam: utamakan jenis 1–4. Jenis 5 (versi lembut) dan komitmen kecil tanpa jualan (contoh: "komen JOIN cabaran") dibenarkan. Tiada produk, harga atau closing. Teks 16:00 setiap hari dilabel jenis soalannya dalam worksheet.
+- Soalan komitmen untuk membeli dan cadangan produk: ruang tertutup sahaja (peraturan Amway Malaysia).
+- Jangan tanya "berapa cepat nak nampak hasil" (mendorong janji hasil). Jangan guna soalan yang menakut-nakutkan.
+- Tanda perubatan (contoh: berdengkur kuat, sakit berterusan): cadangkan doktor dahulu.
+- Dengar lebih banyak daripada bercakap. Ulang semula perkataan prospek supaya mereka rasa difahami.
+
+Skrip lengkap ikut topik: `KALENDAR_PENULISAN/SKRIP_PROSPEK.md`, atau worksheet → tab **Tulis** → **Skrip prospek**.

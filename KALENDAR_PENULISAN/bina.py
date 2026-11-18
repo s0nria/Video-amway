@@ -13,6 +13,49 @@ ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from kalendar_data import DAYS, JENIS_TEKS, PRODUK, MG_FULL, MG_PLAN, MG_INFO  # noqa: E402
 from masalah_data import MASALAH, CARA_BETUL, SUMBER  # noqa: E402
+from soalan_data import JENIS_SOALAN, GILIR_AWAM, SOALAN_AWAM, SKRIP, PADANAN_WA  # noqa: E402
+
+
+def skrip_untuk(teks):
+    t = (teks or "").lower()
+    for kata, kunci in PADANAN_WA:
+        if kata in t:
+            return kunci
+    return None
+
+
+def soalan_json():
+    sk = {}
+    for k, s in SKRIP.items():
+        pr = PRODUK.get(s["produk"]) if s["produk"] else None
+        sk[k] = {"tajuk": s["tajuk"], "amalan": s["amalan"], "doktor": s["doktor"],
+                 "produk": {"nama": pr[0], "ks": pr[2]} if pr else None,
+                 "langkah": [{"kod": kod, "tajuk": tj, "mesej": m} for kod, tj, m in s["langkah"]]}
+    return {"jenis": {k: list(v) for k, v in JENIS_SOALAN.items()}, "skrip": sk}
+
+
+def md_skrip():
+    L = ["# Skrip Soalan Prospek (WhatsApp / DM / group tertutup)", "",
+         "> \"Sales bukan tentang bercakap banyak. Sales ialah tentang bertanya soalan yang betul.\"", "",
+         "Aliran: sapa → keadaan → impian → halangan → emosi → kesan (lembut) → ringkaskan semula → cadangan (amalan dulu, produk kemudian) → komitmen → susulan.",
+         "Gantikan [nama] dengan nama prospek. Dalam worksheet: tab **Tulis** → **Skrip prospek** untuk butang salin.", "",
+         "## 6 jenis soalan", "", "| # | Jenis | Tujuan |", "|---|---|---|"]
+    L += [f"| {n} | {nm} | {tj} |" for n, nm, tj in JENIS_SOALAN.values()]
+    L += ["", "Post awam: utamakan jenis 1–4; jenis 5 versi lembut & komitmen kecil tanpa jualan dibenarkan. Komitmen membeli & cadangan produk: ruang tertutup sahaja.", ""]
+    for k, s in SKRIP.items():
+        pr = PRODUK.get(s["produk"]) if s["produk"] else None
+        L += [f"## {s['tajuk']}", ""]
+        if s["doktor"]:
+            L += [f"> ⚠️ {s['doktor']}", ""]
+        for kod, tj, mesej in s["langkah"]:
+            L += [f"**{tj}**", ""]
+            for m in mesej:
+                m = m.replace("[amalan]", s["amalan"].rstrip(".")).replace("[produk]", pr[0] if pr else "(tiada produk)")
+                L += [f"- {m}"]
+            L += [""]
+        if pr:
+            L += [f"Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): {pr[2]}", "", "Harga: semak amway.my pada hari itu.", ""]
+    return "\n".join(L)
 
 LIMIT_TH, LIMIT_IG, LIMIT_SLAID = 500, 2200, 260
 BANNED = re.compile(r"(?<![A-Za-z])(aku|kau|saya|awak|anda)(?![A-Za-z])", re.I)
@@ -31,6 +74,24 @@ def _strings(obj):
 
 def check():
     errs = []
+    for tema, (jenis, teks) in SOALAN_AWAM.items():
+        if jenis not in JENIS_SOALAN:
+            errs.append(f"SOALAN_AWAM '{tema}': jenis '{jenis}' tidak sah")
+        if jenis in ("kesan", "komitmen") and teks and ("RM" in teks or "order" in teks.lower()):
+            errs.append(f"SOALAN_AWAM '{tema}': post awam tidak boleh ada harga / order")
+        if teks and len(teks) > LIMIT_TH:
+            errs.append(f"SOALAN_AWAM '{tema}': {len(teks)} aksara (> {LIMIT_TH})")
+        if teks and BANNED.search(teks):
+            errs.append(f"SOALAN_AWAM '{tema}': kata ganti nama dilarang")
+        if not any(d["tema"] == tema for d in DAYS):
+            errs.append(f"SOALAN_AWAM: tema '{tema}' tiada dalam kalendar")
+    for k, s in SKRIP.items():
+        if s["produk"] and s["produk"] not in PRODUK:
+            errs.append(f"SKRIP {k}: produk '{s['produk']}' tiada dalam PRODUK")
+        for _, _, mesej in s["langkah"]:
+            for m in mesej:
+                if BANNED.search(m):
+                    errs.append(f"SKRIP {k}: kata ganti nama dilarang dalam '{m[:40]}'")
     for day in DAYS:
         tag = f"Hari {day['d']}"
         if day.get("produk", ("",))[0] not in PRODUK:
@@ -124,14 +185,24 @@ def to_json():
             v = day["video"]
             d["video"] = {"tajuk": v["tajuk"], "nota": v.get("nota", ""), "babak": [list(b) for b in v["babak"]], "caption": v["caption"]}
             d["carousel"] = day["carousel"]
-            d["teks"] = [{"masa": m, "jenis": j, "t": t} for (m, j), t in zip(JENIS_TEKS, day["teks"])]
+            teks = list(day["teks"])
+            jenis_s = None
+            if day["d"] >= 8 and day["tema"] in SOALAN_AWAM:
+                jenis_s, baru = SOALAN_AWAM[day["tema"]]
+                if baru:
+                    teks[1] = baru
+            d["teks"] = [{"masa": m, "jenis": j, "t": t} for (m, j), t in zip(JENIS_TEKS, teks)]
+            if jenis_s:
+                d["teks"][1]["soalan"] = jenis_s
             if day.get("wa"):
-                d["wa"] = day["wa"]
+                d["wa"] = dict(day["wa"], skrip=skrip_untuk(day["wa"].get("tajuk", "") + " " + day["wa"].get("t", "")))
             d["mg"] = mg
         else:
             vid, car, teks, wa = day["plan"]
             assert len(teks) == len(JENIS_TEKS), f"Hari {day['d']}: perlu {len(JENIS_TEKS)} idea teks"
-            d["plan"] = {"mg": mg, "video": vid, "carousel": car, "teks": [{"masa": m, "jenis": j, "idea": t} for (m, j), t in zip(JENIS_TEKS, teks)], "wa": wa}
+            d["plan"] = {"mg": mg, "video": vid, "carousel": car, "teks": [{"masa": m, "jenis": j, "idea": t} for (m, j), t in zip(JENIS_TEKS, teks)], "wa": wa,
+                         "wa_skrip": skrip_untuk(wa)}
+            d["plan"]["teks"][1]["soalan"] = GILIR_AWAM[day["d"] % len(GILIR_AWAM)]
         out.append(d)
     return out
 
@@ -278,6 +349,7 @@ def inject(data):
     blocks = {
         "WRITE_PLAN": "const WRITE_PLAN=" + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";",
         "MASALAH": "const MASALAH=" + json.dumps(masalah_json(), ensure_ascii=False, separators=(",", ":")) + ";",
+        "SOALAN": "const SOALAN=" + json.dumps(soalan_json(), ensure_ascii=False, separators=(",", ":")) + ";",
     }
     for name in ("momyizz-planner.html", "index.html"):
         p = os.path.join(ROOT, name)
@@ -307,6 +379,7 @@ if __name__ == "__main__":
         open(os.path.join(HERE, f"HARI_{pr[0]:02d}-{pr[1]:02d}.md"), "w", encoding="utf-8").write(md_plan(data))
     open(os.path.join(HERE, "README.md"), "w", encoding="utf-8").write(md_index(data))
     open(os.path.join(HERE, "MASALAH_AUDIENS.md"), "w", encoding="utf-8").write(md_masalah())
+    open(os.path.join(HERE, "SKRIP_PROSPEK.md"), "w", encoding="utf-8").write(md_skrip())
     inject(data)
     n = sum(1 for d in data if "video" in d)
     print(f"OK: {len(data)} hari, {n} hari siap salin. Markdown dan worksheet dikemas kini.")

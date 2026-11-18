@@ -17,8 +17,9 @@ Untuk hasilkan 3–5 konten sehari dari telefon (claude.ai atau app Claude).
    - `TEMPLATES/TEKNIK_PENULISAN.md`
    - `KALENDAR_PENULISAN/MINGGU_1.md` (contoh gaya penulisan Momyizz)
    - `KALENDAR_PENULISAN/MINGGU_2.md` hingga `MINGGU_5.md` (hari siap salin)
-   - `KALENDAR_PENULISAN/HARI_22-30.md` (rancangan)
+   - `KALENDAR_PENULISAN/HARI_21-30.md` (rancangan)
    - `KALENDAR_PENULISAN/PODCAST_SEMAKAN.md` (semakan dakwaan siri trending)
+   - `KALENDAR_PENULISAN/SKRIP_PROSPEK.md` (skrip soalan prospek ikut topik)
    - `KALENDAR_PENULISAN/MASALAH_AUDIENS.md` (20 masalah audiens + cara betul ambil supplemen)
    - `AMWAY_BRAND/STICKERS/00-katalog.png`
    - **Contoh post sebenar Momyizz** (lihat bahagian di bawah)
@@ -47,6 +48,7 @@ Wajib:
 - Tulis dalam Bahasa Melayu santai. Orang pertama "Momyizz", orang kedua "korang". Jangan guna aku, kau, saya, awak atau anda.
 - Agihan sehari (satu topik, isi berbeza): 1 skrip VIDEO STORYTELLING 45 s untuk Flow (TikTok/Reels), 2 skrip VIDEO MOTION GRAFIK 25 s (tips; masalah → penyelesaian) guna komponen KOMPONEN.md, 1 CAROUSEL 6 slaid (IG/FB), 4 TEKS SAHAJA ≤500 aksara (Threads/FB: info ringkas, pertanyaan, tips praktikal, info penting/alert), dan WhatsApp tertutup bila sesuai. Labelkan setiap bahagian dengan jelas: 🎥 UNTUK VIDEO STORYTELLING, 🎞️ UNTUK VIDEO MOTION GRAFIK, 🖼️ UNTUK CAROUSEL, ✍️ TEKS SAHAJA, 💬 WHATSAPP.
 - Peraturan Amway Malaysia: hard-sell (harga, ajakan beli, cara order) HANYA untuk ruang tertutup (WhatsApp, group tertutup, DM). Post awam Facebook/Instagram/Threads: soft-sell sahaja. Jangan guna logo/gambar produk rasmi. Botol & jenama boleh kelihatan dalam video/gambar rakaman sendiri, tetapi nama produk/jenama TIDAK disebut dalam sari kata, teks atas skrin, voiceover, caption atau post awam. Video animasi kartun pun guna gambar botol asli (jangan lukis semula / kartunkan produk). Tiada dakwaan pendapatan.
+- Soalan berimpak tinggi: teks 16:00 gilir jenis soalan (keadaan, impian, halangan, emosi), tanpa produk. WhatsApp / DM: jangan terus jual; tanya dulu (keadaan → impian → halangan → emosi → kesan lembut), ringkaskan semula, cadang amalan dulu kemudian produk, akhiri soalan komitmen berbentuk pilihan. Ikut TEKNIK_PENULISAN.md bab 9 dan SKRIP_PROSPEK.md.
 - Cerita peribadi: tandakan [ubah ikut pengalaman sebenar]. Jangan reka pengalaman atau testimoni.
 - Fakta kesihatan: sumber (WHO, KKM, NIH, EFSA, jurnal) + label bukti (Terbukti / Kajian awal / Masih dikaji / Bukti belum cukup).
 - Setiap skrip video (storytelling, motion grafik, 3D) mesti nyatakan tanda nama **@empayarbiz_momyizz** kelihatan sepanjang video di penjuru kanan atas (WAJIB).

@@ -153,17 +153,17 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: WHO (2023) menyarankan dewasa ambil sekurang-kurangnya 25 g serat semula jadi dari makanan sehari, bersama 400 g sayur dan buah. 🌾🥦
 ```
 
-**16:00 · Pertanyaan** (149 / 500 aksara)
+**16:00 · Pertanyaan** (179 / 500 aksara)
 
 ```
-Soalan: hari ni korang dah makan sayur atau buah berapa hidangan? 🥗
+Jujur: apa yang paling susah nak cukupkan sayur & buah setiap hari? 🥦
 
-0️⃣ Belum langsung
-1️⃣–2️⃣
-3️⃣–4️⃣
-5️⃣ ke atas
+⏰ Tak sempat masak
+💸 Harga naik
+👧 Anak tak suka
+🙈 Lupa beli
 
-Momyizz baru 2. Malam ni tambah!
+Momyizz: tak sempat masak hari bekerja. Korang?
 ```
 
 **18:30 · Tips praktikal** (275 / 500 aksara)
@@ -347,17 +347,17 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: kuning telur antara sumber kolin terbaik. Badan guna kolin untuk menghasilkan asetilkolin, bahan kimia yang penting untuk ingatan dan pergerakan otot. (NIH) 🥚
 ```
 
-**16:00 · Pertanyaan** (134 / 500 aksara)
+**16:00 · Pertanyaan** (194 / 500 aksara)
 
 ```
-Soalan: telur pagi korang suka macam mana? 🥚
+Soalan: kalau masa tak jadi masalah, sarapan ideal korang macam mana? 🍳
 
-🍳 Goreng
-🥚 Rebus
-🫕 Separuh masak
-🍳 Dadar dengan sayur
+🥚 Telur + roti gandum
+🥣 Oat + buah
+🍚 Nasi lemak (jujur! 😂)
+🥤 Minuman berkhasiat yang cepat
 
-Momyizz: separuh masak + kicap! 😋
+Komen sarapan impian korang 👇
 ```
 
 **18:30 · Tips praktikal** (265 / 500 aksara)
@@ -543,17 +543,17 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: DHA, sejenis omega-3, ialah antara lemak utama dalam otak dan retina mata. Sumber terbaik: ikan berlemak seperti ikan kembung dan sardin. (NIH) 🐟🧠
 ```
 
-**16:00 · Pertanyaan** (140 / 500 aksara)
+**16:00 · Pertanyaan** (210 / 500 aksara)
 
 ```
-Soalan: keluarga korang makan ikan berapa kali seminggu? 🐟
+Ibu-ibu, bila anak tolak makan ikan, apa yang korang rasa? 🐟
 
-0️⃣ Jarang
-1️⃣ Sekali
-2️⃣ Dua kali
-3️⃣+ Selalu
+😩 Penat pujuk
+😔 Risau dia tak cukup khasiat
+😤 Geram sebab dah masak susah-susah
+🤷 Biar je, esok cuba lagi
 
-Momyizz tengah kejar 'dua kali'!
+Momyizz: semua sekali dalam satu malam. 😂
 ```
 
 **18:30 · Tips praktikal** (314 / 500 aksara)

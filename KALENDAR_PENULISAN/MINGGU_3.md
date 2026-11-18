@@ -314,17 +314,17 @@ Info ringkas: FDA (Amerika Syarikat) menyatakan bukti saintifik semasa belum men
 Penyelidikan dan pemantauan masih diteruskan. Jadi: ambil langkah mudah, tapi tak perlu panik.
 ```
 
-**16:00 · Pertanyaan** (311 / 500 aksara)
+**16:00 · Pertanyaan** (223 / 500 aksara)
 
 ```
-Soalan: berita kesihatan apa paling selalu masuk group keluarga korang? 📱
+Bila dapat berita kesihatan yang menakutkan dalam group keluarga, apa perasaan pertama korang? 📱
 
-🍋 Petua ubat semula jadi
-⚖️ Produk kurus cepat
-☠️ Makanan "beracun"
-🧪 Kajian baru "mengejutkan"
+😰 Terus risau
+🤔 Ragu-ragu
+😤 Geram sebab selalu palsu
+🔍 Terus nak semak
 
-Momyizz: produk kurus cepat! Sebab tu Momyizz baca label dulu. Yang Momyizz minum sekarang: GI rendah diperakui, 6g gula, tiada janji kg. 🍌
+Momyizz dulu nombor 1. Sekarang cuba jadi nombor 4. 😄
 ```
 
 **18:30 · Tips praktikal** (295 / 500 aksara)
@@ -473,17 +473,17 @@ Info ringkas: makin berumur, rasa dahaga makin kurang. 👵🏻
 Sebab tu warga emas lebih mudah kurang minum tanpa sedar. Ingatkan mak ayah minum sedikit-sedikit sepanjang hari, jangan tunggu dahaga. (NHS)
 ```
 
-**16:00 · Pertanyaan** (253 / 500 aksara)
+**16:00 · Pertanyaan** (219 / 500 aksara)
 
 ```
-Soalan: sampai sekarang, korang dah minum berapa gelas air kosong? 💧
+Soalan: kalau korang dapat minum air cukup setiap hari, perubahan apa yang korang paling harap rasa? 💧
 
-🥛 0–2
-🥛🥛 3–4
-🥛🥛🥛 5–6
-🏆 7 ke atas
+⚡ Petang tak terlalu letih
+🧠 Lebih fokus kerja
+😊 Mood lebih stabil
+🚽 Perut lebih selesa
 
-Momyizz: 4 setakat ni. Senang sebab air di rumah dah ditapis dengan penapis yang diperakui 4 standard NSF/ANSI. Isi je botol keluli sebelum keluar. 😄
+Momyizz: nombor 1! Korang?
 ```
 
 **18:30 · Tips praktikal** (213 / 500 aksara)
@@ -660,17 +660,17 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: kajian NASA dapati juruterbang yang tidur sekejap kira-kira 26 minit menunjukkan kewaspadaan meningkat sehingga 54% berbanding yang tak tidur. 😴✈️
 ```
 
-**16:00 · Pertanyaan** (154 / 500 aksara)
+**16:00 · Pertanyaan** (217 / 500 aksara)
 
 ```
-Soalan: korang sempat nap tak waktu kerja? 😪
+Jujur: apa yang halang korang nak nap 20 minit masa rehat kerja? 😪
 
-✅ Selalu
-🙂 Kadang-kadang
-❌ Tak pernah
-🙈 Nap dalam kereta masa rehat
+🏢 Tak ada tempat sesuai
+😳 Segan dengan rakan sekerja
+⏰ Takut terlajak tidur
+📋 Kerja tak habis
 
-Momyizz: kadang-kadang, dalam kereta! 😂
+Momyizz: takut terlajak, jadi set penggera 20 minit! ⏰
 ```
 
 **18:30 · Tips praktikal** (251 / 500 aksara)
@@ -1025,17 +1025,17 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: kesan kafein boleh bertahan berjam-jam. Kajian 2013 mendapati kafein yang diambil 6 jam sebelum tidur masih mengurangkan tidur, dan peserta sendiri tak sedar. ☕🌙
 ```
 
-**16:00 · Pertanyaan** (160 / 500 aksara)
+**16:00 · Pertanyaan** (224 / 500 aksara)
 
 ```
-Soalan: kopi atau teh terakhir korang biasanya pukul berapa? ☕
+Soalan: kalau tidur korang selalu terganggu, apa yang paling cepat terjejas? 😴
 
-🌅 Pagi je
-🕑 Sebelum 2 petang
-🕓 Petang
-🌙 Malam pun minum
+💼 Fokus kerja
+😤 Sabar dengan anak & pasangan
+🍩 Selera makan manis
+🚗 Mengantuk masa memandu
 
-Momyizz tengah cuba 'sebelum 2 petang'!
+Momyizz: nombor 2. Tidur tak cukup = sumbu pendek! 😅
 ```
 
 **18:30 · Tips praktikal** (307 / 500 aksara)
