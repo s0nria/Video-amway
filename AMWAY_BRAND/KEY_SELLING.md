@@ -115,7 +115,7 @@ Sumber: https://www.amway.my/pdpcontent/MYBN/110488_en.html (semak 18 Nov 2026)
 | ✅ | Ada aloe vera yang melembutkan | "softening and soothing aloe vera" |
 | ✅ | Diuji pakar dermatologi | "dermatologist-tested formula" |
 | ✅ | Formula biodegradable (lebih mesra alam) | "biodegradable" |
-| ✅ | Boleh guna untuk basuh sayur dan buah, ikut sukatan di amway.my | Arahan "washing vegetables and fruits" (1 ml dalam 5 L air) |
+| ⚠️ | Boleh guna untuk basuh sayur dan buah, ikut sukatan di amway.my — **WhatsApp sahaja**, jika pelanggan bertanya | Arahan "washing vegetables and fruits" (1 ml dalam 5 L air). Konten awam yang memetik USDA / FDA: jangan galakkan sabun untuk sayur & buah, kerana FDA cadangkan bilas dengan air paip sahaja |
 | ❌ | "Sesuai / bagus untuk kulit sensitif" | **PERLU SEMAK.** Tiada di amway.my. Guna "diuji pakar dermatologi + ada aloe vera" sebagai ganti |
 | ❌ | "Membunuh kuman / bakteria" | Dilarang (tiada sumber, dan bercanggah dengan mesej tukar span) |
 

@@ -1,4 +1,4 @@
-# Kalendar Konten — Minggu 1 (siap salin)
+# Kalendar Konten — Minggu 1: Hari 1–7 (siap salin)
 
 Setiap hari satu topik: **🎥 1 video · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.
 Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.

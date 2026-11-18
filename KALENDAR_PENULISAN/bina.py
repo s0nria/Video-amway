@@ -132,8 +132,10 @@ def produk_md(day):
             f"> **Key selling:** {pr['ks']} · **Gambar:** `{pr['gambar']}`", ""]
 
 
-def md_week1(days):
-    L = ["# Kalendar Konten — Minggu 1 (siap salin)", "",
+def md_week1(days, minggu=1):
+    d0, d1 = (minggu - 1) * 7 + 1, minggu * 7
+    days = [d for d in days if d0 <= d["d"] <= d1]
+    L = [f"# Kalendar Konten — Minggu {minggu}: Hari {d0}–{d1} (siap salin)", "",
          "Setiap hari satu topik: **🎥 1 video · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.",
          "Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.",
          "Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).", ""]
@@ -170,9 +172,15 @@ def md_week1(days):
     return "\n".join(L)
 
 
+def plan_range(days):
+    ds = [d["d"] for d in days if "plan" in d]
+    return (min(ds), max(ds)) if ds else None
+
+
 def md_plan(days):
-    L = ["# Kalendar Konten — Hari 8 hingga 30 (rancangan)", "",
-         "Format sama seperti Minggu 1: 🎥 video · 🖼️ carousel · ✍️ 4 teks (+ 💬 WhatsApp).",
+    a, b = plan_range(days)
+    L = [f"# Kalendar Konten — Hari {a} hingga {b} (rancangan)", "",
+         "Format sama seperti fail MINGGU_*: 🎥 video · 🖼️ carousel · ✍️ 4 teks (+ 💬 WhatsApp).",
          "Teks penuh dijana dengan Claude: tab **Tulis** → pilih hari → **Salin arahan untuk Claude** → tampal dalam Claude Project.", ""]
     for day in days:
         if "plan" not in day:
@@ -188,11 +196,15 @@ def md_plan(days):
     return "\n".join(L)
 
 
+def weeks_full(days):
+    return sorted({(d["d"] - 1) // 7 + 1 for d in days if "video" in d})
+
+
 def md_index(days):
     L = ["# Kalendar Konten Momyizz (30 hari)", "",
          "| Fail | Isi |", "|---|---|",
-         "| `MINGGU_1.md` | Hari 1–7: skrip video, teks carousel, 4 teks, WhatsApp + checklist |",
-         "| `HARI_08-30.md` | Hari 8–30: rancangan setiap konten |",
+         *[f"| `MINGGU_{w}.md` | Hari {(w-1)*7+1}–{w*7}: skrip video, teks carousel, 4 teks, WhatsApp + checklist |" for w in weeks_full(days)],
+         *([f"| `HARI_{plan_range(days)[0]:02d}-{plan_range(days)[1]:02d}.md` | Hari {plan_range(days)[0]}–{plan_range(days)[1]}: rancangan setiap konten |"] if plan_range(days) else []),
          "| `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |",
          "| `masalah_data.py` | Sumber data 20 masalah |",
          "| `kalendar_data.py` | Sumber data kalendar (edit di sini) |",
@@ -238,8 +250,14 @@ if __name__ == "__main__":
         print("RALAT:\n  " + "\n  ".join(errs))
         sys.exit(1)
     data = to_json()
-    open(os.path.join(HERE, "MINGGU_1.md"), "w", encoding="utf-8").write(md_week1(data))
-    open(os.path.join(HERE, "HARI_08-30.md"), "w", encoding="utf-8").write(md_plan(data))
+    import glob
+    for old in glob.glob(os.path.join(HERE, "MINGGU_*.md")) + glob.glob(os.path.join(HERE, "HARI_*.md")):
+        os.remove(old)
+    for w in weeks_full(data):
+        open(os.path.join(HERE, f"MINGGU_{w}.md"), "w", encoding="utf-8").write(md_week1(data, w))
+    pr = plan_range(data)
+    if pr:
+        open(os.path.join(HERE, f"HARI_{pr[0]:02d}-{pr[1]:02d}.md"), "w", encoding="utf-8").write(md_plan(data))
     open(os.path.join(HERE, "README.md"), "w", encoding="utf-8").write(md_index(data))
     open(os.path.join(HERE, "MASALAH_AUDIENS.md"), "w", encoding="utf-8").write(md_masalah())
     inject(data)

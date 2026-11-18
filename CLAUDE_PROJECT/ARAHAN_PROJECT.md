@@ -16,7 +16,8 @@ Untuk hasilkan 3–5 konten sehari dari telefon (claude.ai atau app Claude).
    - `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`
    - `TEMPLATES/TEKNIK_PENULISAN.md`
    - `KALENDAR_PENULISAN/MINGGU_1.md` (contoh gaya penulisan Momyizz)
-   - `KALENDAR_PENULISAN/HARI_08-30.md`
+   - `KALENDAR_PENULISAN/MINGGU_2.md`
+   - `KALENDAR_PENULISAN/HARI_15-30.md`
    - `KALENDAR_PENULISAN/MASALAH_AUDIENS.md` (20 masalah audiens + cara betul ambil supplemen)
    - `AMWAY_BRAND/STICKERS/00-katalog.png`
    - **Contoh post sebenar Momyizz** (lihat bahagian di bawah)

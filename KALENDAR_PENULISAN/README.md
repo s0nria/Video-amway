@@ -3,7 +3,8 @@
 | Fail | Isi |
 |---|---|
 | `MINGGU_1.md` | Hari 1–7: skrip video, teks carousel, 4 teks, WhatsApp + checklist |
-| `HARI_08-30.md` | Hari 8–30: rancangan setiap konten |
+| `MINGGU_2.md` | Hari 8–14: skrip video, teks carousel, 4 teks, WhatsApp + checklist |
+| `HARI_15-30.md` | Hari 15–30: rancangan setiap konten |
 | `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |
 | `masalah_data.py` | Sumber data 20 masalah |
 | `kalendar_data.py` | Sumber data kalendar (edit di sini) |
@@ -34,13 +35,13 @@ Setiap hari ada **satu produk penyelesai masalah** (key selling: `AMWAY_BRAND/KE
 | 5 | 2 | Persediaan malam & pelan B pagi kelam-kabut | NUTRILITE Soy Protein Drink (Original 450g) | ✓ | Siap salin |
 | 6 | 2 | Gula tersembunyi dalam minuman | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) | ✓ | Siap salin |
 | 7 | 3 | Span dapur & kebersihan dapur | Amway Home DISH DROPS (1L) | ✓ | Siap salin |
-| 8 | 3 | Papan pemotong & kain lap | Amway Home DISH DROPS (1L) | ✓ | Rancangan |
-| 9 | 3 | Kesilapan dapur yang biasa | Amway Home DISH DROPS (1L) |  | Rancangan |
-| 10 | 4 | Panaskan bekal dalam bekas plastik | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) |  | Rancangan |
-| 11 | 4 | Bekal sihat ke pejabat | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) | ✓ | Rancangan |
-| 12 | 4 | Cara baca berita kesihatan (bahagian 2) | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) |  | Rancangan |
-| 13 | 5 | Minum air cukup | eSpring Water Purifier (model baharu) |  | Rancangan |
-| 14 | 5 | Cabaran Air 7 hari | eSpring Water Purifier (model baharu) | ✓ | Rancangan |
+| 8 | 3 | Papan pemotong & kain lap | Amway Home DISH DROPS (1L) | ✓ | Siap salin |
+| 9 | 3 | Kesilapan dapur yang biasa | Amway Home DISH DROPS (1L) |  | Siap salin |
+| 10 | 4 | Panaskan bekal dalam bekas plastik | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) |  | Siap salin |
+| 11 | 4 | Bekal sihat ke pejabat | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) | ✓ | Siap salin |
+| 12 | 4 | Cara baca berita kesihatan (bahagian 2) | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) |  | Siap salin |
+| 13 | 5 | Minum air cukup | eSpring Water Purifier (model baharu) |  | Siap salin |
+| 14 | 5 | Cabaran Air 7 hari | eSpring Water Purifier (model baharu) | ✓ | Siap salin |
 | 15 | 5 | Dehidrasi & letih | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) |  | Rancangan |
 | 16 | 6 | Rutin kulit 5 minit | ARTISTRY SKIN NUTRITION Balancing Jelly Cleanser (yang Momyizz guna sekarang) |  | Rancangan |
 | 17 | 6 | SPF setiap hari | ARTISTRY SKIN NUTRITION Multi-Defense UV Protect SPF50+/PA++++ | ✓ | Rancangan |
