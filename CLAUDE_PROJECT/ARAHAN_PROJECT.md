@@ -42,7 +42,7 @@ Ikut fail Project, terutamanya BRAND.md, KONTEN_HARIAN.md dan PENULISAN_PLATFORM
 
 Wajib:
 - Tulis dalam Bahasa Melayu santai. Orang pertama "Momyizz", orang kedua "korang". Jangan guna aku, kau, saya, awak atau anda.
-- Agihan sehari (satu topik, isi berbeza): 1 skrip VIDEO 45 s (TikTok/Reels), 1 CAROUSEL 6 slaid (IG/FB), 4 TEKS SAHAJA ≤500 aksara (Threads/FB: info ringkas, pertanyaan, tips praktikal, info penting/alert), dan WhatsApp tertutup bila sesuai. Labelkan setiap bahagian dengan jelas: 🎥 UNTUK VIDEO, 🖼️ UNTUK CAROUSEL, ✍️ TEKS SAHAJA, 💬 WHATSAPP.
+- Agihan sehari (satu topik, isi berbeza): 1 skrip VIDEO STORYTELLING 45 s untuk Flow (TikTok/Reels), 2 skrip VIDEO MOTION GRAFIK 25 s (tips; masalah → penyelesaian) guna komponen KOMPONEN.md, 1 CAROUSEL 6 slaid (IG/FB), 4 TEKS SAHAJA ≤500 aksara (Threads/FB: info ringkas, pertanyaan, tips praktikal, info penting/alert), dan WhatsApp tertutup bila sesuai. Labelkan setiap bahagian dengan jelas: 🎥 UNTUK VIDEO STORYTELLING, 🎞️ UNTUK VIDEO MOTION GRAFIK, 🖼️ UNTUK CAROUSEL, ✍️ TEKS SAHAJA, 💬 WHATSAPP.
 - Peraturan Amway Malaysia: hard-sell (harga, ajakan beli, cara order) HANYA untuk ruang tertutup (WhatsApp, group tertutup, DM). Post awam Facebook/Instagram/Threads: soft-sell sahaja. Jangan guna logo/gambar produk rasmi. Tiada dakwaan pendapatan.
 - Cerita peribadi: tandakan [ubah ikut pengalaman sebenar]. Jangan reka pengalaman atau testimoni.
 - Fakta kesihatan: sumber (WHO, KKM, NIH, EFSA, jurnal) + label bukti (Terbukti / Kajian awal / Masih dikaji / Bukti belum cukup).
@@ -54,4 +54,14 @@ Wajib:
 - Setiap konten kesihatan/produk ada penafian: "Perkongsian ilmu umum. Bukan nasihat perubatan."
 
 Format jawapan untuk setiap konten: Slot & jenis · Platform · Teks siap salin · (video) skrip babak + grafik + sticker · Senarai "PERLU SEMAK" jika ada.
+```
+
+## Jana siri dari podcast / video trending (salin & tampal)
+```
+Ini transkrip podcast yang tengah trending: [tampal transkrip]
+
+1. Senaraikan 7–10 topik utama yang relate dengan audiens Momyizz (ibu bekerja, kesihatan keluarga, kecantikan).
+2. Untuk setiap topik: dakwaan dalam podcast, dan sama ada ia disokong sumber rasmi (KKM, WHO, NIH, CDC, jurnal) dengan label bukti. Tandakan "TIDAK DAPAT DISAHKAN" jika tiada sumber.
+3. Cadangkan siri 7 hari: setiap hari 1 video storytelling (Flow), 2 video motion grafik (tips; masalah → penyelesaian), 1 carousel 6 slaid, 4 teks (info, pertanyaan, tips, alert) dan WhatsApp tertutup jika ada produk Nutrilite yang relevan (nama PERLU SEMAK amway.my).
+Peraturan: podcast sebagai hook sahaja, jangan petik nama penceramah, fakta dari sumber rasmi, Momyizz & korang, tiada dakwaan perubatan.
 ```

@@ -8,7 +8,9 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 
 | Masa | Konten | Platform | Salin ke |
 |---|---|---|---|
-| 08:30 | 🎥 **Untuk VIDEO** (45 s): cerita / personal branding | TikTok · Reels | CapCut / Flow |
+| 08:30 | 🎥 **Video storytelling** (45 s): cerita / personal branding | TikTok · Reels | Flow (video AI) + CapCut |
+| 13:30 | 🎞️ **Video motion grafik: tips** (25 s, tanpa rakaman) | TikTok · Reels | CapCut + Motion Graphics Kit |
+| 19:30 | 🎞️ **Video motion grafik: masalah → penyelesaian / mitos vs fakta** (25 s) | TikTok · Reels | CapCut + Motion Graphics Kit |
 | 12:30 | 🖼️ **Untuk CAROUSEL** (6 slaid): edukasi langkah demi langkah | Instagram · Facebook | Canva / CapCut |
 | 10:00 | ✍️ **Teks sahaja**: info ringkas edukasi | Threads · Facebook | Post terus |
 | 16:00 | ✍️ **Teks sahaja**: pertanyaan / poll | Threads · Facebook | Post terus |
@@ -24,7 +26,9 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 
 | Konten | Isi (berbeza, topik sama) |
 |---|---|
-| 🎥 Video | Cerita Momyizz pandang span lama → kajian 2017 → tulis tarikh pada span baru |
+| 🎥 Video storytelling | Cerita Momyizz pandang span lama → kajian 2017 → tulis tarikh pada span baru |
+| 🎞️ Motion grafik: tips | Jadual bersih dapur: harian, mingguan, bulanan |
+| 🎞️ Motion grafik: penyelesaian | Dapur cepat berbau? Punca & penyelesaian |
 | 🖼️ Carousel | 5 Kunci Makanan Lebih Selamat (WHO), satu kunci satu slaid |
 | ✍️ 10:00 Info ringkas | Span yang dibersihkan cara rumah tak semestinya kurang bakteria |
 | ✍️ 16:00 Pertanyaan | "Dah tukar span? Komen DAH / ESOK" |
@@ -66,3 +70,18 @@ Harga & promosi (dari amway.my, tarikh semak): [isi atau "tiada"]
 Testimoni sebenar (jika ada): [isi atau "tiada"]
 Platform penulisan: Threads (bebenang), Facebook, Instagram
 ```
+
+## Siri trending dari podcast / video viral
+
+Contoh: Hari 7–13 **Siri Tidur, Otak & Usus**, diilhamkan oleh podcast tidur & otak yang tengah viral.
+
+Peraturan:
+1. Podcast atau video viral jadi **hook** sahaja ("Ramai tengah share podcast pasal…").
+2. **Jangan petik** nama penceramah atau dakwaan mereka yang belum disemak. Semua fakta diambil semula dari sumber rasmi (KKM, WHO, NIH, CDC, AASM, AHA, jurnal).
+3. Dakwaan yang tak dapat disahkan ditinggalkan.
+4. Produk hanya dalam WhatsApp / ruang tertutup, tanpa dakwaan kesihatan.
+
+Cara jana siri baharu dari podcast YouTube (dalam Claude Project):
+1. Buka video di YouTube → **⋯ / Lagi** → **Tunjukkan transkrip** → salin semua teks.
+2. Tampal dalam Claude Project bersama arahan dalam `CLAUDE_PROJECT/ARAHAN_PROJECT.md` (bahagian "Jana siri dari podcast").
+3. Semak senarai topik yang Claude cadangkan, kemudian minta konten harian ikut format kalendar.
