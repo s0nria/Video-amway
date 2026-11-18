@@ -57,17 +57,25 @@ Sumber: https://www.amway.my/pdpcontent/MYBN/109746_en.html (semak 18 Nov 2026)
 | ❌ | "Cegah selesema / tingkatkan imun" | Dilarang (dakwaan perubatan) |
 | ❌ | "Ladang organik", "teknologi lepasan berperingkat", saiz pek | **PERLU SEMAK** (tiada di halaman ini) |
 
-## eSpring Water Treatment System
-Sumber: https://amway.my/pdpcontent/MYBN/100188_en.html (semak 18 Nov 2026)
+## eSpring Water Purifier (model baharu)
+Sumber: https://www.amway.my/pdpcontent/MYBN/122940_en.html (semak 18 Nov 2026). Gambar: `PRODUK/espring-baharu.png`.
+Jangan guna fakta model lama (halaman 100188: "140 impurities", "99.99%", lampu UV).
 
 | | Key selling (BM) | Petikan rasmi |
 |---|---|---|
-| ✅ | Diperakui NSF International (NSF/ANSI 42, 53, 55, 401, P473, P477) | Petikan pensijilan |
-| ✅ | Penapis karbon aktif dari tempurung kelapa | "coconut shell-based activated carbon" |
-| ✅ | Menyingkirkan lebih 140 bendasing | "removes more than 140 impurities" |
-| ✅ | Lampu UV memusnahkan sehingga 99.99% bakteria dan virus dalam air minuman | Petikan rasmi (sebut tepat, jangan bulatkan) |
-| ✅ | Servis di rumah untuk produk Amway Home Tech | "on-site service" |
-| ❌ | "Singkir mikroplastik" | **Dilarang** (BRAND.md peraturan 5; halaman ini tidak menyebutnya) |
+| ✅ | Diperakui 4 standard NSF/ANSI: 42, 53, 55 dan 401 | "Proven Performance with 4 NSF/ANSI Standards" |
+| ✅ | Mengurangkan lebih 170 bahan cemar, sekecil 0.2 mikron | "reduces over 170 contaminants measuring as small as 0.2 microns" |
+| ✅ | UV-C LED menghapuskan 99.9% bakteria, virus dan sista bawaan air | "effectively eliminates 99.9% of bacteria, viruses and waterborne cysts" |
+| ✅ | Lampu UV-C LED direka tahan sehingga 10 tahun (bergantung pada penggunaan) | "designed to last up to 10 years" · "Data shared may vary based on usage" |
+| ✅ | Penapis karbon aktif dari tempurung kelapa (e3 Carbon Filter) | "Coconut-shell-based activated carbon" |
+| ✅ | Terbukti mengurangkan mikroplastik dan 19 jenis sisa farmaseutikal | "has been proven to reduce microplastics and 19 pharmaceuticals" |
+| ✅ | Aplikasi Amway Healthy Home: amaran tukar penapis, order penapis, aktifkan waranti (perlu internet) | Petikan "Stay Connected" |
+| ✅ | Diperakui Halal (unit, e3 Carbon Filter & Pre Filter) | "now certified Halal" |
+| ✅ | Waranti 5 tahun | "Warranty: 5 years" |
+| ✅ | Anugerah Gold Seal, Water Quality Association | "Water Quality Association Gold Seal" |
+| ❌ | "Singkir / buang SEMUA mikroplastik", "air bebas mikroplastik" | Dilarang. Amway tulis "reduce" (mengurangkan), bukan menyingkirkan |
+| ❌ | Kaitkan air eSpring dengan mencegah / merawat penyakit | Dilarang (dakwaan perubatan) |
+| ❌ | Petik "93% air botol ada mikroplastik" sebagai fakta produk | Itu kajian air botol, bukan ujian eSpring. Jika guna dalam konten mikroplastik, letak sumber kajian asal dan label bukti |
 
 ## Produk lain dalam kalendar — PERLU SEMAK
 Belum disahkan di amway.my. Jangan tulis key selling sehingga disemak:

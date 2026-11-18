@@ -102,7 +102,7 @@ Setiap konten yang berkaitan dengan produk mesti ada sekurang-kurangnya satu key
 2. Semua fakta produk (nama, ramuan, kandungan, dos, cara guna) mesti disemak di laman rasmi https://www.amway.my/ sebelum skrip diluluskan. Catat tarikh semakan.
 3. Jangan reka ramuan, angka, fungsi atau keberkesanan produk. Jika tidak dapat disahkan, tulis "PERLU SEMAK" dan jangan masukkan ke dalam video.
 4. Tiada dakwaan perubatan: jangan kata produk mencegah, merawat atau menyembuhkan penyakit. Suplemen ialah pelengkap, bukan pengganti makanan.
-5. Jangan dakwa eSpring atau mana-mana produk Amway menyingkirkan mikroplastik, kecuali disokong spesifikasi dan ujian rasmi yang relevan.
+5. Jangan dakwa eSpring atau mana-mana produk Amway menyingkirkan mikroplastik, kecuali disokong spesifikasi dan ujian rasmi yang relevan. eSpring model baharu: amway.my menyatakan "proven to reduce microplastics", jadi boleh tulis **mengurangkan** mikroplastik (ikut ayat rasmi), tetapi jangan tulis menyingkirkan / bebas mikroplastik. Lihat `KEY_SELLING.md`.
 6. Fakta kesihatan/mikroplastik mesti ada sumber (WHO, UNEP, FDA, EFSA, KKM, NIH, jurnal peer-reviewed) dan label tahap bukti: Terbukti / Kajian awal / Masih dikaji / Bukti belum cukup.
 7. Tiada tajuk sensasi atau menakut-nakutkan. Tiada janji hasil ("cerah dalam 7 hari", "turun 5 kg").
 8. **Penafian wajib dalam setiap video** (teks kecil, dalam safe zone, sekurang-kurangnya 3 saat, sebaiknya di babak fakta atau penutup): **"Perkongsian ilmu umum. Bukan nasihat perubatan."** Penafian yang sama juga dimasukkan dalam caption.

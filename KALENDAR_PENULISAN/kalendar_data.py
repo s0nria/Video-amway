@@ -254,7 +254,7 @@ DAYS = [
 {"d": 14, "ep": 5, "tema": "Cabaran Air 7 hari",
  "plan": ("Lancar #CabaranAirMomyizz", "Trick 5 waktu solat = 5 gelas",
           ["Air kosong dulu, baru kopi", "Siapa nak join cabaran? Komen JOIN", "Letak botol air di tempat yang selalu nampak", "air kotak / sirap bukan pengganti air kosong"],
-          "eSpring Water Purifier (hanya spesifikasi rasmi; JANGAN dakwa singkir mikroplastik)")},
+          "eSpring Water Purifier model baharu (key selling dari KEY_SELLING.md; boleh tulis MENGURANGKAN mikroplastik ikut amway.my, JANGAN tulis singkir / bebas mikroplastik)")},
 {"d": 15, "ep": 5, "tema": "Dehidrasi & letih",
  "plan": ("Petang blur: kurang minum ke?", "Tanda badan perlukan air",
           ["Dehidrasi ringan dikaitkan dengan fokus menurun (kajian awal)", "Korang selalu letih pukul berapa?", "Tambah hirisan limau / timun dalam air kosong", "letih berpanjangan ada banyak punca, jumpa doktor"], None)},
