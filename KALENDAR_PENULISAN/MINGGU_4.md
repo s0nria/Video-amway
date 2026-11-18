@@ -13,6 +13,8 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 13-blazer-tunjuk-atas-kanan.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -38,6 +40,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | 5 makanan serat yang ada di dapur korang 🌾 | Pop |
@@ -59,6 +63,8 @@ Sumber: WHO (2023).
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Perut kembung bila mula makan sihat?
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 10-satin-terkejut-pipi.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -200,6 +206,8 @@ Jangan bergantung pada julap atau teh 'detoks' berulang kali tanpa nasihat.
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 18-blazer-semangat.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -225,6 +233,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 08-satin-thumbs-up.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | 5 sarapan otak bawah 10 minit 🧠 | Pop |
@@ -244,6 +254,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Telur naikkan kolesterol, jangan makan hari-hari'
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 03-satin-tunjuk-atas.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -389,6 +401,8 @@ Semak nombor pendaftaran MAL dan dakwaannya. Tiada pil yang menggantikan tidur c
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 19-blazer-thumbs-up.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -414,6 +428,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 18-blazer-semangat.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | Ikan 2 kali seminggu, cara orang sibuk 🐟 | Pop |
@@ -433,6 +449,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Minyak ikan buat anak terus pandai'
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|

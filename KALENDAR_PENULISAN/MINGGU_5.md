@@ -13,6 +13,8 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 06-satin-lambai-dua-tangan.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -38,6 +40,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 15-blazer-tunjuk-atas-kiri.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | Bila kali terakhir korang buat saringan? 🩺 | Pop |
@@ -57,6 +61,8 @@ Checklist saringan tahunan. Save & tetapkan 'bulan saringan' korang 🩺
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Nak ubah semua tabiat sekali gus? Ini kenapa selalu gagal
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 05-satin-semangat.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|

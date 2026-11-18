@@ -21,6 +21,7 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 - **Produk dalam konten awam (DISAHKAN pengguna):** botol dan jenama BOLEH kelihatan dalam video / gambar carousel (rakaman sendiri). Nama produk / jenama TIDAK disebut dalam sari kata, teks atas skrin, voiceover, caption atau teks awam. Harga dan cara order hanya dalam WhatsApp / group tertutup.
 - **Key selling (DISAHKAN):** setiap konten yang berkaitan dengan produk ada sekurang-kurangnya satu key selling dari `AMWAY_BRAND/KEY_SELLING.md`. Konten awam: sebut ciri sahaja (contoh "Momyizz pilih sabun yang dah diuji pakar dermatologi"), tanpa nama produk. WhatsApp: nama produk + 3–5 key selling.
 - **Produk penyelesai masalah setiap hari (DISAHKAN):** setiap hari ada SATU produk Amway yang menyelesaikan masalah topik hari itu. Produk muncul dalam 🎥 video (kelihatan + 1 key selling), ✍️ 16:00 atau 18:30, dan 💬 WhatsApp pada hari hard-sell. ✍️ 21:00 alert (banjir, penyakit, saringan) kekal tanpa produk. Senarai produk harian: `KALENDAR_PENULISAN/kalendar_data.py`.
+- **Tanda nama @empayarbiz_momyizz (WAJIB):** dalam setiap video (storytelling, 2 motion grafik, 3D), sepanjang video, penjuru kanan atas dalam safe zone.
 - **Tiada pertindihan dalam sehari (DISAHKAN):** setiap slot ada sudut sendiri. Video storytelling = cerita · motion grafik tips = senarai cara · motion grafik 2 = mitos / masalah → penyelesaian · carousel = fakta bersumber · 10:00 = satu fakta yang tiada dalam slot lain · 16:00 = soalan · 18:30 = tip baharu · 21:00 = alert berkaitan topik, tidak mengulang alert dalam 7 hari sebelumnya.
 - Hard-sell maksimum 1 sehari, 3–4 hari seminggu.
 - Info "semasa" mesti dari sumber rasmi. Jangan reka berita.
@@ -33,7 +34,7 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 | 🎞️ Motion grafik: tips | Jadual bersih dapur: harian, mingguan, bulanan |
 | 🎞️ Motion grafik: penyelesaian | Dapur cepat berbau? Punca & penyelesaian |
 | 🖼️ Carousel | 5 Kunci Makanan Lebih Selamat (WHO), satu kunci satu slaid |
-| ✍️ 10:00 Info ringkas | Span yang dibersihkan cara rumah tak semestinya kurang bakteria |
+| ✍️ 10:00 Info ringkas | Span yang dibersihkan cara rumah (microwave, bilas air sabun panas) tak semestinya kurang bakteria |
 | ✍️ 16:00 Pertanyaan | "Picit sabun terus atas span atau cairkan dulu? A / B" |
 | ✍️ 18:30 Tips | Cara keringkan span: perah, rak berlubang, asingkan span & kain lap |
 | ✍️ 21:00 Alert | Leptospirosis musim banjir: elak redah air banjir, tutup makanan |
