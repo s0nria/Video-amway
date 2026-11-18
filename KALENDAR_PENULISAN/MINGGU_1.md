@@ -873,7 +873,7 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak span). Boleh juga guna video Episod 3 (tab Episod). Babak sabun: botol picit tanpa label, botol Dish Drops dan logo TIDAK kelihatan (produk tak boleh muncul di ruang awam). Kalau ada yang tanya 'sabun apa?' di komen, balas 'Momyizz DM ya 😊' dan kongsi dalam DM / WhatsApp (slot wa).
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak span). Boleh juga guna video Episod 3 (tab Episod). Babak sabun: botol Dish Drops BOLEH kelihatan (rakaman sendiri), tetapi JANGAN sebut nama Dish Drops / Amway dalam sari kata, teks atas skrin, voiceover atau caption. Kalau ada yang tanya 'sabun apa?' di komen, balas 'Momyizz DM ya 😊' dan kongsi dalam DM / WhatsApp (slot wa).
 
 | Masa | Visual | Teks atas skrin / suara |
 |---|---|---|
@@ -881,7 +881,7 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 | 3–12s | Momyizz picit sabun banyak-banyak terus atas span | Dulu Momyizz picit sabun banyak-banyak. Fikir: span sentiasa bersabun, mesti bersih. |
 | 12–22s | Teks atas skrin + Momyizz terkejut | Kajian 2017 jumpa bakteria sangat tinggi dalam span dapur terpakai. 😳 |
 | 22–32s | Tulis tarikh pada span baru dengan marker | Sekarang: tulis tarikh pada span baru, perah dan keringkan lepas guna. |
-| 32–41s | Tuang sabun pekat + air ke botol picit tanpa label, picit sikit ke span, close-up buih banyak | Sabun pekat pun Momyizz cairkan dulu. Sikit je, buih banyak & tahan lama 🫧 |
+| 32–41s | Close-up botol Dish Drops, tuang sedikit + air ke botol picit, picit sikit ke span, close-up buih banyak | Sabun pekat pun Momyizz cairkan dulu. Sikit je, buih banyak & tahan lama 🫧 |
 | 41–45s | Dapur bersih, Momyizz senyum | Dapur bersih bermula dengan benda kecil ✨ | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
 **Caption video**

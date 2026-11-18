@@ -10,7 +10,9 @@ Format setiap hari (DISAHKAN pengguna, pilihan A): SATU topik, isi berbeza untuk
             10:00 Info ringkas · 16:00 Pertanyaan · 18:30 Tips praktikal · 21:00 Info penting / alert
   wa        💬 WhatsApp / group tertutup (hard-sell, bila sesuai)
 
-Peraturan: Momyizz & korang sahaja. Produk TIDAK muncul dalam video, carousel atau teks awam
+Peraturan: Momyizz & korang sahaja. Produk BOLEH kelihatan dalam video / gambar carousel (botol & jenama,
+rakaman sendiri; DISAHKAN pengguna 18 Nov 2026), tetapi nama produk / jenama TIDAK disebut dalam sari kata,
+teks atas skrin, voiceover, caption atau teks awam
 (peraturan Amway Malaysia: tiada tawaran produk di ruang awam; video yang menyebut produk perlu semakan Amway).
 Produk + harga hanya dalam slot wa (ruang tertutup).
 
@@ -198,13 +200,13 @@ DAYS = [
 
 # ================================================================ HARI 7
 {"d": 7, "ep": 3, "tema": "Span dapur & kebersihan dapur",
- "video": {"tajuk": "Span yang Momyizz pegang setiap malam", "nota": CERITA + " Sticker: 14-blazer-tutup-mulut (babak span). Boleh juga guna video Episod 3 (tab Episod). Babak sabun: botol picit tanpa label, botol Dish Drops dan logo TIDAK kelihatan (produk tak boleh muncul di ruang awam). Kalau ada yang tanya 'sabun apa?' di komen, balas 'Momyizz DM ya 😊' dan kongsi dalam DM / WhatsApp (slot wa).",
+ "video": {"tajuk": "Span yang Momyizz pegang setiap malam", "nota": CERITA + " Sticker: 14-blazer-tutup-mulut (babak span). Boleh juga guna video Episod 3 (tab Episod). Babak sabun: botol Dish Drops BOLEH kelihatan (rakaman sendiri), tetapi JANGAN sebut nama Dish Drops / Amway dalam sari kata, teks atas skrin, voiceover atau caption. Kalau ada yang tanya 'sabun apa?' di komen, balas 'Momyizz DM ya 😊' dan kongsi dalam DM / WhatsApp (slot wa).",
   "babak": [
    ("0–3s", "Close-up span lama diperah, kekuningan", "Bila kali terakhir korang tukar ni? 🧽"),
    ("3–12s", "Momyizz picit sabun banyak-banyak terus atas span", "Dulu Momyizz picit sabun banyak-banyak. Fikir: span sentiasa bersabun, mesti bersih."),
    ("12–22s", "Teks atas skrin + Momyizz terkejut", "Kajian 2017 jumpa bakteria sangat tinggi dalam span dapur terpakai. 😳"),
    ("22–32s", "Tulis tarikh pada span baru dengan marker", "Sekarang: tulis tarikh pada span baru, perah dan keringkan lepas guna."),
-   ("32–41s", "Tuang sabun pekat + air ke botol picit tanpa label, picit sikit ke span, close-up buih banyak", "Sabun pekat pun Momyizz cairkan dulu. Sikit je, buih banyak & tahan lama 🫧"),
+   ("32–41s", "Close-up botol Dish Drops, tuang sedikit + air ke botol picit, picit sikit ke span, close-up buih banyak", "Sabun pekat pun Momyizz cairkan dulu. Sikit je, buih banyak & tahan lama 🫧"),
    ("41–45s", "Dapur bersih, Momyizz senyum", "Dapur bersih bermula dengan benda kecil ✨ | " + DISC),
   ],
   "caption": "Bila kali terakhir korang tukar span? Jujur je kat komen 😂\n\nSabun pun Momyizz dah tak picit banyak-banyak. Sabun pekat, cairkan dulu, sikit je dah berbuih 🫧 Tangan basuh pinggan hari-hari, jadi Momyizz pilih yang ada aloe vera & dah diuji pakar dermatologi 🤲\n\nSumber: Cardinale et al. (2017).\n" + DISC + "\n\n#Momyizz #DapurBersih #TipsRumah"},

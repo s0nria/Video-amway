@@ -195,7 +195,7 @@ def md_index(days):
          "| 18:30 | ✍️ Teks: tips praktikal | Threads · Facebook | Post terus |",
          "| 21:00 | ✍️ Teks: info penting / alert | Threads · Facebook | Post terus |",
          "| Bila sesuai | 💬 Hard-sell | WhatsApp / group tertutup | Hantar terus |", "",
-         "Produk tidak muncul dalam konten awam (peraturan Amway Malaysia, `AMWAY_BRAND/BRAND.md`).", "",
+         "Produk boleh kelihatan dalam video / gambar, tetapi nama produk tidak disebut dalam sari kata, voiceover, caption atau teks awam (`AMWAY_BRAND/BRAND.md`).", "",
          "| Hari | Episod | Tema | WhatsApp | Status |", "|---|---|---|---|---|"]
     for day in days:
         wa = "✓" if (day.get("wa") or (day.get("plan") or {}).get("wa")) else ""

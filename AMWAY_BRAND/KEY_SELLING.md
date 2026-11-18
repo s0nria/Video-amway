@@ -5,7 +5,7 @@
 | Ruang | Cara masukkan key selling |
 |---|---|
 | 💬 WhatsApp / group tertutup / DM | Nama produk + 3–5 key selling dalam senarai bullet, kemudian harga dan CTA |
-| 🎥 Video · 🖼️ Carousel · ✍️ Teks awam | **Tanpa nama produk, logo atau botol berlabel.** Sebut ciri produk sebagai pengalaman Momyizz atau sebagai tips memilih, contohnya "Momyizz pilih sabun yang dah diuji pakar dermatologi". Tiada harga, tiada ajakan beli |
+| 🎥 Video · 🖼️ Carousel · ✍️ Teks awam | **Botol & jenama boleh kelihatan dalam video / gambar (rakaman sendiri), tetapi nama produk tidak disebut** dalam sari kata, teks atas skrin, voiceover, caption atau teks. Sebut ciri produk sebagai pengalaman Momyizz atau sebagai tips memilih, contohnya "Momyizz pilih sabun yang dah diuji pakar dermatologi". Tiada harga, tiada ajakan beli |
 
 Syarat:
 1. Guna **hanya** key selling bertanda ✅ di bawah. Semua disalin dari laman rasmi amway.my, dengan tarikh semakan.

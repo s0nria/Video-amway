@@ -16,7 +16,7 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 | 21:00 | ✍️ **Teks sahaja**: info penting / alert (sumber rasmi: KKM, WHO, NHMS) | Threads · Facebook | Post terus |
 | Bila sesuai | 💬 **Hard-sell** | WhatsApp / group tertutup | Hantar terus |
 
-- Produk tidak muncul dalam video, carousel atau teks awam (peraturan Amway Malaysia). Produk, harga dan cara order hanya dalam WhatsApp / group tertutup.
+- **Produk dalam konten awam (DISAHKAN pengguna):** botol dan jenama BOLEH kelihatan dalam video / gambar carousel (rakaman sendiri). Nama produk / jenama TIDAK disebut dalam sari kata, teks atas skrin, voiceover, caption atau teks awam. Harga dan cara order hanya dalam WhatsApp / group tertutup.
 - **Key selling (DISAHKAN):** setiap konten yang berkaitan dengan produk ada sekurang-kurangnya satu key selling dari `AMWAY_BRAND/KEY_SELLING.md`. Konten awam: sebut ciri sahaja (contoh "Momyizz pilih sabun yang dah diuji pakar dermatologi"), tanpa nama produk. WhatsApp: nama produk + 3–5 key selling.
 - Hard-sell maksimum 1 sehari, 3–4 hari seminggu.
 - Info "semasa" mesti dari sumber rasmi. Jangan reka berita.
@@ -25,7 +25,7 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 
 | Konten | Isi (berbeza, topik sama) |
 |---|---|
-| 🎥 Video | Cerita Momyizz pandang span lama → kajian 2017 → tulis tarikh pada span baru → sabun pekat dicairkan, sikit je berbuih banyak (botol tanpa label) |
+| 🎥 Video | Cerita Momyizz pandang span lama → kajian 2017 → tulis tarikh pada span baru → sabun pekat dicairkan, sikit je berbuih banyak (botol Dish Drops kelihatan, nama tak disebut) |
 | 🖼️ Carousel | 5 Kunci Makanan Lebih Selamat (WHO), satu kunci satu slaid |
 | ✍️ 10:00 Info ringkas | Span yang dibersihkan cara rumah tak semestinya kurang bakteria |
 | ✍️ 16:00 Pertanyaan | "Picit sabun terus atas span atau cairkan dulu? A / B" |
