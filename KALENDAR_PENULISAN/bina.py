@@ -11,7 +11,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
-from kalendar_data import DAYS, JENIS_TEKS, PRODUK  # noqa: E402
+from kalendar_data import DAYS, JENIS_TEKS, PRODUK, MG_FULL, MG_PLAN, MG_INFO  # noqa: E402
 from masalah_data import MASALAH, CARA_BETUL, SUMBER  # noqa: E402
 
 LIMIT_TH, LIMIT_IG, LIMIT_SLAID = 500, 2200, 260
@@ -47,7 +47,18 @@ def check():
             for f in ("video", "carousel"):
                 if len(day[f]["caption"]) > LIMIT_IG:
                     errs.append(f"{tag}: caption {f} terlalu panjang")
-        for t in _strings(day):
+        if day["d"] in MG_FULL:
+            mg = MG_FULL[day["d"]]
+            if len(mg) != len(MG_INFO):
+                errs.append(f"{tag}: perlu {len(MG_INFO)} video motion grafik dalam MG_FULL")
+            for i, v in enumerate(mg, 1):
+                if not 4 <= len(v["babak"]) <= 7:
+                    errs.append(f"{tag}: motion grafik {i} perlu 4–7 babak")
+                if len(v["caption"]) > LIMIT_IG:
+                    errs.append(f"{tag}: caption motion grafik {i} terlalu panjang")
+        elif day["d"] not in MG_PLAN:
+            errs.append(f"{tag}: tiada motion grafik (MG_FULL) atau idea (MG_PLAN)")
+        for t in list(_strings(day)) + list(_strings(MG_FULL.get(day["d"], []))) + list(_strings(MG_PLAN.get(day["d"], ()))):
             m = BANNED.search(t)
             if m:
                 errs.append(f"{tag}: guna '{m.group(0)}' (guna Momyizz / korang)")
@@ -101,6 +112,14 @@ def to_json():
         k, masalah = day["produk"]
         nama, gambar, ks = PRODUK[k]
         d["produk"] = {"nama": nama, "gambar": gambar, "ks": ks, "masalah": masalah}
+        if day["ep"] is None:
+            d["siri"] = "Siri trending: Tidur, Otak & Usus"
+        if day["d"] in MG_FULL:
+            mg = [{"masa": m, "jenis": j, "tajuk": v["tajuk"], "sticker": v["sticker"],
+                   "babak": [list(b) for b in v["babak"]], "caption": v["caption"]}
+                  for (m, j), v in zip(MG_INFO, MG_FULL[day["d"]])]
+        else:
+            mg = [{"masa": m, "jenis": j, "idea": x} for (m, j), x in zip(MG_INFO, MG_PLAN[day["d"]])]
         if "video" in day:
             v = day["video"]
             d["video"] = {"tajuk": v["tajuk"], "nota": v.get("nota", ""), "babak": [list(b) for b in v["babak"]], "caption": v["caption"]}
@@ -108,10 +127,11 @@ def to_json():
             d["teks"] = [{"masa": m, "jenis": j, "t": t} for (m, j), t in zip(JENIS_TEKS, day["teks"])]
             if day.get("wa"):
                 d["wa"] = day["wa"]
+            d["mg"] = mg
         else:
             vid, car, teks, wa = day["plan"]
             assert len(teks) == len(JENIS_TEKS), f"Hari {day['d']}: perlu {len(JENIS_TEKS)} idea teks"
-            d["plan"] = {"video": vid, "carousel": car, "teks": [{"masa": m, "jenis": j, "idea": t} for (m, j), t in zip(JENIS_TEKS, teks)], "wa": wa}
+            d["plan"] = {"mg": mg, "video": vid, "carousel": car, "teks": [{"masa": m, "jenis": j, "idea": t} for (m, j), t in zip(JENIS_TEKS, teks)], "wa": wa}
         out.append(d)
     return out
 
@@ -126,6 +146,23 @@ def carousel_text(c):
     return "\n\n".join(f"SLAID {i}\n{t}" for i, t in enumerate(c["slaid"], 1))
 
 
+def judul(day):
+    label = ("Episod " + str(day["ep"])) if day["ep"] else "🔥 " + day.get("siri", "Siri trending")
+    return f"## Hari {day['d']} · {label} · {day['tema']}"
+
+
+def mg_md(g):
+    if "idea" in g:
+        return [f"### 🎞️ {g['masa']} · VIDEO MOTION GRAFIK ({g['jenis']}): idea", "",
+                f"> {g['idea']} (skrip dijana dengan Claude: tab **Tulis** → **Salin arahan untuk Claude**)", ""]
+    L = [f"### 🎞️ {g['masa']} · UNTUK VIDEO MOTION GRAFIK ({g['jenis']}): {g['tajuk']}", "",
+         "> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. "
+         f"Sticker: {g['sticker']}.", "",
+         "| Masa | Komponen kit | Teks atas skrin | Animasi |", "|---|---|---|---|"]
+    L += [f"| {b[0]} | {b[1]} | {b[2].replace(chr(10), '<br>')} | {b[3]} |" for b in g["babak"]]
+    return L + ["", "**Caption**", "", "```", g["caption"], "```", ""]
+
+
 def produk_md(day):
     pr = day["produk"]
     return [f"> 🧩 **Produk penyelesai masalah:** {pr['nama']} · **Masalah:** {pr['masalah']}",
@@ -136,21 +173,24 @@ def md_week1(days, minggu=1):
     d0, d1 = (minggu - 1) * 7 + 1, minggu * 7
     days = [d for d in days if d0 <= d["d"] <= d1]
     L = [f"# Kalendar Konten — Minggu {minggu}: Hari {d0}–{d1} (siap salin)", "",
-         "Setiap hari satu topik: **🎥 1 video · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.",
+         "Setiap hari satu topik: **🎥 1 video storytelling · 🎞️ 2 video motion grafik · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.",
          "Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.",
          "Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).", ""]
     for day in days:
         if "video" not in day:
             continue
         v, c = day["video"], day["carousel"]
-        L += [f"## Hari {day['d']} · Episod {day['ep']} · {day['tema']}", ""] + produk_md(day) + [
-              f"### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): {v['tajuk']}", "",
+        L += [judul(day), ""] + produk_md(day) + [
+              f"### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): {v['tajuk']}", "",
               "> Salin skrip ini ke CapCut / Flow untuk edit video.", ""]
         if v["nota"]:
             L += [f"> {v['nota']}", ""]
         L += ["| Masa | Visual | Teks atas skrin / suara |", "|---|---|---|"]
         L += [f"| {b[0]} | {b[1]} | {b[2]} |" for b in v["babak"]]
-        L += ["", "**Caption video**", "", "```", v["caption"], "```", "",
+        L += ["", "**Caption video**", "", "```", v["caption"], "```", ""]
+        for g in day["mg"]:
+            L += mg_md(g)
+        L += [
               f"### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): {c['tajuk']}", "",
               "> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.", ""]
         for i, t in enumerate(c["slaid"], 1):
@@ -163,7 +203,7 @@ def md_week1(days, minggu=1):
             w = day["wa"]
             L += [f"### 💬 WhatsApp / group tertutup: {w['tajuk']}", "", f"> {w['nota']}", "", "```", w["t"], "```", ""]
         L += ["**Checklist hari ini**", "",
-              "- [ ] 🎥 Video: TikTok · Reels",
+              "- [ ] 🎥 Video storytelling: TikTok · Reels"] + [f"- [ ] 🎞️ Motion grafik {g['jenis']}: TikTok · Reels" for g in day["mg"]] + [
               "- [ ] 🖼️ Carousel: Instagram · Facebook"]
         L += [f"- [ ] ✍️ {t['masa']} {t['jenis']}: Threads · Facebook" for t in day["teks"]]
         if day.get("wa"):
@@ -180,14 +220,16 @@ def plan_range(days):
 def md_plan(days):
     a, b = plan_range(days)
     L = [f"# Kalendar Konten — Hari {a} hingga {b} (rancangan)", "",
-         "Format sama seperti fail MINGGU_*: 🎥 video · 🖼️ carousel · ✍️ 4 teks (+ 💬 WhatsApp).",
+         "Format sama seperti fail MINGGU_*: 🎥 video storytelling · 🎞️ 2 motion grafik · 🖼️ carousel · ✍️ 4 teks (+ 💬 WhatsApp).",
          "Teks penuh dijana dengan Claude: tab **Tulis** → pilih hari → **Salin arahan untuk Claude** → tampal dalam Claude Project.", ""]
     for day in days:
         if "plan" not in day:
             continue
         p = day["plan"]
-        L += [f"## Hari {day['d']} · Episod {day['ep']} · {day['tema']}", ""] + produk_md(day) + [
-              f"- 🎥 **Video (08:30):** {p['video']}",
+        L += [judul(day), ""] + produk_md(day) + [
+              f"- 🎥 **Video storytelling (08:30, Flow AI):** {p['video']}"]
+        L += [f"- 🎞️ **Motion grafik {g['masa']} · {g['jenis']}:** {g['idea']}" for g in p["mg"]]
+        L += [
               f"- 🖼️ **Carousel (12:30):** {p['carousel']}"]
         L += [f"- ✍️ **Teks {t['masa']} · {t['jenis']}:** {t['idea']}" for t in p["teks"]]
         if p["wa"]:
@@ -202,16 +244,21 @@ def weeks_full(days):
 
 def md_index(days):
     L = ["# Kalendar Konten Momyizz (30 hari)", "",
+         "**Fokus bulan ini: BodyKey Nutritious Meal Shake formula baharu (perisa pisang).** "
+         "🔥 Siri trending Tidur, Otak & Usus diselang setiap 3 hari (Hari 2, 5, 8 … 29); semakan dakwaan podcast dalam `PODCAST_SEMAKAN.md`.", "",
          "| Fail | Isi |", "|---|---|",
          *[f"| `MINGGU_{w}.md` | Hari {(w-1)*7+1}–{w*7}: skrip video, teks carousel, 4 teks, WhatsApp + checklist |" for w in weeks_full(days)],
          *([f"| `HARI_{plan_range(days)[0]:02d}-{plan_range(days)[1]:02d}.md` | Hari {plan_range(days)[0]}–{plan_range(days)[1]}: rancangan setiap konten |"] if plan_range(days) else []),
+         "| `PODCAST_SEMAKAN.md` | Semakan dakwaan podcast tidur & otak (sumber siri trending) |",
          "| `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |",
          "| `masalah_data.py` | Sumber data 20 masalah |",
          "| `kalendar_data.py` | Sumber data kalendar (edit di sini) |",
          "| `bina.py` | Semak had aksara dan gaya, jana Markdown, kemas kini worksheet |", "",
          "## Agihan sehari (satu topik, isi berbeza)", "",
          "| Masa | Konten | Untuk | Salin ke |", "|---|---|---|---|",
-         "| 08:30 | 🎥 Video | TikTok · Reels | CapCut / Flow (edit video) |",
+         "| 08:30 | 🎥 Video storytelling | TikTok · Reels | Flow (video AI) + CapCut |",
+         "| 13:30 | 🎞️ Video motion grafik: tips | TikTok · Reels | CapCut + Motion Graphics Kit |",
+         "| 19:30 | 🎞️ Video motion grafik: masalah → penyelesaian | TikTok · Reels | CapCut + Motion Graphics Kit |",
          "| 12:30 | 🖼️ Carousel | Instagram · Facebook | Canva / CapCut (edit carousel) |",
          "| 10:00 | ✍️ Teks: info ringkas | Threads · Facebook | Post terus |",
          "| 16:00 | ✍️ Teks: pertanyaan | Threads · Facebook | Post terus |",
@@ -223,7 +270,7 @@ def md_index(days):
          "| Hari | Episod | Tema | Produk | WhatsApp | Status |", "|---|---|---|---|---|---|"]
     for day in days:
         wa = "✓" if (day.get("wa") or (day.get("plan") or {}).get("wa")) else ""
-        L += [f"| {day['d']} | {day['ep']} | {day['tema']} | {day['produk']['nama']} | {wa} | {'Siap salin' if 'video' in day else 'Rancangan'} |"]
+        L += [f"| {day['d']} | {day['ep'] or '🔥'} | {day['tema']} | {day['produk']['nama']} | {wa} | {'Siap salin' if 'video' in day else 'Rancangan'} |"]
     return "\n".join(L) + "\n"
 
 

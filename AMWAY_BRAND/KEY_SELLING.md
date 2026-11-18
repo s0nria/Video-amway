@@ -198,6 +198,7 @@ Sumber: https://www.amway.my/pdpcontent/MYBN/124822_en.html (semak 18 Nov 2026).
 | ✅ | Spektrum luas, sesuai dipakai setiap hari | "broad spectrum sunscreen is perfect for daily wear" |
 | ✅ | Tekstur losyen ringan, cepat menyerap, melembapkan tapi tak berminyak | "absorbed quickly and invisibly. Hydrating but never greasy" |
 | ✅ | Boleh jadi asas sebelum mekap | "primes skin for makeup application" |
+| ✅ | Ada Carnosine Peptide: terbukti klinikal bantu cegah kesan nyata cahaya biru & inframerah (skrin & gajet) pada kulit | "Carnosine is clinically proven to help prevent visible damage from blue light and infrared light" |
 | ✅ | 5 bahan pelindung UVA/UVB; tanpa Oxybenzone & Octinoxate | Petikan "Multi-Filter Blend" |
 | ✅ | Sesuai semua jenis kulit · 50 ml · langkah terakhir selepas pelembap | "Suitable for all skin types" · "after your moisturiser" |
 | ❌ | "Cegah penuaan", "cerahkan kulit" sebagai janji hasil | Dilarang (janji hasil) |

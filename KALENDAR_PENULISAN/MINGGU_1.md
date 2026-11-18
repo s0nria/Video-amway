@@ -1,6 +1,6 @@
 # Kalendar Konten — Minggu 1: Hari 1–7 (siap salin)
 
-Setiap hari satu topik: **🎥 1 video · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.
+Setiap hari satu topik: **🎥 1 video storytelling · 🎞️ 2 video motion grafik · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.
 Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.
 Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).
 
@@ -9,7 +9,7 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 > 🧩 **Produk penyelesai masalah:** eSpring Water Purifier (model baharu) · **Masalah:** Risau air minuman di rumah bila baca berita mikroplastik
 > **Key selling:** 4 standard NSF/ANSI · kurangkan 170+ bahan cemar · UV-C LED 99.9% bakteria & virus · terbukti kurangkan mikroplastik · **Gambar:** `AMWAY_BRAND/PRODUK/espring-baharu.png`
 
-### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Pagi-pagi isi botol air
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Pagi-pagi isi botol air
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
@@ -29,6 +29,50 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 Mikroplastik: fakta, bukan panik 🌿 Siri baharu Momyizz bermula hari ni. Follow supaya tak terlepas.
 
 #Momyizz #Mikroplastik #FaktaBukanPanik #IbuBekerja
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 3 tanda botol plastik patut ditukar
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 13-blazer-tunjuk-atas-kanan.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Botol air korang dah patut tukar? 🤔 | Pop 0.3 s |
+| 3–8s | CHECKLIST baris 1 | ✓ Calar atau kusam | Baris muncul + SFX ding |
+| 8–13s | CHECKLIST baris 2 | ✓ Berbau walaupun dah dibasuh | Baris muncul |
+| 13–18s | CHECKLIST baris 3 | ✓ Retak atau melengkung | Baris muncul |
+| 18–22s | BIG_WORD | TUKAR 🔄 | Pop besar |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+3 tanda botol plastik patut ditukar. Botol korang lulus? 👇
+
+#Momyizz #Mikroplastik #TipsRumah
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: air dalam botol plastik
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | "Air dalam botol plastik semua beracun!" Betul ke? | Pop + goyang kecil |
+| 3–8s | BIG_WORD | MITOS ❌ | Pop besar |
+| 8–15s | KAD_FAKTA + LABEL_BUKTI (Bukti belum cukup) | WHO (2019): tahap mikroplastik semasa dalam air minuman belum tunjuk risiko kesihatan yang jelas. Data masih terhad. | Kad naik dari bawah |
+| 15–22s | CHECKLIST | Yang boleh buat:<br>✓ Guna botol guna semula<br>✓ Jangan isi air panas dalam botol sekali guna | Baris satu per satu |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Fakta, bukan panik 🌿
+
+Sumber: WHO (2019).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #MitosAtauFakta #Mikroplastik
 ```
 
 ### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Mikroplastik dalam 5 slaid
@@ -147,19 +191,214 @@ Jangan isi air panas ke dalamnya, dan jangan guna berulang kali sampai calar. Ka
 
 **Checklist hari ini**
 
-- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 2 · Episod 1 · 3 langkah kecil kurangkan pendedahan plastik
+## Hari 2 · 🔥 Siri trending: Tidur, Otak & Usus · Tidur: masa otak 'membersihkan diri'
+
+> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Makan malam lewat & berat; nak makan malam ringan sebelum tidur
+> **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
+
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Ramai share podcast tidur & otak, ini yang Momyizz semak
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 09-kartun-terkejut-pipi.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Telefon tunjuk podcast tidur & otak di FYP, Momyizz tengok sambil baring | Podcast pasal tidur & otak ni tengah viral. Momyizz pun terus semak kajiannya 🧠 |
+| 3–15s | Momyizz bercakap ke kamera, bilik suram | Kajian 2013 dalam jurnal Science: semasa tidur, ruang antara sel otak tikus membesar kira-kira 60%. |
+| 15–28s | Animasi air mengalir antara sel (Flow) | Cecair otak mengalir lebih laju dan sisa seperti beta-amiloid dibersihkan lebih cepat. |
+| 28–38s | Momyizz letak telefon, tutup lampu | Ini kajian haiwan. Pada manusia masih dikaji. Tapi satu benda dah jelas: tidur bukan sekadar rehat. |
+| 38–45s | Momyizz habiskan shake pisang sebagai makan malam ringan (BodyKey perisa pisang kelihatan), kemudian tarik selimut | Malam ni: makan malam ringan (shake GI rendah, 6g gula), tidur awal sikit 🌙 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+
+**Caption video**
+
+```
+Tidur bukan sekadar rehat 🧠🌙 Siri Tidur, Otak & Usus Momyizz bermula hari ni.
+
+Sumber: Xie et al. (2013), Science.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Tidur #KesihatanOtak #FaktaBukanPanik
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 4 tanda korang kurang tidur
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 20-blazer-terkejut-pipi.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Tidur cukup ke sebenarnya? 4 tanda ni 😴 | Pop |
+| 3–8s | CHECKLIST baris 1 | ✓ Perlu kopi untuk 'hidup' setiap pagi | Baris muncul |
+| 8–13s | CHECKLIST baris 2 | ✓ Mengantuk lepas makan tengah hari setiap hari | Baris muncul |
+| 13–18s | CHECKLIST baris 3 | ✓ Cepat marah & susah fokus | Baris muncul |
+| 18–22s | CHECKLIST baris 4 | ✓ Tidur 'ganti' panjang hujung minggu | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Berapa tanda korang ada? 👇 Dewasa perlu 7 jam+ (AASM).
+
+#Momyizz #Tidur #IbuBekerja
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Tidur 5 jam dah cukup, badan dah biasa'
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | "Tidur 5 jam dah cukup, badan dah biasa." Betul ke? | Pop + goyang |
+| 3–8s | BIG_WORD | MITOS ❌ | Pop besar |
+| 8–15s | KAD_FAKTA + LABEL_BUKTI (Terbukti) | Pakar tidur (AASM): dewasa perlu 7 jam atau lebih setiap malam secara konsisten. | Kad naik |
+| 15–22s | CHECKLIST | Mula dengan:<br>✓ Tidur 15 minit lebih awal<br>✓ Waktu bangun yang sama | Baris satu per satu |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Badan 'biasa' tak sama dengan badan cukup rehat 😴
+
+Sumber: AASM/SRS (2015).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #MitosAtauFakta #Tidur
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Apa jadi pada otak semasa kita tidur
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+APA JADI PADA OTAK
+semasa kita tidur? 🧠🌙
+```
+
+**Slaid 2**
+
+```
+OTAK 'MEMBERSIH'
+Kajian tikus (Science, 2013): ruang antara sel otak membesar ~60% semasa tidur.
+🟠 Kajian awal (haiwan)
+```
+
+**Slaid 3**
+
+```
+SISA DIBUANG LEBIH CEPAT
+Aliran cecair meningkat, sisa seperti beta-amiloid dibersihkan lebih laju.
+🟠 Kajian awal
+```
+
+**Slaid 4**
+
+```
+PADA MANUSIA?
+Kajian pada manusia masih berjalan.
+🔵 Masih dikaji
+```
+
+**Slaid 5**
+
+```
+YANG DAH JELAS
+Dewasa perlu tidur 7 jam atau lebih setiap malam secara konsisten.
+🟢 Terbukti (AASM)
+```
+
+**Slaid 6**
+
+```
+JADI?
+Tidur cukup = sebahagian penjagaan kesihatan.
+Save & follow siri ni 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Apa jadi pada otak semasa tidur, versi fakta 🧠
+
+Sumber: Xie et al. (2013) Science; AASM/SRS (2015).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Tidur #KesihatanOtak
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (182 / 500 aksara)
+
+```
+Info ringkas: pakar tidur (AASM) menyarankan orang dewasa tidur 7 jam atau lebih setiap malam secara konsisten. 🌙
+
+Bukan sekali-sekala tidur panjang hujung minggu, tapi setiap malam.
+```
+
+**16:00 · Pertanyaan** (123 / 500 aksara)
+
+```
+Jujur: semalam korang tidur berapa jam? 😴
+
+😵 Kurang 5 jam
+😐 5–6 jam
+🙂 7–8 jam
+😴 Lebih 8 jam
+
+Momyizz… 6 jam. Masih belajar!
+```
+
+**18:30 · Tips praktikal** (325 / 500 aksara)
+
+```
+Tips mula tidur awal 15 minit 💡
+
+✅ Minggu ni, masuk tidur 15 minit lebih awal daripada biasa
+✅ Minggu depan, tambah 15 minit lagi
+✅ Set peringatan 'masa tidur' di telefon
+✅ Makan malam ringan, 2–3 jam sebelum tidur. Malam kalut: shake GI rendah, 205 kalori
+
+Perlahan-lahan lebih mudah daripada terus paksa tidur 2 jam awal. 🌙
+```
+
+**21:00 · Info penting / alert** (228 / 500 aksara)
+
+```
+Info penting: kalau korang selalu berdengkur kuat, tercungap waktu tidur, atau sangat mengantuk siang hari walaupun tidur cukup, jumpa doktor. ⚠️
+
+Ini boleh jadi tanda masalah tidur seperti apnea tidur yang perlukan pemeriksaan.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+
+## Hari 3 · Episod 1 · 3 langkah kecil kurangkan pendedahan plastik
 
 > 🧩 **Produk penyelesai masalah:** eSpring Water Purifier (model baharu) · **Masalah:** Asyik beli air botol plastik; nak isi botol keluli dari rumah
 > **Key selling:** 4 standard NSF/ANSI · kurangkan 170+ bahan cemar · UV-C LED 99.9% bakteria & virus · terbukti kurangkan mikroplastik · **Gambar:** `AMWAY_BRAND/PRODUK/espring-baharu.png`
 
-### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): 3 benda kecil yang Momyizz ubah
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): 3 benda kecil yang Momyizz ubah
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
@@ -179,6 +418,46 @@ Jangan isi air panas ke dalamnya, dan jangan guna berulang kali sampai calar. Ka
 3 langkah kecil kurangkan plastik. Mana satu korang nak cuba dulu? 👇
 
 #Momyizz #Mikroplastik #TipsRumah #GayaHidupSihat
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 3 tips supaya tak lupa bawa tumbler
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 18-blazer-semangat.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Beli tumbler cantik… tapi selalu tertinggal? 😅 | Pop |
+| 3–9s | CHECKLIST baris 1 | ✓ Letak dekat kunci kereta | Baris muncul |
+| 9–15s | CHECKLIST baris 2 | ✓ Basuh malam, terus isi untuk esok | Baris muncul |
+| 15–22s | CHECKLIST baris 3 + NOTA_TANGAN | ✓ Simpan satu lagi di pejabat<br>(pelan B!) | Baris muncul + anak panah lakaran |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Tumbler yang dibawa > tumbler yang cantik 😄 Tips korang?
+
+#Momyizz #KurangPlastik #TipsHarian
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Bekas plastik bertimbun? Susun 3 kotak
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Kabinet penuh bekas plastik? 😩 | Pop |
+| 3–9s | KAD_FAKTA (warna Sage) | KOTAK 1: GUNA<br>Masih elok, tiada calar | Kad masuk dari kiri |
+| 9–15s | KAD_FAKTA (warna Linen) | KOTAK 2: BARANG KERING<br>Calar sikit → simpan butang, alat tulis | Kad masuk dari kanan |
+| 15–22s | KAD_FAKTA (warna Kayu) | KOTAK 3: KITAR SEMULA<br>Retak, melengkung, berbau | Kad masuk dari bawah |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Susun bekas plastik dalam 3 kotak. Tak perlu membazir ♻️
+
+#Momyizz #RumahKemas #KurangPlastik
 ```
 
 ### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Plastik di rumah: tukar yang mana dulu?
@@ -310,7 +589,9 @@ Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
 
 **Checklist hari ini**
 
-- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -318,12 +599,12 @@ Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
-## Hari 3 · Episod 1 · Cara baca berita kesihatan viral
+## Hari 4 · Episod 1 · Cara baca berita kesihatan viral
 
 > 🧩 **Produk penyelesai masalah:** eSpring Water Purifier (model baharu) · **Masalah:** Susah percaya dakwaan produk; nak bukti pensijilan bebas
 > **Key selling:** 4 standard NSF/ANSI · kurangkan 170+ bahan cemar · UV-C LED 99.9% bakteria & virus · terbukti kurangkan mikroplastik · **Gambar:** `AMWAY_BRAND/PRODUK/espring-baharu.png`
 
-### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Kenapa Momyizz tak terus kongsi berita viral
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Kenapa Momyizz tak terus kongsi berita viral
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
@@ -343,6 +624,47 @@ Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
 3 soalan sebelum forward berita kesihatan. Korang pernah termakan berita palsu? 👇
 
 #Momyizz #FaktaBukanPanik #BeritaPalsu
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 4 tanda berita kesihatan palsu
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 14-blazer-tutup-mulut.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Sebelum forward, tengok 4 tanda ni 🚩 | Pop |
+| 3–8s | CHECKLIST baris 1 | 🚩 Tajuk HURUF BESAR & '!!!' | Baris muncul + SFX |
+| 8–13s | CHECKLIST baris 2 | 🚩 Tiada nama kajian atau badan rasmi | Baris muncul |
+| 13–18s | CHECKLIST baris 3 | 🚩 Janji 'sembuh 100%' | Baris muncul |
+| 18–22s | CHECKLIST baris 4 | 🚩 Desak 'SHARE SEGERA' | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+4 tanda berita kesihatan palsu. Save & kongsi dengan group keluarga 📲
+
+#Momyizz #BeritaPalsu #FaktaBukanPanik
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Group keluarga kongsi berita palsu, macam mana nak tegur?
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 17-blazer-panggil.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Mak kongsi berita palsu dalam group… segan nak tegur? 😬 | Pop |
+| 3–9s | BIG_WORD | JANGAN MALUKAN 🙅‍♀️ | Pop besar |
+| 9–16s | SARI_KATA (gaya mesej chat) | "Mak, Momyizz terjumpa semakan pasal berita ni. Rupanya tak betul. Ni pautannya 😊" | Muncul macam bubble chat |
+| 16–22s | NOTA_TANGAN | Sopan + pautan semakan (sebenarnya.my) = lebih didengar | Tulisan tangan muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Tegur dengan kasih, bukan malukan 💛 Korang pernah buat?
+
+#Momyizz #BeritaPalsu #Keluarga
 ```
 
 ### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Label bukti Momyizz
@@ -445,19 +767,206 @@ Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan ke
 
 **Checklist hari ini**
 
-- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 4 · Episod 2 · Sarapan ibu yang selalu tertinggal
+## Hari 5 · 🔥 Siri trending: Tidur, Otak & Usus · Berapa jam tidur ibu & anak
+
+> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Kurang tidur, esoknya mengidam manis
+> **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
+
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Revenge bedtime: masa untuk diri sendiri yang dicuri dari tidur
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 04-satin-tutup-mulut.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Jam 12:30 malam, Momyizz scroll telefon atas katil | Anak dah tidur. Akhirnya masa untuk Momyizz… pukul 12:30 malam 😅 |
+| 3–15s | Momyizz bercakap ke kamera | Ada nama untuk ni: 'revenge bedtime'. Kita curi masa tidur untuk rasa ada masa sendiri. |
+| 15–28s | Pagi: Momyizz menguap, hampir capai kuih manis, tukar kepada shake pisang dalam shaker (BodyKey perisa pisang kelihatan) | Esoknya? Penat, cepat marah, mengidam manis. Sekarang sarapan Momyizz: shake pisang 17g protein, hanya 6g gula. |
+| 28–40s | Momyizz baca buku 15 minit pukul 10 malam | Sekarang Momyizz cuba: 'masa sendiri' 20 minit lepas anak tidur, kemudian terus tidur. |
+| 40–45s | Momyizz ke kamera | Masa sendiri penting. Tidur pun penting 💛 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+
+**Caption video**
+
+```
+Siapa selalu 'revenge bedtime'? 🙋‍♀️ Jom cari cara lebih seimbang.
+
+#Momyizz #IbuBekerja #Tidur #SelfCare
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Rutin 30 minit sebelum tidur
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 08-satin-thumbs-up.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | 30 minit sebelum tidur, buat ni 🌙 | Pop |
+| 3–9s | KAUNTER + teks | 30 min: malapkan lampu | Angka kira turun |
+| 9–15s | KAUNTER + teks | 20 min: telefon dicas di luar bilik | Angka kira turun |
+| 15–22s | KAUNTER + teks | 10 min: baca / zikir / sembang ringan | Angka kira turun |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Rutin 30 minit sebelum tidur ala Momyizz 🌙 Save!
+
+#Momyizz #RutinMalam #Tidur
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Anak susah tidur malam? Semak 3 perkara
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 17-blazer-panggil.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Anak susah tidur malam? 😩 | Pop |
+| 3–9s | KAD_FAKTA | Kanak-kanak 6–12 tahun perlukan 9–12 jam tidur (AASM) | Kad naik |
+| 9–15s | CHECKLIST | Semak:<br>✓ Skrin dalam bilik?<br>✓ Waktu tidur berubah-ubah? | Baris satu per satu |
+| 15–22s | CHECKLIST | ✓ Minuman manis / berkafein petang?<br>Ubah satu dulu 💛 | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+3 perkara untuk disemak bila anak susah tidur 🌙
+
+Sumber: AASM.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #AnakSihat #Tidur
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Berapa jam tidur ikut umur
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+BERAPA JAM TIDUR?
+Ikut umur, untuk satu keluarga 😴
+```
+
+**Slaid 2**
+
+```
+DEWASA
+7 jam atau lebih setiap malam
+🟢 Terbukti (AASM)
+```
+
+**Slaid 3**
+
+```
+KANAK-KANAK 6–12 TAHUN
+9–12 jam sehari
+🟢 (AASM, AHA)
+```
+
+**Slaid 4**
+
+```
+REMAJA 13–18 TAHUN
+8–10 jam sehari
+🟢 (AASM, AHA)
+```
+
+**Slaid 5**
+
+```
+TIDUR = KESIHATAN JANTUNG
+AHA (2022) memasukkan tidur dalam 8 perkara utama kesihatan jantung.
+```
+
+**Slaid 6**
+
+```
+MULA MALAM NI
+Satu waktu tidur yang sama untuk semua dalam rumah.
+Save untuk keluarga 🌙
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Berapa jam tidur yang cukup untuk ibu, ayah dan anak? Save 🌙
+
+Sumber: AASM; AHA Life's Essential 8 (2022).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Tidur #KesihatanKeluarga
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (192 / 500 aksara)
+
+```
+Info ringkas: American Heart Association (2022) memasukkan tidur sebagai salah satu daripada 8 perkara utama untuk kesihatan jantung, sama penting dengan makan, bergerak dan tekanan darah. ❤️🌙
+```
+
+**16:00 · Pertanyaan** (140 / 500 aksara)
+
+```
+Soalan: anak korang tidur pukul berapa malam sekolah? 🏫
+
+🕘 Sebelum 9
+🕙 9–10
+🕚 10–11
+🕛 Lepas 11
+
+Kongsi kat komen, Momyizz nak tengok purata!
+```
+
+**18:30 · Tips praktikal** (343 / 500 aksara)
+
+```
+Tips rutin tidur anak (dan ibu sekali) 💡
+
+✅ Waktu tidur sama setiap malam, termasuk hujung minggu (lebih kurang)
+✅ Lampu dimalapkan 30 minit sebelum tidur
+✅ Tiada skrin di atas katil
+✅ Bacaan atau sembang ringan sebagai 'tanda' masa tidur
+✅ Pagi lepas tidur tak cukup: sarapan berprotein, bukan kuih manis (Momyizz: shake 17g protein, 6g gula)
+```
+
+**21:00 · Info penting / alert** (183 / 500 aksara)
+
+```
+Info penting: mengantuk ketika memandu sangat berbahaya. ⚠️
+
+Kalau mata berat semasa memandu, berhenti di tempat selamat dan rehat. Tingkap terbuka atau radio kuat bukan penyelesaian.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+
+## Hari 6 · Episod 2 · Sarapan ibu yang selalu tertinggal
 
 > 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Ibu skip sarapan; perlukan hidangan lengkap yang cepat
 > **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
 
-### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Semua dah makan, kecuali ibu
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Semua dah makan, kecuali ibu
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
@@ -477,6 +986,51 @@ Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan ke
 Ibu-ibu, korang pun selalu jadi orang terakhir makan? 🙋‍♀️
 
 #Momyizz #SarapanIbu #IbuBekerja #MomLife
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Sarapan di kedai? Formula 1+1+1
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Sarapan beli di kedai pun boleh seimbang 🍳 | Pop |
+| 3–8s | KAUNTER + teks | 1 protein<br>(telur, ikan, kekacang) | Angka 1 pop |
+| 8–13s | KAUNTER + teks | 1 bijirin<br>(roti bakar gandum, nasi sederhana) | Angka 1 pop |
+| 13–18s | KAUNTER + teks | 1 buah / sayur<br>(pisang, timun, ulam) | Angka 1 pop |
+| 18–22s | NOTA_TANGAN | Nasi lemak? Tambah telur & timun, kurangkan sambal 😉 | Tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Formula 1+1+1 untuk sarapan di kedai. Korang selalu order apa? 👇
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #SarapanSihat #PingganSihat
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Lapar pukul 11, terus capai snek manis?
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 05-satin-semangat.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Pukul 11 dah lapar, terus capai kuih manis? 🍩 | Pop |
+| 3–9s | KAD_FAKTA | Punca biasa: sarapan tanpa protein, atau tak sarapan langsung | Kad naik |
+| 9–15s | CHECKLIST | Penyelesaian:<br>✓ Sarapan ada protein<br>✓ Simpan snek berprotein di beg | Baris satu per satu |
+| 15–22s | CHECKLIST | Contoh snek:<br>✓ Kacang<br>✓ Telur rebus<br>✓ Yogurt tanpa gula tambahan | Baris satu per satu |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Lapar pukul 11? Cuba ni minggu ni 💪
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #SnekSihat #IbuBekerja
 ```
 
 ### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Sarapan 5 minit ibu
@@ -575,12 +1129,12 @@ Tips pastikan ibu tak tertinggal sarapan 💡
 Kecil, tapi berkesan untuk Momyizz. 💛
 ```
 
-**21:00 · Info penting / alert** (217 / 500 aksara)
+**21:00 · Info penting / alert** (239 / 500 aksara)
 
 ```
-Info penting: 15.6% dewasa Malaysia ada diabetes, dan ramai tak tahu mereka menghidapnya (NHMS 2023). ⚠️
+Info penting: WHO anggarkan hampir 1 dalam 3 wanita berumur 15–49 tahun di dunia mengalami anemia. ⚠️
 
-Kalau selalu skip makan dan banyak minum manis, buat saringan gula di klinik kesihatan. Tahu awal lebih baik. 🩸
+Selalu letih, pucat, pening atau sesak nafas bila naik tangga? Buat ujian darah di klinik kesihatan. Jangan anggap penat ibu tu biasa. 🩸
 ```
 
 ### 💬 WhatsApp / group tertutup: BodyKey Nutritious Meal Shake PERISA PISANG (baharu)
@@ -614,7 +1168,9 @@ Nak cuba? Reply "PISANG", Momyizz uruskan. 💛
 
 **Checklist hari ini**
 
-- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -622,12 +1178,12 @@ Nak cuba? Reply "PISANG", Momyizz uruskan. 💛
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
-## Hari 5 · Episod 2 · Persediaan malam & pelan B pagi kelam-kabut
+## Hari 7 · Episod 2 · Persediaan malam & pelan B pagi kelam-kabut
 
 > 🧩 **Produk penyelesai masalah:** NUTRILITE Soy Protein Drink (Original 450g) · **Masalah:** Pagi kelam-kabut, perlukan pelan B yang ada protein
 > **Key selling:** protein tumbuhan · 8g protein, 9 asid amino perlu · bebas laktosa · tanpa pemanis & tanpa perisa tiruan · **Gambar:** `AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png`
 
-### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): 10 minit malam untuk pagi yang tenang
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): 10 minit malam untuk pagi yang tenang
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
@@ -647,6 +1203,48 @@ Nak cuba? Reply "PISANG", Momyizz uruskan. 💛
 Self-care tak semestinya spa. Kadang dia cuma sarapan sambil duduk 💛
 
 #Momyizz #RutinMalam #SarapanIbu #SelfCare
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Oat rendam semalaman: 3 bahan
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 08-satin-thumbs-up.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Sarapan siap sebelum korang bangun 😴 | Pop |
+| 3–9s | CHECKLIST baris 1 | 1️⃣ ½ cawan oat | Baris muncul |
+| 9–15s | CHECKLIST baris 2 | 2️⃣ ½ cawan susu | Baris muncul |
+| 15–20s | CHECKLIST baris 3 | 3️⃣ Buah potong (pisang, betik, beri) | Baris muncul |
+| 20–22s | NOTA_TANGAN | Tutup, simpan dalam peti semalaman ❄️ | Tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Oat rendam semalaman, 3 bahan je. Buah apa korang suka letak? 👇
+
+#Momyizz #SarapanSihat #OvernightOats
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Pagi selalu lewat? Undur 3 benda ke malam
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 12-blazer-tunjuk-kiri.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Pagi selalu kelam-kabut & lewat? ⏰ | Pop |
+| 3–8s | BIG_WORD | UNDUR KE MALAM 🌙 | Pop besar |
+| 8–13s | CHECKLIST baris 1 | ✓ Baju kerja & baju sekolah | Baris muncul |
+| 13–18s | CHECKLIST baris 2 | ✓ Beg & dokumen tepi pintu | Baris muncul |
+| 18–22s | CHECKLIST baris 3 | ✓ Bekal dalam peti, siap ambil | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+3 benda yang Momyizz undur ke malam. Pagi jadi lebih tenang 🌿
+
+#Momyizz #RutinMalam #IbuBekerja
 ```
 
 ### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Pelan B bila pagi tak ikut rancangan
@@ -781,331 +1379,9 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 **Checklist hari ini**
 
-- [ ] 🎥 Video: TikTok · Reels
-- [ ] 🖼️ Carousel: Instagram · Facebook
-- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
-- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
-- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
-- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
-- [ ] 💬 WhatsApp / group tertutup
-
-## Hari 6 · Episod 2 · Gula tersembunyi dalam minuman
-
-> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Nak ganti minuman manis pagi dengan pilihan GI rendah, kurang gula
-> **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
-
-### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Gula paling banyak bukan dalam pinggan
-
-> Salin skrip ini ke CapCut / Flow untuk edit video.
-
-> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 09-kartun-terkejut-pipi (babak pendedahan).
-
-| Masa | Visual | Teks atas skrin / suara |
-|---|---|---|
-| 0–3s | Tiga cawan atas meja: teh tarik, kopi ais, air kotak | Gula paling banyak dalam rutin Momyizz… bukan dalam pinggan. 😳 |
-| 3–15s | Momyizz tunjuk cawan satu per satu | Teh tarik pagi. Kopi ais tengah hari. Air kotak petang. |
-| 15–28s | Momyizz minum air kosong dulu, baru kopi | Sekarang: air kosong dulu, baru kopi. |
-| 28–40s | Momyizz di kaunter kedai, isyarat 'kurang manis' | Bila beli: "kurang manis ya!" |
-| 40–45s | Momyizz goncang shake pisang dalam shaker, tuang ke gelas (kotak BodyKey perisa pisang kelihatan), senyum ke kamera | Bukan haramkan teh tarik 😄 Pagi Momyizz sekarang: shake pisang GI rendah, hanya 6g gula. | Perkongsian ilmu umum. Bukan nasihat perubatan. |
-
-**Caption video**
-
-```
-Minuman manis mana paling susah korang nak kurangkan? 👇
-
-#Momyizz #KurangManis #GayaHidupSihat
-```
-
-### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Cara baca label gula
-
-> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
-
-**Slaid 1**
-
-```
-GULA TERSEMBUNYI 🧋
-Cara kesan dalam 10 saat
-```
-
-**Slaid 2**
-
-```
-1. BACA LABEL
-Tengok baris "Gula" atau "Jumlah gula" dalam jadual nutrisi.
-```
-
-**Slaid 3**
-
-```
-2. TENGOK SAIZ HIDANGAN
-Satu botol mungkin ada lebih daripada satu hidangan.
-```
-
-**Slaid 4**
-
-```
-3. NAMA LAIN GULA
-Sirap, sukrosa, glukosa, fruktosa, madu, gula perang.
-```
-
-**Slaid 5**
-
-```
-4. CARI LOGO
-"Pilihan Lebih Sihat" (KKM) membantu pilih produk yang lebih baik.
-```
-
-**Slaid 6**
-
-```
-KKM GALAKKAN
-Hadkan gula tambahan, termasuk dalam minuman.
-Save untuk masa membeli-belah 🛒
-
-Perkongsian ilmu umum. Bukan nasihat perubatan.
-```
-
-**Caption carousel**
-
-```
-4 cara kesan gula tersembunyi. Save & bawa masa shopping 🛒
-
-Sumber: KKM, Garis Panduan Diet Malaysia 2020.
-Perkongsian ilmu umum. Bukan nasihat perubatan.
-
-#Momyizz #KurangManis #BacaLabel
-```
-
-### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
-
-**10:00 · Info ringkas** (183 / 500 aksara)
-
-```
-Info ringkas: Garis Panduan Diet Malaysia (KKM) galakkan kita hadkan gula tambahan, termasuk dalam minuman. ☕
-
-Trick paling mudah Momyizz: segelas air kosong dulu, baru kopi atau teh.
-```
-
-**16:00 · Pertanyaan** (229 / 500 aksara)
-
-```
-Jujur: minuman manis mana paling susah korang tinggal? 🧋
-
-☕ Teh tarik
-🧊 Kopi ais
-🧃 Air kotak
-🥤 Air bergas
-
-Momyizz: teh tarik pagi. Sekarang selang-seli dengan shake pisang GI rendah, hanya 6g gula. Rasa macam milkshake pisang! 🍌
-```
-
-**18:30 · Tips praktikal** (329 / 500 aksara)
-
-```
-Tips kurangkan manis tanpa rasa terseksa 💡
-
-Minggu 1: minta "kurang manis"
-Minggu 2: "separuh gula"
-Minggu 3: cuba teh / kopi O kosong sekali sehari
-Minggu 4: tukar satu minuman manis pagi kepada shake GI rendah (6g gula, 17g protein)
-
-Yang Momyizz perasan: lama-lama tekak dah biasa, dan air manis sangat terasa terlalu manis. 😄
-```
-
-**21:00 · Info penting / alert** (204 / 500 aksara)
-
-```
-Info penting: ada sejarah diabetes dalam keluarga? ⚠️
-
-NHMS 2023: 15.6% dewasa Malaysia ada diabetes, dan ramai tak tahu. Saringan gula darah boleh dibuat di klinik kesihatan. Jangan tunggu ada simptom. 🩸
-```
-
-### 💬 WhatsApp / group tertutup: Minta testimoni (pelanggan sedia ada)
-
-> Untuk dapatkan testimoni SEBENAR. Guna hanya dengan kebenaran, tanpa dakwaan perubatan.
-
-```
-Hai [nama] 😊 Terima kasih sebab percaya Momyizz.
-
-Dah lebih kurang [tempoh] guna [produk]. Boleh kongsi sikit pengalaman [nama]? Contohnya macam mana [nama] guna dalam rutin harian, dan apa yang [nama] suka.
-
-Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama boleh disembunyikan). Kalau tak selesa pun takpe langsung. 💛
-```
-
-**Checklist hari ini**
-
-- [ ] 🎥 Video: TikTok · Reels
-- [ ] 🖼️ Carousel: Instagram · Facebook
-- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
-- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
-- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
-- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
-- [ ] 💬 WhatsApp / group tertutup
-
-## Hari 7 · Episod 3 · Span dapur & kebersihan dapur
-
-> 🧩 **Produk penyelesai masalah:** Amway Home DISH DROPS (1L) · **Masalah:** Picit sabun banyak-banyak; nak sabun pekat yang jimat & lembut di tangan
-> **Key selling:** sangat pekat · sikit je buih banyak & tahan lama · aloe vera · diuji pakar dermatologi · biodegradable · **Gambar:** `AMWAY_BRAND/PRODUK/dish-drops-1l.png`
-
-### 🎥 08:30 · UNTUK VIDEO (TikTok / Reels): Span yang Momyizz pegang setiap malam
-
-> Salin skrip ini ke CapCut / Flow untuk edit video.
-
-> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak span). Boleh juga guna video Episod 3 (tab Episod). Babak sabun: botol Dish Drops BOLEH kelihatan (rakaman sendiri), tetapi JANGAN sebut nama Dish Drops / Amway dalam sari kata, teks atas skrin, voiceover atau caption. Kalau ada yang tanya 'sabun apa?' di komen, balas 'Momyizz DM ya 😊' dan kongsi dalam DM / WhatsApp (slot wa).
-
-| Masa | Visual | Teks atas skrin / suara |
-|---|---|---|
-| 0–3s | Close-up span lama diperah, kekuningan | Bila kali terakhir korang tukar ni? 🧽 |
-| 3–12s | Momyizz picit sabun banyak-banyak terus atas span | Dulu Momyizz picit sabun banyak-banyak. Fikir: span sentiasa bersabun, mesti bersih. |
-| 12–22s | Teks atas skrin + Momyizz terkejut | Kajian 2017 jumpa bakteria sangat tinggi dalam span dapur terpakai. 😳 |
-| 22–32s | Tulis tarikh pada span baru dengan marker | Sekarang: tulis tarikh pada span baru, perah dan keringkan lepas guna. |
-| 32–41s | Close-up botol Dish Drops, tuang sedikit + air ke botol picit, picit sikit ke span, close-up buih banyak | Sabun pekat pun Momyizz cairkan dulu. Sikit je, buih banyak & tahan lama 🫧 |
-| 41–45s | Dapur bersih, Momyizz senyum | Dapur bersih bermula dengan benda kecil ✨ | Perkongsian ilmu umum. Bukan nasihat perubatan. |
-
-**Caption video**
-
-```
-Bila kali terakhir korang tukar span? Jujur je kat komen 😂
-
-Sabun pun Momyizz dah tak picit banyak-banyak. Sabun pekat, cairkan dulu, sikit je dah berbuih 🫧 Tangan basuh pinggan hari-hari, jadi Momyizz pilih yang ada aloe vera & dah diuji pakar dermatologi 🤲
-
-Sumber: Cardinale et al. (2017).
-Perkongsian ilmu umum. Bukan nasihat perubatan.
-
-#Momyizz #DapurBersih #TipsRumah
-```
-
-### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): 5 Kunci Makanan Lebih Selamat (WHO)
-
-> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
-
-**Slaid 1**
-
-```
-5 KUNCI MAKANAN LEBIH SELAMAT
-Versi dapur rumah (WHO) 🍽️
-```
-
-**Slaid 2**
-
-```
-1. JAGA KEBERSIHAN
-Basuh tangan, permukaan dan alatan. Tukar span secara berkala.
-```
-
-**Slaid 3**
-
-```
-2. ASINGKAN
-Mentah dan masak guna papan pemotong berbeza.
-```
-
-**Slaid 4**
-
-```
-3. MASAK SEMPURNA
-Terutama ayam, daging, telur dan makanan laut.
-```
-
-**Slaid 5**
-
-```
-4. SUHU SELAMAT
-Jangan biar lauk lama di suhu bilik. Simpan dalam peti.
-```
-
-**Slaid 6**
-
-```
-5. AIR & BAHAN SELAMAT
-Guna air yang selamat dan bahan yang segar.
-Save & kongsi 🌿
-
-Perkongsian ilmu umum. Bukan nasihat perubatan.
-```
-
-**Caption carousel**
-
-```
-5 kunci makanan lebih selamat dari WHO. Save untuk dapur korang 🍽️
-
-Sumber: WHO Five Keys to Safer Food.
-Perkongsian ilmu umum. Bukan nasihat perubatan.
-
-#Momyizz #DapurBersih #KeselamatanMakanan
-```
-
-### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
-
-**10:00 · Info ringkas** (193 / 500 aksara)
-
-```
-Info ringkas: span yang "dibersihkan" dengan cara rumah tak semestinya kurang bakteria. 🧽
-
-Penulis kajian Cardinale et al. (2017) cadangkan span ditukar secara berkala, contohnya setiap minggu.
-```
-
-**16:00 · Pertanyaan** (249 / 500 aksara)
-
-```
-Soalan jujur: korang guna sabun basuh pinggan macam mana? 🧽
-
-A. Picit terus atas span, banyak-banyak
-B. Cairkan dulu dalam botol picit / mangkuk air
-
-Momyizz dulu A. Sekarang B. Sabun pekat, sikit je dah berbuih banyak, buih pun tahan lama. Jimat! 🫧
-```
-
-**18:30 · Tips praktikal** (385 / 500 aksara)
-
-```
-Tips span tahan lebih bersih 💡
-
-✅ Perah kuat lepas guna
-✅ Letak di rak berlubang / tempat berangin, bukan dalam sinki basah
-✅ Asingkan span pinggan dan kain lap meja
-✅ Tulis tarikh, tukar secara berkala
-✅ Sabun pekat? Cairkan dulu, picit sikit je
-✅ Pilih sabun yang dah diuji pakar dermatologi, tangan kita basuh pinggan hari-hari
-
-Span kering = kurang tempat untuk bakteria membiak. 🧽
-```
-
-**21:00 · Info penting / alert** (239 / 500 aksara)
-
-```
-Info penting musim banjir: leptospirosis merebak melalui air atau tanah yang tercemar air kencing tikus. ⚠️
-
-Elak meredah air banjir tanpa kasut, tutup makanan di dapur, dan dapatkan rawatan jika demam selepas terdedah kepada air banjir. 🙏
-```
-
-### 💬 WhatsApp / group tertutup: Amway Home Dish Drops
-
-> Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my, semak 18 Nov 2026). JANGAN tulis 'sesuai untuk kulit sensitif' (tiada sumber rasmi). Semak harga hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.
-
-```
-Hai [nama] 😊
-
-Pagi tadi Momyizz kongsi pasal span dapur, dan ada yang tanya: "Sabun apa tu, sikit je tapi buih banyak?" 🫧
-
-Itu *DISH DROPS Concentrated Dishwashing Liquid (1L)* dari Amway Home.
-• Sangat pekat: setitik pun dah boleh tanggalkan minyak
-• Buihnya tahan lama, jadi tak perlu tambah sabun selalu
-• Cara guna untuk span: cairkan 1 bahagian sabun dengan 1–5 bahagian air dalam botol picit, picit sedikit ke span
-• Ada aloe vera yang melembutkan, dan dah diuji pakar dermatologi. Sesuai untuk yang basuh pinggan hari-hari 🤲
-• Formula biodegradable, lebih mesra alam 🌿
-• Boleh juga basuh sayur & buah (1 ml dalam 5 L air)
-• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
-• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]
-
-Tapi ingat ya, sabun yang bagus tak menggantikan tabiat tukar span dan keringkan span. 🧽
-
-Kalau berminat, reply "NAK", Momyizz uruskan. 💛
-```
-
-**Checklist hari ini**
-
-- [ ] 🎥 Video: TikTok · Reels
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook

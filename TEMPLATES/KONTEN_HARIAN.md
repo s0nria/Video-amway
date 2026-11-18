@@ -8,7 +8,9 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 
 | Masa | Konten | Platform | Salin ke |
 |---|---|---|---|
-| 08:30 | 🎥 **Untuk VIDEO** (45 s): cerita / personal branding | TikTok · Reels | CapCut / Flow |
+| 08:30 | 🎥 **Video storytelling** (45 s): cerita / personal branding | TikTok · Reels | Flow (video AI) + CapCut |
+| 13:30 | 🎞️ **Video motion grafik: tips** (25 s, tanpa rakaman) | TikTok · Reels | CapCut + Motion Graphics Kit |
+| 19:30 | 🎞️ **Video motion grafik: masalah → penyelesaian / mitos vs fakta** (25 s) | TikTok · Reels | CapCut + Motion Graphics Kit |
 | 12:30 | 🖼️ **Untuk CAROUSEL** (6 slaid): edukasi langkah demi langkah | Instagram · Facebook | Canva / CapCut |
 | 10:00 | ✍️ **Teks sahaja**: info ringkas edukasi | Threads · Facebook | Post terus |
 | 16:00 | ✍️ **Teks sahaja**: pertanyaan / poll | Threads · Facebook | Post terus |
@@ -19,6 +21,7 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 - **Produk dalam konten awam (DISAHKAN pengguna):** botol dan jenama BOLEH kelihatan dalam video / gambar carousel (rakaman sendiri). Nama produk / jenama TIDAK disebut dalam sari kata, teks atas skrin, voiceover, caption atau teks awam. Harga dan cara order hanya dalam WhatsApp / group tertutup.
 - **Key selling (DISAHKAN):** setiap konten yang berkaitan dengan produk ada sekurang-kurangnya satu key selling dari `AMWAY_BRAND/KEY_SELLING.md`. Konten awam: sebut ciri sahaja (contoh "Momyizz pilih sabun yang dah diuji pakar dermatologi"), tanpa nama produk. WhatsApp: nama produk + 3–5 key selling.
 - **Produk penyelesai masalah setiap hari (DISAHKAN):** setiap hari ada SATU produk Amway yang menyelesaikan masalah topik hari itu. Produk muncul dalam 🎥 video (kelihatan + 1 key selling), ✍️ 16:00 atau 18:30, dan 💬 WhatsApp pada hari hard-sell. ✍️ 21:00 alert (banjir, penyakit, saringan) kekal tanpa produk. Senarai produk harian: `KALENDAR_PENULISAN/kalendar_data.py`.
+- **Tiada pertindihan dalam sehari (DISAHKAN):** setiap slot ada sudut sendiri. Video storytelling = cerita · motion grafik tips = senarai cara · motion grafik 2 = mitos / masalah → penyelesaian · carousel = fakta bersumber · 10:00 = satu fakta yang tiada dalam slot lain · 16:00 = soalan · 18:30 = tip baharu · 21:00 = alert berkaitan topik, tidak mengulang alert dalam 7 hari sebelumnya.
 - Hard-sell maksimum 1 sehari, 3–4 hari seminggu.
 - Info "semasa" mesti dari sumber rasmi. Jangan reka berita.
 
@@ -26,7 +29,9 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 
 | Konten | Isi (berbeza, topik sama) |
 |---|---|
-| 🎥 Video | Cerita Momyizz pandang span lama → kajian 2017 → tulis tarikh pada span baru → sabun pekat dicairkan, sikit je berbuih banyak (botol Dish Drops kelihatan, nama tak disebut) |
+| 🎥 Video storytelling | Cerita Momyizz pandang span lama → kajian 2017 → tulis tarikh pada span baru → sabun pekat dicairkan, sikit je berbuih banyak (botol Dish Drops kelihatan, nama tak disebut) |
+| 🎞️ Motion grafik: tips | Jadual bersih dapur: harian, mingguan, bulanan |
+| 🎞️ Motion grafik: penyelesaian | Dapur cepat berbau? Punca & penyelesaian |
 | 🖼️ Carousel | 5 Kunci Makanan Lebih Selamat (WHO), satu kunci satu slaid |
 | ✍️ 10:00 Info ringkas | Span yang dibersihkan cara rumah tak semestinya kurang bakteria |
 | ✍️ 16:00 Pertanyaan | "Picit sabun terus atas span atau cairkan dulu? A / B" |
@@ -68,3 +73,19 @@ Harga & promosi (dari amway.my, tarikh semak): [isi atau "tiada"]
 Testimoni sebenar (jika ada): [isi atau "tiada"]
 Platform penulisan: Threads (bebenang), Facebook, Instagram
 ```
+
+## Siri trending dari podcast / video viral
+
+Contoh: **Siri Tidur, Otak & Usus** (Hari 2, 5, 8 … 29), diilhamkan oleh podcast tidur & otak yang tengah viral.
+
+Peraturan:
+1. Podcast atau video viral jadi **hook** sahaja ("Ramai tengah share podcast pasal…").
+2. **Jangan petik** nama penceramah atau dakwaan mereka yang belum disemak. Semua fakta diambil semula dari sumber rasmi (KKM, WHO, NIH, CDC, AASM, AHA, jurnal).
+3. Dakwaan yang tak dapat disahkan ditinggalkan.
+4. Peraturan produk sama seperti hari biasa: satu produk penyelesai masalah sehari (kelihatan dalam video + 1 key selling, 16:00 / 18:30, WhatsApp pada hari hard-sell), tanpa dakwaan kesihatan berkaitan topik siri (contoh: jangan kata produk bantu otak atau tidur).
+5. Siri trending **diselang** dengan topik biasa (contoh bulan ini: setiap 3 hari), bukan berturut-turut, supaya fokus promosi bulanan kekal.
+
+Cara jana siri baharu dari podcast YouTube (dalam Claude Project):
+1. Buka video di YouTube → **⋯ / Lagi** → **Tunjukkan transkrip** → salin semua teks.
+2. Tampal dalam Claude Project bersama arahan dalam `CLAUDE_PROJECT/ARAHAN_PROJECT.md` (bahagian "Jana siri dari podcast").
+3. Semak senarai topik yang Claude cadangkan, kemudian minta konten harian ikut format kalendar.
