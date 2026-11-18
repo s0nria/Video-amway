@@ -13,6 +13,9 @@ Format setiap hari (DISAHKAN pengguna, pilihan A): SATU topik, isi berbeza untuk
 Peraturan: Momyizz & korang sahaja. Produk TIDAK muncul dalam video, carousel atau teks awam
 (peraturan Amway Malaysia: tiada tawaran produk di ruang awam; video yang menyebut produk perlu semakan Amway).
 Produk + harga hanya dalam slot wa (ruang tertutup).
+
+Key selling (DISAHKAN pengguna): setiap konten yang berkaitan dengan produk ada sekurang-kurangnya satu key selling
+dari AMWAY_BRAND/KEY_SELLING.md. Awam: ciri sahaja, tanpa nama produk. WhatsApp: nama + 3-5 key selling.
 """
 
 DISC = "Perkongsian ilmu umum. Bukan nasihat perubatan."
@@ -150,7 +153,7 @@ DAYS = [
    "REALITI\nAnak demam, mesyuarat awal, lupa rebus telur. Ia berlaku. 😅",
    "PELAN B 1\nPisang + segenggam kacang dalam beg",
    "PELAN B 2\nSusu kotak kecil + roti gandum",
-   "PELAN B 3\nMinuman protein untuk hari yang betul-betul tak sempat",
+   "PELAN B 3\nMinuman protein untuk hari yang betul-betul tak sempat\n(Momyizz pilih protein tumbuhan, bebas laktosa, tanpa pewarna & perisa tiruan. Semak label ya!)",
    "INGAT\nPelan B bukan pengganti sarapan sebenar.\nMakanan sebenar tetap nombor satu. 🙏\n\n" + DISC,
   ],
   "caption": "Pelan B korang apa? Kongsi kat komen 👇\n\n" + DISC + "\n\n#Momyizz #SarapanIbu #IbuBekerja #RealitiIbu"},
@@ -160,8 +163,8 @@ DAYS = [
   "Tips telur rebus untuk seminggu 💡\n\n✅ Rebus sekali gus 6–8 biji, sejukkan cepat dalam air sejuk\n✅ Simpan dalam peti BERSAMA kulit, dalam bekas bertutup\n✅ Elok dimakan dalam tempoh seminggu (USDA)\n✅ Tulis tarikh rebus pada bekas\n\nSarapan, bekal dan snek petang siap! 🥚",
   "Info penting: sebelum beli apa-apa supplemen atau minuman kesihatan, semak nombor pendaftaran \"MAL\" pada label. ⚠️\n\nProduk berdaftar dengan KKM boleh disemak melalui laman NPRA. Elak produk yang janji kurus cepat atau tiada maklumat pendaftaran.",
  ],
- "wa": {"tajuk": "Nutrilite Soy Protein Drink", "nota": "Ruang tertutup sahaja (pelanggan sedia ada / group tertutup / orang yang bertanya). Isi harga dan fakta dari amway.my hari ini. Jangan tambah dakwaan kesihatan.",
-  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal sarapan ibu yang selalu tertinggal. Ramai tanya apa \"pelan B\" Momyizz untuk hari yang tak sempat makan.\n\nYang Momyizz guna: *Nutrilite Soy Protein Drink*\n• Perisa: [semak amway.my: Mixed Berries 500g / Green Tea 450g]\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Cara guna: [salin dari label / amway.my]\n\nMomyizz guna untuk hari kelam-kabut sahaja, bukan pengganti sarapan sebenar. 🙏\n\nKalau nak, reply \"NAK\" dan perisa pilihan, Momyizz uruskan. 💛\n\n" + DISC}},
+ "wa": {"tajuk": "Nutrilite Soy Protein Drink", "nota": "Ruang tertutup sahaja (pelanggan sedia ada / group tertutup / orang yang bertanya). Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my, semak 18 Nov 2026). Semak harga dan perisa hari ini. Jangan tambah dakwaan kesihatan (imun, letih, kolesterol).",
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal sarapan ibu yang selalu tertinggal. Ramai tanya apa \"pelan B\" Momyizz untuk hari yang tak sempat makan.\n\nYang Momyizz guna: *Nutrilite Soy Protein Drink*\n• Protein tumbuhan: gabungan gandum, soya & kacang pea\n• 8g protein setiap hidangan, ada kesemua 9 asid amino perlu\n• Bebas laktosa, rendah lemak\n• Tiada pewarna, perisa atau pengawet tiruan ditambah\n• Perisa: [semak amway.my: Mixed Berries 500g / Green Tea 450g]\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Cara guna: campur 1–2 sudu dalam minuman, kacau / goncang. Boleh juga tabur atas bijirin\n• Tidak disyorkan untuk bayi bawah 1 tahun. Penghidap gout, hadkan pengambilan purin\n\nMomyizz guna untuk hari kelam-kabut sahaja, bukan pengganti sarapan sebenar. 🙏\n\nKalau nak, reply \"NAK\" dan perisa pilihan, Momyizz uruskan. 💛\n\n" + DISC}},
 
 # ================================================================ HARI 6
 {"d": 6, "ep": 2, "tema": "Gula tersembunyi dalam minuman",
@@ -201,10 +204,10 @@ DAYS = [
    ("3–12s", "Momyizz picit sabun banyak-banyak terus atas span", "Dulu Momyizz picit sabun banyak-banyak. Fikir: span sentiasa bersabun, mesti bersih."),
    ("12–22s", "Teks atas skrin + Momyizz terkejut", "Kajian 2017 jumpa bakteria sangat tinggi dalam span dapur terpakai. 😳"),
    ("22–32s", "Tulis tarikh pada span baru dengan marker", "Sekarang: tulis tarikh pada span baru, perah dan keringkan lepas guna."),
-   ("32–41s", "Tuang sabun pekat + air ke botol picit tanpa label, picit sikit ke span, close-up buih banyak", "Sabun pekat pun Momyizz cairkan dulu. Sikit je, buih dah banyak 🫧"),
+   ("32–41s", "Tuang sabun pekat + air ke botol picit tanpa label, picit sikit ke span, close-up buih banyak", "Sabun pekat pun Momyizz cairkan dulu. Sikit je, buih banyak & tahan lama 🫧"),
    ("41–45s", "Dapur bersih, Momyizz senyum", "Dapur bersih bermula dengan benda kecil ✨ | " + DISC),
   ],
-  "caption": "Bila kali terakhir korang tukar span? Jujur je kat komen 😂\n\nSabun pun Momyizz dah tak picit banyak-banyak. Cairkan dulu, sikit je dah berbuih 🫧\n\nSumber: Cardinale et al. (2017).\n" + DISC + "\n\n#Momyizz #DapurBersih #TipsRumah"},
+  "caption": "Bila kali terakhir korang tukar span? Jujur je kat komen 😂\n\nSabun pun Momyizz dah tak picit banyak-banyak. Sabun pekat, cairkan dulu, sikit je dah berbuih 🫧 Tangan basuh pinggan hari-hari, jadi Momyizz pilih yang ada aloe vera & dah diuji pakar dermatologi 🤲\n\nSumber: Cardinale et al. (2017).\n" + DISC + "\n\n#Momyizz #DapurBersih #TipsRumah"},
  "carousel": {"tajuk": "5 Kunci Makanan Lebih Selamat (WHO)",
   "slaid": [
    "5 KUNCI MAKANAN LEBIH SELAMAT\nVersi dapur rumah (WHO) 🍽️",
@@ -217,12 +220,12 @@ DAYS = [
   "caption": "5 kunci makanan lebih selamat dari WHO. Save untuk dapur korang 🍽️\n\nSumber: WHO Five Keys to Safer Food.\n" + DISC + "\n\n#Momyizz #DapurBersih #KeselamatanMakanan"},
  "teks": [
   "Info ringkas: span yang \"dibersihkan\" dengan cara rumah tak semestinya kurang bakteria. 🧽\n\nPenulis kajian Cardinale et al. (2017) cadangkan span ditukar secara berkala, contohnya setiap minggu.",
-  "Soalan jujur: korang guna sabun basuh pinggan macam mana? 🧽\n\nA. Picit terus atas span, banyak-banyak\nB. Cairkan dulu dalam botol picit / mangkuk air\n\nMomyizz dulu A. Sekarang B. Sabun pekat, sikit je dah berbuih banyak. 🫧",
-  "Tips span tahan lebih bersih 💡\n\n✅ Perah kuat lepas guna\n✅ Letak di rak berlubang / tempat berangin, bukan dalam sinki basah\n✅ Asingkan span pinggan dan kain lap meja\n✅ Tulis tarikh, tukar secara berkala\n✅ Sabun pekat? Cairkan dulu, picit sikit je\n\nSpan kering = kurang tempat untuk bakteria membiak. 🧽",
+  "Soalan jujur: korang guna sabun basuh pinggan macam mana? 🧽\n\nA. Picit terus atas span, banyak-banyak\nB. Cairkan dulu dalam botol picit / mangkuk air\n\nMomyizz dulu A. Sekarang B. Sabun pekat, sikit je dah berbuih banyak, buih pun tahan lama. Jimat! 🫧",
+  "Tips span tahan lebih bersih 💡\n\n✅ Perah kuat lepas guna\n✅ Letak di rak berlubang / tempat berangin, bukan dalam sinki basah\n✅ Asingkan span pinggan dan kain lap meja\n✅ Tulis tarikh, tukar secara berkala\n✅ Sabun pekat? Cairkan dulu, picit sikit je\n✅ Pilih sabun yang dah diuji pakar dermatologi, tangan kita basuh pinggan hari-hari\n\nSpan kering = kurang tempat untuk bakteria membiak. 🧽",
   "Info penting musim banjir: leptospirosis merebak melalui air atau tanah yang tercemar air kencing tikus. ⚠️\n\nElak meredah air banjir tanpa kasut, tutup makanan di dapur, dan dapatkan rawatan jika demam selepas terdedah kepada air banjir. 🙏",
  ],
- "wa": {"tajuk": "Amway Home Dish Drops", "nota": "Ruang tertutup sahaja. Fakta produk disemak di amway.my (halaman produk 110488) pada 18 Nov 2026: 'highly-concentrated', 'just one concentrated drop', 'long-lasting suds', cairkan 1 bahagian dengan 1–5 bahagian air, aloe vera, biodegradable, dermatologist-tested. Semak harga hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.",
-  "t": "Hai [nama] 😊\n\nPagi tadi Momyizz kongsi pasal span dapur, dan ada yang tanya: \"Sabun apa tu, sikit je tapi buih banyak?\" 🫧\n\nItu *DISH DROPS Concentrated Dishwashing Liquid (1L)* dari Amway Home.\n• Sangat pekat: setitik pun dah boleh tanggalkan minyak\n• Buihnya tahan lama, jadi tak perlu tambah sabun selalu\n• Cara guna untuk span: cairkan 1 bahagian sabun dengan 1–5 bahagian air dalam botol picit, picit sedikit ke span\n• Ada aloe vera. Formula biodegradable & diuji pakar dermatologi\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]\n\nTapi ingat ya, sabun yang bagus tak menggantikan tabiat tukar span dan keringkan span. 🧽\n\nKalau berminat, reply \"NAK\", Momyizz uruskan. 💛"}},
+ "wa": {"tajuk": "Amway Home Dish Drops", "nota": "Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my, semak 18 Nov 2026). JANGAN tulis 'sesuai untuk kulit sensitif' (tiada sumber rasmi). Semak harga hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.",
+  "t": "Hai [nama] 😊\n\nPagi tadi Momyizz kongsi pasal span dapur, dan ada yang tanya: \"Sabun apa tu, sikit je tapi buih banyak?\" 🫧\n\nItu *DISH DROPS Concentrated Dishwashing Liquid (1L)* dari Amway Home.\n• Sangat pekat: setitik pun dah boleh tanggalkan minyak\n• Buihnya tahan lama, jadi tak perlu tambah sabun selalu\n• Cara guna untuk span: cairkan 1 bahagian sabun dengan 1–5 bahagian air dalam botol picit, picit sedikit ke span\n• Ada aloe vera yang melembutkan, dan dah diuji pakar dermatologi. Sesuai untuk yang basuh pinggan hari-hari 🤲\n• Formula biodegradable, lebih mesra alam 🌿\n• Boleh juga basuh sayur & buah (1 ml dalam 5 L air)\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]\n\nTapi ingat ya, sabun yang bagus tak menggantikan tabiat tukar span dan keringkan span. 🧽\n\nKalau berminat, reply \"NAK\", Momyizz uruskan. 💛"}},
 
 # ================================================================ HARI 8-30 (rancangan; teks penuh dijana dengan Claude)
 # Format: (video, carousel, [teks info, teks pertanyaan, teks tips, teks alert], wa atau None)

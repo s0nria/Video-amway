@@ -34,5 +34,6 @@ Workspace ini dibina dari kosong untuk Amway. Ia tidak menyalin apa-apa dari vid
 Nilai bertanda **CADANGAN** ialah draf. Nilai bertanda **MENUNGGU** mesti ditanya kepada pengguna.
 
 ## Identiti jenama Amway
+Key selling produk yang dah disahkan (wajib dalam konten berkaitan produk): `AMWAY_BRAND/KEY_SELLING.md`.
 Rujuk `AMWAY_BRAND/BRAND.md` untuk palet, tulisan, sticker, CTA, pautan dan peraturan ketepatan maklumat produk.
 Bahagian bertanda **MENUNGGU** belum ditetapkan: jangan reka nilai, tanya pengguna dahulu.

@@ -615,6 +615,7 @@ Susu kotak kecil + roti gandum
 ```
 PELAN B 3
 Minuman protein untuk hari yang betul-betul tak sempat
+(Momyizz pilih protein tumbuhan, bebas laktosa, tanpa pewarna & perisa tiruan. Semak label ya!)
 ```
 
 **Slaid 6**
@@ -683,7 +684,7 @@ Produk berdaftar dengan KKM boleh disemak melalui laman NPRA. Elak produk yang j
 
 ### 💬 WhatsApp / group tertutup: Nutrilite Soy Protein Drink
 
-> Ruang tertutup sahaja (pelanggan sedia ada / group tertutup / orang yang bertanya). Isi harga dan fakta dari amway.my hari ini. Jangan tambah dakwaan kesihatan.
+> Ruang tertutup sahaja (pelanggan sedia ada / group tertutup / orang yang bertanya). Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my, semak 18 Nov 2026). Semak harga dan perisa hari ini. Jangan tambah dakwaan kesihatan (imun, letih, kolesterol).
 
 ```
 Hai [nama] 😊
@@ -691,9 +692,14 @@ Hai [nama] 😊
 Minggu ni Momyizz kongsi pasal sarapan ibu yang selalu tertinggal. Ramai tanya apa "pelan B" Momyizz untuk hari yang tak sempat makan.
 
 Yang Momyizz guna: *Nutrilite Soy Protein Drink*
+• Protein tumbuhan: gabungan gandum, soya & kacang pea
+• 8g protein setiap hidangan, ada kesemua 9 asid amino perlu
+• Bebas laktosa, rendah lemak
+• Tiada pewarna, perisa atau pengawet tiruan ditambah
 • Perisa: [semak amway.my: Mixed Berries 500g / Green Tea 450g]
 • Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
-• Cara guna: [salin dari label / amway.my]
+• Cara guna: campur 1–2 sudu dalam minuman, kacau / goncang. Boleh juga tabur atas bijirin
+• Tidak disyorkan untuk bayi bawah 1 tahun. Penghidap gout, hadkan pengambilan purin
 
 Momyizz guna untuk hari kelam-kabut sahaja, bukan pengganti sarapan sebenar. 🙏
 
@@ -875,7 +881,7 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 | 3–12s | Momyizz picit sabun banyak-banyak terus atas span | Dulu Momyizz picit sabun banyak-banyak. Fikir: span sentiasa bersabun, mesti bersih. |
 | 12–22s | Teks atas skrin + Momyizz terkejut | Kajian 2017 jumpa bakteria sangat tinggi dalam span dapur terpakai. 😳 |
 | 22–32s | Tulis tarikh pada span baru dengan marker | Sekarang: tulis tarikh pada span baru, perah dan keringkan lepas guna. |
-| 32–41s | Tuang sabun pekat + air ke botol picit tanpa label, picit sikit ke span, close-up buih banyak | Sabun pekat pun Momyizz cairkan dulu. Sikit je, buih dah banyak 🫧 |
+| 32–41s | Tuang sabun pekat + air ke botol picit tanpa label, picit sikit ke span, close-up buih banyak | Sabun pekat pun Momyizz cairkan dulu. Sikit je, buih banyak & tahan lama 🫧 |
 | 41–45s | Dapur bersih, Momyizz senyum | Dapur bersih bermula dengan benda kecil ✨ | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
 **Caption video**
@@ -883,7 +889,7 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 ```
 Bila kali terakhir korang tukar span? Jujur je kat komen 😂
 
-Sabun pun Momyizz dah tak picit banyak-banyak. Cairkan dulu, sikit je dah berbuih 🫧
+Sabun pun Momyizz dah tak picit banyak-banyak. Sabun pekat, cairkan dulu, sikit je dah berbuih 🫧 Tangan basuh pinggan hari-hari, jadi Momyizz pilih yang ada aloe vera & dah diuji pakar dermatologi 🤲
 
 Sumber: Cardinale et al. (2017).
 Perkongsian ilmu umum. Bukan nasihat perubatan.
@@ -961,7 +967,7 @@ Info ringkas: span yang "dibersihkan" dengan cara rumah tak semestinya kurang ba
 Penulis kajian Cardinale et al. (2017) cadangkan span ditukar secara berkala, contohnya setiap minggu.
 ```
 
-**16:00 · Pertanyaan** (221 / 500 aksara)
+**16:00 · Pertanyaan** (249 / 500 aksara)
 
 ```
 Soalan jujur: korang guna sabun basuh pinggan macam mana? 🧽
@@ -969,10 +975,10 @@ Soalan jujur: korang guna sabun basuh pinggan macam mana? 🧽
 A. Picit terus atas span, banyak-banyak
 B. Cairkan dulu dalam botol picit / mangkuk air
 
-Momyizz dulu A. Sekarang B. Sabun pekat, sikit je dah berbuih banyak. 🫧
+Momyizz dulu A. Sekarang B. Sabun pekat, sikit je dah berbuih banyak, buih pun tahan lama. Jimat! 🫧
 ```
 
-**18:30 · Tips praktikal** (301 / 500 aksara)
+**18:30 · Tips praktikal** (385 / 500 aksara)
 
 ```
 Tips span tahan lebih bersih 💡
@@ -982,6 +988,7 @@ Tips span tahan lebih bersih 💡
 ✅ Asingkan span pinggan dan kain lap meja
 ✅ Tulis tarikh, tukar secara berkala
 ✅ Sabun pekat? Cairkan dulu, picit sikit je
+✅ Pilih sabun yang dah diuji pakar dermatologi, tangan kita basuh pinggan hari-hari
 
 Span kering = kurang tempat untuk bakteria membiak. 🧽
 ```
@@ -996,7 +1003,7 @@ Elak meredah air banjir tanpa kasut, tutup makanan di dapur, dan dapatkan rawata
 
 ### 💬 WhatsApp / group tertutup: Amway Home Dish Drops
 
-> Ruang tertutup sahaja. Fakta produk disemak di amway.my (halaman produk 110488) pada 18 Nov 2026: 'highly-concentrated', 'just one concentrated drop', 'long-lasting suds', cairkan 1 bahagian dengan 1–5 bahagian air, aloe vera, biodegradable, dermatologist-tested. Semak harga hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.
+> Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my, semak 18 Nov 2026). JANGAN tulis 'sesuai untuk kulit sensitif' (tiada sumber rasmi). Semak harga hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.
 
 ```
 Hai [nama] 😊
@@ -1007,7 +1014,9 @@ Itu *DISH DROPS Concentrated Dishwashing Liquid (1L)* dari Amway Home.
 • Sangat pekat: setitik pun dah boleh tanggalkan minyak
 • Buihnya tahan lama, jadi tak perlu tambah sabun selalu
 • Cara guna untuk span: cairkan 1 bahagian sabun dengan 1–5 bahagian air dalam botol picit, picit sedikit ke span
-• Ada aloe vera. Formula biodegradable & diuji pakar dermatologi
+• Ada aloe vera yang melembutkan, dan dah diuji pakar dermatologi. Sesuai untuk yang basuh pinggan hari-hari 🤲
+• Formula biodegradable, lebih mesra alam 🌿
+• Boleh juga basuh sayur & buah (1 ml dalam 5 L air)
 • Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
 • Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]
 

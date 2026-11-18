@@ -17,6 +17,7 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 | Bila sesuai | 💬 **Hard-sell** | WhatsApp / group tertutup | Hantar terus |
 
 - Produk tidak muncul dalam video, carousel atau teks awam (peraturan Amway Malaysia). Produk, harga dan cara order hanya dalam WhatsApp / group tertutup.
+- **Key selling (DISAHKAN):** setiap konten yang berkaitan dengan produk ada sekurang-kurangnya satu key selling dari `AMWAY_BRAND/KEY_SELLING.md`. Konten awam: sebut ciri sahaja (contoh "Momyizz pilih sabun yang dah diuji pakar dermatologi"), tanpa nama produk. WhatsApp: nama produk + 3–5 key selling.
 - Hard-sell maksimum 1 sehari, 3–4 hari seminggu.
 - Info "semasa" mesti dari sumber rasmi. Jangan reka berita.
 

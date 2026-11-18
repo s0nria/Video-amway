@@ -88,6 +88,9 @@ Dipetik daripada https://www.amway.my/compliance/principles-etiquette-of-using-s
 - Pautan: hanya "LINK di Bio". Jangan papar URL, nombor telefon atau WhatsApp dalam video.
 - CTA mesti berada dalam safe zone TikTok/Reels.
 
+## Key selling produk — DISAHKAN
+Setiap konten yang berkaitan dengan produk mesti ada sekurang-kurangnya satu key selling. Senarai yang dah disahkan (dengan sumber amway.my) dan ayat yang dilarang: `AMWAY_BRAND/KEY_SELLING.md`. Konten awam sebut ciri sahaja tanpa nama produk; nama produk hanya di ruang tertutup.
+
 ## Peraturan ketepatan maklumat produk — DISAHKAN
 1. **People first, product second.** Mula dengan situasi hidup sebenar; produk hanya jika berkaitan secara munasabah.
 2. Semua fakta produk (nama, ramuan, kandungan, dos, cara guna) mesti disemak di laman rasmi https://www.amway.my/ sebelum skrip diluluskan. Catat tarikh semakan.
