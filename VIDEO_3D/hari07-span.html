@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<title>Span Momyizz 3D</title>
+<link rel="stylesheet" href="fonts_local.css">
+<style>
+:root{--krim:#F2EEE5;--kertas:#FBF9F4;--dakwat:#35362F;--sage:#7F9373;--sage-gelap:#556A4C;--sage-lembut:#E2E8D9;--linen:#EAE1D0;--kayu:#A3876A;--keluarga:#9E7F5C;--kajian:#B07C3A}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--krim)}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:'Nunito',sans-serif;color:var(--dakwat)}
+#bg{position:absolute;inset:0;background:radial-gradient(1200px 900px at 50% 45%,#FBF9F4 0%,#F2EEE5 55%,#E9E2D3 100%)}
+.dots{position:absolute;inset:0;background-image:radial-gradient(rgba(127,147,115,.13) 3px,transparent 3.5px);background-size:46px 46px;opacity:.6}
+#shadow{position:absolute;left:340px;top:1060px;width:400px;height:70px;border-radius:50%;background:radial-gradient(closest-side,rgba(53,54,47,.25),rgba(53,54,47,0));}
+#panel{position:absolute;left:70px;top:250px;width:870px;height:900px;border-radius:36px;background:var(--linen);box-shadow:0 12px 32px rgba(53,54,47,.12);opacity:0}
+canvas#gl{position:absolute;inset:0;width:1080px;height:1920px}
+#fg{position:absolute;inset:0;pointer-events:none}
+.el{position:absolute;opacity:0;will-change:transform,opacity}
+.pil{height:52px;padding:0 26px;border-radius:26px;background:var(--keluarga);color:var(--kertas);font:600 28px/52px 'Fredoka';letter-spacing:.04em}
+.hook{left:100px;width:820px;padding:36px 44px;background:var(--kertas);border-radius:36px;box-shadow:0 12px 32px rgba(53,54,47,.14);font:700 92px/1.08 'Fredoka';text-align:center}
+.hook b{color:var(--kayu);font-weight:700}
+.sub{left:90px;width:840px;padding:22px 34px;background:var(--kertas);border-radius:24px;box-shadow:0 8px 24px rgba(53,54,47,.12);font:800 54px/1.22 'Nunito';text-align:center}
+.card{left:100px;width:820px;background:var(--kertas);border-radius:36px;box-shadow:0 12px 32px rgba(53,54,47,.14);overflow:hidden}
+.card .strip{height:12px;background:var(--keluarga)}
+.card .in{padding:30px 40px 34px}
+.lbl{display:inline-block;height:64px;padding:0 28px;border-radius:32px;background:var(--kajian);color:var(--kertas);font:600 32px/64px 'Fredoka';margin-bottom:18px}
+.card h3{font:600 44px/1.2 'Fredoka';color:var(--keluarga);margin-bottom:10px}
+.card p{font:800 50px/1.22 'Nunito'}
+.card small{display:block;margin-top:16px;font:800 28px 'Nunito';color:var(--sage-gelap)}
+.big{left:60px;width:880px;text-align:center;font:700 150px/1 'Fredoka';color:var(--kayu)}
+.nota{font:700 64px/1 'Caveat';color:var(--sage-gelap)}
+.check{left:100px;width:820px;background:var(--sage-lembut);border-radius:36px;padding:30px 40px;box-shadow:0 10px 28px rgba(53,54,47,.10)}
+.row{display:flex;align-items:center;gap:22px;font:800 48px/1.15 'Nunito';margin:14px 0;opacity:0}
+.tick{flex:none;width:64px;height:64px;border-radius:50%;background:var(--sage);color:var(--kertas);font:800 40px/64px 'Nunito';text-align:center}
+.chip{height:76px;padding:0 30px;border-radius:38px;background:var(--kertas);border:4px solid var(--sage-gelap);font:800 40px/68px 'Nunito';white-space:nowrap;box-shadow:0 8px 20px rgba(53,54,47,.12)}
+.cta{left:100px;width:820px;padding:26px 30px;background:var(--kertas);border:6px solid var(--sage-gelap);border-radius:30px;text-align:center;font:700 58px/1.15 'Fredoka';box-shadow:0 12px 32px rgba(53,54,47,.14)}
+.cta b{color:var(--sage-gelap)}
+.disc{left:90px;width:840px;text-align:center;font:800 28px 'Nunito';color:var(--sage-gelap)}
+.stk{width:400px}
+.step{left:120px;width:780px;height:96px;border-radius:48px;background:var(--sage-gelap);color:var(--kertas);font:700 50px/96px 'Fredoka';text-align:center;box-shadow:0 10px 24px rgba(53,54,47,.18)}
+</style>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+</head>
+<body>
+<div id="stage">
+  <div id="bg"><div class="dots"></div></div>
+  <div id="shadow"></div>
+  <div id="panel"></div>
+  <canvas id="gl" width="1080" height="1920"></canvas>
+  <div id="fg">
+    <div class="el pil" id="pilar" style="left:70px;top:180px">DAPUR BERSIH</div>
+    <!-- S1 -->
+    <div class="el hook" id="hook" style="top:270px">Bila kali terakhir korang <b>tukar</b> ni? 🧽</div>
+    <!-- S2 -->
+    <div class="el sub" id="sub2" style="top:1190px">Dulu Momyizz picit sabun banyak-banyak. Fikir: span sentiasa bersabun, mesti bersih.</div>
+    <div class="el nota" id="nota2" style="left:120px;top:330px">makin banyak = makin bersih? 🤔</div>
+    <!-- S3 -->
+    <div class="el card" id="card3" style="top:250px"><div class="strip"></div><div class="in">
+      <div class="lbl">🟠 Kajian awal</div>
+      <h3>Kajian span dapur, 2017</h3>
+      <p>Bakteria sangat tinggi dijumpai dalam span dapur terpakai. 😳</p>
+      <small>Sumber: Cardinale et al., Scientific Reports (2017)</small></div></div>
+    <img class="el stk" id="stk14" src="../AMWAY_BRAND/STICKERS/14-blazer-tutup-mulut.png" style="left:560px;top:760px">
+    <!-- S4 -->
+    <div class="el check" id="check4" style="top:240px">
+      <div class="row" id="r1"><span class="tick">✓</span>Tulis tarikh pada span baru</div>
+      <div class="row" id="r2"><span class="tick">✓</span>Perah kuat lepas guna</div>
+      <div class="row" id="r3"><span class="tick">✓</span>Biar kering, bukan dalam sinki</div>
+    </div>
+    <div class="el sub" id="sub4" style="top:1190px">Sekarang: tulis tarikh pada span baru, perah dan keringkan lepas guna.</div>
+    <!-- S5: cairkan -->
+    <div class="el step" id="st0" style="top:290px">Cara Momyizz: cairkan dulu 💧</div>
+    <div class="el step" id="st1" style="top:290px">① Air paip sampai garisan 1:5</div>
+    <div class="el step" id="st2" style="top:290px">② Sabun pekat sampai penuh</div>
+    <div class="el step" id="st3" style="top:290px">③ Tutup &amp; goncang</div>
+    <div class="el sub" id="sub5" style="top:1190px">Sabun pekat pun Momyizz cairkan dulu dalam botol picit.</div>
+    <!-- S6: besen -->
+    <div class="el chip" id="chip1" style="left:120px;top:300px">Sabun pekat</div>
+    <div class="el chip" id="chip2" style="left:300px;top:410px">Sikit je, buih banyak</div>
+    <div class="el chip" id="chip3" style="left:470px;top:520px">Buih tahan lama 🫧</div>
+    <div class="el sub" id="sub6" style="top:1190px">Picit sikit dalam besen air, ramas span. Sikit je, buih banyak &amp; tahan lama 🫧</div>
+    <!-- S7: akhir -->
+    <div class="el hook" id="hook7" style="top:240px;font-size:80px">Dapur bersih bermula dengan <b>benda kecil</b> ✨</div>
+    <img class="el stk" id="stk12" src="../AMWAY_BRAND/STICKERS/12-blazer-tunjuk-kiri.png" style="left:665px;top:640px;width:275px">
+    <div class="el cta" id="cta" style="top:1170px">Nak dapatkan produk?<br><b>Klik LINK di Bio</b> 👇</div>
+    <div class="el disc" id="disc" style="top:1390px">Perkongsian ilmu umum. Bukan nasihat perubatan.</div>
+  </div>
+</div>
+<script type="module">
+import * as THREE from 'three';
+import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const W=1080,H=1920;
+const renderer=new THREE.WebGLRenderer({canvas:document.getElementById('gl'),antialias:true,alpha:true,preserveDrawingBuffer:true});
+renderer.setPixelRatio(1); renderer.setSize(W,H,false); renderer.setClearColor(0x000000,0);
+renderer.outputColorSpace=THREE.SRGBColorSpace; renderer.toneMapping=THREE.ACESFilmicToneMapping; renderer.toneMappingExposure=1.05;
+const scene=new THREE.Scene();
+const pmrem=new THREE.PMREMGenerator(renderer); scene.environment=pmrem.fromScene(new RoomEnvironment(),0.04).texture;
+const cam=new THREE.PerspectiveCamera(30,W/H,0.1,100); cam.position.set(0,0,12);
+scene.add(new THREE.HemisphereLight(0xfffaf0,0xd8cdb8,0.9));
+const key=new THREE.DirectionalLight(0xffffff,1.6); key.position.set(3,5,6); scene.add(key);
+const PX=1/298.6; // px -> world at z=0
+const wy=py=>(960-py)*PX, wx=px=>(px-540)*PX;
+
+// ---------- textures
+function foamTex(base,stain){
+  const c=document.createElement('canvas');c.width=512;c.height=512;const g=c.getContext('2d');
+  g.fillStyle=base;g.fillRect(0,0,512,512);
+  let s=7;const r=()=>{s=(s*16807)%2147483647;return s/2147483647};
+  for(let i=0;i<2600;i++){const x=r()*512,y=r()*512,rad=1+r()*5;g.fillStyle=`rgba(90,60,10,${0.08+r()*0.18})`;g.beginPath();g.ellipse(x,y,rad,rad*0.8,r()*3,0,7);g.fill();}
+  for(let i=0;i<900;i++){const x=r()*512,y=r()*512;g.fillStyle=`rgba(255,255,230,${0.12+r()*0.2})`;g.fillRect(x,y,2,2);}
+  if(stain){for(let i=0;i<9;i++){const x=r()*512,y=r()*512,rad=40+r()*90;const gr=g.createRadialGradient(x,y,0,x,y,rad);gr.addColorStop(0,'rgba(120,85,30,.45)');gr.addColorStop(1,'rgba(120,85,30,0)');g.fillStyle=gr;g.fillRect(0,0,512,512);}}
+  const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;return t;
+}
+function scrubTex(base){
+  const c=document.createElement('canvas');c.width=512;c.height=512;const g=c.getContext('2d');
+  g.fillStyle=base;g.fillRect(0,0,512,512);let s=11;const r=()=>{s=(s*16807)%2147483647;return s/2147483647};
+  for(let i=0;i<1800;i++){g.strokeStyle=`rgba(${r()>.5?20:120},${80+r()*80},${40},${0.25+r()*0.4})`;g.lineWidth=1+r()*2;g.beginPath();const x=r()*512,y=r()*512;g.moveTo(x,y);g.quadraticCurveTo(x+r()*30-15,y+r()*30-15,x+r()*40-20,y+r()*40-20);g.stroke();}
+  const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;return t;
+}
+function makeSponge(foamCol,scrubCol,stain){
+  const grp=new THREE.Group();
+  const fm=foamTex(foamCol,stain);
+  const foam=new THREE.Mesh(new RoundedBoxGeometry(2.3,0.95,1.25,6,0.22),new THREE.MeshStandardMaterial({map:fm,bumpMap:fm,bumpScale:0.04,roughness:0.95}));
+  const sc=scrubTex(scrubCol);
+  const scrub=new THREE.Mesh(new RoundedBoxGeometry(2.3,0.32,1.25,6,0.12),new THREE.MeshStandardMaterial({map:sc,bumpMap:sc,bumpScale:0.05,roughness:1}));
+  scrub.position.y=0.6; grp.add(foam,scrub); return grp;
+}
+const oldS=makeSponge('#C8A34A','#4F5E3A',true); scene.add(oldS);
+const newS=makeSponge('#F7D24E','#3F8A4E',false); scene.add(newS);
+
+// marker date on new sponge (front face)
+const dc=document.createElement('canvas');dc.width=512;dc.height=200;const dg=dc.getContext('2d');
+const dtex=new THREE.CanvasTexture(dc);dtex.colorSpace=THREE.SRGBColorSpace;
+const datePlane=new THREE.Mesh(new THREE.PlaneGeometry(1.7,0.66),new THREE.MeshBasicMaterial({map:dtex,transparent:true}));
+datePlane.position.set(0,-0.05,0.632); newS.add(datePlane);
+function drawDate(p){dg.clearRect(0,0,512,200);dg.save();dg.beginPath();dg.rect(0,0,512*p,200);dg.clip();
+  dg.font="700 150px Caveat";dg.fillStyle='#1F2A44';dg.textAlign='center';dg.textBaseline='middle';dg.fillText('18/11',256,104);dg.restore();dtex.needsUpdate=true;}
+
+// soap blobs
+const soapMat=new THREE.MeshPhysicalMaterial({color:0xF3E9A6,roughness:0.08,clearcoat:1,transparent:true,opacity:0.82});
+const blobs=[];for(let i=0;i<9;i++){const m=new THREE.Mesh(new THREE.SphereGeometry(0.22+((i*37)%10)/80,32,24),soapMat);m.visible=false;scene.add(m);blobs.push(m);}
+// dirty drips
+const dripMat=new THREE.MeshStandardMaterial({color:0x8A6A3A,roughness:0.3,transparent:true,opacity:0.85});
+const drips=[];for(let i=0;i<5;i++){const m=new THREE.Mesh(new THREE.SphereGeometry(0.07,16,12),dripMat);m.scale.y=1.5;m.visible=false;scene.add(m);drips.push(m);}
+// bacteria capsules (muted, not scary)
+const bacCols=[0x9FB58F,0xB79AC2,0xC9A27A,0x8FB3B0];
+const bacs=[];for(let i=0;i<14;i++){const m=new THREE.Mesh(new THREE.CapsuleGeometry(0.08,0.22,6,12),new THREE.MeshStandardMaterial({color:bacCols[i%4],roughness:0.5,transparent:true,opacity:0}));scene.add(m);bacs.push(m);}
+// bubbles
+const bubMat=new THREE.ShaderMaterial({transparent:true,depthWrite:false,uniforms:{uT:{value:0}},
+ vertexShader:`varying vec3 vN;varying vec3 vV;void main(){vec4 mv=modelViewMatrix*vec4(position,1.);vN=normalize(normalMatrix*normal);vV=normalize(-mv.xyz);gl_Position=projectionMatrix*mv;}`,
+ fragmentShader:`uniform float uT;varying vec3 vN;varying vec3 vV;
+ vec3 hsv(float h){return clamp(abs(mod(h*6.+vec3(0,4,2),6.)-3.)-1.,0.,1.);}
+ void main(){float f=1.-max(dot(vN,vV),0.);float rim=pow(f,2.2);
+  vec3 irid=hsv(fract(vN.y*0.6+vN.x*0.3+uT*0.05));vec3 col=mix(vec3(1.),irid,0.55*rim);
+  float spec=pow(max(dot(reflect(-normalize(vec3(-.4,.6,1.)),vN),vV),0.),40.);
+  float a=0.06+0.8*rim+0.9*spec; gl_FragColor=vec4(col+spec,a);}`});
+const bubs=[];let bs=3;const br=()=>{bs=(bs*16807)%2147483647;return bs/2147483647};
+for(let i=0;i<46;i++){const m=new THREE.Mesh(new THREE.SphereGeometry(1,32,24),bubMat);m.userData={t0:46.9+br()*5.5,x:(br()-0.5)*2.4,s:0.08+br()*0.22,sp:0.5+br()*0.6,ph:br()*6};m.visible=false;scene.add(m);bubs.push(m);}
+// dilution bottle (lutsinar, tutup biru, garisan nisbah)
+const dil=new THREE.Group(); scene.add(dil); dil.visible=false;
+const BH=1.9, LTOP=0.82*BH, L5=LTOP*5/6;
+{const pts=[];pts.push(new THREE.Vector2(0,0));pts.push(new THREE.Vector2(0.4,0));pts.push(new THREE.Vector2(0.43,0.04));pts.push(new THREE.Vector2(0.43,BH-0.08));
+ pts.push(new THREE.Vector2(0.38,BH+0.05));pts.push(new THREE.Vector2(0.24,BH+0.16));pts.push(new THREE.Vector2(0.2,BH+0.2));
+ const glass=new THREE.Mesh(new THREE.LatheGeometry(pts,48),new THREE.MeshPhysicalMaterial({color:0xEAF4F8,transparent:true,opacity:0.14,roughness:0.03,clearcoat:1,side:THREE.DoubleSide,depthWrite:false,envMapIntensity:2}));
+ glass.renderOrder=3; dil.add(glass);}
+const liqMat=new THREE.MeshStandardMaterial({color:0xA9D8EA,transparent:true,opacity:0.62,roughness:0.15});
+const liqGeo=new THREE.CylinderGeometry(0.405,0.405,1,40); liqGeo.translate(0,0.5,0);
+const liq=new THREE.Mesh(liqGeo,liqMat); liq.position.y=0.03; liq.renderOrder=1; dil.add(liq);
+const mc=document.createElement('canvas');mc.width=512;mc.height=1024;{const g=mc.getContext('2d');
+ const yTop=1024*(1-LTOP/BH); g.strokeStyle='#1F2A44';g.fillStyle='#1F2A44';g.lineWidth=8;g.font='800 46px Nunito';g.textAlign='center';
+ g.fillText('DILUTION',256,yTop-62);
+ [['1:2',2],['1:3',3],['1:4',4],['1:5',5],['1:8',8]].forEach(([lb,r],k)=>{const x=14+k*98,w=84;const yB=1024*(1-(LTOP*r/(r+1))/BH);
+  g.strokeRect(x,yTop,w,yB-yTop); g.fillText(lb,x+w/2,yTop+42);});}
+const mtex=new THREE.CanvasTexture(mc);mtex.colorSpace=THREE.SRGBColorSpace;
+const marks=new THREE.Mesh(new THREE.PlaneGeometry(0.74,BH),new THREE.MeshBasicMaterial({map:mtex,transparent:true}));
+marks.position.set(0,BH/2,0.44); marks.renderOrder=4; dil.add(marks);
+const cap=new THREE.Group();{const m=new THREE.MeshStandardMaterial({color:0x1F3FCC,roughness:0.35});
+ const c1=new THREE.Mesh(new THREE.CylinderGeometry(0.23,0.23,0.26,32),m);c1.position.y=BH+0.33;
+ const c2=new THREE.Mesh(new THREE.CylinderGeometry(0.2,0.23,0.06,32),m);c2.position.y=BH+0.49;cap.add(c1,c2);} dil.add(cap);
+// streams
+function stream(col,r){const g=new THREE.CylinderGeometry(r,r,1,14);g.translate(0,-0.5,0);const m=new THREE.Mesh(g,new THREE.MeshStandardMaterial({color:col,transparent:true,opacity:0.75,roughness:0.1}));m.visible=false;scene.add(m);return m;}
+const waterS=stream(0xA9D8EA,0.04), soapS=stream(0x3E9E45,0.035), squeezeS=stream(0x6BBF5A,0.025);
+function setStream(m,x,y1,y2){m.visible=y1>y2;m.position.set(x,y1,0.6);m.scale.set(1,Math.max(0.001,y1-y2),1);}
+// basin
+const basin=new THREE.Group(); scene.add(basin); basin.visible=false;
+{const pts=[];for(let i=0;i<=12;i++){const a=i/12;pts.push(new THREE.Vector2(0.9+0.62*Math.sin(a*Math.PI/2),0.9*a*a*0+0.9*(1-Math.cos(a*Math.PI/2))));}
+ pts.unshift(new THREE.Vector2(0,0));
+ const bowl=new THREE.Mesh(new THREE.LatheGeometry(pts,64),new THREE.MeshStandardMaterial({color:0xE2E8D9,roughness:0.35,side:THREE.DoubleSide}));basin.add(bowl);
+ const rim=new THREE.Mesh(new THREE.TorusGeometry(1.52,0.05,12,64),new THREE.MeshStandardMaterial({color:0xC9D3BE,roughness:0.4}));rim.rotation.x=Math.PI/2;rim.position.y=0.9;basin.add(rim);}
+const bwMat=new THREE.MeshStandardMaterial({color:0xBFE3EF,transparent:true,opacity:0.7,roughness:0.08});
+const bwater=new THREE.Mesh(new THREE.CircleGeometry(1.43,48),bwMat); bwater.rotation.x=-Math.PI/2; bwater.position.y=0.66; basin.add(bwater);
+const foamMat=new THREE.MeshPhysicalMaterial({color:0xF7FBFF,roughness:0.12,clearcoat:1,transparent:true,opacity:0.88});
+const foam=[];let fs=21;const fr=()=>{fs=(fs*16807)%2147483647;return fs/2147483647};
+for(let i=0;i<240;i++){const m=new THREE.Mesh(new THREE.SphereGeometry(1,14,10),i%3?foamMat:bubMat);const a=fr()*Math.PI*2,r=Math.sqrt(fr())*1.3;
+ m.userData={x:Math.cos(a)*r,z:Math.sin(a)*r,s:0.045+fr()*0.085,t0:46.9+fr()*3.4,h:fr()*0.32};m.visible=false;basin.add(m);foam.push(m);}
+// bottle (original image on plane)
+let bottle=null; const drop=new THREE.Mesh(new THREE.SphereGeometry(0.11,24,16),soapMat); drop.visible=false; scene.add(drop);
+const texLoader=new THREE.TextureLoader();
+const bottleReady=new Promise(res=>texLoader.load('../AMWAY_BRAND/PRODUK/dish-drops-1l.png',t=>{t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;
+  const h=2.55,w=h*167/520; bottle=new THREE.Mesh(new THREE.PlaneGeometry(w,h),new THREE.MeshStandardMaterial({map:t,transparent:true,roughness:0.45,metalness:0,side:THREE.DoubleSide,alphaTest:0.02}));
+  bottle.visible=false; scene.add(bottle); res();}));
+
+// ---------- helpers
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const eo=x=>1-Math.pow(1-cl(x),3);           // ease out
+const eio=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const bounce=x=>{x=cl(x);const c=1.70158+1;return 1+c*Math.pow(x-1,3)+1.70158*Math.pow(x-1,2)}; // back-out
+function win(t,a,b,fi=0.3,fo=0.25){if(t<a||t>b)return 0;return Math.min(cl((t-a)/fi),cl((b-t)/fo))}
+function show(id,t,a,b,{pop=true,dy=0,fi=0.3,fo=0.25}={}){const e=document.getElementById(id);const o=win(t,a,b,fi,fo);e.style.opacity=o;
+  const k=pop?0.9+0.1*bounce((t-a)/0.35):1; const y=dy*(1-eo((t-a)/0.4)); e.style.transform=`translateY(${y}px) scale(${o>0?k:1})`;return o}
+const ids=[...document.querySelectorAll('.el')].map(e=>e.id);
+
+window.renderAt=function(t){
+  // DOM
+  for(const id of ids)document.getElementById(id).style.opacity=0;
+  show('pilar',t,0.1,44.9,{pop:false});
+  show('hook',t,0.15,3.0);
+  show('sub2',t,3.2,11.9,{dy:30});
+  show('nota2',t,7.6,11.6,{pop:false,dy:20});
+  show('card3',t,12.2,21.9);
+  show('stk14',t,13.0,21.7,{dy:60});
+  show('check4',t,25.6,31.9);
+  ['r1','r2','r3'].forEach((r,i)=>{const e=document.getElementById(r);const o=cl((t-(26.0+i*0.6))/0.3);e.style.opacity=o;e.style.transform=`translateX(${-30*(1-eo((t-(26+i*0.6))/0.4))}px)`});
+  show('sub4',t,22.6,31.9,{dy:30});
+  show('st0',t,32.3,35.9);show('st1',t,36.0,39.3);show('st2',t,39.4,42.4);show('st3',t,42.5,43.9);
+  show('sub5',t,32.4,43.9,{dy:30});
+  show('chip1',t,47.4,51.8,{dy:20});show('chip2',t,47.9,51.8,{dy:20});show('chip3',t,48.4,51.8,{dy:20});
+  show('sub6',t,44.3,51.9,{dy:30});
+  show('hook7',t,52.1,57);
+  show('stk12',t,52.6,57,{dy:40});
+  show('cta',t,52.9,57);
+  show('disc',t,52.2,57,{pop:false});
+  const pan=document.getElementById('panel'); const po=win(t,32.1,43.9,0.4,0.3); pan.style.opacity=po; pan.style.transform=`scale(${0.96+0.04*eo((t-32.1)/0.5)})`;
+
+  // ---------- 3D
+  const sh=document.getElementById('shadow');
+  // old sponge 0-22.6
+  oldS.visible=t<23;
+  if(oldS.visible){
+    const enter=bounce(t/0.6); let sx=enter, sy=enter, sz=enter;
+    const sq=t>1.4&&t<2.6?Math.sin((t-1.4)/1.2*Math.PI):0; sy*=1-0.28*sq; sx*=1+0.1*sq;
+    oldS.scale.set(sx,sy,sz);
+    let x=0,y=wy(900),s3=1;
+    if(t>12){const k=eio((t-12)/0.7);y=wy(900)+(wy(1010)-wy(900))*k;s3=1-0.18*k;}
+    if(t>22){const k=eio((t-22)/0.6);x=-5*k;}
+    oldS.position.set(x,y,0); oldS.scale.multiplyScalar(s3);
+    oldS.rotation.set(0.32+0.04*Math.sin(t*0.8),-0.55+0.18*Math.sin(t*0.45),0.05*Math.sin(t*0.6));
+  }
+  // drips during squeeze
+  drips.forEach((d,i)=>{const t0=1.6+i*0.15; const u=t-t0; d.visible=u>0&&u<1.2; if(d.visible){d.position.set(-0.6+i*0.3,wy(900)-0.5-2.4*u*u,0.4);d.material.opacity=0.85*(1-u/1.2);}});
+  // soap blobs falling 4-9s, sit on top, gone at 12
+  blobs.forEach((b,i)=>{const t0=4.0+i*0.55; const u=t-t0; b.visible=u>0&&t<12.2&&oldS.visible;
+    if(b.visible){const landY=wy(900)+0.82+((i%3)*0.18)+(i>5?0.22:0); const startY=wy(150);const fall=cl(u/0.7);const y=startY+(landY-startY)*(fall*fall);
+      const sq=u>0.7?1-0.25*Math.exp(-(u-0.7)*8)*Math.cos((u-0.7)*25):1; b.position.set(-0.75+(i%4)*0.5,y,0.1+((i*13)%5)/12);b.scale.set(1/sq,sq,1/sq);
+      const fade=t>11.8?cl((12.2-t)/0.4):1; b.material.opacity=0.82; b.scale.multiplyScalar(fade);}});
+  // bacteria 12.4-21.8
+  bacs.forEach((b,i)=>{const o=win(t,12.6+i*0.12,21.8,0.4,0.4); b.material.opacity=0.85*o; b.visible=o>0;
+    const a=i/bacs.length*Math.PI*2+t*0.35*(i%2?1:-1); const r=1.55+0.35*Math.sin(t*0.9+i);
+    b.position.set(Math.cos(a)*r*1.0,wy(1010)+Math.sin(a)*r*0.6,0.5+0.4*Math.sin(i));b.rotation.set(t*0.7+i,t*0.5,i);});
+  // new sponge 22.3 -> 32.6, then into basin 46.2 -> 52
+  newS.visible=(t>22.3&&t<32.7)||(t>46.1&&t<52.4);
+  if(newS.visible){let x=0,y=wy(990),s=0.9,rx=0.28,turn=-0.15+0.12*Math.sin(t*0.5),sy=1;
+    if(t<23.2){x=5*(1-eio((t-22.3)/0.9));}
+    if(t>32.0&&t<33){x=5*eio((t-32.0)/0.6);}
+    if(t>46){const by=wy(1120); const k=eio((t-46.1)/0.6); x=0.05; y=by+0.75+2.6*(1-k); s=0.5; rx=0.5; turn=-0.3;
+      if(t>46.8&&t<51.2){sy=1-0.32*Math.abs(Math.sin((t-46.8)*5.2));}
+      if(t>51.8){y-=4*eio((t-51.8)/0.5);}}
+    newS.position.set(x,y,0.15); newS.scale.set(s*(2-sy)*0.5+s*0.5,s*sy,s);
+    newS.rotation.set(rx,turn,0.03*Math.sin(t));
+    drawDate(cl((t-24.0)/2.2));
+  }
+  // dilution bottle 32.2 -> 52
+  dil.visible=t>32.2&&t<52.3;
+  let level=0;
+  if(dil.visible){
+    if(t<36)level=0; else if(t<39.2)level=L5*eio((t-36)/3.2); else if(t<39.6)level=L5; else if(t<42.3)level=L5+(LTOP-L5)*eio((t-39.6)/2.7); else level=LTOP;
+    if(t>45&&t<46.4)level=LTOP-0.18*eio((t-45)/1.4); if(t>=46.4)level=LTOP-0.18;
+    liq.visible=level>0.01; liq.scale.y=Math.max(level,0.001);
+    const gk=t<39.6?0:eio((t-39.6)/2.7); liqMat.color.setRGB(0.66+(0.30-0.66)*gk,0.85+(0.68-0.85)*gk,0.92+(0.32-0.92)*gk);
+    cap.visible=!(t>35.6&&t<42.9);
+    let x=0.85,y=wy(1140),rz=0,sc=0.8;
+    const k=bounce((t-32.2)/0.8); y-=3*(1-cl(k));
+    if(t>42.9&&t<44){rz=0.25*Math.sin((t-42.9)*18)*(1-(t-42.9)/1.1);}
+    if(t>44){const m=eio((t-44)/0.8); sc=0.8; x=0.85+(-1.465-0.85)*m; y=wy(1140)+(0.455-wy(1140))*m; rz=-0.9*eio((t-44.4)/0.6);}
+    if(t>46.3){rz=-0.9+0.9*eio((t-46.3)/0.5); x-=3*eio((t-46.6)/0.6);}
+    if(t>51.6){y-=4*eio((t-51.6)/0.6);}
+    dil.position.set(x,y,0.3); dil.rotation.set(0,0.25*Math.sin(t*0.7),rz); dil.scale.set(sc*(t>45&&t<46.3?1-0.08*Math.abs(Math.sin((t-45)*9)):1),sc,sc);
+  }
+  // Dish Drops bottle: S5 kiri + tuang 39.4-42.4; S7 tengah
+  if(bottle){bottle.visible=(t>32.1&&t<44)||t>52;
+    if(t>32.1&&t<44){const k=bounce((t-32.1)/0.8);let x=-0.95,y=wy(800)-3*(1-cl(k)),rz=0;
+      const pin=eio((t-39.0)/0.6), pout=eio((t-42.4)/0.6); const p=t<42.4?pin:1-pout;
+      x+=(-0.09+0.95)*p; y+=(1.55-wy(800))*p; rz=-1.75*p;
+      if(t>43.3){y-=4*eio((t-43.3)/0.6);}
+      bottle.position.set(x,y,0.5);bottle.rotation.set(0,0.35*Math.sin(t*0.9)*(1-p),rz);bottle.scale.setScalar((0.92+0.08*cl(k))*(1-0.25*p));}
+    if(t>52){const k=bounce((t-52)/0.8);bottle.position.set(-0.05,wy(880)-2.5*(1-cl(k)),0.4);bottle.rotation.set(0,0.4*Math.sin((t-52)*1.3),0);bottle.scale.setScalar(1.1*(0.9+0.1*cl(k)));}}
+  // streams
+  {const surf=wy(1140)+(0.03+level)*0.8;
+   waterS.visible=false;soapS.visible=false;squeezeS.visible=false;
+   if(t>35.9&&t<39.3)setStream(waterS,0.85,wy(420),surf+0.02);
+   if(t>39.6&&t<42.3)setStream(soapS,0.85,wy(1140)+0.8*(BH+0.2)+0.3,surf+0.02);
+   if(t>44.9&&t<46.3)setStream(squeezeS,-0.15,1.5,wy(1120)+0.66+0.1);}
+  // basin 44.2 -> 52.4
+  basin.visible=t>44.2&&t<52.6;
+  if(basin.visible){const k=bounce((t-44.2)/0.7); let y=wy(1120)-3*(1-cl(k)); if(t>51.9)y-=4*eio((t-51.9)/0.6);
+    basin.position.set(0,y,0); basin.rotation.set(0.42,0,0); basin.scale.setScalar(0.95);
+    const gk=eio((t-45.2)/1.2); bwMat.color.setRGB(0.75+(0.62-0.75)*gk,0.89+(0.86-0.89)*gk,0.94+(0.72-0.94)*gk);
+    foam.forEach(f=>{const d=f.userData;const u=t-d.t0;f.visible=u>0;if(f.visible){const g=eo(u/0.6);f.position.set(d.x,0.68+d.h*g+0.03*Math.sin(t*3+d.x*5),d.z);f.scale.setScalar(d.s*g);}});}
+  // bubbles from basin
+  bubMat.uniforms.uT.value=t;
+  bubs.forEach(b=>{const d=b.userData;const u=t-d.t0;b.visible=u>0&&u<10&&t<56.7;
+    if(b.visible){const grow=eo(u/0.5);const sx=d.x*0.6, sy=wy(1120)+0.9;b.position.set(sx+0.3*Math.sin(u*2+d.ph),sy+u*d.sp,1.2+0.5*Math.sin(d.ph));
+      const life=u>8?cl((10-u)/2):1; const pop=t>56.3?cl((56.7-t)/0.4):1; b.scale.setScalar(d.s*grow*life*pop);}});
+  // shadow
+  {let show=0,cx=540,cy=1110,w=420;
+   if(t<32.6){const S=newS.visible&&t>22.9?newS:oldS; const sc=S.scale.x; cx=540+S.position.x/PX; cy=960-(S.position.y-0.62*sc)/PX; w=440*sc; show=(S.visible?1:0)*cl(1-Math.abs(S.position.x)/4);}
+   else if(basin.visible){cx=540;cy=960-(basin.position.y-0.05)/PX;w=900;show=cl(1-Math.abs(basin.position.y-wy(1120))/2);}
+   else if(t>52){cx=540;cy=960-(bottle.position.y-1.45)/PX;w=330;show=cl((t-52.3)/0.4);}
+   sh.style.left=(cx-w/2)+'px';sh.style.top=(cy-20)+'px';sh.style.width=w+'px';sh.style.height=(w*0.16)+'px';sh.style.opacity=show;}
+  renderer.render(scene,cam);
+};
+await document.fonts.load("700 150px Caveat");await document.fonts.load("700 92px Fredoka");await document.fonts.load("800 54px Nunito");await document.fonts.ready;
+await bottleReady;
+await Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>i.onload=r)));
+window.renderAt(0); window.READY=true;
+</script>
+</body>
+</html>

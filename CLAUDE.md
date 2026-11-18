@@ -27,6 +27,7 @@ Peraturan ini mengatasi semua arahan lain dalam repo ini.
 | `TEMPLATES/KONTEN_HARIAN.md` | 3–5 konten sehari: personal branding, soft-sell, hard-sell, interaksi, testimoni |
 | `TEMPLATES/PENULISAN_PLATFORM.md` | Gaya dan had aksara Threads (bebenang), Facebook, Instagram + formula hard-sell |
 | `KALENDAR_PENULISAN/` | Kalendar konten 30 hari (fokus bulan ini: BodyKey Nutritious Meal Shake formula baharu; 🔥 siri trending Tidur, Otak & Usus diselang sehari atau dua hari mulai Hari 8, semakan podcast dalam `PODCAST_SEMAKAN.md`): setiap hari 1 video storytelling (Flow) + 2 video motion grafik + 1 carousel + 4 teks (+ WhatsApp) + 1 produk penyelesai masalah, satu topik (fail `MINGGU_*.md` siap salin, `HARI_*.md` rancangan) + 20 masalah audiens (`masalah_data.py`). Edit `kalendar_data.py` (susunan hari dalam `SUSUNAN`), jalankan `python3 KALENDAR_PENULISAN/bina.py` |
+| `VIDEO_3D/` | Video grafik 3D dirender terus ke MP4 (three.js + Playwright + ffmpeg). Contoh: `hari07-span.html`. Cara render & peraturan dalam `VIDEO_3D/README.md` |
 | `TEMPLATES/TEKNIK_PENULISAN.md` | Teknik hook, cerita, soft-sell, interaksi, hard-sell dan video personal branding |
 | `CLAUDE_PROJECT/ARAHAN_PROJECT.md` | Cara sediakan Claude Project untuk konten harian + custom instructions |
 
