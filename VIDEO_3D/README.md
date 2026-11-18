@@ -6,6 +6,7 @@ Gaya ikut `TEMPLATES/MOTION_GRAPHICS_KIT/` (palet, font, safe zone) dan peratura
 | Fail | Isi |
 |---|---|
 | `hari07-span.html` | Hari 7, span dapur (57 s): span lama → kajian 2017 → span baharu bertarikh → cairkan Dish Drops dalam botol picit 1:5 → besen berbuih → produk + CTA |
+| `hari08-tidur.html` | Hari 8, 🔥 siri Tidur & Otak (44 s, tema malam): telefon podcast trending → sel otak 3D (ruang +60%, Xie et al. 2013, kajian haiwan) → cecair otak membawa sisa → bulan "tidur bukan sekadar rehat" (masih dikaji) → shake pisang BodyKey sebagai makan malam ringan → produk + CTA |
 | `render.js` | Render HTML ke MP4 (1080×1920, 30 fps, H.264, audio senyap) |
 | `fonts/`, `fonts_local.css` | Fredoka, Nunito, Caveat (Google Fonts, lesen OFL) disimpan setempat |
 
