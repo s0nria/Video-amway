@@ -81,7 +81,9 @@ Dipetik daripada https://www.amway.my/compliance/principles-etiquette-of-using-s
 | "misrepresentations of income and rewards are not allowed." | Tiada dakwaan pendapatan |
 | "AMWAY will not allow the use of its trademarks or trade names as profile names or page names." | Nama akaun kekal "Momyizz", jangan guna nama Amway / Nutrilite / Artistry |
 
-**Perlu disahkan dengan Amway Malaysia / upline:** ayat CTA video "Nak dapatkan produk? Klik LINK di Bio" (adakah dikira ajakan di ruang awam), proses semakan video, dan penggunaan gambar produk rakaman sendiri.
+**Status ambassador — DISAHKAN pengguna (18 Nov 2026):** Momyizz ialah ambassador produk Amway dan perlu menunjukkan produk sebenar yang dipromosikan. Menunjukkan botol / pek produk sebenar (rakaman sendiri atau gambar asli) dalam video dan gambar adalah dibenarkan dan digalakkan.
+
+**Perlu disahkan dengan Amway Malaysia / upline:** ayat CTA video "Nak dapatkan produk? Klik LINK di Bio" (adakah dikira ajakan di ruang awam) dan proses semakan video.
 
 ## CTA & pautan — DISAHKAN
 - Teks CTA penutup video (tepat, jangan ubah): **"Nak dapatkan produk? Klik LINK di Bio"**. CTA terus (PM / order) hanya di ruang tertutup.
@@ -91,7 +93,7 @@ Dipetik daripada https://www.amway.my/compliance/principles-etiquette-of-using-s
 ## Key selling produk — DISAHKAN
 Setiap konten yang berkaitan dengan produk mesti ada sekurang-kurangnya satu key selling. Senarai yang dah disahkan (dengan sumber amway.my) dan ayat yang dilarang: `AMWAY_BRAND/KEY_SELLING.md`. Konten awam sebut ciri sahaja tanpa nama produk; nama produk hanya di ruang tertutup.
 
-**Produk dalam video — DISAHKAN pengguna (18 Nov 2026):** botol dan jenama BOLEH kelihatan dalam rakaman / gambar sendiri. Nama produk atau jenama TIDAK disebut dalam sari kata, teks atas skrin, voiceover, caption atau teks awam. **Video animasi kartun:** produk tetap guna gambar botol asli (bukan dilukis semula atau dikartunkan), simpan dalam `AMWAY_BRAND/PRODUK/`. Tetap tertakluk kepada perkara "Perlu disahkan dengan Amway Malaysia / upline" di atas (gambar produk rakaman sendiri, semakan video).
+**Produk dalam video — DISAHKAN pengguna (18 Nov 2026):** botol dan jenama BOLEH kelihatan dalam rakaman / gambar sendiri. Nama produk atau jenama TIDAK disebut dalam sari kata, teks atas skrin, voiceover, caption atau teks awam. **Video animasi kartun:** produk tetap guna gambar botol asli (bukan dilukis semula atau dikartunkan), simpan dalam `AMWAY_BRAND/PRODUK/`. Momyizz ialah ambassador produk Amway, jadi produk sebenar memang perlu ditunjukkan.
 
 ## Peraturan ketepatan maklumat produk — DISAHKAN
 1. **People first, product second.** Mula dengan situasi hidup sebenar; produk hanya jika berkaitan secara munasabah.

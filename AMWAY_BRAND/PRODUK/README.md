@@ -10,7 +10,7 @@ Simpan gambar produk **asli** di sini untuk digunakan dalam video biasa dan vide
 
 **Sumber gambar (ikut keutamaan):**
 1. Gambar botol sebenar yang Momyizz ambil sendiri, latar dibuang.
-2. Gambar produk rasmi dari amway.my. Perlu disahkan dengan Amway Malaysia / upline dahulu (lihat `../BRAND.md`).
+2. Gambar produk asli dari bahan rasmi Amway (Momyizz ialah ambassador produk Amway, lihat `../BRAND.md`).
 
 **Nama fail:** `nama-produk-saiz.png`, contoh `dish-drops-1l.png`, `soy-protein-drink.png`.
 
