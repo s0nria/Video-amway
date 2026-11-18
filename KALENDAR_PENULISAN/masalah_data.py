@@ -238,7 +238,8 @@ MASALAH = [
 ]
 
 
-# Hari kalendar dianjak +7 mulai Hari 7 kerana siri trending Tidur, Otak & Usus (Hari 7-13).
-_TAMBAH = {1: [7, 8, 10], 11: [7, 8, 9, 10], 13: [11], 6: [12], 8: [13], 12: [8]}
+# Hari kalendar dianjak +13 mulai Hari 7 kerana siri trending Tidur, Otak & Usus (Hari 7-19).
+_TAMBAH = {1: [7, 8, 11], 3: [15], 4: [8, 14, 17], 6: [10], 7: [14, 18], 8: [18, 19], 11: [7, 8, 9, 10, 11, 12],
+           12: [17, 18], 13: [13], 19: [14, 15], 20: [18]}
 for _m in MASALAH:
-    _m["hari"] = sorted(set([h + 7 if h >= 7 else h for h in _m["hari"]] + _TAMBAH.get(_m["n"], [])))
+    _m["hari"] = sorted(set([h + 13 if h >= 7 else h for h in _m["hari"]] + _TAMBAH.get(_m["n"], [])))

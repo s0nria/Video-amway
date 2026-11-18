@@ -11,7 +11,8 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
-from kalendar_data import DAYS, JENIS_TEKS, MG_FULL, MG_PLAN, MG_INFO  # noqa: E402
+from kalendar_data import DAYS, JENIS_TEKS, MG_FULL, MG_PLAN, MG_INFO, TRENDING  # noqa: E402
+T_AKHIR = 6 + len(TRENDING)
 from masalah_data import MASALAH, CARA_BETUL, SUMBER  # noqa: E402
 
 LIMIT_TH, LIMIT_IG, LIMIT_SLAID = 500, 2200, 260
@@ -140,7 +141,7 @@ def carousel_text(c):
 
 
 def md_week1(days):
-    L = ["# Kalendar Konten — Hari 1 hingga 14 (siap salin)", "",
+    L = [f"# Kalendar Konten — Hari 1 hingga {T_AKHIR + 1} (siap salin)", "",
          "Setiap hari satu topik: **🎥 1 video storytelling · 🎞️ 2 video motion grafik · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.",
          "Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.",
          "Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).", ""]
@@ -186,7 +187,7 @@ def md_week1(days):
 
 
 def md_plan(days):
-    L = ["# Kalendar Konten — Hari 15 hingga 37 (rancangan)", "",
+    L = [f"# Kalendar Konten — Hari {T_AKHIR + 2} hingga {len(DAYS)} (rancangan)", "",
          "Format sama seperti Minggu 1: 🎥 video storytelling · 🎞️ 2 motion grafik · 🖼️ carousel · ✍️ 4 teks (+ 💬 WhatsApp).",
          "Teks penuh dijana dengan Claude: tab **Tulis** → pilih hari → **Salin arahan untuk Claude** → tampal dalam Claude Project.", ""]
     for day in days:
@@ -207,10 +208,11 @@ def md_plan(days):
 
 def md_index(days):
     L = ["# Kalendar Konten Momyizz", "",
-         "**Hari 7–13: 🔥 Siri trending Tidur, Otak & Usus** (diilhamkan oleh podcast tidur & otak yang viral; fakta dari sumber rasmi sahaja). Kandungan asal dianjak ke Hari 14–37.", "",
+         f"**Hari 7–{T_AKHIR}: 🔥 Siri trending Tidur, Otak & Usus** (diilhamkan oleh podcast tidur & otak yang viral; fakta dari sumber rasmi sahaja, semakan dakwaan dalam `PODCAST_SEMAKAN.md`). Kandungan asal dianjak ke Hari {T_AKHIR + 1}–{len(DAYS)}.", "",
          "| Fail | Isi |", "|---|---|",
-         "| `MINGGU_1.md` | Hari 1–14 (termasuk siri trending Hari 7–13): skrip video storytelling, 2 skrip motion grafik, teks carousel, 4 teks, WhatsApp + checklist |",
-         "| `HARI_08-30.md` | Hari 15–37: rancangan setiap konten |",
+         f"| `MINGGU_1.md` | Hari 1–{T_AKHIR + 1} (termasuk siri trending Hari 7–{T_AKHIR}): skrip video storytelling, 2 skrip motion grafik, teks carousel, 4 teks, WhatsApp + checklist |",
+         f"| `HARI_08-30.md` | Hari {T_AKHIR + 2}–{len(DAYS)}: rancangan setiap konten |",
+         "| `PODCAST_SEMAKAN.md` | Semakan dakwaan podcast tidur & otak (sumber siri trending) |",
          "| `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |",
          "| `masalah_data.py` | Sumber data 20 masalah |",
          "| `kalendar_data.py` | Sumber data kalendar (edit di sini) |",

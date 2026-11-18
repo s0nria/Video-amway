@@ -1,11 +1,12 @@
 # Kalendar Konten Momyizz
 
-**Hari 7–13: 🔥 Siri trending Tidur, Otak & Usus** (diilhamkan oleh podcast tidur & otak yang viral; fakta dari sumber rasmi sahaja). Kandungan asal dianjak ke Hari 14–37.
+**Hari 7–19: 🔥 Siri trending Tidur, Otak & Usus** (diilhamkan oleh podcast tidur & otak yang viral; fakta dari sumber rasmi sahaja, semakan dakwaan dalam `PODCAST_SEMAKAN.md`). Kandungan asal dianjak ke Hari 20–43.
 
 | Fail | Isi |
 |---|---|
-| `MINGGU_1.md` | Hari 1–14 (termasuk siri trending Hari 7–13): skrip video storytelling, 2 skrip motion grafik, teks carousel, 4 teks, WhatsApp + checklist |
-| `HARI_08-30.md` | Hari 15–37: rancangan setiap konten |
+| `MINGGU_1.md` | Hari 1–20 (termasuk siri trending Hari 7–19): skrip video storytelling, 2 skrip motion grafik, teks carousel, 4 teks, WhatsApp + checklist |
+| `HARI_08-30.md` | Hari 21–43: rancangan setiap konten |
+| `PODCAST_SEMAKAN.md` | Semakan dakwaan podcast tidur & otak (sumber siri trending) |
 | `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |
 | `masalah_data.py` | Sumber data 20 masalah |
 | `kalendar_data.py` | Sumber data kalendar (edit di sini) |
@@ -38,31 +39,37 @@ Produk tidak muncul dalam konten awam (peraturan Amway Malaysia, `AMWAY_BRAND/BR
 | 7 | 🔥 | Tidur: masa otak 'membersihkan diri' |  | Siap salin |
 | 8 | 🔥 | Berapa jam tidur ibu & anak |  | Siap salin |
 | 9 | 🔥 | Skrin & cahaya malam |  | Siap salin |
-| 10 | 🔥 | Kafein & tidur |  | Siap salin |
-| 11 | 🔥 | Usus & otak saling berhubung | ✓ | Siap salin |
-| 12 | 🔥 | Makanan untuk otak: omega-3 & ikan tempatan | ✓ | Siap salin |
-| 13 | 🔥 | Jantung, otak & tidur: rumusan siri |  | Siap salin |
-| 14 | 3 | Span dapur & kebersihan dapur | ✓ | Siap salin |
-| 15 | 3 | Papan pemotong & kain lap | ✓ | Rancangan |
-| 16 | 3 | Kesilapan dapur yang biasa |  | Rancangan |
-| 17 | 4 | Panaskan bekal dalam bekas plastik |  | Rancangan |
-| 18 | 4 | Bekal sihat ke pejabat |  | Rancangan |
-| 19 | 4 | Cara baca berita kesihatan (bahagian 2) |  | Rancangan |
-| 20 | 5 | Minum air cukup |  | Rancangan |
-| 21 | 5 | Cabaran Air 7 hari | ✓ | Rancangan |
-| 22 | 5 | Dehidrasi & letih |  | Rancangan |
-| 23 | 6 | Rutin kulit 5 minit |  | Rancangan |
-| 24 | 6 | SPF setiap hari | ✓ | Rancangan |
-| 25 | 6 | Skincare: konsisten lebih penting |  | Rancangan |
-| 26 | 7 | Air botol plastik: kajian 2024 |  | Rancangan |
-| 27 | 7 | Air minuman keluarga |  | Rancangan |
-| 28 | 7 | Rumusan siri mikroplastik |  | Rancangan |
-| 29 | 8 | Vitamin C setiap hari |  | Rancangan |
-| 30 | 8 | Mitos vitamin C | ✓ | Rancangan |
-| 31 | 8 | Vitamin C & zat besi |  | Rancangan |
-| 32 | 9 | Duduk terlalu lama |  | Rancangan |
-| 33 | 9 | Gerak bersama keluarga |  | Rancangan |
-| 34 | 9 | Kuatkan otot |  | Rancangan |
-| 35 | 10 | Kulit dari dalam |  | Rancangan |
-| 36 | 10 | Omega-3 & ikan tempatan | ✓ | Rancangan |
-| 37 | 10 | Refleksi sebulan | ✓ | Rancangan |
+| 10 | 🔥 | Bilik tidur & posisi tidur yang bantu lena |  | Siap salin |
+| 11 | 🔥 | Tidur sekejap (nap) 20–30 minit |  | Siap salin |
+| 12 | 🔥 | Kafein & tidur |  | Siap salin |
+| 13 | 🔥 | Usus & otak saling berhubung | ✓ | Siap salin |
+| 14 | 🔥 | Pewarna, pemanis & MSG: fakta vs viral |  | Siap salin |
+| 15 | 🔥 | Sarapan untuk otak: telur, oat & bijirin | ✓ | Siap salin |
+| 16 | 🔥 | Makanan untuk otak: omega-3 & ikan tempatan | ✓ | Siap salin |
+| 17 | 🔥 | Media sosial, notifikasi & anak |  | Siap salin |
+| 18 | 🔥 | Jaga otak dari sekarang: 14 faktor demensia |  | Siap salin |
+| 19 | 🔥 | Jantung, otak & tidur: rumusan siri |  | Siap salin |
+| 20 | 3 | Span dapur & kebersihan dapur | ✓ | Siap salin |
+| 21 | 3 | Papan pemotong & kain lap | ✓ | Rancangan |
+| 22 | 3 | Kesilapan dapur yang biasa |  | Rancangan |
+| 23 | 4 | Panaskan bekal dalam bekas plastik |  | Rancangan |
+| 24 | 4 | Bekal sihat ke pejabat |  | Rancangan |
+| 25 | 4 | Cara baca berita kesihatan (bahagian 2) |  | Rancangan |
+| 26 | 5 | Minum air cukup |  | Rancangan |
+| 27 | 5 | Cabaran Air 7 hari | ✓ | Rancangan |
+| 28 | 5 | Dehidrasi & letih |  | Rancangan |
+| 29 | 6 | Rutin kulit 5 minit |  | Rancangan |
+| 30 | 6 | SPF setiap hari | ✓ | Rancangan |
+| 31 | 6 | Skincare: konsisten lebih penting |  | Rancangan |
+| 32 | 7 | Air botol plastik: kajian 2024 |  | Rancangan |
+| 33 | 7 | Air minuman keluarga |  | Rancangan |
+| 34 | 7 | Rumusan siri mikroplastik |  | Rancangan |
+| 35 | 8 | Vitamin C setiap hari |  | Rancangan |
+| 36 | 8 | Mitos vitamin C | ✓ | Rancangan |
+| 37 | 8 | Vitamin C & zat besi |  | Rancangan |
+| 38 | 9 | Duduk terlalu lama |  | Rancangan |
+| 39 | 9 | Gerak bersama keluarga |  | Rancangan |
+| 40 | 9 | Kuatkan otot |  | Rancangan |
+| 41 | 10 | Kulit dari dalam |  | Rancangan |
+| 42 | 10 | Omega-3 & ikan tempatan | ✓ | Rancangan |
+| 43 | 10 | Refleksi sebulan | ✓ | Rancangan |

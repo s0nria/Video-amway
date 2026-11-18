@@ -787,4 +787,274 @@ def _susun():
     DAYS, MG_FULL, MG_PLAN = baru, mgf2, mgp2
 
 
+
+# ================================================================ TAMBAHAN SIRI TRENDING (selepas transkrip podcast disemak)
+# Topik di bawah dipilih daripada isi sebenar podcast (lihat PODCAST_SEMAKAN.md). Fakta dari sumber rasmi sahaja.
+TRENDING_BARU = [
+{"d": "N1", "ep": None, "tema": "Bilik tidur & posisi tidur yang bantu lena",
+ "video": {"tajuk": "5 benda yang Momyizz ubah dalam bilik tidur", "nota": CERITA + " " + TREND_NOTA + " Sticker: 19-blazer-thumbs-up.",
+  "babak": [
+   ("0–3s", "Bilik tidur malam, Momyizz pegang telefon & remote aircond", "Tidur 8 jam tapi bangun macam tak tidur? Semak bilik korang 🛏️"),
+   ("3–15s", "Momyizz cas telefon di luar bilik, padam lampu tidur", "Satu: telefon keluar bilik. Dua: bilik gelap, tiada lampu tidur."),
+   ("15–27s", "Momyizz laras suhu bilik, kipas perlahan", "Tiga: bilik sejuk dan selesa. Empat: mandi suam atau ambil wuduk sebelum tidur."),
+   ("27–38s", "Momyizz baring mengiring", "Lima: kalau selalu berdengkur, cuba tidur mengiring. Tidur telentang boleh buat dengkur lebih teruk."),
+   ("38–45s", "Momyizz tarik selimut, senyum", "Ubah satu dulu malam ni 🌙 | " + DISC),
+  ],
+  "caption": "5 perubahan kecil dalam bilik tidur Momyizz. Mana satu korang nak cuba? 👇\n\nSumber: CDC; AASM.\n" + DISC + "\n\n#Momyizz #Tidur #BilikTidur"},
+ "carousel": {"tajuk": "Bilik tidur ideal: fakta vs viral",
+  "slaid": [
+   "BILIK TIDUR IDEAL 🛏️\nFakta vs viral",
+   "GELAP & SENYAP\nCDC: bilik tidur yang gelap, senyap dan selesa bantu tidur.\n🟢 Terbukti",
+   "SEJUK\nBilik yang sejuk dan selesa bantu lena. Kajian kecil (2014): bilik 19°C sebulan tingkatkan 'lemak perang'.\n🟠 Kajian awal",
+   "MANDI SUAM\nMandi suam 1–2 jam sebelum tidur boleh bantu lebih cepat lelap.\n🟠 Kajian (2019)",
+   "MULUT DIPLASTER?\nViral, tapi kajian 2025: bukti sedikit dan ada risiko jika hidung tersumbat.\n🔴 Bukti belum cukup",
+   "BERDENGKUR TERUK?\nCuba tidur mengiring & jumpa doktor untuk saringan apnea tidur.\nSave 🌙\n\n" + DISC,
+  ],
+  "caption": "Bilik tidur ideal ikut fakta. Save & semak bilik korang 🛏️\n\nSumber: CDC; Lee et al. (2014); Haghayegh et al. (2019); PLOS One (2025).\n" + DISC + "\n\n#Momyizz #Tidur #FaktaBukanPanik"},
+ "teks": [
+  "Info ringkas: CDC menyarankan bilik tidur yang senyap, gelap, tenang dan suhu yang selesa. Empat perkara ini nampak mudah, tapi ramai terlepas satu atau dua. 🛏️",
+  "Soalan: korang tidur posisi apa? 😴\n\n⬆️ Telentang\n⬅️ Mengiring kiri\n➡️ Mengiring kanan\n⬇️ Meniarap\n\nMomyizz mengiring kanan, tapi selalu bangun dah telentang. 😂",
+  "Tips bilik lebih gelap tanpa belanja besar 💡\n\n✅ Tutup lampu tidur, guna lampu kecil di koridor jika perlu\n✅ Langsir tebal atau tampal kertas gelap di tingkap\n✅ Tutup cahaya LED dari charger & TV\n✅ Penutup mata pun boleh",
+  "Info penting: plaster mulut waktu tidur tengah viral. ⚠️\n\nKajian ulasan 2025 dapati buktinya sedikit, dan ia boleh berbahaya jika hidung tersumbat. Kalau selalu bernafas ikut mulut atau berdengkur kuat, jumpa doktor dulu.",
+ ]},
+
+{"d": "N2", "ep": None, "tema": "Tidur sekejap (nap) 20–30 minit",
+ "video": {"tajuk": "Ganti 'lunch berat' dengan nap 20 minit", "nota": CERITA + " " + TREND_NOTA + " Sticker: 08-satin-thumbs-up.",
+  "babak": [
+   ("0–3s", "Momyizz menguap depan laptop pukul 2 petang", "Pukul 2 petang, mata dah berat… 😪"),
+   ("3–15s", "Teks atas skrin + animasi kapal terbang (Flow)", "Kajian NASA (1995): juruterbang yang tidur sekejap ~26 minit, kewaspadaan naik sehingga 54%."),
+   ("15–28s", "Momyizz set penggera 20 minit, baring di bilik rehat", "Rahsianya: pendek. Lebih 30 minit, bangun boleh jadi lebih mamai."),
+   ("28–40s", "Momyizz bangun segar, sambung kerja", "Dan buat awal petang, bukan lewat petang, supaya tak ganggu tidur malam."),
+   ("40–45s", "Momyizz ke kamera", "Nap pendek, bukan nap panjang 😉"),
+  ],
+  "caption": "Nap 20–30 minit: rahsia petang lebih segar. Korang team nap atau team kopi? 👇\n\nSumber: NASA (Rosekind et al.).\n#Momyizz #Nap #IbuBekerja"},
+ "carousel": {"tajuk": "Cara nap yang betul",
+  "slaid": [
+   "NAP YANG BETUL 😴\nSupaya bangun segar, bukan mamai",
+   "BERAPA LAMA?\n20–30 minit. Kajian NASA: ~26 minit tingkatkan kewaspadaan sehingga 54% (juruterbang).\n🟢 Kajian",
+   "BILA?\nAwal petang. Nap lewat petang boleh ganggu tidur malam.",
+   "KENAPA BUKAN LAMA?\nNap panjang boleh buat 'mamai' (sleep inertia) selepas bangun.",
+   "TAK BOLEH LELAP?\nBaring rehat mata 10–20 minit pun membantu badan berehat.",
+   "INGAT\nNap bukan pengganti tidur malam yang cukup.\nSave 😴\n\n" + DISC,
+  ],
+  "caption": "Cara nap yang betul supaya bangun segar. Save 😴\n\nSumber: NASA Ames (Rosekind et al.).\n" + DISC + "\n\n#Momyizz #Nap #Tidur"},
+ "teks": [
+  "Info ringkas: kajian NASA dapati juruterbang yang tidur sekejap kira-kira 26 minit menunjukkan kewaspadaan meningkat sehingga 54% berbanding yang tak tidur. 😴✈️",
+  "Soalan: korang sempat nap tak waktu kerja? 😪\n\n✅ Selalu\n🙂 Kadang-kadang\n❌ Tak pernah\n🙈 Nap dalam kereta masa rehat\n\nMomyizz: kadang-kadang, dalam kereta! 😂",
+  "Tips nap di pejabat 💡\n\n✅ Set penggera 20 minit\n✅ Guna penutup mata atau kain gelap\n✅ Kalau minum kopi, minum sebelum nap (kopi ambil masa untuk berkesan)\n✅ Bangun, terus basuh muka & gerak sikit",
+  "Info penting: mengantuk teruk setiap hari walaupun tidur malam cukup boleh jadi tanda masalah tidur. ⚠️\n\nJangan terus tambah kopi. Jumpa doktor; klinik tidur di hospital boleh buat kajian tidur dengan surat rujukan doktor.",
+ ]},
+
+{"d": "N3", "ep": None, "tema": "Pewarna, pemanis & MSG: fakta vs viral",
+ "video": {"tajuk": "Momyizz baca label snek anak", "nota": CERITA + " " + TREND_NOTA + " Sticker: 14-blazer-tutup-mulut.",
+  "babak": [
+   ("0–3s", "Momyizz terbalikkan paket snek warna-warni", "Snek warna-warni ni… apa sebenarnya dalam dia? 🤔"),
+   ("3–15s", "Close-up label kod E (pewarna)", "Kajian Southampton (2007): campuran pewarna tiruan tertentu dikaitkan dengan hiperaktif pada sesetengah kanak-kanak."),
+   ("15–28s", "Momyizz pegang minuman 'zero sugar'", "Pemanis tiruan? WHO (2023) tak syorkan ia untuk kawal berat badan."),
+   ("28–40s", "Momyizz susun snek buah & kacang", "MSG pula diklasifikasikan selamat oleh FDA pada jumlah biasa. Yang penting: kurangkan makanan ultra-proses."),
+   ("40–45s", "Momyizz ke kamera", "Baca label, bukan panik 🌿 | " + DISC),
+  ],
+  "caption": "Pewarna, pemanis, MSG: mana fakta, mana viral? 🌿\n\nSumber: McCann et al. (2007) Lancet; WHO (2023); FDA.\n" + DISC + "\n\n#Momyizz #BacaLabel #FaktaBukanPanik"},
+ "carousel": {"tajuk": "3 bahan tambahan: apa kata kajian",
+  "slaid": [
+   "PEWARNA, PEMANIS & MSG 🧪\nApa kata kajian?",
+   "PEWARNA TIRUAN\nKajian 2007 (Lancet): campuran pewarna tertentu + pengawet dikaitkan dengan hiperaktif pada sesetengah kanak-kanak.\n🟠 Kajian",
+   "PEMANIS TIRUAN\nWHO (2023): tidak disyorkan untuk mengawal berat badan.\nKesan pada bakteria usus: 🟠 Kajian awal",
+   "MSG\nFDA: diiktiraf selamat pada jumlah biasa. Dakwaan 'MSG rosakkan otak': 🔴 Bukti belum cukup",
+   "GULA 'SIHAT'?\nGula kelapa, madu, gula perang tetap gula bebas. WHO: hadkan bawah 10% tenaga harian.",
+   "PILIHAN TERBAIK\nLebih banyak makanan sebenar, kurang makanan ultra-proses.\nSave 🌿\n\n" + DISC,
+  ],
+  "caption": "Fakta ringkas tentang pewarna, pemanis & MSG. Save sebelum shopping 🛒\n\nSumber: McCann et al. (2007); WHO (2023); FDA.\n" + DISC + "\n\n#Momyizz #BacaLabel #MakananSihat"},
+ "teks": [
+  "Info ringkas: WHO (2023) tidak mengesyorkan pemanis tiruan untuk mengawal berat badan. Air kosong tetap pilihan terbaik untuk hilangkan dahaga. 💧",
+  "Soalan jujur: korang baca label sebelum beli snek anak? 🛒\n\n✅ Selalu\n🙂 Kadang-kadang\n❌ Tak pernah\n\nMomyizz baru mula minggu ni, dan terkejut! 😳",
+  "Tips baca label dalam 10 saat 💡\n\n✅ Senarai ramuan disusun dari paling banyak ke paling sedikit\n✅ Gula di 3 tempat pertama? Fikir dua kali\n✅ Senarai panjang dengan nama susah disebut = makanan sangat diproses\n✅ Pilih yang ramuannya pendek",
+  "Info penting untuk ibu bapa: kalau anak nampak lebih hiperaktif selepas makan snek berwarna terang, cuba kurangkan dan perhatikan. ⚠️\n\nKesan berbeza pada setiap anak (Southampton, 2007). Rujuk doktor jika risau tentang tingkah laku anak.",
+ ]},
+
+{"d": "N4", "ep": None, "tema": "Sarapan untuk otak: telur, oat & bijirin",
+ "video": {"tajuk": "Telur setiap pagi: kebiasaan lama yang ada sains", "nota": CERITA + " " + TREND_NOTA + " Sticker: 18-blazer-semangat.",
+  "babak": [
+   ("0–3s", "Telur separuh masak + roti gandum, kicap sikit", "Dulu mak suruh makan telur setiap pagi. Rupanya ada sains 🥚"),
+   ("3–15s", "Momyizz bercakap ke kamera", "Kuning telur kaya kolin. Badan guna kolin untuk hasilkan asetilkolin, bahan kimia otak untuk ingatan dan otot (NIH)."),
+   ("15–28s", "Momyizz masak oat dengan buah", "Oat dan barli pula ada beta-glukan, serat yang bantu kurangkan kolesterol LDL."),
+   ("28–40s", "Pinggan sarapan lengkap", "Telur + bijirin penuh + buah. Simple, murah, kenyang lama."),
+   ("40–45s", "Momyizz ke kamera", "Sarapan otak tak perlu mahal 💛 | " + DISC),
+  ],
+  "caption": "Sarapan untuk otak versi bajet: telur, oat, buah 🥚🥣\n\nSumber: NIH Office of Dietary Supplements.\n" + DISC + "\n\n#Momyizz #SarapanSihat #KesihatanOtak"},
+ "carousel": {"tajuk": "4 makanan sarapan & fungsinya",
+  "slaid": [
+   "SARAPAN UNTUK OTAK 🧠\n4 makanan & fungsinya",
+   "TELUR\nKuning telur kaya kolin, diperlukan untuk menghasilkan asetilkolin (NIH).\n🟢 Terbukti",
+   "OAT & BARLI\nBeta-glukan, serat yang bantu kurangkan kolesterol LDL.\n🟢 Terbukti",
+   "PISANG, IKAN, KEKACANG\nSumber vitamin B6, diperlukan untuk menghasilkan bahan kimia otak (NIH).\n🟢 Terbukti",
+   "COKLAT GELAP?\nFlavanol koko & ingatan: kajian kecil. Coklat tetap ada gula & kalori.\n🟠 Kajian awal",
+   "FORMULA MUDAH\nProtein + bijirin penuh + buah.\nSave 🥚\n\n" + DISC,
+  ],
+  "caption": "4 makanan sarapan untuk otak, dengan label bukti. Save 🧠\n\nSumber: NIH ODS (kolin, vitamin B6); FDA (beta-glukan).\n" + DISC + "\n\n#Momyizz #SarapanSihat #FaktaBukanPanik"},
+ "teks": [
+  "Info ringkas: kuning telur antara sumber kolin terbaik. Badan guna kolin untuk menghasilkan asetilkolin, bahan kimia yang penting untuk ingatan dan pergerakan otot. (NIH) 🥚",
+  "Soalan: telur pagi korang suka macam mana? 🥚\n\n🍳 Goreng\n🥚 Rebus\n🫕 Separuh masak\n🍳 Dadar dengan sayur\n\nMomyizz: separuh masak + kicap! 😋",
+  "Tips telur dadar penuh sayur dalam 5 minit 💡\n\n✅ 2 biji telur + bawang + sawi / bayam cincang\n✅ Tambah sedikit lada hitam\n✅ Masak dengan minyak sedikit\n✅ Makan dengan roti gandum\n\nProtein + sayur dalam satu pinggan!",
+  "Info penting: produk 'pil minda' atau 'booster otak' banyak dijual. ⚠️\n\nSemak nombor pendaftaran MAL dan dakwaannya. Tiada pil yang menggantikan tidur cukup, makanan seimbang dan bergerak.",
+ ],
+ "wa": {"tajuk": "Nutrilite Soy Protein Drink (pilihan protein sarapan)", "nota": "Ruang tertutup sahaja. Tiada dakwaan otak / ingatan. Fakta & harga dari amway.my hari ini.",
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal sarapan untuk otak: telur, oat dan buah. Ada yang tanya, macam mana kalau pagi betul-betul tak sempat?\n\nPilihan protein tambahan yang Momyizz guna: *Nutrilite Soy Protein Drink*\n• Perisa: [semak amway.my]\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Cara guna: [salin dari label]\n\nIni pelengkap, bukan pengganti sarapan sebenar. 🙏 Reply \"NAK\" kalau berminat 💛\n\n" + DISC}},
+
+{"d": "N5", "ep": None, "tema": "Media sosial, notifikasi & anak",
+ "video": {"tajuk": "Anak tiru apa kita buat, bukan apa kita cakap", "nota": CERITA + " " + TREND_NOTA + " Sticker: 04-satin-tutup-mulut.",
+  "babak": [
+   ("0–3s", "Momyizz scroll telefon, anak di sebelah juga pegang tablet", "\"Jangan main telefon lama-lama!\" kata Momyizz… sambil pegang telefon 😅"),
+   ("3–15s", "Momyizz letak telefon, tengok anak", "Anak tak ikut apa kita cakap. Anak ikut apa kita buat."),
+   ("15–28s", "Notifikasi berbunyi berkali-kali (Flow)", "Apps direka untuk tarik perhatian: setiap notifikasi buat kita nak tengok lagi."),
+   ("28–40s", "Keluarga makan tanpa telefon, 'bakul telefon' di tepi", "Sekarang rumah Momyizz ada 'bakul telefon' waktu makan malam."),
+   ("40–45s", "Momyizz & anak ketawa bersama", "Mula dari kita dulu 💛"),
+  ],
+  "caption": "Anak tiru apa kita buat. Siapa nak cuba 'bakul telefon' waktu makan? 🙋‍♀️\n\n#Momyizz #Parenting #DigitalDetox"},
+ "carousel": {"tajuk": "Media sosial & kesihatan mental anak",
+  "slaid": [
+   "MEDIA SOSIAL & ANAK 📱\nApa yang ibu bapa perlu tahu",
+   "AMARAN RASMI\nSurgeon General AS (2023): remaja yang guna media sosial lebih 3 jam sehari berdepan risiko 2 kali ganda simptom depresi & kebimbangan.",
+   "DIREKA UNTUK TARIK PERHATIAN\nNotifikasi, scroll tanpa henti dan 'like' buat kita mahu kembali lagi.",
+   "PERBANDINGAN\nMelihat 'hidup sempurna' orang lain boleh buat rasa tak cukup.",
+   "LANGKAH KELUARGA\n• Tiada telefon waktu makan & di bilik tidur\n• Matikan notifikasi tak penting\n• Aktiviti luar bersama",
+   "MULA DENGAN KITA\nAnak ikut apa kita buat.\nSave 💛\n\n" + DISC,
+  ],
+  "caption": "Media sosial & kesihatan mental anak, panduan ringkas untuk ibu bapa 📱\n\nSumber: US Surgeon General Advisory (2023).\n" + DISC + "\n\n#Momyizz #Parenting #KesihatanMental"},
+ "teks": [
+  "Info ringkas: Surgeon General Amerika (2023) memberi amaran, remaja yang menggunakan media sosial lebih 3 jam sehari berdepan risiko dua kali ganda simptom depresi dan kebimbangan. 📱",
+  "Soalan: berapa jam korang guna telefon semalam? (semak 'Screen Time' 👀)\n\n📱 Bawah 2 jam\n📱📱 2–4 jam\n📱📱📱 4–6 jam\n🙈 Lebih 6 jam\n\nMomyizz semak… 5 jam. Malu! 😅",
+  "Tips bercakap supaya anak betul-betul dengar 💡\n\n✅ Turun separas mata anak\n✅ Panggil nama, tunggu dia pandang\n✅ Cakap ringkas dengan contoh visual (\"macam semalam Amin kemas buku\")\n✅ Bercerita, bukan berleter",
+  "Info penting: kalau anak sangat marah, murung atau tak boleh berfungsi tanpa gajet, dan ia berlarutan, dapatkan bantuan profesional. ⚠️\n\nKlinik kesihatan dan kaunselor sekolah boleh jadi langkah pertama.",
+ ]},
+
+{"d": "N6", "ep": None, "tema": "Jaga otak dari sekarang: 14 faktor demensia",
+ "video": {"tajuk": "Demensia bukan hanya masalah orang tua", "nota": CERITA + " " + TREND_NOTA + " Sticker: 09-kartun-terkejut-pipi.",
+  "babak": [
+   ("0–3s", "Momyizz cari kunci, buka peti, lupa nak ambil apa", "Masuk dapur… lupa nak ambil apa. Normal ke? 😅"),
+   ("3–15s", "Momyizz bercakap ke kamera", "Lupa sekali-sekala biasa. Tapi perubahan dalam otak untuk Alzheimer boleh bermula bertahun-tahun sebelum simptom."),
+   ("15–28s", "Senarai faktor muncul (Flow / teks)", "Laporan Lancet (2024): 14 faktor yang boleh diubah, dan hampir 45% kes demensia berpotensi dicegah atau dilewatkan."),
+   ("28–40s", "Momyizz berjalan pagi, ukur tekanan darah", "Antaranya: bergerak, kawal tekanan darah, gula & kolesterol, jaga pendengaran, kekal bersosial."),
+   ("40–45s", "Momyizz ke kamera", "Apa yang kita buat hari ni, itulah otak kita esok 💛 | " + DISC),
+  ],
+  "caption": "Jaga otak dari umur 30-an & 40-an 🧠\n\nSumber: Lancet Commission (2024); Alzheimer's Association.\n" + DISC + "\n\n#Momyizz #KesihatanOtak #Demensia"},
+ "carousel": {"tajuk": "14 faktor demensia yang boleh diubah (Lancet 2024)",
+  "slaid": [
+   "14 FAKTOR DEMENSIA 🧠\nYang boleh diubah (Lancet 2024)",
+   "HAMPIR 45%\nkes demensia berpotensi dicegah atau dilewatkan jika faktor-faktor ini ditangani.\n🟢 (anggaran model)",
+   "BADAN\nTekanan darah tinggi · diabetes · kolesterol LDL tinggi · obesiti · kurang bergerak",
+   "GAYA HIDUP\nMerokok · alkohol berlebihan · pencemaran udara · kecederaan kepala",
+   "DERIA & MINDA\nHilang pendengaran · hilang penglihatan tidak dirawat · depresi · terpencil sosial · kurang pendidikan",
+   "MULA DENGAN SATU\nBerjalan, saringan tekanan darah, periksa pendengaran & mata.\nSave 🧠\n\n" + DISC,
+  ],
+  "caption": "14 faktor demensia yang boleh diubah. Save & kongsi dengan ibu bapa 🧠\n\nSumber: Livingston et al., Lancet (2024).\n" + DISC + "\n\n#Momyizz #KesihatanOtak #Saringan"},
+ "teks": [
+  "Info ringkas: laporan Lancet (2024) menyenaraikan 14 faktor risiko demensia yang boleh diubah, termasuk tekanan darah tinggi, diabetes, kurang bergerak dan hilang pendengaran. Hampir 45% kes berpotensi dicegah atau dilewatkan. 🧠",
+  "Soalan: bila kali terakhir ibu bapa korang periksa pendengaran atau mata? 👂👀\n\n✅ Tahun ni\n🙂 Beberapa tahun lepas\n❌ Tak pernah\n\nMomyizz baru sedar ayah tak pernah periksa pendengaran.",
+  "Tips berjalan untuk otak & mood 💡\n\n✅ Mula 10 minit selepas makan\n✅ Ajak pasangan / anak / ibu bapa\n✅ Tambah 5 minit setiap minggu\n\nKajian BMJ (2024): berjalan atau berjoging antara senaman paling berkesan untuk simptom depresi.",
+  "Info penting: lupa yang semakin kerap dan mengganggu kehidupan harian (contoh: sesat di tempat biasa, ulang soalan sama) bukan sekadar 'faktor umur'. ⚠️\n\nBawa ibu bapa berjumpa doktor untuk pemeriksaan awal.",
+ ]},
+]
+
+MG_TREND.update({
+"N1": [
+ {"tajuk": "4 penganggu tidur dalam bilik", "sticker": "16-blazer-tunjuk-kanan", "babak": [
+   ("0–3s", "HOOK", "4 benda dalam bilik yang curi tidur korang 🛏️", "Pop"),
+   ("3–8s", "CHECKLIST baris 1", "📱 Telefon & notifikasi", "Baris muncul"),
+   ("8–13s", "CHECKLIST baris 2", "💡 Lampu tidur / cahaya LED", "Baris muncul"),
+   ("13–18s", "CHECKLIST baris 3", "🥵 Bilik panas", "Baris muncul"),
+   ("18–22s", "CHECKLIST baris 4", "🔊 Bunyi bising", "Baris muncul"),
+   MG_END],
+  "caption": "Berapa banyak ada dalam bilik korang? 👇\n\nSumber: CDC.\n#Momyizz #Tidur #BilikTidur"},
+ {"tajuk": "Mitos vs fakta: 'Plaster mulut buat tidur lebih nyenyak'", "sticker": "04-satin-tutup-mulut", "babak": [
+   ("0–3s", "HOOK", "\"Plaster mulut buat tidur lebih nyenyak!\" Betul ke? 🤐", "Pop"),
+   ("3–8s", "BIG_WORD", "BELUM TERBUKTI ⚠️", "Pop besar"),
+   ("8–15s", "KAD_FAKTA + LABEL_BUKTI (Bukti belum cukup)", "Ulasan kajian 2025: bukti sedikit, dan ada risiko jika hidung tersumbat.", "Kad naik"),
+   ("15–22s", "CHECKLIST", "Lebih selamat:\n✓ Rawat hidung tersumbat\n✓ Tidur mengiring\n✓ Jumpa doktor jika berdengkur kuat", "Baris satu per satu"),
+   MG_END],
+  "caption": "Viral tak semestinya selamat 🤐\n\nSumber: PLOS One (2025).\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #Tidur"}],
+"N2": [
+ {"tajuk": "Formula nap 20 minit", "sticker": "19-blazer-thumbs-up", "babak": [
+   ("0–3s", "HOOK", "Nap 20 minit yang betul ⏰", "Pop"),
+   ("3–9s", "KAUNTER + teks", "20 minit: set penggera", "Angka pop"),
+   ("9–15s", "KAUNTER + teks", "1–3 petang: masa terbaik", "Angka pop"),
+   ("15–22s", "NOTA_TANGAN", "Lebih 30 minit = boleh jadi mamai 😵", "Tulisan tangan"),
+   MG_END],
+  "caption": "Formula nap 20 minit. Save untuk pejabat ⏰\n\n#Momyizz #Nap #TipsHarian"},
+ {"tajuk": "Bangun nap rasa lagi penat? Ini sebabnya", "sticker": "20-blazer-terkejut-pipi", "babak": [
+   ("0–3s", "HOOK", "Bangun nap rasa lagi penat & mamai? 😵", "Pop"),
+   ("3–9s", "KAD_FAKTA", "Punca biasa: nap terlalu lama, masuk tidur dalam", "Kad naik"),
+   ("9–16s", "CHECKLIST", "Penyelesaian:\n✓ Hadkan 20–30 minit\n✓ Nap awal petang", "Baris satu per satu"),
+   ("16–22s", "CHECKLIST", "✓ Bangun terus, cahaya & air\n✓ Gerak 2 minit", "Baris satu per satu"),
+   MG_END],
+  "caption": "Nap pendek > nap panjang 😴\n\n#Momyizz #Nap #Tidur"}],
+"N3": [
+ {"tajuk": "3 tanda makanan sangat diproses pada label", "sticker": "13-blazer-tunjuk-atas-kanan", "babak": [
+   ("0–3s", "HOOK", "Kenal makanan sangat diproses dalam 10 saat 🛒", "Pop"),
+   ("3–9s", "CHECKLIST baris 1", "✓ Senarai ramuan sangat panjang", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 2", "✓ Nama bahan susah disebut / kod E banyak", "Baris muncul"),
+   ("15–22s", "CHECKLIST baris 3", "✓ Gula dalam 3 ramuan pertama", "Baris muncul"),
+   MG_END],
+  "caption": "3 tanda makanan sangat diproses. Save untuk shopping 🛒\n\n#Momyizz #BacaLabel"},
+ {"tajuk": "Mitos vs fakta: 'Gula kelapa tak apa, sebab sihat'", "sticker": "14-blazer-tutup-mulut", "babak": [
+   ("0–3s", "HOOK", "\"Gula kelapa / madu tak apa, sebab sihat.\" 🤔", "Pop"),
+   ("3–8s", "BIG_WORD", "TETAP GULA 🍯", "Pop besar"),
+   ("8–15s", "KAD_FAKTA", "WHO: gula bebas (termasuk madu & sirap) dihadkan bawah 10% tenaga harian.", "Kad naik"),
+   ("15–22s", "NOTA_TANGAN", "Tukar jenis gula tak sama dengan kurangkan gula 😉", "Tulisan tangan"),
+   MG_END],
+  "caption": "Gula 'sihat' tetap gula 🍯\n\nSumber: WHO.\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #KurangManis"}],
+"N4": [
+ {"tajuk": "5 sarapan otak bawah 10 minit", "sticker": "08-satin-thumbs-up", "babak": [
+   ("0–3s", "HOOK", "5 sarapan otak bawah 10 minit 🧠", "Pop"),
+   ("3–8s", "CHECKLIST baris 1–2", "✓ Telur rebus + roti gandum\n✓ Oat + pisang", "Baris muncul"),
+   ("8–14s", "CHECKLIST baris 3–4", "✓ Telur dadar sayur\n✓ Roti + sardin", "Baris muncul"),
+   ("14–22s", "CHECKLIST baris 5", "✓ Bubur nasi + telur + ikan bilis", "Baris muncul"),
+   MG_END],
+  "caption": "5 sarapan otak bawah 10 minit. Mana favourite korang? 👇\n\n#Momyizz #SarapanSihat"},
+ {"tajuk": "Mitos vs fakta: 'Telur naikkan kolesterol, jangan makan hari-hari'", "sticker": "03-satin-tunjuk-atas", "babak": [
+   ("0–3s", "HOOK", "\"Telur tinggi kolesterol, jangan makan hari-hari!\" 🥚", "Pop"),
+   ("3–8s", "BIG_WORD", "TAK SEMUDAH ITU", "Pop besar"),
+   ("8–15s", "KAD_FAKTA", "Bagi kebanyakan orang sihat, telur boleh jadi sebahagian diet seimbang. Yang ada kolesterol tinggi / diabetes: ikut nasihat doktor.", "Kad naik"),
+   ("15–22s", "NOTA_TANGAN", "Lebih penting: cara masak & apa yang dimakan bersama 🍳", "Tulisan tangan"),
+   MG_END],
+  "caption": "Telur: kawan atau lawan? Ikut keadaan korang 🥚\n\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #Telur"}],
+"N5": [
+ {"tajuk": "4 setting telefon untuk keluarga", "sticker": "17-blazer-panggil", "babak": [
+   ("0–3s", "HOOK", "4 setting telefon untuk rumah lebih tenang 📱", "Pop"),
+   ("3–8s", "CHECKLIST baris 1", "✓ Matikan notifikasi apps media sosial", "Baris muncul"),
+   ("8–13s", "CHECKLIST baris 2", "✓ Had masa harian (Screen Time / Digital Wellbeing)", "Baris muncul"),
+   ("13–18s", "CHECKLIST baris 3", "✓ Mod 'Jangan ganggu' waktu makan malam", "Baris muncul"),
+   ("18–22s", "CHECKLIST baris 4", "✓ Kawalan ibu bapa pada gajet anak", "Baris muncul"),
+   MG_END],
+  "caption": "4 setting telefon untuk keluarga. Dah cuba? 📱\n\n#Momyizz #Parenting #DigitalDetox"},
+ {"tajuk": "Anak mengamuk bila gajet diambil?", "sticker": "05-satin-semangat", "babak": [
+   ("0–3s", "HOOK", "Anak mengamuk bila tablet diambil? 😩", "Pop"),
+   ("3–9s", "KAD_FAKTA", "Punca biasa: berhenti mengejut tanpa amaran", "Kad naik"),
+   ("9–16s", "CHECKLIST", "Penyelesaian:\n✓ Beri amaran '5 minit lagi'\n✓ Tetapkan masa tamat bersama", "Baris satu per satu"),
+   ("16–22s", "CHECKLIST", "✓ Ganti dengan aktiviti seronok (luar rumah)\n✓ Konsisten setiap hari", "Baris satu per satu"),
+   MG_END],
+  "caption": "Cara Momyizz kurangkan drama gajet 😅 Korang buat apa?\n\n#Momyizz #Parenting #AnakSihat"}],
+"N6": [
+ {"tajuk": "5 langkah jaga otak mulai minggu ni", "sticker": "18-blazer-semangat", "babak": [
+   ("0–3s", "HOOK", "5 langkah jaga otak mulai minggu ni 🧠", "Pop"),
+   ("3–8s", "CHECKLIST baris 1–2", "✓ Berjalan 30 minit\n✓ Tidur 7 jam+", "Baris muncul"),
+   ("8–14s", "CHECKLIST baris 3–4", "✓ Semak tekanan darah\n✓ Periksa pendengaran & mata", "Baris muncul"),
+   ("14–22s", "CHECKLIST baris 5", "✓ Jumpa kawan / keluarga", "Baris muncul"),
+   MG_END],
+  "caption": "5 langkah jaga otak, ikut laporan Lancet 2024 🧠\n\n#Momyizz #KesihatanOtak"},
+ {"tajuk": "Mitos vs fakta: 'Nyanyuk tu biasa, nanti tua mesti kena'", "sticker": "10-satin-terkejut-pipi", "babak": [
+   ("0–3s", "HOOK", "\"Nyanyuk tu biasa, nanti tua mesti kena.\" 🤔", "Pop"),
+   ("3–8s", "BIG_WORD", "TIDAK SEMESTINYA", "Pop besar"),
+   ("8–15s", "KAD_FAKTA + LABEL_BUKTI", "Lancet (2024): hampir 45% kes demensia berpotensi dicegah atau dilewatkan dengan menangani 14 faktor risiko.", "Kad naik"),
+   ("15–22s", "NOTA_TANGAN", "Bermula dengan tabiat hari ini 💛", "Tulisan tangan"),
+   MG_END],
+  "caption": "Demensia bukan takdir yang pasti 🧠\n\nSumber: Lancet Commission (2024).\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #Demensia"}],
+})
+
+# Susunan siri trending akhir (Hari 7 dan seterusnya)
+TREND_ORDER = ["T1", "T2", "T3", "N1", "N2", "T4", "T5", "N3", "N4", "T6", "N5", "N6", "T7"]
+_semua = {t["d"]: t for t in TRENDING + TRENDING_BARU}
+TRENDING = [_semua[k] for k in TREND_ORDER]
+
+
 _susun()
