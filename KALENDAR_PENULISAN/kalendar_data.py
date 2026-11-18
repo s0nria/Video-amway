@@ -195,15 +195,16 @@ DAYS = [
 
 # ================================================================ HARI 7
 {"d": 7, "ep": 3, "tema": "Span dapur & kebersihan dapur",
- "video": {"tajuk": "Span yang Momyizz pegang setiap malam", "nota": CERITA + " Sticker: 14-blazer-tutup-mulut (babak span). Boleh juga guna video Episod 3 (tab Episod).",
+ "video": {"tajuk": "Span yang Momyizz pegang setiap malam", "nota": CERITA + " Sticker: 14-blazer-tutup-mulut (babak span). Boleh juga guna video Episod 3 (tab Episod). Babak sabun: botol picit tanpa label, botol Dish Drops dan logo TIDAK kelihatan (produk tak boleh muncul di ruang awam). Kalau ada yang tanya 'sabun apa?' di komen, balas 'Momyizz DM ya 😊' dan kongsi dalam DM / WhatsApp (slot wa).",
   "babak": [
    ("0–3s", "Close-up span lama diperah, kekuningan", "Bila kali terakhir korang tukar ni? 🧽"),
-   ("3–15s", "Momyizz basuh pinggan malam, pandang span", "Momyizz fikir: 'Tak apa, dia kan sentiasa bersabun.'"),
-   ("15–28s", "Teks atas skrin + Momyizz terkejut", "Kajian 2017 jumpa bakteria sangat tinggi dalam span dapur terpakai. 😳"),
-   ("28–40s", "Tulis tarikh pada span baru dengan marker", "Sekarang: tulis tarikh pada span baru, perah dan keringkan lepas guna."),
-   ("40–45s", "Dapur bersih, Momyizz senyum", "Dapur bersih bermula dengan benda kecil ✨"),
+   ("3–12s", "Momyizz picit sabun banyak-banyak terus atas span", "Dulu Momyizz picit sabun banyak-banyak. Fikir: span sentiasa bersabun, mesti bersih."),
+   ("12–22s", "Teks atas skrin + Momyizz terkejut", "Kajian 2017 jumpa bakteria sangat tinggi dalam span dapur terpakai. 😳"),
+   ("22–32s", "Tulis tarikh pada span baru dengan marker", "Sekarang: tulis tarikh pada span baru, perah dan keringkan lepas guna."),
+   ("32–41s", "Tuang sabun pekat + air ke botol picit tanpa label, picit sikit ke span, close-up buih banyak", "Sabun pekat pun Momyizz cairkan dulu. Sikit je, buih dah banyak 🫧"),
+   ("41–45s", "Dapur bersih, Momyizz senyum", "Dapur bersih bermula dengan benda kecil ✨ | " + DISC),
   ],
-  "caption": "Bila kali terakhir korang tukar span? Jujur je kat komen 😂\n\nSumber: Cardinale et al. (2017).\n\n#Momyizz #DapurBersih #TipsRumah"},
+  "caption": "Bila kali terakhir korang tukar span? Jujur je kat komen 😂\n\nSabun pun Momyizz dah tak picit banyak-banyak. Cairkan dulu, sikit je dah berbuih 🫧\n\nSumber: Cardinale et al. (2017).\n" + DISC + "\n\n#Momyizz #DapurBersih #TipsRumah"},
  "carousel": {"tajuk": "5 Kunci Makanan Lebih Selamat (WHO)",
   "slaid": [
    "5 KUNCI MAKANAN LEBIH SELAMAT\nVersi dapur rumah (WHO) 🍽️",
@@ -216,12 +217,12 @@ DAYS = [
   "caption": "5 kunci makanan lebih selamat dari WHO. Save untuk dapur korang 🍽️\n\nSumber: WHO Five Keys to Safer Food.\n" + DISC + "\n\n#Momyizz #DapurBersih #KeselamatanMakanan"},
  "teks": [
   "Info ringkas: span yang \"dibersihkan\" dengan cara rumah tak semestinya kurang bakteria. 🧽\n\nPenulis kajian Cardinale et al. (2017) cadangkan span ditukar secara berkala, contohnya setiap minggu.",
-  "Lepas tengok video pagi tadi… berapa ramai yang terus pergi tukar span? 😂\n\nKomen:\n✅ DAH\n😅 ESOK\n\nMomyizz dah. Tarikh pun dah tulis!",
-  "Tips span tahan lebih bersih 💡\n\n✅ Perah kuat lepas guna\n✅ Letak di rak berlubang / tempat berangin, bukan dalam sinki basah\n✅ Asingkan span pinggan dan kain lap meja\n✅ Tulis tarikh, tukar secara berkala\n\nSpan kering = kurang tempat untuk bakteria membiak. 🧽",
+  "Soalan jujur: korang guna sabun basuh pinggan macam mana? 🧽\n\nA. Picit terus atas span, banyak-banyak\nB. Cairkan dulu dalam botol picit / mangkuk air\n\nMomyizz dulu A. Sekarang B. Sabun pekat, sikit je dah berbuih banyak. 🫧",
+  "Tips span tahan lebih bersih 💡\n\n✅ Perah kuat lepas guna\n✅ Letak di rak berlubang / tempat berangin, bukan dalam sinki basah\n✅ Asingkan span pinggan dan kain lap meja\n✅ Tulis tarikh, tukar secara berkala\n✅ Sabun pekat? Cairkan dulu, picit sikit je\n\nSpan kering = kurang tempat untuk bakteria membiak. 🧽",
   "Info penting musim banjir: leptospirosis merebak melalui air atau tanah yang tercemar air kencing tikus. ⚠️\n\nElak meredah air banjir tanpa kasut, tutup makanan di dapur, dan dapatkan rawatan jika demam selepas terdedah kepada air banjir. 🙏",
  ],
- "wa": {"tajuk": "Amway Home Dish Drops", "nota": "Ruang tertutup sahaja. Fakta dan harga dari amway.my hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.",
-  "t": "Hai [nama] 😊\n\nHari ni Momyizz kongsi pasal span dapur. Ada yang tanya sabun basuh pinggan apa Momyizz guna.\n\nMomyizz guna *DISH DROPS Concentrated Dishwashing Liquid (1L)* dari Amway Home.\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Cara guna / sukatan: [salin dari label / amway.my]\n• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]\n\nTapi ingat ya, sabun yang bagus tak menggantikan tabiat tukar span dan keringkan span. 🧽\n\nKalau berminat, reply \"NAK\", Momyizz uruskan. 💛"}},
+ "wa": {"tajuk": "Amway Home Dish Drops", "nota": "Ruang tertutup sahaja. Fakta produk disemak di amway.my (halaman produk 110488) pada 18 Nov 2026: 'highly-concentrated', 'just one concentrated drop', 'long-lasting suds', cairkan 1 bahagian dengan 1–5 bahagian air, aloe vera, biodegradable, dermatologist-tested. Semak harga hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.",
+  "t": "Hai [nama] 😊\n\nPagi tadi Momyizz kongsi pasal span dapur, dan ada yang tanya: \"Sabun apa tu, sikit je tapi buih banyak?\" 🫧\n\nItu *DISH DROPS Concentrated Dishwashing Liquid (1L)* dari Amway Home.\n• Sangat pekat: setitik pun dah boleh tanggalkan minyak\n• Buihnya tahan lama, jadi tak perlu tambah sabun selalu\n• Cara guna untuk span: cairkan 1 bahagian sabun dengan 1–5 bahagian air dalam botol picit, picit sedikit ke span\n• Ada aloe vera. Formula biodegradable & diuji pakar dermatologi\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]\n\nTapi ingat ya, sabun yang bagus tak menggantikan tabiat tukar span dan keringkan span. 🧽\n\nKalau berminat, reply \"NAK\", Momyizz uruskan. 💛"}},
 
 # ================================================================ HARI 8-30 (rancangan; teks penuh dijana dengan Claude)
 # Format: (video, carousel, [teks info, teks pertanyaan, teks tips, teks alert], wa atau None)

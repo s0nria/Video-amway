@@ -867,22 +867,26 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak span). Boleh juga guna video Episod 3 (tab Episod).
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak span). Boleh juga guna video Episod 3 (tab Episod). Babak sabun: botol picit tanpa label, botol Dish Drops dan logo TIDAK kelihatan (produk tak boleh muncul di ruang awam). Kalau ada yang tanya 'sabun apa?' di komen, balas 'Momyizz DM ya 😊' dan kongsi dalam DM / WhatsApp (slot wa).
 
 | Masa | Visual | Teks atas skrin / suara |
 |---|---|---|
 | 0–3s | Close-up span lama diperah, kekuningan | Bila kali terakhir korang tukar ni? 🧽 |
-| 3–15s | Momyizz basuh pinggan malam, pandang span | Momyizz fikir: 'Tak apa, dia kan sentiasa bersabun.' |
-| 15–28s | Teks atas skrin + Momyizz terkejut | Kajian 2017 jumpa bakteria sangat tinggi dalam span dapur terpakai. 😳 |
-| 28–40s | Tulis tarikh pada span baru dengan marker | Sekarang: tulis tarikh pada span baru, perah dan keringkan lepas guna. |
-| 40–45s | Dapur bersih, Momyizz senyum | Dapur bersih bermula dengan benda kecil ✨ |
+| 3–12s | Momyizz picit sabun banyak-banyak terus atas span | Dulu Momyizz picit sabun banyak-banyak. Fikir: span sentiasa bersabun, mesti bersih. |
+| 12–22s | Teks atas skrin + Momyizz terkejut | Kajian 2017 jumpa bakteria sangat tinggi dalam span dapur terpakai. 😳 |
+| 22–32s | Tulis tarikh pada span baru dengan marker | Sekarang: tulis tarikh pada span baru, perah dan keringkan lepas guna. |
+| 32–41s | Tuang sabun pekat + air ke botol picit tanpa label, picit sikit ke span, close-up buih banyak | Sabun pekat pun Momyizz cairkan dulu. Sikit je, buih dah banyak 🫧 |
+| 41–45s | Dapur bersih, Momyizz senyum | Dapur bersih bermula dengan benda kecil ✨ | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
 **Caption video**
 
 ```
 Bila kali terakhir korang tukar span? Jujur je kat komen 😂
 
+Sabun pun Momyizz dah tak picit banyak-banyak. Cairkan dulu, sikit je dah berbuih 🫧
+
 Sumber: Cardinale et al. (2017).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 #Momyizz #DapurBersih #TipsRumah
 ```
@@ -957,19 +961,18 @@ Info ringkas: span yang "dibersihkan" dengan cara rumah tak semestinya kurang ba
 Penulis kajian Cardinale et al. (2017) cadangkan span ditukar secara berkala, contohnya setiap minggu.
 ```
 
-**16:00 · Pertanyaan** (130 / 500 aksara)
+**16:00 · Pertanyaan** (221 / 500 aksara)
 
 ```
-Lepas tengok video pagi tadi… berapa ramai yang terus pergi tukar span? 😂
+Soalan jujur: korang guna sabun basuh pinggan macam mana? 🧽
 
-Komen:
-✅ DAH
-😅 ESOK
+A. Picit terus atas span, banyak-banyak
+B. Cairkan dulu dalam botol picit / mangkuk air
 
-Momyizz dah. Tarikh pun dah tulis!
+Momyizz dulu A. Sekarang B. Sabun pekat, sikit je dah berbuih banyak. 🫧
 ```
 
-**18:30 · Tips praktikal** (257 / 500 aksara)
+**18:30 · Tips praktikal** (301 / 500 aksara)
 
 ```
 Tips span tahan lebih bersih 💡
@@ -978,6 +981,7 @@ Tips span tahan lebih bersih 💡
 ✅ Letak di rak berlubang / tempat berangin, bukan dalam sinki basah
 ✅ Asingkan span pinggan dan kain lap meja
 ✅ Tulis tarikh, tukar secara berkala
+✅ Sabun pekat? Cairkan dulu, picit sikit je
 
 Span kering = kurang tempat untuk bakteria membiak. 🧽
 ```
@@ -992,16 +996,19 @@ Elak meredah air banjir tanpa kasut, tutup makanan di dapur, dan dapatkan rawata
 
 ### 💬 WhatsApp / group tertutup: Amway Home Dish Drops
 
-> Ruang tertutup sahaja. Fakta dan harga dari amway.my hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.
+> Ruang tertutup sahaja. Fakta produk disemak di amway.my (halaman produk 110488) pada 18 Nov 2026: 'highly-concentrated', 'just one concentrated drop', 'long-lasting suds', cairkan 1 bahagian dengan 1–5 bahagian air, aloe vera, biodegradable, dermatologist-tested. Semak harga hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.
 
 ```
 Hai [nama] 😊
 
-Hari ni Momyizz kongsi pasal span dapur. Ada yang tanya sabun basuh pinggan apa Momyizz guna.
+Pagi tadi Momyizz kongsi pasal span dapur, dan ada yang tanya: "Sabun apa tu, sikit je tapi buih banyak?" 🫧
 
-Momyizz guna *DISH DROPS Concentrated Dishwashing Liquid (1L)* dari Amway Home.
+Itu *DISH DROPS Concentrated Dishwashing Liquid (1L)* dari Amway Home.
+• Sangat pekat: setitik pun dah boleh tanggalkan minyak
+• Buihnya tahan lama, jadi tak perlu tambah sabun selalu
+• Cara guna untuk span: cairkan 1 bahagian sabun dengan 1–5 bahagian air dalam botol picit, picit sedikit ke span
+• Ada aloe vera. Formula biodegradable & diuji pakar dermatologi
 • Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
-• Cara guna / sukatan: [salin dari label / amway.my]
 • Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]
 
 Tapi ingat ya, sabun yang bagus tak menggantikan tabiat tukar span dan keringkan span. 🧽
