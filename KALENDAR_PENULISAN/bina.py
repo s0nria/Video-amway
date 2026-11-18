@@ -245,7 +245,7 @@ def weeks_full(days):
 def md_index(days):
     L = ["# Kalendar Konten Momyizz (30 hari)", "",
          "**Fokus bulan ini: BodyKey Nutritious Meal Shake formula baharu (perisa pisang).** "
-         "🔥 Siri trending Tidur, Otak & Usus diselang setiap 3 hari (Hari 2, 5, 8 … 29); semakan dakwaan podcast dalam `PODCAST_SEMAKAN.md`.", "",
+         "🔥 Siri trending Tidur, Otak & Usus diselang sehari atau dua hari (Hari 8, 10, 13, 15, 18, 20, 22, 24, 27, 29); semakan dakwaan podcast dalam `PODCAST_SEMAKAN.md`.", "",
          "| Fail | Isi |", "|---|---|",
          *[f"| `MINGGU_{w}.md` | Hari {(w-1)*7+1}–{w*7}: skrip video, teks carousel, 4 teks, WhatsApp + checklist |" for w in weeks_full(days)],
          *([f"| `HARI_{plan_range(days)[0]:02d}-{plan_range(days)[1]:02d}.md` | Hari {plan_range(days)[0]}–{plan_range(days)[1]}: rancangan setiap konten |"] if plan_range(days) else []),

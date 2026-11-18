@@ -455,7 +455,7 @@ DAYS = [
   "Info ringkas: tabiat baharu ambil masa. Kajian Lally et al. (2010) dapati purata 66 hari untuk tabiat jadi automatik, antara 18 hingga 254 hari. 🗓️\n\nJadi cabaran 7 hari ni cuma permulaan. Tak sempurna pun tak apa, yang penting sambung esok.",
   "Siapa nak join #CabaranAirMomyizz 7 hari? 💧\n\nKomen JOIN 🙋‍♀️\n\nPeraturan senang: 7 gelas air kosong sehari selama 7 hari. Setiap malam, kongsi tick korang kat komen. Momyizz pun buat sama, isi botol dari air ditapis di rumah. 💪",
   "Tips berjaya cabaran air 7 hari 💡\n\n✅ Letak botol di tempat yang selalu nampak: meja kerja, kereta, sebelah sejadah\n✅ Isi semula terus bila kosong, jangan tunggu dahaga\n✅ Penapis air di rumah = air sentiasa sedia, tak perlu beli air botol\n\nSenang = jadi tabiat. 😉",
-  "Info penting: air kotak, sirap dan minuman bergas bukan pengganti air kosong. ⚠️\n\nKKM galakkan air kosong sebagai minuman utama dan hadkan minuman bergula. Satu kotak air manis boleh mengandungi beberapa sudu teh gula.",
+  "Info penting: gangguan bekalan air di kawasan korang? ⚠️\n\nSimpan air dalam bekas bersih yang bertutup, guna dalam masa 1–2 hari, dan didihkan sebelum minum jika ragu-ragu. Bila bekalan pulih dan air keruh, biarkan paip mengalir sehingga jernih dulu.",
  ],
  "wa": {"tajuk": "eSpring untuk #CabaranAirMomyizz", "nota": "Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 122940). Tulis MENGURANGKAN mikroplastik, jangan singkir / bebas. Semak harga & promosi rasmi hari ini.",
   "t": "Hai [nama] 😊\n\nMinggu ni Momyizz buat #CabaranAirMomyizz 7 hari. Ramai tanya: \"Air kat rumah Momyizz guna penapis apa?\"\n\nMomyizz guna *eSpring Water Purifier* (model baharu) dari Amway 💧\n• Diperakui 4 standard NSF/ANSI (42, 53, 55, 401)\n• Kurangkan lebih 170 bahan cemar, sekecil 0.2 mikron\n• Terbukti mengurangkan mikroplastik & 19 jenis sisa farmaseutikal\n• UV-C LED hapuskan 99.9% bakteria, virus & sista bawaan air\n• Aplikasi Amway Healthy Home ingatkan bila perlu tukar penapis\n• Halal, waranti 5 tahun\n\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Promosi: [promosi rasmi Amway, jika ada]\n• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]\n\nAir sentiasa sedia di rumah = lebih senang cukupkan minum setiap hari. Nak tahu lebih atau nak demo? Reply \"NAK\". 💛"}},
@@ -1245,7 +1245,7 @@ TRENDING = [_semua[k] for k in TREND_ORDER]
 
 # ================================================================ SUSUNAN 30 HARI (DISAHKAN pengguna, 18 Nov 2026)
 # Bulan ini fokus BodyKey Nutritious Meal Shake (formula baharu, perisa pisang). Kalendar dipadatkan kepada 30 hari.
-# Siri trending diselang: setiap 3 hari (Hari 2, 5, 8 … 29). Nombor dalam SUSUNAN = nombor hari asal dalam DAYS.
+# Siri trending diselang sehari atau dua hari, bermula Hari 8 (Hari 8, 10, 13, 15, 18, 20, 22, 24, 27, 29). Nombor dalam SUSUNAN = nombor hari asal dalam DAYS.
 # Hari asal yang tidak digunakan bulan ini (boleh dipakai bulan depan): 15, 18, 19, 20, 21, 23, 24, 26, 28, 29;
 # trending N3 (pewarna & MSG), N5 (media sosial & anak), N6 (14 faktor demensia).
 PRODUK_TREND = {
@@ -1260,8 +1260,9 @@ PRODUK_TREND = {
  "T6": ("omega", "Keluarga jarang makan ikan berlemak"),
  "T7": ("bodykey", "Nak teruskan tabiat sihat; sarapan GI rendah bila kalut"),
 }
-SUSUNAN = [1, "T1", 2, 3, "T2", 4, 5, "T3", 6, 7, "N1", 8, 9, "N2", 10, 11, "T4", 12, 13, "T5",
-           14, 16, "N4", 17, 22, "T6", 25, 27, "T7", 30]
+# Hari 1-7 kekal ikut susunan asal kerana sudah / sedang dipost (Hari 1 = 12 Nov 2026, Hari 7 = span dapur, 18 Nov).
+SUSUNAN = [1, 2, 3, 4, 5, 6, 7,
+           "T1", 8, "T2", 9, 10, "T3", 11, "N1", 12, 13, "N2", 14, "T4", 16, "T5", 17, "N4", 22, 25, "T6", 27, "T7", 30]
 
 
 def _susun30():

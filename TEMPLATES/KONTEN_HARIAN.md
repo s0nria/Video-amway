@@ -76,14 +76,14 @@ Platform penulisan: Threads (bebenang), Facebook, Instagram
 
 ## Siri trending dari podcast / video viral
 
-Contoh: **Siri Tidur, Otak & Usus** (Hari 2, 5, 8 … 29), diilhamkan oleh podcast tidur & otak yang tengah viral.
+Contoh: **Siri Tidur, Otak & Usus** (Hari 8, 10, 13 … 29), diilhamkan oleh podcast tidur & otak yang tengah viral.
 
 Peraturan:
 1. Podcast atau video viral jadi **hook** sahaja ("Ramai tengah share podcast pasal…").
 2. **Jangan petik** nama penceramah atau dakwaan mereka yang belum disemak. Semua fakta diambil semula dari sumber rasmi (KKM, WHO, NIH, CDC, AASM, AHA, jurnal).
 3. Dakwaan yang tak dapat disahkan ditinggalkan.
 4. Peraturan produk sama seperti hari biasa: satu produk penyelesai masalah sehari (kelihatan dalam video + 1 key selling, 16:00 / 18:30, WhatsApp pada hari hard-sell), tanpa dakwaan kesihatan berkaitan topik siri (contoh: jangan kata produk bantu otak atau tidur).
-5. Siri trending **diselang** dengan topik biasa (contoh bulan ini: setiap 3 hari), bukan berturut-turut, supaya fokus promosi bulanan kekal.
+5. Siri trending **diselang** dengan topik biasa (contoh bulan ini: selang sehari atau dua hari), bukan berturut-turut, supaya fokus promosi bulanan kekal.
 
 Cara jana siri baharu dari podcast YouTube (dalam Claude Project):
 1. Buka video di YouTube → **⋯ / Lagi** → **Tunjukkan transkrip** → salin semua teks.

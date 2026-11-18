@@ -4,7 +4,194 @@ Setiap hari satu topik: **🎥 1 video storytelling · 🎞️ 2 video motion gr
 Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.
 Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).
 
-## Hari 23 · 🔥 Siri trending: Tidur, Otak & Usus · Sarapan untuk otak: telur, oat & bijirin
+## Hari 22 · 🔥 Siri trending: Tidur, Otak & Usus · Usus & otak saling berhubung
+
+> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Serat tak cukup; hari tak sempat makan sayur
+> **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
+
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Perut tak selesa, mood pun ikut
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 13-blazer-tunjuk-atas-kanan.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Momyizz pegang perut, muka muram | Pernah perasan? Perut tak selesa, mood pun ikut jatuh 😣 |
+| 3–15s | Animasi garisan antara otak dan usus (Flow) | Saintis panggil ni 'paksi usus–otak': usus dan otak berhubung melalui saraf, hormon dan bakteria usus. |
+| 15–28s | Momyizz bercakap ke kamera | Ada kajian awal kaitkan bakteria usus dengan mood. Tapi pada manusia, masih banyak dikaji. |
+| 28–40s | Pinggan: sayur, buah, kekacang, bijirin penuh; shaker shake pisang di tepi (BodyKey perisa pisang kelihatan) | Yang dah jelas: WHO saran serat 25 g sehari dari makanan. Hari tak cukup sayur? Shake pisang Momyizz ada 5g serat prebiotik. |
+| 40–45s | Momyizz ke kamera | Jaga usus, mulakan dengan pinggan 🌿 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+
+**Caption video**
+
+```
+Usus & otak saling berhubung 🧠🌿 Fakta, bukan hype.
+
+Sumber: WHO (2023).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #KesihatanUsus #KesihatanOtak
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 5 makanan tinggi serat yang mudah dapat
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | 5 makanan serat yang ada di dapur korang 🌾 | Pop |
+| 3–8s | CHECKLIST baris 1–2 | ✓ Oat<br>✓ Kacang dal / kacang merah | Baris muncul |
+| 8–14s | CHECKLIST baris 3–4 | ✓ Jambu batu / betik<br>✓ Sayur hijau (kangkung, sawi) | Baris muncul |
+| 14–20s | CHECKLIST baris 5 | ✓ Roti / beras perang | Baris muncul |
+| 20–22s | NOTA_TANGAN | Sasaran WHO: 25 g sehari | Tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+5 makanan tinggi serat yang mudah dapat 🌾
+
+Sumber: WHO (2023).
+#Momyizz #Serat #KesihatanUsus
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Perut kembung bila mula makan sihat?
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 10-satin-terkejut-pipi.
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Mula makan sayur banyak, perut terus kembung? 😣 | Pop |
+| 3–9s | KAD_FAKTA | Punca biasa: tambah serat terlalu banyak, terlalu cepat | Kad naik |
+| 9–16s | CHECKLIST | Penyelesaian:<br>✓ Tambah perlahan, satu hidangan seminggu<br>✓ Minum air cukup | Baris satu per satu |
+| 16–22s | CHECKLIST | ✓ Kunyah perlahan<br>Sakit berterusan? Jumpa doktor | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Perut kembung bila mula makan sihat? Ini sebabnya 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #KesihatanUsus #Serat
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Cara capai 25 g serat sehari
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+SERAT 25 g SEHARI 🌾
+Cara capai tanpa susah
+```
+
+**Slaid 2**
+
+```
+KENAPA?
+WHO (2023): dewasa sekurang-kurangnya 25 g serat semula jadi dari makanan sehari, dan 400 g sayur & buah.
+🟢 Terbukti
+```
+
+**Slaid 3**
+
+```
+PAGI
+Oat atau roti gandum penuh + buah
+```
+
+**Slaid 4**
+
+```
+TENGAH HARI
+Separuh pinggan sayur + kekacang (dal, kacang merah)
+```
+
+**Slaid 5**
+
+```
+SNEK
+Buah segar (jambu, betik, pisang) atau segenggam kacang
+```
+
+**Slaid 6**
+
+```
+INGAT
+Tambah serat perlahan-lahan & minum air cukup supaya perut selesa.
+Save 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Cara capai 25 g serat sehari ikut WHO. Save & cuba minggu ni 🌾
+
+Sumber: WHO (2023).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Serat #KesihatanUsus #PingganSihat
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (145 / 500 aksara)
+
+```
+Info ringkas: WHO (2023) menyarankan dewasa ambil sekurang-kurangnya 25 g serat semula jadi dari makanan sehari, bersama 400 g sayur dan buah. 🌾🥦
+```
+
+**16:00 · Pertanyaan** (149 / 500 aksara)
+
+```
+Soalan: hari ni korang dah makan sayur atau buah berapa hidangan? 🥗
+
+0️⃣ Belum langsung
+1️⃣–2️⃣
+3️⃣–4️⃣
+5️⃣ ke atas
+
+Momyizz baru 2. Malam ni tambah!
+```
+
+**18:30 · Tips praktikal** (275 / 500 aksara)
+
+```
+Tips tambah serat tanpa perut kembung 💡
+
+✅ Tambah sedikit demi sedikit, satu hidangan seminggu
+✅ Minum air kosong yang cukup
+✅ Pilih pelbagai sumber: sayur, buah, kekacang, bijirin penuh
+✅ Kunyah perlahan
+✅ Hari tak cukup sayur: shake pisang ada 5g serat prebiotik sehidangan
+```
+
+**21:00 · Info penting / alert** (205 / 500 aksara)
+
+```
+Info penting: sembelit berpanjangan, perubahan tabiat buang air yang mendadak, atau darah dalam najis perlu diperiksa doktor. ⚠️
+
+Jangan bergantung pada julap atau teh 'detoks' berulang kali tanpa nasihat.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+
+## Hari 24 · 🔥 Siri trending: Tidur, Otak & Usus · Sarapan untuk otak: telur, oat & bijirin
 
 > 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Sarapan otak tapi pagi tak sempat masak
 > **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
@@ -193,7 +380,7 @@ Semak nombor pendaftaran MAL dan dakwaannya. Tiada pil yang menggantikan tidur c
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 26 · 🔥 Siri trending: Tidur, Otak & Usus · Makanan untuk otak: omega-3 & ikan tempatan
+## Hari 27 · 🔥 Siri trending: Tidur, Otak & Usus · Makanan untuk otak: omega-3 & ikan tempatan
 
 > 🧩 **Produk penyelesai masalah:** NUTRILITE Salmon Omega Complex · **Masalah:** Keluarga jarang makan ikan berlemak
 > **Key selling:** 330.93mg omega-3 (EPA + DHA) sebiji · salmon, ikan bilis & sardin · 1 biji sehari · **Gambar:** `AMWAY_BRAND/PRODUK/salmon-omega-complex.png`
