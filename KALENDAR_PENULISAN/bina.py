@@ -14,6 +14,12 @@ sys.path.insert(0, HERE)
 from kalendar_data import DAYS, JENIS_TEKS, PRODUK, MG_FULL, MG_PLAN, MG_INFO  # noqa: E402
 from masalah_data import MASALAH, CARA_BETUL, SUMBER  # noqa: E402
 from soalan_data import JENIS_SOALAN, GILIR_AWAM, SOALAN_AWAM, SKRIP, PADANAN_WA  # noqa: E402
+from fb_pendek_data import FB_PENDEK, HAD_FB  # noqa: E402
+FB_INDEKS = (0, 1, 3)  # 10:00, 16:00, 21:00
+
+
+def panjang_fb(t):
+    return len(t.encode("utf-16-le")) // 2
 
 
 def skrip_untuk(teks):
@@ -74,6 +80,19 @@ def _strings(obj):
 
 def check():
     errs = []
+    for tema, teks3 in FB_PENDEK.items():
+        if not any(d["tema"] == tema for d in DAYS):
+            errs.append(f"FB_PENDEK: tema '{tema}' tiada dalam kalendar")
+        if len(teks3) != 3:
+            errs.append(f"FB_PENDEK '{tema}': perlu 3 teks")
+        for t in teks3:
+            if panjang_fb(t) > HAD_FB:
+                errs.append(f"FB_PENDEK '{tema}': {panjang_fb(t)} aksara (> {HAD_FB}): {t[:40]}")
+            if BANNED.search(t):
+                errs.append(f"FB_PENDEK '{tema}': kata ganti nama dilarang")
+    for day in DAYS:
+        if "video" in day and not carousel_tips(day["teks"][2])["cukup"]:
+            errs.append(f"Hari {day['d']}: teks tips 18:30 perlu sekurang-kurangnya 2 baris ✅ / 1️⃣ untuk carousel tips")
     for tema, (jenis, teks) in SOALAN_AWAM.items():
         if jenis not in JENIS_SOALAN:
             errs.append(f"SOALAN_AWAM '{tema}': jenis '{jenis}' tidak sah")
@@ -166,6 +185,26 @@ def md_masalah():
     return "\n".join(L)
 
 
+TIPS_BULLET = re.compile(r"^\s*(✅|✓|•|🔹|[1-9]\ufe0f?\u20e3|Minggu \d+:)\s*")
+
+
+def carousel_tips(teks):
+    """Jana carousel tips daripada teks 18:30: tajuk -> 1 tips 1 slaid -> penutup."""
+    baris = [x.strip() for x in teks.split("\n") if x.strip()]
+    tajuk = baris[0].replace("💡", "").strip()
+    tips, penutup = [], []
+    for x in baris[1:]:
+        if TIPS_BULLET.match(x):
+            tips.append(TIPS_BULLET.sub(lambda m: (m.group(1) + " ") if m.group(1).startswith("Minggu") else "", x).strip())
+        elif tips:
+            penutup.append(x)
+    kepala = re.sub(r"^tips\s+", "", tajuk, flags=re.I)
+    slaid = [f"💡 TIPS\n{kepala.upper()}\n(Save untuk rujukan)"]
+    slaid += [f"TIPS {i}\n{t}" for i, t in enumerate(tips[:6], 1)]
+    slaid.append(("\n".join(penutup) + "\n\n" if penutup else "") + "Save & kongsi 💛\nFollow Momyizz untuk tips setiap hari")
+    return {"tajuk": tajuk, "slaid": slaid, "caption": teks, "cukup": len(tips) >= 2}
+
+
 def to_json():
     out = []
     for day in DAYS:
@@ -194,6 +233,10 @@ def to_json():
             d["teks"] = [{"masa": m, "jenis": j, "t": t} for (m, j), t in zip(JENIS_TEKS, teks)]
             if jenis_s:
                 d["teks"][1]["soalan"] = jenis_s
+            d["ctips"] = carousel_tips(teks[2])
+            if day["tema"] in FB_PENDEK:
+                for i, t in zip(FB_INDEKS, FB_PENDEK[day["tema"]]):
+                    d["teks"][i]["fb"] = t
             if day.get("wa"):
                 d["wa"] = dict(day["wa"], skrip=skrip_untuk(day["wa"].get("tajuk", "") + " " + day["wa"].get("t", "")))
             d["mg"] = mg
@@ -270,11 +313,19 @@ def md_week1(days, minggu=1):
               "### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus", ""]
         for t in day["teks"]:
             L += [f"**{t['masa']} · {t['jenis']}** ({len(t['t'])} / 500 aksara)", "", "```", t["t"], "```", ""]
+            if t.get("fb"):
+                L += [f"📘 *Versi FB latar warna* ({panjang_fb(t['fb'])} / {HAD_FB} aksara)", "", "```", t["fb"], "```", ""]
+        if day.get("ctips"):
+            ct = day["ctips"]
+            L += [f"### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): {ct['tajuk']}", "",
+                  "> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.", ""]
+            for i, t in enumerate(ct["slaid"], 1):
+                L += [f"**Slaid {i}**", "", "```", t, "```", ""]
         if day.get("wa"):
             w = day["wa"]
             L += [f"### 💬 WhatsApp / group tertutup: {w['tajuk']}", "", f"> {w['nota']}", "", "```", w["t"], "```", ""]
         L += ["**Checklist hari ini**", "",
-              "- [ ] 🎥 Video storytelling: TikTok · Reels"] + [f"- [ ] 🎞️ Motion grafik {g['jenis']}: TikTok · Reels" for g in day["mg"]] + [
+              "- [ ] 🎥 Video storytelling: TikTok · Reels"] + [f"- [ ] 🎞️ Motion grafik {g['jenis']}: TikTok · Reels" for g in day["mg"]] + (["- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook"] if day.get("ctips") else []) + [
               "- [ ] 🖼️ Carousel: Instagram · Facebook"]
         L += [f"- [ ] ✍️ {t['masa']} {t['jenis']}: Threads · Facebook" for t in day["teks"]]
         if day.get("wa"):

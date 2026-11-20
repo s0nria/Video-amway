@@ -153,6 +153,12 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: WHO (2023) menyarankan dewasa ambil sekurang-kurangnya 25 g serat semula jadi dari makanan sehari, bersama 400 g sayur dan buah. 🌾🥦
 ```
 
+📘 *Versi FB latar warna* (67 / 130 aksara)
+
+```
+WHO saran 25g serat sehari dari makanan, dan 400g sayur & buah 🌾🥦
+```
+
 **16:00 · Pertanyaan** (179 / 500 aksara)
 
 ```
@@ -164,6 +170,12 @@ Jujur: apa yang paling susah nak cukupkan sayur & buah setiap hari? 🥦
 🙈 Lupa beli
 
 Momyizz: tak sempat masak hari bekerja. Korang?
+```
+
+📘 *Versi FB latar warna* (58 / 130 aksara)
+
+```
+Apa paling susah nak cukupkan sayur & buah setiap hari? 🥦
 ```
 
 **18:30 · Tips praktikal** (275 / 500 aksara)
@@ -186,11 +198,72 @@ Info penting: sembelit berpanjangan, perubahan tabiat buang air yang mendadak, a
 Jangan bergantung pada julap atau teh 'detoks' berulang kali tanpa nasihat.
 ```
 
+📘 *Versi FB latar warna* (98 / 130 aksara)
+
+```
+Sembelit berpanjangan atau darah dalam najis? Jumpa doktor, jangan bergantung pada teh 'detoks' ⚠️
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips tambah serat tanpa perut kembung
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+TAMBAH SERAT TANPA PERUT KEMBUNG
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Tambah sedikit demi sedikit, satu hidangan seminggu
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Minum air kosong yang cukup
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Pilih pelbagai sumber: sayur, buah, kekacang, bijirin penuh
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Kunyah perlahan
+```
+
+**Slaid 6**
+
+```
+TIPS 5
+Hari tak cukup sayur: shake pisang ada 5g serat prebiotik sehidangan
+```
+
+**Slaid 7**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -347,6 +420,12 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: kuning telur antara sumber kolin terbaik. Badan guna kolin untuk menghasilkan asetilkolin, bahan kimia yang penting untuk ingatan dan pergerakan otot. (NIH) 🥚
 ```
 
+📘 *Versi FB latar warna* (99 / 130 aksara)
+
+```
+Kuning telur kaya kolin, yang badan guna untuk hasilkan asetilkolin, penting untuk ingatan 🥚 (NIH)
+```
+
 **16:00 · Pertanyaan** (194 / 500 aksara)
 
 ```
@@ -358,6 +437,12 @@ Soalan: kalau masa tak jadi masalah, sarapan ideal korang macam mana? 🍳
 🥤 Minuman berkhasiat yang cepat
 
 Komen sarapan impian korang 👇
+```
+
+📘 *Versi FB latar warna* (57 / 130 aksara)
+
+```
+Kalau masa tak jadi masalah, sarapan ideal korang apa? 🍳
 ```
 
 **18:30 · Tips praktikal** (265 / 500 aksara)
@@ -381,11 +466,67 @@ Info penting: produk 'pil minda' atau 'booster otak' banyak dijual. ⚠️
 Semak nombor pendaftaran MAL dan dakwaannya. Tiada pil yang menggantikan tidur cukup, makanan seimbang dan bergerak.
 ```
 
+📘 *Versi FB latar warna* (98 / 130 aksara)
+
+```
+'Pil minda' banyak dijual ⚠️ Semak nombor MAL. Tiada pil ganti tidur, makanan seimbang & bergerak.
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips telur dadar penuh sayur dalam 5 minit
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+TELUR DADAR PENUH SAYUR DALAM 5 MINIT
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+2 biji telur + bawang + sawi / bayam cincang
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Tambah sedikit lada hitam
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Masak dengan minyak sedikit
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Makan dengan roti gandum
+```
+
+**Slaid 6**
+
+```
+Protein + sayur dalam satu pinggan! Pagi tak sempat masak: shake pisang 17g protein. 🍌
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -543,6 +684,12 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: DHA, sejenis omega-3, ialah antara lemak utama dalam otak dan retina mata. Sumber terbaik: ikan berlemak seperti ikan kembung dan sardin. (NIH) 🐟🧠
 ```
 
+📘 *Versi FB latar warna* (97 / 130 aksara)
+
+```
+DHA (omega-3) antara lemak utama dalam otak & mata 🐟 Sumber terbaik: ikan kembung, sardin. (NIH)
+```
+
 **16:00 · Pertanyaan** (210 / 500 aksara)
 
 ```
@@ -554,6 +701,12 @@ Ibu-ibu, bila anak tolak makan ikan, apa yang korang rasa? 🐟
 🤷 Biar je, esok cuba lagi
 
 Momyizz: semua sekali dalam satu malam. 😂
+```
+
+📘 *Versi FB latar warna* (61 / 130 aksara)
+
+```
+Ibu-ibu, bila anak tolak makan ikan, apa yang korang rasa? 🐟
 ```
 
 **18:30 · Tips praktikal** (314 / 500 aksara)
@@ -574,6 +727,66 @@ Tips anak mahu makan ikan 💡
 Info penting: sedang makan ubat cair darah atau ada masalah pendarahan? ⚠️
 
 Tanya doktor atau ahli farmasi sebelum mengambil suplemen minyak ikan / omega-3, kerana ia boleh berinteraksi dengan ubat tertentu. (NIH)
+```
+
+📘 *Versi FB latar warna* (80 / 130 aksara)
+
+```
+Makan ubat cair darah? Tanya doktor sebelum ambil minyak ikan / omega-3 ⚠️ (NIH)
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips anak mahu makan ikan
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+ANAK MAHU MAKAN IKAN
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Buang tulang & jadikan isi ikan dalam bubur, nasi goreng atau roti
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Sardin dalam tin: jadikan inti sandwich
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Goreng tepung ringan / bakar dengan sedikit kunyit
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Makan bersama, anak ikut contoh
+```
+
+**Slaid 6**
+
+```
+TIPS 5
+Minggu jarang makan ikan: Momyizz ambil pelengkap omega-3 (330mg sebiji) untuk dewasa
+```
+
+**Slaid 7**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
 ```
 
 ### 💬 WhatsApp / group tertutup: Nutrilite Salmon Omega Complex
@@ -605,6 +818,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
