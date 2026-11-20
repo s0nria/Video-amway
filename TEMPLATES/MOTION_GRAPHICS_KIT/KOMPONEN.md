@@ -11,6 +11,7 @@ Gerakan lalai: masuk pop 90%→100% + fade 0.3 s, keluar fade 0.2 s, ease-out.
 - Kedudukan: sepertiga atas (y ~220–600).
 - Sticker sesuai: tunjuk atas (`01`/`03`), tutup mulut (`04`/`14`).
 - Tiada tajuk sensasi atau menakutkan.
+- **Cover 1 saat (WAJIB):** 0–1 s hook sudah penuh dan statik dari bingkai pertama, tiada pop/fade masuk. Animasi kecil (contoh goyang, partikel) bermula selepas 1 s. Bingkai 0 s dijadikan cover.
 
 ## `SARI_KATA` — sari kata ayat
 - Kotak Kertas, padding 20 × 32 px, jejari 24 px.

@@ -17,7 +17,7 @@ _Siapa, bila, apa masalahnya?_
 
 | # | Masa | Suara / teks | Grafik (komponen kit) | Sticker | B-roll |
 |---|---|---|---|---|---|
-| 1 | 0–3 s | Hook: | `HOOK` | | |
+| 1 | 0–3 s | Hook (0–1 s cover statik): | `HOOK` | | |
 | 2 | | Cerita: | `SARI_KATA` | | |
 | 3 | | Fakta 1: | `KAD_FAKTA` + `LABEL_BUKTI` | | |
 | 4 | | Produk: | `KAD_PRODUK` | | |

@@ -25,6 +25,14 @@ Kawasan yang selalu ditutup UI platform. Jangan letak teks penting, sticker, CTA
 
 Kawasan selamat: x 60–940, y 160–1440. Lihat garis bantu dalam `TEMPLATES/MOTION_GRAPHICS_KIT/preview.html`.
 
+## Cover: hook 1 saat — DISAHKAN (pengguna, 20 Nov 2026)
+Wajib untuk **setiap** video (motion grafik, Flow, rakaman, 3D):
+- Bingkai 0–1 s ialah cover. Teks hook kelihatan **penuh dan statik dari bingkai pertama (0.00 s)**: tiada fade masuk, tiada pop, tiada skrin kosong.
+- Cover mesti boleh dibaca sendiri sebagai thumbnail TikTok / Reels / Threads: hook dalam safe zone, kontras jelas, tanda nama `@empayarbiz_momyizz` dan label pilar (jika ada) sudah kelihatan.
+- Gerakan (alun, terapung, partikel, latar) bermula selepas 1 s. Hook boleh kekal sehingga 3 s seperti biasa.
+- Dalam CapCut / TikTok: pilih bingkai 0 s sebagai cover.
+- Dalam `VIDEO_3D/`: elemen hook guna `show(id,t,-1,tamat)` dan gerakan didarab `cl(t-1)`; semak dengan `SNAP=0,0.99` (dua bingkai mesti sama).
+
 ## Teks & sari kata — DISAHKAN (font), CADANGAN (saiz)
 - Sari kata: Nunito ExtraBold 800, warna Dakwat `#35362F` atas kotak Kertas `#FBF9F4`. Saiz 52–60 px, maksimum 2 baris, ~6 patah perkataan sebaris.
 - Hook / big words: Fredoka Bold 700. Hook 88–110 px. Big word 130–160 px dalam warna Kayu `#A3876A` atau Sage gelap `#556A4C`.
@@ -51,6 +59,7 @@ MP4 (H.264), 1080 × 1920, 30 fps, bitrate 12–16 Mbps, audio AAC 48 kHz 320 kb
 
 ## Senarai semak QC (Pintu 3)
 - [ ] Tanda nama **@empayarbiz_momyizz** kelihatan sepanjang video, dalam safe zone (WAJIB, lihat `AMWAY_BRAND/BRAND.md`)
+- [ ] Cover 0–1 s: hook penuh dan statik dari bingkai pertama (tiada fade/pop dari skrin kosong)
 - [ ] Fakta sepadan dengan skrip yang diluluskan. Tiada fakta "PERLU SEMAK"
 - [ ] Tiada dakwaan perubatan, janji hasil atau tajuk menakutkan
 - [ ] Label bukti pada setiap fakta kesihatan/mikroplastik

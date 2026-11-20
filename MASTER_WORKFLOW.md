@@ -36,7 +36,7 @@ Isi `TEMPLATES/SKRIP_TEMPLATE.md`. Guna **Momyizz** dan **korang** sahaja, dan g
 
 | Babak | Masa anggaran | Isi |
 |---|---|---|
-| Hook | 0–3 s | Situasi/soalan yang buat orang berhenti skrol |
+| Hook | 0–3 s | Situasi/soalan yang buat orang berhenti skrol. **0–1 s = cover statik** (hook penuh dari bingkai pertama) |
 | Cerita | 3–15 s | Pengalaman sebenar, emosi, masalah |
 | Fakta | 15–40 s | 1–3 fakta berlabel bukti, ringkas |
 | Produk (jika sesuai) | 40–50 s | Pengenalan bermakna, fakta yang disahkan sahaja |

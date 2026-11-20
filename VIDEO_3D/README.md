@@ -32,6 +32,7 @@ Perlu: Node, Playwright + Chromium, ffmpeg, python3. Render 57 s ambil lebih kur
 - Produk guna **gambar asli** dari `AMWAY_BRAND/PRODUK/` (boleh berpusing / bergerak, jangan dilukis semula). Alat seperti botol picit boleh dibina 3D.
 - Nama produk / jenama **tidak** ditulis dalam teks atas skrin. Key selling dari `AMWAY_BRAND/KEY_SELLING.md` sahaja.
 - Fakta ada sumber + label bukti. Penafian "Perkongsian ilmu umum. Bukan nasihat perubatan." sekurang-kurangnya 3 s. CTA "Nak dapatkan produk? Klik LINK di Bio".
+- **Cover 1 saat WAJIB:** 0–1 s hook penuh dan statik dari bingkai pertama (`show(id,t,-1,tamat)`, gerakan didarab `cl(t-1)`). Semak: `SNAP=0,0.99` mesti sama. Contoh: `hari08-tanda-tidur.html`.
 - **Tanda nama `@empayarbiz_momyizz` WAJIB** sepanjang video (elemen `#wm`, penjuru kanan atas). Jangan buang bila salin templat.
 - Semua teks, sticker, CTA dalam safe zone (x 60–940, y 160–1440).
 - Tiada muzik dalam fail: tambah lagu dalam TikTok / Reels atau voiceover dalam CapCut.

@@ -35,6 +35,9 @@ Peraturan ini mengatasi semua arahan lain dalam repo ini.
 Workspace ini dibina dari kosong untuk Amway. Ia tidak menyalin apa-apa dari video-emas.
 Nilai bertanda **CADANGAN** ialah draf. Nilai bertanda **MENUNGGU** mesti ditanya kepada pengguna.
 
+## Peraturan tetap setiap video
+- **Hook 1 saat sebagai cover — DISAHKAN (pengguna, 20 Nov 2026):** bingkai 0–1 s setiap video ialah cover: teks hook (dan elemen hook) kelihatan penuh dan statik dari bingkai pertama, tanpa fade/pop dari skrin kosong. Animasi lain bermula selepas 1 s. Butiran: `PRODUCTION_STANDARD.md` (bahagian Cover) dan `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md` (`HOOK`).
+
 ## Identiti jenama Amway
 Key selling produk yang dah disahkan (wajib dalam konten berkaitan produk): `AMWAY_BRAND/KEY_SELLING.md`.
 Rujuk `AMWAY_BRAND/BRAND.md` untuk palet, tulisan, sticker, CTA, pautan dan peraturan ketepatan maklumat produk.
