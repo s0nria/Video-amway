@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Blok Threads harian: 1 video 10 saat + 1 gambar dalam satu post.
 
-Untuk setiap hari (9-30; Hari 1-8 sudah dipost):
+Untuk setiap hari (9-50; Hari 1-8 sudah dipost; Hari 20-50 = 1-31 Disember):
   hook   : teks pendek atas skrin video 3D (tanpa nama produk)
   rakam  : idea video 10 saat jika rakam sendiri (produk sedang digunakan, close-up, bunyi asli)
   gambar : idea 1 gambar untuk dipasangkan
@@ -24,6 +24,7 @@ CHIPS = {
  "omega": ["330mg omega-3 sebiji", "Salmon, bilis & sardin", "1 biji sehari"],
  "probiotik": ["6.3 bilion bakteria baik", "5 strain probiotik", "1 paket sehari"],
  "fos": ["2 serat larut prebiotik", "+ grape ferment", "Rasa sedap"],
+ "kranberi": ["3 strain probiotik", "Inulin + FOS prebiotik", "150mg serbuk kranberi"],
 }
 
 GAMBAR_PRODUK = {
@@ -59,5 +60,27 @@ THREADS = {
  27: ("Keluarga jarang makan ikan? 🐟", "Ikan kembung di kuali + botol omega di meja makan.", "Hidangan ikan keluarga + botol omega", 1),
  28: ("Protein mesra usus 🫘", "Tempe garing di kuali, kemudian goncang minuman protein soya.", "Pinggan tempe, dal & sayur + botol minuman soya", 2),
  29: ("Tabiat sihat yang kekal 💛", "Susun 3 tabiat: botol air, kasut sukan, shake pagi.", "Senarai 3 tabiat tulisan tangan + shake", 1),
- 30: ("Sebulan bersama korang 💛", "Buka kotak shake bulan depan, susun paket dalam bekas.", "Kalendar bulan baharu + kotak shake", 1),
+ # ---- Disember: Siri Wanita Sihat (11-15 Dis)
+ 30: ("Bakteria baik bukan di usus je 🌸", "Koyak 1 paket, tuang atas lidah / ke gelas air sejuk, close-up tangan.", "Gelas air sejuk + paket di meja solek, cahaya pagi", 0),
+ 31: ("Kurang produk, lebih selesa 🌸", "Susun seluar dalam kapas dalam laci, tutup laci perlahan.", "Rak bilik air ringkas: sabun tanpa pewangi, tuala bersih", 2),
+ 32: ("Jus kranberi kotak, sihat ke? 🍒", "Pusing kotak jus, zoom label gula; kemudian tuang paket 2g ke air sejuk.", "Kranberi segar vs jus kotak + nota 'makanan, bukan ubat'", 2),
+ 33: ("Bila kali terakhir buat saringan? 🩺", "Tulis tarikh temujanji saringan dalam kalendar dinding, close-up pen.", "Kalendar dinding + nota 'Pap smear / ujian HPV'", 1),
+ 34: ("Rutin pagi wanita, 1 minit 🌸", "Pagi: segelas air, 1 paket atas lidah, kasut jalan di pintu.", "Senarai rutin wanita tulisan tangan + paket", 2),
+ # ---- Disember: konten November yang belum digunakan (16-31 Dis)
+ 35: ("Petang blur: haus atau lapar? 💧", "Isi gelas dari penapis air, kemudian goncang shake petang.", "Gelas air + botol shake di meja kerja pukul 4", 2),
+ 36: ("Air botol dalam bonet kereta? 🚗", "Isi botol keluli dari penapis air di dapur, slow-motion.", "Botol keluli berisi air di tempat duduk kereta", 2),
+ 37: ("Label snek anak, 10 saat 🛒", "Pusing tin minuman soya, zoom ke senarai ramuan.", "Snek berwarna terang vs label ramuan pendek", 2),
+ 38: ("Air minuman seisi keluarga 💧", "Anak isi gelas sendiri dari penapis air, close-up air jernih.", "Jadual tukar kartrij ditampal di peti", 2),
+ 39: ("Malas cuci muka malam? 🌙", "Picit jelly ke tapak tangan, buih lembut, bilas air suam.", "Dulang cuci muka 5 minit sebelah sinki", 2),
+ 40: ("SPF dalam rumah pun perlu? ☀️", "Sapu dua jari pelindung matahari, ratakan di belakang tangan dekat tingkap.", "Botol pelindung matahari di tepi tingkap", 2),
+ 41: ("Cuti sekolah: skrin atau main? 📱", "Letak telefon dalam bakul, goncang shake untuk snek petang.", "Bakul 'stesen cas keluarga' + gelas shake", 2),
+ 42: ("Rak skincare penuh, kulit kusam? ✨", "Cuci muka: jelly di tapak tangan, bilas air suam.", "Pinggan sayur berwarna + dulang cuci muka", 2),
+ 43: ("Tak sempat makan buah hari ni? 🍊", "Potong jambu batu, letak sebelah botol vitamin C.", "Bekas buah potong di aras mata dalam peti", 2),
+ 44: ("Vitamin C cegah selesema? 🤧", "Tuang air ke gelas sebelah tablet vitamin C & buah tempatan.", "Buah tempatan tinggi vitamin C tersusun", 1),
+ 45: ("Jaga otak dari sekarang 🧠", "Ikan kembung di kuali + botol omega di meja makan.", "Hidangan ikan keluarga + kasut jalan", 2),
+ 46: ("Minum teh terus lepas makan? 🍵", "Tolak cawan teh ke tepi, goncang shake pisang.", "Pinggan sayur hijau + gelas shake", 2),
+ 47: ("Dah berapa jam duduk hari ni? 🪑", "Bangun dari kerusi, regang, goncang shake.", "Penggera 'bangun & gerak' di telefon + shake", 2),
+ 48: ("Jalan 10 minit sekeluarga 👟", "Kasut keluarga di pintu, kemudian goncang shake lepas jalan.", "Kasut sekeluarga tersusun di pintu", 2),
+ 49: ("Latihan otot 5 minit di rumah 💪", "Squat dinding 5 saat, kemudian goncang shake.", "Botol air sebagai pemberat + gelas shake", 2),
+ 50: ("Terima kasih 2026 💛", "Buka kotak shake, susun paket, tulis azam 2027.", "Nota azam 2027 + kotak shake", 1),
 }

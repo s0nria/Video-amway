@@ -1273,15 +1273,15 @@ def _susun30():
     baru, mgf2, mgp2 = [], {}, {}
     for n, k in enumerate(SUSUNAN, 1):
         if isinstance(k, str):
-            baru.append(dict(trend[k], d=n, produk=PRODUK_TREND[k]))
+            baru.append(dict(trend[k], d=n, produk=PRODUK_TREND[k], kunci=k))
             mgf2[n] = MG_TREND[k]
         else:
-            baru.append(dict(asal[k], d=n))
+            baru.append(dict(asal[k], d=n, kunci=k))
             if k in mgf:
                 mgf2[n] = mgf[k]
             if k in mgp:
                 mgp2[n] = mgp[k]
-    assert len(baru) == 30
+    assert len(baru) == len(SUSUNAN)
     DAYS, MG_FULL, MG_PLAN = baru, mgf2, mgp2
 
 
@@ -1533,4 +1533,284 @@ SUSUNAN = [1, 2, 3, 4, 5, 6, 7,
            "T1", 8, "T2", 9, 10, "T3", 11, "N1", 12, 13, "N2", 14, "T4", "U1", "T5", "U2", "N4", "U3", "U4", "T6", "U5", "T7", 30]
 
 
+# ================================================================ SIRI WANITA SIHAT: PROBIOTIK KRANBERI (DISAHKAN pengguna 20 Nov 2026)
+# Produk: NUTRILITE Cranberry Fruit Drink Base with Probiotic, Inulin & FOS (#125341). Key selling ✅ sahaja dari KEY_SELLING.md.
+# DILARANG: dakwaan cegah / rawat UTI, keputihan, hormon; dakwaan pH faraj (PERLU SEMAK). Kranberi = makanan, bukan ubat.
+# Topik pendidikan (flora intim, kebersihan, mitos kranberi, saringan) daripada NHS, Cleveland Clinic, NIH NCCIH, KKM.
+PRODUK["kranberi"] = ("NUTRILITE Cranberry Fruit Drink Base with Probiotic, Inulin & FOS", "",
+  "3 strain probiotik (L. acidophilus NCFM, L. acidophilus La-14, L. rhamnosus HN001) · prebiotik inulin 0.8g + FOS 0.13g sepaket · "
+  "150mg serbuk kranberi sepaket · 1 paket sehari, atas lidah atau air / jus sejuk (elak panas) · 30 paket, tak perlu peti sejuk · "
+  "12 tahun ke atas, ada susu · hamil / menyusu / ada masalah kesihatan: rujuk doktor")
+KRAN_NOTA = ("Siri Wanita Sihat. Tiada dakwaan cegah / rawat UTI, keputihan atau hormon, dan tiada dakwaan pH faraj. "
+             "Produk: ciri label sahaja, sentiasa 'pelengkap, bukan ubat'.")
+SIRI_WANITA = "Siri Wanita Sihat: Probiotik Kranberi"
+WA_KRAN = ("• 3 strain probiotik (L. acidophilus NCFM, L. acidophilus La-14, L. rhamnosus HN001)\n"
+           "• Prebiotik inulin 0.8g + FOS 0.13g sepaket\n• 150mg serbuk kranberi sepaket\n"
+           "• 1 paket sehari: terus atas lidah atau campur air / jus sejuk (elak minuman panas)\n"
+           "• 30 paket sekotak, tak perlu simpan dalam peti (bawah 25°C)\n\n"
+           "Untuk 12 tahun ke atas, mengandungi susu. Hamil, menyusu atau ada masalah kesihatan: rujuk doktor dulu.")
+
+SIRI_KRANBERI = [
+{"d": "C1", "ep": None, "siri": SIRI_WANITA, "tema": "Flora intim wanita: bakteria baik yang jaga keseimbangan",
+ "video": {"tajuk": "Bakteria baik bukan di usus je", "nota": CERITA + " " + KRAN_NOTA + " Sticker: 13-blazer-tunjuk-atas-kanan.",
+  "babak": [
+   ("0–3s", "Momyizz depan cermin pagi, ikat rambut, senyum ke kamera", "Korang tahu tak, bakteria baik bukan di usus je? 🌸"),
+   ("3–15s", "Animasi lembut bakteria Lactobacillus berbentuk rod, warna pastel (Flow)", "Faraj yang sihat secara semula jadi ada bakteria baik, kebanyakannya Lactobacillus."),
+   ("15–28s", "Animasi titisan asid laktik membentuk perisai lembut", "Bakteria ini hasilkan asid laktik, yang kekalkan persekitaran berasid. Cara semula jadi badan wanita jaga keseimbangan."),
+   ("28–40s", "Momyizz di meja: gelas air sejuk, paket kelihatan di tepi", "Antibiotik, perubahan hormon & sabun berpewangi boleh ganggu keseimbangan ni. Momyizz mula dengan asas, dan 1 paket probiotik 3 strain + kranberi sebagai pelengkap, bukan ubat."),
+   ("40–45s", "Momyizz ke kamera", "Esok: kebersihan intim, kurang lebih baik 😉 | " + DISC),
+  ],
+  "caption": "Bakteria baik bukan di usus je 🌸 Siri Wanita Sihat Momyizz bermula hari ni.\n\nSumber: Cleveland Clinic; NHS.\n" + DISC + "\n\n#Momyizz #WanitaSihat #KesihatanWanita"},
+ "carousel": {"tajuk": "Flora intim wanita: 5 fakta asas",
+  "slaid": [
+   "FLORA INTIM WANITA 🌸\n5 fakta yang jarang orang cakap",
+   "BAKTERIA BAIK\nFaraj yang sihat didominasi bakteria baik, terutamanya Lactobacillus.\n🟢 Terbukti (Cleveland Clinic)",
+   "PERSEKITARAN BERASID\nBakteria baik hasilkan asid laktik. pH normal sekitar 3.8–4.5.\n🟢 Terbukti (Cleveland Clinic)",
+   "MEMBERSIH SENDIRI\nKeputihan jernih / putih yang normal ialah cara semula jadi faraj membersih diri.\n🟢 (NHS)",
+   "APA YANG GANGGU?\nAntibiotik, douching, sabun berpewangi & perubahan hormon.\n🟢 (NHS)",
+   "ASAS DULU\nSeluar dalam kapas · air cukup · makan seimbang · ada perubahan? Jumpa doktor.\nSave 🌸\n\n" + DISC,
+  ],
+  "caption": "Flora intim wanita: 5 fakta asas. Save & kongsi dengan kawan perempuan korang 🌸\n\nSumber: Cleveland Clinic; NHS.\n" + DISC + "\n\n#Momyizz #WanitaSihat #FaktaKesihatan"},
+ "teks": [
+  "Info ringkas: faraj yang sihat secara semula jadi mempunyai bakteria baik, terutamanya Lactobacillus. Bakteria ini menghasilkan asid laktik yang mengekalkan persekitaran berasid. (Cleveland Clinic) 🌸",
+  "Soalan untuk wanita: bila ada soalan tentang kesihatan intim, korang biasanya… 🌸\n\n🙈 Simpan sendiri, malu nak tanya\n📱 Cari di internet\n👩‍⚕️ Terus tanya doktor\n💬 Kongsi dengan kawan rapat\n\nKomen emoji je pun boleh 👇",
+  "Tips asas jaga keseimbangan flora intim 💡\n\n✅ Pakai seluar dalam kapas, tukar setiap hari\n✅ Tukar pakaian basah / berpeluh secepat mungkin\n✅ Minum air cukup sepanjang hari\n✅ Makan seimbang: sayur, buah & makanan fermentasi\n\nMomyizz tambah 1 paket probiotik 3 strain + kranberi setiap pagi. Pelengkap, bukan ubat. 🌸",
+  "Info penting: keputihan berubah warna atau berbau, gatal, pedih atau darah di luar waktu haid perlu diperiksa doktor. ⚠️\n\nJangan rawat sendiri dengan produk atau ramuan viral. (NHS)",
+ ],
+ "wa": {"tajuk": "Nutrilite Cranberry Fruit Drink Base with Probiotic, Inulin & FOS", "nota": "Ruang tertutup. Mula dengan skrip soalan prospek kranberi. Tiada dakwaan UTI / keputihan / hormon. Jangan tulis harga.",
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz mula Siri Wanita Sihat. Ada yang tanya probiotik kranberi yang Momyizz ambil setiap pagi.\n\nMomyizz guna *Nutrilite Cranberry Fruit Drink Base with Probiotic, Inulin & FOS*:\n" + WA_KRAN + "\n\nIni pelengkap kepada makanan seimbang, bukan ubat. Harga terkini Momyizz maklumkan bila [nama] berminat. 💛\n\n" + DISC}},
+
+{"d": "C2", "ep": None, "siri": SIRI_WANITA, "tema": "Kebersihan intim: kurang produk, lebih selesa",
+ "video": {"tajuk": "Makin wangi, makin bersih?", "nota": CERITA + " " + KRAN_NOTA + " Sticker: 04-satin-tutup-mulut.",
+  "babak": [
+   ("0–3s", "Momyizz pegang botol semburan wangi di bilik air, berkerut", "Makin wangi, makin bersih? Belum tentu 🤔"),
+   ("3–15s", "Animasi lembut: titisan air jernih, bunga (Flow)", "Faraj membersih diri secara semula jadi. Douching atau cucian ke dalam boleh ganggu keseimbangan bakteria baik."),
+   ("15–28s", "Momyizz tunjuk sabun lembut tanpa pewangi", "Untuk bahagian luar, air biasa atau sabun lembut tanpa pewangi dah memadai. Lap dari depan ke belakang."),
+   ("28–40s", "Momyizz susun seluar dalam kapas dalam laci; paket probiotik kranberi di rak", "Rutin Momyizz: pakaian kapas, tukar pad kerap waktu haid, air cukup, dan 1 paket probiotik + kranberi setiap pagi (pelengkap)."),
+   ("40–45s", "Momyizz ke kamera", "Kurang produk, lebih selesa 🌸 | " + DISC),
+  ],
+  "caption": "Kebersihan intim: kurang produk, lebih selesa 🌸\n\nSumber: NHS; American College of Obstetricians and Gynecologists (ACOG).\n" + DISC + "\n\n#Momyizz #WanitaSihat #KebersihanDiri"},
+ "carousel": {"tajuk": "Kebersihan intim: buat & elak",
+  "slaid": [
+   "KEBERSIHAN INTIM 🌸\nKurang produk, lebih selesa",
+   "✅ BUAT\nCuci bahagian luar dengan air biasa atau sabun lembut tanpa pewangi.\n🟢 (NHS)",
+   "❌ ELAK\nDouching (cucian ke dalam faraj). Ia boleh ganggu keseimbangan bakteria baik.\n🟢 (NHS / ACOG)",
+   "❌ ELAK\nSabun berpewangi, gel antiseptik & semburan wangi di kawasan intim.\n🟢 (NHS)",
+   "✅ BUAT\nLap dari depan ke belakang · seluar dalam kapas · tukar pad kerap waktu haid.",
+   "ADA PERUBAHAN?\nGatal, bau luar biasa atau pedih? Jumpa doktor, jangan teka sendiri.\nSave & kongsi 🌸\n\n" + DISC,
+  ],
+  "caption": "Kebersihan intim: buat & elak. Save 🌸\n\nSumber: NHS; ACOG.\n" + DISC + "\n\n#Momyizz #WanitaSihat #Tips"},
+ "teks": [
+  "Info ringkas: faraj membersih diri secara semula jadi melalui keputihan. Douching atau cucian ke dalam tidak disarankan kerana boleh mengganggu keseimbangan bakteria baik. (NHS) 🌸",
+  "Jujur: apa yang buat korang rasa 'kena guna' produk pencuci intim? 🤔\n\n🌸 Nak rasa lebih segar\n📺 Ikut iklan / influencer\n👩 Pesan orang tua\n❓ Tak pasti mana yang betul\n\nTiada jawapan salah, komen 👇",
+  "Tips kebersihan intim harian 💡\n\n✅ Air biasa atau sabun lembut tanpa pewangi, bahagian luar sahaja\n✅ Lap dari depan ke belakang\n✅ Seluar dalam kapas, tukar setiap hari\n✅ Waktu haid: tukar pad / tampon ikut arahan pada pembungkus\n✅ Tukar pakaian sukan / renang yang basah segera\n\nRingkas, tapi selesa sepanjang hari. 🌸",
+  "Info penting: tampon yang dibiar terlalu lama dikaitkan dengan sindrom kejutan toksik (TSS), walaupun jarang berlaku. ⚠️\n\nDemam tinggi tiba-tiba, ruam, muntah atau pening semasa guna tampon: tanggalkan dan dapatkan rawatan segera. (NHS)",
+ ],
+ "wa": None},
+
+{"d": "C3", "ep": None, "siri": SIRI_WANITA, "tema": "Kranberi: fakta vs mitos",
+ "video": {"tajuk": "Jus kranberi kotak, sihat ke?", "nota": CERITA + " " + KRAN_NOTA + " Topik pendidikan: kranberi BUKAN rawatan. Sticker: 03-satin-tunjuk-atas.",
+  "babak": [
+   ("0–3s", "Momyizz tuang jus kranberi kotak ke gelas, angkat kening", "Jus kranberi kotak, sihat ke? 🍒"),
+   ("3–15s", "Animasi buah kranberi merah terapung dalam air (Flow)", "Kranberi mengandungi polifenol, termasuk proantosianidin (PAC). Ia antara buah yang banyak dikaji."),
+   ("15–28s", "Momyizz pusing kotak jus, zoom ke label", "Tapi kranberi sangat masam, jadi banyak jus kotak ditambah gula. Baca label dulu."),
+   ("28–40s", "Momyizz tuang paket 2g ke gelas air sejuk", "Dan ingat: kranberi bukan ubat. Pedih masa kencing, demam atau sakit pinggang? Terus jumpa doktor."),
+   ("40–45s", "Momyizz ke kamera", "Kranberi = makanan, bukan rawatan 💛 | " + DISC),
+  ],
+  "caption": "Kranberi: fakta vs mitos 🍒 Baca label, dan ingat: makanan bukan ubat.\n\nSumber: NIH National Center for Complementary and Integrative Health (NCCIH).\n" + DISC + "\n\n#Momyizz #WanitaSihat #MitosAtauFakta"},
+ "carousel": {"tajuk": "Kranberi: mitos vs fakta",
+  "slaid": [
+   "KRANBERI 🍒\nMitos vs fakta",
+   "FAKTA\nKranberi mengandungi polifenol, termasuk proantosianidin (PAC).\n🟢 (NIH NCCIH)",
+   "MITOS: 'Jus kranberi boleh rawat jangkitan kencing'\n❌ Kranberi tidak merawat jangkitan sedia ada. Jumpa doktor.\n🟢 (NIH NCCIH)",
+   "MITOS: 'Semua jus kranberi sihat'\n❌ Banyak jus kotak ditambah gula. Gula dalam 3 ramuan pertama? Fikir dua kali.",
+   "AWAS\nAmbil ubat cair darah (contoh warfarin)? Tanya doktor sebelum ambil kranberi dalam jumlah banyak.\n🟠 (NIH NCCIH)",
+   "INGAT\nKranberi = makanan, bukan ubat 🍒\nSave & kongsi\n\n" + DISC,
+  ],
+  "caption": "Kranberi: mitos vs fakta. Save 🍒\n\nSumber: NIH NCCIH.\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #WanitaSihat"},
+ "teks": [
+  "Info ringkas: kranberi sangat masam secara semula jadi, sebab itu banyak jus kranberi kotak ditambah gula. Semak label sebelum beli. 🍒",
+  "Soalan: bila dengar 'kranberi untuk wanita', apa yang korang rasa? 🍒\n\n🤔 Keliru, betul ke tak\n😊 Pernah cuba\n🙈 Tak pernah tahu langsung\n🔍 Nak tahu fakta sebenar\n\nKomen 👇",
+  "Tips pilih minuman kranberi 💡\n\n✅ Baca label: gula dalam 3 ramuan pertama? Fikir dua kali\n✅ Pilih tanpa gula tambahan, atau cairkan dengan air\n✅ Ambil sebagai sebahagian pemakanan seimbang, bukan rawatan\n\nMomyizz pilih paket 2g: 150mg serbuk kranberi + 3 strain probiotik, campur air sejuk. 🍒",
+  "Info penting: pedih semasa kencing, kerap ke tandas, demam atau sakit pinggang perlu diperiksa doktor. ⚠️\n\nJus kranberi bukan rawatan. Ambil ubat cair darah (contoh warfarin)? Tanya doktor sebelum ambil kranberi dalam jumlah banyak. (NIH NCCIH)",
+ ],
+ "wa": {"tajuk": "Nutrilite Cranberry Fruit Drink Base (fakta label)", "nota": "Ruang tertutup. Susulan post mitos kranberi. Tegaskan: makanan pelengkap, tidak merawat jangkitan. Jangan tulis harga.",
+  "t": "Hai [nama] 😊\n\nLepas post kranberi tadi, ada yang tanya: kalau jus kotak tinggi gula, Momyizz ambil apa?\n\nMomyizz guna *Nutrilite Cranberry Fruit Drink Base with Probiotic, Inulin & FOS* (paket 2g):\n" + WA_KRAN + "\n\nIni makanan pelengkap, bukan ubat dan tidak merawat jangkitan. Ada simptom? Jumpa doktor dulu ya. Harga terkini Momyizz maklumkan bila [nama] berminat. 💛\n\n" + DISC}},
+
+{"d": "C4", "ep": None, "siri": SIRI_WANITA, "tema": "Bila wanita perlu jumpa doktor & saringan serviks",
+ "video": {"tajuk": "Bila kali terakhir korang buat Pap smear?", "nota": CERITA + " Konten saringan: TIADA produk dalam video & teks awam. Sticker: 09-kartun-terkejut-pipi.",
+  "babak": [
+   ("0–3s", "Momyizz pegang kalendar dinding, termenung", "Bila kali terakhir korang buat Pap smear? 🩺"),
+   ("3–15s", "Animasi lembut serviks & sel (Flow, gaya ilustrasi)", "Kanser serviks boleh dikesan awal melalui saringan, sebelum ada sebarang simptom."),
+   ("15–28s", "Momyizz depan klinik kesihatan (luar bangunan)", "KKM saran ujian Pap smear untuk wanita 20–65 tahun yang pernah aktif seksual. Tanya juga tentang ujian HPV di klinik."),
+   ("28–40s", "Momyizz tulis senarai di nota", "Jumpa doktor juga bila: keputihan berubah, darah di luar waktu haid atau selepas hubungan, sakit pelvis berulang."),
+   ("40–45s", "Momyizz tulis tarikh dalam kalendar", "Tulis tarikh saringan dalam kalendar hari ni 💛 | " + DISC),
+  ],
+  "caption": "Saringan awal, pilihan lebih banyak 🩺 Tag kawan perempuan untuk ingatkan sama-sama.\n\nSumber: Kementerian Kesihatan Malaysia (MyHEALTH); NHS.\n" + DISC + "\n\n#Momyizz #WanitaSihat #PapSmear"},
+ "carousel": {"tajuk": "5 tanda wanita perlu jumpa doktor",
+  "slaid": [
+   "5 TANDA 🩺\nWanita perlu jumpa doktor",
+   "1️⃣ Keputihan berubah warna, berbau atau bertekstur luar biasa\n🟢 (NHS)",
+   "2️⃣ Gatal, pedih atau rasa terbakar yang berpanjangan",
+   "3️⃣ Darah di luar waktu haid, selepas hubungan atau selepas menopaus\n🟢 (NHS)",
+   "4️⃣ Sakit pelvis / perut bawah yang berulang\n5️⃣ Pedih kencing dengan demam atau sakit pinggang",
+   "SARINGAN\nPap smear: wanita 20–65 tahun yang pernah aktif seksual (KKM). Tanya klinik kesihatan berdekatan.\n\n" + DISC,
+  ],
+  "caption": "5 tanda wanita perlu jumpa doktor. Save & kongsi 🩺\n\nSumber: KKM (MyHEALTH); NHS.\n" + DISC + "\n\n#Momyizz #WanitaSihat #Saringan"},
+ "teks": [
+  "Info ringkas: kanser serviks boleh dikesan awal melalui saringan seperti ujian Pap smear dan ujian HPV, sebelum ada sebarang simptom. (KKM) 🩺",
+  "Jom komited sama-sama 💛 Bila korang nak buat saringan seterusnya?\n\n📅 Bulan ni\n🗓️ Dalam 3 bulan\n🙈 Belum pernah, nak cari maklumat dulu\n✅ Dah buat tahun ni\n\nKomen 👇 Momyizz pun akan tulis tarikh dalam kalendar!",
+  "Tips persediaan ujian Pap smear 💡\n\n✅ Buat temujanji di luar waktu haid\n✅ Elak hubungan, douching & ubat faraj 2 hari sebelum ujian\n✅ Bawa senarai soalan untuk doktor\n✅ Set peringatan untuk saringan seterusnya\n\nBeberapa minit je, tapi besar maknanya. 💛",
+  "Info penting: darah selepas hubungan, di antara waktu haid atau selepas menopaus tidak boleh dianggap biasa. ⚠️\n\nWalaupun keputusan saringan sebelum ini normal, jumpa doktor jika ada simptom ini. (NHS)",
+ ],
+ "wa": None},
+
+{"d": "C5", "ep": None, "siri": SIRI_WANITA, "tema": "Rutin harian wanita sihat: usus, tidur, air & gerak",
+ "video": {"tajuk": "Rutin wanita sihat versi Momyizz", "nota": CERITA + " " + KRAN_NOTA + " Rumusan siri. Sticker: 08-satin-thumbs-up.",
+  "babak": [
+   ("0–3s", "Momyizz bangun pagi, buka langsir", "Rutin harian wanita sihat, versi Momyizz 🌸"),
+   ("3–15s", "Momyizz minum air, sediakan sarapan telur & roti gandum", "Pagi: segelas air, sarapan ada protein & serat. Usus sihat bermula dengan apa yang kita makan."),
+   ("15–28s", "Momyizz jalan kaki 10 minit, kemudian tukar baju", "Siang: bergerak 10 minit bila boleh, dan tukar pakaian berpeluh segera."),
+   ("28–40s", "Momyizz tuang paket ke gelas air sejuk (produk kelihatan)", "Momyizz tambah 1 paket probiotik: 3 strain, inulin + FOS dan kranberi. Pelengkap, bukan ubat."),
+   ("40–45s", "Momyizz baring, lampu malap", "Malam: tidur 7 jam, saringan ikut jadual 💛 | " + DISC),
+  ],
+  "caption": "Rutin wanita sihat, pagi sampai malam 🌸 Rumusan Siri Wanita Sihat.\n\nSumber: CDC; NIH NCCIH.\n" + DISC + "\n\n#Momyizz #WanitaSihat #RutinSihat"},
+ "carousel": {"tajuk": "Rutin wanita sihat 24 jam",
+  "slaid": [
+   "RUTIN WANITA SIHAT 🌸\nPagi → malam",
+   "PAGI\nSegelas air · sarapan protein + serat · makanan fermentasi bila boleh",
+   "SIANG\nGerak 10 minit · air sepanjang hari · seluar dalam kapas & pakaian selesa",
+   "PETANG\nSnek berserat: buah, kekacang · tukar pakaian sukan segera",
+   "MALAM\nTidur 7 jam ke atas (dewasa) · telefon jauh dari katil\n🟢 (CDC)",
+   "SETAHUN SEKALI\nPemeriksaan kesihatan & saringan ikut jadual.\nSave 🌸\n\n" + DISC,
+  ],
+  "caption": "Rutin wanita sihat 24 jam. Save & cuba satu tabiat minggu ni 🌸\n\nSumber: CDC.\n" + DISC + "\n\n#Momyizz #WanitaSihat #RutinHarian"},
+ "teks": [
+  "Info ringkas: kesan probiotik bergantung pada strain. Sebab itu label yang menyatakan nama strain dengan jelas memudahkan kita membuat pilihan. (NIH NCCIH) 🦠",
+  "Soalan: kalau rutin harian korang lebih teratur, apa yang korang paling nak rasa? 🌸\n\n⚡ Lebih bertenaga\n😌 Lebih selesa sepanjang hari\n😴 Tidur lebih lena\n💪 Lebih yakin dengan badan sendiri\n\nKomen 👇",
+  "Tips mula rutin wanita sihat minggu ni 💡\n\n✅ Pilih SATU tabiat dulu: air, gerak atau tidur\n✅ Gandingkan dengan tabiat sedia ada (lepas gosok gigi, terus minum air)\n✅ Tandakan di kalendar setiap hari\n\nRutin pagi Momyizz: segelas air + 1 paket probiotik kranberi atas lidah. 1 minit je. 🌸",
+  "Info penting: hamil, menyusu, ada penyakit atau sedang ambil ubat? Tanya doktor atau ahli farmasi dulu sebelum mula apa-apa supplemen, termasuk probiotik. ⚠️ (NIH NCCIH)",
+ ],
+ "wa": {"tajuk": "Nutrilite Cranberry Fruit Drink Base + Botanical Probiotics (pilih ikut keperluan)", "nota": "Ruang tertutup. Hard-sell rumusan siri. Mula dengan skrip soalan prospek kranberi. Tiada dakwaan UTI / keputihan / hormon. Jangan tulis harga.",
+  "t": "Hai [nama] 😊\n\nSiri Wanita Sihat Momyizz dah sampai hari terakhir. Ramai tanya: probiotik Nutrilite ada 2, mana satu sesuai?\n\n🌸 *Nutrilite Cranberry Fruit Drink Base with Probiotic, Inulin & FOS*\n• 3 strain probiotik + inulin & FOS + 150mg serbuk kranberi sepaket\n• Untuk 12 tahun ke atas, ada susu\n\n🌿 *Nutrilite Botanical Beverage Mix with Probiotics*\n• 6.3 bilion bakteria baik (CFU), 5 strain sepaket\n• Ada serat prebiotik inulin, halal IFANCA\n\nDua-dua 1 paket sehari, atas lidah atau air sejuk, tak perlu peti sejuk. Hamil, menyusu atau ada masalah kesihatan: rujuk doktor dulu.\n\nIni pelengkap, bukan ubat. [nama] nak Momyizz terangkan yang mana dulu? Harga terkini Momyizz maklumkan. 💛\n\n" + DISC}},
+]
+TRENDING_BARU += SIRI_KRANBERI
+PRODUK_TREND.update({
+ "C1": ("kranberi", "Malu nak tanya pasal kesihatan intim; nak rutin harian yang mudah"),
+ "C2": ("kranberi", "Keliru produk pencuci intim; nak rutin ringkas"),
+ "C3": ("kranberi", "Jus kranberi kotak tinggi gula; nak pilihan yang label jelas"),
+ "C4": ("kranberi", "Tangguh saringan; konten saringan tanpa produk (produk hanya bila ditanya)"),
+ "C5": ("kranberi", "Nak rutin wanita sihat yang konsisten; keliru pilih probiotik"),
+ "N3": ("soy", "Keliru label snek & minuman; nak pilihan tanpa pemanis tiruan"),
+ "N5": ("bodykey", "Snek manis depan skrin; nak snek petang yang kurang gula"),
+ "N6": ("omega", "Nak jaga otak sekeluarga; jarang makan ikan berlemak"),
+})
+
+MG_TREND.update({
+"C1": [
+ {"tajuk": "4 tabiat kecil untuk wanita", "sticker": "16-blazer-tunjuk-kanan", "babak": [
+   ("0–3s", "HOOK", "4 tabiat kecil yang setiap wanita patut tahu 🌸", "Pop"),
+   ("3–9s", "CHECKLIST baris 1–2", "✓ Seluar dalam kapas\n✓ Tukar pakaian basah segera", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 3–4", "✓ Air cukup\n✓ Elak sabun berpewangi di kawasan intim", "Baris muncul"),
+   ("15–22s", "NOTA_TANGAN", "Ada perubahan? Jumpa doktor 💛", "Tulisan tangan"),
+   MG_END],
+  "caption": "4 tabiat kecil untuk wanita. Save & tag kawan 🌸\n\nSumber: NHS.\n" + DISC + "\n\n#Momyizz #WanitaSihat"},
+ {"tajuk": "Mitos vs fakta: 'Kawasan intim kena wangi'", "sticker": "04-satin-tutup-mulut", "babak": [
+   ("0–3s", "HOOK", "\"Kawasan intim kena wangi baru bersih.\" Betul ke? 🤔", "Pop"),
+   ("3–8s", "BIG_WORD", "TAK PERLU", "Pop besar"),
+   ("8–15s", "KAD_FAKTA + LABEL_BUKTI (Terbukti)", "Faraj membersih diri secara semula jadi. Bakteria baik kekalkan persekitaran berasid. (NHS)", "Kad naik"),
+   ("15–22s", "NOTA_TANGAN", "Air biasa / sabun lembut tanpa pewangi, bahagian luar sahaja", "Tulisan tangan"),
+   MG_END],
+  "caption": "Wangi tak semestinya bersih 🌸\n\nSumber: NHS; Cleveland Clinic.\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #WanitaSihat"}],
+"C2": [
+ {"tajuk": "Kebersihan intim: buat vs elak", "sticker": "13-blazer-tunjuk-atas-kanan", "babak": [
+   ("0–3s", "HOOK", "Kebersihan intim: buat vs elak 🌸", "Pop"),
+   ("3–10s", "KAD_FAKTA (hijau)", "✅ Air biasa / sabun lembut tanpa pewangi\n✅ Lap dari depan ke belakang", "Kad naik"),
+   ("10–17s", "KAD_FAKTA (merah lembut)", "❌ Douching\n❌ Semburan wangi & gel antiseptik", "Kad naik"),
+   ("17–22s", "NOTA_TANGAN", "Kurang produk, lebih selesa", "Tulisan tangan"),
+   MG_END],
+  "caption": "Buat vs elak. Save 🌸\n\nSumber: NHS; ACOG.\n" + DISC + "\n\n#Momyizz #WanitaSihat"},
+ {"tajuk": "Tak selesa lepas bersenam?", "sticker": "09-kartun-terkejut-pipi", "babak": [
+   ("0–3s", "HOOK", "Selalu rasa tak selesa lepas bersenam? 🏃‍♀️", "Pop"),
+   ("3–8s", "BIG_WORD", "PAKAIAN BASAH", "Pop besar"),
+   ("8–15s", "KAD_FAKTA", "Pakaian berpeluh yang lama dipakai buat kawasan intim lembap & panas. (NHS)", "Kad naik"),
+   ("15–22s", "CHECKLIST", "✓ Tukar segera\n✓ Pilih kapas\n✓ Berpanjangan? Jumpa doktor", "Baris satu per satu"),
+   MG_END],
+  "caption": "Tukar pakaian sukan segera, perkara kecil yang bantu selesa 🌸\n\nSumber: NHS.\n" + DISC + "\n\n#Momyizz #WanitaSihat"}],
+"C3": [
+ {"tajuk": "Baca label jus dalam 10 saat", "sticker": "03-satin-tunjuk-atas", "babak": [
+   ("0–3s", "HOOK", "Baca label jus dalam 10 saat 🧃", "Pop"),
+   ("3–9s", "CHECKLIST baris 1", "✓ Gula dalam 3 ramuan pertama?", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 2", "✓ 'Minuman' atau 'jus 100%'?", "Baris muncul"),
+   ("15–22s", "CHECKLIST baris 3", "✓ Saiz hidangan sebenar", "Baris muncul"),
+   MG_END],
+  "caption": "Baca label jus dalam 10 saat. Save 🧃\n\n" + DISC + "\n\n#Momyizz #BacaLabel"},
+ {"tajuk": "Mitos: 'Jus kranberi rawat jangkitan kencing'", "sticker": "14-blazer-tutup-mulut", "babak": [
+   ("0–3s", "HOOK", "\"Jus kranberi boleh rawat jangkitan kencing.\" Betul ke? 🍒", "Pop"),
+   ("3–8s", "BIG_WORD", "MITOS ❌", "Pop besar"),
+   ("8–15s", "KAD_FAKTA + LABEL_BUKTI (Terbukti)", "Kranberi tidak merawat jangkitan sedia ada. (NIH NCCIH)", "Kad naik"),
+   ("15–22s", "NOTA_TANGAN", "Pedih kencing + demam → terus ke klinik", "Tulisan tangan"),
+   MG_END],
+  "caption": "Kranberi = makanan, bukan ubat 🍒\n\nSumber: NIH NCCIH.\n" + DISC + "\n\n#Momyizz #MitosAtauFakta"}],
+"C4": [
+ {"tajuk": "4 persediaan sebelum Pap smear", "sticker": "08-satin-thumbs-up", "babak": [
+   ("0–3s", "HOOK", "Nak buat Pap smear? 4 persediaan 🩺", "Pop"),
+   ("3–9s", "CHECKLIST baris 1–2", "✓ Luar waktu haid\n✓ Elak douching & ubat faraj 2 hari sebelum", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 3–4", "✓ Bawa senarai soalan\n✓ Set peringatan seterusnya", "Baris muncul"),
+   ("15–22s", "NOTA_TANGAN", "Beberapa minit je 💛", "Tulisan tangan"),
+   MG_END],
+  "caption": "4 persediaan sebelum Pap smear. Save & tag kawan 🩺\n\nSumber: NHS.\n" + DISC + "\n\n#Momyizz #PapSmear"},
+ {"tajuk": "Malu nak buat saringan?", "sticker": "09-kartun-terkejut-pipi", "babak": [
+   ("0–3s", "HOOK", "Malu nak buat Pap smear? 🙈", "Pop"),
+   ("3–8s", "BIG_WORD", "NORMAL", "Pop besar"),
+   ("8–15s", "KAD_FAKTA", "Boleh minta doktor / jururawat wanita, dan tanya dulu tentang prosedur.", "Kad naik"),
+   ("15–22s", "NOTA_TANGAN", "Kesan awal = pilihan lebih banyak", "Tulisan tangan"),
+   MG_END],
+  "caption": "Malu itu normal, tapi saringan tetap penting 💛\n\n" + DISC + "\n\n#Momyizz #WanitaSihat #Saringan"}],
+"C5": [
+ {"tajuk": "Rutin pagi wanita, 1 minit", "sticker": "16-blazer-tunjuk-kanan", "babak": [
+   ("0–3s", "HOOK", "Rutin pagi wanita, 1 minit ⏱️", "Pop"),
+   ("3–9s", "CHECKLIST baris 1", "✓ Segelas air", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 2", "✓ Regang badan 30 saat", "Baris muncul"),
+   ("15–22s", "CHECKLIST baris 3", "✓ 1 paket probiotik + kranberi (pelengkap)", "Baris muncul"),
+   MG_END],
+  "caption": "Rutin pagi 1 minit. Korang mula yang mana? 👇\n\n" + DISC + "\n\n#Momyizz #RutinPagi"},
+ {"tajuk": "Probiotik paket: cara ambil yang betul", "sticker": "03-satin-tunjuk-atas", "babak": [
+   ("0–3s", "HOOK", "Probiotik paket: cara ambil yang betul ✅", "Pop"),
+   ("3–9s", "KAD_FAKTA", "Terus atas lidah, atau campur air / jus sejuk", "Kad naik"),
+   ("9–15s", "BIG_WORD", "ELAK PANAS ☕❌", "Pop besar"),
+   ("15–22s", "NOTA_TANGAN", "Simpan bawah 25°C, tak perlu peti sejuk", "Tulisan tangan"),
+   MG_END],
+  "caption": "Cara ambil probiotik paket ikut label ✅\n\n" + DISC + "\n\n#Momyizz #Probiotik"}],
+})
+
+
+# ================================================================ SUSUNAN NOVEMBER + DISEMBER (DISAHKAN pengguna 20 Nov 2026: "Ikut bulan")
+# Satu kalendar berterusan: Hari 1 = 12 Nov 2026. November = Hari 1-19 (12-30 Nov). Disember = Hari 20-50 (1-31 Dis).
+# 1-10 Dis: siri trending & usus (asal Hari 20-29). 11-15 Dis: Siri Wanita Sihat (probiotik kranberi).
+# 16-30 Dis: konten November yang belum digunakan (rancangan asal 15, 19, 20, 16, 17, 28, 22-27 + trending N3, N5, N6).
+# 31 Dis: refleksi akhir tahun. Tidak digunakan: asal 18 (mirip 16), 21 (rumusan mikroplastik), 29 (sama dengan T6).
+# Konten November yang belum ditick: worksheet (tab Tulis, bulan Disember) senaraikan, boleh ganti mana-mana hari.
+MULA = "2026-11-12"
+BULAN = [("November 2026", 1, 19), ("Disember 2026", 20, 50)]
+SUSUNAN_NOV = SUSUNAN[:19]
+SUSUNAN_DIS = ["T4", "U1", "T5", "U2", "N4", "U3", "U4", "T6", "U5", "T7",
+               "C1", "C2", "C3", "C4", "C5",
+               15, 19, "N3", 20, 16, 17, "N5", 28, 22, 23, "N6", 24, 25, 26, 27, 30]
+SUSUNAN = SUSUNAN_NOV + SUSUNAN_DIS
+assert len(SUSUNAN_DIS) == 31
+
+# Refleksi kini pada 31 Dis: akhir tahun
+for _d in DAYS:
+    if _d["d"] == 30:
+        _d["tema"] = "Refleksi akhir tahun & azam 2027"
+        _d["produk"] = ("bodykey", "Tahun baharu: mula perjalanan pengurusan berat badan 60 hari")
+        _v, _c, _t, _w = _d["plan"]
+        _d["plan"] = ("Terima kasih kerana bersama Momyizz sepanjang 2026", "10 perkara Momyizz kongsi 2 bulan ni",
+                      ["1 tabiat paling mudah untuk mula 2027", "Tahun depan nak Momyizz kupas apa?", "Senarai semak 10 tabiat untuk 2027", "cara betul ambil supplemen (6 perkara)"],
+                      _w.replace("rutin bulan depan", "rutin tahun baharu"))
+
 _susun30()
+ASAL_KE_HARI = {}
+for _d in DAYS:
+    ASAL_KE_HARI.setdefault(_d["kunci"], []).append(_d["d"])

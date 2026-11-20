@@ -94,4 +94,36 @@ FB_PENDEK = {
   "Tempe, tauhu & kekacang: protein dan serat sekali gus 🫘 Serat jadi 'makanan' bakteria baik.",
   "Protein tumbuhan mana paling selalu ada dalam menu keluarga korang? 🍽️",
   "Alahan soya? Baca label setiap produk. Bengkak bibir atau sesak nafas = kecemasan ⚠️"),
+ "Flora intim wanita: bakteria baik yang jaga keseimbangan": (
+  "Faraj yang sihat ada bakteria baik (Lactobacillus) yang kekalkan persekitaran berasid 🌸 (Cleveland Clinic)",
+  "Ada soalan kesihatan intim, korang biasanya: simpan sendiri, Google atau terus tanya doktor? 🌸",
+  "Keputihan berubah warna / bau, gatal atau pedih? Jumpa doktor, jangan rawat sendiri ⚠️"),
+ "Kebersihan intim: kurang produk, lebih selesa": (
+  "Faraj membersih diri secara semula jadi 🌸 Douching tak disarankan, boleh ganggu bakteria baik. (NHS)",
+  "Apa yang buat korang rasa 'kena guna' produk pencuci intim? 🤔 Komen jujur 👇",
+  "Demam tinggi tiba-tiba, ruam atau muntah semasa guna tampon? Tanggalkan & dapatkan rawatan segera ⚠️"),
+ "Kranberi: fakta vs mitos": (
+  "Kranberi sangat masam, sebab itu banyak jus kotak ditambah gula 🍒 Baca label dulu.",
+  "Dengar 'kranberi untuk wanita', korang rasa: keliru, pernah cuba atau nak tahu fakta? 🍒",
+  "Pedih kencing, demam atau sakit pinggang? Jumpa doktor. Jus kranberi bukan rawatan ⚠️"),
+ "Bila wanita perlu jumpa doktor & saringan serviks": (
+  "Kanser serviks boleh dikesan awal melalui Pap smear & ujian HPV, sebelum ada simptom 🩺 (KKM)",
+  "Bila korang nak buat saringan seterusnya? 📅 Bulan ni / 3 bulan lagi / dah buat tahun ni 👇",
+  "Darah selepas hubungan atau selepas menopaus bukan perkara biasa. Jumpa doktor ⚠️"),
+ "Rutin harian wanita sihat: usus, tidur, air & gerak": (
+  "Kesan probiotik bergantung pada strain 🦠 Label yang jelas nyatakan nama strain memudahkan pilihan. (NIH)",
+  "Kalau rutin lebih teratur, korang nak rasa apa: bertenaga, selesa, lena atau yakin? 🌸",
+  "Hamil, menyusu atau ambil ubat? Tanya doktor dulu sebelum mula apa-apa supplemen ⚠️"),
+ "Pewarna, pemanis & MSG: fakta vs viral": (
+  "WHO (2023) tidak syorkan pemanis tiruan untuk kawal berat badan 💧 Air kosong tetap terbaik.",
+  "Korang baca label sebelum beli snek anak? 🛒 Selalu / kadang-kadang / tak pernah",
+  "Anak lebih hiperaktif lepas snek berwarna terang? Kurangkan & perhatikan ⚠️ Risau? Rujuk doktor."),
+ "Media sosial, notifikasi & anak": (
+  "Remaja guna media sosial lebih 3 jam sehari: risiko simptom depresi 2 kali ganda 📱 (US Surgeon General)",
+  "Semak Screen Time: berapa jam korang guna telefon semalam? 📱👇",
+  "Anak sangat marah atau murung tanpa gajet, berlarutan? Dapatkan bantuan profesional ⚠️"),
+ "Jaga otak dari sekarang: 14 faktor demensia": (
+  "Lancet 2024: 14 faktor risiko demensia boleh diubah, hampir 45% kes berpotensi dicegah atau dilewatkan 🧠",
+  "Bila kali terakhir ibu bapa korang periksa pendengaran atau mata? 👂👀",
+  "Lupa makin kerap sampai ganggu harian bukan sekadar 'faktor umur' ⚠️ Bawa jumpa doktor."),
 }

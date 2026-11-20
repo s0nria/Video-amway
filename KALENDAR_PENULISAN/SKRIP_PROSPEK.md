@@ -476,6 +476,55 @@ Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): prebiotik: 2 serat larut (FOS +
 
 Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
 
+## Rutin wanita & probiotik kranberi (Cranberry Fruit Drink Base)
+
+> ⚠️ Keputihan berubah warna / bau, gatal, pedih kencing, demam, darah di luar waktu haid, hamil / menyusu atau ada masalah kesihatan: jumpa doktor dahulu. DILARANG dakwaan cegah / rawat UTI, keputihan atau hormon.
+
+**Sapa & minta izin**
+
+- Hai [nama] 😊 Terima kasih komen di Siri Wanita Sihat Momyizz. Boleh Momyizz tanya sikit pasal rutin harian [nama]?
+
+**Keadaan sekarang**
+
+- Rutin pagi [nama] biasanya macam mana: sempat minum air dan sarapan, atau terus kejar masa?
+- Seminggu, berapa kali [nama] sempat makan sayur, buah atau makanan fermentasi?
+
+**Impian**
+
+- Kalau rutin harian [nama] lebih teratur, apa yang [nama] paling nak rasa?
+
+**Halangan**
+
+- Apa yang paling susah: tiada masa, lupa, atau keliru nak pilih produk yang betul?
+
+**Emosi**
+
+- Bila rasa tak selesa sepanjang hari, ada ganggu kerja atau keyakinan [nama]?
+
+**Kesan (lembut)**
+
+- Dah lama ke rasa macam ni? Kalau ada simptom seperti gatal, pedih atau perubahan keputihan, elok jumpa doktor dulu ya.
+
+**Ringkaskan semula**
+
+- Jadi [nama] nak rutin harian yang mudah dan konsisten, sebab pagi selalu kalut. Betul?
+
+**Cadangan (amalan dulu, produk kemudian)**
+
+- Mula dengan Seluar dalam kapas, tukar pakaian basah segera, air cukup, makan seimbang dengan serat & makanan fermentasi. Sebagai pelengkap, Momyizz ambil NUTRILITE Cranberry Fruit Drink Base with Probiotic, Inulin & FOS setiap pagi. Bukan ubat ya.
+
+**Komitmen**
+
+- [nama] nak cuba rutin asas dulu seminggu, atau terus mula dengan pelengkap sekali?
+
+**Bila prospek kata 'nanti dulu'**
+
+- Takpe 😊 Momyizz kongsi senarai rutin wanita sihat dulu, nanti kita sembang lagi.
+
+Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): 3 strain probiotik (L. acidophilus NCFM, L. acidophilus La-14, L. rhamnosus HN001) · prebiotik inulin 0.8g + FOS 0.13g sepaket · 150mg serbuk kranberi sepaket · 1 paket sehari, atas lidah atau air / jus sejuk (elak panas) · 30 paket, tak perlu peti sejuk · 12 tahun ke atas, ada susu · hamil / menyusu / ada masalah kesihatan: rujuk doktor
+
+Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
+
 ## Tidur & rehat (tiada produk)
 
 > ⚠️ Berdengkur kuat, tercungap waktu tidur, atau sangat mengantuk walaupun tidur cukup: jumpa doktor (kajian tidur).

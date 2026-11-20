@@ -11,8 +11,22 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
-from kalendar_data import DAYS, JENIS_TEKS, PRODUK, MG_FULL, MG_PLAN, MG_INFO  # noqa: E402
-from masalah_data import MASALAH, CARA_BETUL, SUMBER  # noqa: E402
+from kalendar_data import DAYS, JENIS_TEKS, PRODUK, MG_FULL, MG_PLAN, MG_INFO, MULA, BULAN, ASAL_KE_HARI  # noqa: E402
+from masalah_data import MASALAH, CARA_BETUL, SUMBER, MASALAH_KUNCI  # noqa: E402
+import datetime  # noqa: E402
+BLN_PENDEK = ["Jan", "Feb", "Mac", "Apr", "Mei", "Jun", "Jul", "Ogo", "Sep", "Okt", "Nov", "Dis"]
+
+
+def tarikh_hari(n):
+    t = datetime.date.fromisoformat(MULA) + datetime.timedelta(days=n - 1)
+    return f"{t.day} {BLN_PENDEK[t.month - 1]}"
+
+
+def bulan_hari(n):
+    for nama, a, b in BULAN:
+        if a <= n <= b:
+            return nama, n - a + 1
+    raise SystemExit(f"Hari {n} di luar BULAN")
 from soalan_data import JENIS_SOALAN, GILIR_AWAM, SOALAN_AWAM, SKRIP, PADANAN_WA  # noqa: E402
 from fb_pendek_data import FB_PENDEK, HAD_FB  # noqa: E402
 from threads_data import THREADS, CHIPS, GAMBAR_PRODUK  # noqa: E402
@@ -197,7 +211,12 @@ def check():
 
 
 def masalah_json():
-    return {"items": MASALAH, "cara": CARA_BETUL, "sumber": SUMBER}
+    items = []
+    for m in MASALAH:
+        kunci = list(m["hari"]) + MASALAH_KUNCI.get(m["n"], [])
+        hari = sorted({h for k in kunci for h in ASAL_KE_HARI.get(k, [])})
+        items.append(dict(m, hari=hari, tarikh=[tarikh_hari(h) for h in hari]))
+    return {"items": items, "cara": CARA_BETUL, "sumber": SUMBER}
 
 
 def md_masalah():
@@ -250,7 +269,8 @@ def carousel_tips(teks):
 def to_json():
     out = []
     for day in DAYS:
-        d = {"d": day["d"], "ep": day["ep"], "tema": day["tema"]}
+        bln, hb = bulan_hari(day["d"])
+        d = {"d": day["d"], "ep": day["ep"], "tema": day["tema"], "tarikh": tarikh_hari(day["d"]), "bulan": bln, "hb": hb}
         k, masalah = day["produk"]
         nama, gambar, ks = PRODUK[k]
         d["produk"] = {"nama": nama, "gambar": gambar, "ks": ks, "masalah": masalah}
@@ -306,8 +326,10 @@ def carousel_text(c):
 
 
 def judul(day):
-    label = ("Episod " + str(day["ep"])) if day["ep"] else "🔥 " + day.get("siri", "Siri trending")
-    return f"## Hari {day['d']} · {label} · {day['tema']}"
+    siri = day.get("siri", "Siri trending")
+    ikon = "🌸" if "Wanita" in siri else "🌿" if "Usus Sihat" in siri else "🔥"
+    label = ("Episod " + str(day["ep"])) if day["ep"] else ikon + " " + siri
+    return f"## Hari {day['d']} ({day['tarikh']}) · {label} · {day['tema']}"
 
 
 def mg_md(g):
@@ -331,7 +353,7 @@ def produk_md(day):
 def md_week1(days, minggu=1):
     d0, d1 = (minggu - 1) * 7 + 1, minggu * 7
     days = [d for d in days if d0 <= d["d"] <= d1]
-    L = [f"# Kalendar Konten — Minggu {minggu}: Hari {d0}–{d1} (siap salin)", "",
+    L = [f"# Kalendar Konten — Minggu {minggu}: Hari {d0}–{d1} ({tarikh_hari(d0)} – {tarikh_hari(d1)} 2026) (siap salin)", "",
          "Setiap hari satu topik: **🎥 1 video storytelling · 🎞️ 2 video motion grafik · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.",
          "Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.",
          "Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).", ""]
@@ -386,7 +408,7 @@ def plan_range(days):
 
 def md_plan(days):
     a, b = plan_range(days)
-    L = [f"# Kalendar Konten — Hari {a} hingga {b} (rancangan)", "",
+    L = [f"# Kalendar Konten — Hari {a} hingga {b} ({tarikh_hari(a)} – {tarikh_hari(b)} 2026) (rancangan)", "",
          "Format sama seperti fail MINGGU_*: 🎥 video storytelling · 🎞️ 2 motion grafik · 🖼️ carousel · ✍️ 4 teks (+ 💬 WhatsApp).",
          "Teks penuh dijana dengan Claude: tab **Tulis** → pilih hari → **Salin arahan untuk Claude** → tampal dalam Claude Project.", ""]
     for day in days:
@@ -410,9 +432,13 @@ def weeks_full(days):
 
 
 def md_index(days):
-    L = ["# Kalendar Konten Momyizz (30 hari)", "",
-         "**Fokus bulan ini: BodyKey Nutritious Meal Shake formula baharu (perisa pisang).** "
-         "🔥 Siri trending Tidur, Otak & Usus diselang sehari atau dua hari (Hari 8, 10, 13, 15, 18, 20, 22, 24, 27, 29); semakan dakwaan podcast dalam `PODCAST_SEMAKAN.md`.", "",
+    L = ["# Kalendar Konten Momyizz: November & Disember 2026", "",
+         "Satu kalendar berterusan: **Hari 1 = 12 Nov 2026**. November = Hari 1–19 (12–30 Nov). **Disember = Hari 20–50 (1–31 Dis).**", "",
+         "- **November:** fokus BodyKey Nutritious Meal Shake formula baharu (perisa pisang) + 🔥 siri trending Tidur, Otak & Usus (semakan podcast: `PODCAST_SEMAKAN.md`).",
+         "- **1–10 Dis:** sambungan 🔥 siri trending + 🌿 Siri Usus Sihat (usus = 'otak kedua', probiotik, prebiotik, protein soya).",
+         "- **11–15 Dis:** 🌸 Siri Wanita Sihat: Probiotik Kranberi (flora intim, kebersihan, mitos kranberi, saringan serviks, rutin harian). Tiada dakwaan UTI / keputihan / hormon.",
+         "- **16–30 Dis:** konten November yang belum digunakan. **31 Dis:** refleksi akhir tahun & azam 2027.",
+         "- Konten November yang belum ditick: worksheet tab **Tulis** → **Disember** senaraikan, boleh ganti mana-mana hari Disember.", "",
          "| Fail | Isi |", "|---|---|",
          *[f"| `MINGGU_{w}.md` | Hari {(w-1)*7+1}–{w*7}: skrip video, teks carousel, 4 teks, WhatsApp + checklist |" for w in weeks_full(days)],
          *([f"| `HARI_{plan_range(days)[0]:02d}-{plan_range(days)[1]:02d}.md` | Hari {plan_range(days)[0]}–{plan_range(days)[1]}: rancangan setiap konten |"] if plan_range(days) else []),
@@ -434,10 +460,11 @@ def md_index(days):
          "| Bila sesuai | 💬 Hard-sell | WhatsApp / group tertutup | Hantar terus |", "",
          "Produk boleh kelihatan dalam video / gambar, tetapi nama produk tidak disebut dalam sari kata, voiceover, caption atau teks awam (`AMWAY_BRAND/BRAND.md`).", "",
          "Setiap hari ada **satu produk penyelesai masalah** (key selling: `AMWAY_BRAND/KEY_SELLING.md`).", "",
-         "| Hari | Episod | Tema | Produk | WhatsApp | Status |", "|---|---|---|---|---|---|"]
+         "| Hari | Tarikh | Episod | Tema | Produk | WhatsApp | Status |", "|---|---|---|---|---|---|---|"]
     for day in days:
         wa = "✓" if (day.get("wa") or (day.get("plan") or {}).get("wa")) else ""
-        L += [f"| {day['d']} | {day['ep'] or '🔥'} | {day['tema']} | {day['produk']['nama']} | {wa} | {'Siap salin' if 'video' in day else 'Rancangan'} |"]
+        ikon = "🌸" if "Wanita" in day.get("siri", "") else "🌿" if "Usus Sihat" in day.get("siri", "") else "🔥"
+        L += [f"| {day['d']} | {day['tarikh']} | {day['ep'] or ikon} | {day['tema']} | {day['produk']['nama']} | {wa} | {'Siap salin' if 'video' in day else 'Rancangan'} |"]
     return "\n".join(L) + "\n"
 
 

@@ -1,10 +1,10 @@
-# Kalendar Konten — Minggu 1: Hari 1–7 (siap salin)
+# Kalendar Konten — Minggu 1: Hari 1–7 (12 Nov – 18 Nov 2026) (siap salin)
 
 Setiap hari satu topik: **🎥 1 video storytelling · 🎞️ 2 video motion grafik · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.
 Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.
 Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).
 
-## Hari 1 · Episod 1 · Mikroplastik: fakta, bukan panik
+## Hari 1 (12 Nov) · Episod 1 · Mikroplastik: fakta, bukan panik
 
 > 🧩 **Produk penyelesai masalah:** eSpring Water Purifier (model baharu) · **Masalah:** Risau air minuman di rumah bila baca berita mikroplastik
 > **Key selling:** 4 standard NSF/ANSI · kurangkan 170+ bahan cemar · UV-C LED 99.9% bakteria & virus · terbukti kurangkan mikroplastik · **Gambar:** `AMWAY_BRAND/PRODUK/espring-baharu.png`
@@ -256,7 +256,7 @@ Follow Momyizz untuk tips setiap hari
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 2 · Episod 1 · 3 langkah kecil kurangkan pendedahan plastik
+## Hari 2 (13 Nov) · Episod 1 · 3 langkah kecil kurangkan pendedahan plastik
 
 > 🧩 **Produk penyelesai masalah:** eSpring Water Purifier (model baharu) · **Masalah:** Asyik beli air botol plastik; nak isi botol keluli dari rumah
 > **Key selling:** 4 standard NSF/ANSI · kurangkan 170+ bahan cemar · UV-C LED 99.9% bakteria & virus · terbukti kurangkan mikroplastik · **Gambar:** `AMWAY_BRAND/PRODUK/espring-baharu.png`
@@ -516,7 +516,7 @@ Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
-## Hari 3 · Episod 1 · Cara baca berita kesihatan viral
+## Hari 3 (14 Nov) · Episod 1 · Cara baca berita kesihatan viral
 
 > 🧩 **Produk penyelesai masalah:** eSpring Water Purifier (model baharu) · **Masalah:** Susah percaya dakwaan produk; nak bukti pensijilan bebas
 > **Key selling:** 4 standard NSF/ANSI · kurangkan 170+ bahan cemar · UV-C LED 99.9% bakteria & virus · terbukti kurangkan mikroplastik · **Gambar:** `AMWAY_BRAND/PRODUK/espring-baharu.png`
@@ -749,7 +749,7 @@ Follow Momyizz untuk tips setiap hari
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 4 · Episod 2 · Sarapan ibu yang selalu tertinggal
+## Hari 4 (15 Nov) · Episod 2 · Sarapan ibu yang selalu tertinggal
 
 > 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Ibu skip sarapan; perlukan hidangan lengkap yang cepat
 > **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
@@ -1022,7 +1022,7 @@ Nak cuba? Reply "PISANG", Momyizz uruskan. 💛
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
-## Hari 5 · Episod 2 · Persediaan malam & pelan B pagi kelam-kabut
+## Hari 5 (16 Nov) · Episod 2 · Persediaan malam & pelan B pagi kelam-kabut
 
 > 🧩 **Produk penyelesai masalah:** NUTRILITE Soy Protein Drink (Original 450g) · **Masalah:** Pagi kelam-kabut, perlukan pelan B yang ada protein
 > **Key selling:** protein tumbuhan · 8g protein, 9 asid amino perlu · bebas laktosa · tanpa pemanis & tanpa perisa tiruan · **Gambar:** `AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png`
@@ -1289,7 +1289,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
-## Hari 6 · Episod 2 · Gula tersembunyi dalam minuman
+## Hari 6 (17 Nov) · Episod 2 · Gula tersembunyi dalam minuman
 
 > 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Nak ganti minuman manis pagi dengan pilihan GI rendah, kurang gula
 > **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
@@ -1544,7 +1544,7 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
-## Hari 7 · Episod 3 · Span dapur & kebersihan dapur
+## Hari 7 (18 Nov) · Episod 3 · Span dapur & kebersihan dapur
 
 > 🧩 **Produk penyelesai masalah:** Amway Home DISH DROPS (1L) · **Masalah:** Picit sabun banyak-banyak; nak sabun pekat yang jimat & lembut di tangan
 > **Key selling:** sangat pekat · sikit je buih banyak & tahan lama · aloe vera · diuji pakar dermatologi · biodegradable · **Gambar:** `AMWAY_BRAND/PRODUK/dish-drops-1l.png`

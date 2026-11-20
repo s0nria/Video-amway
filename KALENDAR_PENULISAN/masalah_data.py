@@ -144,7 +144,7 @@ MASALAH = [
   "sumber": [],
   "supp": "Topik gaya hidup. Jangan cadang supplemen untuk tidur tanpa nasihat doktor.",
   "nutrilite": "Tiada. Konten personal branding sepenuhnya.",
-  "hari": [2, 16], "kat": "Tenaga & emosi"},
+  "hari": [], "kat": "Tenaga & emosi"},
  {"n": 12, "tajuk": "Stres dan burnout (kerja + rumah)",
   "rasa": "Rasa tiada siapa faham, hilang sabar, rasa bersalah tak cukup baik di kedua-dua tempat.",
   "cuba": "Pendam, beli barang untuk lega sekejap, cuti yang habis dengan kerja rumah.",
@@ -154,7 +154,7 @@ MASALAH = [
   "sumber": ["WHO_PA"],
   "supp": "Topik emosi: jangan jual produk. Galakkan sokongan, rehat kecil, dan bantuan profesional jika perlu.",
   "nutrilite": "Tiada. Bina hubungan dan kepercayaan.",
-  "hari": [9, 26], "kat": "Tenaga & emosi"},
+  "hari": [26], "kat": "Tenaga & emosi"},
  {"n": 13, "tajuk": "Sembelit, kembung, pencernaan tak selesa",
   "rasa": "Perut tak selesa sepanjang hari, malu nak cerita.",
   "cuba": "Teh detoks, julap, probiotik viral.",
@@ -238,8 +238,8 @@ MASALAH = [
 ]
 
 
-# Hari kalendar dianjak +13 mulai Hari 7 kerana siri trending Tidur, Otak & Usus (Hari 7-19).
-_TAMBAH = {1: [7, 8, 11], 3: [15], 4: [8, 14, 17], 6: [10], 7: [14, 18], 8: [18, 19], 11: [7, 8, 9, 10, 11, 12],
-           12: [17, 18], 13: [13], 19: [14, 15], 20: [18]}
-for _m in MASALAH:
-    _m["hari"] = sorted(set([h + 13 if h >= 7 else h for h in _m["hari"]] + _TAMBAH.get(_m["n"], [])))
+# "hari" di atas = nombor hari ASAL dalam kalendar_data.DAYS. Siri trending / usus / wanita dipautkan dengan kunci di bawah.
+# bina.py tukar kedua-duanya kepada nombor hari kalendar sebenar (Hari 1 = 12 Nov 2026, Hari 20 = 1 Dis).
+MASALAH_KUNCI = {1: ["T1", "T2", "N2", "T4"], 3: ["N4"], 6: ["T3"], 7: ["N3", "N6"], 8: ["T7", "N6"],
+                 11: ["T1", "T2", "T3", "N1", "N2", "T4"], 12: ["N5"], 13: ["T5", "U1", "U2", "U3", "U4"],
+                 18: ["T3"], 19: ["U4", "N3", "C3"], 20: ["N6"], 10: ["C4"], 2: ["U1"]}
