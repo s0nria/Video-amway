@@ -3,7 +3,8 @@
 Status: **STORYBOARD, menunggu kelulusan pengguna.** Video belum dirender.
 Fail babak: `VIDEO_3D/hari08-tanda-tidur.html` · Gambar bingkai: `hari08-tanda-tidur.jpg`
 Format 1080×1920, 30 fps, tiada muzik dalam fail. Sticker: `20-blazer-terkejut-pipi`.
-Tanda nama **@empayarbiz_momyizz** penjuru kanan atas sepanjang video. Label pilar "TIDUR · OTAK · USUS" 0–30 s.
+Tanda nama **@empayarbiz_momyizz** penjuru kanan atas sepanjang video.
+Latar: ukiran garis daun & bunga (sage / kayu, legap ~22%) di penjuru dan bahagian bawah luar safe zone, beralun perlahan. Label pilar "TIDUR · OTAK · USUS" 0–30 s.
 
 ![Storyboard](hari08-tanda-tidur.jpg)
 

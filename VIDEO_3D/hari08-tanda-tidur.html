@@ -10,7 +10,9 @@
 html,body{width:1080px;height:1920px;overflow:hidden;background:var(--krim)}
 #stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:'Nunito',sans-serif;color:var(--dakwat)}
 #bg{position:absolute;inset:0;background:radial-gradient(1200px 900px at 50% 40%,#FBF9F4 0%,#F2EEE5 55%,#E9E2D3 100%)}
-.dots{position:absolute;inset:0;background-image:radial-gradient(rgba(127,147,115,.13) 3px,transparent 3.5px);background-size:46px 46px;opacity:.6}
+.dots{position:absolute;inset:0;background-image:radial-gradient(rgba(127,147,115,.13) 3px,transparent 3.5px);background-size:46px 46px;opacity:.35}
+#flora{position:absolute;inset:0}
+#flora path,#flora circle{fill:none;stroke-linecap:round;stroke-linejoin:round}
 .el{position:absolute;opacity:0;will-change:transform,opacity}
 .pil{height:52px;padding:0 26px;border-radius:26px;background:var(--kesihatan);color:var(--kertas);font:600 28px/52px 'Fredoka';letter-spacing:.04em}
 .hook{left:100px;width:820px;padding:44px 44px;background:var(--kertas);border-radius:36px;box-shadow:0 12px 32px rgba(53,54,47,.14);font:700 84px/1.08 'Fredoka';text-align:center}
@@ -55,7 +57,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:var(--krim)}
 </head>
 <body>
 <div id="stage">
-  <div id="bg"><div class="dots"></div></div>
+  <div id="bg"><div class="dots"></div><svg id="flora" width="1080" height="1920" viewBox="0 0 1080 1920"></svg></div>
   <div id="wm">@empayarbiz_momyizz</div>
   <div class="el pil" id="pilar" style="left:70px;top:180px">TIDUR · OTAK · USUS</div>
 
@@ -118,9 +120,42 @@ function win(t,a,b,fi=0.3,fo=0.25){if(t<a||t>b)return 0;return Math.min(cl((t-a)
 function show(id,t,a,b,{pop=true,dy=0,fi=0.3,fo=0.25,rot=0}={}){const e=document.getElementById(id);const o=win(t,a,b,fi,fo);e.style.opacity=o;
   const k=pop?0.9+0.1*bounce((t-a)/0.35):1;const y=dy*(1-eo((t-a)/0.4));e.style.transform=`translateY(${y}px) scale(${o>0?k:1}) rotate(${rot}deg)`;return o}
 const ids=[...document.querySelectorAll('.el')].map(e=>e.id);
+// ---------- ukiran daun & bunga (garis halus, deterministik)
+const NS='http://www.w3.org/2000/svg',FL=document.getElementById('flora'),SPR=[];
+function mk(tag,a,par){const e=document.createElementNS(NS,tag);for(const k in a)e.setAttribute(k,a[k]);par.appendChild(e);return e}
+function leaf(g,x,y,ang,L,W,col,sw){const c=Math.cos(ang),s=Math.sin(ang),P=(u,v)=>[x+u*c-v*s,y+u*s+v*c].map(n=>n.toFixed(1)).join(' ');
+  mk('path',{d:`M${P(0,0)} Q${P(L*.45,W)} ${P(L,0)} Q${P(L*.45,-W)} ${P(0,0)}`,stroke:col,'stroke-width':sw},g);
+  mk('path',{d:`M${P(0,0)} L${P(L*.92,0)}`,stroke:col,'stroke-width':sw*.6},g);
+  for(let k=1;k<4;k++){const u=L*k/4.3;mk('path',{d:`M${P(u,0)} L${P(u+L*.12,W*.55)} M${P(u,0)} L${P(u+L*.12,-W*.55)}`,stroke:col,'stroke-width':sw*.45},g)}}
+function branch(x,y,ang,len,bend,n,col,sw,lf=1){const g=mk('g',{},FL);const pts=[];let a=ang,px=x,py=y,d='M'+x+' '+y;
+  for(let i=1;i<=24;i++){a+=bend/24;px+=Math.cos(a)*len/24;py+=Math.sin(a)*len/24;d+=` L${px.toFixed(1)} ${py.toFixed(1)}`;pts.push([px,py,a])}
+  mk('path',{d,stroke:col,'stroke-width':sw},g);
+  for(let i=0;i<n;i++){const [lx,ly,la]=pts[Math.floor((i+1)*23/(n+.5))];const side=i%2?1:-1;const L=(70+30*Math.sin(i*1.7))*lf*(1-i/(n*1.8));
+    leaf(g,lx,ly,la+side*0.75,L,L*.32,col,sw*.8)}
+  const [ex,ey,ea]=pts[23];leaf(g,ex,ey,ea,80*lf,26*lf,col,sw*.8);SPR.push({g,x,y,ph:x*0.013+y*0.007});return g}
+function flower(x,y,r,col,sw){const g=mk('g',{},FL);for(let i=0;i<5;i++){const a=i*Math.PI*2/5-Math.PI/2;
+    leaf(g,x,y,a,r,r*.42,col,sw)}mk('circle',{cx:x,cy:y,r:r*.16,stroke:col,'stroke-width':sw},g);
+  for(let i=0;i<8;i++){const a=i*Math.PI/4;mk('circle',{cx:x+Math.cos(a)*r*.27,cy:y+Math.sin(a)*r*.27,r:2.5,stroke:col,'stroke-width':sw*.7},g)}
+  SPR.push({g,x,y,ph:x*0.01,fl:1});return g}
+const C1='rgba(85,106,76,.22)',C2='rgba(163,135,106,.24)';
+// bawah (luar safe zone): rumpun besar
+branch(-20,1930,-1.2,620,0.55,9,C1,3.2,1.25);
+branch(140,1960,-1.45,520,-0.35,8,C2,2.8,1.1);
+branch(1100,1940,-2.0,640,-0.5,9,C1,3.2,1.25);
+branch(940,1970,-1.7,500,0.4,7,C2,2.8,1.05);
+branch(560,1990,-1.6,380,0.25,6,C1,2.6,.95);
+flower(330,1640,74,C2,2.6);flower(800,1590,62,C1,2.6);flower(560,1770,50,C2,2.4);
+// penjuru atas (halus, di belakang pil)
+branch(-30,40,0.35,360,0.6,6,C1,2.4,.8);
+branch(1110,30,2.75,330,-0.55,5,C2,2.4,.8);
+flower(60,300,40,C2,2.2);
+// sisi tengah (sangat halus)
+branch(-40,980,-0.25,230,-0.3,4,C2,2.2,.75);
+branch(1120,860,3.4,230,0.3,4,C1,2.2,.75);
 // Masa (saat)
 const ROWS=[3.0,6.0,9.0,12.0], NOTA=15.0, LIST_END=18.0, S1=18.0, S2=24.0, END=30.0, DUR=35.0;
 window.renderAt=function(t){
+  for(const s of SPR){const r=s.fl?Math.sin(t*0.6+s.ph)*4:Math.sin(t*0.8+s.ph)*2.2;s.g.setAttribute('transform',`rotate(${r.toFixed(3)} ${s.x} ${s.y})`)}
   for(const id of ids)document.getElementById(id).style.opacity=0;
   show('pilar',t,0.1,END,{pop:false});
   // HOOK
