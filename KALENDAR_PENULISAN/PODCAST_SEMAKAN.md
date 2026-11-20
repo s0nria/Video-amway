@@ -2,7 +2,7 @@
 
 **Podcast:** "Dato' Dr Rizal on Buat Kajian Tidur di Harvard, Kesan Makanan Pada Otak", Ep 64, Ar Rasyidin Academy (YouTube, Oktober 2026), tempoh lebih kurang 5 jam 50 minit.
 **Kaedah:** audio ditranskrip secara automatik (Whisper, Bahasa Melayu), kemudian dakwaan kesihatan disemak dengan sumber rasmi. Transkrip automatik mungkin ada salah dengar; minit adalah anggaran.
-**Peraturan konten:** podcast hanya sebagai **hook trending**. Jangan petik nama penceramah dalam konten Momyizz, jangan guna klip podcast (hak cipta), dan hanya guna fakta yang ada sumber rasmi.
+**Peraturan konten:** podcast hanya **sumber idea**; JANGAN sebut podcast dalam konten awam (DISAHKAN pengguna). Jangan petik nama penceramah dalam konten Momyizz, jangan guna klip podcast (hak cipta), dan hanya guna fakta yang ada sumber rasmi.
 
 Label: 🟢 Disokong · 🟠 Kajian awal / sebahagian benar · 🔴 Tiada bukti / tidak dapat disahkan
 

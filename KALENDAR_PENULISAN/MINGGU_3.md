@@ -15,7 +15,7 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 
 > 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
-> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 19-blazer-thumbs-up.
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Sticker: 19-blazer-thumbs-up.
 
 | Masa | Visual | Teks atas skrin / suara |
 |---|---|---|
@@ -730,7 +730,7 @@ Follow Momyizz untuk tips setiap hari
 
 > 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
-> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 08-satin-thumbs-up.
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Sticker: 08-satin-thumbs-up.
 
 | Masa | Visual | Teks atas skrin / suara |
 |---|---|---|
@@ -1219,7 +1219,7 @@ Air sentiasa sedia di rumah = lebih senang cukupkan minum setiap hari. Nak tahu 
 
 > 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
-> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 14-blazer-tutup-mulut.
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Sticker: 14-blazer-tutup-mulut.
 
 | Masa | Visual | Teks atas skrin / suara |
 |---|---|---|

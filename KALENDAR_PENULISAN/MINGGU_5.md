@@ -15,7 +15,7 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 
 > 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
-> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 06-satin-lambai-dua-tangan.
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Sticker: 06-satin-lambai-dua-tangan.
 
 | Masa | Visual | Teks atas skrin / suara |
 |---|---|---|

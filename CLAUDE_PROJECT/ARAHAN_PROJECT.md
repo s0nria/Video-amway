@@ -71,5 +71,5 @@ Ini transkrip podcast yang tengah trending: [tampal transkrip]
 1. Senaraikan 7–10 topik utama yang relate dengan audiens Momyizz (ibu bekerja, kesihatan keluarga, kecantikan).
 2. Untuk setiap topik: dakwaan dalam podcast, dan sama ada ia disokong sumber rasmi (KKM, WHO, NIH, CDC, jurnal) dengan label bukti. Tandakan "TIDAK DAPAT DISAHKAN" jika tiada sumber.
 3. Cadangkan siri 7 hari: setiap hari 1 video storytelling (Flow), 2 video motion grafik (tips; masalah → penyelesaian), 1 carousel 6 slaid, 4 teks (info, pertanyaan, tips, alert) satu produk Amway penyelesai masalah sehari dari KEY_SELLING.md (kelihatan dalam video, tanpa dakwaan kesihatan berkaitan topik), dan WhatsApp tertutup pada hari hard-sell. Siri diselang dengan topik biasa, bukan berturut-turut.
-Peraturan: podcast sebagai hook sahaja, jangan petik nama penceramah, fakta dari sumber rasmi, Momyizz & korang, tiada dakwaan perubatan.
+Peraturan: JANGAN sebut podcast / video viral dalam konten awam (podcast hanya sumber idea), jangan petik nama penceramah, fakta dari sumber rasmi, terangkan istilah saintifik dalam bahasa mudah untuk orang awam, Momyizz & korang, tiada dakwaan perubatan.
 ```

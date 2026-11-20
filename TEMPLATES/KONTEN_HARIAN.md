@@ -80,7 +80,8 @@ Platform penulisan: Threads (bebenang), Facebook, Instagram
 Contoh: **Siri Tidur, Otak & Usus** (Hari 8, 10, 13 … 29), diilhamkan oleh podcast tidur & otak yang tengah viral.
 
 Peraturan:
-1. Podcast atau video viral jadi **hook** sahaja ("Ramai tengah share podcast pasal…").
+1. **Jangan sebut podcast atau video viral dalam konten awam (DISAHKAN pengguna).** Podcast hanya sumber idea topik. Hook mesti tentang topik itu sendiri (contoh: "Otak kita ada 'syif cuci' masa kita tidur").
+1b. **Bahasa mudah untuk orang awam:** terangkan istilah dan reka bentuk kajian (contoh: kenapa saintis kaji tikus) dengan analogi harian. Elak istilah berat tanpa penerangan.
 2. **Jangan petik** nama penceramah atau dakwaan mereka yang belum disemak. Semua fakta diambil semula dari sumber rasmi (KKM, WHO, NIH, CDC, AASM, AHA, jurnal).
 3. Dakwaan yang tak dapat disahkan ditinggalkan.
 4. Peraturan produk sama seperti hari biasa: satu produk penyelesai masalah sehari (kelihatan dalam video + 1 key selling, 16:00 / 18:30, WhatsApp pada hari hard-sell), tanpa dakwaan kesihatan berkaitan topik siri (contoh: jangan kata produk bantu otak atau tidur).

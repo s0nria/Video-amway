@@ -670,29 +670,30 @@ MG_PLAN = {
 # Isi podcast TIDAK dapat disemak (tiada transkrip); fakta di bawah daripada sumber rasmi sahaja.
 # Jangan petik / atribusikan dakwaan kepada penceramah podcast. Susunan dalam kalendar: lihat SUSUNAN di hujung fail
 # (diselang setiap 3 hari; produk penyelesai masalah dalam PRODUK_TREND).
-TREND_NOTA = "Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak."
+TREND_NOTA = "Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah."
 
 TRENDING = [
 {"d": "T1", "ep": None, "tema": "Tidur: masa otak 'membersihkan diri'",
- "video": {"tajuk": "Ramai share podcast tidur & otak, ini yang Momyizz semak", "nota": CERITA + " " + TREND_NOTA + " Sticker: 09-kartun-terkejut-pipi.",
+ "video": {"tajuk": "Otak kita ada 'syif cuci' masa kita tidur", "nota": CERITA + " " + TREND_NOTA + " Terangkan dengan bahasa mudah (analogi dapur & paip), tanpa istilah saintifik yang berat. Sticker: 09-kartun-terkejut-pipi.",
   "babak": [
-   ("0–3s", "Telefon tunjuk podcast tidur & otak di FYP, Momyizz tengok sambil baring", "Podcast pasal tidur & otak ni tengah viral. Momyizz pun terus semak kajiannya 🧠"),
-   ("3–15s", "Momyizz bercakap ke kamera, bilik suram", "Kajian 2013 dalam jurnal Science: semasa tidur, ruang antara sel otak tikus membesar kira-kira 60%."),
-   ("15–28s", "Animasi air mengalir antara sel (Flow)", "Cecair otak mengalir lebih laju dan sisa seperti beta-amiloid dibersihkan lebih cepat."),
-   ("28–38s", "Momyizz letak telefon, tutup lampu", "Ini kajian haiwan. Pada manusia masih dikaji. Tapi satu benda dah jelas: tidur bukan sekadar rehat."),
-   ("38–45s", "Momyizz habiskan shake pisang sebagai makan malam ringan (BodyKey perisa pisang kelihatan), kemudian tarik selimut", "Malam ni: makan malam ringan (shake GI rendah, 6g gula), tidur awal sikit 🌙 | " + DISC),
+   ("0–3s", "Bilik malam, Momyizz tutup lampu; ilustrasi bulan & otak kecil (Flow)", "Tahu tak? Otak kita ada 'syif cuci' masa kita tidur 🧹🌙"),
+   ("3–12s", "Momyizz di dapur malam, tunjuk sinki penuh pinggan", "Siang, otak bekerja keras. Macam dapur lepas masak, ada 'sampah' tertinggal: protein sisa yang otak tak perlu."),
+   ("12–23s", "Animasi tikus kecil comel sedang tidur + otak (Flow)", "Saintis tak boleh tengok terus dalam otak manusia yang sedang tidur. Jadi mereka kaji tikus, sebab cara asas otak tikus banyak persamaan dengan kita."),
+   ("23–34s", "Animasi sel otak menjauh, air membilas sisa keluar (Flow)", "Hasilnya (Science, 2013): masa tikus tidur, celah antara sel otak jadi lebih luas, lebih kurang 60%. Cecair otak senang mengalir dan 'membilas' sampah keluar, macam paip yang tak tersumbat."),
+   ("34–41s", "Momyizz minum shake pisang sebagai makan malam ringan (BodyKey perisa pisang kelihatan)", "Pada manusia, saintis masih mengkaji. Tapi satu benda jelas: tidur bukan sekadar rehat. Malam ni, makan malam ringan (shake GI rendah, 6g gula)…"),
+   ("41–45s", "Momyizz tarik selimut, senyum", "…dan tidur awal sikit 🌙 | " + DISC),
   ],
-  "caption": "Tidur bukan sekadar rehat 🧠🌙 Siri Tidur, Otak & Usus Momyizz bermula hari ni.\n\nSumber: Xie et al. (2013), Science.\n" + DISC + "\n\n#Momyizz #Tidur #KesihatanOtak #FaktaBukanPanik"},
- "carousel": {"tajuk": "Apa jadi pada otak semasa kita tidur",
+  "caption": "Otak kita ada 'syif cuci' masa kita tidur 🧹🧠\n\nSaintis kaji pada tikus (Science, 2013): masa tidur, celah antara sel otak jadi lebih luas & sampah lebih mudah dibilas keluar. Pada manusia masih dikaji, tapi tidur memang bukan sekadar rehat 🌙\n\nSumber: Xie et al. (2013), Science.\n" + DISC + "\n\n#Momyizz #Tidur #KesihatanOtak #FaktaBukanPanik"},
+ "carousel": {"tajuk": "Otak ada 'syif cuci' masa kita tidur",
   "slaid": [
-   "APA JADI PADA OTAK\nsemasa kita tidur? 🧠🌙",
-   "OTAK 'MEMBERSIH'\nKajian tikus (Science, 2013): ruang antara sel otak membesar ~60% semasa tidur.\n🟠 Kajian awal (haiwan)",
-   "SISA DIBUANG LEBIH CEPAT\nAliran cecair meningkat, sisa seperti beta-amiloid dibersihkan lebih laju.\n🟠 Kajian awal",
-   "PADA MANUSIA?\nKajian pada manusia masih berjalan.\n🔵 Masih dikaji",
-   "YANG DAH JELAS\nDewasa perlu tidur 7 jam atau lebih setiap malam secara konsisten.\n🟢 Terbukti (AASM)",
-   "JADI?\nTidur cukup = sebahagian penjagaan kesihatan.\nSave & follow siri ni 🌿\n\n" + DISC,
+   "OTAK ADA 'SYIF CUCI' 🧹🧠\nApa jadi masa kita tidur?",
+   "SIANG: OTAK BEKERJA\nMacam dapur lepas masak, ada 'sampah' tertinggal: protein sisa yang otak tak perlu.",
+   "KENAPA KAJI TIKUS? 🐭\nSaintis tak boleh tengok terus dalam otak manusia yang sedang tidur. Cara asas otak tikus banyak persamaan dengan otak kita.",
+   "APA DIJUMPA?\nMasa tikus tidur, celah antara sel otak jadi lebih luas (~60%). Cecair otak senang mengalir & bilas sampah keluar.\n🟠 Kajian awal (haiwan, Science 2013)",
+   "PADA MANUSIA?\nKajian pada manusia masih berjalan, jadi belum boleh kata 'terbukti'.\n🔵 Masih dikaji",
+   "JADI?\nTidur cukup = beri otak masa 'kemas rumah'.\nSave & follow 🌿\n\n" + DISC,
   ],
-  "caption": "Apa jadi pada otak semasa tidur, versi fakta 🧠\n\nSumber: Xie et al. (2013) Science; AASM/SRS (2015).\n" + DISC + "\n\n#Momyizz #Tidur #KesihatanOtak"},
+  "caption": "Apa jadi pada otak masa kita tidur, versi mudah faham 🧠🌙\n\nSumber: Xie et al. (2013), Science.\n" + DISC + "\n\n#Momyizz #Tidur #KesihatanOtak"},
  "teks": [
   "Info ringkas: pakar tidur (AASM) menyarankan orang dewasa tidur 7 jam atau lebih setiap malam secara konsisten. 🌙\n\nBukan sekali-sekala tidur panjang hujung minggu, tapi setiap malam.",
   "Jujur: semalam korang tidur berapa jam? 😴\n\n😵 Kurang 5 jam\n😐 5–6 jam\n🙂 7–8 jam\n😴 Lebih 8 jam\n\nMomyizz… 6 jam. Masih belajar!",

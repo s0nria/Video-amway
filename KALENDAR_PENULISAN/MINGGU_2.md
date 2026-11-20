@@ -9,26 +9,29 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 > 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Makan malam lewat & berat; nak makan malam ringan sebelum tidur
 > **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
 
-### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Ramai share podcast tidur & otak, ini yang Momyizz semak
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Otak kita ada 'syif cuci' masa kita tidur
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
 > 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
-> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 09-kartun-terkejut-pipi.
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Terangkan dengan bahasa mudah (analogi dapur & paip), tanpa istilah saintifik yang berat. Sticker: 09-kartun-terkejut-pipi.
 
 | Masa | Visual | Teks atas skrin / suara |
 |---|---|---|
-| 0–3s | Telefon tunjuk podcast tidur & otak di FYP, Momyizz tengok sambil baring | Podcast pasal tidur & otak ni tengah viral. Momyizz pun terus semak kajiannya 🧠 |
-| 3–15s | Momyizz bercakap ke kamera, bilik suram | Kajian 2013 dalam jurnal Science: semasa tidur, ruang antara sel otak tikus membesar kira-kira 60%. |
-| 15–28s | Animasi air mengalir antara sel (Flow) | Cecair otak mengalir lebih laju dan sisa seperti beta-amiloid dibersihkan lebih cepat. |
-| 28–38s | Momyizz letak telefon, tutup lampu | Ini kajian haiwan. Pada manusia masih dikaji. Tapi satu benda dah jelas: tidur bukan sekadar rehat. |
-| 38–45s | Momyizz habiskan shake pisang sebagai makan malam ringan (BodyKey perisa pisang kelihatan), kemudian tarik selimut | Malam ni: makan malam ringan (shake GI rendah, 6g gula), tidur awal sikit 🌙 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+| 0–3s | Bilik malam, Momyizz tutup lampu; ilustrasi bulan & otak kecil (Flow) | Tahu tak? Otak kita ada 'syif cuci' masa kita tidur 🧹🌙 |
+| 3–12s | Momyizz di dapur malam, tunjuk sinki penuh pinggan | Siang, otak bekerja keras. Macam dapur lepas masak, ada 'sampah' tertinggal: protein sisa yang otak tak perlu. |
+| 12–23s | Animasi tikus kecil comel sedang tidur + otak (Flow) | Saintis tak boleh tengok terus dalam otak manusia yang sedang tidur. Jadi mereka kaji tikus, sebab cara asas otak tikus banyak persamaan dengan kita. |
+| 23–34s | Animasi sel otak menjauh, air membilas sisa keluar (Flow) | Hasilnya (Science, 2013): masa tikus tidur, celah antara sel otak jadi lebih luas, lebih kurang 60%. Cecair otak senang mengalir dan 'membilas' sampah keluar, macam paip yang tak tersumbat. |
+| 34–41s | Momyizz minum shake pisang sebagai makan malam ringan (BodyKey perisa pisang kelihatan) | Pada manusia, saintis masih mengkaji. Tapi satu benda jelas: tidur bukan sekadar rehat. Malam ni, makan malam ringan (shake GI rendah, 6g gula)… |
+| 41–45s | Momyizz tarik selimut, senyum | …dan tidur awal sikit 🌙 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
 
 **Caption video**
 
 ```
-Tidur bukan sekadar rehat 🧠🌙 Siri Tidur, Otak & Usus Momyizz bermula hari ni.
+Otak kita ada 'syif cuci' masa kita tidur 🧹🧠
+
+Saintis kaji pada tikus (Science, 2013): masa tidur, celah antara sel otak jadi lebih luas & sampah lebih mudah dibilas keluar. Pada manusia masih dikaji, tapi tidur memang bukan sekadar rehat 🌙
 
 Sumber: Xie et al. (2013), Science.
 Perkongsian ilmu umum. Bukan nasihat perubatan.
@@ -84,55 +87,53 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 #Momyizz #MitosAtauFakta #Tidur
 ```
 
-### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Apa jadi pada otak semasa kita tidur
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Otak ada 'syif cuci' masa kita tidur
 
 > Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
 
 **Slaid 1**
 
 ```
-APA JADI PADA OTAK
-semasa kita tidur? 🧠🌙
+OTAK ADA 'SYIF CUCI' 🧹🧠
+Apa jadi masa kita tidur?
 ```
 
 **Slaid 2**
 
 ```
-OTAK 'MEMBERSIH'
-Kajian tikus (Science, 2013): ruang antara sel otak membesar ~60% semasa tidur.
-🟠 Kajian awal (haiwan)
+SIANG: OTAK BEKERJA
+Macam dapur lepas masak, ada 'sampah' tertinggal: protein sisa yang otak tak perlu.
 ```
 
 **Slaid 3**
 
 ```
-SISA DIBUANG LEBIH CEPAT
-Aliran cecair meningkat, sisa seperti beta-amiloid dibersihkan lebih laju.
-🟠 Kajian awal
+KENAPA KAJI TIKUS? 🐭
+Saintis tak boleh tengok terus dalam otak manusia yang sedang tidur. Cara asas otak tikus banyak persamaan dengan otak kita.
 ```
 
 **Slaid 4**
 
 ```
-PADA MANUSIA?
-Kajian pada manusia masih berjalan.
-🔵 Masih dikaji
+APA DIJUMPA?
+Masa tikus tidur, celah antara sel otak jadi lebih luas (~60%). Cecair otak senang mengalir & bilas sampah keluar.
+🟠 Kajian awal (haiwan, Science 2013)
 ```
 
 **Slaid 5**
 
 ```
-YANG DAH JELAS
-Dewasa perlu tidur 7 jam atau lebih setiap malam secara konsisten.
-🟢 Terbukti (AASM)
+PADA MANUSIA?
+Kajian pada manusia masih berjalan, jadi belum boleh kata 'terbukti'.
+🔵 Masih dikaji
 ```
 
 **Slaid 6**
 
 ```
 JADI?
-Tidur cukup = sebahagian penjagaan kesihatan.
-Save & follow siri ni 🌿
+Tidur cukup = beri otak masa 'kemas rumah'.
+Save & follow 🌿
 
 Perkongsian ilmu umum. Bukan nasihat perubatan.
 ```
@@ -140,9 +141,9 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 **Caption carousel**
 
 ```
-Apa jadi pada otak semasa tidur, versi fakta 🧠
+Apa jadi pada otak masa kita tidur, versi mudah faham 🧠🌙
 
-Sumber: Xie et al. (2013) Science; AASM/SRS (2015).
+Sumber: Xie et al. (2013), Science.
 Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 #Momyizz #Tidur #KesihatanOtak
@@ -530,7 +531,7 @@ Ada soalan lain? Reply je, Momyizz jawab. Nak order, reply "NAK". 💛
 
 > 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
-> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 04-satin-tutup-mulut.
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Sticker: 04-satin-tutup-mulut.
 
 | Masa | Visual | Teks atas skrin / suara |
 |---|---|---|
@@ -1242,7 +1243,7 @@ Follow Momyizz untuk tips setiap hari
 
 > 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
-> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 18-blazer-semangat.
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Sticker: 18-blazer-semangat.
 
 | Masa | Visual | Teks atas skrin / suara |
 |---|---|---|
