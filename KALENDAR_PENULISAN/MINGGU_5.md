@@ -154,6 +154,12 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: AHA menyenaraikan 8 perkara utama untuk kesihatan jantung dan otak: makan sihat, bergerak, tiada nikotin, tidur cukup, berat badan, tekanan darah, gula darah dan kolesterol. ❤️🧠
 ```
 
+📘 *Versi FB latar warna* (109 / 130 aksara)
+
+```
+8 perkara jantung & otak (AHA): makan, gerak, tanpa rokok, tidur, berat, tekanan darah, gula, kolesterol ❤️🧠
+```
+
 **16:00 · Pertanyaan** (207 / 500 aksara)
 
 ```
@@ -167,6 +173,12 @@ Daripada siri Tidur, Otak & Usus ni, mana satu korang dah cuba? 🙋‍♀️
 🍌 Sarapan GI rendah
 
 Komen nombor emoji korang!
+```
+
+📘 *Versi FB latar warna* (73 / 130 aksara)
+
+```
+Daripada siri Tidur, Otak & Usus, tabiat mana yang korang dah mula? 🙋‍♀️
 ```
 
 **18:30 · Tips praktikal** (232 / 500 aksara)
@@ -186,6 +198,12 @@ Tips buat saringan kesihatan tanpa tangguh 💡
 Info penting: 1 dalam 2 dewasa Malaysia yang ada kolesterol tinggi tidak tahu mereka menghidapnya (NHMS 2023). ⚠️
 
 Kolesterol tinggi biasanya tiada simptom. Satu ujian darah boleh beri jawapan.
+```
+
+📘 *Versi FB latar warna* (97 / 130 aksara)
+
+```
+1 dalam 2 yang ada kolesterol tinggi tak tahu (NHMS 2023) ⚠️ Satu ujian darah boleh beri jawapan.
 ```
 
 ### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips buat saringan kesihatan tanpa tangguh

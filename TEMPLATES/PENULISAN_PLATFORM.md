@@ -37,6 +37,8 @@ Contoh (soft-sell):
 
 ## Facebook
 
+- **Post berlatar warna:** hanya untuk teks pendek, lebih kurang **130 aksara atau kurang**. Jika lebih, latar warna hilang. Worksheet sediakan 📘 *Versi FB latar warna* untuk teks 10:00, 16:00 dan 21:00 (`KALENDAR_PENULISAN/fb_pendek_data.py`). Satu atau dua ayat, tanpa senarai pilihan panjang.
+
 - **Baris 1–2:** hook yang buat orang tekan "See more". Situasi sebenar lebih baik daripada soalan umum.
 - **Badan:** cerita Momyizz → fakta (dengan sumber) → amalan praktikal. Perenggan 1–3 baris. Emoji sebagai bullet (✅ 🔹 📌).
 - **Penutup:** soalan untuk komen.
