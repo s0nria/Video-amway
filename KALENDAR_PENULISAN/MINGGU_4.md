@@ -1,10 +1,10 @@
-# Kalendar Konten — Minggu 4: Hari 22–28 (siap salin)
+# Kalendar Konten — Minggu 4: Hari 22–28 (3 Dis – 9 Dis 2026) (siap salin)
 
 Setiap hari satu topik: **🎥 1 video storytelling · 🎞️ 2 video motion grafik · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.
 Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.
 Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).
 
-## Hari 22 · 🔥 Siri trending: Tidur, Otak & Usus · Usus & otak saling berhubung
+## Hari 22 (3 Dis) · 🔥 Siri trending: Tidur, Otak & Usus · Usus & otak saling berhubung
 
 > 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Serat tak cukup; hari tak sempat makan sayur
 > **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
@@ -270,7 +270,7 @@ Follow Momyizz untuk tips setiap hari
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 23 · 🔥 Siri Usus Sihat · Probiotik vs prebiotik vs makanan fermentasi
+## Hari 23 (4 Dis) · 🌿 Siri Usus Sihat · Probiotik vs prebiotik vs makanan fermentasi
 
 > 🧩 **Produk penyelesai masalah:** NUTRILITE Botanical Beverage Mix Chicory Root Extract with Probiotics · **Masalah:** Keliru pasal probiotik; nak rutin usus yang mudah
 > **Key selling:** 6.3 bilion bakteria baik (CFU) sepaket · 5 strain probiotik · tahan asid perut & hempedu · ada serat prebiotik inulin · 1 paket sehari · halal IFANCA · tak perlu peti sejuk · **Gambar:** ``
@@ -555,7 +555,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
-## Hari 24 · 🔥 Siri trending: Tidur, Otak & Usus · Sarapan untuk otak: telur, oat & bijirin
+## Hari 24 (5 Dis) · 🔥 Siri trending: Tidur, Otak & Usus · Sarapan untuk otak: telur, oat & bijirin
 
 > 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Sarapan otak tapi pagi tak sempat masak
 > **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
@@ -818,7 +818,7 @@ Follow Momyizz untuk tips setiap hari
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 25 · 🔥 Siri Usus Sihat · Pemakanan usus sihat: 30 jenis tumbuhan seminggu
+## Hari 25 (6 Dis) · 🌿 Siri Usus Sihat · Pemakanan usus sihat: 30 jenis tumbuhan seminggu
 
 > 🧩 **Produk penyelesai masalah:** NUTRILITE Mixed FOS with Grape Ferment (BAHARU) · **Masalah:** Susah cukupkan serat setiap hari
 > **Key selling:** prebiotik: 2 serat larut (FOS + maltodekstrin tahan cerna) + grape ferment · menyokong berat badan sihat & kesihatan usus · rasa sedap · **Gambar:** ``
@@ -1099,7 +1099,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
-## Hari 26 · 🔥 Siri Usus Sihat · Dinding usus & 'leaky gut': fakta vs viral
+## Hari 26 (7 Dis) · 🌿 Siri Usus Sihat · Dinding usus & 'leaky gut': fakta vs viral
 
 > 🧩 **Produk penyelesai masalah:** NUTRILITE Botanical Beverage Mix Chicory Root Extract with Probiotics · **Masalah:** Terpengaruh video 'leaky gut'; nak amalan usus yang betul
 > **Key selling:** 6.3 bilion bakteria baik (CFU) sepaket · 5 strain probiotik · tahan asid perut & hempedu · ada serat prebiotik inulin · 1 paket sehari · halal IFANCA · tak perlu peti sejuk · **Gambar:** ``
@@ -1381,7 +1381,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
-## Hari 27 · 🔥 Siri trending: Tidur, Otak & Usus · Makanan untuk otak: omega-3 & ikan tempatan
+## Hari 27 (8 Dis) · 🔥 Siri trending: Tidur, Otak & Usus · Makanan untuk otak: omega-3 & ikan tempatan
 
 > 🧩 **Produk penyelesai masalah:** NUTRILITE Salmon Omega Complex · **Masalah:** Keluarga jarang makan ikan berlemak
 > **Key selling:** 330.93mg omega-3 (EPA + DHA) sebiji · salmon, ikan bilis & sardin · 1 biji sehari · **Gambar:** `AMWAY_BRAND/PRODUK/salmon-omega-complex.png`
@@ -1674,7 +1674,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
-## Hari 28 · 🔥 Siri Usus Sihat · Protein tumbuhan & usus: soya, tempe, kekacang
+## Hari 28 (9 Dis) · 🌿 Siri Usus Sihat · Protein tumbuhan & usus: soya, tempe, kekacang
 
 > 🧩 **Produk penyelesai masalah:** NUTRILITE Soy Protein Drink (Original 450g) · **Masalah:** Nak tambah protein tanpa terlalu banyak daging
 > **Key selling:** protein tumbuhan · 8g protein, 9 asid amino perlu · bebas laktosa · tanpa pemanis & tanpa perisa tiruan · **Gambar:** `AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png`

@@ -62,6 +62,14 @@ SOALAN_AWAM = {
  "Pemakanan usus sihat: 30 jenis tumbuhan seminggu": ("impian", None),
  "Dinding usus & 'leaky gut': fakta vs viral": ("emosi", None),
  "Protein tumbuhan & usus: soya, tempe, kekacang": ("keadaan", None),
+ "Flora intim wanita: bakteria baik yang jaga keseimbangan": ("keadaan", None),
+ "Kebersihan intim: kurang produk, lebih selesa": ("halangan", None),
+ "Kranberi: fakta vs mitos": ("emosi", None),
+ "Bila wanita perlu jumpa doktor & saringan serviks": ("komitmen", None),
+ "Rutin harian wanita sihat: usus, tidur, air & gerak": ("impian", None),
+ "Pewarna, pemanis & MSG: fakta vs viral": ("keadaan", None),
+ "Media sosial, notifikasi & anak": ("keadaan", None),
+ "Jaga otak dari sekarang: 14 faktor demensia": ("keadaan", None),
 }
 
 # Skrip prospek ikut topik. Langkah: (kod jenis atau tahap, tajuk, [mesej...]). Gunakan [nama] untuk prospek.
@@ -210,6 +218,21 @@ SKRIP = {
    ("komitmen", "Komitmen", ["[nama] nak cuba untuk diri sendiri dulu, atau sekeluarga?"]),
    ("susulan", "Bila prospek kata 'nanti dulu'", ["Takpe 😊 Momyizz kongsi senarai 30 tumbuhan dulu, nanti kita sembang lagi."]),
   ]},
+ "kranberi": {"tajuk": "Rutin wanita & probiotik kranberi (Cranberry Fruit Drink Base)", "produk": "kranberi",
+  "amalan": "Seluar dalam kapas, tukar pakaian basah segera, air cukup, makan seimbang dengan serat & makanan fermentasi.",
+  "doktor": "Keputihan berubah warna / bau, gatal, pedih kencing, demam, darah di luar waktu haid, hamil / menyusu atau ada masalah kesihatan: jumpa doktor dahulu. DILARANG dakwaan cegah / rawat UTI, keputihan atau hormon.",
+  "langkah": [
+   ("pembuka", "Sapa & minta izin", ["Hai [nama] 😊 Terima kasih komen di Siri Wanita Sihat Momyizz. Boleh Momyizz tanya sikit pasal rutin harian [nama]?"]),
+   ("keadaan", "Keadaan sekarang", ["Rutin pagi [nama] biasanya macam mana: sempat minum air dan sarapan, atau terus kejar masa?", "Seminggu, berapa kali [nama] sempat makan sayur, buah atau makanan fermentasi?"]),
+   ("impian", "Impian", ["Kalau rutin harian [nama] lebih teratur, apa yang [nama] paling nak rasa?"]),
+   ("halangan", "Halangan", ["Apa yang paling susah: tiada masa, lupa, atau keliru nak pilih produk yang betul?"]),
+   ("emosi", "Emosi", ["Bila rasa tak selesa sepanjang hari, ada ganggu kerja atau keyakinan [nama]?"]),
+   ("kesan", "Kesan (lembut)", ["Dah lama ke rasa macam ni? Kalau ada simptom seperti gatal, pedih atau perubahan keputihan, elok jumpa doktor dulu ya."]),
+   ("ringkas", "Ringkaskan semula", ["Jadi [nama] nak rutin harian yang mudah dan konsisten, sebab pagi selalu kalut. Betul?"]),
+   ("cadang", "Cadangan (amalan dulu, produk kemudian)", ["Mula dengan [amalan]. Sebagai pelengkap, Momyizz ambil [produk] setiap pagi. Bukan ubat ya."]),
+   ("komitmen", "Komitmen", ["[nama] nak cuba rutin asas dulu seminggu, atau terus mula dengan pelengkap sekali?"]),
+   ("susulan", "Bila prospek kata 'nanti dulu'", ["Takpe 😊 Momyizz kongsi senarai rutin wanita sihat dulu, nanti kita sembang lagi."]),
+  ]},
  "tidur": {"tajuk": "Tidur & rehat (tiada produk)", "produk": None,
   "amalan": "Waktu tidur konsisten, telefon di luar bilik, bilik gelap & sejuk, nap 20 minit sahaja.",
   "doktor": "Berdengkur kuat, tercungap waktu tidur, atau sangat mengantuk walaupun tidur cukup: jumpa doktor (kajian tidur).",
@@ -227,6 +250,6 @@ SKRIP = {
 }
 
 # Padankan mesej WhatsApp dengan skrip: kata kunci dalam tajuk WA -> kunci SKRIP
-PADANAN_WA = [("probiotic", "probiotik"), ("fos with grape", "fos"), ("bodykey", "bodykey"), ("espring", "espring"), ("soy", "soy"), ("dish", "dish"),
+PADANAN_WA = [("cranberry", "kranberi"), ("probiotic", "probiotik"), ("fos with grape", "fos"), ("bodykey", "bodykey"), ("espring", "espring"), ("soy", "soy"), ("dish", "dish"),
               ("bio c", "bioc"), ("cleanser", "cleanser"), ("uv protect", "uv"), ("spf", "uv"),
               ("omega", "omega"), ("salmon", "omega"), ("serat", "bodykey")]

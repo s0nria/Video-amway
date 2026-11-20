@@ -1,10 +1,10 @@
-# Kalendar Konten — Minggu 2: Hari 8–14 (siap salin)
+# Kalendar Konten — Minggu 2: Hari 8–14 (19 Nov – 25 Nov 2026) (siap salin)
 
 Setiap hari satu topik: **🎥 1 video storytelling · 🎞️ 2 video motion grafik · 🖼️ 1 carousel · ✍️ 4 teks** (+ 💬 WhatsApp bila sesuai). Isi setiap konten berbeza.
 Dalam worksheet: tab **Tulis** untuk butang salin dan checklist.
 Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALENDAR_PENULISAN/bina.py`).
 
-## Hari 8 · 🔥 Siri trending: Tidur, Otak & Usus · Tidur: masa otak 'membersihkan diri'
+## Hari 8 (19 Nov) · 🔥 Siri trending: Tidur, Otak & Usus · Tidur: masa otak 'membersihkan diri'
 
 > 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Makan malam lewat & berat; nak makan malam ringan sebelum tidur
 > **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
@@ -253,7 +253,7 @@ Follow Momyizz untuk tips setiap hari
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 9 · Episod 3 · Papan pemotong & kain lap
+## Hari 9 (20 Nov) · Episod 3 · Papan pemotong & kain lap
 
 > 🧩 **Produk penyelesai masalah:** Amway Home DISH DROPS (1L) · **Masalah:** Papan pemotong & kain lap berminyak susah bersih
 > **Key selling:** sangat pekat · sikit je buih banyak & tahan lama · aloe vera · diuji pakar dermatologi · biodegradable · **Gambar:** `AMWAY_BRAND/PRODUK/dish-drops-1l.png`
@@ -519,7 +519,7 @@ Ada soalan lain? Reply je, Momyizz jawab. Nak order, reply "NAK". 💛
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 - [ ] 💬 WhatsApp / group tertutup
 
-## Hari 10 · 🔥 Siri trending: Tidur, Otak & Usus · Berapa jam tidur ibu & anak
+## Hari 10 (21 Nov) · 🔥 Siri trending: Tidur, Otak & Usus · Berapa jam tidur ibu & anak
 
 > 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Kurang tidur, esoknya mengidam manis
 > **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
@@ -783,7 +783,7 @@ Follow Momyizz untuk tips setiap hari
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 11 · Episod 3 · Kesilapan dapur yang biasa
+## Hari 11 (22 Nov) · Episod 3 · Kesilapan dapur yang biasa
 
 > 🧩 **Produk penyelesai masalah:** Amway Home DISH DROPS (1L) · **Masalah:** Sinki & alatan tercemar lepas sentuh ayam mentah
 > **Key selling:** sangat pekat · sikit je buih banyak & tahan lama · aloe vera · diuji pakar dermatologi · biodegradable · **Gambar:** `AMWAY_BRAND/PRODUK/dish-drops-1l.png`
@@ -1010,7 +1010,7 @@ Follow Momyizz untuk tips setiap hari
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 12 · Episod 4 · Panaskan bekal dalam bekas plastik
+## Hari 12 (23 Nov) · Episod 4 · Panaskan bekal dalam bekas plastik
 
 > 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Beratur panaskan bekal; perlukan pilihan makan tengah hari yang tak perlu dipanaskan
 > **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
@@ -1231,7 +1231,7 @@ Follow Momyizz untuk tips setiap hari
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 13 · 🔥 Siri trending: Tidur, Otak & Usus · Skrin & cahaya malam
+## Hari 13 (24 Nov) · 🔥 Siri trending: Tidur, Otak & Usus · Skrin & cahaya malam
 
 > 🧩 **Produk penyelesai masalah:** ARTISTRY SKIN NUTRITION Multi-Defense UV Protect SPF50+/PA++++ · **Masalah:** Depan skrin sepanjang hari; perlukan perlindungan kulit termasuk cahaya biru
 > **Key selling:** SPF50+/PA++++ · spektrum luas · ringan, tak berminyak · sesuai semua jenis kulit · **Gambar:** `AMWAY_BRAND/PRODUK/artistry-uv-protect-spf50.png`
@@ -1485,7 +1485,7 @@ Follow Momyizz untuk tips setiap hari
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
-## Hari 14 · Episod 4 · Bekal sihat ke pejabat
+## Hari 14 (25 Nov) · Episod 4 · Bekal sihat ke pejabat
 
 > 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Bekal tak seimbang; hari kalut tiada bekal langsung
 > **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
