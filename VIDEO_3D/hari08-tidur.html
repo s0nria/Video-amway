@@ -164,7 +164,7 @@ window.renderAt=function(t){
   // moon S1 0-4.3
   moon.visible=t<4.6;
   if(moon.visible){const k=bounce(t/0.8);const out=t>3.8?eio((t-3.8)/0.6):0;moon.position.set(0,wy(1060)+5*out,-0.5);moon.scale.setScalar(0.72*cl(k));moon.rotation.set(0.2,t*0.3,0);}
-  zzz.forEach((z,i)=>{let a=0.5,b=4.0,cx=1.15,cy=wy(1060);if(t>12){a=13.4;b=22.8;cx=0.9;cy=wy(860);}
+  zzz.forEach((z,i)=>{if(window.NOZ){z.visible=false;return;}let a=0.5,b=4.0,cx=1.15,cy=wy(1060);if(t>12){a=13.4;b=22.8;cx=0.9;cy=wy(860);}
     const u=((t-a)/1.6+i/3)%1;z.visible=t>a&&t<b;z.position.set(cx+0.45*u+0.12*Math.sin(u*6),cy+0.9*u,0.6);const s=0.35+0.35*u;z.scale.set(s,s,1);z.material.opacity=Math.sin(u*Math.PI)*(z.visible?1:0);});
   // cells S2 (4.2-12) & S4 (23-34)
   cellGrp.visible=(t>4.1&&t<12.4)||(t>23.0&&t<34.4);
