@@ -50,6 +50,7 @@ Kawasan selamat: x 60–940, y 160–1440. Lihat garis bantu dalam `TEMPLATES/MO
 MP4 (H.264), 1080 × 1920, 30 fps, bitrate 12–16 Mbps, audio AAC 48 kHz 320 kbps.
 
 ## Senarai semak QC (Pintu 3)
+- [ ] Tanda nama **@empayarbiz_momyizz** kelihatan sepanjang video, dalam safe zone (WAJIB, lihat `AMWAY_BRAND/BRAND.md`)
 - [ ] Fakta sepadan dengan skrip yang diluluskan. Tiada fakta "PERLU SEMAK"
 - [ ] Tiada dakwaan perubatan, janji hasil atau tajuk menakutkan
 - [ ] Label bukti pada setiap fakta kesihatan/mikroplastik

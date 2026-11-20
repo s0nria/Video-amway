@@ -13,6 +13,8 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 09-kartun-terkejut-pipi.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -38,6 +40,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 20-blazer-terkejut-pipi.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | Tidur cukup ke sebenarnya? 4 tanda ni 😴 | Pop |
@@ -58,6 +62,8 @@ Berapa tanda korang ada? 👇 Dewasa perlu 7 jam+ (AASM).
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Tidur 5 jam dah cukup, badan dah biasa'
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -255,6 +261,8 @@ Follow Momyizz untuk tips setiap hari
 ### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Dua papan pemotong di dapur Momyizz
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 19-blazer-thumbs-up (babak akhir). Babak basuh: botol Dish Drops kelihatan; jangan sebut nama dalam sari kata / suara.
 
@@ -502,6 +510,8 @@ Ada soalan lain? Reply je, Momyizz jawab. Nak order, reply "NAK". 💛
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 04-satin-tutup-mulut.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -524,6 +534,8 @@ Siapa selalu 'revenge bedtime'? 🙋‍♀️ Jom cari cara lebih seimbang.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 08-satin-thumbs-up.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | 30 minit sebelum tidur, buat ni 🌙 | Pop |
@@ -543,6 +555,8 @@ Rutin 30 minit sebelum tidur ala Momyizz 🌙 Save!
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Anak susah tidur malam? Semak 3 perkara
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 17-blazer-panggil.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -741,6 +755,8 @@ Follow Momyizz untuk tips setiap hari
 ### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): 3 kesilapan dapur Momyizz dulu
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak kesilapan pertama). Babak sinki: botol Dish Drops kelihatan; jangan sebut nama dalam sari kata / suara.
 
@@ -949,6 +965,8 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 09-kartun-terkejut-pipi (babak kajian). Babak shake: kotak / paket BodyKey perisa pisang kelihatan; jangan sebut nama dalam sari kata / suara.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -1150,6 +1168,8 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 18-blazer-semangat.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -1173,6 +1193,8 @@ Sumber: Harvard Health Publishing.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | 3 setting telefon yang bantu tidur 📱 | Pop |
@@ -1192,6 +1214,8 @@ Sumber: Harvard Health Publishing.
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Dah baring tapi tak boleh lelap?
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 05-satin-semangat.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1379,6 +1403,8 @@ Follow Momyizz untuk tips setiap hari
 ### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Bekal 20 minit, siap sampai Rabu
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 05-satin-semangat (babak akhir). Babak beg kerja: paket BodyKey perisa pisang kelihatan; jangan sebut nama dalam sari kata / suara. Lauk masak hanya disimpan 3–4 hari (USDA), sebab itu bekal disediakan 2 kali seminggu.
 

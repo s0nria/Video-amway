@@ -252,7 +252,7 @@ def mg_md(g):
                 f"> {g['idea']} (skrip dijana dengan Claude: tab **Tulis** → **Salin arahan untuk Claude**)", ""]
     L = [f"### 🎞️ {g['masa']} · UNTUK VIDEO MOTION GRAFIK ({g['jenis']}): {g['tajuk']}", "",
          "> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. "
-         f"Sticker: {g['sticker']}.", "",
+         f"Sticker: {g['sticker']}.", "", "> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).", "",
          "| Masa | Komponen kit | Teks atas skrin | Animasi |", "|---|---|---|---|"]
     L += [f"| {b[0]} | {b[1]} | {b[2].replace(chr(10), '<br>')} | {b[3]} |" for b in g["babak"]]
     return L + ["", "**Caption**", "", "```", g["caption"], "```", ""]
@@ -277,7 +277,7 @@ def md_week1(days, minggu=1):
         v, c = day["video"], day["carousel"]
         L += [judul(day), ""] + produk_md(day) + [
               f"### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): {v['tajuk']}", "",
-              "> Salin skrip ini ke CapCut / Flow untuk edit video.", ""]
+              "> Salin skrip ini ke CapCut / Flow untuk edit video.", "", "> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).", ""]
         if v["nota"]:
             L += [f"> {v['nota']}", ""]
         L += ["| Masa | Visual | Teks atas skrin / suara |", "|---|---|---|"]

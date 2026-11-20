@@ -17,7 +17,7 @@ Untuk hasilkan 3–5 konten sehari dari telefon (claude.ai atau app Claude).
    - `TEMPLATES/TEKNIK_PENULISAN.md`
    - `KALENDAR_PENULISAN/MINGGU_1.md` (contoh gaya penulisan Momyizz)
    - `KALENDAR_PENULISAN/MINGGU_2.md` hingga `MINGGU_5.md` (hari siap salin)
-   - `KALENDAR_PENULISAN/HARI_22-30.md` (rancangan)
+   - `KALENDAR_PENULISAN/HARI_21-30.md` (rancangan)
    - `KALENDAR_PENULISAN/PODCAST_SEMAKAN.md` (semakan dakwaan siri trending)
    - `KALENDAR_PENULISAN/SKRIP_PROSPEK.md` (skrip soalan prospek ikut topik)
    - `KALENDAR_PENULISAN/MASALAH_AUDIENS.md` (20 masalah audiens + cara betul ambil supplemen)
@@ -51,6 +51,7 @@ Wajib:
 - Soalan berimpak tinggi: teks 16:00 gilir jenis soalan (keadaan, impian, halangan, emosi), tanpa produk. WhatsApp / DM: jangan terus jual; tanya dulu (keadaan → impian → halangan → emosi → kesan lembut), ringkaskan semula, cadang amalan dulu kemudian produk, akhiri soalan komitmen berbentuk pilihan. Ikut TEKNIK_PENULISAN.md bab 9 dan SKRIP_PROSPEK.md.
 - Cerita peribadi: tandakan [ubah ikut pengalaman sebenar]. Jangan reka pengalaman atau testimoni.
 - Fakta kesihatan: sumber (WHO, KKM, NIH, EFSA, jurnal) + label bukti (Terbukti / Kajian awal / Masih dikaji / Bukti belum cukup).
+- Setiap skrip video (storytelling, motion grafik, 3D) mesti nyatakan tanda nama **@empayarbiz_momyizz** kelihatan sepanjang video di penjuru kanan atas (WAJIB).
 - Setiap hari ada SATU produk Amway sebagai penyelesai masalah topik hari itu: kelihatan dalam video dengan 1 key selling, diselitkan dalam teks 16:00 atau 18:30, dan dalam WhatsApp pada hari hard-sell. Teks 21:00 alert tanpa produk.
 - Key selling: setiap konten yang berkaitan dengan produk ada sekurang-kurangnya satu key selling dari KEY_SELLING.md. Post awam: ciri sahaja, tanpa nama produk. WhatsApp: nama + 3–5 key selling. Jangan besarkan dakwaan (contoh: "diuji pakar dermatologi" BUKAN "sesuai untuk kulit sensitif").
 - Fakta produk, harga dan promosi: guna hanya yang pengguna berikan atau yang disahkan di amway.my. Jangan reka. Kalau tiada, tulis "PERLU SEMAK".

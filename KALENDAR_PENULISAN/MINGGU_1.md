@@ -13,6 +13,8 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak hook).
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -35,6 +37,8 @@ Mikroplastik: fakta, bukan panik 🌿 Siri baharu Momyizz bermula hari ni. Follo
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 13-blazer-tunjuk-atas-kanan.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | Botol air korang dah patut tukar? 🤔 | Pop 0.3 s |
@@ -55,6 +59,8 @@ Mikroplastik: fakta, bukan panik 🌿 Siri baharu Momyizz bermula hari ni. Follo
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: air dalam botol plastik
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -259,6 +265,8 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 18-blazer-semangat (babak akhir).
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -281,6 +289,8 @@ Follow Momyizz untuk tips setiap hari
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 18-blazer-semangat.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | Beli tumbler cantik… tapi selalu tertinggal? 😅 | Pop |
@@ -300,6 +310,8 @@ Tumbler yang dibawa > tumbler yang cantik 😄 Tips korang?
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Bekas plastik bertimbun? Susun 3 kotak
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -513,6 +525,8 @@ Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 04-satin-tutup-mulut atau 14-blazer-tutup-mulut.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -535,6 +549,8 @@ Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 14-blazer-tutup-mulut.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | Sebelum forward, tengok 4 tanda ni 🚩 | Pop |
@@ -555,6 +571,8 @@ Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Group keluarga kongsi berita palsu, macam mana nak tegur?
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 17-blazer-panggil.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -740,6 +758,8 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 10-satin-terkejut-pipi (babak hook). Boleh juga guna video Episod 2 (tab Episod).
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -761,6 +781,8 @@ Ibu-ibu, korang pun selalu jadi orang terakhir makan? 🙋‍♀️
 ### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Sarapan di kedai? Formula 1+1+1
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -784,6 +806,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Lapar pukul 11, terus capai snek manis?
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 05-satin-semangat.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1007,6 +1031,8 @@ Nak cuba? Reply "PISANG", Momyizz uruskan. 💛
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 19-blazer-thumbs-up (babak akhir). Babak bekal: tin Soy Protein Drink kelihatan sebagai pelan B; jangan sebut nama dalam sari kata / suara.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -1029,6 +1055,8 @@ Self-care tak semestinya spa. Kadang dia cuma sarapan sambil duduk 💛
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 08-satin-thumbs-up.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | Sarapan siap sebelum korang bangun 😴 | Pop |
@@ -1049,6 +1077,8 @@ Oat rendam semalaman, 3 bahan je. Buah apa korang suka letak? 👇
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Pagi selalu lewat? Undur 3 benda ke malam
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 12-blazer-tunjuk-kiri.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1268,6 +1298,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 09-kartun-terkejut-pipi (babak pendedahan).
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -1290,6 +1322,8 @@ Minuman manis mana paling susah korang nak kurangkan? 👇
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | Tak perlu berhenti terus. Tukar sikit-sikit 🔄 | Pop |
@@ -1311,6 +1345,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Anak minta air manis setiap hari?
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 03-satin-tunjuk-atas.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1517,6 +1553,8 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak span). Boleh juga guna video Episod 3 (tab Episod). Babak sabun: botol Dish Drops BOLEH kelihatan (rakaman sendiri), tetapi JANGAN sebut nama Dish Drops / Amway dalam sari kata, teks atas skrin, voiceover atau caption. Kalau ada yang tanya 'sabun apa?' di komen, balas 'Momyizz DM ya 😊' dan kongsi dalam DM / WhatsApp (slot wa).
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -1545,6 +1583,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 15-blazer-tunjuk-atas-kiri.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | Dapur bersih tanpa penat sehari suntuk ✨ | Pop |
@@ -1564,6 +1604,8 @@ Jadual bersih dapur ringkas. Save & tampal dekat peti 📌
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Dapur cepat berbau? Ini puncanya
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 20-blazer-terkejut-pipi.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1643,10 +1685,10 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 ### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
 
-**10:00 · Info ringkas** (193 / 500 aksara)
+**10:00 · Info ringkas** (268 / 500 aksara)
 
 ```
-Info ringkas: span yang "dibersihkan" dengan cara rumah tak semestinya kurang bakteria. 🧽
+Info ringkas: span yang "dibersihkan" dengan cara rumah (contohnya dipanaskan dalam microwave atau dibilas dengan air sabun panas) tak semestinya kurang bakteria. 🧽
 
 Penulis kajian Cardinale et al. (2017) cadangkan span ditukar secara berkala, contohnya setiap minggu.
 ```

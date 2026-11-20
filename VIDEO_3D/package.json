@@ -1,0 +1,6 @@
+{
+  "name": "momyizz-video-3d",
+  "private": true,
+  "description": "Render video grafik 3D Momyizz (three.js + Playwright + ffmpeg)",
+  "dependencies": { "three": "0.160.0" }
+}

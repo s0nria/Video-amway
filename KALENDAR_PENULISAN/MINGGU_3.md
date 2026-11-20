@@ -13,6 +13,8 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 19-blazer-thumbs-up.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -38,6 +40,8 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | 4 benda dalam bilik yang curi tidur korang 🛏️ | Pop |
@@ -59,6 +63,8 @@ Sumber: CDC.
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Plaster mulut buat tidur lebih nyenyak'
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -258,6 +264,8 @@ Follow Momyizz untuk tips setiap hari
 ### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): 3 tanda merah iklan kurus cepat
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 04-satin-tutup-mulut (babak hook). Babak label: kotak BodyKey perisa pisang kelihatan; jangan sebut nama. Sudut berat badan: ayat 'Keputusan berbeza mengikut individu' WAJIB.
 
@@ -465,6 +473,8 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 13-blazer-tunjuk-atas-kanan (babak angka EFSA). Babak isi air: eSpring kelihatan; jangan sebut nama dalam sari kata / suara.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -664,6 +674,8 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 08-satin-thumbs-up.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -687,6 +699,8 @@ Sumber: NASA (Rosekind et al.).
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | Nap 20 minit yang betul ⏰ | Pop |
@@ -706,6 +720,8 @@ Formula nap 20 minit. Save untuk pejabat ⏰
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Bangun nap rasa lagi penat? Ini sebabnya
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 20-blazer-terkejut-pipi.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -891,6 +907,8 @@ Follow Momyizz untuk tips setiap hari
 ### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Jom #CabaranAirMomyizz 7 hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 17-blazer-panggil (babak hook) atau 02-blazer-tunjuk-bawah (babak komen). Babak isi air: eSpring kelihatan; jangan sebut nama dalam sari kata / suara.
 
@@ -1109,6 +1127,8 @@ Air sentiasa sedia di rumah = lebih senang cukupkan minum setiap hari. Nak tahu 
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: guna podcast tidur & otak yang viral sebagai hook sahaja. Jangan petik nama penceramah atau dakwaan podcast yang belum disemak. Sticker: 14-blazer-tutup-mulut.
 
 | Masa | Visual | Teks atas skrin / suara |
@@ -1132,6 +1152,8 @@ Sumber: Drake et al. (2013), J Clin Sleep Med.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
 
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
 | 0–3s | HOOK | Mengantuk petang tapi tak nak kopi? ☕ | Pop |
@@ -1151,6 +1173,8 @@ Sumber: Drake et al. (2013), J Clin Sleep Med.
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Minum kopi malam pun boleh tidur, tak ada kesan'
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 14-blazer-tutup-mulut.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
