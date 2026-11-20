@@ -103,3 +103,10 @@ Satu post Threads = video 10 saat + 1 gambar + teks harian yang ditanda (16:00 a
 - **Pilihan B:** rakam sendiri. Rumah tak perlu kemas: cukup **satu sudut 30 cm** (meja / kaunter) dengan alas kain atau papan kayu, cahaya tingkap, rakam **close-up tangan + produk**, bunyi asli (air dituang, goncang botol, buih). 0–2 saat terus aksi.
 - Gambar: produk dalam rutin (close-up), atau poster dari video 3D.
 - Nama produk tak disebut dalam teks; botol & jenama boleh kelihatan.
+
+## Tema teras: usus sihat (DISAHKAN pengguna 20 Nov 2026)
+Tekankan selalu: jaga usus dahulu, kerana usus ialah tempat kebanyakan nutrien diserap dan digelar **"otak kedua"** (bukan "otak pertama"; istilah sains: lebih 100 juta sel saraf berhubung dengan otak).
+- Siri Usus Sihat (Hari 21, 23, 25, 26, 28): perjalanan nutrien, probiotik vs prebiotik, 30 jenis tumbuhan seminggu, dinding usus & "leaky gut" (fakta vs viral), protein tumbuhan.
+- Produk (WhatsApp sahaja, key selling `AMWAY_BRAND/KEY_SELLING.md`): Botanical Beverage Mix with Probiotics, Mixed FOS with Grape Ferment, Soy Protein Drink, BodyKey shake.
+- Dilarang: "baiki leaky gut", rawat sembelit / IBS, "buang toksin", tingkatkan imun.
+- Siri seterusnya: probiotik kranberi khas wanita (Nutrilite Cranberry Fruit Drink Base with Probiotic, Inulin & FOS); key selling dah disenaraikan, tiada dakwaan UTI / keputihan.

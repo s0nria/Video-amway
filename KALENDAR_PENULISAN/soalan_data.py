@@ -57,6 +57,11 @@ SOALAN_AWAM = {
  "Makanan untuk otak: omega-3 & ikan tempatan": ("emosi",
   "Ibu-ibu, bila anak tolak makan ikan, apa yang korang rasa? 🐟\n\n😩 Penat pujuk\n😔 Risau dia tak cukup khasiat\n😤 Geram sebab dah masak susah-susah\n🤷 Biar je, esok cuba lagi\n\nMomyizz: semua sekali dalam satu malam. 😂"),
  "Jantung, otak & tidur: rumusan siri": ("komitmen", None),
+ "Usus: 'otak kedua' & tempat nutrien diserap": ("keadaan", None),
+ "Probiotik vs prebiotik vs makanan fermentasi": ("keadaan", None),
+ "Pemakanan usus sihat: 30 jenis tumbuhan seminggu": ("impian", None),
+ "Dinding usus & 'leaky gut': fakta vs viral": ("emosi", None),
+ "Protein tumbuhan & usus: soya, tempe, kekacang": ("keadaan", None),
 }
 
 # Skrip prospek ikut topik. Langkah: (kod jenis atau tahap, tajuk, [mesej...]). Gunakan [nama] untuk prospek.
@@ -176,6 +181,35 @@ SKRIP = {
    ("komitmen", "Komitmen", ["[nama] nak cuba untuk diri sendiri dulu, atau untuk pasangan juga?"]),
    ("susulan", "Bila prospek kata 'nanti dulu'", ["Takpe 😊 Cuba dulu resipi sardin & ikan kembung yang Momyizz kongsi."]),
   ]},
+ "probiotik": {"tajuk": "Usus & probiotik (Botanical Beverage Mix with Probiotics)", "produk": "probiotik",
+  "amalan": "Serat dari sayur, buah & kekacang setiap hari, air cukup, tidur cukup.",
+  "doktor": "Sakit perut berpanjangan, darah dalam najis, lemah imun atau sakit serius: jumpa doktor dahulu. Tiada dakwaan baiki leaky gut / rawat penyakit.",
+  "langkah": [
+   ("pembuka", "Sapa & minta izin", ["Hai [nama] 😊 Terima kasih komen di post usus Momyizz. Boleh Momyizz tanya sikit pasal rutin pemakanan [nama]?"]),
+   ("keadaan", "Keadaan sekarang", ["Perut [nama] biasanya rasa macam mana lepas makan: selesa, kembung atau tak tentu?", "Sehari makan sayur & buah berapa hidangan?"]),
+   ("impian", "Impian", ["Kalau rutin usus [nama] lebih baik, apa yang [nama] paling harap rasa dalam hari-hari [nama]?"]),
+   ("halangan", "Halangan", ["Apa yang paling susah: masa nak sediakan makanan, tak suka sayur, atau keliru dengan produk viral?"]),
+   ("emosi", "Emosi", ["Bila perut tak selesa, ada ganggu kerja atau mood [nama]?"]),
+   ("kesan", "Kesan (lembut)", ["Dah berapa lama rasa macam ni? Kalau dah lama, elok jumpa doktor dulu ya."]),
+   ("ringkas", "Ringkaskan semula", ["Jadi [nama] nak rutin usus yang mudah, sebab susah cukupkan serat bila sibuk. Betul?"]),
+   ("cadang", "Cadangan (amalan dulu, produk kemudian)", ["Mula dengan [amalan]. Sebagai pelengkap, Momyizz ambil [produk]."]),
+   ("komitmen", "Komitmen", ["[nama] nak cuba rutin serat dulu seminggu, atau terus mula dengan pelengkap sekali?"]),
+   ("susulan", "Bila prospek kata 'nanti dulu'", ["Takpe 😊 Cuba dulu cabaran 3 jenis tumbuhan baru minggu ni, nanti Momyizz tanya macam mana."]),
+  ]},
+ "fos": {"tajuk": "Serat prebiotik (Mixed FOS with Grape Ferment)", "produk": "fos",
+  "amalan": "Tambah serat perlahan-lahan: sayur, buah, kekacang, bijirin penuh; minum air cukup.",
+  "doktor": "Sakit perut teruk atau berpanjangan: jumpa doktor. Sudut berat badan: 'Keputusan berbeza mengikut individu'.",
+  "langkah": [
+   ("pembuka", "Sapa & minta izin", ["Hai [nama] 😊 Nampak [nama] berminat dengan cabaran 30 tumbuhan. Boleh Momyizz tanya sikit?"]),
+   ("keadaan", "Keadaan sekarang", ["Seminggu, lebih kurang berapa jenis sayur, buah & kekacang [nama] makan?"]),
+   ("impian", "Impian", ["Apa yang [nama] harap bila pemakanan lebih tinggi serat?"]),
+   ("halangan", "Halangan", ["Apa yang buat susah cukupkan serat: masa, harga, atau perut cepat kembung?"]),
+   ("emosi", "Emosi", ["Bila rasa makan tak seimbang, apa yang paling [nama] risau?"]),
+   ("ringkas", "Ringkaskan semula", ["Jadi [nama] nak cara mudah tambah serat pada hari yang sibuk. Betul?"]),
+   ("cadang", "Cadangan", ["Asasnya: [amalan]. Untuk hari yang susah, ada prebiotik [produk]."]),
+   ("komitmen", "Komitmen", ["[nama] nak cuba untuk diri sendiri dulu, atau sekeluarga?"]),
+   ("susulan", "Bila prospek kata 'nanti dulu'", ["Takpe 😊 Momyizz kongsi senarai 30 tumbuhan dulu, nanti kita sembang lagi."]),
+  ]},
  "tidur": {"tajuk": "Tidur & rehat (tiada produk)", "produk": None,
   "amalan": "Waktu tidur konsisten, telefon di luar bilik, bilik gelap & sejuk, nap 20 minit sahaja.",
   "doktor": "Berdengkur kuat, tercungap waktu tidur, atau sangat mengantuk walaupun tidur cukup: jumpa doktor (kajian tidur).",
@@ -193,6 +227,6 @@ SKRIP = {
 }
 
 # Padankan mesej WhatsApp dengan skrip: kata kunci dalam tajuk WA -> kunci SKRIP
-PADANAN_WA = [("bodykey", "bodykey"), ("espring", "espring"), ("soy", "soy"), ("dish", "dish"),
+PADANAN_WA = [("probiotic", "probiotik"), ("fos with grape", "fos"), ("bodykey", "bodykey"), ("espring", "espring"), ("soy", "soy"), ("dish", "dish"),
               ("bio c", "bioc"), ("cleanser", "cleanser"), ("uv protect", "uv"), ("spf", "uv"),
               ("omega", "omega"), ("salmon", "omega"), ("serat", "bodykey")]

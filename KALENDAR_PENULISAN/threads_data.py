@@ -22,6 +22,8 @@ CHIPS = {
  "cleanser": ["Buang kekotoran & PM2.5", "Tak keringkan kulit", "pH seimbang"],
  "uv": ["SPF50+ / PA++++", "Spektrum luas", "Ringan, tak berminyak"],
  "omega": ["330mg omega-3 sebiji", "Salmon, bilis & sardin", "1 biji sehari"],
+ "probiotik": ["6.3 bilion bakteria baik", "5 strain probiotik", "1 paket sehari"],
+ "fos": ["2 serat larut prebiotik", "+ grape ferment", "Rasa sedap"],
 }
 
 GAMBAR_PRODUK = {
@@ -48,14 +50,14 @@ THREADS = {
  18: ("Bangun nap, terus segelas air 💧", "Tuang air dari penapis ke gelas, minum. Bunyi air.", "Gelas air + penggera 20 minit di telefon", 2),
  19: ("Cabaran air hari ke-? ✅", "Isi botol pagi dari penapis + tanda ✓ pada kertas cabaran.", "Kertas cabaran 7 hari ditampal di peti", 1),
  20: ("Pukul 4 petang, bukan kopi ☕➜🍌", "Tolak cawan kopi ke tepi, goncang shake dalam botol.", "Cawan kopi pagi vs botol shake petang", 2),
- 21: ("Penat, tapi tetap cuci muka 🌙", "Ambil pencuci, jelly di tapak tangan, sapu lembut 10 saat.", "Tuala lembut + pencuci di tepi sinki", 2),
+ 21: ("Makan sihat tapi tak bermaya? 🍽️", "Tuang 1 paket shake + air dalam botol, goncang, tuang ke gelas sebelah pinggan sayur.", "Pinggan sayur, kekacang & gelas shake, pandangan atas", 2),
  22: ("Tak sempat makan sayur hari ni? 🥦", "Goncang shake, tuang ke gelas sebelah pinggan sayur.", "Pinggan sayur + gelas shake, pandangan atas", 1),
- 23: ("Skip SPF sebab berminyak? ☀️", "Sapu pelindung matahari di muka, close-up hasil tak berkilat.", "Botol pelindung matahari + topi + beg", 1),
+ 23: ("Probiotik vs prebiotik? 🦠", "Tuang 1 paket probiotik terus atas lidah / dalam yogurt sejuk, close-up.", "Tempe, yogurt, pisang & paket probiotik di meja", 1),
  24: ("Sarapan otak, versi 1 minit 🧠", "Telur rebus atas meja + goncang shake, tuang ke gelas.", "Sarapan: telur, roti gandum, gelas shake", 1),
- 25: ("Susah makan buah hari-hari? 🍊", "Potong jambu / oren atas papan, botol vitamin C di sebelah.", "Buah tempatan + botol vitamin C, cahaya pagi", 1),
- 26: ("Duduk lama? Jom gerak 🚶‍♀️", "Kasut sukan + botol shake dalam beg sebelum keluar jalan.", "Kasut sukan, botol air & shake di pintu", 1),
+ 25: ("30 jenis tumbuhan seminggu? 🌿", "Susun sayur, kekacang, rempah di meja, kira dengan jari; tabur serbuk serat dalam air.", "Senarai 30 tumbuhan di peti + bekas kekacang", 1),
+ 26: ("'Leaky gut' viral? 🧱", "Close-up pinggan serat + segelas air + paket probiotik, tangan tanda ✓ senarai amalan.", "Nota tulisan tangan: 5 amalan usus", 2),
  27: ("Keluarga jarang makan ikan? 🐟", "Ikan kembung di kuali + botol omega di meja makan.", "Hidangan ikan keluarga + botol omega", 1),
- 28: ("Lepas senaman, protein 🏋️‍♀️", "Lepas latihan: goncang shake, minum.", "Tuala, botol shake & dumbel kecil", 2),
+ 28: ("Protein mesra usus 🫘", "Tempe garing di kuali, kemudian goncang minuman protein soya.", "Pinggan tempe, dal & sayur + botol minuman soya", 2),
  29: ("Tabiat sihat yang kekal 💛", "Susun 3 tabiat: botol air, kasut sukan, shake pagi.", "Senarai 3 tabiat tulisan tangan + shake", 1),
  30: ("Sebulan bersama korang 💛", "Buka kotak shake bulan depan, susun paket dalam bekas.", "Kalendar bulan baharu + kotak shake", 1),
 }

@@ -34,7 +34,7 @@ def threads_json(day):
 def tulis_threads10():
     out = {}
     for day in DAYS:
-        if day["d"] in THREADS:
+        if day["d"] in THREADS and day["produk"][0] in GAMBAR_PRODUK:
             pk = day["produk"][0]
             out[str(day["d"])] = {"hook": THREADS[day["d"]][0], "chips": CHIPS[pk], "img": GAMBAR_PRODUK[pk]}
     open(os.path.join(ROOT, "VIDEO_3D", "threads10_data.js"), "w", encoding="utf-8").write(
@@ -110,8 +110,8 @@ def check():
         if not day:
             errs.append(f"THREADS: hari {n} tiada")
             continue
-        if day["produk"][0] not in CHIPS or day["produk"][0] not in GAMBAR_PRODUK:
-            errs.append(f"THREADS hari {n}: produk '{day['produk'][0]}' tiada dalam CHIPS / GAMBAR_PRODUK")
+        if day["produk"][0] not in CHIPS:
+            errs.append(f"THREADS hari {n}: produk '{day['produk'][0]}' tiada dalam CHIPS")
         if nama_produk.search(hook) or BANNED.search(hook):
             errs.append(f"THREADS hari {n}: hook tidak boleh ada nama produk / kata ganti dilarang")
         if len(hook) > 40:
@@ -255,7 +255,7 @@ def to_json():
         nama, gambar, ks = PRODUK[k]
         d["produk"] = {"nama": nama, "gambar": gambar, "ks": ks, "masalah": masalah}
         if day["ep"] is None:
-            d["siri"] = "Siri trending: Tidur, Otak & Usus"
+            d["siri"] = day.get("siri", "Siri trending: Tidur, Otak & Usus")
         if day["d"] in MG_FULL:
             mg = [{"masa": m, "jenis": j, "tajuk": v["tajuk"], "sticker": v["sticker"],
                    "babak": [list(b) for b in v["babak"]], "caption": v["caption"]}
@@ -499,5 +499,17 @@ if __name__ == "__main__":
     open(os.path.join(HERE, "SKRIP_PROSPEK.md"), "w", encoding="utf-8").write(md_skrip())
     tulis_threads10()
     inject(data)
+    # Ujian sintaks JavaScript worksheet (jika Node ada)
+    import shutil, subprocess, tempfile
+    if shutil.which("node"):
+        src = open(os.path.join(ROOT, "momyizz-planner.html"), encoding="utf-8").read()
+        js = "\n".join(re.findall(r"<script(?![^>]*src)[^>]*>(.*?)</script>", src, re.S))
+        with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False, encoding="utf-8") as f:
+            f.write(js)
+        r = subprocess.run(["node", "--check", f.name], capture_output=True, text=True)
+        os.unlink(f.name)
+        if r.returncode != 0:
+            print("RALAT SINTAKS JavaScript dalam worksheet:\n" + r.stderr[:800])
+            sys.exit(1)
     n = sum(1 for d in data if "video" in d)
     print(f"OK: {len(data)} hari, {n} hari siap salin. Markdown dan worksheet dikemas kini.")

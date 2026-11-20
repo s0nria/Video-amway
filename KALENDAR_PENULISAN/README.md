@@ -9,7 +9,7 @@
 | `MINGGU_3.md` | Hari 15–21: skrip video, teks carousel, 4 teks, WhatsApp + checklist |
 | `MINGGU_4.md` | Hari 22–28: skrip video, teks carousel, 4 teks, WhatsApp + checklist |
 | `MINGGU_5.md` | Hari 29–35: skrip video, teks carousel, 4 teks, WhatsApp + checklist |
-| `HARI_21-30.md` | Hari 21–30: rancangan setiap konten |
+| `HARI_30-30.md` | Hari 30–30: rancangan setiap konten |
 | `PODCAST_SEMAKAN.md` | Semakan dakwaan podcast tidur & otak (sumber siri trending) |
 | `MASALAH_AUDIENS.md` | 20 masalah audiens: rasa, dah cuba, kenapa gagal, cara betul supplemen, cadangan Nutrilite |
 | `masalah_data.py` | Sumber data 20 masalah |
@@ -56,13 +56,13 @@ Setiap hari ada **satu produk penyelesai masalah** (key selling: `AMWAY_BRAND/KE
 | 18 | 🔥 | Tidur sekejap (nap) 20–30 minit | eSpring Water Purifier (model baharu) |  | Siap salin |
 | 19 | 5 | Cabaran Air 7 hari | eSpring Water Purifier (model baharu) | ✓ | Siap salin |
 | 20 | 🔥 | Kafein & tidur | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) |  | Siap salin |
-| 21 | 6 | Rutin kulit 5 minit | ARTISTRY SKIN NUTRITION Balancing Jelly Cleanser (yang Momyizz guna sekarang) |  | Rancangan |
+| 21 | 🔥 | Usus: 'otak kedua' & tempat nutrien diserap | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) | ✓ | Siap salin |
 | 22 | 🔥 | Usus & otak saling berhubung | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) |  | Siap salin |
-| 23 | 6 | SPF setiap hari | ARTISTRY SKIN NUTRITION Multi-Defense UV Protect SPF50+/PA++++ | ✓ | Rancangan |
+| 23 | 🔥 | Probiotik vs prebiotik vs makanan fermentasi | NUTRILITE Botanical Beverage Mix Chicory Root Extract with Probiotics | ✓ | Siap salin |
 | 24 | 🔥 | Sarapan untuk otak: telur, oat & bijirin | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) |  | Siap salin |
-| 25 | 8 | Vitamin C setiap hari | NUTRILITE Bio C Plus All Day Formula |  | Rancangan |
-| 26 | 9 | Duduk terlalu lama | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) |  | Rancangan |
+| 25 | 🔥 | Pemakanan usus sihat: 30 jenis tumbuhan seminggu | NUTRILITE Mixed FOS with Grape Ferment (BAHARU) | ✓ | Siap salin |
+| 26 | 🔥 | Dinding usus & 'leaky gut': fakta vs viral | NUTRILITE Botanical Beverage Mix Chicory Root Extract with Probiotics | ✓ | Siap salin |
 | 27 | 🔥 | Makanan untuk otak: omega-3 & ikan tempatan | NUTRILITE Salmon Omega Complex | ✓ | Siap salin |
-| 28 | 9 | Kuatkan otot | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) | ✓ | Rancangan |
+| 28 | 🔥 | Protein tumbuhan & usus: soya, tempe, kekacang | NUTRILITE Soy Protein Drink (Original 450g) | ✓ | Siap salin |
 | 29 | 🔥 | Jantung, otak & tidur: rumusan siri | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) |  | Siap salin |
 | 30 | 10 | Refleksi 30 hari | BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) | ✓ | Rancangan |

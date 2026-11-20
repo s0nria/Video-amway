@@ -383,6 +383,99 @@ Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): 330.93mg omega-3 (EPA + DHA) se
 
 Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
 
+## Usus & probiotik (Botanical Beverage Mix with Probiotics)
+
+> ⚠️ Sakit perut berpanjangan, darah dalam najis, lemah imun atau sakit serius: jumpa doktor dahulu. Tiada dakwaan baiki leaky gut / rawat penyakit.
+
+**Sapa & minta izin**
+
+- Hai [nama] 😊 Terima kasih komen di post usus Momyizz. Boleh Momyizz tanya sikit pasal rutin pemakanan [nama]?
+
+**Keadaan sekarang**
+
+- Perut [nama] biasanya rasa macam mana lepas makan: selesa, kembung atau tak tentu?
+- Sehari makan sayur & buah berapa hidangan?
+
+**Impian**
+
+- Kalau rutin usus [nama] lebih baik, apa yang [nama] paling harap rasa dalam hari-hari [nama]?
+
+**Halangan**
+
+- Apa yang paling susah: masa nak sediakan makanan, tak suka sayur, atau keliru dengan produk viral?
+
+**Emosi**
+
+- Bila perut tak selesa, ada ganggu kerja atau mood [nama]?
+
+**Kesan (lembut)**
+
+- Dah berapa lama rasa macam ni? Kalau dah lama, elok jumpa doktor dulu ya.
+
+**Ringkaskan semula**
+
+- Jadi [nama] nak rutin usus yang mudah, sebab susah cukupkan serat bila sibuk. Betul?
+
+**Cadangan (amalan dulu, produk kemudian)**
+
+- Mula dengan Serat dari sayur, buah & kekacang setiap hari, air cukup, tidur cukup. Sebagai pelengkap, Momyizz ambil NUTRILITE Botanical Beverage Mix Chicory Root Extract with Probiotics.
+
+**Komitmen**
+
+- [nama] nak cuba rutin serat dulu seminggu, atau terus mula dengan pelengkap sekali?
+
+**Bila prospek kata 'nanti dulu'**
+
+- Takpe 😊 Cuba dulu cabaran 3 jenis tumbuhan baru minggu ni, nanti Momyizz tanya macam mana.
+
+Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): 6.3 bilion bakteria baik (CFU) sepaket · 5 strain probiotik · tahan asid perut & hempedu · ada serat prebiotik inulin · 1 paket sehari · halal IFANCA · tak perlu peti sejuk
+
+Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
+
+## Serat prebiotik (Mixed FOS with Grape Ferment)
+
+> ⚠️ Sakit perut teruk atau berpanjangan: jumpa doktor. Sudut berat badan: 'Keputusan berbeza mengikut individu'.
+
+**Sapa & minta izin**
+
+- Hai [nama] 😊 Nampak [nama] berminat dengan cabaran 30 tumbuhan. Boleh Momyizz tanya sikit?
+
+**Keadaan sekarang**
+
+- Seminggu, lebih kurang berapa jenis sayur, buah & kekacang [nama] makan?
+
+**Impian**
+
+- Apa yang [nama] harap bila pemakanan lebih tinggi serat?
+
+**Halangan**
+
+- Apa yang buat susah cukupkan serat: masa, harga, atau perut cepat kembung?
+
+**Emosi**
+
+- Bila rasa makan tak seimbang, apa yang paling [nama] risau?
+
+**Ringkaskan semula**
+
+- Jadi [nama] nak cara mudah tambah serat pada hari yang sibuk. Betul?
+
+**Cadangan**
+
+- Asasnya: Tambah serat perlahan-lahan: sayur, buah, kekacang, bijirin penuh; minum air cukup. Untuk hari yang susah, ada prebiotik NUTRILITE Mixed FOS with Grape Ferment (BAHARU).
+
+**Komitmen**
+
+- [nama] nak cuba untuk diri sendiri dulu, atau sekeluarga?
+
+**Bila prospek kata 'nanti dulu'**
+
+- Takpe 😊 Momyizz kongsi senarai 30 tumbuhan dulu, nanti kita sembang lagi.
+
+Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): prebiotik: 2 serat larut (FOS + maltodekstrin tahan cerna) + grape ferment · menyokong berat badan sihat & kesihatan usus · rasa sedap
+
+Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
+
 ## Tidur & rehat (tiada produk)
 
 > ⚠️ Berdengkur kuat, tercungap waktu tidur, atau sangat mengantuk walaupun tidur cukup: jumpa doktor (kajian tidur).

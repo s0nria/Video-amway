@@ -74,4 +74,24 @@ FB_PENDEK = {
   "8 perkara jantung & otak (AHA): makan, gerak, tanpa rokok, tidur, berat, tekanan darah, gula, kolesterol ❤️🧠",
   "Daripada siri Tidur, Otak & Usus, tabiat mana yang korang dah mula? 🙋‍♀️",
   "1 dalam 2 yang ada kolesterol tinggi tak tahu (NHMS 2023) ⚠️ Satu ujian darah boleh beri jawapan."),
+ "Usus: 'otak kedua' & tempat nutrien diserap": (
+  "Kebanyakan nutrien dari makanan diserap di usus kecil 🍽️ Jaga usus = jaga cara badan dapat nutrien. (NIDDK)",
+  "Perut korang selalu rasa macam mana lepas makan: selesa, kembung atau mengantuk? 🤔",
+  "Sakit perut berulang atau darah dalam najis? Jumpa doktor, jangan teka sendiri ⚠️"),
+ "Probiotik vs prebiotik vs makanan fermentasi": (
+  "Probiotik = bakteria baik hidup. Prebiotik = 'makanan' untuk bakteria baik 🦠🍌",
+  "Makanan fermentasi apa yang selalu ada di rumah korang? Tempe, yogurt, jeruk? 🥢",
+  "Baru habis antibiotik? Habiskan dos & tanya doktor dulu sebelum ambil probiotik ⚠️"),
+ "Pemakanan usus sihat: 30 jenis tumbuhan seminggu": (
+  "Makan 30 jenis tumbuhan seminggu dikaitkan dengan bakteria usus lebih pelbagai 🌿 (kajian 2018)",
+  "Nak tambah satu tumbuhan baru minggu ni: kekacang, ubi, ulam atau buah tempatan? 🥬",
+  "Tambah serat perlahan-lahan & minum air cukup supaya perut tak kembung ⚠️"),
+ "Dinding usus & 'leaky gut': fakta vs viral": (
+  "'Leaky gut syndrome' tengah viral, tapi belum diiktiraf sebagai diagnosis perubatan 🔬",
+  "Pernah hampir beli produk sebab video 'leaky gut' viral? Jujur je 🙈",
+  "Ubat tahan sakit jenis NSAID kerap diambil boleh ganggu lapisan perut & usus. Ikut dos ⚠️ (NHS)"),
+ "Protein tumbuhan & usus: soya, tempe, kekacang": (
+  "Tempe, tauhu & kekacang: protein dan serat sekali gus 🫘 Serat jadi 'makanan' bakteria baik.",
+  "Protein tumbuhan mana paling selalu ada dalam menu keluarga korang? 🍽️",
+  "Alahan soya? Baca label setiap produk. Bengkak bibir atau sesak nafas = kecemasan ⚠️"),
 }
