@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<title>Threads 10 saat Momyizz</title>
+<link rel="stylesheet" href="fonts_local.css">
+<style>
+:root{--krim:#F2EEE5;--kertas:#FBF9F4;--dakwat:#35362F;--sage:#7F9373;--sage-gelap:#556A4C;--sage-lembut:#E2E8D9;--linen:#EAE1D0;--kayu:#A3876A}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--krim)}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:'Nunito',sans-serif;color:var(--dakwat)}
+#bg{position:absolute;inset:0;background:radial-gradient(1100px 900px at 50% 42%,#FBF9F4 0%,#F2EEE5 55%,#E6DEC9 100%)}
+.dots{position:absolute;inset:0;background-image:radial-gradient(rgba(127,147,115,.13) 3px,transparent 3.5px);background-size:46px 46px;opacity:.6}
+canvas#gl{position:absolute;inset:0;width:1080px;height:1920px}
+#fg{position:absolute;inset:0;pointer-events:none}
+.el{position:absolute;opacity:0;will-change:transform,opacity}
+.hook{left:100px;top:270px;width:820px;padding:30px 40px;background:var(--kertas);border-radius:36px;box-shadow:0 12px 32px rgba(53,54,47,.14);font:700 74px/1.1 'Fredoka';text-align:center}
+.chip{left:140px;width:740px;height:88px;border-radius:44px;background:var(--kertas);border:5px solid var(--sage-gelap);font:800 44px/78px 'Nunito';text-align:center;white-space:nowrap;box-shadow:0 8px 20px rgba(53,54,47,.12)}
+.chip b{color:var(--sage-gelap)}
+.cta{left:100px;top:1150px;width:820px;padding:24px 30px;background:var(--kertas);border:6px solid var(--sage-gelap);border-radius:30px;text-align:center;font:700 56px/1.15 'Fredoka';box-shadow:0 12px 32px rgba(53,54,47,.14)}
+.cta small{display:block;font:800 40px/1.2 'Nunito';color:var(--dakwat)}
+.cta b{color:var(--sage-gelap)}
+.disc{left:90px;top:1392px;width:840px;text-align:center;font:800 30px 'Nunito';color:var(--sage-gelap)}
+#wm{position:absolute;right:150px;top:182px;height:48px;padding:0 22px;border-radius:24px;background:rgba(251,249,244,.82);color:var(--sage-gelap);font:800 28px/48px 'Nunito';box-shadow:0 4px 12px rgba(53,54,47,.10)}
+</style>
+<script src="threads10_data.js"></script>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+</head>
+<body>
+<div id="stage">
+  <div id="bg"><div class="dots"></div></div>
+  <canvas id="gl" width="1080" height="1920"></canvas>
+  <div id="fg">
+    <div id="wm">@empayarbiz_momyizz</div>
+    <div id="hook" class="el hook"></div>
+    <div id="c0" class="el chip" style="top:1150px"></div>
+    <div id="c1" class="el chip" style="top:1246px"></div>
+    <div id="c2" class="el chip" style="top:1342px"></div>
+    <div id="cta" class="el cta"><small>Nak dapatkan produk?</small><b>Klik LINK di Bio</b></div>
+    <div id="disc" class="el disc">Perkongsian ilmu umum. Bukan nasihat perubatan.</div>
+  </div>
+</div>
+<script type="module">
+import * as THREE from 'three';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const hari = new URLSearchParams(location.search).get('h') || Object.keys(window.T10)[0];
+const C = window.T10[hari];
+document.getElementById('hook').textContent = C.hook;
+C.chips.forEach((t, i) => { document.getElementById('c' + i).innerHTML = '✓ <b>' + t + '</b>'; });
+
+const W=1080,H=1920;
+const renderer=new THREE.WebGLRenderer({canvas:document.getElementById('gl'),antialias:true,alpha:true,preserveDrawingBuffer:true});
+renderer.setPixelRatio(1); renderer.setSize(W,H,false); renderer.setClearColor(0x000000,0);
+renderer.outputColorSpace=THREE.SRGBColorSpace; renderer.toneMapping=THREE.ACESFilmicToneMapping; renderer.toneMappingExposure=1.05;
+const scene=new THREE.Scene();
+scene.environment=new THREE.PMREMGenerator(renderer).fromScene(new RoomEnvironment(),0.04).texture;
+const cam=new THREE.PerspectiveCamera(30,W/H,0.1,100); cam.position.set(0,0.2,12);
+scene.add(new THREE.HemisphereLight(0xfffaf0,0xd8cdb8,0.9));
+const key=new THREE.DirectionalLight(0xffffff,1.5); key.position.set(3,5,6); scene.add(key);
+const PX=1/298.6, wy=py=>(960-py)*PX;
+
+// Podium
+const pod=new THREE.Group(); scene.add(pod);
+const podMat=new THREE.MeshStandardMaterial({color:0xE2E8D9,roughness:0.55});
+const top=new THREE.Mesh(new THREE.CylinderGeometry(0.95,1.0,0.26,64),podMat); pod.add(top);
+const base=new THREE.Mesh(new THREE.CylinderGeometry(1.08,1.14,0.18,64),new THREE.MeshStandardMaterial({color:0xC9D3BE,roughness:0.6})); base.position.y=-0.22; pod.add(base);
+const ring=new THREE.Mesh(new THREE.TorusGeometry(0.98,0.022,12,96),new THREE.MeshStandardMaterial({color:0xA3876A,metalness:0.6,roughness:0.25})); ring.rotation.x=Math.PI/2; ring.position.y=0.135; pod.add(ring);
+pod.position.y=wy(1060); pod.rotation.x=0.18;
+
+// Lingkaran halo belakang produk
+const halo=new THREE.Mesh(new THREE.RingGeometry(1.2,1.25,96),new THREE.MeshBasicMaterial({color:0x7F9373,transparent:true,opacity:0.35}));
+halo.position.set(0,wy(820),-1.2); scene.add(halo);
+
+// Zarah berkilau (deterministik)
+let s=11; const rnd=()=>{s=(s*16807)%2147483647;return s/2147483647};
+const spark=[]; const sMat=new THREE.MeshStandardMaterial({color:0xF3E9C6,emissive:0xF3E9C6,emissiveIntensity:0.6,roughness:0.2});
+for(let i=0;i<22;i++){const m=new THREE.Mesh(new THREE.SphereGeometry(0.03+rnd()*0.04,12,10),sMat);m.userData={x:(rnd()-0.5)*3.6,ph:rnd()*10,sp:0.25+rnd()*0.35,z:(rnd()-0.5)*1.5};scene.add(m);spark.push(m);}
+
+// Produk: gambar asli sebagai satah
+let prod=null;
+new THREE.TextureLoader().load('../'+C.img,t=>{t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;
+  const asp=t.image.width/t.image.height; const h=Math.min(1.45, 2.3/asp); const w=h*asp;
+  prod=new THREE.Mesh(new THREE.PlaneGeometry(w,h),new THREE.MeshBasicMaterial({map:t,transparent:true}));
+  prod.userData.h=h; scene.add(prod); window.renderAt(0); window.READY=true;});
+
+const ease=x=>1-Math.pow(1-Math.min(Math.max(x,0),1),3);
+const back=x=>{x=Math.min(Math.max(x,0),1);const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+function show(id,t,a,b){const e=document.getElementById(id);const k=ease((t-a)/0.35)*(1-ease((t-b)/0.3));
+  e.style.opacity=k; e.style.transform=`translateY(${(1-k)*30}px) scale(${0.92+0.08*k})`;}
+
+window.renderAt=function(t){
+  show('hook',t,0.1,10.5);
+  show('c0',t,3.0,7.0); show('c1',t,3.9,7.0); show('c2',t,4.8,7.0);
+  show('cta',t,7.2,10.5); show('disc',t,7.2,10.5);
+  if(prod){const k=back((t-0.4)/1.0); const h=prod.userData.h;
+    prod.position.set(0, wy(1060)+0.14+h/2 + (1-k)*3 + Math.sin(t*1.6)*0.05, 0.3);
+    prod.scale.setScalar(Math.max(k,0.001)); prod.rotation.y=Math.sin(t*0.9)*0.18;}
+  pod.rotation.y=t*0.25; halo.scale.setScalar(1+0.04*Math.sin(t*2)); halo.material.opacity=0.25+0.1*ease((t-1)/1);
+  spark.forEach(m=>{const u=m.userData;const y=((t*u.sp+u.ph)%3.2);m.position.set(u.x,wy(1070)+y,u.z);m.scale.setScalar(Math.sin(Math.PI*y/3.2));});
+  renderer.render(scene,cam);
+};
+</script>
+</body>
+</html>

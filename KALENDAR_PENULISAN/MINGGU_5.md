@@ -154,6 +154,12 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: AHA menyenaraikan 8 perkara utama untuk kesihatan jantung dan otak: makan sihat, bergerak, tiada nikotin, tidur cukup, berat badan, tekanan darah, gula darah dan kolesterol. ❤️🧠
 ```
 
+📘 *Versi FB latar warna* (109 / 130 aksara)
+
+```
+8 perkara jantung & otak (AHA): makan, gerak, tanpa rokok, tidur, berat, tekanan darah, gula, kolesterol ❤️🧠
+```
+
 **16:00 · Pertanyaan** (207 / 500 aksara)
 
 ```
@@ -167,6 +173,12 @@ Daripada siri Tidur, Otak & Usus ni, mana satu korang dah cuba? 🙋‍♀️
 🍌 Sarapan GI rendah
 
 Komen nombor emoji korang!
+```
+
+📘 *Versi FB latar warna* (73 / 130 aksara)
+
+```
+Daripada siri Tidur, Otak & Usus, tabiat mana yang korang dah mula? 🙋‍♀️
 ```
 
 **18:30 · Tips praktikal** (232 / 500 aksara)
@@ -188,11 +200,65 @@ Info penting: 1 dalam 2 dewasa Malaysia yang ada kolesterol tinggi tidak tahu me
 Kolesterol tinggi biasanya tiada simptom. Satu ujian darah boleh beri jawapan.
 ```
 
+📘 *Versi FB latar warna* (97 / 130 aksara)
+
+```
+1 dalam 2 yang ada kolesterol tinggi tak tahu (NHMS 2023) ⚠️ Satu ujian darah boleh beri jawapan.
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips buat saringan kesihatan tanpa tangguh
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+BUAT SARINGAN KESIHATAN TANPA TANGGUH
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Tetapkan bulan lahir sebagai 'bulan saringan' setiap tahun
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Bawa sekali ibu bapa atau pasangan
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Simpan keputusan dalam satu folder di telefon
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Tanya doktor apa nombor sasaran korang
+```
+
+**Slaid 6**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook

@@ -10,6 +10,16 @@ Gaya ikut `TEMPLATES/MOTION_GRAPHICS_KIT/` (palet, font, safe zone) dan peratura
 | `render.js` | Render HTML ke MP4 (1080×1920, 30 fps, H.264, audio senyap) |
 | `fonts/`, `fonts_local.css` | Fredoka, Nunito, Caveat (Google Fonts, lesen OFL) disimpan setempat |
 
+## Threads 10 saat (`threads10.html`)
+Templat video produk 10 saat untuk post Threads (video + 1 gambar): gambar produk asli atas podium 3D, hook ikut topik hari, 3 key selling, CTA "Klik LINK di Bio" + penafian, tanda nama `@empayarbiz_momyizz`.
+Data dijana oleh `KALENDAR_PENULISAN/bina.py` ke `threads10_data.js` dari `KALENDAR_PENULISAN/threads_data.py` (hook, key selling `CHIPS`, gambar `GAMBAR_PRODUK`).
+```bash
+BITRATE=5M MAXRATE=6M node VIDEO_3D/render.js "threads10.html?h=17" 10 VIDEO_3D/threads/hari17.mp4   # MP4 diabaikan .gitignore: hantar kepada pengguna; simpan poster JPG sahaja
+(cd VIDEO_3D && SNAP=5.8 node render.js "threads10.html?h=17")   # poster: snap_5.8.png -> threads/hari17.jpg
+python3 KALENDAR_PENULISAN/bina.py   # pautan muat turun muncul dalam worksheet
+```
+Satu video 10 s ambil lebih kurang 1–2 minit; fail sekitar 5 MB.
+
 ## Cara render
 ```bash
 cd VIDEO_3D && npm install && cd ..          # sekali sahaja (three.js)

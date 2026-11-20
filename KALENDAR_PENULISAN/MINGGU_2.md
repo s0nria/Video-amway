@@ -192,11 +192,61 @@ Info penting: kalau korang selalu berdengkur kuat, tercungap waktu tidur, atau s
 Ini boleh jadi tanda masalah tidur seperti apnea tidur yang perlukan pemeriksaan.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips mula tidur awal 15 minit
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+MULA TIDUR AWAL 15 MINIT
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Minggu ni, masuk tidur 15 minit lebih awal daripada biasa
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Minggu depan, tambah 15 minit lagi
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Set peringatan 'masa tidur' di telefon
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Makan malam ringan, 2–3 jam sebelum tidur. Malam kalut: shake GI rendah, 205 kalori
+```
+
+**Slaid 6**
+
+```
+Perlahan-lahan lebih mudah daripada terus paksa tidur 2 jam awal. 🌙
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -317,6 +367,12 @@ Info ringkas: papan pemotong kayu atau plastik? Dua-dua boleh. 🔪
 USDA kata permukaan tak berliang macam plastik lebih senang dibersihkan, tapi yang paling penting: basuh dengan air panas & sabun selepas setiap guna, dan buang papan yang dah calar dalam atau beralur.
 ```
 
+📘 *Versi FB latar warna* (111 / 130 aksara)
+
+```
+Papan pemotong kayu atau plastik? Dua-dua ok 🔪 Yang penting: basuh dengan air panas & sabun lepas setiap guna.
+```
+
 **16:00 · Pertanyaan** (237 / 500 aksara)
 
 ```
@@ -328,6 +384,12 @@ C. Tak tahu nak mula dari mana
 D. Tak ada orang tolong
 
 Momyizz: A, hampir setiap hari. 😅
+```
+
+📘 *Versi FB latar warna* (84 / 130 aksara)
+
+```
+Apa paling susah nak jaga dapur bersih bila balik kerja dah penat? 🧽 Komen jujur 👇
 ```
 
 **18:30 · Tips praktikal** (328 / 500 aksara)
@@ -350,6 +412,68 @@ Papan kering = kurang tempat bakteria bersembunyi. 🫧
 Info penting untuk keluarga yang ada alahan makanan: guna papan pemotong & pisau berasingan untuk kacang, makanan laut atau telur, supaya alergen tak berpindah ke makanan lain. ⚠️
 
 Bibir atau muka bengkak, sesak nafas atau pening selepas makan ialah kecemasan. Terus ke hospital. 🚑
+```
+
+📘 *Versi FB latar warna* (102 / 130 aksara)
+
+```
+Ada alahan makanan dalam keluarga? Guna papan & pisau berasingan untuk kacang, makanan laut & telur ⚠️
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips basuh papan pemotong
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+BASUH PAPAN PEMOTONG
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Basuh sejurus lepas guna dengan air panas & sabun
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Sabun pekat? Cairkan dulu, setitik pun dah tanggal minyak
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Gosok alur & calar dengan berus
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Keringkan BERDIRI, bukan tertiarap atas sinki
+```
+
+**Slaid 6**
+
+```
+TIPS 5
+Calar dalam & susah dibersihkan? Masa untuk tukar
+```
+
+**Slaid 7**
+
+```
+Papan kering = kurang tempat bakteria bersembunyi. 🫧
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
 ```
 
 ### 💬 WhatsApp / group tertutup: Soalan lazim Dish Drops
@@ -387,6 +511,7 @@ Ada soalan lain? Reply je, Momyizz jawab. Nak order, reply "NAK". 💛
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -541,6 +666,12 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: American Heart Association (2022) memasukkan tidur sebagai salah satu daripada 8 perkara utama untuk kesihatan jantung, sama penting dengan makan, bergerak dan tekanan darah. ❤️🌙
 ```
 
+📘 *Versi FB latar warna* (105 / 130 aksara)
+
+```
+Tidur kini antara 8 perkara utama kesihatan jantung (AHA 2022) ❤️🌙 Sama penting dengan makan & bergerak.
+```
+
 **16:00 · Pertanyaan** (225 / 500 aksara)
 
 ```
@@ -552,6 +683,12 @@ Ibu-ibu, bila anak tidur lewat malam sekolah, apa yang paling korang risau? 🌙
 🥱 Kita pun ikut tidur lewat
 
 Momyizz: yang last tu. Selalu! 😅
+```
+
+📘 *Versi FB latar warna* (78 / 130 aksara)
+
+```
+Ibu-ibu, bila anak tidur lewat malam sekolah, apa yang paling korang risau? 🌙
 ```
 
 **18:30 · Tips praktikal** (343 / 500 aksara)
@@ -574,11 +711,72 @@ Info penting: mengantuk ketika memandu sangat berbahaya. ⚠️
 Kalau mata berat semasa memandu, berhenti di tempat selamat dan rehat. Tingkap terbuka atau radio kuat bukan penyelesaian.
 ```
 
+📘 *Versi FB latar warna* (108 / 130 aksara)
+
+```
+Mata berat masa memandu? Berhenti di tempat selamat & rehat ⚠️ Tingkap terbuka atau radio kuat tak membantu.
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips rutin tidur anak (dan ibu sekali)
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+RUTIN TIDUR ANAK (DAN IBU SEKALI)
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Waktu tidur sama setiap malam, termasuk hujung minggu (lebih kurang)
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Lampu dimalapkan 30 minit sebelum tidur
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Tiada skrin di atas katil
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Bacaan atau sembang ringan sebagai 'tanda' masa tidur
+```
+
+**Slaid 6**
+
+```
+TIPS 5
+Pagi lepas tidur tak cukup: sarapan berprotein, bukan kuih manis (Momyizz: shake 17g protein, 6g gula)
+```
+
+**Slaid 7**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -699,6 +897,12 @@ Info ringkas: USDA tak galakkan kita basuh ayam mentah di sinki. 🍗
 Percikan air boleh membawa bakteria ke sinki, pinggan dan permukaan sekeliling. Yang membunuh bakteria ialah memasak sehingga masak sempurna.
 ```
 
+📘 *Versi FB latar warna* (114 / 130 aksara)
+
+```
+Jangan basuh ayam mentah di sinki 🍗 Percikan air bawa bakteria ke sekeliling. Masak sampai masak sempurna. (USDA)
+```
+
 **16:00 · Pertanyaan** (260 / 500 aksara)
 
 ```
@@ -710,6 +914,12 @@ C. Dah berhenti
 D. Beli ayam siap bersih
 
 Momyizz dulu A. Sekarang C, dan lepas pegang ayam mentah terus basuh tangan & sinki dengan sabun pekat. Sikit je, dah berbuih. 🫧
+```
+
+📘 *Versi FB latar warna* (87 / 130 aksara)
+
+```
+Jujur: korang masih basuh ayam mentah dalam sinki? 🙈 Ya / Kadang-kadang / Dah berhenti
 ```
 
 **18:30 · Tips praktikal** (246 / 500 aksara)
@@ -733,11 +943,67 @@ Info penting: tanda keracunan makanan yang perlukan rawatan segera. ⚠️
 Cirit-birit berdarah, demam tinggi, muntah sampai tak boleh minum, cirit-birit lebih 3 hari, atau tanda dehidrasi (mulut kering, jarang kencing, pening bila berdiri). Jangan tunggu, pergi klinik. (CDC)
 ```
 
+📘 *Versi FB latar warna* (95 / 130 aksara)
+
+```
+Cirit-birit berdarah, demam tinggi atau muntah sampai tak boleh minum? Terus ke klinik ⚠️ (CDC)
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips simpan lauk lebihan
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+SIMPAN LAUK LEBIHAN
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Sejukkan cepat: bahagikan ke bekas kecil yang cetek
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Guna bekas bertutup, tulis tarikh
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Panaskan sampai benar-benar panas sebelum makan
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Habiskan lauk lebihan dalam 3–4 hari (USDA)
+```
+
+**Slaid 6**
+
+```
+Peti kemas = kurang membazir. 🍱
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -860,6 +1126,12 @@ Info ringkas: label "microwave safe" bermaksud bekas itu direka untuk digunakan 
 Tapi tetap ikut arahan pada label: tempoh, suhu, dan sama ada penutupnya boleh dimasukkan. Bekas tanpa label? Pindah dulu ke pinggan kaca.
 ```
 
+📘 *Versi FB latar warna* (100 / 130 aksara)
+
+```
+'Microwave safe' bermaksud bekas direka untuk microwave 🍱 Tiada label? Pindah dulu ke pinggan kaca.
+```
+
 **16:00 · Pertanyaan** (206 / 500 aksara)
 
 ```
@@ -871,6 +1143,12 @@ Soalan: apa yang buat korang masih guna bekas plastik untuk panaskan bekal? 🍱
 🤷 Tak tahu pun ada beza
 
 Tak ada jawapan salah. Momyizz pun dulu 'dah biasa'. 😄
+```
+
+📘 *Versi FB latar warna* (74 / 130 aksara)
+
+```
+Apa yang buat korang masih panaskan bekal dalam bekas plastik? 🍱 Komen 👇
 ```
 
 **18:30 · Tips praktikal** (350 / 500 aksara)
@@ -893,11 +1171,60 @@ Info penting: bekas plastik yang retak, melengkung, berubah warna atau berbau pa
 Jangan panaskan makanan dalam bekas tanpa label "microwave safe", dan elak memanaskan bekas plastik sekali guna dalam microwave.
 ```
 
+📘 *Versi FB latar warna* (79 / 130 aksara)
+
+```
+Bekas plastik retak, melengkung, berubah warna atau berbau? Masa untuk tukar ⚠️
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips makan tengah hari tanpa beratur microwave
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+MAKAN TENGAH HARI TANPA BERATUR MICROWAVE
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Pindah lauk ke pinggan kaca dari rumah, terus sedia untuk dipanaskan
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Bawa menu yang tak perlu dipanaskan: sandwich telur, salad, buah (makan dalam 2 jam)
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Hari microwave penuh: paket shake dalam beg + 250ml air, siap 1 minit (17g protein, hanya 6g gula)
+```
+
+**Slaid 5**
+
+```
+Masa rehat untuk rehat, bukan beratur. 😄
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -1049,6 +1376,12 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 Info ringkas: cahaya terang pada waktu malam, termasuk dari skrin, boleh menekan hormon melatonin yang membantu kita rasa mengantuk. (Harvard Health Publishing) 📱🌙
 ```
 
+📘 *Versi FB latar warna* (101 / 130 aksara)
+
+```
+Cahaya skrin waktu malam boleh tekan melatonin, hormon yang buat kita mengantuk 📱🌙 (Harvard Health)
+```
+
 **16:00 · Pertanyaan** (223 / 500 aksara)
 
 ```
@@ -1060,6 +1393,12 @@ Jujur: apa yang paling susah bila nak letak telefon di luar bilik waktu tidur? �
 🙈 Dah jadi tabiat
 
 Momyizz: nombor 3. Korang?
+```
+
+📘 *Versi FB latar warna* (69 / 130 aksara)
+
+```
+Apa paling susah bila nak letak telefon di luar bilik waktu tidur? 📱
 ```
 
 **18:30 · Tips praktikal** (296 / 500 aksara)
@@ -1081,11 +1420,65 @@ Info penting untuk ibu bapa: kanak-kanak 6–12 tahun perlukan 9–12 jam tidur 
 Skrin di bilik tidur boleh melambatkan waktu tidur anak. Pertimbangkan 'stesen cas keluarga' di ruang tamu.
 ```
 
+📘 *Versi FB latar warna* (98 / 130 aksara)
+
+```
+Anak 6–12 tahun perlukan 9–12 jam tidur sehari (AASM) ⚠️ Cuba 'stesen cas keluarga' di ruang tamu.
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips kalau telefon perlu ada di bilik (contoh: anak kecil, kerja)
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+KALAU TELEFON PERLU ADA DI BILIK (CONTOH: ANAK KECIL, KERJA)
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Aktifkan mod 'Jangan ganggu'
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Letak telefon jauh dari katil, skrin ke bawah
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Guna jam loceng biasa supaya tak perlu buka telefon pagi-pagi
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Siang depan skrin: SPF50+ dengan perlindungan cahaya biru, sapu sebelum mula kerja
+```
+
+**Slaid 6**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -1203,6 +1596,12 @@ Info ringkas: nasi perang ada lebih banyak serat berbanding nasi putih. 🍚
 Tak biasa? Mula dengan campur separuh nasi putih, separuh nasi perang. Lama-lama tekak dah biasa. (USDA FoodData Central)
 ```
 
+📘 *Versi FB latar warna* (100 / 130 aksara)
+
+```
+Nasi perang lebih tinggi serat daripada nasi putih 🍚 Tak biasa? Mula dengan campur separuh-separuh.
+```
+
 **16:00 · Pertanyaan** (211 / 500 aksara)
 
 ```
@@ -1214,6 +1613,12 @@ Soalan: kalau ada bekal sihat yang boleh siap dalam 1 minit, korang paling nak g
 🚗 Dalam perjalanan
 
 Komen pilihan korang! 👇
+```
+
+📘 *Versi FB latar warna* (72 / 130 aksara)
+
+```
+Kalau ada bekal sihat siap dalam 1 minit, korang nak guna waktu bila? 🍱
 ```
 
 **18:30 · Tips praktikal** (274 / 500 aksara)
@@ -1235,6 +1640,61 @@ Bekal tersusun = kurang beli makanan segera. 💛
 Info penting: bekal berkuah jangan dibiar lebih 2 jam di suhu bilik, atau 1 jam jika cuaca sangat panas (melebihi 32°C). ⚠️
 
 Simpan dalam peti pejabat atau beg bertebat dengan ice pack. Ragu-ragu? Buang. (USDA)
+```
+
+📘 *Versi FB latar warna* (81 / 130 aksara)
+
+```
+Bekal berkuah jangan dibiar lebih 2 jam di suhu bilik ⚠️ Ragu-ragu? Buang. (USDA)
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips bekal tanpa pening
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+BEKAL TANPA PENING
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Masak asas 2 kali seminggu: Ahad & Rabu
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Biar lauk sejuk sedikit dalam bekas cetek, kemudian terus masuk peti
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Label hari pada setiap bekas
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Lauk masak dalam peti, habiskan dalam 3–4 hari (USDA)
+```
+
+**Slaid 6**
+
+```
+Bekal tersusun = kurang beli makanan segera. 💛
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
 ```
 
 ### 💬 WhatsApp / group tertutup: BodyKey shake pisang untuk bekal kalut
@@ -1266,6 +1726,7 @@ Nak simpan sekotak untuk hari kalut? Reply "PISANG". 💛
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook

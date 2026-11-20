@@ -195,11 +195,61 @@ Info penting: botol air plastik sekali guna direka untuk SEKALI guna. ⚠️
 Jangan isi air panas ke dalamnya, dan jangan guna berulang kali sampai calar. Kajian tentang kesan haba pada pelepasan zarah masih awal, tapi langkah ni mudah dan tak rugi apa-apa. 🌿
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips pilih botol air guna semula
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+PILIH BOTOL AIR GUNA SEMULA
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Keluli tahan karat gred makanan atau kaca (dengan sarung silikon supaya tak mudah pecah)
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Mulut botol lebar, senang dicuci
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Basuh setiap hari dengan berus botol, keringkan terbuka
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Isi dari air di rumah. Momyizz guna penapis yang diperakui 4 standard NSF/ANSI
+```
+
+**Slaid 6**
+
+```
+Botol yang mudah dicuci = botol yang betul-betul dipakai hari-hari. 😉
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -384,6 +434,53 @@ Info penting musim tengkujuh: selepas banjir atau bila air paip keruh, didihkan 
 Ini panduan asas kesihatan awam semasa banjir. Kongsi dengan keluarga di kawasan yang terjejas. 🙏
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips jaga bekas plastik yang masih elok
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+JAGA BEKAS PLASTIK YANG MASIH ELOK
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Basuh dengan span lembut, elak sabut kasar yang mencalarkan
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Ikut label pengeluar untuk air panas, microwave dan mesin basuh pinggan
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Simpan untuk barang kering bila dah tak sesuai untuk makanan panas
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Retak, melengkung atau berbau? Masa untuk tukar
+```
+
+**Slaid 6**
+
+```
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 ### 💬 WhatsApp / group tertutup: eSpring Water Purifier (model baharu)
 
 > Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 122940, semak 18 Nov 2026). Tulis MENGURANGKAN mikroplastik, jangan singkir / bebas. Gambar: AMWAY_BRAND/PRODUK/espring-baharu.png. Semak harga & promosi hari ini.
@@ -411,6 +508,7 @@ Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -590,11 +688,61 @@ Info penting: sebelum forward berita kesihatan, semak dulu di portal semakan fak
 Satu forward yang salah boleh buat orang tersayang panik atau ambil keputusan kesihatan yang silap.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips semak berita kesihatan dalam 30 saat
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+SEMAK BERITA KESIHATAN DALAM 30 SAAT
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Cari nama kajian atau badan yang disebut. Tiada nama? Tanda merah.
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Taip tajuk berita + "sebenarnya.my" di Google.
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Tengok tarikh. Berita lama selalu diulang viral.
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Produk pun sama: cari pensijilan bebas (contoh NSF untuk penapis air), bukan testimoni je.
+```
+
+**Slaid 6**
+
+```
+Save untuk group keluarga! 📲
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 **Checklist hari ini**
 
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -783,6 +931,55 @@ Info penting: WHO anggarkan hampir 1 dalam 3 wanita berumur 15–49 tahun di dun
 Selalu letih, pucat, pening atau sesak nafas bila naik tangga? Buat ujian darah di klinik kesihatan. Jangan anggap penat ibu tu biasa. 🩸
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips pastikan ibu tak tertinggal sarapan
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+PASTIKAN IBU TAK TERTINGGAL SARAPAN
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Malam: letak bekas ibu SEBELAH bekas anak, terus nampak pagi esok
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Simpan "kotak snek sihat" di pejabat: kacang, roti gandum, buah
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Set peringatan telefon 10 pagi: "Dah makan?"
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Hari kalut: paket shake dalam beg, campur 250ml air, siap 1 minit (17g protein, 20 vitamin & mineral)
+```
+
+**Slaid 6**
+
+```
+Kecil, tapi berkesan untuk Momyizz. 💛
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 ### 💬 WhatsApp / group tertutup: BodyKey Nutritious Meal Shake PERISA PISANG (baharu)
 
 > Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 128188M, semak 18 Nov 2026). Jangan tulis 'tanpa gula' atau 'bebas laktosa'. Sebut sudut berat badan hanya dengan 'Keputusan berbeza mengikut individu'. Gambar: bodykey-banana-gaya-studio.jpg. Semak harga & promosi rasmi hari ini.
@@ -817,6 +1014,7 @@ Nak cuba? Reply "PISANG", Momyizz uruskan. 💛
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -1003,6 +1201,55 @@ Info penting: sebelum beli apa-apa supplemen atau minuman kesihatan, semak nombo
 Produk berdaftar dengan KKM boleh disemak melalui laman NPRA. Elak produk yang janji kurus cepat atau tiada maklumat pendaftaran.
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips telur rebus untuk seminggu
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+TELUR REBUS UNTUK SEMINGGU
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Rebus sekali gus 6–8 biji, sejukkan cepat dalam air sejuk
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Simpan dalam peti BERSAMA kulit, dalam bekas bertutup
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Elok dimakan dalam tempoh seminggu (USDA)
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Tulis tarikh rebus pada bekas
+```
+
+**Slaid 6**
+
+```
+Sarapan, bekal dan snek petang siap! 🥚
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 ### 💬 WhatsApp / group tertutup: Nutrilite Soy Protein Drink
 
 > Ruang tertutup sahaja (pelanggan sedia ada / group tertutup / orang yang bertanya). Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my, semak 18 Nov 2026). Gambar: AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png (Original Flavour 450g). Semak harga hari ini. Jangan tambah dakwaan kesihatan (imun, letih, kolesterol).
@@ -1034,6 +1281,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -1222,6 +1470,55 @@ Info penting: ada sejarah diabetes dalam keluarga? ⚠️
 NHMS 2023: 15.6% dewasa Malaysia ada diabetes, dan ramai tak tahu. Saringan gula darah boleh dibuat di klinik kesihatan. Jangan tunggu ada simptom. 🩸
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips kurangkan manis tanpa rasa terseksa
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+KURANGKAN MANIS TANPA RASA TERSEKSA
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Minggu 1: minta "kurang manis"
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Minggu 2: "separuh gula"
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Minggu 3: cuba teh / kopi O kosong sekali sehari
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Minggu 4: tukar satu minuman manis pagi kepada shake GI rendah (6g gula, 17g protein)
+```
+
+**Slaid 6**
+
+```
+Yang Momyizz perasan: lama-lama tekak dah biasa, dan air manis sangat terasa terlalu manis. 😄
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 ### 💬 WhatsApp / group tertutup: Minta testimoni (pelanggan sedia ada)
 
 > Untuk dapatkan testimoni SEBENAR. Guna hanya dengan kebenaran, tanpa dakwaan perubatan.
@@ -1239,6 +1536,7 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
@@ -1429,6 +1727,69 @@ Info penting musim banjir: leptospirosis merebak melalui air atau tanah yang ter
 Elak meredah air banjir tanpa kasut, tutup makanan di dapur, dan dapatkan rawatan jika demam selepas terdedah kepada air banjir. 🙏
 ```
 
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips span tahan lebih bersih
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+SPAN TAHAN LEBIH BERSIH
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Perah kuat lepas guna
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Letak di rak berlubang / tempat berangin, bukan dalam sinki basah
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Asingkan span pinggan dan kain lap meja
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Tulis tarikh, tukar secara berkala
+```
+
+**Slaid 6**
+
+```
+TIPS 5
+Sabun pekat? Cairkan dulu, picit sikit je
+```
+
+**Slaid 7**
+
+```
+TIPS 6
+Pilih sabun yang dah diuji pakar dermatologi, tangan kita basuh pinggan hari-hari
+```
+
+**Slaid 8**
+
+```
+Span kering = kurang tempat untuk bakteria membiak. 🧽
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
 ### 💬 WhatsApp / group tertutup: Amway Home Dish Drops
 
 > Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my, semak 18 Nov 2026). JANGAN tulis 'sesuai untuk kulit sensitif' (tiada sumber rasmi). Semak harga hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.
@@ -1458,6 +1819,7 @@ Kalau berminat, reply "NAK", Momyizz uruskan. 💛
 - [ ] 🎥 Video storytelling: TikTok · Reels
 - [ ] 🎞️ Motion grafik Tips: TikTok · Reels
 - [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
 - [ ] 🖼️ Carousel: Instagram · Facebook
 - [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
