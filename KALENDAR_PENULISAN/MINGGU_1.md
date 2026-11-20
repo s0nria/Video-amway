@@ -13,7 +13,7 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak hook).
 
@@ -37,7 +37,7 @@ Mikroplastik: fakta, bukan panik 🌿 Siri baharu Momyizz bermula hari ni. Follo
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 13-blazer-tunjuk-atas-kanan.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -60,7 +60,7 @@ Mikroplastik: fakta, bukan panik 🌿 Siri baharu Momyizz bermula hari ni. Follo
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -265,7 +265,7 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 18-blazer-semangat (babak akhir).
 
@@ -289,7 +289,7 @@ Follow Momyizz untuk tips setiap hari
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 18-blazer-semangat.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -311,7 +311,7 @@ Tumbler yang dibawa > tumbler yang cantik 😄 Tips korang?
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -525,7 +525,7 @@ Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 04-satin-tutup-mulut atau 14-blazer-tutup-mulut.
 
@@ -549,7 +549,7 @@ Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 14-blazer-tutup-mulut.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -572,7 +572,7 @@ Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 17-blazer-panggil.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -758,7 +758,7 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 10-satin-terkejut-pipi (babak hook). Boleh juga guna video Episod 2 (tab Episod).
 
@@ -782,7 +782,7 @@ Ibu-ibu, korang pun selalu jadi orang terakhir makan? 🙋‍♀️
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -807,7 +807,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 05-satin-semangat.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1031,7 +1031,7 @@ Nak cuba? Reply "PISANG", Momyizz uruskan. 💛
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 19-blazer-thumbs-up (babak akhir). Babak bekal: tin Soy Protein Drink kelihatan sebagai pelan B; jangan sebut nama dalam sari kata / suara.
 
@@ -1055,7 +1055,7 @@ Self-care tak semestinya spa. Kadang dia cuma sarapan sambil duduk 💛
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 08-satin-thumbs-up.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1078,7 +1078,7 @@ Oat rendam semalaman, 3 bahan je. Buah apa korang suka letak? 👇
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 12-blazer-tunjuk-kiri.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1298,7 +1298,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 09-kartun-terkejut-pipi (babak pendedahan).
 
@@ -1322,7 +1322,7 @@ Minuman manis mana paling susah korang nak kurangkan? 👇
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1346,7 +1346,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 03-satin-tunjuk-atas.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1553,7 +1553,7 @@ Kalau [nama] izinkan, Momyizz nak kongsi dalam group tertutup Momyizz (nama bole
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak span). Boleh juga guna video Episod 3 (tab Episod). Babak sabun: botol Dish Drops BOLEH kelihatan (rakaman sendiri), tetapi JANGAN sebut nama Dish Drops / Amway dalam sari kata, teks atas skrin, voiceover atau caption. Kalau ada yang tanya 'sabun apa?' di komen, balas 'Momyizz DM ya 😊' dan kongsi dalam DM / WhatsApp (slot wa).
 
@@ -1583,7 +1583,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 15-blazer-tunjuk-atas-kiri.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1605,7 +1605,7 @@ Jadual bersih dapur ringkas. Save & tampal dekat peti 📌
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 20-blazer-terkejut-pipi.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|

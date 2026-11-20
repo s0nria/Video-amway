@@ -54,6 +54,11 @@ Gerakan lalai: masuk pop 90%→100% + fade 0.3 s, keluar fade 0.2 s, ease-out.
 - **Video ruang tertutup sahaja:** boleh tambah nama produk, Fredoka 700, 56 px, Dakwat.
 - Tiada harga, tiada dakwaan perubatan, tiada janji hasil.
 
+## `COVER` — cover hook 1 saat (WAJIB setiap video, 0–1 s)
+- Latar ikut tema video. Kicker Caveat 64 px di atas kotak tajuk. Kotak Kertas lebar 860 px, jejari 40 px: tajuk hook Fredoka 700, 96–118 px, satu perkataan kunci warna Kayu `#A3876A`.
+- Satu visual utama di tengah (objek 3D atau produk asli). Tag bawah: pil Sage gelap `#556A4C`, tinggi 96 px, Fredoka 48 px.
+- Label pilar + `TANDA_NAMA` kekal. Statik (tanpa animasi) supaya sesuai jadi thumbnail. Contoh: `VIDEO_3D/covers/`.
+
 ## `TANDA_NAMA` — @empayarbiz_momyizz (WAJIB setiap video)
 - Pil Kertas `#FBF9F4` 82% legap, tinggi 48 px, jejari penuh, bayang lembut. Teks **@empayarbiz_momyizz**, Nunito 800, 28 px, Sage gelap `#556A4C`.
 - Kedudukan: penjuru kanan atas dalam safe zone (sisi kanan x 930, atas y 182). Kelihatan dari saat pertama hingga akhir, tanpa animasi.

@@ -13,7 +13,7 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Terangkan dengan bahasa mudah (analogi dapur & paip), tanpa istilah saintifik yang berat. Sticker: 09-kartun-terkejut-pipi.
 
@@ -43,7 +43,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 20-blazer-terkejut-pipi.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -66,7 +66,7 @@ Berapa tanda korang ada? 👇 Dewasa perlu 7 jam+ (AASM).
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -263,7 +263,7 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 19-blazer-thumbs-up (babak akhir). Babak basuh: botol Dish Drops kelihatan; jangan sebut nama dalam sari kata / suara.
 
@@ -529,7 +529,7 @@ Ada soalan lain? Reply je, Momyizz jawab. Nak order, reply "NAK". 💛
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Sticker: 04-satin-tutup-mulut.
 
@@ -553,7 +553,7 @@ Siapa selalu 'revenge bedtime'? 🙋‍♀️ Jom cari cara lebih seimbang.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 08-satin-thumbs-up.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -575,7 +575,7 @@ Rutin 30 minit sebelum tidur ala Momyizz 🌙 Save!
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 17-blazer-panggil.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -793,7 +793,7 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 14-blazer-tutup-mulut (babak kesilapan pertama). Babak sinki: botol Dish Drops kelihatan; jangan sebut nama dalam sari kata / suara.
 
@@ -1020,7 +1020,7 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 09-kartun-terkejut-pipi (babak kajian). Babak shake: kotak / paket BodyKey perisa pisang kelihatan; jangan sebut nama dalam sari kata / suara.
 
@@ -1241,7 +1241,7 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Sticker: 18-blazer-semangat.
 
@@ -1266,7 +1266,7 @@ Sumber: Harvard Health Publishing.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1288,7 +1288,7 @@ Sumber: Harvard Health Publishing.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 05-satin-semangat.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1495,7 +1495,7 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 05-satin-semangat (babak akhir). Babak beg kerja: paket BodyKey perisa pisang kelihatan; jangan sebut nama dalam sari kata / suara. Lauk masak hanya disimpan 3–4 hari (USDA), sebab itu bekal disediakan 2 kali seminggu.
 

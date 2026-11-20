@@ -32,9 +32,27 @@ Perlu: Node, Playwright + Chromium, ffmpeg, python3. Render 57 s ambil lebih kur
 - Produk guna **gambar asli** dari `AMWAY_BRAND/PRODUK/` (boleh berpusing / bergerak, jangan dilukis semula). Alat seperti botol picit boleh dibina 3D.
 - Nama produk / jenama **tidak** ditulis dalam teks atas skrin. Key selling dari `AMWAY_BRAND/KEY_SELLING.md` sahaja.
 - Fakta ada sumber + label bukti. Penafian "Perkongsian ilmu umum. Bukan nasihat perubatan." sekurang-kurangnya 3 s. CTA "Nak dapatkan produk? Klik LINK di Bio".
+- **Cover hook 1 saat WAJIB** di depan setiap video: bina dalam `covers/cover-hariNN.html`, jana PNG dengan `node VIDEO_3D/covers/shot.js cover-hariNN.html`, kemudian sambung ke depan MP4 (lihat bahagian "Cover hook" di bawah).
 - **Tanda nama `@empayarbiz_momyizz` WAJIB** sepanjang video (elemen `#wm`, penjuru kanan atas). Jangan buang bila salin templat.
 - Semua teks, sticker, CTA dalam safe zone (x 60–940, y 160–1440).
 - Tiada muzik dalam fail: tambah lagu dalam TikTok / Reels atau voiceover dalam CapCut.
 
 ## Templat untuk hari lain
 Salin `hari07-span.html`. Masa setiap elemen ditetapkan dalam `window.renderAt(t)` (t dalam saat): `show(id, t, mula, tamat)` untuk teks DOM, dan kedudukan objek 3D dikira terus dari `t`, jadi render sentiasa sama setiap kali.
+
+## Cover hook 1 saat (wajib)
+1. Salin `covers/cover-hari08.html` → `covers/cover-hariNN.html`, tukar kicker, tajuk, visual dan tag.
+   Visual 3D yang bersih boleh diambil dari templat video (sembunyikan `#fg`, contoh `window.NOZ` dalam `hari08-tidur.html`).
+2. `node VIDEO_3D/covers/shot.js cover-hariNN.html` → `covers/cover-hariNN.png`
+3. Sambung ke depan video (tiada render 3D semula):
+```bash
+ffmpeg -loop 1 -t 1 -framerate 30 -i VIDEO_3D/covers/cover-hariNN.png -i video.mp4 \
+  -filter_complex "[0:v]fps=30,setsar=1,format=yuv420p[c];[1:v]fps=30,setsar=1,format=yuv420p[m];[c][m]concat=n=2:v=1:a=0[v]" \
+  -map "[v]" -c:v libx264 -b:v 13M -pix_fmt yuv420p -movflags +faststart video-dengan-cover.mp4
+```
+4. Lagu (jika ada) mesti sepanjang video baharu (+1 s). Pilih bingkai pertama sebagai thumbnail semasa upload.
+
+| Cover | Video |
+|---|---|
+| `covers/cover-hari07.html` | Hari 7, span dapur: "Bila kali terakhir korang tukar span?" |
+| `covers/cover-hari08.html` | Hari 8, tidur & otak: "Otak ada 'syif cuci' masa kita tidur" |

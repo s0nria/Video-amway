@@ -13,7 +13,7 @@ Sumber: `kalendar_data.py` (jangan edit fail ini terus; jalankan `python3 KALEND
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Sticker: 19-blazer-thumbs-up.
 
@@ -40,7 +40,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -64,7 +64,7 @@ Sumber: CDC.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -283,7 +283,7 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 04-satin-tutup-mulut (babak hook). Babak label: kotak BodyKey perisa pisang kelihatan; jangan sebut nama. Sudut berat badan: ayat 'Keputusan berbeza mengikut individu' WAJIB.
 
@@ -509,7 +509,7 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 13-blazer-tunjuk-atas-kanan (babak angka EFSA). Babak isi air: eSpring kelihatan; jangan sebut nama dalam sari kata / suara.
 
@@ -728,7 +728,7 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Sticker: 08-satin-thumbs-up.
 
@@ -753,7 +753,7 @@ Sumber: NASA (Rosekind et al.).
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -775,7 +775,7 @@ Formula nap 20 minit. Save untuk pejabat ⏰
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 20-blazer-terkejut-pipi.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -980,7 +980,7 @@ Follow Momyizz untuk tips setiap hari
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Sticker: 17-blazer-panggil (babak hook) atau 02-blazer-tunjuk-bawah (babak komen). Babak isi air: eSpring kelihatan; jangan sebut nama dalam sari kata / suara.
 
@@ -1217,7 +1217,7 @@ Air sentiasa sedia di rumah = lebih senang cukupkan minum setiap hari. Nak tahu 
 
 > Salin skrip ini ke CapCut / Flow untuk edit video.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 > Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri trending: JANGAN sebut podcast / video viral dalam konten awam (DISAHKAN pengguna); podcast hanya sumber idea. Fakta dari sumber rasmi, istilah saintifik diterangkan dengan bahasa mudah. Sticker: 14-blazer-tutup-mulut.
 
@@ -1242,7 +1242,7 @@ Sumber: Drake et al. (2013), J Clin Sleep Med.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
@@ -1264,7 +1264,7 @@ Sumber: Drake et al. (2013), J Clin Sleep Med.
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 14-blazer-tutup-mulut.
 
-> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone). 🖼️ Mulakan dengan COVER hook statik 1 saat (thumbnail).
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|

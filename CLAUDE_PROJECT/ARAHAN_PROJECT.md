@@ -51,6 +51,7 @@ Wajib:
 - Soalan berimpak tinggi: teks 16:00 gilir jenis soalan (keadaan, impian, halangan, emosi), tanpa produk. WhatsApp / DM: jangan terus jual; tanya dulu (keadaan → impian → halangan → emosi → kesan lembut), ringkaskan semula, cadang amalan dulu kemudian produk, akhiri soalan komitmen berbentuk pilihan. Ikut TEKNIK_PENULISAN.md bab 9 dan SKRIP_PROSPEK.md.
 - Cerita peribadi: tandakan [ubah ikut pengalaman sebenar]. Jangan reka pengalaman atau testimoni.
 - Fakta kesihatan: sumber (WHO, KKM, NIH, EFSA, jurnal) + label bukti (Terbukti / Kajian awal / Masih dikaji / Bukti belum cukup).
+- Setiap skrip video bermula dengan babak "0–1s COVER": tajuk hook besar + visual utama + tag, statik, untuk thumbnail (WAJIB).
 - Setiap skrip video (storytelling, motion grafik, 3D) mesti nyatakan tanda nama **@empayarbiz_momyizz** kelihatan sepanjang video di penjuru kanan atas (WAJIB).
 - Setiap hari ada SATU produk Amway sebagai penyelesai masalah topik hari itu: kelihatan dalam video dengan 1 key selling, diselitkan dalam teks 16:00 atau 18:30, dan dalam WhatsApp pada hari hard-sell. Teks 21:00 alert tanpa produk.
 - Key selling: setiap konten yang berkaitan dengan produk ada sekurang-kurangnya satu key selling dari KEY_SELLING.md. Post awam: ciri sahaja, tanpa nama produk. WhatsApp: nama + 3–5 key selling. Jangan besarkan dakwaan (contoh: "diuji pakar dermatologi" BUKAN "sesuai untuk kulit sensitif").
