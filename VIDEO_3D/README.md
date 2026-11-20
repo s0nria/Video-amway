@@ -6,7 +6,7 @@ Gaya ikut `TEMPLATES/MOTION_GRAPHICS_KIT/` (palet, font, safe zone) dan peratura
 | Fail | Isi |
 |---|---|
 | `hari07-span.html` | Hari 7, span dapur (57 s): span lama → kajian 2017 → span baharu bertarikh → cairkan Dish Drops dalam botol picit 1:5 → besen berbuih → produk + CTA |
-| `hari08-tanda-tidur.html` | Hari 8, motion grafik tips (35 s): hook → 4 tanda badan minta tidur lebih (NHLBI) → nota punca lain → 2 kad sunnah (Arab + BM) → Save & follow + sticker + penafian. Storyboard: `storyboard/hari08-tanda-tidur.md` |
+| `hari08-tanda-tidur.html` | Hari 8, motion grafik tips (35 s): hook → 4 tanda tidur tak mencukupi dan tak berkualiti (NHLBI) → nota kualiti tidur → 2 kad sunnah (Arab + BM) → Save & follow + sticker + penafian. Storyboard: `storyboard/hari08-tanda-tidur.md` |
 | `render.js` | Render HTML ke MP4 (1080×1920, 30 fps, H.264, audio senyap) |
 | `fonts/`, `fonts_local.css` | Fredoka, Nunito, Caveat (Google Fonts, lesen OFL) disimpan setempat |
 
