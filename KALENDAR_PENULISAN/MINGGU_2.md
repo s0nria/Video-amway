@@ -36,7 +36,7 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 #Momyizz #Tidur #KesihatanOtak #FaktaBukanPanik
 ```
 
-### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 4 tanda korang kurang tidur
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 4 tanda tidur tak mencukupi dan tak berkualiti + amalan sunnah
 
 > Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 20-blazer-terkejut-pipi.
 
@@ -44,19 +44,22 @@ Perkongsian ilmu umum. Bukan nasihat perubatan.
 
 | Masa | Komponen kit | Teks atas skrin | Animasi |
 |---|---|---|---|
-| 0–3s | HOOK | Tidur cukup ke sebenarnya? 4 tanda ni 😴 | Pop |
-| 3–8s | CHECKLIST baris 1 | ✓ Perlu kopi untuk 'hidup' setiap pagi | Baris muncul |
-| 8–13s | CHECKLIST baris 2 | ✓ Mengantuk lepas makan tengah hari setiap hari | Baris muncul |
-| 13–18s | CHECKLIST baris 3 | ✓ Cepat marah & susah fokus | Baris muncul |
-| 18–22s | CHECKLIST baris 4 | ✓ Tidur 'ganti' panjang hujung minggu | Baris muncul |
-| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+| 0–3s | HOOK | Cukup jam belum tentu cukup rehat. 4 tanda tidur korang tak mencukupi dan tak berkualiti 😴 | Pop |
+| 3–15s | CHECKLIST 4 baris (3 s setiap baris) | ✓ Bangun pagi tetap tak rasa segar<br>✓ Mudah terlelap bila baca atau tengok TV<br>✓ Rasa nak terlelap bila duduk diam dalam mesyuarat<br>✓ Hampir terlelap bila tersekat dalam jem<br>Sumber: NHLBI, Institut Kesihatan Kebangsaan AS (NIH) | Baris muncul satu demi satu |
+| 15–18s | NOTA | Dah tidur 7 jam tapi masih begini? Mungkin tidur korang tak berkualiti. Kerap berlaku? Jumpa doktor 🩺 | Naik dari bawah |
+| 18–24s | KAD SUNNAH 1 | Tidur awal, bangun awal<br>كَانَ يَنَامُ أَوَّلَهُ وَيَقُومُ آخِرَهُ<br>"Baginda tidur di awal malam dan bangun (solat) di akhir malam." (Aisyah r.a., Sahih al-Bukhari 1146)<br>💡 Dewasa perlu 7 jam atau lebih, pada waktu yang betul (AASM, Akademi Perubatan Tidur Amerika; NHLBI) | Kad naik |
+| 24–30s | KAD SUNNAH 2 | Qailulah: rehat sekejap sebelum Zuhur<br>مَا كُنَّا نَقِيلُ وَلَا نَتَغَدَّى إِلَّا بَعْدَ الْجُمُعَةِ<br>"Kami tidak qailulah dan tidak makan tengah hari melainkan selepas Jumaat." (Sahl bin Sa'd r.a., Sahih al-Bukhari 939)<br>Huraian ulama: pada hari Jumaat qailulah ditangguh; hari biasa sahabat qailulah sebelum Zuhur.<br>💡 Pakar tidur: lelap ±20 minit, awal tengah hari (Sleep Foundation, AS) | Kad naik |
+| 30–35s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
 
 **Caption**
 
 ```
-Berapa tanda korang ada? 👇 Dewasa perlu 7 jam+ (AASM).
+Berapa tanda korang ada? 👇 Cukup jam belum tentu cukup rehat: tidur perlu cukup dan berkualiti. Sunnah pun ajar tidur awal & qailulah sekejap 🌙☀️
 
-#Momyizz #Tidur #IbuBekerja
+Sumber: NHLBI (NIH); AASM; Sleep Foundation; Sahih al-Bukhari 939, 1146.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Tidur #Qailulah #IbuBekerja
 ```
 
 ### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Tidur 5 jam dah cukup, badan dah biasa'

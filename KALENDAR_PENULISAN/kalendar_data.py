@@ -867,14 +867,14 @@ TRENDING = [
 
 MG_TREND = {
 "T1": [
- {"tajuk": "4 tanda korang kurang tidur", "sticker": "20-blazer-terkejut-pipi", "babak": [
-   ("0–3s", "HOOK", "Tidur cukup ke sebenarnya? 4 tanda ni 😴", "Pop"),
-   ("3–8s", "CHECKLIST baris 1", "✓ Perlu kopi untuk 'hidup' setiap pagi", "Baris muncul"),
-   ("8–13s", "CHECKLIST baris 2", "✓ Mengantuk lepas makan tengah hari setiap hari", "Baris muncul"),
-   ("13–18s", "CHECKLIST baris 3", "✓ Cepat marah & susah fokus", "Baris muncul"),
-   ("18–22s", "CHECKLIST baris 4", "✓ Tidur 'ganti' panjang hujung minggu", "Baris muncul"),
-   MG_END],
-  "caption": "Berapa tanda korang ada? 👇 Dewasa perlu 7 jam+ (AASM).\n\n#Momyizz #Tidur #IbuBekerja"},
+ {"tajuk": "4 tanda tidur tak mencukupi dan tak berkualiti + amalan sunnah", "sticker": "20-blazer-terkejut-pipi", "babak": [
+   ("0–3s", "HOOK", "Cukup jam belum tentu cukup rehat. 4 tanda tidur korang tak mencukupi dan tak berkualiti 😴", "Pop"),
+   ("3–15s", "CHECKLIST 4 baris (3 s setiap baris)", "✓ Bangun pagi tetap tak rasa segar\n✓ Mudah terlelap bila baca atau tengok TV\n✓ Rasa nak terlelap bila duduk diam dalam mesyuarat\n✓ Hampir terlelap bila tersekat dalam jem\nSumber: NHLBI, Institut Kesihatan Kebangsaan AS (NIH)", "Baris muncul satu demi satu"),
+   ("15–18s", "NOTA", "Dah tidur 7 jam tapi masih begini? Mungkin tidur korang tak berkualiti. Kerap berlaku? Jumpa doktor 🩺", "Naik dari bawah"),
+   ("18–24s", "KAD SUNNAH 1", "Tidur awal, bangun awal\nكَانَ يَنَامُ أَوَّلَهُ وَيَقُومُ آخِرَهُ\n\"Baginda tidur di awal malam dan bangun (solat) di akhir malam.\" (Aisyah r.a., Sahih al-Bukhari 1146)\n💡 Dewasa perlu 7 jam atau lebih, pada waktu yang betul (AASM, Akademi Perubatan Tidur Amerika; NHLBI)", "Kad naik"),
+   ("24–30s", "KAD SUNNAH 2", "Qailulah: rehat sekejap sebelum Zuhur\nمَا كُنَّا نَقِيلُ وَلَا نَتَغَدَّى إِلَّا بَعْدَ الْجُمُعَةِ\n\"Kami tidak qailulah dan tidak makan tengah hari melainkan selepas Jumaat.\" (Sahl bin Sa'd r.a., Sahih al-Bukhari 939)\nHuraian ulama: pada hari Jumaat qailulah ditangguh; hari biasa sahabat qailulah sebelum Zuhur.\n💡 Pakar tidur: lelap ±20 minit, awal tengah hari (Sleep Foundation, AS)", "Kad naik"),
+   ("30–35s", "PENAFIAN + STICKER", "Save & follow Momyizz 🌿\n" + DISC, "Fade masuk, sticker pop")],
+  "caption": "Berapa tanda korang ada? 👇 Cukup jam belum tentu cukup rehat: tidur perlu cukup dan berkualiti. Sunnah pun ajar tidur awal & qailulah sekejap 🌙☀️\n\nSumber: NHLBI (NIH); AASM; Sleep Foundation; Sahih al-Bukhari 939, 1146.\n" + DISC + "\n\n#Momyizz #Tidur #Qailulah #IbuBekerja"},
  {"tajuk": "Mitos vs fakta: 'Tidur 5 jam dah cukup, badan dah biasa'", "sticker": "04-satin-tutup-mulut", "babak": [
    ("0–3s", "HOOK", "\"Tidur 5 jam dah cukup, badan dah biasa.\" Betul ke?", "Pop + goyang"),
    ("3–8s", "BIG_WORD", "MITOS ❌", "Pop besar"),
