@@ -96,3 +96,10 @@ Tips 18:30 dipost dalam dua bentuk: ✍️ teks (Threads) dan 🖼️ carousel (
 
 ## Soalan berimpak tinggi
 Teks 16:00 (Pertanyaan) gilir jenis soalan: keadaan sekarang → impian → halangan → emosi. Bila prospek komen atau DM, guna **Skrip prospek** (tab Tulis) sebelum hantar mesej WhatsApp produk. Panduan: `TEKNIK_PENULISAN.md` bab 9.
+
+## Threads: video 10 saat + 1 gambar
+Satu post Threads = video 10 saat + 1 gambar + teks harian yang ditanda (16:00 atau 18:30). Blok **🧵 THREADS** dalam tab Tulis (data: `KALENDAR_PENULISAN/threads_data.py`).
+- **Pilihan A:** video 3D siap (`VIDEO_3D/threads10.html`): produk asli, 3 key selling, CTA. Butang muat turun dalam worksheet.
+- **Pilihan B:** rakam sendiri. Rumah tak perlu kemas: cukup **satu sudut 30 cm** (meja / kaunter) dengan alas kain atau papan kayu, cahaya tingkap, rakam **close-up tangan + produk**, bunyi asli (air dituang, goncang botol, buih). 0–2 saat terus aksi.
+- Gambar: produk dalam rutin (close-up), atau poster dari video 3D.
+- Nama produk tak disebut dalam teks; botol & jenama boleh kelihatan.

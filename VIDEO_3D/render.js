@@ -13,7 +13,7 @@ await p.goto(`http://localhost:8765/VIDEO_3D/${file}`);await p.waitForFunction((
 if(process.env.SNAP){for(const t of process.env.SNAP.split(',')){await p.evaluate(t=>renderAt(t),Number(t));await p.screenshot({path:path.join(__dirname,`snap_${t}.png`)});}
   await b.close();srv.kill();return;}
 const ff=spawn('ffmpeg',['-y','-f','image2pipe','-framerate',String(FPS),'-c:v','mjpeg','-i','-','-f','lavfi','-i','anullsrc=r=48000:cl=stereo','-shortest',
- '-c:v','libx264','-preset','medium','-b:v','14M','-maxrate','16M','-bufsize','24M','-pix_fmt','yuv420p','-r',String(FPS),'-c:a','aac','-b:a','320k','-movflags','+faststart',path.resolve(out)],{stdio:['pipe','ignore','ignore']});
+ '-c:v','libx264','-preset','medium','-b:v',process.env.BITRATE||'14M','-maxrate',process.env.MAXRATE||'16M','-bufsize','24M','-pix_fmt','yuv420p','-r',String(FPS),'-c:a','aac','-b:a','320k','-movflags','+faststart',path.resolve(out)],{stdio:['pipe','ignore','ignore']});
 for(let i=0;i<N;i++){await p.evaluate(t=>renderAt(t),i/FPS);const buf=await p.screenshot({type:'jpeg',quality:94});
  if(!ff.stdin.write(buf))await new Promise(r=>ff.stdin.once('drain',r)); if(i%150===0)console.log(`bingkai ${i}/${N}`);}
 ff.stdin.end();await new Promise(r=>ff.on('close',r));await b.close();srv.kill();console.log('siap:',path.resolve(out));})();

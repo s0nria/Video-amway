@@ -15,6 +15,30 @@ from kalendar_data import DAYS, JENIS_TEKS, PRODUK, MG_FULL, MG_PLAN, MG_INFO  #
 from masalah_data import MASALAH, CARA_BETUL, SUMBER  # noqa: E402
 from soalan_data import JENIS_SOALAN, GILIR_AWAM, SOALAN_AWAM, SKRIP, PADANAN_WA  # noqa: E402
 from fb_pendek_data import FB_PENDEK, HAD_FB  # noqa: E402
+from threads_data import THREADS, CHIPS, GAMBAR_PRODUK  # noqa: E402
+REPO_URL = "https://github.com/s0nria/Video-amway/blob/main/"
+
+
+def threads_json(day):
+    if day["d"] not in THREADS:
+        return None
+    hook, rakam, gambar, ti = THREADS[day["d"]]
+    pk = day["produk"][0]
+    vid = f"VIDEO_3D/threads/hari{day['d']:02d}.mp4"
+    pos = f"VIDEO_3D/threads/hari{day['d']:02d}.jpg"
+    return {"hook": hook, "rakam": rakam, "gambar": gambar, "teks": ti, "chips": CHIPS[pk],
+            "video": os.path.exists(os.path.join(ROOT, vid)),  # MP4 diabaikan .gitignore: dihantar dalam chat
+            "poster": REPO_URL + pos if os.path.exists(os.path.join(ROOT, pos)) else None}
+
+
+def tulis_threads10():
+    out = {}
+    for day in DAYS:
+        if day["d"] in THREADS:
+            pk = day["produk"][0]
+            out[str(day["d"])] = {"hook": THREADS[day["d"]][0], "chips": CHIPS[pk], "img": GAMBAR_PRODUK[pk]}
+    open(os.path.join(ROOT, "VIDEO_3D", "threads10_data.js"), "w", encoding="utf-8").write(
+        "window.T10=" + json.dumps(out, ensure_ascii=False) + ";\n")
 FB_INDEKS = (0, 1, 3)  # 10:00, 16:00, 21:00
 
 
@@ -80,6 +104,24 @@ def _strings(obj):
 
 def check():
     errs = []
+    nama_produk = re.compile(r"bodykey|nutrilite|artistry|espring|amway|dish drops", re.I)
+    for n, (hook, rakam, gambar, ti) in THREADS.items():
+        day = next((d for d in DAYS if d["d"] == n), None)
+        if not day:
+            errs.append(f"THREADS: hari {n} tiada")
+            continue
+        if day["produk"][0] not in CHIPS or day["produk"][0] not in GAMBAR_PRODUK:
+            errs.append(f"THREADS hari {n}: produk '{day['produk'][0]}' tiada dalam CHIPS / GAMBAR_PRODUK")
+        if nama_produk.search(hook) or BANNED.search(hook):
+            errs.append(f"THREADS hari {n}: hook tidak boleh ada nama produk / kata ganti dilarang")
+        if len(hook) > 40:
+            errs.append(f"THREADS hari {n}: hook terlalu panjang ({len(hook)} > 40)")
+        if ti not in (0, 1, 2, 3):
+            errs.append(f"THREADS hari {n}: indeks teks tidak sah")
+    for pk, chips in CHIPS.items():
+        for c in chips:
+            if nama_produk.search(c) or len(c) > 28:
+                errs.append(f"CHIPS {pk}: '{c}' ada nama produk atau terlalu panjang")
     for tema, teks3 in FB_PENDEK.items():
         if not any(d["tema"] == tema for d in DAYS):
             errs.append(f"FB_PENDEK: tema '{tema}' tiada dalam kalendar")
@@ -246,6 +288,9 @@ def to_json():
             d["plan"] = {"mg": mg, "video": vid, "carousel": car, "teks": [{"masa": m, "jenis": j, "idea": t} for (m, j), t in zip(JENIS_TEKS, teks)], "wa": wa,
                          "wa_skrip": skrip_untuk(wa)}
             d["plan"]["teks"][1]["soalan"] = GILIR_AWAM[day["d"] % len(GILIR_AWAM)]
+        th = threads_json(day)
+        if th:
+            d["threads"] = th
         out.append(d)
     return out
 
@@ -431,6 +476,7 @@ if __name__ == "__main__":
     open(os.path.join(HERE, "README.md"), "w", encoding="utf-8").write(md_index(data))
     open(os.path.join(HERE, "MASALAH_AUDIENS.md"), "w", encoding="utf-8").write(md_masalah())
     open(os.path.join(HERE, "SKRIP_PROSPEK.md"), "w", encoding="utf-8").write(md_skrip())
+    tulis_threads10()
     inject(data)
     n = sum(1 for d in data if "video" in d)
     print(f"OK: {len(data)} hari, {n} hari siap salin. Markdown dan worksheet dikemas kini.")
