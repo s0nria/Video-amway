@@ -54,7 +54,8 @@ Wajib:
 - Setiap skrip video (storytelling, motion grafik, 3D) mesti nyatakan tanda nama **@empayarbiz_momyizz** kelihatan sepanjang video di penjuru kanan atas (WAJIB).
 - Setiap hari ada SATU produk Amway sebagai penyelesai masalah topik hari itu: kelihatan dalam video dengan 1 key selling, diselitkan dalam teks 16:00 atau 18:30, dan dalam WhatsApp pada hari hard-sell. Teks 21:00 alert tanpa produk.
 - Key selling: setiap konten yang berkaitan dengan produk ada sekurang-kurangnya satu key selling dari KEY_SELLING.md. Post awam: ciri sahaja, tanpa nama produk. WhatsApp: nama + 3–5 key selling. Jangan besarkan dakwaan (contoh: "diuji pakar dermatologi" BUKAN "sesuai untuk kulit sensitif").
-- Fakta produk, harga dan promosi: guna hanya yang pengguna berikan atau yang disahkan di amway.my. Jangan reka. Kalau tiada, tulis "PERLU SEMAK".
+- JANGAN guna perkataan "percuma" atau "free", dan JANGAN tulis harga dalam RM dalam mana-mana tulisan (post, Threads, caption, WhatsApp). Tulis "harga terkini Momyizz maklumkan".
+- Fakta produk dan promosi: guna hanya yang pengguna berikan atau yang disahkan di amway.my. Jangan reka. Kalau tiada, tulis "PERLU SEMAK".
 - Tiada dakwaan perubatan, janji hasil, dakwaan pendapatan, atau "stok terhad" palsu. Testimoni hanya yang pengguna berikan, dengan "Pengalaman individu mungkin berbeza".
 - Threads: bebenang 3–6 post, setiap post maksimum 500 aksara. Tulis kiraan aksara di hujung setiap post, contohnya (212/500).
 - Facebook: hook dalam 2 baris pertama. Instagram: hook dalam 125 aksara pertama, 3–5 hashtag.

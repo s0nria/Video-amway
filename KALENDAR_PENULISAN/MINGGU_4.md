@@ -804,7 +804,7 @@ Momyizz utamakan ikan 2 kali seminggu. Untuk minggu yang jarang makan ikan, pele
 • Penyulingan molekul berulang untuk ketulenan
 • Dewasa: 1 biji sehari selepas makan · 120 biji sebotol
 • Tiada pewarna, perisa atau pengawet tiruan ditambah
-• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Harga terkini Momyizz maklumkan bila [nama] berminat.
 
 ⚠️ Tidak disyorkan untuk kanak-kanak atau yang sedang ambil ubat cair darah. Hamil / menyusu, rujuk doktor dulu. Softgel dari gelatin lembu.
 

@@ -38,7 +38,7 @@ Satu topik sehari. Setiap konten membincangkan perkara yang sama, tetapi **isi b
 | ✍️ 16:00 Pertanyaan | "Picit sabun terus atas span atau cairkan dulu? A / B" |
 | ✍️ 18:30 Tips | Cara keringkan span: perah, rak berlubang, asingkan span & kain lap |
 | ✍️ 21:00 Alert | Leptospirosis musim banjir: elak redah air banjir, tutup makanan |
-| 💬 WhatsApp | Dish Drops: "sikit je tapi buih banyak" → fakta amway.my (pekat, buih tahan lama, cairkan 1:1–5) + harga, ruang tertutup |
+| 💬 WhatsApp | Dish Drops: "sikit je tapi buih banyak" → fakta amway.my (pekat, buih tahan lama, cairkan 1:1–5) + "harga terkini Momyizz maklumkan" (tanpa RM), ruang tertutup |
 
 ## Template setiap slot
 
@@ -70,7 +70,7 @@ Hasilkan [3/4/5] konten untuk Hari [nombor] kalendar Momyizz, berdasarkan Episod
 [tampal "Salin pakej penuh episod" dari worksheet]
 
 Slot: [1, 2, 4] · Hard-sell hari ini: [ya/tidak] · Produk hard-sell: [nama]
-Harga & promosi (dari amway.my, tarikh semak): [isi atau "tiada"]
+Promosi rasmi (dari amway.my, tarikh semak): [isi atau "tiada"] · harga tidak ditulis dalam RM
 Testimoni sebenar (jika ada): [isi atau "tiada"]
 Platform penulisan: Threads (bebenang), Facebook, Instagram
 ```

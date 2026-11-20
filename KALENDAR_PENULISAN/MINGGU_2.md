@@ -501,7 +501,7 @@ Formulanya biodegradable. 🌿
 [PERLU SEMAK label / amway.my]
 
 ❓ *Berapa harga?*
-RM[HARGA] untuk 1L (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+Botol 1L. Harga terkini Momyizz maklumkan terus bila [nama] berminat.
 
 Ada soalan lain? Reply je, Momyizz jawab. Nak order, reply "NAK". 💛
 ```
@@ -1713,7 +1713,7 @@ Hari macam tu, pelan B Momyizz: *BodyKey by Nutrilite Nutritious Meal Shake peri
 • 20 vitamin & mineral
 • Hanya 6g gula, GI rendah
 
-• Harga: RM[HARGA] / kotak 14 paket (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Satu kotak 14 paket. Harga terkini Momyizz maklumkan bila [nama] berminat.
 • Promosi: [promosi rasmi Amway, jika ada]
 
 Nikmati sebagai sebahagian daripada diet sihat & gaya hidup aktif. Ada susu & soya, tak sesuai untuk yang tak tahan laktosa. Bawah 12 tahun, hamil / menyusu atau ada masalah kesihatan, rujuk doktor dulu ya. 🙏

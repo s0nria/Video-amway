@@ -84,7 +84,7 @@ def md_skrip():
                 L += [f"- {m}"]
             L += [""]
         if pr:
-            L += [f"Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): {pr[2]}", "", "Harga: semak amway.my pada hari itu.", ""]
+            L += [f"Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): {pr[2]}", "", "Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.", ""]
     return "\n".join(L)
 
 LIMIT_TH, LIMIT_IG, LIMIT_SLAID = 500, 2200, 260
@@ -459,8 +459,29 @@ def inject(data):
         open(p, "w", encoding="utf-8").write(s)
 
 
+LARANGAN = re.compile(r"percuma|\bfree\b|\bRM\s?[\d\[]|\bRM\b", re.I)
+
+
+def semak_larangan(obj, path, errs):
+    if isinstance(obj, str):
+        m = LARANGAN.search(obj)
+        if m:
+            errs.append(f"{path}: perkataan dilarang '{m.group(0)}' (tiada 'percuma/free' dan tiada harga RM)")
+    elif isinstance(obj, dict):
+        for k, v in obj.items():
+            if k not in ("gambar", "img", "poster"):
+                semak_larangan(v, f"{path}.{k}", errs)
+    elif isinstance(obj, (list, tuple)):
+        for i, v in enumerate(obj):
+            semak_larangan(v, f"{path}[{i}]", errs)
+
+
 if __name__ == "__main__":
     errs = check()
+    for d in to_json():
+        semak_larangan(d, f"Hari {d['d']}", errs)
+    semak_larangan(soalan_json(), "SKRIP", errs)
+    semak_larangan(masalah_json(), "MASALAH", errs)
     if errs:
         print("RALAT:\n  " + "\n  ".join(errs))
         sys.exit(1)

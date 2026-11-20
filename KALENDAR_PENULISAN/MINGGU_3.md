@@ -1188,7 +1188,7 @@ Momyizz guna *eSpring Water Purifier* (model baharu) dari Amway 💧
 • Aplikasi Amway Healthy Home ingatkan bila perlu tukar penapis
 • Halal, waranti 5 tahun
 
-• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Harga terkini Momyizz maklumkan bila [nama] berminat.
 • Promosi: [promosi rasmi Amway, jika ada]
 • Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]
 

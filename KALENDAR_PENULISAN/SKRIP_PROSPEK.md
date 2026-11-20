@@ -69,7 +69,7 @@ Post awam: utamakan jenis 1–4; jenis 5 versi lembut & komitmen kecil tanpa jua
 
 Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya
 
-Harga: semak amway.my pada hari itu.
+Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
 
 ## Air minuman di rumah (eSpring)
 
@@ -117,7 +117,7 @@ Harga: semak amway.my pada hari itu.
 
 Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): 4 standard NSF/ANSI · kurangkan 170+ bahan cemar · UV-C LED 99.9% bakteria & virus · terbukti kurangkan mikroplastik
 
-Harga: semak amway.my pada hari itu.
+Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
 
 ## Protein harian (Soy Protein Drink)
 
@@ -161,7 +161,7 @@ Harga: semak amway.my pada hari itu.
 
 Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): protein tumbuhan · 8g protein, 9 asid amino perlu · bebas laktosa · tanpa pemanis & tanpa perisa tiruan
 
-Harga: semak amway.my pada hari itu.
+Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
 
 ## Kebersihan dapur (Dish Drops)
 
@@ -203,7 +203,7 @@ Harga: semak amway.my pada hari itu.
 
 Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): sangat pekat · sikit je buih banyak & tahan lama · aloe vera · diuji pakar dermatologi · biodegradable
 
-Harga: semak amway.my pada hari itu.
+Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
 
 ## Vitamin C & buah harian (Bio C Plus)
 
@@ -247,7 +247,7 @@ Harga: semak amway.my pada hari itu.
 
 Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): 500mg vitamin C · dari ceri acerola · 1 tablet sehari · tanpa pewarna & perisa tiruan
 
-Harga: semak amway.my pada hari itu.
+Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
 
 ## Rutin cuci muka (ARTISTRY Balancing Jelly Cleanser)
 
@@ -293,7 +293,7 @@ Harga: semak amway.my pada hari itu.
 
 Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): buang pencemaran & kekotoran termasuk PM2.5 (terbukti klinikal) · Shiso Perilla & aloe vera · tidak menanggalkan minyak semula jadi & tidak mengeringkan · pH seimbang · vegan · JANGAN tulis 'untuk kulit kering' (rasmi: berminyak / normal ke berminyak)
 
-Harga: semak amway.my pada hari itu.
+Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
 
 ## Pelindung matahari harian (ARTISTRY UV Protect)
 
@@ -337,7 +337,7 @@ Harga: semak amway.my pada hari itu.
 
 Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): SPF50+/PA++++ · spektrum luas · ringan, tak berminyak · sesuai semua jenis kulit
 
-Harga: semak amway.my pada hari itu.
+Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
 
 ## Omega-3 & ikan (Salmon Omega Complex)
 
@@ -381,7 +381,7 @@ Harga: semak amway.my pada hari itu.
 
 Key selling (dari `AMWAY_BRAND/KEY_SELLING.md`): 330.93mg omega-3 (EPA + DHA) sebiji · salmon, ikan bilis & sardin · 1 biji sehari
 
-Harga: semak amway.my pada hari itu.
+Harga: maklumkan terus kepada prospek; jangan tulis RM atau perkataan percuma / free dalam mesej.
 
 ## Tidur & rehat (tiada produk)
 
