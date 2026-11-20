@@ -106,7 +106,7 @@ DAYS = [
   "Info penting musim tengkujuh: selepas banjir atau bila air paip keruh, didihkan air sebelum minum. 💧\n\nIni panduan asas kesihatan awam semasa banjir. Kongsi dengan keluarga di kawasan yang terjejas. 🙏",
  ],
  "wa": {"tajuk": "eSpring Water Purifier (model baharu)", "nota": "Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 122940, semak 18 Nov 2026). Tulis MENGURANGKAN mikroplastik, jangan singkir / bebas. Gambar: AMWAY_BRAND/PRODUK/espring-baharu.png. Semak harga & promosi hari ini.",
-  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal kurangkan plastik. Langkah pertama Momyizz: berhenti beli air botol, isi botol keluli dari penapis air di rumah. Ada yang tanya penapis apa.\n\nMomyizz guna *eSpring Water Purifier* (model baharu) dari Amway.\n• Diperakui 4 standard NSF/ANSI (42, 53, 55, 401)\n• Kurangkan lebih 170 bahan cemar, sekecil 0.2 mikron\n• Terbukti mengurangkan mikroplastik & 19 jenis sisa farmaseutikal\n• UV-C LED hapuskan 99.9% bakteria, virus & sista bawaan air\n• Aplikasi Amway Healthy Home ingatkan bila perlu tukar penapis\n• Halal, waranti 5 tahun\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]\n\nKalau nak tahu lebih atau nak demo, reply \"NAK\", Momyizz uruskan. 💛"}},
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal kurangkan plastik. Langkah pertama Momyizz: berhenti beli air botol, isi botol keluli dari penapis air di rumah. Ada yang tanya penapis apa.\n\nMomyizz guna *eSpring Water Purifier* (model baharu) dari Amway.\n• Diperakui 4 standard NSF/ANSI (42, 53, 55, 401)\n• Kurangkan lebih 170 bahan cemar, sekecil 0.2 mikron\n• Terbukti mengurangkan mikroplastik & 19 jenis sisa farmaseutikal\n• UV-C LED hapuskan 99.9% bakteria, virus & sista bawaan air\n• Aplikasi Amway Healthy Home ingatkan bila perlu tukar penapis\n• Halal, waranti 5 tahun\n• Harga terkini Momyizz maklumkan bila [nama] berminat.\n• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]\n\nKalau nak tahu lebih atau nak demo, reply \"NAK\", Momyizz uruskan. 💛"}},
 
 # ================================================================ HARI 3
 {"d": 3, "ep": 1, "tema": "Cara baca berita kesihatan viral", "produk": ("espring", "Susah percaya dakwaan produk; nak bukti pensijilan bebas"),
@@ -164,7 +164,7 @@ DAYS = [
   "Info penting: WHO anggarkan hampir 1 dalam 3 wanita berumur 15–49 tahun di dunia mengalami anemia. ⚠️\n\nSelalu letih, pucat, pening atau sesak nafas bila naik tangga? Buat ujian darah di klinik kesihatan. Jangan anggap penat ibu tu biasa. 🩸",
  ],
  "wa": {"tajuk": "BodyKey Nutritious Meal Shake PERISA PISANG (baharu)", "nota": "Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 128188M, semak 18 Nov 2026). Jangan tulis 'tanpa gula' atau 'bebas laktosa'. Sebut sudut berat badan hanya dengan 'Keputusan berbeza mengikut individu'. Gambar: bodykey-banana-gaya-studio.jpg. Semak harga & promosi rasmi hari ini.",
-  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal ibu yang selalu skip sarapan. Ada yang tanya shake apa Momyizz minum pagi tadi. 🍌\n\nItu *BodyKey by Nutrilite Nutritious Meal Shake*, *PERISA PISANG yang baru keluar!*\n\nBukan untuk diet je tau. Sesuai untuk sarapan, bekal, petang kalut, atau bila nak kurangkan gula:\n• 17g protein tumbuhan dari soya & biji chia\n• 5g serat prebiotik\n• 20 vitamin & mineral\n• Hanya 6g gula sehidangan, GI rendah (diperakui Glycemic Index Center)\n• Siap 1 minit: 1 paket + 250ml air, goncang\n• Paket individu, senang masuk beg\n• Ada juga perisa Chocolate, Café Latte & Berry\n\n• Harga: RM[HARGA] / kotak 14 paket (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Promosi: [promosi rasmi Amway, jika ada]\n• Rasa pisang pada Momyizz: [pengalaman sebenar Momyizz]\n\nNikmati sebagai sebahagian daripada diet sihat & gaya hidup aktif. Ada susu & soya, tak sesuai untuk yang tak tahan laktosa. Bawah 12 tahun, hamil / menyusu atau ada masalah kesihatan, rujuk doktor dulu ya. 🙏\n\nNak cuba? Reply \"PISANG\", Momyizz uruskan. 💛"}},
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal ibu yang selalu skip sarapan. Ada yang tanya shake apa Momyizz minum pagi tadi. 🍌\n\nItu *BodyKey by Nutrilite Nutritious Meal Shake*, *PERISA PISANG yang baru keluar!*\n\nBukan untuk diet je tau. Sesuai untuk sarapan, bekal, petang kalut, atau bila nak kurangkan gula:\n• 17g protein tumbuhan dari soya & biji chia\n• 5g serat prebiotik\n• 20 vitamin & mineral\n• Hanya 6g gula sehidangan, GI rendah (diperakui Glycemic Index Center)\n• Siap 1 minit: 1 paket + 250ml air, goncang\n• Paket individu, senang masuk beg\n• Ada juga perisa Chocolate, Café Latte & Berry\n\n• Satu kotak 14 paket. Harga terkini Momyizz maklumkan bila [nama] berminat.\n• Promosi: [promosi rasmi Amway, jika ada]\n• Rasa pisang pada Momyizz: [pengalaman sebenar Momyizz]\n\nNikmati sebagai sebahagian daripada diet sihat & gaya hidup aktif. Ada susu & soya, tak sesuai untuk yang tak tahan laktosa. Bawah 12 tahun, hamil / menyusu atau ada masalah kesihatan, rujuk doktor dulu ya. 🙏\n\nNak cuba? Reply \"PISANG\", Momyizz uruskan. 💛"}},
 
 # ================================================================ HARI 5
 {"d": 5, "ep": 2, "tema": "Persediaan malam & pelan B pagi kelam-kabut", "produk": ("soy", "Pagi kelam-kabut, perlukan pelan B yang ada protein"),
@@ -194,7 +194,7 @@ DAYS = [
   "Info penting: sebelum beli apa-apa supplemen atau minuman kesihatan, semak nombor pendaftaran \"MAL\" pada label. ⚠️\n\nProduk berdaftar dengan KKM boleh disemak melalui laman NPRA. Elak produk yang janji kurus cepat atau tiada maklumat pendaftaran.",
  ],
  "wa": {"tajuk": "Nutrilite Soy Protein Drink", "nota": "Ruang tertutup sahaja (pelanggan sedia ada / group tertutup / orang yang bertanya). Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my, semak 18 Nov 2026). Gambar: AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png (Original Flavour 450g). Semak harga hari ini. Jangan tambah dakwaan kesihatan (imun, letih, kolesterol).",
-  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal sarapan ibu yang selalu tertinggal. Ramai tanya apa \"pelan B\" Momyizz untuk hari yang tak sempat makan.\n\nYang Momyizz guna: *Nutrilite Soy Protein Drink*\n• Protein tumbuhan: gabungan gandum, soya & kacang pea\n• 8g protein setiap hidangan, ada kesemua 9 asid amino perlu\n• Bebas laktosa, rendah lemak\n• Tiada pewarna, perisa atau pengawet tiruan ditambah\n• Perisa: Original Flavour, 450g. Tanpa perisa & tanpa pemanis, jadi senang campur dalam apa-apa minuman\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Cara guna: campur 1–2 sudu dalam minuman, kacau / goncang. Boleh juga tabur atas bijirin\n• Tidak disyorkan untuk bayi bawah 1 tahun. Penghidap gout, hadkan pengambilan purin\n\nMomyizz guna untuk hari kelam-kabut sahaja, bukan pengganti sarapan sebenar. 🙏\n\nKalau nak, reply \"NAK\", Momyizz uruskan. 💛\n\n" + DISC}},
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi pasal sarapan ibu yang selalu tertinggal. Ramai tanya apa \"pelan B\" Momyizz untuk hari yang tak sempat makan.\n\nYang Momyizz guna: *Nutrilite Soy Protein Drink*\n• Protein tumbuhan: gabungan gandum, soya & kacang pea\n• 8g protein setiap hidangan, ada kesemua 9 asid amino perlu\n• Bebas laktosa, rendah lemak\n• Tiada pewarna, perisa atau pengawet tiruan ditambah\n• Perisa: Original Flavour, 450g. Tanpa perisa & tanpa pemanis, jadi senang campur dalam apa-apa minuman\n• Harga terkini Momyizz maklumkan bila [nama] berminat.\n• Cara guna: campur 1–2 sudu dalam minuman, kacau / goncang. Boleh juga tabur atas bijirin\n• Tidak disyorkan untuk bayi bawah 1 tahun. Penghidap gout, hadkan pengambilan purin\n\nMomyizz guna untuk hari kelam-kabut sahaja, bukan pengganti sarapan sebenar. 🙏\n\nKalau nak, reply \"NAK\", Momyizz uruskan. 💛\n\n" + DISC}},
 
 # ================================================================ HARI 6
 {"d": 6, "ep": 2, "tema": "Gula tersembunyi dalam minuman", "produk": ("bodykey", "Nak ganti minuman manis pagi dengan pilihan GI rendah, kurang gula"),
@@ -255,7 +255,7 @@ DAYS = [
   "Info penting musim banjir: leptospirosis merebak melalui air atau tanah yang tercemar air kencing tikus. ⚠️\n\nElak meredah air banjir tanpa kasut, tutup makanan di dapur, dan dapatkan rawatan jika demam selepas terdedah kepada air banjir. 🙏",
  ],
  "wa": {"tajuk": "Amway Home Dish Drops", "nota": "Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my, semak 18 Nov 2026). JANGAN tulis 'sesuai untuk kulit sensitif' (tiada sumber rasmi). Semak harga hari ini. Jangan dakwa sabun membunuh kuman atau menggantikan tukar span.",
-  "t": "Hai [nama] 😊\n\nPagi tadi Momyizz kongsi pasal span dapur, dan ada yang tanya: \"Sabun apa tu, sikit je tapi buih banyak?\" 🫧\n\nItu *DISH DROPS Concentrated Dishwashing Liquid (1L)* dari Amway Home.\n• Sangat pekat: setitik pun dah boleh tanggalkan minyak\n• Buihnya tahan lama, jadi tak perlu tambah sabun selalu\n• Cara guna untuk span: cairkan 1 bahagian sabun dengan 1–5 bahagian air dalam botol picit, picit sedikit ke span\n• Ada aloe vera yang melembutkan, dan dah diuji pakar dermatologi. Sesuai untuk yang basuh pinggan hari-hari 🤲\n• Formula biodegradable, lebih mesra alam 🌿\n• Boleh juga basuh sayur & buah (1 ml dalam 5 L air)\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]\n\nTapi ingat ya, sabun yang bagus tak menggantikan tabiat tukar span dan keringkan span. 🧽\n\nKalau berminat, reply \"NAK\", Momyizz uruskan. 💛"}},
+  "t": "Hai [nama] 😊\n\nPagi tadi Momyizz kongsi pasal span dapur, dan ada yang tanya: \"Sabun apa tu, sikit je tapi buih banyak?\" 🫧\n\nItu *DISH DROPS Concentrated Dishwashing Liquid (1L)* dari Amway Home.\n• Sangat pekat: setitik pun dah boleh tanggalkan minyak\n• Buihnya tahan lama, jadi tak perlu tambah sabun selalu\n• Cara guna untuk span: cairkan 1 bahagian sabun dengan 1–5 bahagian air dalam botol picit, picit sedikit ke span\n• Ada aloe vera yang melembutkan, dan dah diuji pakar dermatologi. Sesuai untuk yang basuh pinggan hari-hari 🤲\n• Formula biodegradable, lebih mesra alam 🌿\n• Boleh juga basuh sayur & buah (1 ml dalam 5 L air)\n• Harga terkini Momyizz maklumkan bila [nama] berminat.\n• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]\n\nTapi ingat ya, sabun yang bagus tak menggantikan tabiat tukar span dan keringkan span. 🧽\n\nKalau berminat, reply \"NAK\", Momyizz uruskan. 💛"}},
 
 # ================================================================ HARI 8
 {"d": 8, "ep": 3, "tema": "Papan pemotong & kain lap", "produk": ("dish", "Papan pemotong & kain lap berminyak susah bersih"),
@@ -286,7 +286,7 @@ DAYS = [
 
  ],
  "wa": {"tajuk": "Soalan lazim Dish Drops", "nota": "Ruang tertutup sahaja (terutama untuk yang bertanya selepas konten span dapur). Jawapan dari AMWAY_BRAND/KEY_SELLING.md. Soalan mesin basuh pinggan: semak label dahulu. Tambah soalan pelanggan sebenar jika ada.",
-  "t": "Hai [nama] 😊\n\nHari tu ramai tanya pasal sabun pekat Momyizz. Ni Momyizz kumpul soalan lazim *DISH DROPS Concentrated Dishwashing Liquid* dari Amway Home 👇\n\n❓ *Kenapa sikit je dah cukup?*\nSabun ni sangat pekat. Amway sebut setitik dah boleh tanggalkan minyak, dan buihnya tahan lama.\n\n❓ *Macam mana nak guna dengan span?*\nCairkan 1 bahagian sabun dengan 1–5 bahagian air dalam botol picit, kemudian picit sedikit ke span.\n\n❓ *Lembut tak kat tangan?*\nAda aloe vera dan formulanya dah diuji pakar dermatologi. Kulit setiap orang berbeza, jadi kalau kulit sangat sensitif, pakai sarung tangan.\n\n❓ *Mesra alam ke?*\nFormulanya biodegradable. 🌿\n\n❓ *Boleh guna dalam mesin basuh pinggan?*\n[PERLU SEMAK label / amway.my]\n\n❓ *Berapa harga?*\nRM[HARGA] untuk 1L (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n\nAda soalan lain? Reply je, Momyizz jawab. Nak order, reply \"NAK\". 💛"}},
+  "t": "Hai [nama] 😊\n\nHari tu ramai tanya pasal sabun pekat Momyizz. Ni Momyizz kumpul soalan lazim *DISH DROPS Concentrated Dishwashing Liquid* dari Amway Home 👇\n\n❓ *Kenapa sikit je dah cukup?*\nSabun ni sangat pekat. Amway sebut setitik dah boleh tanggalkan minyak, dan buihnya tahan lama.\n\n❓ *Macam mana nak guna dengan span?*\nCairkan 1 bahagian sabun dengan 1–5 bahagian air dalam botol picit, kemudian picit sedikit ke span.\n\n❓ *Lembut tak kat tangan?*\nAda aloe vera dan formulanya dah diuji pakar dermatologi. Kulit setiap orang berbeza, jadi kalau kulit sangat sensitif, pakai sarung tangan.\n\n❓ *Mesra alam ke?*\nFormulanya biodegradable. 🌿\n\n❓ *Boleh guna dalam mesin basuh pinggan?*\n[PERLU SEMAK label / amway.my]\n\n❓ *Berapa harga?*\nBotol 1L. Harga terkini Momyizz maklumkan terus bila [nama] berminat.\n\nAda soalan lain? Reply je, Momyizz jawab. Nak order, reply \"NAK\". 💛"}},
 
 # ================================================================ HARI 9
 {"d": 9, "ep": 3, "tema": "Kesilapan dapur yang biasa", "produk": ("dish", "Sinki & alatan tercemar lepas sentuh ayam mentah"),
@@ -372,7 +372,7 @@ DAYS = [
   "Info penting: bekal berkuah jangan dibiar lebih 2 jam di suhu bilik, atau 1 jam jika cuaca sangat panas (melebihi 32°C). ⚠️\n\nSimpan dalam peti pejabat atau beg bertebat dengan ice pack. Ragu-ragu? Buang. (USDA)",
  ],
  "wa": {"tajuk": "BodyKey shake pisang untuk bekal kalut", "nota": "Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 128188M). Jangan tulis 'tanpa gula' / 'bebas laktosa'. Semak harga & promosi rasmi hari ini.",
-  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi cara susun bekal ikut Pinggan Sihat. Tapi jujur, ada hari yang memang tak sempat langsung. 😅\n\nHari macam tu, pelan B Momyizz: *BodyKey by Nutrilite Nutritious Meal Shake perisa pisang* 🍌\n• Paket individu, senang masuk beg kerja\n• Siap 1 minit: 1 paket + 250ml air, goncang. Tak perlu beratur microwave\n• 17g protein tumbuhan (soya & chia), 5g serat prebiotik\n• 20 vitamin & mineral\n• Hanya 6g gula, GI rendah\n\n• Harga: RM[HARGA] / kotak 14 paket (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Promosi: [promosi rasmi Amway, jika ada]\n\nNikmati sebagai sebahagian daripada diet sihat & gaya hidup aktif. Ada susu & soya, tak sesuai untuk yang tak tahan laktosa. Bawah 12 tahun, hamil / menyusu atau ada masalah kesihatan, rujuk doktor dulu ya. 🙏\n\nNak simpan sekotak untuk hari kalut? Reply \"PISANG\". 💛"}},
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz kongsi cara susun bekal ikut Pinggan Sihat. Tapi jujur, ada hari yang memang tak sempat langsung. 😅\n\nHari macam tu, pelan B Momyizz: *BodyKey by Nutrilite Nutritious Meal Shake perisa pisang* 🍌\n• Paket individu, senang masuk beg kerja\n• Siap 1 minit: 1 paket + 250ml air, goncang. Tak perlu beratur microwave\n• 17g protein tumbuhan (soya & chia), 5g serat prebiotik\n• 20 vitamin & mineral\n• Hanya 6g gula, GI rendah\n\n• Satu kotak 14 paket. Harga terkini Momyizz maklumkan bila [nama] berminat.\n• Promosi: [promosi rasmi Amway, jika ada]\n\nNikmati sebagai sebahagian daripada diet sihat & gaya hidup aktif. Ada susu & soya, tak sesuai untuk yang tak tahan laktosa. Bawah 12 tahun, hamil / menyusu atau ada masalah kesihatan, rujuk doktor dulu ya. 🙏\n\nNak simpan sekotak untuk hari kalut? Reply \"PISANG\". 💛"}},
 
 # ================================================================ HARI 12
 {"d": 12, "ep": 4, "tema": "Cara baca berita kesihatan (bahagian 2)", "produk": ("bodykey", "Keliru iklan 'kurus cepat'; nak produk yang labelnya jelas tanpa janji kosong"),
@@ -458,7 +458,7 @@ DAYS = [
   "Info penting: gangguan bekalan air di kawasan korang? ⚠️\n\nSimpan air dalam bekas bersih yang bertutup, guna dalam masa 1–2 hari, dan didihkan sebelum minum jika ragu-ragu. Bila bekalan pulih dan air keruh, biarkan paip mengalir sehingga jernih dulu.",
  ],
  "wa": {"tajuk": "eSpring untuk #CabaranAirMomyizz", "nota": "Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 122940). Tulis MENGURANGKAN mikroplastik, jangan singkir / bebas. Semak harga & promosi rasmi hari ini.",
-  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz buat #CabaranAirMomyizz 7 hari. Ramai tanya: \"Air kat rumah Momyizz guna penapis apa?\"\n\nMomyizz guna *eSpring Water Purifier* (model baharu) dari Amway 💧\n• Diperakui 4 standard NSF/ANSI (42, 53, 55, 401)\n• Kurangkan lebih 170 bahan cemar, sekecil 0.2 mikron\n• Terbukti mengurangkan mikroplastik & 19 jenis sisa farmaseutikal\n• UV-C LED hapuskan 99.9% bakteria, virus & sista bawaan air\n• Aplikasi Amway Healthy Home ingatkan bila perlu tukar penapis\n• Halal, waranti 5 tahun\n\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n• Promosi: [promosi rasmi Amway, jika ada]\n• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]\n\nAir sentiasa sedia di rumah = lebih senang cukupkan minum setiap hari. Nak tahu lebih atau nak demo? Reply \"NAK\". 💛"}},
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz buat #CabaranAirMomyizz 7 hari. Ramai tanya: \"Air kat rumah Momyizz guna penapis apa?\"\n\nMomyizz guna *eSpring Water Purifier* (model baharu) dari Amway 💧\n• Diperakui 4 standard NSF/ANSI (42, 53, 55, 401)\n• Kurangkan lebih 170 bahan cemar, sekecil 0.2 mikron\n• Terbukti mengurangkan mikroplastik & 19 jenis sisa farmaseutikal\n• UV-C LED hapuskan 99.9% bakteria, virus & sista bawaan air\n• Aplikasi Amway Healthy Home ingatkan bila perlu tukar penapis\n• Halal, waranti 5 tahun\n\n• Harga terkini Momyizz maklumkan bila [nama] berminat.\n• Promosi: [promosi rasmi Amway, jika ada]\n• Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]\n\nAir sentiasa sedia di rumah = lebih senang cukupkan minum setiap hari. Nak tahu lebih atau nak demo? Reply \"NAK\". 💛"}},
 
 # ================================================================ HARI 15-30 (rancangan; teks penuh dijana dengan Claude)
 # Format: (video, carousel, [teks info, teks pertanyaan, teks tips, teks alert], wa atau None)
@@ -835,7 +835,7 @@ TRENDING = [
   "Info penting: sedang makan ubat cair darah atau ada masalah pendarahan? ⚠️\n\nTanya doktor atau ahli farmasi sebelum mengambil suplemen minyak ikan / omega-3, kerana ia boleh berinteraksi dengan ubat tertentu. (NIH)",
  ],
  "wa": {"tajuk": "Nutrilite Salmon Omega Complex", "nota": "Ruang tertutup sahaja. Key selling dari AMWAY_BRAND/KEY_SELLING.md (amway.my 103208, semak 18 Nov 2026). TIADA dakwaan otak / ingatan / jantung. Amaran rasmi wajib. Gambar: AMWAY_BRAND/PRODUK/salmon-omega-complex.png. Semak harga hari ini.",
-  "t": "Hai [nama] 😊\n\nHari ni Momyizz kongsi pasal ikan tempatan & omega-3. Ada yang tanya, macam mana kalau keluarga jarang makan ikan?\n\nMomyizz utamakan ikan 2 kali seminggu. Untuk minggu yang jarang makan ikan, pelengkap yang Momyizz guna: *Nutrilite Salmon Omega Complex* 🐟\n• Sebiji: 193.51mg EPA + 137.42mg DHA = 330.93mg omega-3\n• Dari salmon perairan sejuk, dengan ikan bilis & sardin\n• Penyulingan molekul berulang untuk ketulenan\n• Dewasa: 1 biji sehari selepas makan · 120 biji sebotol\n• Tiada pewarna, perisa atau pengawet tiruan ditambah\n• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.\n\n⚠️ Tidak disyorkan untuk kanak-kanak atau yang sedang ambil ubat cair darah. Hamil / menyusu, rujuk doktor dulu. Softgel dari gelatin lembu.\n\nIni pelengkap, bukan pengganti makan ikan. 🙏 Reply \"OMEGA\" kalau nak tahu lebih 💛\n\n" + DISC}},
+  "t": "Hai [nama] 😊\n\nHari ni Momyizz kongsi pasal ikan tempatan & omega-3. Ada yang tanya, macam mana kalau keluarga jarang makan ikan?\n\nMomyizz utamakan ikan 2 kali seminggu. Untuk minggu yang jarang makan ikan, pelengkap yang Momyizz guna: *Nutrilite Salmon Omega Complex* 🐟\n• Sebiji: 193.51mg EPA + 137.42mg DHA = 330.93mg omega-3\n• Dari salmon perairan sejuk, dengan ikan bilis & sardin\n• Penyulingan molekul berulang untuk ketulenan\n• Dewasa: 1 biji sehari selepas makan · 120 biji sebotol\n• Tiada pewarna, perisa atau pengawet tiruan ditambah\n• Harga terkini Momyizz maklumkan bila [nama] berminat.\n\n⚠️ Tidak disyorkan untuk kanak-kanak atau yang sedang ambil ubat cair darah. Hamil / menyusu, rujuk doktor dulu. Softgel dari gelatin lembu.\n\nIni pelengkap, bukan pengganti makan ikan. 🙏 Reply \"OMEGA\" kalau nak tahu lebih 💛\n\n" + DISC}},
 
 {"d": "T7", "ep": None, "tema": "Jantung, otak & tidur: rumusan siri",
  "video": {"tajuk": "Apa yang baik untuk jantung, baik untuk otak", "nota": CERITA + " " + TREND_NOTA + " Sticker: 06-satin-lambai-dua-tangan.",
@@ -1283,6 +1283,254 @@ def _susun30():
                 mgp2[n] = mgp[k]
     assert len(baru) == 30
     DAYS, MG_FULL, MG_PLAN = baru, mgf2, mgp2
+
+
+# ================================================================ SIRI USUS SIHAT (DISAHKAN pengguna 20 Nov 2026: tekankan usus sihat)
+# Usus = "otak kedua" (istilah sains). Tiada dakwaan "baiki leaky gut" atau rawat penyakit. Produk: BodyKey, Botanical Beverage Mix with
+# Probiotics, Mixed FOS with Grape Ferment, Soy Protein Drink. Probiotik kranberi (wanita) = siri seterusnya.
+PRODUK["probiotik"] = ("NUTRILITE Botanical Beverage Mix Chicory Root Extract with Probiotics", "",
+  "6.3 bilion bakteria baik (CFU) sepaket · 5 strain probiotik · tahan asid perut & hempedu · ada serat prebiotik inulin · 1 paket sehari · halal IFANCA · tak perlu peti sejuk")
+PRODUK["fos"] = ("NUTRILITE Mixed FOS with Grape Ferment (BAHARU)", "",
+  "prebiotik: 2 serat larut (FOS + maltodekstrin tahan cerna) + grape ferment · menyokong berat badan sihat & kesihatan usus · rasa sedap")
+USUS_NOTA = "Siri Usus Sihat. Guna istilah 'otak kedua'. Tiada dakwaan baiki leaky gut / rawat penyakit."
+
+SIRI_USUS = [
+{"d": "U1", "ep": None, "siri": "Siri Usus Sihat", "tema": "Usus: 'otak kedua' & tempat nutrien diserap",
+ "video": {"tajuk": "Makan sihat, tapi masih letih?", "nota": CERITA + " " + USUS_NOTA + " Sticker: 09-kartun-terkejut-pipi.",
+  "babak": [
+   ("0–3s", "Momyizz makan salad di meja kerja, muka penat", "Dah makan sihat, tapi kenapa masih rasa tak bermaya? 🤔"),
+   ("3–15s", "Animasi sistem penghadaman (Flow)", "Makanan yang kita makan perlu dicerna dan diserap dulu. Kebanyakan nutrien diserap dalam usus kecil."),
+   ("15–28s", "Animasi rangkaian saraf di usus", "Usus juga digelar 'otak kedua': ada lebih 100 juta sel saraf yang berhubung dengan otak."),
+   ("28–40s", "Momyizz susun pinggan: sayur, kekacang, ikan, buah", "Jadi jaga usus = jaga cara badan dapat nutrien. Mula dengan serat, air dan makan perlahan."),
+   ("40–45s", "Momyizz ke kamera", "Siri Usus Sihat bermula hari ni 🌿 | " + DISC),
+  ],
+  "caption": "Usus: 'otak kedua' dan tempat nutrien diserap 🌿 Siri Usus Sihat Momyizz bermula.\n\nSumber: NIDDK; Johns Hopkins Medicine.\n" + DISC + "\n\n#Momyizz #UsusSihat #OtakKedua"},
+ "carousel": {"tajuk": "Perjalanan makanan dalam badan",
+  "slaid": [
+   "PERJALANAN MAKANAN 🍽️\nDari pinggan ke sel badan",
+   "MULUT & PERUT\nMakanan dikunyah dan dicampur dengan jus pencernaan.",
+   "USUS KECIL\nKebanyakan nutrien diserap di sini ke dalam darah.\n🟢 Terbukti (NIDDK)",
+   "USUS BESAR\nBakteria usus bantu pecahkan baki makanan dan menghasilkan vitamin K.\n🟢 Terbukti (NIDDK)",
+   "'OTAK KEDUA'\nUsus ada lebih 100 juta sel saraf yang berhubung dengan otak.\n🟢 (Johns Hopkins)",
+   "MULA DI SINI\nSerat · air kosong · makan perlahan · tidur cukup.\nSave & follow siri ni 🌿\n\n" + DISC,
+  ],
+  "caption": "Perjalanan makanan dalam badan, versi ringkas. Save 🍽️\n\nSumber: NIDDK; Johns Hopkins Medicine.\n" + DISC + "\n\n#Momyizz #UsusSihat #Pemakanan"},
+ "teks": [
+  "Info ringkas: kebanyakan nutrien daripada makanan diserap di usus kecil, sebelum dibawa oleh darah ke seluruh badan. (NIDDK) 🍽️",
+  "Soalan jujur: perut korang selalu rasa macam mana lepas makan? 🤔\n\n😌 Selesa\n🎈 Kembung\n😴 Mengantuk teruk\n🔥 Pedih / panas\n\nKomen nombor emoji korang 👇",
+  "Tips bantu penghadaman setiap hari 💡\n\n✅ Kunyah perlahan, letak sudu antara suapan\n✅ Minum air kosong sepanjang hari\n✅ Tambah sayur dalam setiap hidangan\n✅ Jalan 10 minit lepas makan\n\nKecil, tapi usus rasa bezanya. 🌿",
+  "Info penting: sakit perut berulang, perubahan tabiat buang air yang berpanjangan, darah dalam najis atau berat turun tanpa sebab perlu diperiksa doktor. ⚠️\n\nJangan teka sendiri dengan produk.",
+ ],
+ "wa": {"tajuk": "BodyKey Nutritious Meal Shake (5g serat prebiotik)", "nota": "Ruang tertutup. Mula dengan skrip soalan prospek BodyKey. Jangan tulis harga. Keputusan berbeza mengikut individu.",
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz mula Siri Usus Sihat. Ramai tanya macam mana nak pastikan dapat nutrien cukup bila sibuk.\n\nUntuk hari yang tak sempat makan dengan lengkap, Momyizz guna *BodyKey by Nutrilite Nutritious Meal Shake* (perisa pisang):\n• 5g serat prebiotik sehidangan\n• 17g protein tumbuhan dari soya & chia\n• 20 vitamin & mineral\n• Hanya 6g gula, GI rendah\n\nIni pelengkap, bukan pengganti makanan sebenar. Keputusan berbeza mengikut individu. Harga terkini Momyizz maklumkan bila [nama] berminat. 💛\n\n" + DISC}},
+
+{"d": "U2", "ep": None, "siri": "Siri Usus Sihat", "tema": "Probiotik vs prebiotik vs makanan fermentasi",
+ "video": {"tajuk": "Probiotik, prebiotik… apa bezanya?", "nota": CERITA + " " + USUS_NOTA + " Sticker: 14-blazer-tutup-mulut.",
+  "babak": [
+   ("0–3s", "Momyizz pegang tempe & yogurt, muka keliru", "Probiotik, prebiotik… sama ke? 🤔"),
+   ("3–15s", "Animasi bakteria baik bergerak (Flow)", "Probiotik ialah mikroorganisma hidup yang memberi manfaat bila diambil dalam jumlah mencukupi."),
+   ("15–28s", "Animasi serat menjadi 'makanan' bakteria", "Prebiotik pula 'makanan' untuk bakteria baik, contohnya serat inulin dalam bawang, pisang dan akar chicory."),
+   ("28–40s", "Pinggan: tempe, yogurt, pisang, bawang", "Makanan fermentasi seperti tempe dan yogurt pun bagus, tapi tak semuanya masih ada bakteria hidup selepas dimasak."),
+   ("40–45s", "Momyizz ke kamera", "Bakteria baik perlukan makanan juga 😉 | " + DISC),
+  ],
+  "caption": "Probiotik vs prebiotik vs makanan fermentasi, versi mudah 🦠🍌\n\nSumber: ISAPP; NIH NCCIH.\n" + DISC + "\n\n#Momyizz #Probiotik #UsusSihat"},
+ "carousel": {"tajuk": "Probiotik vs prebiotik",
+  "slaid": [
+   "PROBIOTIK vs PREBIOTIK 🦠🍌\nBeza dalam 1 minit",
+   "PROBIOTIK\nMikroorganisma hidup yang memberi manfaat kesihatan bila diambil dalam jumlah mencukupi.\n🟢 (ISAPP / FAO-WHO)",
+   "PREBIOTIK\n'Makanan' yang digunakan oleh bakteria baik dalam usus. Contoh: inulin, FOS.\n🟢 (ISAPP)",
+   "SUMBER PREBIOTIK\nBawang, bawang putih, pisang, oat, kekacang.",
+   "MAKANAN FERMENTASI\nTempe, yogurt, kefir. Kesan berbeza ikut jenis; dimasak = bakteria mungkin tak hidup.\n🟠 Kajian berbeza-beza",
+   "INGAT\nKesan probiotik bergantung pada strain. Bukan semua sama.\nSave 🌿\n\n" + DISC,
+  ],
+  "caption": "Probiotik vs prebiotik. Save & kongsi 🦠\n\nSumber: ISAPP; NIH National Center for Complementary and Integrative Health.\n" + DISC + "\n\n#Momyizz #Probiotik #Prebiotik"},
+ "teks": [
+  "Info ringkas: kesan probiotik bergantung pada jenis strain. Satu strain mungkin berbeza kesannya daripada strain lain, jadi bukan semua probiotik sama. (NIH NCCIH) 🦠",
+  "Soalan: makanan fermentasi apa yang selalu ada di rumah korang? 🥢\n\n🫘 Tempe\n🥛 Yogurt\n🥬 Jeruk / kimchi\n🙈 Tak ada langsung\n\nMomyizz: tempe hampir setiap minggu! 😄",
+  "Tips tambah prebiotik dalam menu harian 💡\n\n✅ Tambah bawang & bawang putih dalam masakan\n✅ Pisang sebagai snek pagi\n✅ Oat untuk sarapan\n✅ Kekacang dalam sup atau gulai\n\nBakteria baik pun perlu 'makan'. 🍌",
+  "Info penting: baru habis makan antibiotik? Ubat ini boleh mengganggu bakteria usus. ⚠️\n\nHabiskan dos seperti diarah doktor. Kalau ada lemah imun atau sakit serius, tanya doktor dulu sebelum ambil apa-apa probiotik. (NIH NCCIH)",
+ ],
+ "wa": {"tajuk": "Nutrilite Botanical Beverage Mix with Probiotics", "nota": "Ruang tertutup. Mula dengan soalan (keadaan, halangan). Tiada dakwaan rawat / baiki usus. Jangan tulis harga.",
+  "t": "Hai [nama] 😊\n\nHari ni Momyizz kongsi pasal probiotik. Ada yang tanya probiotik apa Momyizz ambil.\n\nMomyizz guna *Nutrilite Botanical Beverage Mix Chicory Root Extract with Probiotics*:\n• 6.3 bilion bakteria baik (CFU) sepaket\n• 5 strain probiotik, tahan asid perut & hempedu\n• Ada serat prebiotik inulin dari akar chicory\n• 1 paket sehari: terus atas lidah atau campur minuman sejuk\n• Halal IFANCA, tak perlu simpan dalam peti\n\nIni pelengkap kepada makanan seimbang, bukan ubat. Harga terkini Momyizz maklumkan bila [nama] berminat. 💛\n\n" + DISC}},
+
+{"d": "U3", "ep": None, "siri": "Siri Usus Sihat", "tema": "Pemakanan usus sihat: 30 jenis tumbuhan seminggu",
+ "video": {"tajuk": "Cabaran 30 jenis tumbuhan seminggu", "nota": CERITA + " " + USUS_NOTA + " Sticker: 18-blazer-semangat.",
+  "babak": [
+   ("0–3s", "Momyizz kira sayur & rempah di dapur", "Seminggu, berapa jenis tumbuhan korang makan? 🥦"),
+   ("3–15s", "Teks atas skrin + Momyizz terkejut", "Kajian American Gut Project (2018): yang makan 30 jenis tumbuhan seminggu ada bakteria usus lebih pelbagai."),
+   ("15–28s", "Momyizz masukkan rempah, kekacang, bijirin ke dalam periuk", "Rempah, herba, kekacang, bijirin dan buah semuanya dikira!"),
+   ("28–40s", "Momyizz tanda senarai di peti sejuk", "Momyizz cuba tambah 3 jenis baru minggu ni."),
+   ("40–45s", "Momyizz ke kamera", "Pelbagai lebih penting daripada mahal 💛 | " + DISC),
+  ],
+  "caption": "Cabaran 30 jenis tumbuhan seminggu. Siapa nak join? 👇\n\nSumber: McDonald et al. (2018) mSystems.\n" + DISC + "\n\n#Momyizz #UsusSihat #Serat"},
+ "carousel": {"tajuk": "Apa yang dikira '30 tumbuhan'",
+  "slaid": [
+   "30 JENIS TUMBUHAN SEMINGGU 🌿\nApa yang dikira?",
+   "KAJIAN 2018\nYang makan 30+ jenis tumbuhan seminggu ada bakteria usus lebih pelbagai berbanding 10 jenis ke bawah.\n🟠 Kajian pemerhatian",
+   "SAYUR & BUAH\nSetiap jenis dikira satu: bayam, kangkung, betik, pisang…",
+   "KEKACANG & BIJIRIN\nDal, kacang merah, tempe, oat, beras perang",
+   "REMPAH & HERBA\nKunyit, halia, serai, daun kari: semua dikira!",
+   "MULA KECIL\nTambah 3 jenis baru minggu ni.\nSave & cuba 🌿\n\n" + DISC,
+  ],
+  "caption": "Apa yang dikira dalam '30 jenis tumbuhan seminggu'. Save 🌿\n\nSumber: McDonald et al. (2018) mSystems (American Gut Project); WHO (2023) serat.\n" + DISC + "\n\n#Momyizz #UsusSihat #MakananSihat"},
+ "teks": [
+  "Info ringkas: WHO (2023) saran dewasa ambil sekurang-kurangnya 25g serat semula jadi sehari daripada makanan. Serat ialah 'makanan' utama bakteria baik dalam usus. 🌾",
+  "Soalan: kalau korang nak tambah satu jenis tumbuhan baru minggu ni, korang pilih apa? 🥬\n\n🫘 Kekacang\n🍠 Ubi\n🌿 Ulam\n🍈 Buah tempatan\n\nKomen pilihan korang 👇",
+  "Tips capai 30 jenis tumbuhan tanpa pening 💡\n\n✅ Beli satu sayur / buah yang jarang dibeli setiap minggu\n✅ Campur 3 jenis kekacang dalam satu sup\n✅ Guna rempah & herba berbeza setiap hari\n✅ Tabur bijirin atau kacang atas sarapan\n\nPelbagai lebih penting daripada banyak. 💛",
+  "Info penting: tambah serat secara mendadak boleh buat perut kembung. ⚠️\n\nTambah sedikit demi sedikit dan minum air cukup. Sakit perut teruk atau berpanjangan, jumpa doktor.",
+ ],
+ "wa": {"tajuk": "Nutrilite Mixed FOS with Grape Ferment (prebiotik)", "nota": "Ruang tertutup. Mula dengan soalan halangan (susah cukupkan serat?). Tiada janji kurus. Jangan tulis harga. Sudut berat: 'Keputusan berbeza mengikut individu'.",
+  "t": "Hai [nama] 😊\n\nMinggu ni Momyizz buat cabaran 30 jenis tumbuhan seminggu untuk usus. Tapi jujur, ada hari memang susah nak cukupkan serat. 😅\n\nUntuk hari macam tu, ada prebiotik baharu: *Nutrilite Mixed FOS with Grape Ferment*\n• 2 serat larut (FOS + maltodekstrin tahan cerna) + grape ferment\n• Menyokong kesihatan usus\n• Rasa sedap\n\nMakanan tetap sumber utama serat. Keputusan berbeza mengikut individu. Harga terkini Momyizz maklumkan bila [nama] berminat. 💛\n\n" + DISC}},
+
+{"d": "U4", "ep": None, "siri": "Siri Usus Sihat", "tema": "Dinding usus & 'leaky gut': fakta vs viral",
+ "video": {"tajuk": "'Leaky gut' tengah viral. Ini faktanya", "nota": CERITA + " " + USUS_NOTA + " Sticker: 04-satin-tutup-mulut.",
+  "babak": [
+   ("0–3s", "Telefon tunjuk video viral 'leaky gut', Momyizz kerut dahi", "'Leaky gut' punca semua penyakit? Betul ke? 🤔"),
+   ("3–15s", "Animasi dinding usus sebagai penghalang (Flow)", "Dinding usus memang berfungsi sebagai penghalang: serap nutrien, halang bahan yang tak sepatutnya masuk."),
+   ("15–28s", "Momyizz bercakap ke kamera", "Kebolehtelapan usus yang tinggi dikaji dalam penyakit tertentu. Tapi 'leaky gut syndrome' belum diiktiraf sebagai diagnosis perubatan."),
+   ("28–40s", "Momyizz susun serat, air, tidur, jalan kaki", "Yang kita boleh buat: serat cukup, kurang alkohol, jangan salah guna ubat tahan sakit, tidur cukup."),
+   ("40–45s", "Momyizz ke kamera", "Ada simptom berpanjangan? Jumpa doktor, bukan teka 💛 | " + DISC),
+  ],
+  "caption": "'Leaky gut': fakta vs viral. Simpan untuk rujukan 🌿\n\nSumber: Harvard Health Publishing; NHS.\n" + DISC + "\n\n#Momyizz #UsusSihat #FaktaBukanPanik"},
+ "carousel": {"tajuk": "Dinding usus: fakta vs viral",
+  "slaid": [
+   "'LEAKY GUT' 🧱\nFakta vs viral",
+   "FAKTA\nDinding usus ialah penghalang: serap nutrien, halang bahan yang tak sepatutnya masuk.\n🟢 Terbukti",
+   "KAJIAN\nKebolehtelapan usus yang tinggi dikaji dalam penyakit seperti seliak & Crohn.\n🔵 Masih dikaji",
+   "VIRAL\n'Leaky gut syndrome' punca semua penyakit: belum diiktiraf sebagai diagnosis perubatan.\n🔴 Bukti belum cukup",
+   "AMALAN SOKONG USUS\nSerat cukup · kurang alkohol · ubat tahan sakit ikut dos · tidur cukup · urus stres",
+   "SIMPTOM BERPANJANGAN?\nJumpa doktor untuk pemeriksaan.\nSave 🌿\n\n" + DISC,
+  ],
+  "caption": "Dinding usus & 'leaky gut': fakta vs viral 🧱\n\nSumber: Harvard Health Publishing; NHS (ubat tahan sakit NSAID).\n" + DISC + "\n\n#Momyizz #UsusSihat #MitosAtauFakta"},
+ "teks": [
+  "Info ringkas: 'leaky gut syndrome' tengah viral, tapi ia belum diiktiraf sebagai diagnosis perubatan. Yang dikaji saintis ialah kebolehtelapan usus dalam penyakit tertentu. 🔬",
+  "Soalan jujur: korang pernah beli produk sebab video 'leaky gut' viral? 🙈\n\n✅ Pernah\n🤔 Hampir\n❌ Tak pernah\n\nMomyizz pernah hampir. Sekarang semak fakta dulu. 😅",
+  "Tips amalan harian untuk usus 💡\n\n✅ Serat dari sayur, buah & kekacang setiap hari\n✅ Ubat tahan sakit ikut dos, jangan ambil sesuka hati\n✅ Tidur 7 jam atau lebih\n✅ Gerak setiap hari\n\nTabiat kecil, usus rasa bezanya. 🌿",
+  "Info penting: ubat tahan sakit jenis NSAID (contoh ibuprofen) yang diambil kerap boleh mengganggu lapisan perut dan usus. ⚠️\n\nIkut dos, makan selepas makanan, dan tanya doktor atau ahli farmasi jika perlu ambil lama. (NHS)",
+ ],
+ "wa": {"tajuk": "Nutrilite Botanical Beverage Mix with Probiotics (pelengkap rutin usus)", "nota": "Ruang tertutup. JANGAN dakwa baiki leaky gut / dinding usus. Mula dengan skrip soalan. Simptom berpanjangan: rujuk doktor. Jangan tulis harga.",
+  "t": "Hai [nama] 😊\n\nHari ni Momyizz kongsi fakta pasal 'leaky gut' yang viral. Jujur, tiada produk yang boleh 'baiki leaky gut' dalam sekelip mata. 🙏\n\nYang Momyizz amalkan: serat cukup, tidur cukup, gerak setiap hari. Sebagai pelengkap rutin, Momyizz ambil *Nutrilite Botanical Beverage Mix with Probiotics*:\n• 6.3 bilion bakteria baik (CFU) sepaket\n• Ada serat prebiotik inulin\n• 1 paket sehari\n\nKalau [nama] ada simptom perut berpanjangan, jumpa doktor dulu ya. Harga terkini Momyizz maklumkan bila [nama] berminat. 💛\n\n" + DISC}},
+
+{"d": "U5", "ep": None, "siri": "Siri Usus Sihat", "tema": "Protein tumbuhan & usus: soya, tempe, kekacang",
+ "video": {"tajuk": "Tempe & soya: protein yang mesra usus", "nota": CERITA + " " + USUS_NOTA + " Sticker: 19-blazer-thumbs-up. Akhir: teaser probiotik khas wanita.",
+  "babak": [
+   ("0–3s", "Tempe goreng di kuali, bunyi mendesis", "Protein tak semestinya daging je 🫘"),
+   ("3–15s", "Momyizz bercakap ke kamera", "Soya ialah protein tumbuhan dengan 9 asid amino perlu. Tempe, tauhu dan kekacang pula datang bersama serat."),
+   ("15–28s", "Pinggan: tempe, dal, sayur, nasi perang", "Gabungan protein + serat = kenyang lebih lama dan bakteria baik pun dapat 'makan'."),
+   ("28–40s", "Momyizz goncang minuman soya di pagi hari", "Hari tak sempat masak? Momyizz ada pilihan protein soya yang cepat."),
+   ("40–45s", "Momyizz ke kamera", "Episod seterusnya: probiotik khas untuk wanita 💗 | " + DISC),
+  ],
+  "caption": "Protein tumbuhan yang mesra usus: soya, tempe, kekacang 🫘\n\nSumber: NIH; KKM Pinggan Sihat Malaysia.\n" + DISC + "\n\n#Momyizz #ProteinTumbuhan #UsusSihat"},
+ "carousel": {"tajuk": "Protein tumbuhan tempatan",
+  "slaid": [
+   "PROTEIN TUMBUHAN 🫘\nMesra usus, mesra poket",
+   "TEMPE\nSoya yang ditapai: protein + serat dalam satu.",
+   "TAUHU\nProtein soya yang mudah dimasak dalam sup atau goreng.",
+   "KEKACANG\nDal, kacang merah, kacang kuda: protein + serat.",
+   "PINGGAN SIHAT (KKM)\n¼ protein · ¼ bijirin penuh · ½ sayur & buah",
+   "AKAN DATANG\nProbiotik khas untuk wanita 💗\nSave & follow 🌿\n\n" + DISC,
+  ],
+  "caption": "Protein tumbuhan tempatan untuk usus sihat. Save 🫘\n\nSumber: KKM, Garis Panduan Diet Malaysia 2020.\n" + DISC + "\n\n#Momyizz #ProteinTumbuhan #PingganSihat"},
+ "teks": [
+  "Info ringkas: tempe, tauhu dan kekacang memberi protein dan serat sekali gus. Serat itu jadi 'makanan' bakteria baik dalam usus. 🫘🌿",
+  "Soalan: protein tumbuhan mana yang paling selalu ada dalam menu keluarga korang? 🍽️\n\n🫘 Tempe\n⬜ Tauhu\n🥣 Dal / kacang\n🙈 Jarang sangat\n\nKomen 👇",
+  "Tips masak tempe yang anak suka 💡\n\n✅ Potong nipis, goreng garing dengan sedikit garam & kunyit\n✅ Tempe masak kicap manis kurang manis\n✅ Tumis tempe dengan sayur & cili benggala\n✅ Hancurkan dalam nasi goreng\n\nProtein + serat, bajet mesra. 💛",
+  "Info penting: ada alahan soya? ⚠️\n\nBaca label setiap produk, termasuk minuman protein dan makanan diproses. Gatal, bengkak bibir atau sesak nafas selepas makan ialah kecemasan, terus ke hospital.",
+ ],
+ "wa": {"tajuk": "Nutrilite Soy Protein Drink", "nota": "Ruang tertutup. Mula dengan skrip soalan protein. Jangan tulis harga. Alahan soya: elak.",
+  "t": "Hai [nama] 😊\n\nHari ni Momyizz kongsi pasal protein tumbuhan untuk usus. Ada yang tanya, macam mana nak tambah protein bila tak sempat masak?\n\nMomyizz guna *NUTRILITE Soy Protein Drink*:\n• Protein tumbuhan dengan 9 asid amino perlu\n• Bebas laktosa\n• Tanpa pemanis & perisa tiruan\n\nMakanan sebenar tetap utama, ini untuk hari kalut. Ada alahan soya, elakkan ya. Harga terkini Momyizz maklumkan bila [nama] berminat. 💛\n\n" + DISC}},
+]
+
+MG_TREND.update({
+"U1": [
+ {"tajuk": "3 tanda usus perlukan perhatian", "sticker": "13-blazer-tunjuk-atas-kanan", "babak": [
+   ("0–3s", "HOOK", "Usus korang 'bercakap'. Dengar tak? 👂", "Pop"),
+   ("3–9s", "CHECKLIST baris 1", "✓ Kerap kembung lepas makan", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 2", "✓ Tabiat buang air tak menentu", "Baris muncul"),
+   ("15–22s", "CHECKLIST baris 3 + NOTA_TANGAN", "✓ Cepat lapar walaupun dah makan\nBerpanjangan? Jumpa doktor", "Baris + tulisan tangan"),
+   MG_END],
+  "caption": "3 tanda usus perlukan perhatian. Korang ada yang mana? 👇\n\n" + DISC + "\n\n#Momyizz #UsusSihat"},
+ {"tajuk": "Mitos vs fakta: 'Makan banyak = nutrien banyak'", "sticker": "04-satin-tutup-mulut", "babak": [
+   ("0–3s", "HOOK", "\"Makan banyak, mesti nutrien cukup.\" Betul ke? 🤔", "Pop"),
+   ("3–8s", "BIG_WORD", "BELUM TENTU", "Pop besar"),
+   ("8–15s", "KAD_FAKTA + LABEL_BUKTI (Terbukti)", "Nutrien perlu dicerna & diserap dulu, kebanyakannya di usus kecil. (NIDDK)", "Kad naik"),
+   ("15–22s", "CHECKLIST", "Bantu usus:\n✓ Kunyah perlahan\n✓ Serat & air cukup", "Baris satu per satu"),
+   MG_END],
+  "caption": "Bukan berapa banyak, tapi berapa yang diserap 🌿\n\nSumber: NIDDK.\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #UsusSihat"}],
+"U2": [
+ {"tajuk": "5 sumber prebiotik di dapur", "sticker": "16-blazer-tunjuk-kanan", "babak": [
+   ("0–3s", "HOOK", "5 'makanan' bakteria baik yang ada di dapur 🍌", "Pop"),
+   ("3–9s", "CHECKLIST baris 1–2", "✓ Bawang & bawang putih\n✓ Pisang", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 3–4", "✓ Oat\n✓ Kekacang", "Baris muncul"),
+   ("15–22s", "CHECKLIST baris 5", "✓ Ubi & keledek", "Baris muncul"),
+   MG_END],
+  "caption": "5 sumber prebiotik yang mudah dapat 🍌 Save!\n\n#Momyizz #Prebiotik #UsusSihat"},
+ {"tajuk": "Mitos vs fakta: 'Semua probiotik sama je'", "sticker": "14-blazer-tutup-mulut", "babak": [
+   ("0–3s", "HOOK", "\"Semua probiotik sama je.\" 🤔", "Pop"),
+   ("3–8s", "BIG_WORD", "MITOS ❌", "Pop besar"),
+   ("8–15s", "KAD_FAKTA + LABEL_BUKTI", "Kesan probiotik bergantung pada strain dan jumlah. (NIH NCCIH)", "Kad naik"),
+   ("15–22s", "NOTA_TANGAN", "Lemah imun / sakit serius? Tanya doktor dulu", "Tulisan tangan"),
+   MG_END],
+  "caption": "Probiotik bukan semua sama 🦠\n\nSumber: NIH NCCIH.\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #Probiotik"}],
+"U3": [
+ {"tajuk": "Kira 30 tumbuhan dengan 4 kategori", "sticker": "18-blazer-semangat", "babak": [
+   ("0–3s", "HOOK", "30 jenis tumbuhan seminggu? Senang kalau tahu caranya 🌿", "Pop"),
+   ("3–8s", "KAUNTER + teks", "Sayur & buah: 15 jenis", "Angka kira naik"),
+   ("8–13s", "KAUNTER + teks", "Kekacang & bijirin: 8 jenis", "Angka kira naik"),
+   ("13–18s", "KAUNTER + teks", "Rempah & herba: 7 jenis", "Angka kira naik"),
+   ("18–22s", "BIG_WORD", "= 30 ✅", "Pop besar"),
+   MG_END],
+  "caption": "Cara kira 30 jenis tumbuhan seminggu 🌿 Save!\n\n#Momyizz #UsusSihat #Serat"},
+ {"tajuk": "Perut kembung bila tambah serat?", "sticker": "10-satin-terkejut-pipi", "babak": [
+   ("0–3s", "HOOK", "Tambah sayur, perut terus kembung? 😣", "Pop"),
+   ("3–9s", "KAD_FAKTA", "Punca biasa: tambah serat terlalu banyak, terlalu cepat", "Kad naik"),
+   ("9–16s", "CHECKLIST", "Penyelesaian:\n✓ Tambah 1 hidangan seminggu\n✓ Minum air cukup", "Baris satu per satu"),
+   ("16–22s", "CHECKLIST", "✓ Kunyah perlahan\nSakit berpanjangan? Jumpa doktor", "Baris muncul"),
+   MG_END],
+  "caption": "Serat bagus, tapi perlahan-lahan 🌿\n\n" + DISC + "\n\n#Momyizz #UsusSihat"}],
+"U4": [
+ {"tajuk": "5 amalan harian untuk dinding usus", "sticker": "19-blazer-thumbs-up", "babak": [
+   ("0–3s", "HOOK", "5 amalan harian yang usus suka 🧱", "Pop"),
+   ("3–8s", "CHECKLIST baris 1–2", "✓ Serat setiap hidangan\n✓ Air kosong cukup", "Baris muncul"),
+   ("8–14s", "CHECKLIST baris 3–4", "✓ Tidur 7 jam+\n✓ Gerak setiap hari", "Baris muncul"),
+   ("14–22s", "CHECKLIST baris 5", "✓ Ubat tahan sakit ikut dos", "Baris muncul"),
+   MG_END],
+  "caption": "5 amalan harian yang usus suka 🧱 Save!\n\n#Momyizz #UsusSihat"},
+ {"tajuk": "Mitos vs fakta: 'Leaky gut punca semua penyakit'", "sticker": "04-satin-tutup-mulut", "babak": [
+   ("0–3s", "HOOK", "\"Leaky gut punca semua penyakit!\" 🤔", "Pop"),
+   ("3–8s", "BIG_WORD", "BELUM TERBUKTI ⚠️", "Pop besar"),
+   ("8–15s", "KAD_FAKTA + LABEL_BUKTI (Bukti belum cukup)", "'Leaky gut syndrome' belum diiktiraf sebagai diagnosis perubatan.", "Kad naik"),
+   ("15–22s", "NOTA_TANGAN", "Simptom berpanjangan → jumpa doktor, bukan beli produk viral", "Tulisan tangan"),
+   MG_END],
+  "caption": "Viral tak semestinya fakta 🧱\n\nSumber: Harvard Health Publishing.\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #UsusSihat"}],
+"U5": [
+ {"tajuk": "4 protein tumbuhan bajet mesra", "sticker": "08-satin-thumbs-up", "babak": [
+   ("0–3s", "HOOK", "4 protein tumbuhan yang mesra poket 🫘", "Pop"),
+   ("3–9s", "CHECKLIST baris 1–2", "✓ Tempe\n✓ Tauhu", "Baris muncul"),
+   ("9–15s", "CHECKLIST baris 3–4", "✓ Dal\n✓ Kacang merah", "Baris muncul"),
+   ("15–22s", "NOTA_TANGAN", "Bonus: semua ada serat untuk usus 🌿", "Tulisan tangan"),
+   MG_END],
+  "caption": "4 protein tumbuhan bajet mesra 🫘 Save!\n\n#Momyizz #ProteinTumbuhan"},
+ {"tajuk": "Mitos vs fakta: 'Protein tumbuhan tak lengkap'", "sticker": "03-satin-tunjuk-atas", "babak": [
+   ("0–3s", "HOOK", "\"Protein tumbuhan tak lengkap.\" Betul ke? 🤔", "Pop"),
+   ("3–8s", "BIG_WORD", "TAK SEMUA", "Pop besar"),
+   ("8–15s", "KAD_FAKTA", "Soya ialah protein tumbuhan yang ada 9 asid amino perlu.", "Kad naik"),
+   ("15–22s", "NOTA_TANGAN", "Pelbagaikan sumber protein setiap hari 💛", "Tulisan tangan"),
+   MG_END],
+  "caption": "Protein tumbuhan pun boleh lengkap 🫘\n\n" + DISC + "\n\n#Momyizz #MitosAtauFakta #ProteinTumbuhan"}],
+})
+
+TRENDING_BARU += SIRI_USUS
+PRODUK_TREND.update({
+ "U1": ("bodykey", "Makan sihat tapi rasa tak bermaya; nak nutrien cukup bila sibuk"),
+ "U2": ("probiotik", "Keliru pasal probiotik; nak rutin usus yang mudah"),
+ "U3": ("fos", "Susah cukupkan serat setiap hari"),
+ "U4": ("probiotik", "Terpengaruh video 'leaky gut'; nak amalan usus yang betul"),
+ "U5": ("soy", "Nak tambah protein tanpa terlalu banyak daging"),
+})
+# Siri Usus menggantikan hari rancangan 21, 23, 25, 26, 28 (asal 16, 17, 22, 25, 27 -> boleh guna bulan depan).
+SUSUNAN = [1, 2, 3, 4, 5, 6, 7,
+           "T1", 8, "T2", 9, 10, "T3", 11, "N1", 12, 13, "N2", 14, "T4", "U1", "T5", "U2", "N4", "U3", "U4", "T6", "U5", "T7", 30]
 
 
 _susun30()

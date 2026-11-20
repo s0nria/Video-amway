@@ -270,6 +270,291 @@ Follow Momyizz untuk tips setiap hari
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
 
+## Hari 23 · 🔥 Siri Usus Sihat · Probiotik vs prebiotik vs makanan fermentasi
+
+> 🧩 **Produk penyelesai masalah:** NUTRILITE Botanical Beverage Mix Chicory Root Extract with Probiotics · **Masalah:** Keliru pasal probiotik; nak rutin usus yang mudah
+> **Key selling:** 6.3 bilion bakteria baik (CFU) sepaket · 5 strain probiotik · tahan asid perut & hempedu · ada serat prebiotik inulin · 1 paket sehari · halal IFANCA · tak perlu peti sejuk · **Gambar:** ``
+
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Probiotik, prebiotik… apa bezanya?
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri Usus Sihat. Guna istilah 'otak kedua'. Tiada dakwaan baiki leaky gut / rawat penyakit. Sticker: 14-blazer-tutup-mulut.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Momyizz pegang tempe & yogurt, muka keliru | Probiotik, prebiotik… sama ke? 🤔 |
+| 3–15s | Animasi bakteria baik bergerak (Flow) | Probiotik ialah mikroorganisma hidup yang memberi manfaat bila diambil dalam jumlah mencukupi. |
+| 15–28s | Animasi serat menjadi 'makanan' bakteria | Prebiotik pula 'makanan' untuk bakteria baik, contohnya serat inulin dalam bawang, pisang dan akar chicory. |
+| 28–40s | Pinggan: tempe, yogurt, pisang, bawang | Makanan fermentasi seperti tempe dan yogurt pun bagus, tapi tak semuanya masih ada bakteria hidup selepas dimasak. |
+| 40–45s | Momyizz ke kamera | Bakteria baik perlukan makanan juga 😉 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+
+**Caption video**
+
+```
+Probiotik vs prebiotik vs makanan fermentasi, versi mudah 🦠🍌
+
+Sumber: ISAPP; NIH NCCIH.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Probiotik #UsusSihat
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 5 sumber prebiotik di dapur
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 16-blazer-tunjuk-kanan.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | 5 'makanan' bakteria baik yang ada di dapur 🍌 | Pop |
+| 3–9s | CHECKLIST baris 1–2 | ✓ Bawang & bawang putih<br>✓ Pisang | Baris muncul |
+| 9–15s | CHECKLIST baris 3–4 | ✓ Oat<br>✓ Kekacang | Baris muncul |
+| 15–22s | CHECKLIST baris 5 | ✓ Ubi & keledek | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+5 sumber prebiotik yang mudah dapat 🍌 Save!
+
+#Momyizz #Prebiotik #UsusSihat
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Semua probiotik sama je'
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 14-blazer-tutup-mulut.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | "Semua probiotik sama je." 🤔 | Pop |
+| 3–8s | BIG_WORD | MITOS ❌ | Pop besar |
+| 8–15s | KAD_FAKTA + LABEL_BUKTI | Kesan probiotik bergantung pada strain dan jumlah. (NIH NCCIH) | Kad naik |
+| 15–22s | NOTA_TANGAN | Lemah imun / sakit serius? Tanya doktor dulu | Tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Probiotik bukan semua sama 🦠
+
+Sumber: NIH NCCIH.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #MitosAtauFakta #Probiotik
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Probiotik vs prebiotik
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+PROBIOTIK vs PREBIOTIK 🦠🍌
+Beza dalam 1 minit
+```
+
+**Slaid 2**
+
+```
+PROBIOTIK
+Mikroorganisma hidup yang memberi manfaat kesihatan bila diambil dalam jumlah mencukupi.
+🟢 (ISAPP / FAO-WHO)
+```
+
+**Slaid 3**
+
+```
+PREBIOTIK
+'Makanan' yang digunakan oleh bakteria baik dalam usus. Contoh: inulin, FOS.
+🟢 (ISAPP)
+```
+
+**Slaid 4**
+
+```
+SUMBER PREBIOTIK
+Bawang, bawang putih, pisang, oat, kekacang.
+```
+
+**Slaid 5**
+
+```
+MAKANAN FERMENTASI
+Tempe, yogurt, kefir. Kesan berbeza ikut jenis; dimasak = bakteria mungkin tak hidup.
+🟠 Kajian berbeza-beza
+```
+
+**Slaid 6**
+
+```
+INGAT
+Kesan probiotik bergantung pada strain. Bukan semua sama.
+Save 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Probiotik vs prebiotik. Save & kongsi 🦠
+
+Sumber: ISAPP; NIH National Center for Complementary and Integrative Health.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #Probiotik #Prebiotik
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (165 / 500 aksara)
+
+```
+Info ringkas: kesan probiotik bergantung pada jenis strain. Satu strain mungkin berbeza kesannya daripada strain lain, jadi bukan semua probiotik sama. (NIH NCCIH) 🦠
+```
+
+📘 *Versi FB latar warna* (79 / 130 aksara)
+
+```
+Probiotik = bakteria baik hidup. Prebiotik = 'makanan' untuk bakteria baik 🦠🍌
+```
+
+**16:00 · Pertanyaan** (159 / 500 aksara)
+
+```
+Soalan: makanan fermentasi apa yang selalu ada di rumah korang? 🥢
+
+🫘 Tempe
+🥛 Yogurt
+🥬 Jeruk / kimchi
+🙈 Tak ada langsung
+
+Momyizz: tempe hampir setiap minggu! 😄
+```
+
+📘 *Versi FB latar warna* (80 / 130 aksara)
+
+```
+Makanan fermentasi apa yang selalu ada di rumah korang? Tempe, yogurt, jeruk? 🥢
+```
+
+**18:30 · Tips praktikal** (202 / 500 aksara)
+
+```
+Tips tambah prebiotik dalam menu harian 💡
+
+✅ Tambah bawang & bawang putih dalam masakan
+✅ Pisang sebagai snek pagi
+✅ Oat untuk sarapan
+✅ Kekacang dalam sup atau gulai
+
+Bakteria baik pun perlu 'makan'. 🍌
+```
+
+**21:00 · Info penting / alert** (226 / 500 aksara)
+
+```
+Info penting: baru habis makan antibiotik? Ubat ini boleh mengganggu bakteria usus. ⚠️
+
+Habiskan dos seperti diarah doktor. Kalau ada lemah imun atau sakit serius, tanya doktor dulu sebelum ambil apa-apa probiotik. (NIH NCCIH)
+```
+
+📘 *Versi FB latar warna* (82 / 130 aksara)
+
+```
+Baru habis antibiotik? Habiskan dos & tanya doktor dulu sebelum ambil probiotik ⚠️
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips tambah prebiotik dalam menu harian
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+TAMBAH PREBIOTIK DALAM MENU HARIAN
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Tambah bawang & bawang putih dalam masakan
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Pisang sebagai snek pagi
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Oat untuk sarapan
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Kekacang dalam sup atau gulai
+```
+
+**Slaid 6**
+
+```
+Bakteria baik pun perlu 'makan'. 🍌
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
+### 💬 WhatsApp / group tertutup: Nutrilite Botanical Beverage Mix with Probiotics
+
+> Ruang tertutup. Mula dengan soalan (keadaan, halangan). Tiada dakwaan rawat / baiki usus. Jangan tulis harga.
+
+```
+Hai [nama] 😊
+
+Hari ni Momyizz kongsi pasal probiotik. Ada yang tanya probiotik apa Momyizz ambil.
+
+Momyizz guna *Nutrilite Botanical Beverage Mix Chicory Root Extract with Probiotics*:
+• 6.3 bilion bakteria baik (CFU) sepaket
+• 5 strain probiotik, tahan asid perut & hempedu
+• Ada serat prebiotik inulin dari akar chicory
+• 1 paket sehari: terus atas lidah atau campur minuman sejuk
+• Halal IFANCA, tak perlu simpan dalam peti
+
+Ini pelengkap kepada makanan seimbang, bukan ubat. Harga terkini Momyizz maklumkan bila [nama] berminat. 💛
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+- [ ] 💬 WhatsApp / group tertutup
+
 ## Hari 24 · 🔥 Siri trending: Tidur, Otak & Usus · Sarapan untuk otak: telur, oat & bijirin
 
 > 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Sarapan otak tapi pagi tak sempat masak
@@ -532,6 +817,569 @@ Follow Momyizz untuk tips setiap hari
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+
+## Hari 25 · 🔥 Siri Usus Sihat · Pemakanan usus sihat: 30 jenis tumbuhan seminggu
+
+> 🧩 **Produk penyelesai masalah:** NUTRILITE Mixed FOS with Grape Ferment (BAHARU) · **Masalah:** Susah cukupkan serat setiap hari
+> **Key selling:** prebiotik: 2 serat larut (FOS + maltodekstrin tahan cerna) + grape ferment · menyokong berat badan sihat & kesihatan usus · rasa sedap · **Gambar:** ``
+
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Cabaran 30 jenis tumbuhan seminggu
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri Usus Sihat. Guna istilah 'otak kedua'. Tiada dakwaan baiki leaky gut / rawat penyakit. Sticker: 18-blazer-semangat.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Momyizz kira sayur & rempah di dapur | Seminggu, berapa jenis tumbuhan korang makan? 🥦 |
+| 3–15s | Teks atas skrin + Momyizz terkejut | Kajian American Gut Project (2018): yang makan 30 jenis tumbuhan seminggu ada bakteria usus lebih pelbagai. |
+| 15–28s | Momyizz masukkan rempah, kekacang, bijirin ke dalam periuk | Rempah, herba, kekacang, bijirin dan buah semuanya dikira! |
+| 28–40s | Momyizz tanda senarai di peti sejuk | Momyizz cuba tambah 3 jenis baru minggu ni. |
+| 40–45s | Momyizz ke kamera | Pelbagai lebih penting daripada mahal 💛 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+
+**Caption video**
+
+```
+Cabaran 30 jenis tumbuhan seminggu. Siapa nak join? 👇
+
+Sumber: McDonald et al. (2018) mSystems.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #UsusSihat #Serat
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): Kira 30 tumbuhan dengan 4 kategori
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 18-blazer-semangat.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | 30 jenis tumbuhan seminggu? Senang kalau tahu caranya 🌿 | Pop |
+| 3–8s | KAUNTER + teks | Sayur & buah: 15 jenis | Angka kira naik |
+| 8–13s | KAUNTER + teks | Kekacang & bijirin: 8 jenis | Angka kira naik |
+| 13–18s | KAUNTER + teks | Rempah & herba: 7 jenis | Angka kira naik |
+| 18–22s | BIG_WORD | = 30 ✅ | Pop besar |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Cara kira 30 jenis tumbuhan seminggu 🌿 Save!
+
+#Momyizz #UsusSihat #Serat
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Perut kembung bila tambah serat?
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 10-satin-terkejut-pipi.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Tambah sayur, perut terus kembung? 😣 | Pop |
+| 3–9s | KAD_FAKTA | Punca biasa: tambah serat terlalu banyak, terlalu cepat | Kad naik |
+| 9–16s | CHECKLIST | Penyelesaian:<br>✓ Tambah 1 hidangan seminggu<br>✓ Minum air cukup | Baris satu per satu |
+| 16–22s | CHECKLIST | ✓ Kunyah perlahan<br>Sakit berpanjangan? Jumpa doktor | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Serat bagus, tapi perlahan-lahan 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #UsusSihat
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Apa yang dikira '30 tumbuhan'
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+30 JENIS TUMBUHAN SEMINGGU 🌿
+Apa yang dikira?
+```
+
+**Slaid 2**
+
+```
+KAJIAN 2018
+Yang makan 30+ jenis tumbuhan seminggu ada bakteria usus lebih pelbagai berbanding 10 jenis ke bawah.
+🟠 Kajian pemerhatian
+```
+
+**Slaid 3**
+
+```
+SAYUR & BUAH
+Setiap jenis dikira satu: bayam, kangkung, betik, pisang…
+```
+
+**Slaid 4**
+
+```
+KEKACANG & BIJIRIN
+Dal, kacang merah, tempe, oat, beras perang
+```
+
+**Slaid 5**
+
+```
+REMPAH & HERBA
+Kunyit, halia, serai, daun kari: semua dikira!
+```
+
+**Slaid 6**
+
+```
+MULA KECIL
+Tambah 3 jenis baru minggu ni.
+Save & cuba 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Apa yang dikira dalam '30 jenis tumbuhan seminggu'. Save 🌿
+
+Sumber: McDonald et al. (2018) mSystems (American Gut Project); WHO (2023) serat.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #UsusSihat #MakananSihat
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (165 / 500 aksara)
+
+```
+Info ringkas: WHO (2023) saran dewasa ambil sekurang-kurangnya 25g serat semula jadi sehari daripada makanan. Serat ialah 'makanan' utama bakteria baik dalam usus. 🌾
+```
+
+📘 *Versi FB latar warna* (95 / 130 aksara)
+
+```
+Makan 30 jenis tumbuhan seminggu dikaitkan dengan bakteria usus lebih pelbagai 🌿 (kajian 2018)
+```
+
+**16:00 · Pertanyaan** (152 / 500 aksara)
+
+```
+Soalan: kalau korang nak tambah satu jenis tumbuhan baru minggu ni, korang pilih apa? 🥬
+
+🫘 Kekacang
+🍠 Ubi
+🌿 Ulam
+🍈 Buah tempatan
+
+Komen pilihan korang 👇
+```
+
+📘 *Versi FB latar warna* (83 / 130 aksara)
+
+```
+Nak tambah satu tumbuhan baru minggu ni: kekacang, ubi, ulam atau buah tempatan? 🥬
+```
+
+**18:30 · Tips praktikal** (269 / 500 aksara)
+
+```
+Tips capai 30 jenis tumbuhan tanpa pening 💡
+
+✅ Beli satu sayur / buah yang jarang dibeli setiap minggu
+✅ Campur 3 jenis kekacang dalam satu sup
+✅ Guna rempah & herba berbeza setiap hari
+✅ Tabur bijirin atau kacang atas sarapan
+
+Pelbagai lebih penting daripada banyak. 💛
+```
+
+**21:00 · Info penting / alert** (172 / 500 aksara)
+
+```
+Info penting: tambah serat secara mendadak boleh buat perut kembung. ⚠️
+
+Tambah sedikit demi sedikit dan minum air cukup. Sakit perut teruk atau berpanjangan, jumpa doktor.
+```
+
+📘 *Versi FB latar warna* (73 / 130 aksara)
+
+```
+Tambah serat perlahan-lahan & minum air cukup supaya perut tak kembung ⚠️
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips capai 30 jenis tumbuhan tanpa pening
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+CAPAI 30 JENIS TUMBUHAN TANPA PENING
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Beli satu sayur / buah yang jarang dibeli setiap minggu
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Campur 3 jenis kekacang dalam satu sup
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Guna rempah & herba berbeza setiap hari
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Tabur bijirin atau kacang atas sarapan
+```
+
+**Slaid 6**
+
+```
+Pelbagai lebih penting daripada banyak. 💛
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
+### 💬 WhatsApp / group tertutup: Nutrilite Mixed FOS with Grape Ferment (prebiotik)
+
+> Ruang tertutup. Mula dengan soalan halangan (susah cukupkan serat?). Tiada janji kurus. Jangan tulis harga. Sudut berat: 'Keputusan berbeza mengikut individu'.
+
+```
+Hai [nama] 😊
+
+Minggu ni Momyizz buat cabaran 30 jenis tumbuhan seminggu untuk usus. Tapi jujur, ada hari memang susah nak cukupkan serat. 😅
+
+Untuk hari macam tu, ada prebiotik baharu: *Nutrilite Mixed FOS with Grape Ferment*
+• 2 serat larut (FOS + maltodekstrin tahan cerna) + grape ferment
+• Menyokong kesihatan usus
+• Rasa sedap
+
+Makanan tetap sumber utama serat. Keputusan berbeza mengikut individu. Harga terkini Momyizz maklumkan bila [nama] berminat. 💛
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+- [ ] 💬 WhatsApp / group tertutup
+
+## Hari 26 · 🔥 Siri Usus Sihat · Dinding usus & 'leaky gut': fakta vs viral
+
+> 🧩 **Produk penyelesai masalah:** NUTRILITE Botanical Beverage Mix Chicory Root Extract with Probiotics · **Masalah:** Terpengaruh video 'leaky gut'; nak amalan usus yang betul
+> **Key selling:** 6.3 bilion bakteria baik (CFU) sepaket · 5 strain probiotik · tahan asid perut & hempedu · ada serat prebiotik inulin · 1 paket sehari · halal IFANCA · tak perlu peti sejuk · **Gambar:** ``
+
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): 'Leaky gut' tengah viral. Ini faktanya
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri Usus Sihat. Guna istilah 'otak kedua'. Tiada dakwaan baiki leaky gut / rawat penyakit. Sticker: 04-satin-tutup-mulut.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Telefon tunjuk video viral 'leaky gut', Momyizz kerut dahi | 'Leaky gut' punca semua penyakit? Betul ke? 🤔 |
+| 3–15s | Animasi dinding usus sebagai penghalang (Flow) | Dinding usus memang berfungsi sebagai penghalang: serap nutrien, halang bahan yang tak sepatutnya masuk. |
+| 15–28s | Momyizz bercakap ke kamera | Kebolehtelapan usus yang tinggi dikaji dalam penyakit tertentu. Tapi 'leaky gut syndrome' belum diiktiraf sebagai diagnosis perubatan. |
+| 28–40s | Momyizz susun serat, air, tidur, jalan kaki | Yang kita boleh buat: serat cukup, kurang alkohol, jangan salah guna ubat tahan sakit, tidur cukup. |
+| 40–45s | Momyizz ke kamera | Ada simptom berpanjangan? Jumpa doktor, bukan teka 💛 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+
+**Caption video**
+
+```
+'Leaky gut': fakta vs viral. Simpan untuk rujukan 🌿
+
+Sumber: Harvard Health Publishing; NHS.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #UsusSihat #FaktaBukanPanik
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 5 amalan harian untuk dinding usus
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 19-blazer-thumbs-up.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | 5 amalan harian yang usus suka 🧱 | Pop |
+| 3–8s | CHECKLIST baris 1–2 | ✓ Serat setiap hidangan<br>✓ Air kosong cukup | Baris muncul |
+| 8–14s | CHECKLIST baris 3–4 | ✓ Tidur 7 jam+<br>✓ Gerak setiap hari | Baris muncul |
+| 14–22s | CHECKLIST baris 5 | ✓ Ubat tahan sakit ikut dos | Baris muncul |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+5 amalan harian yang usus suka 🧱 Save!
+
+#Momyizz #UsusSihat
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Leaky gut punca semua penyakit'
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | "Leaky gut punca semua penyakit!" 🤔 | Pop |
+| 3–8s | BIG_WORD | BELUM TERBUKTI ⚠️ | Pop besar |
+| 8–15s | KAD_FAKTA + LABEL_BUKTI (Bukti belum cukup) | 'Leaky gut syndrome' belum diiktiraf sebagai diagnosis perubatan. | Kad naik |
+| 15–22s | NOTA_TANGAN | Simptom berpanjangan → jumpa doktor, bukan beli produk viral | Tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Viral tak semestinya fakta 🧱
+
+Sumber: Harvard Health Publishing.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #MitosAtauFakta #UsusSihat
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Dinding usus: fakta vs viral
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+'LEAKY GUT' 🧱
+Fakta vs viral
+```
+
+**Slaid 2**
+
+```
+FAKTA
+Dinding usus ialah penghalang: serap nutrien, halang bahan yang tak sepatutnya masuk.
+🟢 Terbukti
+```
+
+**Slaid 3**
+
+```
+KAJIAN
+Kebolehtelapan usus yang tinggi dikaji dalam penyakit seperti seliak & Crohn.
+🔵 Masih dikaji
+```
+
+**Slaid 4**
+
+```
+VIRAL
+'Leaky gut syndrome' punca semua penyakit: belum diiktiraf sebagai diagnosis perubatan.
+🔴 Bukti belum cukup
+```
+
+**Slaid 5**
+
+```
+AMALAN SOKONG USUS
+Serat cukup · kurang alkohol · ubat tahan sakit ikut dos · tidur cukup · urus stres
+```
+
+**Slaid 6**
+
+```
+SIMPTOM BERPANJANGAN?
+Jumpa doktor untuk pemeriksaan.
+Save 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Dinding usus & 'leaky gut': fakta vs viral 🧱
+
+Sumber: Harvard Health Publishing; NHS (ubat tahan sakit NSAID).
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #UsusSihat #MitosAtauFakta
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (174 / 500 aksara)
+
+```
+Info ringkas: 'leaky gut syndrome' tengah viral, tapi ia belum diiktiraf sebagai diagnosis perubatan. Yang dikaji saintis ialah kebolehtelapan usus dalam penyakit tertentu. 🔬
+```
+
+📘 *Versi FB latar warna* (86 / 130 aksara)
+
+```
+'Leaky gut syndrome' tengah viral, tapi belum diiktiraf sebagai diagnosis perubatan 🔬
+```
+
+**16:00 · Pertanyaan** (157 / 500 aksara)
+
+```
+Soalan jujur: korang pernah beli produk sebab video 'leaky gut' viral? 🙈
+
+✅ Pernah
+🤔 Hampir
+❌ Tak pernah
+
+Momyizz pernah hampir. Sekarang semak fakta dulu. 😅
+```
+
+📘 *Versi FB latar warna* (68 / 130 aksara)
+
+```
+Pernah hampir beli produk sebab video 'leaky gut' viral? Jujur je 🙈
+```
+
+**18:30 · Tips praktikal** (215 / 500 aksara)
+
+```
+Tips amalan harian untuk usus 💡
+
+✅ Serat dari sayur, buah & kekacang setiap hari
+✅ Ubat tahan sakit ikut dos, jangan ambil sesuka hati
+✅ Tidur 7 jam atau lebih
+✅ Gerak setiap hari
+
+Tabiat kecil, usus rasa bezanya. 🌿
+```
+
+**21:00 · Info penting / alert** (222 / 500 aksara)
+
+```
+Info penting: ubat tahan sakit jenis NSAID (contoh ibuprofen) yang diambil kerap boleh mengganggu lapisan perut dan usus. ⚠️
+
+Ikut dos, makan selepas makanan, dan tanya doktor atau ahli farmasi jika perlu ambil lama. (NHS)
+```
+
+📘 *Versi FB latar warna* (95 / 130 aksara)
+
+```
+Ubat tahan sakit jenis NSAID kerap diambil boleh ganggu lapisan perut & usus. Ikut dos ⚠️ (NHS)
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips amalan harian untuk usus
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+AMALAN HARIAN UNTUK USUS
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Serat dari sayur, buah & kekacang setiap hari
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Ubat tahan sakit ikut dos, jangan ambil sesuka hati
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Tidur 7 jam atau lebih
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Gerak setiap hari
+```
+
+**Slaid 6**
+
+```
+Tabiat kecil, usus rasa bezanya. 🌿
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
+### 💬 WhatsApp / group tertutup: Nutrilite Botanical Beverage Mix with Probiotics (pelengkap rutin usus)
+
+> Ruang tertutup. JANGAN dakwa baiki leaky gut / dinding usus. Mula dengan skrip soalan. Simptom berpanjangan: rujuk doktor. Jangan tulis harga.
+
+```
+Hai [nama] 😊
+
+Hari ni Momyizz kongsi fakta pasal 'leaky gut' yang viral. Jujur, tiada produk yang boleh 'baiki leaky gut' dalam sekelip mata. 🙏
+
+Yang Momyizz amalkan: serat cukup, tidur cukup, gerak setiap hari. Sebagai pelengkap rutin, Momyizz ambil *Nutrilite Botanical Beverage Mix with Probiotics*:
+• 6.3 bilion bakteria baik (CFU) sepaket
+• Ada serat prebiotik inulin
+• 1 paket sehari
+
+Kalau [nama] ada simptom perut berpanjangan, jumpa doktor dulu ya. Harga terkini Momyizz maklumkan bila [nama] berminat. 💛
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+- [ ] 💬 WhatsApp / group tertutup
 
 ## Hari 27 · 🔥 Siri trending: Tidur, Otak & Usus · Makanan untuk otak: omega-3 & ikan tempatan
 
@@ -804,11 +1652,290 @@ Momyizz utamakan ikan 2 kali seminggu. Untuk minggu yang jarang makan ikan, pele
 • Penyulingan molekul berulang untuk ketulenan
 • Dewasa: 1 biji sehari selepas makan · 120 biji sebotol
 • Tiada pewarna, perisa atau pengawet tiruan ditambah
-• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Harga terkini Momyizz maklumkan bila [nama] berminat.
 
 ⚠️ Tidak disyorkan untuk kanak-kanak atau yang sedang ambil ubat cair darah. Hamil / menyusu, rujuk doktor dulu. Softgel dari gelatin lembu.
 
 Ini pelengkap, bukan pengganti makan ikan. 🙏 Reply "OMEGA" kalau nak tahu lebih 💛
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+- [ ] 💬 WhatsApp / group tertutup
+
+## Hari 28 · 🔥 Siri Usus Sihat · Protein tumbuhan & usus: soya, tempe, kekacang
+
+> 🧩 **Produk penyelesai masalah:** NUTRILITE Soy Protein Drink (Original 450g) · **Masalah:** Nak tambah protein tanpa terlalu banyak daging
+> **Key selling:** protein tumbuhan · 8g protein, 9 asid amino perlu · bebas laktosa · tanpa pemanis & tanpa perisa tiruan · **Gambar:** `AMWAY_BRAND/PRODUK/soy-protein-drink-450g.png`
+
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Tempe & soya: protein yang mesra usus
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri Usus Sihat. Guna istilah 'otak kedua'. Tiada dakwaan baiki leaky gut / rawat penyakit. Sticker: 19-blazer-thumbs-up. Akhir: teaser probiotik khas wanita.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Tempe goreng di kuali, bunyi mendesis | Protein tak semestinya daging je 🫘 |
+| 3–15s | Momyizz bercakap ke kamera | Soya ialah protein tumbuhan dengan 9 asid amino perlu. Tempe, tauhu dan kekacang pula datang bersama serat. |
+| 15–28s | Pinggan: tempe, dal, sayur, nasi perang | Gabungan protein + serat = kenyang lebih lama dan bakteria baik pun dapat 'makan'. |
+| 28–40s | Momyizz goncang minuman soya di pagi hari | Hari tak sempat masak? Momyizz ada pilihan protein soya yang cepat. |
+| 40–45s | Momyizz ke kamera | Episod seterusnya: probiotik khas untuk wanita 💗 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+
+**Caption video**
+
+```
+Protein tumbuhan yang mesra usus: soya, tempe, kekacang 🫘
+
+Sumber: NIH; KKM Pinggan Sihat Malaysia.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #ProteinTumbuhan #UsusSihat
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 4 protein tumbuhan bajet mesra
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 08-satin-thumbs-up.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | 4 protein tumbuhan yang mesra poket 🫘 | Pop |
+| 3–9s | CHECKLIST baris 1–2 | ✓ Tempe<br>✓ Tauhu | Baris muncul |
+| 9–15s | CHECKLIST baris 3–4 | ✓ Dal<br>✓ Kacang merah | Baris muncul |
+| 15–22s | NOTA_TANGAN | Bonus: semua ada serat untuk usus 🌿 | Tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+4 protein tumbuhan bajet mesra 🫘 Save!
+
+#Momyizz #ProteinTumbuhan
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Protein tumbuhan tak lengkap'
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 03-satin-tunjuk-atas.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | "Protein tumbuhan tak lengkap." Betul ke? 🤔 | Pop |
+| 3–8s | BIG_WORD | TAK SEMUA | Pop besar |
+| 8–15s | KAD_FAKTA | Soya ialah protein tumbuhan yang ada 9 asid amino perlu. | Kad naik |
+| 15–22s | NOTA_TANGAN | Pelbagaikan sumber protein setiap hari 💛 | Tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Protein tumbuhan pun boleh lengkap 🫘
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #MitosAtauFakta #ProteinTumbuhan
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Protein tumbuhan tempatan
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+PROTEIN TUMBUHAN 🫘
+Mesra usus, mesra poket
+```
+
+**Slaid 2**
+
+```
+TEMPE
+Soya yang ditapai: protein + serat dalam satu.
+```
+
+**Slaid 3**
+
+```
+TAUHU
+Protein soya yang mudah dimasak dalam sup atau goreng.
+```
+
+**Slaid 4**
+
+```
+KEKACANG
+Dal, kacang merah, kacang kuda: protein + serat.
+```
+
+**Slaid 5**
+
+```
+PINGGAN SIHAT (KKM)
+¼ protein · ¼ bijirin penuh · ½ sayur & buah
+```
+
+**Slaid 6**
+
+```
+AKAN DATANG
+Probiotik khas untuk wanita 💗
+Save & follow 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Protein tumbuhan tempatan untuk usus sihat. Save 🫘
+
+Sumber: KKM, Garis Panduan Diet Malaysia 2020.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #ProteinTumbuhan #PingganSihat
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (131 / 500 aksara)
+
+```
+Info ringkas: tempe, tauhu dan kekacang memberi protein dan serat sekali gus. Serat itu jadi 'makanan' bakteria baik dalam usus. 🫘🌿
+```
+
+📘 *Versi FB latar warna* (92 / 130 aksara)
+
+```
+Tempe, tauhu & kekacang: protein dan serat sekali gus 🫘 Serat jadi 'makanan' bakteria baik.
+```
+
+**16:00 · Pertanyaan** (140 / 500 aksara)
+
+```
+Soalan: protein tumbuhan mana yang paling selalu ada dalam menu keluarga korang? 🍽️
+
+🫘 Tempe
+⬜ Tauhu
+🥣 Dal / kacang
+🙈 Jarang sangat
+
+Komen 👇
+```
+
+📘 *Versi FB latar warna* (71 / 130 aksara)
+
+```
+Protein tumbuhan mana paling selalu ada dalam menu keluarga korang? 🍽️
+```
+
+**18:30 · Tips praktikal** (239 / 500 aksara)
+
+```
+Tips masak tempe yang anak suka 💡
+
+✅ Potong nipis, goreng garing dengan sedikit garam & kunyit
+✅ Tempe masak kicap manis kurang manis
+✅ Tumis tempe dengan sayur & cili benggala
+✅ Hancurkan dalam nasi goreng
+
+Protein + serat, bajet mesra. 💛
+```
+
+**21:00 · Info penting / alert** (195 / 500 aksara)
+
+```
+Info penting: ada alahan soya? ⚠️
+
+Baca label setiap produk, termasuk minuman protein dan makanan diproses. Gatal, bengkak bibir atau sesak nafas selepas makan ialah kecemasan, terus ke hospital.
+```
+
+📘 *Versi FB latar warna* (84 / 130 aksara)
+
+```
+Alahan soya? Baca label setiap produk. Bengkak bibir atau sesak nafas = kecemasan ⚠️
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips masak tempe yang anak suka
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+MASAK TEMPE YANG ANAK SUKA
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Potong nipis, goreng garing dengan sedikit garam & kunyit
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Tempe masak kicap manis kurang manis
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Tumis tempe dengan sayur & cili benggala
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Hancurkan dalam nasi goreng
+```
+
+**Slaid 6**
+
+```
+Protein + serat, bajet mesra. 💛
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
+### 💬 WhatsApp / group tertutup: Nutrilite Soy Protein Drink
+
+> Ruang tertutup. Mula dengan skrip soalan protein. Jangan tulis harga. Alahan soya: elak.
+
+```
+Hai [nama] 😊
+
+Hari ni Momyizz kongsi pasal protein tumbuhan untuk usus. Ada yang tanya, macam mana nak tambah protein bila tak sempat masak?
+
+Momyizz guna *NUTRILITE Soy Protein Drink*:
+• Protein tumbuhan dengan 9 asid amino perlu
+• Bebas laktosa
+• Tanpa pemanis & perisa tiruan
+
+Makanan sebenar tetap utama, ini untuk hari kalut. Ada alahan soya, elakkan ya. Harga terkini Momyizz maklumkan bila [nama] berminat. 💛
 
 Perkongsian ilmu umum. Bukan nasihat perubatan.
 ```

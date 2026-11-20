@@ -215,3 +215,36 @@ Sumber: https://www.amway.my/pdpcontent/MYBN/103208_en.html (semak 18 Nov 2026).
 | ✅ | Tiada pewarna, perisa atau pengawet tiruan ditambah | "No artificial colourants, flavours or preservatives added" |
 | ⚠️ | Amaran wajib bila jual: tidak disyorkan untuk kanak-kanak atau yang ambil ubat cair darah; hamil / menyusu rujuk doktor; masalah pendarahan berhati-hati; softgel gelatin lembu | Petikan "ADVISORIES/PRECAUTIONS" |
 | ❌ | Dakwaan kulit, jantung, otak atau cegah penyakit | Dilarang (dakwaan perubatan) |
+
+## NUTRILITE BOTANICAL BEVERAGE MIX CHICORY ROOT EXTRACT WITH PROBIOTICS (juga disenaraikan sebagai "Mixed Probiotic with Chicory Root Extract")
+Sumber: https://www.amway.my/pdpcontent/MYBN/120571_en.html · https://www.amway.my/Categories/Health/Vitamins-and-Supplements/Essential-Core/Nutrilite-Mixed-Probiotic-with-Chicory-Root-Extract/p/120571 (semak 20 Nov 2026). Gambar: PERLU (belum ada dalam `PRODUK/`).
+
+| | Key selling (BM) | Petikan rasmi |
+|---|---|---|
+| ✅ | 6.3 bilion bakteria baik (CFU) setiap paket | "6.3 billion beneficial bacteria (Colony Forming Units) per serving stick" |
+| ✅ | 5 strain probiotik (Bifidobacterium & Lactobacillus) | "five hero Probiotic strains" |
+| ✅ | Tahan asid perut & hempedu | "stomach acid and bile-tolerant" |
+| ✅ | Ada serat prebiotik inulin dari akar chicory | "prebiotic fibre inulin" · "contains added fibre for bacterial growth" |
+| ✅ | 1 paket sehari: tuang terus atas lidah atau campur dalam makanan / minuman sejuk | "1 stick per day" · "pour it directly onto the tongue or add it to cold food/beverage" |
+| ✅ | Tak perlu simpan dalam peti; tahan 18 bulan | "18 months with no refrigeration" |
+| ✅ | Sijil halal IFANCA | "holds official IFANCA Halal certification" |
+| ✅ | Sesuai untuk yang kerap bermusafir, pemakanan kurang seimbang, jadual sibuk | "frequent travellers, individuals with poor diets, and those with hectic schedules" |
+| ❌ | "Baiki leaky gut", "rawat sembelit / IBS", "tingkatkan imun", "buang toksin" | Dilarang: dakwaan perubatan, tiada di halaman rasmi |
+
+## NUTRILITE CRANBERRY FRUIT DRINK BASE WITH PROBIOTIC, INULIN & FOS (khusus wanita, untuk siri seterusnya)
+Sumber: https://www.amway.my/Brands/Nutrilite/Nutrilite-Cranberry-Fruit-Drink-Base-with-Probiotic,-Inulin-&-FOS/p/125341 · https://www.amway.my/pdpcontent/MYBN/125341_en.html (semak 20 Nov 2026). Gambar: PERLU.
+
+| | Key selling (BM) | Petikan rasmi |
+|---|---|---|
+| ✅ | 3 strain probiotik: L. acidophilus NCFM, L. acidophilus La-14, L. rhamnosus HN001 | Senarai ramuan |
+| ✅ | Prebiotik: inulin 0.8g + FOS 0.13g setiap paket | "Inulin 0.8g/2g" · "Fructo-oligosaccharides 0.13g/2g" |
+| ✅ | Serbuk kranberi 150mg setiap paket | "Cranberry powder (150mg)" |
+| ✅ | 1 paket sehari: atas lidah atau campur air / jus sejuk (bukan bergas); elak makanan / minuman panas | "Consume 1 stick pack per day" · "cold non-carbonated beverages such as water or juice" |
+| ✅ | 30 paket x 2g; tak perlu peti sejuk (simpan bawah 25°C) | "60g (2g x 30 Stick Packs)" |
+| ✅ | Untuk 12 tahun ke atas; ada susu | "12 years & above" · "Contains milk" |
+| ✅ | Amaran: bawah 12 tahun, hamil / menyusu atau ada masalah kesihatan, rujuk doktor | "should consult a physician before using this product" |
+| ❌ | "Cegah / rawat jangkitan saluran kencing (UTI)", "rawat keputihan", "seimbangkan hormon" | Dilarang: dakwaan perubatan, tiada di halaman produk |
+| ⚠️ | Dakwaan pH faraj (artikel amwaynow.my) | PERLU SEMAK sebelum digunakan; bukan dari halaman produk |
+
+## NUTRILITE MIXED FIBER POWDER (4.5g x 30 paket, #102736)
+Halaman produk tiada maklumat ramuan / dakwaan semasa semakan 20 Nov 2026. ❌ PERLU SEMAK label sebelum digunakan. Untuk serat prebiotik, guna **Mixed FOS with Grape Ferment** (di atas).

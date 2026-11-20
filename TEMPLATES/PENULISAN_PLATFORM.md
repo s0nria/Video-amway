@@ -59,7 +59,7 @@ Peraturan Amway Malaysia: ajakan membeli tidak dibenarkan di ruang awam. Di Face
 Masalah sebenar (1–2 ayat, tanpa menakutkan)
 → Kenapa Momyizz pilih [produk] (pengalaman sebenar)
 → Fakta produk (disalin tepat dari amway.my + tarikh semak)
-→ Harga / promosi rasmi (dengan tempoh) — pilihan
+→ Promosi rasmi (dengan tempoh) — pilihan; harga TIDAK ditulis dalam RM ("harga terkini Momyizz maklumkan")
 → Testimoni sebenar + "Pengalaman individu mungkin berbeza" — pilihan
 → CTA terus: "PM Momyizz" / "Komen NAK" / "Klik LINK di Bio"
 → Penafian
@@ -71,6 +71,7 @@ Post awam: berhenti pada "kenapa Momyizz pilih" + fakta umum, dan jemput yang be
 - [ ] Hook dalam 125 aksara pertama (Instagram) / 2 baris pertama (Facebook)
 - [ ] Momyizz & korang sahaja
 - [ ] Post awam: tiada harga, tiada "PM untuk order" (hard-sell di ruang tertutup sahaja)
+- [ ] Semua tulisan (termasuk WhatsApp & caption): tiada perkataan "percuma" / "free", tiada harga RM
 - [ ] Fakta produk disemak di amway.my hari ini
 - [ ] Testimoni sebenar, ada kebenaran, ada "Pengalaman individu mungkin berbeza"
 - [ ] Penafian ada (konten kesihatan / produk)

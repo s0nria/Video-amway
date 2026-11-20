@@ -29,7 +29,7 @@ Warna label bukti: Terbukti `#4E7347` · Kajian awal `#B07C3A` · Masih dikaji `
 | Sari kata & teks badan | **Nunito** (ExtraBold 800) | Mudah dibaca di telefon |
 | Nota tangan / penekanan kecil | **Caveat** (Bold 700) | Guna sedikit sahaja, maksimum 1 pada satu masa |
 
-Semua percuma di Google Fonts dan tersedia di Canva. Contoh: `cadangan-tulisan.png` (pilihan A, kiri).
+Semua boleh diguna dari Google Fonts dan tersedia di Canva. Contoh: `cadangan-tulisan.png` (pilihan A, kiri).
 
 ## Sticker Momyizz — DISAHKAN (guna ikut kesesuaian video)
 Fail PNG lutsinar dalam `STICKERS/`. Dua set pakaian + kartun:
@@ -63,7 +63,8 @@ Peraturan penggunaan (cadangan, boleh diubah pengguna):
 - **Hard-selling — DISAHKAN boleh, tetapi di RUANG TERTUTUP sahaja** (lihat "Peraturan media sosial Amway Malaysia" di bawah):
   - Ruang tertutup: WhatsApp (chat / group pelanggan sedia ada), group Facebook tertutup, DM bila orang bertanya sendiri.
   - Ruang awam (Facebook/Instagram/Threads/TikTok awam): personal branding dan edukasi/soft-sell sahaja. Jangan tawar produk sebagai status, jangan papar harga atau "PM untuk order".
-  - **Harga** (ruang tertutup): ambil dari https://www.amway.my/ pada hari itu, catat tarikh semakan, tulis "harga tertakluk kepada perubahan".
+  - **Harga — DISAHKAN pengguna (20 Nov 2026):** jangan tulis harga dalam RM dalam mana-mana tulisan (post, Threads, caption, carousel, video atau mesej WhatsApp). Tulis "harga terkini Momyizz maklumkan" dan beri harga secara terus bila prospek bertanya.
+  - **Tiada perkataan "percuma" / "free"** dalam mana-mana tulisan.
   - **Promosi**: hanya promosi rasmi Amway Malaysia, dengan nama dan tempoh tepat. Jangan reka diskaun sendiri.
   - **Testimoni**: pelanggan sebenar, ada kebenaran, tiada dakwaan perubatan atau janji hasil, disertakan "Pengalaman individu mungkin berbeza".
   - Tetap dilarang: "stok terhad" palsu, menakut-nakutkan, dakwaan perubatan, janji hasil, dakwaan pendapatan bisnes.

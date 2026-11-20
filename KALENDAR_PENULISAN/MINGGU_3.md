@@ -1188,7 +1188,7 @@ Momyizz guna *eSpring Water Purifier* (model baharu) dari Amway 💧
 • Aplikasi Amway Healthy Home ingatkan bila perlu tukar penapis
 • Halal, waranti 5 tahun
 
-• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Harga terkini Momyizz maklumkan bila [nama] berminat.
 • Promosi: [promosi rasmi Amway, jika ada]
 • Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]
 
@@ -1458,3 +1458,289 @@ Follow Momyizz untuk tips setiap hari
 - [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
 - [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
 - [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+
+## Hari 21 · 🔥 Siri Usus Sihat · Usus: 'otak kedua' & tempat nutrien diserap
+
+> 🧩 **Produk penyelesai masalah:** BodyKey by Nutrilite Nutritious Meal Shake TERBARU (hero: perisa pisang baharu; juga Chocolate, Café Latte, Berry) · **Masalah:** Makan sihat tapi rasa tak bermaya; nak nutrien cukup bila sibuk
+> **Key selling:** meal replacement terbaru untuk SEMUA gaya hidup (sarapan / bekal / on-the-go, sedar gula, urus berat) · 17g protein tumbuhan (soya & chia) · 5g serat prebiotik · 20 vitamin & mineral · hanya 6g gula, GI rendah · siap 1 minit · ada susu & soya · **Gambar:** `AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png · bodykey-banana-gaya-studio.jpg · bodykey-banana-gaya-beg.jpg`
+
+### 🎥 08:30 · UNTUK VIDEO STORYTELLING (TikTok / Reels, Flow AI): Makan sihat, tapi masih letih?
+
+> Salin skrip ini ke CapCut / Flow untuk edit video.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+> Cerita peribadi mesti benar. Ubah butiran ikut kehidupan sebenar Momyizz sebelum rakam. Siri Usus Sihat. Guna istilah 'otak kedua'. Tiada dakwaan baiki leaky gut / rawat penyakit. Sticker: 09-kartun-terkejut-pipi.
+
+| Masa | Visual | Teks atas skrin / suara |
+|---|---|---|
+| 0–3s | Momyizz makan salad di meja kerja, muka penat | Dah makan sihat, tapi kenapa masih rasa tak bermaya? 🤔 |
+| 3–15s | Animasi sistem penghadaman (Flow) | Makanan yang kita makan perlu dicerna dan diserap dulu. Kebanyakan nutrien diserap dalam usus kecil. |
+| 15–28s | Animasi rangkaian saraf di usus | Usus juga digelar 'otak kedua': ada lebih 100 juta sel saraf yang berhubung dengan otak. |
+| 28–40s | Momyizz susun pinggan: sayur, kekacang, ikan, buah | Jadi jaga usus = jaga cara badan dapat nutrien. Mula dengan serat, air dan makan perlahan. |
+| 40–45s | Momyizz ke kamera | Siri Usus Sihat bermula hari ni 🌿 | Perkongsian ilmu umum. Bukan nasihat perubatan. |
+
+**Caption video**
+
+```
+Usus: 'otak kedua' dan tempat nutrien diserap 🌿 Siri Usus Sihat Momyizz bermula.
+
+Sumber: NIDDK; Johns Hopkins Medicine.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #UsusSihat #OtakKedua
+```
+
+### 🎞️ 13:30 · UNTUK VIDEO MOTION GRAFIK (Tips): 3 tanda usus perlukan perhatian
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 13-blazer-tunjuk-atas-kanan.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | Usus korang 'bercakap'. Dengar tak? 👂 | Pop |
+| 3–9s | CHECKLIST baris 1 | ✓ Kerap kembung lepas makan | Baris muncul |
+| 9–15s | CHECKLIST baris 2 | ✓ Tabiat buang air tak menentu | Baris muncul |
+| 15–22s | CHECKLIST baris 3 + NOTA_TANGAN | ✓ Cepat lapar walaupun dah makan<br>Berpanjangan? Jumpa doktor | Baris + tulisan tangan |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+3 tanda usus perlukan perhatian. Korang ada yang mana? 👇
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #UsusSihat
+```
+
+### 🎞️ 19:30 · UNTUK VIDEO MOTION GRAFIK (Masalah → penyelesaian): Mitos vs fakta: 'Makan banyak = nutrien banyak'
+
+> Bina dalam CapCut guna komponen `TEMPLATES/MOTION_GRAPHICS_KIT/KOMPONEN.md`. Tiada rakaman. Sticker: 04-satin-tutup-mulut.
+
+> 🏷️ Tanda nama **@empayarbiz_momyizz** WAJIB kelihatan sepanjang video (penjuru kanan atas, dalam safe zone).
+
+| Masa | Komponen kit | Teks atas skrin | Animasi |
+|---|---|---|---|
+| 0–3s | HOOK | "Makan banyak, mesti nutrien cukup." Betul ke? 🤔 | Pop |
+| 3–8s | BIG_WORD | BELUM TENTU | Pop besar |
+| 8–15s | KAD_FAKTA + LABEL_BUKTI (Terbukti) | Nutrien perlu dicerna & diserap dulu, kebanyakannya di usus kecil. (NIDDK) | Kad naik |
+| 15–22s | CHECKLIST | Bantu usus:<br>✓ Kunyah perlahan<br>✓ Serat & air cukup | Baris satu per satu |
+| 22–25s | PENAFIAN + STICKER | Save & follow Momyizz 🌿<br>Perkongsian ilmu umum. Bukan nasihat perubatan. | Fade masuk, sticker pop |
+
+**Caption**
+
+```
+Bukan berapa banyak, tapi berapa yang diserap 🌿
+
+Sumber: NIDDK.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #MitosAtauFakta #UsusSihat
+```
+
+### 🖼️ 12:30 · UNTUK CAROUSEL (Instagram / Facebook): Perjalanan makanan dalam badan
+
+> Salin teks setiap slaid ke Canva / CapCut untuk edit carousel.
+
+**Slaid 1**
+
+```
+PERJALANAN MAKANAN 🍽️
+Dari pinggan ke sel badan
+```
+
+**Slaid 2**
+
+```
+MULUT & PERUT
+Makanan dikunyah dan dicampur dengan jus pencernaan.
+```
+
+**Slaid 3**
+
+```
+USUS KECIL
+Kebanyakan nutrien diserap di sini ke dalam darah.
+🟢 Terbukti (NIDDK)
+```
+
+**Slaid 4**
+
+```
+USUS BESAR
+Bakteria usus bantu pecahkan baki makanan dan menghasilkan vitamin K.
+🟢 Terbukti (NIDDK)
+```
+
+**Slaid 5**
+
+```
+'OTAK KEDUA'
+Usus ada lebih 100 juta sel saraf yang berhubung dengan otak.
+🟢 (Johns Hopkins)
+```
+
+**Slaid 6**
+
+```
+MULA DI SINI
+Serat · air kosong · makan perlahan · tidur cukup.
+Save & follow siri ni 🌿
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Caption carousel**
+
+```
+Perjalanan makanan dalam badan, versi ringkas. Save 🍽️
+
+Sumber: NIDDK; Johns Hopkins Medicine.
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+
+#Momyizz #UsusSihat #Pemakanan
+```
+
+### ✍️ TEKS SAHAJA (Threads / Facebook) — salin & post terus
+
+**10:00 · Info ringkas** (127 / 500 aksara)
+
+```
+Info ringkas: kebanyakan nutrien daripada makanan diserap di usus kecil, sebelum dibawa oleh darah ke seluruh badan. (NIDDK) 🍽️
+```
+
+📘 *Versi FB latar warna* (108 / 130 aksara)
+
+```
+Kebanyakan nutrien dari makanan diserap di usus kecil 🍽️ Jaga usus = jaga cara badan dapat nutrien. (NIDDK)
+```
+
+**16:00 · Pertanyaan** (147 / 500 aksara)
+
+```
+Soalan jujur: perut korang selalu rasa macam mana lepas makan? 🤔
+
+😌 Selesa
+🎈 Kembung
+😴 Mengantuk teruk
+🔥 Pedih / panas
+
+Komen nombor emoji korang 👇
+```
+
+📘 *Versi FB latar warna* (83 / 130 aksara)
+
+```
+Perut korang selalu rasa macam mana lepas makan: selesa, kembung atau mengantuk? 🤔
+```
+
+**18:30 · Tips praktikal** (215 / 500 aksara)
+
+```
+Tips bantu penghadaman setiap hari 💡
+
+✅ Kunyah perlahan, letak sudu antara suapan
+✅ Minum air kosong sepanjang hari
+✅ Tambah sayur dalam setiap hidangan
+✅ Jalan 10 minit lepas makan
+
+Kecil, tapi usus rasa bezanya. 🌿
+```
+
+**21:00 · Info penting / alert** (191 / 500 aksara)
+
+```
+Info penting: sakit perut berulang, perubahan tabiat buang air yang berpanjangan, darah dalam najis atau berat turun tanpa sebab perlu diperiksa doktor. ⚠️
+
+Jangan teka sendiri dengan produk.
+```
+
+📘 *Versi FB latar warna* (81 / 130 aksara)
+
+```
+Sakit perut berulang atau darah dalam najis? Jumpa doktor, jangan teka sendiri ⚠️
+```
+
+### 🖼️ 18:30 · UNTUK CAROUSEL TIPS (Instagram / Facebook): Tips bantu penghadaman setiap hari
+
+> Tips yang sama dalam bentuk gambar: satu tips satu slaid, letak gambar / ikon sebenar untuk setiap tips. Caption = teks tips 18:30 di atas.
+
+**Slaid 1**
+
+```
+💡 TIPS
+BANTU PENGHADAMAN SETIAP HARI
+(Save untuk rujukan)
+```
+
+**Slaid 2**
+
+```
+TIPS 1
+Kunyah perlahan, letak sudu antara suapan
+```
+
+**Slaid 3**
+
+```
+TIPS 2
+Minum air kosong sepanjang hari
+```
+
+**Slaid 4**
+
+```
+TIPS 3
+Tambah sayur dalam setiap hidangan
+```
+
+**Slaid 5**
+
+```
+TIPS 4
+Jalan 10 minit lepas makan
+```
+
+**Slaid 6**
+
+```
+Kecil, tapi usus rasa bezanya. 🌿
+
+Save & kongsi 💛
+Follow Momyizz untuk tips setiap hari
+```
+
+### 💬 WhatsApp / group tertutup: BodyKey Nutritious Meal Shake (5g serat prebiotik)
+
+> Ruang tertutup. Mula dengan skrip soalan prospek BodyKey. Jangan tulis harga. Keputusan berbeza mengikut individu.
+
+```
+Hai [nama] 😊
+
+Minggu ni Momyizz mula Siri Usus Sihat. Ramai tanya macam mana nak pastikan dapat nutrien cukup bila sibuk.
+
+Untuk hari yang tak sempat makan dengan lengkap, Momyizz guna *BodyKey by Nutrilite Nutritious Meal Shake* (perisa pisang):
+• 5g serat prebiotik sehidangan
+• 17g protein tumbuhan dari soya & chia
+• 20 vitamin & mineral
+• Hanya 6g gula, GI rendah
+
+Ini pelengkap, bukan pengganti makanan sebenar. Keputusan berbeza mengikut individu. Harga terkini Momyizz maklumkan bila [nama] berminat. 💛
+
+Perkongsian ilmu umum. Bukan nasihat perubatan.
+```
+
+**Checklist hari ini**
+
+- [ ] 🎥 Video storytelling: TikTok · Reels
+- [ ] 🎞️ Motion grafik Tips: TikTok · Reels
+- [ ] 🎞️ Motion grafik Masalah → penyelesaian: TikTok · Reels
+- [ ] 🖼️ Carousel tips 18:30: Instagram · Facebook
+- [ ] 🖼️ Carousel: Instagram · Facebook
+- [ ] ✍️ 10:00 Info ringkas: Threads · Facebook
+- [ ] ✍️ 16:00 Pertanyaan: Threads · Facebook
+- [ ] ✍️ 18:30 Tips praktikal: Threads · Facebook
+- [ ] ✍️ 21:00 Info penting / alert: Threads · Facebook
+- [ ] 💬 WhatsApp / group tertutup

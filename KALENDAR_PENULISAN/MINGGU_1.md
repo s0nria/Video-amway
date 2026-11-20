@@ -497,7 +497,7 @@ Momyizz guna *eSpring Water Purifier* (model baharu) dari Amway.
 • UV-C LED hapuskan 99.9% bakteria, virus & sista bawaan air
 • Aplikasi Amway Healthy Home ingatkan bila perlu tukar penapis
 • Halal, waranti 5 tahun
-• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Harga terkini Momyizz maklumkan bila [nama] berminat.
 • Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]
 
 Kalau nak tahu lebih atau nak demo, reply "NAK", Momyizz uruskan. 💛
@@ -1000,7 +1000,7 @@ Bukan untuk diet je tau. Sesuai untuk sarapan, bekal, petang kalut, atau bila na
 • Paket individu, senang masuk beg
 • Ada juga perisa Chocolate, Café Latte & Berry
 
-• Harga: RM[HARGA] / kotak 14 paket (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Satu kotak 14 paket. Harga terkini Momyizz maklumkan bila [nama] berminat.
 • Promosi: [promosi rasmi Amway, jika ada]
 • Rasa pisang pada Momyizz: [pengalaman sebenar Momyizz]
 
@@ -1265,7 +1265,7 @@ Yang Momyizz guna: *Nutrilite Soy Protein Drink*
 • Bebas laktosa, rendah lemak
 • Tiada pewarna, perisa atau pengawet tiruan ditambah
 • Perisa: Original Flavour, 450g. Tanpa perisa & tanpa pemanis, jadi senang campur dalam apa-apa minuman
-• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Harga terkini Momyizz maklumkan bila [nama] berminat.
 • Cara guna: campur 1–2 sudu dalam minuman, kacau / goncang. Boleh juga tabur atas bijirin
 • Tidak disyorkan untuk bayi bawah 1 tahun. Penghidap gout, hadkan pengambilan purin
 
@@ -1806,7 +1806,7 @@ Itu *DISH DROPS Concentrated Dishwashing Liquid (1L)* dari Amway Home.
 • Ada aloe vera yang melembutkan, dan dah diuji pakar dermatologi. Sesuai untuk yang basuh pinggan hari-hari 🤲
 • Formula biodegradable, lebih mesra alam 🌿
 • Boleh juga basuh sayur & buah (1 ml dalam 5 L air)
-• Harga: RM[HARGA] (semak amway.my, [tarikh]). Harga tertakluk kepada perubahan.
+• Harga terkini Momyizz maklumkan bila [nama] berminat.
 • Kenapa Momyizz pilih: [pengalaman sebenar Momyizz]
 
 Tapi ingat ya, sabun yang bagus tak menggantikan tabiat tukar span dan keringkan span. 🧽
