@@ -33,6 +33,9 @@ Simpan gambar produk **asli** di sini untuk digunakan dalam video biasa dan vide
 | `bodykey-nutritious-meal-shake-banana.png` | ⭐ BodyKey Nutritious Meal Shake PERISA PISANG (baharu), kotak | amway.my (`Product_588Wx588H_NUT_128188M_1_NEW_IMG.jpg`); latar putih & label "NEW" dibuang | 18 Nov 2026 |
 | `bodykey-banana-gaya-studio.jpg` | Shake pisang: kotak, gelas & pisang (gambar gaya rasmi, latar kuning) | amway.my (`pdpcontent/MYBN/assets/img/128188_PDP_img1.jpg`) | 18 Nov 2026 |
 | `bodykey-banana-gaya-beg.jpg` | Paket shake pisang dikeluarkan dari beg tangan + shaker (gambar gaya rasmi) | amway.my (`pdpcontent/MYBN/assets/img/128188_PDP_img2.jpg`) | 18 Nov 2026 |
+| `bodykey-pisang-paket.png` | BodyKey Nutritious Meal Shake perisa pisang, paket 51g | Gambar diberi pengguna (20 Nov 2026), latar putih dibuang | 20 Nov 2026 |
+| `nutrilite-shaker-pisang.png` | Shaker Nutrilite berisi shake pisang | Gambar diberi pengguna (20 Nov 2026), latar hitam dibuang | 20 Nov 2026 |
+| `bodykey-pisang-kotak-depan.png` | Kotak BodyKey perisa pisang, pandangan depan (kad bersudut bulat) | Gambar diberi pengguna (20 Nov 2026) | 20 Nov 2026 |
 
 **Nota Bio C Plus:** buah ceri acerola dalam gambar asal bertindih dengan botol, jadi botol tidak dipisahkan supaya label tidak terpotong.
 

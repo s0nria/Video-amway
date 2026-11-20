@@ -66,13 +66,13 @@ canvas#gl{position:absolute;inset:0;width:1080px;height:1920px}
     <div class="el card" id="card5" style="top:250px"><div class="in" style="padding:24px 36px">
       <div class="lbl" style="background:var(--dikaji);margin-bottom:10px">🔵 Pada manusia: masih dikaji</div>
       <p style="font-size:44px">Tapi satu benda jelas: tidur bukan sekadar rehat.</p></div></div>
-    <div class="el chip" id="chip1" style="left:560px;top:330px">Makan malam ringan</div>
-    <div class="el chip" id="chip2" style="left:600px;top:440px">GI rendah</div>
-    <div class="el chip" id="chip3" style="left:600px;top:550px">Hanya 6g gula</div>
+    <div class="el chip" id="chip1" style="left:170px;top:290px">Makan malam ringan</div>
+    <div class="el chip" id="chip2" style="left:400px;top:385px">GI rendah</div>
+    <div class="el chip" id="chip3" style="left:560px;top:480px">Hanya 6g gula</div>
     <div class="el sub" id="sub5" style="top:1190px">Malam ni: makan malam ringan (shake GI rendah, 6g gula)…</div>
     <!-- S6 -->
     <div class="el hook" id="hook6" style="top:240px;font-size:80px">…dan <b>tidur awal</b> sikit 🌙</div>
-    <img class="el stk" id="stk12" src="../AMWAY_BRAND/STICKERS/12-blazer-tunjuk-kiri.png" style="left:700px;top:660px;width:240px">
+    <img class="el stk" id="stk12" src="../AMWAY_BRAND/STICKERS/12-blazer-tunjuk-kiri.png" style="left:730px;top:690px;width:210px">
     <div class="el cta" id="cta" style="top:1170px">Nak dapatkan produk?<br><b>Klik LINK di Bio</b> 👇</div>
     <div class="el disc" id="disc" style="top:1390px">Perkongsian ilmu umum. Bukan nasihat perubatan.</div>
   </div>
@@ -140,18 +140,14 @@ const moon=new THREE.Mesh(new THREE.SphereGeometry(1.1,48,32),new THREE.MeshStan
 const zzz=[];for(let i=0;i<3;i++){const c=document.createElement('canvas');c.width=128;c.height=128;const g=c.getContext('2d');g.font='700 110px Caveat';g.fillStyle='#FBF9F4';g.textAlign='center';g.fillText('z',64,100);
  const t=new THREE.CanvasTexture(c);const s=new THREE.Sprite(new THREE.SpriteMaterial({map:t,transparent:true,depthWrite:false}));scene.add(s);zzz.push(s);}
 
-// ---------- shaker (S5) + product
-const shaker=new THREE.Group();scene.add(shaker);
-{const pts=[new THREE.Vector2(0,0),new THREE.Vector2(0.48,0),new THREE.Vector2(0.52,0.05),new THREE.Vector2(0.56,1.7),new THREE.Vector2(0.56,1.75)];
- const glass=new THREE.Mesh(new THREE.LatheGeometry(pts,48),new THREE.MeshPhysicalMaterial({color:0xEFF6F2,transparent:true,opacity:0.2,roughness:0.05,clearcoat:1,side:THREE.DoubleSide,depthWrite:false}));glass.renderOrder=3;
- const lg=new THREE.CylinderGeometry(0.5,0.53,1,40);lg.translate(0,0.5,0);
- const liq=new THREE.Mesh(lg,new THREE.MeshStandardMaterial({color:0xF3E3A6,roughness:0.3}));liq.scale.y=1.2;liq.position.y=0.04;liq.renderOrder=1;
- const lid=new THREE.Mesh(new THREE.CylinderGeometry(0.6,0.6,0.32,40),new THREE.MeshStandardMaterial({color:0x7F9373,roughness:0.4}));lid.position.y=1.9;
- const spout=new THREE.Mesh(new THREE.CylinderGeometry(0.16,0.2,0.22,24),new THREE.MeshStandardMaterial({color:0x556A4C,roughness:0.4}));spout.position.y=2.15;
- shaker.add(liq,glass,lid,spout);}
-let box=null;
-const boxReady=new Promise(res=>new THREE.TextureLoader().load('../AMWAY_BRAND/PRODUK/bodykey-nutritious-meal-shake-banana.png',t=>{t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;
- const w=2.6,h=w*410/531;box=new THREE.Mesh(new THREE.PlaneGeometry(w,h),new THREE.MeshStandardMaterial({map:t,transparent:true,roughness:0.5,side:THREE.DoubleSide,alphaTest:0.02}));scene.add(box);res();}));
+// ---------- produk (gambar asli diberi pengguna): paket, shaker Nutrilite, kotak depan
+const TL=new THREE.TextureLoader();
+function imgPlane(src,h){return new Promise(res=>TL.load(src,t=>{t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;const w=h*t.image.width/t.image.height;
+  const m=new THREE.Mesh(new THREE.PlaneGeometry(w,h),new THREE.MeshBasicMaterial({map:t,transparent:true,side:THREE.DoubleSide,alphaTest:0.02,toneMapped:false}));m.visible=false;scene.add(m);res(m);}));}
+let pouch=null,shaker=null,box=null;
+const boxReady=Promise.all([imgPlane('../AMWAY_BRAND/PRODUK/bodykey-pisang-paket.png',2.0).then(m=>pouch=m),
+  imgPlane('../AMWAY_BRAND/PRODUK/nutrilite-shaker-pisang.png',2.0).then(m=>shaker=m),
+  imgPlane('../AMWAY_BRAND/PRODUK/bodykey-pisang-kotak-depan.png',1.54).then(m=>box=m)]);
 
 window.renderAt=function(t){
   for(const id of ids)document.getElementById(id).style.opacity=0;
@@ -186,14 +182,14 @@ window.renderAt=function(t){
   mouse.visible=t>12.1&&t<23.2;
   if(mouse.visible){const k=bounce((t-12.1)/0.8);const out=t>22.6?eio((t-22.6)/0.6):0;const br=1+0.04*Math.sin(t*2.4);
     mouse.position.set(-0.15,wy(1010)-4*out,0);mouse.scale.set(0.62*cl(k),0.62*cl(k)*br,0.62*cl(k));mouse.rotation.set(0.25,-0.5+0.12*Math.sin(t*0.5),0);}
-  // shaker S5 34-41
-  shaker.visible=t>34.1&&t<41.3;
-  if(shaker.visible){const k=bounce((t-34.1)/0.8);const out=t>40.7?eio((t-40.7)/0.6):0;const sh=t>35.2&&t<37.2?Math.sin((t-35.2)*22)*0.22*(1-(t-35.2)/2):0;
-    shaker.position.set(1.05,wy(1140)-3*(1-cl(k))-4*out,0.2);shaker.rotation.set(0.08,0.4*Math.sin(t*0.6),sh);shaker.scale.setScalar(0.72);}
-  // product box: S5 kiri, S6 tengah
-  if(box){box.visible=t>34.0;
-    if(t<41.2){const k=bounce((t-34.0)/0.8);const out=t>40.8?eio((t-40.8)/0.4):0;box.position.set(-0.75,wy(900)-3*(1-cl(k))-0.6*out,0.4);box.rotation.set(0,0.35*Math.sin(t*0.9)+0.15,0);box.scale.setScalar(0.68*(1-0.2*out));}
-    else{const k=bounce((t-41.2)/0.8);box.position.set(-0.25,wy(860)-2*(1-cl(k)),0.4);box.rotation.set(0,0.3*Math.sin((t-41.2)*1.3),0);box.scale.setScalar(0.66+0.04*cl(k));}}
+  // S5 34-41: paket (kiri) + shaker (kanan), shaker digoncang
+  if(pouch&&shaker){const k=bounce((t-34.0)/0.8);const out=t>40.7?eio((t-40.7)/0.6):0;
+    pouch.visible=shaker.visible=t>34.0&&t<41.3;
+    pouch.position.set(-0.85,wy(870)-3*(1-cl(k))-4*out,0.3);pouch.rotation.set(0,0.3*Math.sin(t*0.9)+0.12,-0.06);
+    const sh=t>35.0&&t<37.2?Math.sin((t-35.0)*20)*0.2*(1-(t-35.0)/2.2):0;
+    shaker.position.set(0.95,wy(870)-3*(1-cl(k))-4*out+(sh?0.06*Math.abs(Math.sin((t-35)*20)):0),0.4);shaker.rotation.set(0,-0.25*Math.sin(t*0.8),sh);}
+  // S6 41-46: kotak di tengah
+  if(box){box.visible=t>41.2;if(box.visible){const k=bounce((t-41.2)/0.8);box.position.set(-0.3,wy(860)-2*(1-cl(k)),0.4);box.rotation.set(0,0.28*Math.sin((t-41.2)*1.3),0);box.scale.setScalar(0.92+0.08*cl(k));}}
   let gy=1080,gw=500,go=1;
   if(t<4.4){gy=1180;gw=560;} else if(t<12.4){gy=1240;gw=760;} else if(t<23.2){gy=1150;gw=700;} else if(t<34.4){gy=1240;gw=760;} else if(t<41.2){gy=1260;gw=900;} else {gy=1150;gw=600;}
   glow.style.top=gy+'px';glow.style.left=(540-gw/2)+'px';glow.style.width=gw+'px';glow.style.opacity=go;
